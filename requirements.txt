@@ -1,1 +1,10 @@
+# Pinned. Phase 2 will add cvxpy and scikit-learn.
 requests==2.34.2
+pydantic==2.13.4
+pydantic_core==2.46.4
+pandas==3.0.6
+numpy==2.4.6
+PyYAML==6.0.1
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+pytest==9.1.1

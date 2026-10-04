@@ -1,0 +1,77 @@
+name: daily
+
+# 11:00 UTC = 16:30 Sri Lanka time, weekdays. The CSE trades 09:30-14:30 SLT and its data
+# endpoints finish updating at about 14:57 SLT (docs/API_NOTES.md section 1).
+on:
+  schedule:
+    - cron: "0 11 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write     # commit data/
+  pages: write        # deploy site/
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test
+        run: python -m pytest -q
+
+      # Fails the job on any API or validation error. Nothing is written in that case,
+      # and the deploy job below never runs, so the previous site stays up.
+      - name: Fetch
+        run: python -m cse.fetch
+
+      - name: Build
+        run: python -m cse.build
+
+      - name: Commit data
+        run: |
+          git add data
+          git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      # Keep a record of the failure (data/runs.csv only; no market data) so the next
+      # successful build can show it. The page also warns by itself when its data goes stale.
+      - name: Record failed run
+        if: failure()
+        run: |
+          git add data/runs.csv || true
+          git diff --cached --quiet || (git commit -m "data: record failed run $(date -u +%F)" && git push)
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

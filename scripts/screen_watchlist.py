@@ -11,13 +11,15 @@ from __future__ import annotations
 
 import datetime as dt
 import json
-import re
 import statistics
 import sys
 import time
 from pathlib import Path
 
 import requests
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from cse.sectors import classify, load_overrides  # noqa: E402
 
 BASE = "https://www.cse.lk/api/"
 UA = "cse-terminal/0.1 (personal research dashboard; github.com/minimumlizard/cse)"
@@ -100,6 +102,12 @@ def load(path: Path):
     return json.loads(path.read_bytes())
 
 
+def short(symbol: str) -> str:
+    """LOLC.N0000 -> LOLC, HNB.X0000 -> HNB.X (keep the non-voting marker)."""
+    code, _, suffix = symbol.partition(".")
+    return code if suffix == "N0000" else f"{code}.{suffix[0]}"
+
+
 def fmt_rs(v: float | None) -> str:
     if v is None:
         return "—"
@@ -108,18 +116,6 @@ def fmt_rs(v: float | None) -> str:
     if abs(v) >= 10e6:
         return f"{v / 1e6:,.1f} mn"
     return f"{v / 1e6:,.2f} mn"
-
-
-# companyProfile labels that are not industry-group names. Both belong to the GICS
-# "Diversified Financials" industry group (Investment Banking & Brokerage is a sub-industry of it).
-SECTOR_ALIASES = {"DIVERSIFIEDFINANCIAL": "DIVERSIFIEDFINANCIALS",
-                  "INVESTMENTBANKINGBROKERAGE": "DIVERSIFIEDFINANCIALS"}
-
-
-def sector_key(name: str) -> str:
-    """companyProfile sector strings vary in case, commas, spacing and '&' spacing."""
-    key = re.sub(r"[^A-Z]", "", name.upper())
-    return SECTOR_ALIASES.get(key, key)
 
 
 def report(session_date: str) -> None:
@@ -131,9 +127,9 @@ def report(session_date: str) -> None:
     n_sess = len(sessions)
     aspi_ret = aspi[-1]["v"] / aspi[0]["v"] - 1
     user_syms = {s for v in USER_LIST.values() for s in v}
-    canonical = {sector_key(x["name"]): x["name"] for x in load(raw / "allSectors.json")
-                 if x["sectorId"] not in (1, 40)}
-    unmatched: set[str] = set()
+    user_cos = {s.split(".")[0] for s in user_syms}
+    overrides = load_overrides(ROOT / "config" / "sector_overrides.yaml")
+    unmatched: dict[str, list[str]] = {}
 
     rows = []
     missing: list[str] = []
@@ -151,8 +147,8 @@ def report(session_date: str) -> None:
         si = info.get("reqSymbolInfo") or {}
         beta = (info.get("reqSymbolBetaInfo") or {}).get("triASIBetaValue")
         comsum = (prof.get("reqComSumInfo") or [{}])[0] if prof.get("reqComSumInfo") else {}
-        if comsum.get("sector") and sector_key(comsum["sector"]) not in canonical:
-            unmatched.add(comsum["sector"])
+        if not classify(sym, comsum.get("sector"), overrides):
+            unmatched.setdefault(repr(comsum.get("sector")), []).append(sym)
         by_day = {ms_to_date(x["t"]): x for x in chart}
         in_window = [by_day[d] for d in sessions if d in by_day]
         # Turnover is not in the history endpoint; close x volume is a labelled ESTIMATE.
@@ -166,7 +162,7 @@ def report(session_date: str) -> None:
         rows.append({
             "symbol": sym,
             "name": sec["name"],
-            "sector": canonical.get(sector_key(comsum.get("sector") or ""), "—"),
+            "sector": classify(sym, comsum.get("sector"), overrides) or "Unclassified",
             "board": comsum.get("boardType") or "—",
             "traded_share": len(in_window) / n_sess if n_sess else 0.0,
             "median_turnover_est": statistics.median(est_turnover) if est_turnover else 0.0,
@@ -178,6 +174,7 @@ def report(session_date: str) -> None:
             "last": chart[-1]["p"] if chart else None,
             "last_date": ms_to_date(chart[-1]["t"]) if chart else None,
             "mine": sym in user_syms,
+            "mine_co": sym.split(".")[0] in user_cos,   # another share class of a company you follow
             "excluded": sym in EXCLUDED,
         })
 
@@ -217,10 +214,10 @@ def report(session_date: str) -> None:
       "unadjusted sub-division, scrip or rights issue, so their 1y figure is meaningless.")
     w("- Tiers: **A** traded ≥95% of sessions and median turnover ≥ Rs 10 mn; **B** ≥80% and ≥ Rs 1 mn "
       "(the draft Phase 2 filters); **C** everything else.")
-    w("- Sector from `companyProfile`, normalised (case, punctuation, spacing) to the 20 S&P/CSE "
-      "industry-group index names in `allSectors`; aliases: 'Diversified Financial' and "
-      "'Investment Banking & Brokerage' (a GICS sub-industry) → Diversified Financials. Unmatched raw strings: "
-      f"{', '.join(sorted(unmatched)) or 'none'}.\n")
+    w("- Sector from `companyProfile`, mapped to the 20 S&P/CSE industry groups by `cse/sectors.py` "
+      "(normalised names, GICS sub-industry aliases, then the per-symbol proposals in "
+      "`config/sector_overrides.yaml`, which you should confirm). Unclassified: "
+      + ("; ".join(f"{k} ({', '.join(v)})" for k, v in sorted(unmatched.items())) or "none") + ".\n")
 
     if missing:
         w(f"**Incomplete fetch: {len(missing)} securities skipped** ({', '.join(missing[:10])}…). "
@@ -249,36 +246,37 @@ def report(session_date: str) -> None:
                 w(row_md(r))
         w("")
 
-    sectors = sorted(set(canonical.values()) | {r["sector"] for r in rows})
+    from cse.sectors import INDUSTRY_GROUPS
+    sectors = sorted(set(INDUSTRY_GROUPS) | {r["sector"] for r in rows})
     w("## 2. Sector coverage\n")
     w("| Sector | Tier A/B names | On your list | Largest tier A/B names not on your list |")
     w("|---|---|---|---|")
     for sec in sectors:
         names = [r for r in rows if r["sector"] == sec and r["tier"] in "AB"]
-        mine = [r["symbol"].split(".")[0] for r in rows if r["sector"] == sec and r["mine"]]
-        others = sorted((r for r in names if not r["mine"] and not r["excluded"]),
+        mine = [short(r["symbol"]) for r in rows if r["sector"] == sec and r["mine"]]
+        others = sorted((r for r in names if not r["mine_co"] and not r["excluded"]),
                         key=lambda r: -(r["mcap"] or 0))[:4]
         w(f"| {sec} | {len(names)} | {', '.join(mine) or '**none**'} | "
-          f"{', '.join(r['symbol'].split('.')[0] for r in others) or '—'} |")
+          f"{', '.join(short(r['symbol']) for r in others) or '—'} |")
     w("")
 
     w("## 3. Rule-based candidates\n")
     w("★ = on your list, ⚠ = >40% one-day move in the window (likely unadjusted corporate action), "
       "⛔ = in `excluded`.\n")
     w("Mechanical rules, no judgement: (i) in each sector, the tier A name with the highest median "
-      "turnover that is not on your list or excluded; (ii) the 10 highest-turnover tier A names not on your "
+      "turnover from a company not already on your list (any share class) and not excluded; (ii) the 10 highest-turnover tier A names not on your "
       "list; (iii) names on your list that fail the draft Phase 2 liquidity filters (tier C).\n")
     w("**(i) Best-liquidity name per sector, not on your list**\n")
     w(header)
     for sec in sectors:
         cands = sorted((r for r in rows if r["sector"] == sec and r["tier"] == "A"
-                        and not r["mine"] and not r["excluded"]), key=lambda r: -r["median_turnover_est"])
+                        and not r["mine_co"] and not r["excluded"]), key=lambda r: -r["median_turnover_est"])
         if cands:
             w(row_md(cands[0]))
     w("")
     w("**(ii) Most liquid names not on your list**\n")
     w(header)
-    for r in sorted((r for r in rows if r["tier"] == "A" and not r["mine"] and not r["excluded"]),
+    for r in sorted((r for r in rows if r["tier"] == "A" and not r["mine_co"] and not r["excluded"]),
                     key=lambda r: -r["median_turnover_est"])[:10]:
         w(row_md(r))
     w("")

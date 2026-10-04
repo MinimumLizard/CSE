@@ -51,7 +51,7 @@ four places. Each one needs your decision before I build — see
 |---|---|---|---|
 | `tradeSummary` | POST, empty | `{"reqTradeSummery":[…]}`. **Only securities that traded that session** (278 on 2026-10-02, every row with volume > 0). | `id, symbol, name, price, closingPrice, previousClose, open, high, low, sharevolume, tradevolume, turnover, marketCap, change, percentageChange, lastTradedTime` |
 | `allSecurityCode` | **GET** | List of all 327 listed instruments: `{id,name,symbol,active}` | symbol resolution, `id`→`stockId` |
-| `dailyMarketSummery` | POST, empty | `[[{…}],[{…}]]`, one record for the latest session | **`tradeDate`** (session date, midnight SLT), `marketTurnover, volumeOfTurnOverNumber, tradesNo`, foreign purchase/sales, `listedCompanyNumber, tradeCompanyNumber`, `marketCap`, **`triasi`** (ASPI TRI level), **`spt`** (S&P SL20 TRI), `asi`, `spp`, market `per`, `pbv`, `dy` |
+| `dailyMarketSummery` | POST, empty | `[[{…}],[{…}]]`: **`[0]` is the latest session, `[1]` the previous session** (2026-10-02 and 2026-10-01 here), one record each | **`tradeDate`** (session date, midnight SLT), `marketTurnover, volumeOfTurnOverNumber, tradesNo`, foreign purchase/sales, `listedCompanyNumber, tradeCompanyNumber`, `marketCap`, **`triasi`** (ASPI TRI level), **`spt`** (S&P SL20 TRI), `asi`, `spp`, market `per`, `pbv`, `dy` |
 | `marketSummery` | POST, empty | `{tradeVolume (=turnover, LKR), shareVolume, trades, tradeDate}`. Here `tradeDate` is the *last-update timestamp*, not the session date. | cross-check only |
 | `aspiData` / `snpData` | POST, empty | `{value, highValue, lowValue, change, percentage, timestamp}` | index level and change |
 | `allSectors` | POST, empty | 22 rows: 20 S&P/CSE GICS industry-group indices + ASI (`sectorId` 1) + S&P SL20 (`sectorId` 40) | `sectorId, symbol, name, indexValue, change, percentage, sectorTurnoverToday, sectorVolumeToday, sectorTradeToday` |
@@ -128,7 +128,8 @@ gives `400 chartId parameter is missing`.
 |---|---|---|
 | `approvedAnnouncement` | POST, empty | `{"approvedAnnouncements":[…]}`: rolling window of about 6 days (133 items, 27 Sep → 02 Oct). Fields: `id, announcementId, dateOfAnnouncement ("02 Oct 2026"), createdDate (ms), announcementCategory, company, remarks`. **`symbol` is always null** and there is no PDF link. |
 | `getAnnouncementByCompany` | POST `symbol=CIC.N0000&fromDate=2000-01-01&toDate=2026-10-03` (ISO dates) | `{"reqCompanyAnnouncement":[…]}`, same row shape. **Goes back to 2012** (CIC 120 rows, COMB 487, JKH 356, HNB 468). `symbol=ALL` returns `{}`. |
-| **`getAnnouncementById`** | POST `announcementId=<announcementId>` | **Typed detail record** `reqBaseAnnouncement` with `dType`, `symbol` (bare, e.g. `CIC`), category-specific structured fields, and `reqAnnouncementDocs[]` (`baseUrl` + `fileUrl` = the PDF on `https://cdn.cse.lk/`). Some older items return **`204` with no body** (see §4 Q2). |
+| **`getAnnouncementById`** | POST `announcementId=<announcementId>` | **Typed detail record** `reqBaseAnnouncement` with `dType`, `symbol` (bare, e.g. `CIC`), category-specific structured fields, and `reqAnnouncementDocs[]` (`baseUrl` + `fileUrl` = the PDF on `https://cdn.cse.lk/`). "Dates" follow-ups and general items return **`204` with no body** here. |
+| **`getGeneralAnnouncementById`** | POST `announcementId=<announcementId>` | **The counterpart for the 204 cases:** `reqBaseAnnouncement` with `title`, `symbol`, and the date fields: `xr`, `recordDate`, `allotment`, `tradingSuspended`, `tradingCommencement`, `votingProportion` (all ms timestamps / text), plus `reqAnnouncementDocs`. Returns `{}` for ids that `getAnnouncementById` serves. So: try typed first, fall back to general. |
 | `getFinancialAnnouncement` | POST, empty | latest 5 financial-report uploads with PDF `path` |
 | `circularAnnouncement` / `directiveAnnouncement` | POST, empty | latest 5 CSE circulars / SEC directives with PDF path |
 | `corporateAnnouncementCategory` | GET | 53 category names (CASH DIVIDEND, SCRIP DIVIDEND (DATES), SUB-DIVISION OF SHARES, RIGHTS ISSUE (DATES), DEALINGS BY DIRECTORS, …) |
@@ -148,7 +149,7 @@ Feed implication: the list endpoints give no symbol and no PDF. So each new anno
 | `charts` (`symbol, fromDate, toDate, period:int`), `charts/52week` | `404`, empty, same pattern. |
 | `notifications/*` | GET → 400. POST was not explored (they're user-specific). |
 | `allSecurityCode` via POST | `405`. Use GET. |
-| `getGeneralAnnouncementById`, `announcementById` | `{}` / `[]` for every id tried. |
+| `announcementById` | `[]`, or a legacy `infoAnnouncement` stub with a wrong `title`. Not useful. |
 | `corporateCompanyCalender`, `agmEgmCalender` | Return empty lists for LOLC 2026. No use found. |
 | `secure/*`, `signIn*`, `tradingView`, `orderBook`, … | Not touched: auth/order-related, out of scope. |
 
@@ -228,10 +229,17 @@ Two more checks, COMB's scrip dividend and HAYL's rights issue, are in [§4a](#4
 
 Caveats that affect how we build `corporate_actions.csv`:
 
-1. **Some items return `204 No Content`.** These include CIC's `SUB-DIVISION OF SHARES (DATES)` (2025-09-19)
-   and COMB's `RIGHTS ISSUE (DATES)` (2024-06-25). Those are the very records that carry ex-dates for
-   splits and rights. When the structured record is missing, the row must come from the title
-   or PDF and be marked `needs_review`.
+1. **"Dates" follow-ups return `204` from `getAnnouncementById` but are served by
+   `getGeneralAnnouncementById`** (found after the first draft of these notes). Real examples:
+   - CIC `SUB-DIVISION OF SHARES (DATES)` 33380: `tradingSuspended` 2025-10-14, `lastTradingSuspended`
+     2025-10-21, `tradingCommencement` 2025-10-22, matching the 13→22 Oct gap and the 170→34.20 break
+     in the price history. So the split's ex-date is the commencement date, 2025-10-22.
+   - HAYL `RIGHTS ISSUE (DATES)` 35920: `xr` 2026-03-18, `votingProportion` "Three (3) new … for every
+     Fifty (50) existing …"; the subscription price (Rs 200) is in the typed `RightsIssue` record 35376.
+   - COMB `RIGHTS ISSUE (DATES)` 25005 (2024): `xr`, `votingProportion "1:5"`.
+
+   So structured data covers the dates as well, and `needs_review` is a fallback for unparseable
+   text, not the normal path.
 2. **Rights ratios are free text** ("One (01) … for every One (01)"). The parser must read them.
    Anything not parsed cleanly goes to `needs_review`.
 3. **Pre-portal history (roughly before 2024) uses free-text categories** ("DIVIDEND ANNOUNCEMENT",
@@ -274,7 +282,14 @@ fail loudly on any unmapped label.
 
 ### 4a. Additional adjustment checks
 
-_Filled in after the market fetch finished (see bottom of file)._
+| Event | Cum close | Ex close | What adjustment would change | Verdict |
+|---|---|---|---|---|
+| CIC 1:5 sub-division, trading resumed 2025-10-22 | 170.00 (10-13) | 34.20 | 5× | **Unadjusted (conclusive)** |
+| HAYL rights 3:50 at Rs 200, XR 2026-03-18 | 205.00 | 203.00 | TERP 204.72, i.e. a 0.14% factor | Too small to tell; consistent with unadjusted |
+| COMB scrip 1 per 108.235 at Rs 230 (+ Rs 2.50 dividend), XD 2026-04-02 | 204.25 | 201.75 (−1.2% vs ASPI +0.2%) | under 1% | Consistent with unadjusted; not conclusive |
+
+Conclusion: treat all history as unadjusted. That is the only reading consistent with the
+conclusive split case. The Phase 2 "no double adjustment" test will pin this down using CIC.
 
 ## 5. Other differences from the brief
 
@@ -302,9 +317,20 @@ _Filled in after the market fetch finished (see bottom of file)._
 | `announcements.csv` | `approvedAnnouncement` + `getAnnouncementById`: `announcementId→id, dateOfAnnouncement→date, symbol, company, remarks/category→title, announcementCategory→category, baseUrl+fileUrl→url` |
 | `corporate_actions.csv` | `getAnnouncementById` for CA categories; `needs_review` where a field is text or the record is 204 |
 
-## 7. Decisions needed
+## 7. Decisions
 
-I recommend an option for each, but these change data sources or methods, so they're your call.
+**Decided 2026-10-04: option (a) for D1–D6, as recommended below.** Summary of what this means for the build:
+
+| # | Decision |
+|---|---|
+| D1 | Backfill 1 year now and accumulate daily. Phase 2 runs as series **`v0-52w`** (`min_history_weeks: 52`). A **`v1-104w`** series starts once 104 weeks exist. CSE-published beta is shown beside ours. |
+| D2 | Backfill rows: `turnover` empty, separate `turnover_est = close × volume`. Liquidity filters use the estimate only until 52 weeks of real turnover exist, and the page says so. |
+| D3 | Foreign holding % column dropped from Panel B. Market net foreign flow added to Panel A. |
+| D4 | ASTRI/S&P SL20 TRI recorded daily from day 1. Dimson betas use ASPI (stated on page) until TRI history covers the window, then a new versioned series. |
+| D5 | Panel A 20-day averages show "— (n sessions needed)" until 20 real sessions exist. |
+| D6 | Corporate actions with a missing (204) or text-only record: parsed from title/remarks, amounts never inferred, marked `needs_review` and listed on the site. |
+
+Options as originally presented:
 
 **D1 — 1 year of history vs. `min_history_weeks: 104`** (G1)
 - (a) *Recommended:* backfill the 1 year now and accumulate daily. Run Phase 2 with
@@ -336,4 +362,5 @@ I recommend an option for each, but these change data sources or methods, so the
 
 **D6 — Corporate actions where the structured record is missing (204) or text-only**
 - Proposed: parse the title/remarks, never infer amounts, mark `needs_review`, and list them on the site for
-  you to confirm. This is the brief's own fallback; noting it because it'll apply to most split and rights *dates*.
+  you to confirm. *Update:* with `getGeneralAnnouncementById` the dates are structured too, so this
+  fallback should be rare (mainly free-text rights ratios that don't parse).

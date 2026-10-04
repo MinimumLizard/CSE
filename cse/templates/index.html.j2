@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSE Terminal</title>
+<meta name="description" content="Colombo Stock Exchange terminal: market tape, watchlist, disclosures. Session {{ session }}.">
+<style>
+:root{
+  --bg:#0d0d0c; --surface:#161615; --surface-2:#1e1e1c; --rule:#2c2c29;
+  --text:#ecebe6; --text-2:#b4b3aa; --muted:#7d7c74;
+  --up:#3fb950; --dn:#f85149; --accent:#3987e5; --warn:#d29922; --warn-bg:#2b2410;
+  --mono:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:13px/1.45 var(--mono)}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+header{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding:10px 16px;border-bottom:1px solid var(--rule);background:var(--surface)}
+header h1{font-size:14px;margin:0;letter-spacing:.08em;text-transform:uppercase}
+header .meta{color:var(--text-2)} header .meta b{color:var(--text);font-weight:600}
+.banner{margin:8px 16px 0;padding:8px 12px;border:1px solid var(--warn);background:var(--warn-bg);color:#f2cc60;border-radius:4px}
+.banner[hidden]{display:none}
+main{display:grid;gap:12px;padding:12px 16px 24px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:1280px){main{grid-template-columns:minmax(0,1.9fr) minmax(0,1fr)} #panel-a{grid-column:1 / -1}}
+section.panel{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px;min-width:0}
+section.panel>h2{margin:0 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 4px;font-weight:600}
+.grid-a{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:760px){.grid-a{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1280px){.grid-a{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.card{background:var(--surface-2);border-radius:4px;padding:8px 10px;min-width:0}
+.idx .lvl{font-size:20px;font-weight:600}
+.idx .chg{margin-left:6px}
+.chart{position:relative;height:110px;margin-top:6px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 12px}
+.kv dt{color:var(--text-2)} .kv dd{margin:0;text-align:right}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:3px 6px;white-space:nowrap;border-bottom:1px solid var(--rule)}
+th{color:var(--muted);font-weight:500;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+td{text-align:right} th.l,td.l{text-align:left}
+tbody tr:hover{background:#ffffff08}
+tr.grp td{color:var(--text-2);background:var(--surface-2);text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding-top:6px}
+.up{color:var(--up)} .dn{color:var(--dn)} .flat{color:var(--text-2)}
+.mut{color:var(--muted)} .sm{font-size:11px}
+.sym{font-weight:600} .trunc{display:inline-block;max-width:13.5em;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom}
+.card table{font-size:12px} .card th,.card td{padding:3px 4px}
+#book td:first-child,#book th:first-child{position:sticky;left:0;background:var(--surface);z-index:1}
+#book tr.grp td{position:static}
+.name{color:var(--muted);max-width:180px;overflow:hidden;text-overflow:ellipsis;display:inline-block;vertical-align:bottom}
+.excl{color:var(--warn);font-size:11px;margin-left:4px}
+.star{color:var(--accent);margin-left:3px}
+.rng{display:inline-flex;align-items:center;gap:6px}
+.rng .bar{position:relative;width:64px;height:6px;background:#2f2f2c;border-radius:3px}
+.rng .bar i{position:absolute;top:-2px;width:2px;height:10px;background:var(--text);border-radius:1px}
+.flag{color:var(--warn);cursor:help}
+.need{color:var(--muted);font-size:11px}
+.toggle{display:inline-flex;border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.toggle button{font:inherit;font-size:11px;background:transparent;color:var(--text-2);border:0;padding:3px 9px;cursor:pointer}
+.toggle button[aria-pressed=true]{background:var(--accent);color:#fff}
+.feed{list-style:none;margin:0;padding:0;max-height:1100px;overflow-y:auto}
+.feed li{padding:6px 2px;border-bottom:1px solid var(--rule)}
+.feed .top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.feed .date{color:var(--muted)} .feed .co{color:var(--text-2)}
+.feed .title{display:block;margin-top:2px;word-break:break-word}
+.feed .cat{color:var(--muted);font-size:11px}
+.tag{font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:0 5px;border-radius:3px;border:1px solid var(--rule);color:var(--text-2)}
+.tag.dividend{border-color:#3fb95066;color:#7ee2a8} .tag.dealings{border-color:#d2992266;color:#f2cc60}
+.tag.capital{border-color:#3987e566;color:#86b6ef} .tag.results{border-color:#9085e966;color:#b7aff5}
+.tag.board{border-color:#e6676766;color:#f0a0a0}
+.feed li[hidden]{display:none}
+footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
+</style>
+</head>
+<body>
+<header>
+  <h1>CSE Terminal</h1>
+  <span class="meta">Session <b>{{ session }}</b></span>
+  <span class="meta">Built <b>{{ built_slt }}</b> Sri Lanka time (UTC+05:30)</span>
+  <span class="meta">History: {{ calendar_len }} sessions since {{ calendar_start or "—" }}</span>
+</header>
+{% if run.failed %}
+<div class="banner" role="alert">⚠ The last data run failed ({{ run.last.run_at_utc }} UTC): {{ run.last.message }}. Figures below are from the last good session, {{ session }}.</div>
+{% endif %}
+<div class="banner" id="stale" role="alert" hidden></div>
+
+<main>
+<!-- Panel A ================================================================================ -->
+<section class="panel" id="panel-a">
+  <h2>A · Market tape</h2>
+  <div class="grid-a">
+    {% for h in headline %}
+    <div class="card idx">
+      <div class="mut sm">{{ h.label }}</div>
+      <span class="lvl">{{ h.value | num }}</span>
+      <span class="chg {{ h.change | cls }}">{{ h.change | signed }} ({{ h.pct | spct }})</span>
+      {% if h.series %}<div class="chart"><canvas data-chart="{{ h.label }}" aria-label="{{ h.label }} level, last {{ h.series.dates | length }} sessions"></canvas></div>
+      {% elif h.change is none %}<div class="need">change: needs the previous session's TRI</div>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="grid-a" style="margin-top:12px">
+    <div class="card">
+      <h3 style="margin-top:0">Activity vs {{ avg_sessions }}-session average</h3>
+      <dl class="kv">
+        {% for key, label in [("turnover","Turnover"),("volume","Volume"),("trades","Trades")] %}
+        {% set s = stats[key] %}
+        <dt>{{ label }}</dt>
+        <dd>{% if key == "turnover" %}{{ s.value | rs }}{% elif key == "volume" %}{{ s.value | vol }}{% else %}{{ s.value | num(0) }}{% endif %}
+          <div class="sm">{% if s.ratio is not none %}<span class="{{ (s.ratio - 1) | cls }}">{{ (s.ratio - 1) | spct(0) }}</span> <span class="mut">vs avg</span>{% else %}<span class="need">avg: {{ s.needed }} more sessions needed</span>{% endif %}</div></dd>
+        {% endfor %}
+      </dl>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Breadth (equities)</h3>
+      <dl class="kv">
+        <dt>Advancers</dt><dd class="up">+{{ breadth.up }}</dd>
+        <dt>Decliners</dt><dd class="dn">{{ "−" }}{{ breadth.down }}</dd>
+        <dt>Unchanged</dt><dd class="flat">±{{ breadth.flat }}</dd>
+        <dt>Traded / listed cos.</dt><dd>{{ breadth.traded_all if breadth.traded_all is not none else "—" }} / {{ breadth.listed if breadth.listed is not none else "—" }}</dd>
+      </dl>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Foreign flow (equity)</h3>
+      <dl class="kv">
+        <dt>Purchases</dt><dd>{{ foreign.buy | rs }}</dd>
+        <dt>Sales</dt><dd>{{ foreign.sell | rs }}</dd>
+        <dt>Net</dt><dd class="{{ foreign.net | cls }}">{% if foreign.net is not none %}{{ "+" if foreign.net > 0 else ("−" if foreign.net < 0 else "±") }}{{ (foreign.net | abs) | rs }}{% else %}—{% endif %}</dd>
+      </dl>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Market valuation (CSE)</h3>
+      <dl class="kv">
+        <dt>P/E</dt><dd>{{ valuation.per | num(1) }}</dd>
+        <dt>P/BV</dt><dd>{{ valuation.pbv | num(2) }}</dd>
+        <dt>Div. yield</dt><dd>{{ valuation.dy | num(1) }}%</dd>
+        <dt>Market cap</dt><dd>{{ valuation.market_cap | rs }}</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="grid-a" style="margin-top:12px">
+    <div class="card" style="grid-column:span 1">
+      <h3 style="margin-top:0">Top 10 by turnover</h3>
+      <div class="scroll"><table>
+        <thead><tr><th class="l">Symbol</th><th>Price</th><th>Chg%</th><th>Turnover</th></tr></thead>
+        <tbody>{% for r in top_turnover %}<tr>
+          <td class="l"><span class="sym">{{ r.symbol.split(".")[0] }}</span>{% if r.symbol.endswith(".X0000") %}<span class="mut sm">.X</span>{% endif %}{% if r.mine %}<span class="star" title="on your watchlist">★</span>{% endif %}{% if r.excluded %}<span class="excl" title="excluded (conflict of interest)">⛔</span>{% endif %}</td>
+          <td>{{ r.price | num }}</td><td class="{{ r.pct | cls }}">{{ r.pct | spct }}</td><td>{{ r.turnover | rs }}</td></tr>{% endfor %}</tbody>
+      </table></div>
+    </div>
+    {% for title, rows in [("Top 10 gainers", gainers), ("Top 10 losers", losers)] %}
+    <div class="card">
+      <h3 style="margin-top:0">{{ title }} <span class="mut">· turnover ≥ {{ floor | rs }}</span></h3>
+      <div class="scroll"><table>
+        <thead><tr><th class="l">Symbol</th><th>Price</th><th>Chg%</th><th>Turnover</th></tr></thead>
+        <tbody>{% for r in rows %}<tr>
+          <td class="l"><span class="sym">{{ r.symbol.split(".")[0] }}</span>{% if r.symbol.endswith(".X0000") %}<span class="mut sm">.X</span>{% endif %}{% if r.mine %}<span class="star" title="on your watchlist">★</span>{% endif %}{% if r.excluded %}<span class="excl" title="excluded (conflict of interest)">⛔</span>{% endif %}</td>
+          <td>{{ r.price | num }}</td><td class="{{ r.pct | cls }}">{{ r.pct | spct }}</td><td>{{ r.turnover | rs }}</td></tr>
+        {% else %}<tr><td class="l mut" colspan="4">none above the floor</td></tr>{% endfor %}</tbody>
+      </table></div>
+    </div>
+    {% endfor %}
+    <div class="card">
+      <h3 style="margin-top:0">Sectors (S&amp;P/CSE industry groups)</h3>
+      <div class="scroll"><table>
+        <thead><tr><th class="l">Sector</th><th>Index</th><th>Chg%</th><th>Turnover</th></tr></thead>
+        <tbody>{% for s in sectors %}<tr><td class="l"><span class="trunc" title="{{ s.name }}">{{ s.name }}</span></td><td>{{ s.value | num }}</td>
+          <td class="{{ s.pct | cls }}">{{ s.pct | spct }}</td><td>{{ s.turnover | rs }}</td></tr>{% endfor %}</tbody>
+      </table></div>
+    </div>
+  </div>
+</section>
+
+<!-- Panel B ================================================================================ -->
+<section class="panel" id="panel-b">
+  <h2>B · My book <span class="mut sm" style="text-transform:none;letter-spacing:0">returns vs ASPI are price-only, in percentage points</span></h2>
+  <div class="scroll"><table id="book">
+    <thead><tr>
+      <th class="l">Symbol</th><th>Price</th><th>Day</th><th>52-week range</th><th title="Today's volume ÷ mean of previous {{ avg_sessions }} sessions">Vol/avg</th>
+      {% for w in windows %}<th title="Stock price return minus ASPI return, {{ w }}">vs ASPI {{ w }}</th>{% endfor %}
+      <th>Mkt cap</th><th title="CSE-published beta vs TRI-ASI">β CSE</th>
+    </tr></thead>
+    <tbody>
+    {% for g in book %}
+      <tr class="grp"><td colspan="{{ 7 + windows | length }}">{{ g.group }}</td></tr>
+      {% for r in g.rows %}
+      <tr>
+        <td class="l"><span class="sym">{{ r.symbol.split(".")[0] }}</span>{% if r.symbol.endswith(".X0000") %}<span class="mut sm">.X</span>{% endif %}{% if r.excluded %}<span class="excl" title="excluded: flagged, never held by model portfolios">⛔</span>{% endif %}<br><span class="name sm">{{ r.name }}</span></td>
+        <td>{{ r.price | num }}</td>
+        <td>{% if r.traded %}<span class="{{ r.change | cls }}">{{ r.change | signed }}</span><br><span class="sm {{ r.pct | cls }}">{{ r.pct | spct }}</span>{% else %}<span class="mut sm">no trade</span>{% endif %}</td>
+        <td>{% if r.pos is not none %}<span class="rng"><span class="mut sm">{{ r.lo | num }}</span><span class="bar"><i style="left:calc({{ (r.pos * 100) | round(1) }}% - 1px)"></i></span><span class="mut sm">{{ r.hi | num }}</span></span>
+            <br><span class="sm">{{ (r.pos * 100) | round(0) | int }}%</span>{% if r.range_flag %} <span class="flag" title="A >40% one-day price move in the last year suggests an unadjusted split, scrip or rights issue: the CSE's 52-week range is then not comparable with today's price.">⚠ unadjusted</span>{% endif %}
+            {% else %}—{% endif %}</td>
+        <td>{% if r.vol.value is not none %}<span class="{{ (r.vol.value - 1) | cls }}">{{ r.vol.value | num(1) }}×</span>{% elif r.vol.needed %}<span class="need">— ({{ r.vol.needed }} sessions needed)</span>{% else %}—{% endif %}</td>
+        {% for w in windows %}{% set x = r.rel[w] %}
+        <td>{% if x.value is not none %}<span class="{{ x.value | cls }}" title="stock {{ x.stock | spct }} · ASPI {{ x.aspi | spct }}">{{ (x.value * 100) | signed(1) }}</span>{% if x.flag %} <span class="flag" title="{{ x.flag }}">⚠</span>{% endif %}
+            {% elif x.needed %}<span class="need">— ({{ x.needed }} sessions needed)</span>{% else %}<span class="need" title="{{ x.flag }}">—</span>{% endif %}</td>
+        {% endfor %}
+        <td>{{ r.mcap | rs }}</td>
+        <td>{{ r.beta | num(2) }}</td>
+      </tr>
+      {% endfor %}
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <p class="mut sm">Foreign holding % is not published by the CSE API (null for every stock), so it is not shown. See docs/API_NOTES.md (D3).</p>
+</section>
+
+<!-- Panel C ================================================================================ -->
+<section class="panel" id="panel-c">
+  <h2>C · Disclosures
+    <span class="toggle" role="group" aria-label="Filter disclosures">
+      <button type="button" data-scope="mine" aria-pressed="true">My universe</button>
+      <button type="button" data-scope="all" aria-pressed="false">All market</button>
+    </span>
+  </h2>
+  <ul class="feed" id="feed">
+  {% for a in announcements %}
+    <li data-mine="{{ 1 if a.mine else 0 }}">
+      <div class="top"><span class="date">{{ a.date }}</span><span class="tag {{ a.tag }}">{{ a.tag }}</span>
+        <span class="sym">{{ a.symbol or "—" }}</span>{% if a.excluded %}<span class="excl" title="excluded company">⛔</span>{% endif %}
+        <span class="co sm">{{ a.company }}</span></div>
+      <span class="title">{% if a.url %}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title }}</a>{% else %}{{ a.title }} <span class="mut sm">(no PDF)</span>{% endif %}</span>
+      <span class="cat">{{ a.category }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+  <p class="mut sm" id="feed-empty" hidden>Nothing from your universe in the last {{ announcement_days }} days.</p>
+</section>
+</main>
+
+<footer>
+  Data: public cse.lk JSON API, fetched once per trading day. Every figure is reproducible from <code>data/</code> in the repository.
+  Index returns, 52-week figures and price history are unadjusted for corporate actions unless stated. Not investment advice.
+</footer>
+
+<script type="application/json" id="charts-data">{{ charts_json | safe }}</script>
+<script type="application/json" id="meta-data">{{ meta_json | safe }}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+(function () {
+  // Disclosure toggle -------------------------------------------------------------------------
+  var buttons = document.querySelectorAll('.toggle button');
+  var items = document.querySelectorAll('#feed li');
+  function setScope(scope) {
+    var shown = 0;
+    buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.scope === scope)); });
+    items.forEach(function (li) { var on = scope === 'all' || li.dataset.mine === '1'; li.hidden = !on; if (on) shown++; });
+    document.getElementById('feed-empty').hidden = shown > 0;
+    try { localStorage.setItem('cse-feed-scope', scope); } catch (e) {}
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { setScope(b.dataset.scope); }); });
+  var saved = null; try { saved = localStorage.getItem('cse-feed-scope'); } catch (e) {}
+  setScope(saved === 'all' ? 'all' : 'mine');
+
+  // Staleness banner: compare the data's session with the latest weekday session whose daily run
+  // (16:30 Sri Lanka time, + 1 h grace) should have finished. Holidays can trigger it falsely.
+  var meta = JSON.parse(document.getElementById('meta-data').textContent);
+  function slt(d) { return new Date(d.getTime() + (d.getTimezoneOffset() + 330) * 60000); }
+  function iso(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  var now = slt(new Date());
+  var exp = new Date(now);
+  if (now.getHours() * 60 + now.getMinutes() < 17 * 60 + 30) exp.setDate(exp.getDate() - 1);
+  while (exp.getDay() === 0 || exp.getDay() === 6) exp.setDate(exp.getDate() - 1);
+  var behind = 0, d = new Date(exp);
+  while (iso(d) > meta.session && behind < 60) { if (d.getDay() !== 0 && d.getDay() !== 6) behind++; d.setDate(d.getDate() - 1); }
+  if (behind > 0) {
+    var el = document.getElementById('stale');
+    el.textContent = '⚠ Data is from ' + meta.session + ': ' + behind + ' weekday session' + (behind > 1 ? 's' : '') +
+      ' since then (latest expected ' + iso(exp) + ') are missing. The daily run may have failed, or the market was closed for a holiday.';
+    el.hidden = false;
+  }
+
+  // Index charts: one series each, single axis, crosshair tooltip --------------------------
+  if (!window.Chart) return;
+  var series = JSON.parse(document.getElementById('charts-data').textContent);
+  var css = getComputedStyle(document.documentElement);
+  var ink2 = css.getPropertyValue('--text-2').trim(), rule = css.getPropertyValue('--rule').trim();
+  var accent = css.getPropertyValue('--accent').trim();
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  document.querySelectorAll('canvas[data-chart]').forEach(function (cv) {
+    var s = series[cv.dataset.chart]; if (!s || !s.values.length) return;
+    new Chart(cv, {
+      type: 'line',
+      data: { labels: s.dates, datasets: [{ data: s.values, borderColor: accent, borderWidth: 2, pointRadius: 0, pointHoverRadius: 4, tension: 0 }] },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { display: false },
+          tooltip: { displayColors: false, callbacks: { label: function (c) { return c.parsed.y.toLocaleString('en-US', { minimumFractionDigits: 2 }); } } } },
+        scales: {
+          x: { ticks: { color: ink2, maxTicksLimit: 4, maxRotation: 0, autoSkipPadding: 18, font: { family: 'monospace', size: 10 },
+                 callback: function (v) { var d = this.getLabelForValue(v); return MONTHS[+d.slice(5, 7) - 1] + ' ' + d.slice(2, 4); } },
+               grid: { display: false } },
+          y: { position: 'right', ticks: { color: ink2, maxTicksLimit: 4, font: { family: 'monospace', size: 10 } }, grid: { color: rule } }
+        }
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>

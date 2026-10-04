@@ -1,0 +1,64 @@
+# Universe for the CSE Terminal. Every symbol is resolved against the API's security list
+# (allSecurityCode) on each run; an unknown symbol stops the run and names it.
+# Suffixes: .N0000 = voting ordinary share, .X0000 = non-voting ordinary share.
+#
+# `watchlist` can be a flat list (as in the original brief) or, as here, a mapping of
+# display groups -> symbols. A symbol listed twice appears once, in its first group.
+
+watchlist:        # EDIT: my real holdings and watchlist
+  CORE:           # from the original config draft
+    - ALLI.N0000
+    - RIL.N0000
+    - CALH.N0000
+    - CIC.N0000
+    - LHCL.N0000
+    - LOLC.N0000
+  BANKS:
+    - NTB.N0000
+    - DFCC.N0000
+    - COMB.N0000
+    - HNB.N0000
+    - NDB.N0000
+  PLAYS:
+    - HAYC.N0000
+    - AGST.N0000
+    - LOFC.N0000
+  LOLC GROUP:
+    - BIL.N0000
+    - BRWN.N0000
+  FUNDAMENTALS:
+    - CARS.N0000
+    - HAYL.N0000
+    - AEL.N0000
+    - JKH.N0000
+  RESEARCHING:
+    - WIND.N0000
+    - PKME.N0000
+    - LVEN.N0000
+    - CHOT.N0000
+    - FCT.N0000
+    - CALT.N0000
+  PUNTS:
+    - BFL.N0000
+    - DOCK.N0000
+    - UDPL.N0000
+    - SPEN.N0000
+    - SCAP.N0000
+
+  SCREEN ADDS:    # proposed by the whole-market screen (docs/WATCHLIST_SCREEN.md); delete any you don't want
+    - DIAL.N0000    # Telecom: no coverage before; largest company on the CSE; tier A
+    - SAMP.N0000    # Banks: most liquid bank not on the list
+    - MELS.N0000    # Top-6 by market cap, tier A (parent of DIST)
+    - CTC.N0000     # #2 by market cap; beta 0.20, most defensive large name
+    - HHL.N0000     # Hemas Holdings: large, tier A
+    - CCS.N0000     # Ceylon Cold Stores: large, tier A
+    - LIOC.N0000    # Energy: no coverage before; tier A
+    - OSEA.N0000    # Real estate: no coverage before; largest tier A name
+    - TJL.N0000     # Apparel: no coverage before; largest pure exporter
+
+excluded:         # EDIT: conflict-of-interest names; flagged everywhere and
+  - NTB.N0000     # never held by any model portfolio. Note: exclusion is per symbol;
+  - LVEN.N0000    # add NTB.X0000 too if the conflict covers the non-voting line.
+
+display:
+  gainers_losers_min_turnover_lkr: 1000000   # floor for Panel A top gainers / losers

@@ -1,0 +1,13 @@
+# Per-symbol sector assignments for companies whose CSE profile label is not a GICS
+# industry group (legacy CSE sector names). Values must be one of the 20 S&P/CSE
+# industry-group index names. Used by the market screen now and by the Phase 2 sector cap.
+#
+# PROPOSED by Claude from the company's name and business - CONFIRM or EDIT each line.
+# Symbols not listed here and not resolvable from their label show as "Unclassified".
+overrides:
+  HNBF.N0000: Diversified Financials   # label "Banks Finance & Insurance"; HNB Finance is a licensed finance company
+  HNBF.X0000: Diversified Financials
+  VPEL.N0000: Utilities                # label "Power and Energy"; Vallibel Power Erathna, hydro power producer
+  MSL.N0000: Transportation            # label "Services"; Mercantile Shipping Company
+  # CWL.N0000 (Chrissworld PLC, label "Industrials") - business unclear to me; left unclassified
+  # TESS.N0000 / TESS.X0000 (Tess Agro PLC, label "Trading") - left unclassified
