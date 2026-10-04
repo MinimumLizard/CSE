@@ -1,0 +1,43 @@
+# What each source PDF states, as read by Claude on 2026-10-04 (scanned PDFs read from page
+# images; text PDFs from extracted text). Input to scripts/review_evidence.py.
+# THESE ARE READINGS, NOT CONFIRMATIONS. Confirm in config/corporate_actions_review.yaml.
+# suggest: confirm | confirm_with | reject | needs_input
+"34271:DOCK.N0000": {pdf: "terms 07 Jul 2025 (31976) + dates 07 Nov 2025", ratio_new: 9, ratio_held: 2, subscription_price: 40.00, ex_date: 2025-12-05, suggest: confirm,
+  note: "Nov notice explicitly supersedes the Aug timetable; price break 412.75 -> 124.00 on 05 Dec matches"}
+"32539:DOCK.N0000": {pdf: "dates 11 Aug 2025", ex_date: 2025-09-10, suggest: reject,
+  note: "timetable superseded by the 07 Nov 2025 notice (XR 05 Dec 2025); no price break on 10 Sep"}
+"35920:HAYL.N0000": {pdf: "terms 21 Jan 2026 p2 (35376) + dates 26 Feb 2026", ratio_new: 3, ratio_held: 50, subscription_price: 200, ex_date: 2026-03-18, suggest: confirm,
+  note: "45,000,000 new on 750,000,000 existing = 3/50"}
+"35419:CBNK.N0000": {pdf: "terms 09 Dec 2025 (34736) + dates 23 Jan 2026", ratio_new: 14, ratio_held: 45, subscription_price: 8.50, ex_date: 2026-02-23, suggest: confirm}
+"35715:KZOO.N0000": {pdf: "terms 31 Jan 2026 (35545) + dates (text)", ratio_new: 2, ratio_held: 1, subscription_price: 7, ex_date: 2026-03-04, suggest: confirm}
+"36994:HNBF.N0000": {pdf: "terms 10 Apr 2026 (36635) + dates 14 May 2026", ratio_new: 2, ratio_held: 9, subscription_price: 5.50, ex_date: 2026-06-02, suggest: confirm}
+"36994:HNBF.X0000": {pdf: "terms 10 Apr 2026 (36635) + dates 14 May 2026", ratio_new: 2, ratio_held: 9, subscription_price: 5.00, ex_date: 2026-06-02, suggest: confirm}
+"36199:MERC.N0000": {pdf: "terms 12 Feb 2026 (35690) + dates 16 Mar 2026", ratio_new: 1, ratio_held: 18, subscription_price: 33, ex_date: 2026-04-22, suggest: confirm}
+"35051:SFCL.N0000": {pdf: "terms 18 Nov 2025 (34400) + dates 29 Dec 2025", ratio_new: 1, ratio_held: 20, subscription_price: 240, ex_date: 2026-01-20, suggest: confirm}
+"33963:EBCR.N0000": {pdf: "terms 25 Jul 2025 (32272) + dates 17 Oct 2025", ratio_new: 1, ratio_held: 10, subscription_price: 60, ex_date: 2025-11-12, suggest: confirm}
+"35245:ACME.N0000": {pdf: "terms 17 Sep 2025 (33369) + dates 13 Jan 2026", ratio_new: 6, ratio_held: 1, subscription_price: 2.50, ex_date: 2026-02-05, suggest: confirm,
+  note: "explains the -59% move on 05 Feb 2026"}
+"32466:SFIN.N0000": {pdf: "terms (31623, text) + dates 06 Aug 2025", ratio_new: 6, ratio_held: 16, subscription_price: 26.50, ex_date: 2025-09-01, suggest: confirm}
+"39304:SFIN.N0000": {pdf: "terms (38539, text) + dates (text)", ratio_new: 8, ratio_held: 29, subscription_price: 39.20, ex_date: 2026-10-16, suggest: confirm}
+"35997:VFIN.N0000": {pdf: "terms (35298, text) + dates (text)", ratio_new: 1, ratio_held: 8, subscription_price: 72, ex_date: 2026-03-27, suggest: confirm}
+"35217:MFPE.N0000": {pdf: "terms (33947, text) + dates (text)", ratio_new: 1, ratio_held: 10, subscription_price: 9.00, ex_date: 2026-02-02, suggest: confirm}
+"37897:AAF.N0000": {pdf: "terms (37489, text) + dates (text)", ratio_new: 4, ratio_held: 11, subscription_price: 33.30, ex_date: 2026-07-31, suggest: confirm}
+"36197:LVEF.N0000": {pdf: "terms (35475, text) + dates (text)", ratio_new: 3, ratio_held: 31, subscription_price: 7.50, ex_date: 2026-04-22, suggest: confirm}
+"36348:ATL.N0000": {pdf: "terms (35624, text) + dates 26 Mar 2026", ratio_new: 3, ratio_held: 14, subscription_price: 19.00, ex_date: 2026-04-17, suggest: confirm}
+"39027:CPRT.N0000": {pdf: "terms (37251, text) + dates (text)", ratio_new: 1, ratio_held: 4, subscription_price: 40, ex_date: 2026-10-05, suggest: confirm}
+"33477:LCEY.N0000": {pdf: "terms 18 Jun 2025 (31598) + dates 24 Sep 2025", ratio_new: 1, ratio_held: 3, subscription_price: 70, ex_date: 2025-10-16, suggest: confirm_with,
+  note: "API said only '1:3'; the PDF says 'One (01) new ... for every Three (3) existing', so supply ratio_new 1, ratio_held 3"}
+"32768:KOTA.N0000": {pdf: "dates 22 Aug 2025", ratio_new: 1, ratio_held: 4, ex_date: 2025-09-17, suggest: needs_input,
+  note: "subscription price is in the terms announcement, which predates the collection window (2025-06-01)"}
+"32857:WAPO.N0000": {pdf: "dates 27 Aug 2025", ex_date: 2025-09-22, suggest: confirm,
+  note: "PDF: up to 687,090 new shares by scrip = record's count; share-count check failed only because of the later 1:4 split and 1-for-1 rights issue"}
+"35907:HNB.N0000": {pdf: "25 Feb 2026", ratio_new: 1, ratio_held: 107.2941219933, ex_date: 2026-04-02, suggest: confirm_with,
+  note: "PDF states XD 02 Apr 2026: supply ex_date. Final dividend Rs 20 = Rs 15 cash (already confirmed) + Rs 5 scrip"}
+"35907:HNB.X0000": {pdf: "25 Feb 2026", ratio_new: 1, ratio_held: 92.5882560730, ex_date: 2026-04-02, suggest: confirm_with,
+  note: "non-voting line; PDF states XD 02 Apr 2026: supply ex_date"}
+"34575:TAP.N0000": {pdf: "28 Nov 2025", amount_per_share: 1, suggest: reject,
+  note: "ELECTIVE dividend: Rs 1 cash OR scrip, not both. The scrip version (1 for 43.90, ex 13 Feb 2026) is already confirmed, so confirming this too would count the dividend twice"}
+"37302:MBSL.N0000": {pdf: "terms 04 May 2026 (36880)", ex_date: 2026-07-07, suggest: reject,
+  note: "rights issue of PREFERENCE shares to ordinary holders; the ordinary-share TERP formula doesn't apply. Rejecting leaves a small unmeasured effect on MBSL"}
+"31382:COOP.N0000": {pdf: "Jun 2025 (text)", amount_per_share: 0.05, suggest: needs_input,
+  note: "final dividend Rs 0.05 for FY2024, subject to Insurance Commission approval; the PDF gives no XD date"}

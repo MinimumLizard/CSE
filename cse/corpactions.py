@@ -319,10 +319,12 @@ def parse(records: list[Record], share_classes: dict[str, list[str]],
                 if any((x.detail or {}).get("dType") == want and lo <= x.date <= hi for x in recs):
                     continue
                 if dtype.startswith("Scrip"):
-                    prop, _ = parse_proportion(d.get("votingPropotion"))
-                    if voting and prop:
-                        rows.append(row(rec, voting, "scrip", ratio_new=1.0, ratio_held=prop, factor=(prop + 1) / prop,
-                                        status="needs_review", note="no dated scrip record found: add ex_date when confirming"))
+                    for sym, pkey in ((voting, "votingPropotion"), (nonvoting, "nonVotingPropotion")):
+                        prop, _ = parse_proportion(d.get(pkey))
+                        if sym and prop:
+                            rows.append(row(rec, sym, "scrip", ratio_new=1.0, ratio_held=prop, factor=(prop + 1) / prop,
+                                            status="needs_review",
+                                            note="no dated scrip record found: add ex_date when confirming"))
                 else:
                     amt = _num(d.get("votingDivPerShare")) or _num(d.get("divPerShare"))
                     if voting and amt:
@@ -369,7 +371,8 @@ def parse(records: list[Record], share_classes: dict[str, list[str]],
                                     ratio_new=ratio[0] if ratio else None, ratio_held=ratio[1] if ratio else None,
                                     subscription_price=s_price, status="needs_review",
                                     note=f"ratio read from text: {text.strip()[:90]!r}"
-                                         + ("" if s_price else "; subscription price not found")))
+                                         + ("" if s_price else "; subscription price not found")
+                                         + (f"; terms in announcement {price_rec.aid}" if price_rec else "")))
                 continue
 
             if dtype and dtype not in ("RightsIssue",) and voting:
@@ -447,8 +450,12 @@ def effective(rows: list[dict], reviews: tuple[dict[str, dict], set[str]]) -> li
             r[k] = _num(r[k]) if r[k] not in (None, "") else None
         if r["type"] in ("subdivision", "scrip") and r["factor"] is None and r["ratio_new"] and r["ratio_held"]:
             r["factor"] = (r["ratio_held"] + r["ratio_new"]) / r["ratio_held"]
+        if isinstance(r["ex_date"], (dt.date, dt.datetime)):   # YAML reads 2026-04-02 as a date
+            r["ex_date"] = r["ex_date"].isoformat()[:10]
         if r["ex_date"] in ("", None):
             raise ValueError(f"corporate action {r['id']} is usable but has no ex_date")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(r["ex_date"])):
+            raise ValueError(f"corporate action {r['id']}: ex_date {r['ex_date']!r} is not YYYY-MM-DD")
     return out
 
 

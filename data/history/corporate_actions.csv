@@ -387,3 +387,4 @@ id,symbol,type,ex_date,amount_per_share,ratio_new,ratio_held,factor,subscription
 39112:RAL.N0000,RAL.N0000,scrip,2026-09-25,,1,130.58824265,1.00765766,,confirmed,share-count check passed,https://cdn.cse.lk/cmt/announcement_portal_prod/RAF_ScripD2026_Dates_12072134075128770.pdf
 39113:RHL.N0000,RHL.N0000,scrip,2026-09-25,,1,209.90580966,1.00476404,,confirmed,share-count check passed,https://cdn.cse.lk/cmt/announcement_portal_prod/RHL_SricpD2026_Dates_12072408879028646.pdf
 39113:RHL.X0000,RHL.X0000,scrip,2026-09-25,,1,150.94376185,1.00662498,,confirmed,share-count check passed,https://cdn.cse.lk/cmt/announcement_portal_prod/RHL_SricpD2026_Dates_12072408879028646.pdf
+35907:HNB.X0000,HNB.X0000,scrip,,,1,92.58825607,1.01080051,,needs_review,no dated scrip record found: add ex_date when confirming,https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45811315088505351.pdf

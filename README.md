@@ -122,7 +122,9 @@ Values are the brief's, plus `series`, `history_adjusted` and `my_book`. Lines m
 
 ## Enabling GitHub Pages and the daily run
 
-1. Merge this branch into the repository's default branch. Scheduled workflows only run there.
+1. Scheduled workflows only run on the repository's **default branch**. Right now the only branch,
+   `claude/modest-ptolemy-vjpc84`, *is* the default, so the schedule will run from it as is. If you
+   later create `main` and make it the default, merge this work into it first.
 2. **Settings → Pages → Build and deployment → Source: "GitHub Actions".**
 3. **Settings → Actions → General → Workflow permissions: "Read and write permissions"**, so the
    workflow can commit `data/`.
@@ -154,7 +156,12 @@ reject:
   - "40002:XYZ.N0000"                                      # not a real event / duplicate
 ```
 
-Commit the file. The next run uses the action, and Panel D stops listing it. The CSV itself is never
+Commit the file. The next run uses the action, and Panel D stops listing it.
+
+**Shortcut:** [`docs/CA_REVIEW_EVIDENCE.md`](docs/CA_REVIEW_EVIDENCE.md) quotes what each source PDF
+says (read by Claude, including scanned PDFs) and ends with a suggested review file. It's a starting
+point: check each line against its PDF before you adopt it. Regenerate it with
+`python scripts/review_evidence.py` after new items appear. The CSV itself is never
 edited; it's append-only. If you confirm an action after its ex-date has passed, the total-return
 history picks it up on the next run (estimates are recomputed every run). The live record does **not**
 book it retroactively, because history is never restated. Confirm promptly when a name you hold goes ex.

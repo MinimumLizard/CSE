@@ -132,3 +132,15 @@ def test_repeated_announcement_for_same_event_is_counted_once():
     dup = dict(ROWS[0], id="9:A.N0000", amount_per_share="2.5")          # later announcement, same ex-date
     eff = effective([ROWS[0], dup], ({}, set()))
     assert len(eff) == 1 and eff[0]["id"] == "9:A.N0000" and eff[0]["amount_per_share"] == 2.5
+
+
+def test_review_file_dates_are_accepted_as_written(tmp_path):
+    """YAML parses `ex_date: 2026-04-02` as a date object; it must become the ISO string."""
+    p = tmp_path / "r.yaml"
+    p.write_text('confirm:\n  "3:A.N0000": {ex_date: 2026-03-05, ratio_new: 1, ratio_held: 10}\n')
+    eff = effective(ROWS, corpactions.load_reviews(p))
+    r = next(x for x in eff if x["id"] == "3:A.N0000")
+    assert r["ex_date"] == "2026-03-05" and r["factor"] == pytest.approx(1.1)
+    p.write_text('confirm:\n  "3:A.N0000": {ex_date: "5 March", ratio_new: 1, ratio_held: 10}\n')
+    with pytest.raises(ValueError, match="YYYY-MM-DD"):
+        effective(ROWS, corpactions.load_reviews(p))
