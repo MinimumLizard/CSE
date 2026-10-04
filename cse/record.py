@@ -83,6 +83,17 @@ def last_state(rp: RecordPaths, series: str) -> tuple[str | None, dict[str, Stat
     return last, states, navmap
 
 
+def last_weights(root: Path, series: str) -> dict[str, dict[str, float]]:
+    """Weights at the last recorded session, per portfolio (the 'before' side of today's trades)."""
+    rp = RecordPaths(root)
+    last, _, _ = last_state(rp, series)
+    out: dict[str, dict[str, float]] = {}
+    for h in storage.read_rows(rp.holdings):
+        if h["series"] == series and h["date"] == last:
+            out.setdefault(h["portfolio"], {})[h["symbol"]] = float(h["weight"] or 0)
+    return out
+
+
 class Pricer:
     """Last traded close on or before the session, corrected for share-count events that went
     ex after that close (so a split that hasn't traded yet doesn't inflate the value)."""
@@ -214,7 +225,7 @@ def _snapshot(up: Update, st: State, pricer: Pricer, portfolio: str, series: str
                             "target_weight": t, "flag": "1" if flag else "0"})
 
 
-def update(root: Path, series: str, session: str, sessions: list[str], targets: dict[str, dict[str, float]],
+def update(root: Path, series: str, session: str, sessions: list[str], targets: dict[str, dict[str, float]] | None,
            pricer: Pricer, actions: list[dict], aspi: dict[str, float], cfg: dict,
            my_book: dict[str, float] | None = None) -> Update:
     rp = RecordPaths(root)
@@ -229,6 +240,9 @@ def update(root: Path, series: str, session: str, sessions: list[str], targets: 
     c = cfg["cost_per_side"]
 
     if last is None:  # inception
+        if targets is None:
+            up.status = "no record yet and no valid targets; nothing written"
+            return up
         for p in TRADED:
             st = State({}, dict(targets[p]), set(), float(N))
             up.trades += execute(st, st.targets, list(st.targets), pricer, cfg, p, session, series, "inception", 0.0)
@@ -242,6 +256,8 @@ def update(root: Path, series: str, session: str, sessions: list[str], targets: 
         up.status = f"inception {session}"
     else:
         scheduled = is_scheduled(session, sessions, cfg["rebalance_months"])
+        skipped = scheduled and targets is None   # e.g. constraints infeasible today
+        scheduled = scheduled and targets is not None
         for p in TRADED:
             st = states[p]
             up.trades += apply_actions(st, actions, last, session, cfg, p, series)
@@ -256,7 +272,7 @@ def update(root: Path, series: str, session: str, sessions: list[str], targets: 
                                      "drift band", cfg["min_trade_lkr"])
                 note = f"drift trades: {', '.join(sorted(st.flags))}"
             else:
-                note = ""
+                note = "scheduled rebalance skipped: no valid targets today" if skipped else ""
             _snapshot(up, st, pricer, p, series, cfg, note)
         mk = states[MARKET]
         units = mk.shares[INDEX_UNIT]
@@ -266,7 +282,8 @@ def update(root: Path, series: str, session: str, sessions: list[str], targets: 
         up.holdings.append({"date": session, "series": series, "portfolio": MARKET, "symbol": INDEX_UNIT,
                             "shares": units, "price": aspi[session], "value": nav, "weight": 1.0,
                             "target_weight": 1.0, "flag": "0"})
-        up.status = f"updated {last} → {session}" + (" (scheduled rebalance)" if scheduled else "")
+        up.status = (f"updated {last} → {session}" + (" (scheduled rebalance)" if scheduled else "")
+                     + (" (scheduled rebalance skipped: no valid targets)" if skipped else ""))
     if my_book:
         st = State({s: float(n) for s, n in my_book.items()}, {}, set(), 0.0)
         hv, vals = _value(st, pricer)

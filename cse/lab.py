@@ -121,11 +121,24 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
             log_run(paths, "lab", status, session, message)
         return out
 
+    closes = {s: g.set_index("date")["close"].astype(float).to_dict() for s, g in prices.groupby("symbol")}
+    pricer = record.Pricer(closes, actions, session)
+    aspi = indices[indices["index"] == MARKET_INDEX].set_index("date")["value"].astype(float).to_dict()
+    series = out["series"]
+
+    def value_only(status: str, message: str) -> dict:
+        """No valid targets today: still value an existing record and book its corporate actions."""
+        up = record.update(root, series, session, sessions, None, pricer, actions, aspi, cfg, cfg.get("my_book"))
+        out["record_status"] = up.status
+        if not dry_run and up.nav:
+            out["record_written"] = record.commit(root, up)
+        return finish(status, message + (f" Record: {up.status}." if up.nav else ""))
+
     if len(universe.symbols) < 2:
         need = cfg["min_history_weeks"]
-        return finish("waiting", f"universe has {len(universe.symbols)} stocks: the longest history is "
-                                 f"{max_weeks} weekly returns and {need} are required (decision D1). "
-                                 "The daily job adds one per week.")
+        return value_only("waiting", f"universe has {len(universe.symbols)} stocks: the longest history is "
+                                     f"{max_weeks} weekly returns and {need} are required (decision D1). "
+                                     "The daily job adds one per week.")
 
     est = estimate(universe, tris, prices, indices, sectors, cfg, session, weeks_all)
     prob = optimize.make_problem(est, cfg)
@@ -141,7 +154,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
         w = {"min_variance": optimize.min_variance(prob), "risk_parity": optimize.risk_parity(prob),
              "max_sharpe": optimize.max_sharpe(prob)}
     except optimize.Infeasible as exc:
-        return finish("infeasible", str(exc))
+        return value_only("infeasible", str(exc))
     for name, wv in w.items():
         rep = optimize.constraint_report(wv, prob)
         if not rep["ok"]:
@@ -153,10 +166,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
     out["frontier"] = optimize.frontier(prob)
     targets = {k: {s: float(x) for s, x in zip(prob.symbols, v) if x > 1e-6} for k, v in w.items()}
 
-    closes = {s: g.set_index("date")["close"].astype(float).to_dict() for s, g in prices.groupby("symbol")}
-    pricer = record.Pricer(closes, actions, session)
-    aspi = indices[indices["index"] == MARKET_INDEX].set_index("date")["value"].astype(float).to_dict()
-    series = out["series"]
+    pre_weights = record.last_weights(root, series)
     up = record.update(root, series, session, sessions, targets, pricer, actions, aspi, cfg, cfg.get("my_book"))
     out["record_status"] = up.status
     if not dry_run:
@@ -179,7 +189,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
                     "next_close": record.trade_list(tgt, weights, flagged, px, est.median_turnover.to_dict(),
                                                     cfg, "next close")}
         if today and up.status.startswith(("inception", "updated")):
-            pre = {s: 0.0 for s in tgt} if up.status.startswith("inception") else weights
+            pre = {} if up.status.startswith("inception") else pre_weights.get(p, {})
             lists[p]["today_scaled"] = record.trade_list(tgt, pre, sorted({t["symbol"] for t in today}), px,
                                                          est.median_turnover.to_dict(), cfg, "today")
     out["trade_lists"] = lists

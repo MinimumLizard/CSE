@@ -157,3 +157,17 @@ def test_trade_list_scaled_to_portfolio_size():
     assert rows == [{"symbol": "A", "side": "add", "shares": 4000, "amount": pytest.approx(200_000.0),
                      "cost": pytest.approx(2240.0), "x_median_turnover": pytest.approx(0.2), "when": "next close"}]
     assert record.trade_list({"A": 0.10}, {"A": 0.099}, ["A"], {"A": 50.0}, {}, CFG, "x") == []   # < min_trade
+
+
+def test_no_targets_keeps_valuing_and_skips_scheduled_rebalance(tmp_path):
+    run(tmp_path, "2025-12-31")
+    first_jan = next(s for s in SESSIONS if s.startswith("2026-01"))
+    up = run(tmp_path, first_jan, targets=None)
+    assert "scheduled rebalance skipped" in up.status
+    assert not [t for t in up.trades if t["action"] in ("buy", "sell")]
+    assert {n["portfolio"] for n in up.nav} >= set(record.TRADED) | {"market"}
+
+
+def test_no_targets_and_no_record_writes_nothing(tmp_path):
+    up = run(tmp_path, S0, targets=None)
+    assert up.nav == [] and not (tmp_path / "record").exists()

@@ -121,3 +121,9 @@ def test_split_completed_later_supersedes_the_incomplete_row(tmp_path):
     eff = effective(rows, ({}, set()))
     assert sorted(r["id"] for r in eff) == ["32457+33380:CIC.N0000", "32457+33380:CIC.X0000"]
     assert all(r["factor"] == pytest.approx(5.0) and r["ex_date"] == "2025-10-22" for r in eff)
+
+
+def test_repeated_announcement_for_same_event_is_counted_once():
+    dup = dict(ROWS[0], id="9:A.N0000", amount_per_share="2.5")          # later announcement, same ex-date
+    eff = effective([ROWS[0], dup], ({}, set()))
+    assert len(eff) == 1 and eff[0]["id"] == "9:A.N0000" and eff[0]["amount_per_share"] == 2.5

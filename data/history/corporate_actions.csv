@@ -1,0 +1,373 @@
+id,symbol,type,ex_date,amount_per_share,ratio_new,ratio_held,factor,subscription_price,status,note,source_url
+31265:VLL.N0000,VLL.N0000,cash_dividend,2025-06-13,0.35,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20ANNOUNCEMENT_20250603_0001_22739123548524324.pdf
+31265:VLL.X0000,VLL.X0000,cash_dividend,2025-06-13,0.35,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20ANNOUNCEMENT_20250603_0001_22739123548524324.pdf
+34293:VLL.N0000,VLL.N0000,cash_dividend,2025-11-19,0.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20Announcement%20to%20CSE_20251110_0001_36560619201685382.pdf
+34293:VLL.X0000,VLL.X0000,cash_dividend,2025-11-19,0.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20Announcement%20to%20CSE_20251110_0001_36560619201685382.pdf
+37971:VLL.N0000,VLL.N0000,cash_dividend,2026-07-20,0.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20ANNOUNCEMENT%20_20260708_0001_6444572522765060.pdf
+37971:VLL.X0000,VLL.X0000,cash_dividend,2026-07-20,0.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20ANNOUNCEMENT%20_20260708_0001_6444572522765060.pdf
+31629:BERU.N0000,BERU.N0000,cash_dividend,2025-07-16,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BRL-%20Dividend%20CSE%20Letter-06202025103943_24186813475730074.pdf
+31628:SIGV.N0000,SIGV.N0000,cash_dividend,2025-07-16,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SVH-%20Dividend%20CSE%20Letter-06202025103918_24186587824866069.pdf
+34329:SIGV.N0000,SIGV.N0000,subdivision,2026-01-14,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/SVH%20letter%20to%20CSE-11122025164452_36737351932549566.pdf
+31627:MARA.N0000,MARA.N0000,cash_dividend,2025-07-22,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/MRL%20-%20Dividend%20CSE%20Letter-06202025103850_24186309330449306.pdf
+31345:ALLI.N0000,ALLI.N0000,cash_dividend,2025-07-01,9.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1_CSE_MARKET%20ANNOUNCEMENT_22904953991267160.pdf
+37653:ALLI.N0000,ALLI.N0000,cash_dividend,2026-07-27,10,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Further%20market%20announcement_5237231088135213.pdf
+31371:TJL.N0000,TJL.N0000,cash_dividend,2025-06-30,1.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_22913128477921041.pdf
+31412:LHCL.N0000,LHCL.N0000,cash_dividend,2025-06-18,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20announcement_22978264797597487.pdf
+34993:LHCL.N0000,LHCL.N0000,cash_dividend,2026-01-06,2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20announcement_40335519865908646.pdf
+37064:LHCL.N0000,LHCL.N0000,cash_dividend,2026-06-03,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20announcement_2300031121636483.pdf
+31469:SPEN.N0000,SPEN.N0000,cash_dividend,2025-07-07,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Signed-%20CSE%20Announcement_23257668119441782.pdf
+37169:SPEN.N0000,SPEN.N0000,cash_dividend,2026-07-01,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/First%20and%20Final%20Dividend%20for%20the%20financial%20year%2031st%20March%202026_2896759069716920.pdf
+31508:CHL.N0000,CHL.N0000,cash_dividend,2025-06-23,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CHPLC%20Div%20announ%20Jun%2025_23510576621889909.pdf
+31508:CHL.X0000,CHL.X0000,cash_dividend,2025-06-23,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CHPLC%20Div%20announ%20Jun%2025_23510576621889909.pdf
+35161:CHL.N0000,CHL.N0000,subdivision,2026-03-05,,3,1,4,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CHPLC%20sub%20announ%20Jan%2026_41485949758143281.pdf
+35161:CHL.X0000,CHL.X0000,subdivision,2026-03-05,,3,1,4,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CHPLC%20sub%20announ%20Jan%2026_41485949758143281.pdf
+37046:CHL.N0000,CHL.N0000,cash_dividend,2026-06-01,1.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CHPLC%20div%20announ%20May%2026_2143768616907683.pdf
+37046:CHL.X0000,CHL.X0000,cash_dividend,2026-06-01,1.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CHPLC%20div%20announ%20May%2026_2143768616907683.pdf
+31510:VFIN.N0000,VFIN.N0000,cash_dividend,2025-06-23,2.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Cover%20-%20Announcement_23512983630311594.pdf
+35997:VFIN.N0000,VFIN.N0000,rights,2026-03-27,,1,8,,72,needs_review,ratio read from text: 'One (01) new Ordinary Voting share for every Eight (08) existing Ordinary Voting shares he',https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20CSE_46311144186899941.pdf
+31557:BOPL.N0000,BOPL.N0000,cash_dividend,2025-06-26,2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%2017-06-2025_23919302558574570.pdf
+34604:BOPL.N0000,BOPL.N0000,cash_dividend,2025-12-11,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20CSE%20on%20Interim%20Dividend_38372738139261738.pdf
+38346:BOPL.N0000,BOPL.N0000,cash_dividend,2026-08-14,4.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Bogawantalawa%20Tea%20Estates%20PLC%20CSE_8794629528112755.pdf
+37131:CHMX.N0000,CHMX.N0000,cash_dividend,2026-07-01,2.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Final%20Dividend%20for%20FY%202025%2026_2669419748997231.pdf
+31600:LCEY.N0000,LCEY.N0000,subdivision,2025-12-16,,1,1,2,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20-%20LCL-06192025082705_24091714523444092.pdf
+33477:LCEY.N0000,LCEY.N0000,rights,2025-10-16,,,,,70,needs_review,ratio read from text: '1:3',https://cdn.cse.lk/cmt/announcement_portal_prod/lcl366-09242025142031_32494949127701174.pdf
+32466:SFIN.N0000,SFIN.N0000,rights,2025-09-01,,6,16,,26.5,needs_review,ratio read from text: 'Six (06) New Ordinary Voting Shares for every Sixteen (16) existing Ordinary Voting Shares',https://cdn.cse.lk/cmt/announcement_portal_prod/Singer%20Finance%20%28Lanka%29%20PLC%20-Announcement%20-Rights%20Issue%20Dates_28267338103596207.pdf
+37290:SFIN.N0000,SFIN.N0000,cash_dividend,2026-06-12,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Singer%20Finance%20%28Lanka%29%20PLC%20-Dividend%20Announcement_3351564278453045.pdf
+39304:SFIN.N0000,SFIN.N0000,rights,2026-10-16,,8,29,,39.2,needs_review,ratio read from text: 'Eight (8) New Ordinary Voting Shares for every Twenty Nine (29) existing Ordinary Voting S',https://cdn.cse.lk/cmt/announcement_portal_prod/Singer%20Finance%20%28Lanka%29%20PLC%20-Rights%20Issue%20Dates_13120428806209786.pdf
+31649:MERC.N0000,MERC.N0000,cash_dividend,2025-07-02,16.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20announcemnt_24464413149016910.pdf
+33458:MERC.N0000,MERC.N0000,subdivision,2025-12-17,,199,1,200,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_32409154902193656.pdf
+34983:MERC.N0000,MERC.N0000,cash_dividend,2026-01-05,0.165,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_40278261852604804.pdf
+36199:MERC.N0000,MERC.N0000,rights,2026-04-22,,1,18,,33,needs_review,ratio read from text: 'one (01) new ordinary share for every eighteen (18) existing ordinary shares held',https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20dates_47446986353691013.pdf
+31658:JINS.N0000,JINS.N0000,cash_dividend,2025-07-02,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%2023.06.2025_24471151025614191.pdf
+34855:JINS.N0000,JINS.N0000,cash_dividend,2025-12-24,10,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JI-CSE%20announcement%20for%202nd%20Interim%20dividend_39591929796594781.pdf
+35701:JINS.N0000,JINS.N0000,subdivision,2026-04-09,,2,1,3,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/JI-CSE%20announcement_Sub-division%20of%20shares_44680296480648918.pdf
+31683:LCBF.N0000,LCBF.N0000,cash_dividend,2025-07-04,0.15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Amended%20Cash%20Dividened_24611050273351854.pdf
+31731:SDF.N0000,SDF.N0000,cash_dividend,2025-07-08,1.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_24793920902083370.pdf
+35677:SDF.N0000,SDF.N0000,cash_dividend,2026-02-20,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_44594140391070368.pdf
+38272:SDF.N0000,SDF.N0000,cash_dividend,2026-08-11,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_8375716408599646.pdf
+31756:SMOT.N0000,SMOT.N0000,cash_dividend,2025-07-08,10,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20made%20to%20the%20CSE_24808468014806156.pdf
+35882:SMOT.N0000,SMOT.N0000,cash_dividend,2026-03-06,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20made%20to%20the%20CSE_45721307652934770.pdf
+37216:SMOT.N0000,SMOT.N0000,cash_dividend,2026-06-09,25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_2939717610252327.pdf
+31777:TKYO.N0000,TKYO.N0000,cash_dividend,2025-08-11,2.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_25045643573898772.pdf
+31777:TKYO.X0000,TKYO.X0000,cash_dividend,2025-08-11,2.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_25045643573898772.pdf
+37730:TKYO.N0000,TKYO.N0000,cash_dividend,2026-08-05,2.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Tokyo%20Cement_Proposed%20payment%20of%20First%20and%20Final%20Announcement_5665043493217085.pdf
+37730:TKYO.X0000,TKYO.X0000,cash_dividend,2026-08-05,2.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Tokyo%20Cement_Proposed%20payment%20of%20First%20and%20Final%20Announcement_5665043493217085.pdf
+31816:VONE.N0000,VONE.N0000,cash_dividend,2025-07-09,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20Announcement_25068865308230624.pdf
+37250:VONE.N0000,VONE.N0000,cash_dividend,2026-06-10,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_3193634854556144.pdf
+31825:HPL.N0000,HPL.N0000,cash_dividend,2025-07-09,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_25071119360732754.pdf
+35254:HPL.N0000,HPL.N0000,cash_dividend,2026-01-23,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_42093806274702201.pdf
+31834:DIPD.N0000,DIPD.N0000,cash_dividend,2025-07-11,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dipped%20Products%20PLC%20-%20CSE%20Disclosure_25120014709108496.pdf
+33641:DIPD.N0000,DIPD.N0000,cash_dividend,2025-10-10,0.61,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_33019968001002620.pdf
+35078:DIPD.N0000,DIPD.N0000,cash_dividend,2026-01-12,0.51,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Corporate%20Disclosure_40963305574609086.pdf
+36457:DIPD.N0000,DIPD.N0000,cash_dividend,2026-04-15,0.76,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_48740923367391925.pdf
+37811:DIPD.N0000,DIPD.N0000,cash_dividend,2026-07-09,0.37,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dipped%20Products%20PLC%20-%20CSE%20Announcement%20on%20Dividend_5693978850755227.pdf
+39439:DIPD.N0000,DIPD.N0000,cash_dividend,2026-10-09,0.96,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_13638625421509670.pdf
+31835:MGT.N0000,MGT.N0000,cash_dividend,2025-07-11,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Hayleys%20Fabric%20PLC%20-%20CSE%20Disclosure_25120579828836108.pdf
+33647:MGT.N0000,MGT.N0000,cash_dividend,2025-10-10,0.24,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement_33020331538632658.pdf
+36479:MGT.N0000,MGT.N0000,cash_dividend,2026-04-15,0.13,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HF%20-%20Announcement%20for%203rd%20Interim%20Dividend%20-%2031.03.2026_48744314345153367.pdf
+37818:MGT.N0000,MGT.N0000,cash_dividend,2026-07-09,0.11,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HF-1st%20Interim%20Dividend%20Letter%20%2830.6.2026%29_5694726450279446.pdf
+39438:MGT.N0000,MGT.N0000,cash_dividend,2026-10-09,0.27,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HF-2nd%20Interim%20Dividend%20CSE%20Letter%20%2830.9.2026%29_13638526251645924.pdf
+31836:SINS.N0000,SINS.N0000,cash_dividend,2025-07-11,0.32,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement_25121970538249858.pdf
+33642:SINS.N0000,SINS.N0000,cash_dividend,2025-10-10,0.36,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement_33020014408972695.pdf
+35061:SINS.N0000,SINS.N0000,cash_dividend,2026-01-09,0.31,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SSL%20Market%20Announcement%20-%20signed_40881527582893503.pdf
+36496:SINS.N0000,SINS.N0000,cash_dividend,2026-04-15,0.85,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SSL%20-%20Announcement%20-%204th%20Interim%20Dividend%20-%2031.03.2026_48747598235622621.pdf
+37820:SINS.N0000,SINS.N0000,cash_dividend,2026-07-09,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SSL-CSE%20Letter%20-%201st%20Interim%20Dividend%20%2830.6.2026%29_5695010437573403.pdf
+39440:SINS.N0000,SINS.N0000,cash_dividend,2026-10-09,0.34,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SSL-CSE%20Letter%20-%202nd%20Interim%20Dividend%20%2830.9.2026%29_13639165568469200.pdf
+31837:HAYC.N0000,HAYC.N0000,cash_dividend,2025-07-11,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_25123374884429353.pdf
+33640:HAYC.N0000,HAYC.N0000,cash_dividend,2025-10-10,0.82,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HAYC_Annoucement_30%20September%202025_33019903074470414.pdf
+35058:HAYC.N0000,HAYC.N0000,cash_dividend,2026-01-09,1.05,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_30%20Dec%202025_40880602049808925.pdf
+36450:HAYC.N0000,HAYC.N0000,cash_dividend,2026-04-15,1.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Hayc_CSE%20Announcement_31%20March%202026_48739634047942763.pdf
+37804:HAYC.N0000,HAYC.N0000,cash_dividend,2026-07-09,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HAYC_CSE%20Announcement_30%20June%202026_5692781593761457.pdf
+39445:HAYC.N0000,HAYC.N0000,cash_dividend,2026-10-09,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_13641076737753012.pdf
+31974:CTEA.N0000,CTEA.N0000,cash_dividend,2025-08-01,20,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Notice%20-%20Dividend_25646803180026149.pdf
+38038:CTEA.N0000,CTEA.N0000,cash_dividend,2026-08-07,25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Notice%20-%20Dividend-%20update%20of%20AGM%20date_6898742139927508.pdf
+32539:DOCK.N0000,DOCK.N0000,rights,2025-09-10,,9,2,,40,needs_review,ratio read from text: 'nine (9) new ordinary voting shares for every two (2) existing ordinary voting shares',https://cdn.cse.lk/cmt/announcement_portal_prod/11d%29CSE%20Announcement-RI%20timeline-11Aug2025-to%20CSE_28699970877945210.pdf
+34271:DOCK.N0000,DOCK.N0000,rights,2025-12-05,,9,2,,40,needs_review,ratio read from text: 'nine (9) new ordinary voting shares for every two (2) existing ordinary voting shares',https://cdn.cse.lk/cmt/announcement_portal_prod/07Nov2025-CSE%20Announcement%20%28RI%20dates%29-F_36298780603554308.pdf
+31992:BREW.N0000,BREW.N0000,cash_dividend,2025-07-17,23.85,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BREW-CSE-ANN-2025-JF-02-%201st%20Interim%20Dividend%20FY%20Ending%2031%20Mar%202026_25671611358339741.pdf
+37548:BREW.N0000,BREW.N0000,cash_dividend,2026-06-25,67.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BREW-CSE-ANN-2026-JF-04%20-%201st%20Interim%20Dividend%20for%20Year%202026-27_4482101691978816.pdf
+31995:BRR.N0000,BRR.N0000,cash_dividend,2025-08-11,0.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Coperate%20Disclosure_25675313519589090.pdf
+38033:BRR.N0000,BRR.N0000,cash_dividend,2026-08-10,0.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20ANNOUCEMENT_6895103309652855.pdf
+31996:CINV.N0000,CINV.N0000,cash_dividend,2025-07-17,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CINV-CSE-ANN-2025-ST-03%20-%202nd%20Interim%20Dividend%20FYE%2031%20Mar%202025%20%28Rs.3.00%29_25676055160168678.pdf
+31998:COLO.N0000,COLO.N0000,subdivision,2025-10-23,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_25678958898685471.pdf
+38316:COLO.N0000,COLO.N0000,cash_dividend,2026-09-11,0.4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CMH-%20CSE%20Announcement-Dividend_8638124782264163.pdf
+32093:SFCL.N0000,SFCL.N0000,cash_dividend,2025-08-06,2.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%202_26342444610975499.pdf
+35051:SFCL.N0000,SFCL.N0000,rights,2026-01-20,,1,20,,240,needs_review,ratio read from text: 'One (01) new Ordinary Share for every Twenty (20) existing Ordinary Shares',https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20%28Rights%20Issue%20Dates%29_40807228884742259.pdf
+37523:SFCL.N0000,SFCL.N0000,cash_dividend,2026-07-31,2.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_4377802365029630.pdf
+32164:GUAR.N0000,GUAR.N0000,cash_dividend,2025-07-29,5.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/GUAR-CSE-ANN-2025-ST-03%20-%202nd%20Interim%20Dividend%20FYE%202024-25_26629364702415550.pdf
+32191:SOY.N0000,SOY.N0000,cash_dividend,2025-08-28,6.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20-%20signed_26883540166411185.pdf
+37713:SOY.N0000,SOY.N0000,cash_dividend,2026-08-14,8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/First%20%26%20Final%20Dividend%20Letter%20_5359737595966928.pdf
+33963:EBCR.N0000,EBCR.N0000,rights,2025-11-12,,1,10,,60,needs_review,ratio read from text: 'One (01) new Ordinary Share for every Ten (10) existing Ordinary Shares',https://cdn.cse.lk/cmt/announcement_portal_prod/EBCPLC%20-%20Disclosure%20dated%2017.10.2025_34489412446584585.pdf
+34091:EBCR.N0000,EBCR.N0000,cash_dividend,2025-11-06,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20dated%2027.10.2025_35349821098783557.pdf
+35878:EBCR.N0000,EBCR.N0000,cash_dividend,2026-03-06,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/EBCPLC%20-%20CSE%20Letter%20dated%2024.02.2026_45717181258506492.pdf
+32287:APLA.N0000,APLA.N0000,cash_dividend,2025-08-06,25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/A%20C%20L%20Plastics%20PLC%20-%20Dividend%20disclosure_27476612161003507.pdf
+33825:APLA.N0000,APLA.N0000,subdivision,2025-12-29,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/A%20C%20L%20Plastics%20PLC%20-%20Subdivision%20of%20Shares_33797414985545020.pdf
+38317:APLA.N0000,APLA.N0000,cash_dividend,2026-08-12,3.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/A%20C%20L%20Plastics%20PLC-%20Announcement%20of%20Dividend_8643163566105289.pdf
+32312:CCS.N0000,CCS.N0000,cash_dividend,2025-08-07,0.997,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCS%20Dividnd%20Letter_27569809544101164.pdf
+34159:CCS.N0000,CCS.N0000,cash_dividend,2025-11-12,1.21,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCS%20Dividend%20Letter_35691870073401626.pdf
+35434:CCS.N0000,CCS.N0000,cash_dividend,2026-02-05,1.478,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCS%20Dividend%20Letter_43210281021593601.pdf
+36989:CCS.N0000,CCS.N0000,cash_dividend,2026-05-25,3.349,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCS%20Dividend%20Letter_1622636754902009.pdf
+38167:CCS.N0000,CCS.N0000,cash_dividend,2026-08-05,1.08,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCS%20Dividend%20Letter_7757345591523115.pdf
+32313:KFP.N0000,KFP.N0000,cash_dividend,2025-08-07,0.37,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KFP%20Dividnd%20Letter_27570438277815173.pdf
+34131:KFP.N0000,KFP.N0000,cash_dividend,2025-11-10,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KFP%20Dividend%20Letter_35519869389672676.pdf
+35435:KFP.N0000,KFP.N0000,cash_dividend,2026-02-05,1.65,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KFP%20Dividend%20Letter_43210753677911844.pdf
+36990:KFP.N0000,KFP.N0000,cash_dividend,2026-05-25,2.67,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KFP%20Dividend%20Letter_1622922652300785.pdf
+38169:KFP.N0000,KFP.N0000,cash_dividend,2026-08-05,0.27,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KFP%20Dividend%20Letter_7757557561543588.pdf
+32335:CARS.N0000,CARS.N0000,cash_dividend,2025-08-11,6.39,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CARS-CSE-ANN-2025-JF-04%20-2nd%20Interim%20Dividend%20for%202024%2025_27660182156427928.pdf
+34422:CARS.N0000,CARS.N0000,cash_dividend,2025-11-28,5.27,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CARS-ANN-2025-JF-09%20-%20First%20Interim%20Dividend%20FY%202025%2026_37340190978271418.pdf
+37859:CARS.N0000,CARS.N0000,cash_dividend,2026-07-10,7.4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CARS-CSE-2026-JF-06-%20Second%20Interim%20Dividend%202026_5781634463404442.pdf
+32343:HARI.N0000,HARI.N0000,cash_dividend,2025-09-08,40,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Harischandra%20-%20Final%20dividend%20announcement%20CSE%20%28NEW%29%20%281%29_27723350868202328.pdf
+38259:HARI.N0000,HARI.N0000,cash_dividend,2026-09-23,73,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/2026.07.31%20-%20CSE%20Disclosure%20-%20Harischandra%20Mills%20PLC%20-%20Dividend%20Distribution_8371865566087213.pdf
+38788:HARI.N0000,HARI.N0000,cash_dividend,2026-09-24,73,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/2026.08.31%20-%20CSE%20Disclosure%20-%20Harischandra%20Mills%20PLC%20-%20Dividend%20Distribution_11050974249495387.pdf
+32365:CSLK.N0000,CSLK.N0000,cash_dividend,2025-08-12,0.28,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSLK%20Disclosure_27758032938855074.pdf
+38684:CSLK.N0000,CSLK.N0000,cash_dividend,2026-09-08,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSLK%20Dividend%20Disclosure%20CSE%2028.08.2026_10786320127845965.pdf
+32366:BPPL.N0000,BPPL.N0000,cash_dividend,2025-08-13,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_27811423647191227.pdf
+35548:BPPL.N0000,BPPL.N0000,cash_dividend,2026-02-12,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_43789717678654535.pdf
+38391:BPPL.N0000,BPPL.N0000,cash_dividend,2026-08-18,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BPPL%20LETTER_8947949610226091.pdf
+32437:SWAD.N0000,SWAD.N0000,cash_dividend,2025-09-15,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE-%20Announcement-%2004.08.2025_28097831681380641.pdf
+32457:CIC.N0000,CIC.N0000,subdivision,2025-10-22,,4,1,5,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Sub%20Division%20of%20Shares_28198962286516450.pdf
+32457:CIC.X0000,CIC.X0000,subdivision,2025-10-22,,4,1,5,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Sub%20Division%20of%20Shares_28198962286516450.pdf
+37168:CIC.N0000,CIC.N0000,cash_dividend,2026-07-01,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CIC%20Holdings%20PLC%20-%20Announcement%20-%20Final%20Dividend_2872245365978691.pdf
+37168:CIC.X0000,CIC.X0000,cash_dividend,2026-07-01,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CIC%20Holdings%20PLC%20-%20Announcement%20-%20Final%20Dividend_2872245365978691.pdf
+32463:JKL.N0000,JKL.N0000,cash_dividend,2025-08-18,0.45,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKL%20Dividend%20Announcement%20Letter_28262912303995395.pdf
+34228:JKL.N0000,JKL.N0000,cash_dividend,2025-11-14,0.45,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKL%20Dividend%20Letter_36038434212899604.pdf
+35465:JKL.N0000,JKL.N0000,cash_dividend,2026-02-06,0.45,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKL%20Dividend%20Letter_43294983067286135.pdf
+37098:JKL.N0000,JKL.N0000,cash_dividend,2026-06-04,1.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JK%20PLC%20DIVIDEND%20LETTER%2025%20MAY%202026_2576164819775895.pdf
+38425:JKL.N0000,JKL.N0000,cash_dividend,2026-08-19,0.33,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKL%20Dividend%20Letter_9228583984702208.pdf
+32474:KCAB.N0000,KCAB.N0000,cash_dividend,2025-08-18,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Kelani%20Cables%20PLC%20-%20Dividend%20Announcement_28273802458731828.pdf
+33828:KCAB.N0000,KCAB.N0000,subdivision,2025-12-29,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Kelani%20Cables%20PLC%20-%20Subdivision%20of%20Shares-%20Announcement_33799043752254529.pdf
+38343:KCAB.N0000,KCAB.N0000,cash_dividend,2026-08-14,1.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Kelani%20Cables%20PLC%20-%20Interim%20Dividend%20-%20Announcement-%202026_8793805070471401.pdf
+32508:HPWR.N0000,HPWR.N0000,cash_dividend,2025-08-19,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Resus%20div%20annou%20Aug%2025_28357756601886701.pdf
+34261:HPWR.N0000,HPWR.N0000,subdivision,2026-01-08,,4,1,5,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Sub%20div%20announce%20Nov%2025%20%281%29-signed%20%281%29_36233808658974935.pdf
+32545:BOGA.N0000,BOGA.N0000,cash_dividend,2025-08-21,8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20-%20CSE_28756617611263614.pdf
+32563:AAIC.N0000,AAIC.N0000,cash_dividend,2025-08-21,4.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Dividend%20-%20Aug%202025_28784469611655115.pdf
+37607:AAIC.N0000,AAIC.N0000,cash_dividend,2026-07-02,5.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/INTERIM%20DIVIDEND%20ANNOUNCEMENT_4994263359860578.pdf
+32570:CTC.N0000,CTC.N0000,cash_dividend,2025-08-21,41,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Declaration%20of%20a%20Second%20Interim%20Dividend%20for%202025_28788214477257251.pdf
+34331:CTC.N0000,CTC.N0000,cash_dividend,2025-11-21,37,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Q3%202025%20-%20Third%20interim%20dividend%20declaration%20CSE_36741061915691895.pdf
+35798:CTC.N0000,CTC.N0000,cash_dividend,2026-02-27,28,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Declaration%20of%20Fourth%20Interim%20Dividend%202025_45203338086274558.pdf
+36706:CTC.N0000,CTC.N0000,cash_dividend,2026-05-27,17.54,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20Final%20Dividend%20Declaration%202025_50482789163193831.pdf
+36968:CTC.N0000,CTC.N0000,cash_dividend,2026-05-21,34,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20First%20Interim%20Dividend%20Declaration%202026_1458823915207401.pdf
+38464:CTC.N0000,CTC.N0000,cash_dividend,2026-08-24,41,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20the%20CSE_9492594581150881.pdf
+32588:TYRE.N0000,TYRE.N0000,cash_dividend,2025-08-25,6.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Accouncement%20-%20Interim%20Dividend%20signed_28933208320426746.pdf
+38533:TYRE.N0000,TYRE.N0000,cash_dividend,2026-09-01,6.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Anounucement-CSE-Dividend_10005142169364181.pdf
+32616:LALU.N0000,LALU.N0000,cash_dividend,2025-09-23,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RA-501%20to%20CSE-Dividend%20Announcement%20%2815.08.25%29_29044074766191730.pdf
+38538:LALU.N0000,LALU.N0000,cash_dividend,2026-09-22,1.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RA-490%20to%20CSE-Dividend%20Announcement%20%2819.08.26%29_10008979815743524.pdf
+32623:MCPL.N0000,MCPL.N0000,cash_dividend,2025-09-26,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/DOC-20250815-WA0005._29062780828887766.pdf
+38653:MCPL.N0000,MCPL.N0000,cash_dividend,2026-10-01,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/DOC-20260828-WA0002_10758773688557505.pdf
+32669:WAPO.N0000,WAPO.N0000,cash_dividend,2025-09-22,0.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Disclosure_29362783439129315.pdf
+32857:WAPO.N0000,WAPO.N0000,scrip,2025-09-22,,1,42.05405405,1.02377892,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement%20for%20Scrip%20Dividend_30081105140802539.pdf
+35552:WAPO.N0000,WAPO.N0000,subdivision,2026-03-20,,3,1,4,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Disclosure%20-Sub%20division_43798734337129054.pdf
+39086:WAPO.N0000,WAPO.N0000,scrip,2026-09-24,,1,29.14286066,1.03431372,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/GFCP_ScripD_Dates_20260910_0001_11934073243877217.pdf
+32762:DIST.N0000,DIST.N0000,cash_dividend,2025-09-02,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_29643056088482852.pdf
+34482:DIST.N0000,DIST.N0000,cash_dividend,2025-12-03,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%2024.11.2025_37767877481288828.pdf
+35830:DIST.N0000,DIST.N0000,cash_dividend,2026-03-04,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%2020.02.2026_45369752462116626.pdf
+37699:DIST.N0000,DIST.N0000,cash_dividend,2026-07-08,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%2026.06.2026_5340771909472893.pdf
+32764:MELS.N0000,MELS.N0000,cash_dividend,2025-09-02,1.72,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Third%20interim%20dividend_22.08.2025_29644329029092570.pdf
+34479:MELS.N0000,MELS.N0000,cash_dividend,2025-12-03,2.15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/First%20interim%20dividend_24.11.2025_37765923034508179.pdf
+35842:MELS.N0000,MELS.N0000,cash_dividend,2026-03-05,2.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Second%20interim%20dividend_20.02.2026_45601633379465749.pdf
+37700:MELS.N0000,MELS.N0000,cash_dividend,2026-07-08,3.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Third%20interim%20dividend_26.06.2026_5341398060285164.pdf
+32768:KOTA.N0000,KOTA.N0000,rights,2025-09-17,,,,,,needs_review,ratio read from text: '1 new share for every 4 existing shares'; subscription price not found,https://cdn.cse.lk/cmt/announcement_portal_prod/KPPLC-%20Rights%20Issue%20Dates_29647303594731122.pdf
+32773:RENU.N0000,RENU.N0000,cash_dividend,2025-09-23,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RCH-Dividend%20Announcement_29649274147787271.pdf
+38663:RENU.N0000,RENU.N0000,cash_dividend,2026-09-23,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RCH-Dividend%20Announcement_10782691831992754.pdf
+32774:CABO.N0000,CABO.N0000,cash_dividend,2025-09-23,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CBD-Dividend%20Announcment_29649573293036186.pdf
+38666:CABO.N0000,CABO.N0000,cash_dividend,2026-09-23,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CBD-Dividend%20Announcement_10783204616201792.pdf
+32776:RCH.N0000,RCH.N0000,cash_dividend,2025-09-23,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RHL-Dividend%20Announcement_29649809687725975.pdf
+38668:RCH.N0000,RCH.N0000,cash_dividend,2026-09-23,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RHL-Dividend%20Announcement_10783447820340880.pdf
+32799:HPFL.N0000,HPFL.N0000,cash_dividend,2025-09-03,0.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_29899970238057840.pdf
+32861:CALT.N0000,CALT.N0000,cash_dividend,2025-09-09,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SP-85%20%20to%20CSE%20-%20Interim%20dividend%20of%20pre%20share%20for%20the%20financial%20year%20ending%2031st%20march-26%20%2828.08.25%29_30143229899806734.pdf
+34851:CALT.N0000,CALT.N0000,cash_dividend,2025-12-24,12,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SP-115%20to%20CSE%20-%20Second%20interim%20dividend%20financial%20year%20ending%2031st%20March-26%20%2815.12.25%29_39583961118956976.pdf
+32886:ABAN.N0000,ABAN.N0000,cash_dividend,2025-09-26,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_30151149190573028.pdf
+38578:ABAN.N0000,ABAN.N0000,cash_dividend,2026-09-28,26,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_10185816387208187.pdf
+32913:RWSL.N0000,RWSL.N0000,cash_dividend,2025-10-01,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SGD-%20ANNOUNCEMENT_20250828_0001_30168858469235548.pdf
+38656:RWSL.N0000,RWSL.N0000,cash_dividend,2026-09-30,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_20260827_0001_10771544477898057.pdf
+32918:CFLB.N0000,CFLB.N0000,cash_dividend,2025-09-30,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20dated%2028.08.2025_30170329701555982.pdf
+32927:LPRT.N0000,LPRT.N0000,cash_dividend,2025-09-30,6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement%20new_30229751301620910.pdf
+39039:LPRT.N0000,LPRT.N0000,cash_dividend,2026-10-01,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Disclosure%202025-2026_11795250739602937_11796149552270044.pdf
+33004:COCR.N0000,COCR.N0000,cash_dividend,2025-10-01,6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%201%20Announcement_30483103316120279.pdf
+36527:COCR.N0000,COCR.N0000,cash_dividend,2026-04-16,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%2002.04.2026%20Announcement_48902601862090349.pdf
+38250:COCR.N0000,COCR.N0000,cash_dividend,2026-09-02,7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20_8349873210259891.pdf
+33060:SHAW.N0000,SHAW.N0000,cash_dividend,2025-09-29,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend-%20Initial%20Announcement_30516091163985202.pdf
+38490:SHAW.N0000,SHAW.N0000,cash_dividend,2026-09-22,2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/IMG_20260814_0015_9576829629271036.pdf
+33066:SLND.N0000,SLND.N0000,cash_dividend,2025-09-24,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Serendib%20Land-Dividend%20Announcement%202025_30518644491515050.pdf
+33320:PACK.N0000,PACK.N0000,cash_dividend,2025-09-24,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/The%20announcement%20of%201st%20interim%20dividend%2025-26_31721723589197660.pdf
+36226:PACK.N0000,PACK.N0000,cash_dividend,2026-03-27,0.37,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_47593861535411168.pdf
+33353:ACL.N0000,ACL.N0000,cash_dividend,2025-09-26,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/A%20C%20L%20Cables%20PLC%20-%20Announcement%20of%20Dividend_31883588555261387.pdf
+33827:ACL.N0000,ACL.N0000,subdivision,2025-12-29,,2,1,3,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/A%20C%20L%20Cables%20PLC%20-%20Subdivision%20-Announcement_33798829811134039.pdf
+39359:ACL.N0000,ACL.N0000,cash_dividend,2026-10-07,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/A%20C%20L%20Cables%20PLC%20-Dividend%20Announcement%20-%202026_13457934127860544.pdf
+33368:FCT.N0000,FCT.N0000,cash_dividend,2025-10-10,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/FCT%20Final%20Dividend%20-%2017th%20September%202025%20final%20signed_31955765072346457.pdf
+35245:ACME.N0000,ACME.N0000,rights,2026-02-05,,,,,2.5,needs_review,ratio read from text: '06 new ordinary shares for every 01 existing ordinary share',https://cdn.cse.lk/cmt/announcement_portal_prod/RA-20%20to%20CSE-Rights%20Issue%20of%20shares-25%20%2812.01.26%29_42069353788251595.pdf
+33391:ABL.N0000,ABL.N0000,cash_dividend,2025-09-30,1.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Interim%20Cash%20Dividend%202025_32063710174551239.pdf
+33438:RFL.N0000,RFL.N0000,cash_dividend,2025-10-01,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/LA-859%20to%20CSE%20-%20Dividend%20announcement%20-%20Interim%20divi%20of%20Rs.%20.1.00%20financial%20year%202025-2026%20%2819.09.25%29_32323193969973433.pdf
+39077:RFL.N0000,RFL.N0000,cash_dividend,2026-09-21,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/LA-1054%20to%20CSE%20-%20Dividend%20announcement%20-%20Interim%20divi%20of%20Rs.%200.50%20financial%20year%202026-2027%20%2809.09.26%29_11909362186507289.pdf
+33638:HOPL.N0000,HOPL.N0000,cash_dividend,2025-10-10,0.69,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement_33019566415955822.pdf
+35060:HOPL.N0000,HOPL.N0000,cash_dividend,2026-01-09,0.63,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HPL%20-%20Market%20Announcement_40881340330808384.pdf
+36469:HOPL.N0000,HOPL.N0000,cash_dividend,2026-04-15,0.78,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/HPL%20-%20Declaration%20of%20Interim%20Dvidend%20-%20Announcement%20%2831.03.2026%29_48743109185241341.pdf
+33644:KVAL.N0000,KVAL.N0000,cash_dividend,2025-10-10,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KVPL%20Int%20Dividend%20September%202025-Annoucement_33020099723280888.pdf
+35059:KVAL.N0000,KVAL.N0000,cash_dividend,2026-01-09,1.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KVPL_Announcement_30%20Dec%202025_40880830674318887.pdf
+36452:KVAL.N0000,KVAL.N0000,cash_dividend,2026-04-15,1.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KVPL_CSE%20Announcement_31%20March%202026_48739766378574502.pdf
+37805:KVAL.N0000,KVAL.N0000,cash_dividend,2026-07-09,0.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KVPL_CSE%20Announcement_30%20June%202026_5693086031158119.pdf
+39446:KVAL.N0000,KVAL.N0000,cash_dividend,2026-10-09,0.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KVPL%20CSE%20Announcement_13641206715303572.pdf
+33645:TPL.N0000,TPL.N0000,cash_dividend,2025-10-10,1.74,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement%20First%20Interim%20CSE_33020107073213333.pdf
+35077:TPL.N0000,TPL.N0000,cash_dividend,2026-01-12,1.55,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/ANNOUNCEMENT%20CSE_40963188855090572.pdf
+36484:TPL.N0000,TPL.N0000,cash_dividend,2026-04-15,4.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20ANNOUNCEMENT%20-%20THIRD%20INTERIM%20DIVIDEND_48744584123161368.pdf
+37816:TPL.N0000,TPL.N0000,cash_dividend,2026-07-09,1.42,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Interim%20announcement_5695109046175758.pdf
+39443:TPL.N0000,TPL.N0000,cash_dividend,2026-10-09,0.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/TTEL%20Dividend%20-%20CSE%20Disclosure_13639661800965813.pdf
+33696:CALH.N0000,CALH.N0000,cash_dividend,2025-10-14,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SP-101%20to%20CSE%20-%20Announcement%20-%20Interim%20dividend%20of%20Rs.%201.00%20per%20share%20year%20ending%20%2801.10.25%29_33165287117161184.pdf
+33819:CFVF.N0000,CFVF.N0000,cash_dividend,2025-10-21,7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/FCH%20-%20CSE%20announcement%20for%20Interim%20dividend_9th%20Oct%202025%20final%20signed_33795754339099468.pdf
+33841:UCAR.N0000,UCAR.N0000,cash_dividend,2025-10-22,38,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/IMG_20251010_0011_33877087137828742.pdf
+37032:UCAR.N0000,UCAR.N0000,cash_dividend,2026-06-15,44,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Initial%20announcement-%20Final%20Dividend_1975618744344378.pdf
+33948:MFPE.N0000,MFPE.N0000,cash_dividend,2025-11-17,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20to%20CSE%20-%20Final%20dividend%20announcement%20-%2017.10.2025_34477314363784916.pdf
+35217:MFPE.N0000,MFPE.N0000,rights,2026-02-02,,1,10,,9,needs_review,ratio read from text: 'One (01) new Ordinary Share for every Ten (10) existing issued Ordinary Shares',https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20to%20CSE%20-%2009.01.2025_41746542067129599.pdf
+39096:MFPE.N0000,MFPE.N0000,scrip,2026-09-28,,1,188.23548739,1.00531249,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20to%20CSE%20-%20Final%20Scrip%20Dividend%20Dates_11995737617418555.pdf
+34033:BFL.N0000,BFL.N0000,cash_dividend,2025-11-03,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Annt_34979772458657600.pdf
+34036:BFL.N0000,BFL.N0000,subdivision,2025-12-26,,4,1,5,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20for%20Sub-Division%20of%20Shares_34978697305886392.pdf
+37136:BFL.N0000,BFL.N0000,cash_dividend,2026-06-08,0.82,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Bairaha%20Farms%20PLC-Dividend%20-ANNOUNCEMENT_2722900862516622.pdf
+34045:LITE.N0000,LITE.N0000,cash_dividend,2025-11-03,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Letter%20dated%2023.10.2025%20-%20Interim%20Dividend_35006020888856250.pdf
+35834:LITE.N0000,LITE.N0000,cash_dividend,2026-03-04,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Letter%20dated%2020.02.2026_45371094886169283.pdf
+34057:CTBL.N0000,CTBL.N0000,cash_dividend,2025-11-04,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_35095320041674619.pdf
+38779:CTBL.N0000,CTBL.N0000,cash_dividend,2026-09-09,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_11050036259921088.pdf
+34127:PKME.N0000,PKME.N0000,cash_dividend,2025-11-10,1.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SK-574%20to%20CSE%20-%20First%20Interim%20dividend%20share%20for%20the%20financial%20year%2025-26%20%2828.10.25%29_35511489158168523.pdf
+37113:PKME.N0000,PKME.N0000,cash_dividend,2026-07-01,2.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SK-516%20to%20CSE%20-%20Final%20Divident%20of%20share%20for%20the%20financial%20year%20ended%2031st%20March-26%20%2825.05.26%29_2652867357757527.pdf
+34149:LLUB.N0000,LLUB.N0000,cash_dividend,2025-11-11,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%2030th%20October%20%202025_35608903594260790.pdf
+35924:LLUB.N0000,LLUB.N0000,cash_dividend,2026-03-10,7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/announcement_45892662571495489.pdf
+34227:JKH.N0000,JKH.N0000,cash_dividend,2025-11-14,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKH%20Dividend%20Letter%20N_36041047482593967.pdf
+35485:JKH.N0000,JKH.N0000,cash_dividend,2026-02-09,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKH%20Dividend%20Letter%202026_43381650509047084.pdf
+37122:JKH.N0000,JKH.N0000,cash_dividend,2026-06-05,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKH%20FINAL%20DIVIDEND%20LETTER%2026%20MAY%202026_2662414237411386.pdf
+34238:WATA.N0000,WATA.N0000,cash_dividend,2025-11-14,1.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Disclsoure_36044471882449846.pdf
+37155:WATA.N0000,WATA.N0000,cash_dividend,2026-06-26,0.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Disclosure%20-%2027th%20May%202026%20-Final%20II%20%281%29_2752859043891656.pdf
+34251:SUN.N0000,SUN.N0000,cash_dividend,2025-11-17,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Interim%20Dividend%20Announcement_36212739655633119.pdf
+35662:SUN.N0000,SUN.N0000,cash_dividend,2026-02-19,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Second%20Interim%20Dividend-SUN_44506546315601319.pdf
+37191:SUN.N0000,SUN.N0000,cash_dividend,2026-06-26,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20dividend%20uploaded_2919747242227834.pdf
+34257:CARG.N0000,CARG.N0000,cash_dividend,2025-11-17,5.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCP%20Letter%20to%20CSE%20dated%2006%20Nov.%202025%20re.%20Dividend%20payment%20of%20Interim%20Dividend%202025-2026_36218277067423908.pdf
+36999:CARG.N0000,CARG.N0000,cash_dividend,2026-05-25,12.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCP%20Letter%20to%20CSE%20re.%20Second%20Interim%20Dividend%20for%20the%20Financial%20Year%202025-26_1630477109276470.pdf
+34273:HHL.N0000,HHL.N0000,cash_dividend,2025-11-18,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20the%20Exchange_36298839640591485.pdf
+37076:HHL.N0000,HHL.N0000,cash_dividend,2026-06-30,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%2022%2005%202026_2323520051832953.pdf
+34276:CTHR.N0000,CTHR.N0000,cash_dividend,2025-11-18,4.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/20251107%20CTH%20Letter%20to%20CSE%20re.%20Announcement%20of%20%20Interim%20Dividend%20FY%202025-26_36304779710868345.pdf
+37000:CTHR.N0000,CTHR.N0000,cash_dividend,2026-05-25,10.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CTH%20Letter%20to%20CSE%20re.%20Second%20Interim%20Dividend%20for%20the%20Financial%20Year%202025-26_1630638182201038.pdf
+34288:RICH.N0000,RICH.N0000,cash_dividend,2025-11-19,0.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20_36556957352376713.pdf
+37944:RICH.N0000,RICH.N0000,cash_dividend,2026-07-16,0.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20_6294569828655820.pdf
+34295:LION.N0000,LION.N0000,cash_dividend,2025-11-19,17,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/LION-CSE-ANN-2025-JF-06%20-%201st%20Interim%20Dividend%20for%202025-26_36565442056813951.pdf
+37021:LION.N0000,LION.N0000,cash_dividend,2026-05-26,22.9,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/LION-CSE-ANN-2026-JF-05%20-%202nd%20Interim%20Dividend%202026_1716724259418556.pdf
+34297:UML.N0000,UML.N0000,cash_dividend,2025-11-19,2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Interim%20Dividend%20announcement%20to%20CSE._36565327553396258.pdf
+34456:UML.N0000,UML.N0000,subdivision,2026-01-22,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20%20to%20%20cse%202025.._37513869668876353.pdf
+35691:UML.N0000,UML.N0000,cash_dividend,2026-02-23,0.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Interim%20Dividend%20announcement%20to%20CSE_44655953176172799.pdf
+37316:UML.N0000,UML.N0000,cash_dividend,2026-07-01,0.4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20Dividend%202025-26%20announcement%20to%20CSE_3416174787669677.pdf
+34323:GREG.N0000,GREG.N0000,cash_dividend,2025-11-21,9.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20of%20Dividend_36711217131336059.pdf
+36221:GREG.N0000,GREG.N0000,subdivision,2026-05-19,,3,1,4,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20initial%20announcement_47533143682519622.pdf
+34345:COMD.N0000,COMD.N0000,cash_dividend,2025-11-24,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement-Amended2_36821276147793272.pdf
+35728:COMD.N0000,COMD.N0000,cash_dividend,2026-03-31,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Letter_44768558554660930.pdf
+34354:ASIY.N0000,ASIY.N0000,cash_dividend,2025-11-25,0.23,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20-%20Asia%20Siyaka_36904637889071162.pdf
+37132:ASIY.N0000,ASIY.N0000,cash_dividend,2026-06-05,0.24,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_2671674292356328.pdf
+34361:YORK.N0000,YORK.N0000,subdivision,2026-01-09,,199,1,200,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/YAH%20announcement_36906591962112300.pdf
+34432:CFIN.N0000,CFIN.N0000,cash_dividend,2025-12-01,2.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CF%20-%20CSE%20announcement_20.11.2025_interim%20dividend_37417845956278202.pdf
+37147:CFIN.N0000,CFIN.N0000,cash_dividend,2026-07-01,3.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20announcement_final%20dividend_2749843556197169.pdf
+34554:CWM.N0000,CWM.N0000,subdivision,2026-02-06,,4,1,5,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_38030894238538449.pdf
+37350:CWM.N0000,CWM.N0000,cash_dividend,2026-07-01,1.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20DIVIDEND%20ANNOUNCEMENT%20LETTER_3452712253202179.pdf
+34633:NAMU.N0000,NAMU.N0000,subdivision,2026-03-09,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20-%20Announcement%20_38462301740625293.pdf
+36425:NAMU.N0000,NAMU.N0000,cash_dividend,2026-04-10,2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/NPL%20-%20CSE%20Announcement_48664164384755298.pdf
+37897:AAF.N0000,AAF.N0000,rights,2026-07-31,,,,,33.3,needs_review,ratio read from text: '04 (Four) new Ordinary Voting Shares will be provisionally allotted to every 11 (Eleven) O',https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Disclosure-Rights%20issue_5922409743961601.pdf
+38053:AAF.N0000,AAF.N0000,cash_dividend,2026-07-24,0.57,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Ordinary%20%20Shares-Announcement_7005132175659193.pdf
+34718:BUKI.N0000,BUKI.N0000,cash_dividend,2025-12-17,14.43,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BUKIT%20Announcement%20-%20%20BUKIT-CSE-ANN-2025-NM-06%20%28003%29_38983850502714039.pdf
+38050:BUKI.N0000,BUKI.N0000,cash_dividend,2026-07-24,5.73,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BUKIT-CSE-2026-ANN-SP-05%20-%201st%20Inerim%20Dividend%2031%20Mar%202027_6989776896837686.pdf
+35419:CBNK.N0000,CBNK.N0000,rights,2026-02-23,,14,45,,8.5,needs_review,ratio read from text: 'Fourteen (14) New Ordinary Shares for every Forty-Five (45) existing Ordinary Shares',https://cdn.cse.lk/cmt/announcement_portal_prod/23.01.2026%20-%20Rights%20issue%202026_42955078816476031.pdf
+34831:AEL.N0000,AEL.N0000,cash_dividend,2025-12-23,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_39330367623776231.pdf
+37556:AEL.N0000,AEL.N0000,cash_dividend,2026-06-26,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_4570572479080486.pdf
+35036:CDB.N0000,CDB.N0000,cash_dividend,2026-01-08,7.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/First%20Interim%20Dividend%20Announcement_40792197909674701.pdf
+35036:CDB.X0000,CDB.X0000,cash_dividend,2026-01-08,7.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/First%20Interim%20Dividend%20Announcement_40792197909674701.pdf
+35877:CDB.N0000,CDB.N0000,subdivision,2026-04-30,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/ANNOUNCEMENT%20OF%20PROPOSED%20SUB-DIVISION%20OF%20ORDINARY%20VOTING%20%26%20%20NON-VOTING%20SHARES_45716136938587766.pdf
+35877:CDB.X0000,CDB.X0000,subdivision,2026-04-30,,9,1,10,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/ANNOUNCEMENT%20OF%20PROPOSED%20SUB-DIVISION%20OF%20ORDINARY%20VOTING%20%26%20%20NON-VOTING%20SHARES_45716136938587766.pdf
+37262:CDB.N0000,CDB.N0000,cash_dividend,2026-07-01,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_3261303397766253.pdf
+37262:CDB.X0000,CDB.X0000,cash_dividend,2026-07-01,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_3261303397766253.pdf
+35071:AGPL.N0000,AGPL.N0000,cash_dividend,2026-01-12,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20to%20CSE%20dated%2031st%20December%2C%202025_40952459755682503.pdf
+35372:LDEV.N0000,LDEV.N0000,cash_dividend,2026-01-30,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20to%20CSE%20dated%2021.01.2026_42777675165816667.pdf
+35375:HAYL.N0000,HAYL.N0000,cash_dividend,2026-01-30,6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Hayleys%20PLC%20-%20Interim%20%26%20Rights%20Issue%20-%2021.01.2026_42785280661558295.pdf
+35920:HAYL.N0000,HAYL.N0000,rights,2026-03-18,,3,50,,200,needs_review,ratio read from text: 'Three (3) new Ordinary Voting Shares for every Fifty (50) existing Ordinary Voting Shares',https://cdn.cse.lk/cmt/announcement_portal_prod/Hayleys%20PLC%20-%20Rights%20Issue%20%28Dates%29%20-%2026.02.2026%20sgd_45891024838432502.pdf
+35401:JFP.N0000,JFP.N0000,cash_dividend,2026-02-03,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Cse%20Announcement%2023.01.2026_42945897385542028.pdf
+38984:JFP.N0000,JFP.N0000,cash_dividend,2026-09-15,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JFP%20CSE%20Disclosure%2004.09.2026_11393753792119030.pdf
+35456:LMF.N0000,LMF.N0000,cash_dividend,2026-02-06,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/INTERIM%20DIVIDEND%20ANNOUNCEMENT%20TO%20CSE%20-%2027.01.2026_43275455940722737.pdf
+36197:LVEF.N0000,LVEF.N0000,rights,2026-04-22,,3,31,,7.5,needs_review,ratio read from text: 'Three (03) new ordinary voting shares for every thirty one (31) ordinary voting shares',https://cdn.cse.lk/cmt/announcement_portal_prod/LVL%20-%20RI%20-%20Announcement%20-%20CSE%20%281%29_47445287005098943.pdf
+35486:GRAN.N0000,GRAN.N0000,cash_dividend,2026-02-09,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RA-65%20to%20CSE-Final%20Dividend%20for%20the%20year%20ended%2031st%20Dec-25%20%2828.01.26%29_43382632522975608.pdf
+35488:TAFL.N0000,TAFL.N0000,cash_dividend,2026-02-09,40,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RA-66%20to%20CSE-Final%20Dividend%20for%20the%20year%20ended%2031st%20Dec-25%20%2828.01.26%29_43382888025329549.pdf
+35715:KZOO.N0000,KZOO.N0000,rights,2026-03-04,,2,1,,7,needs_review,ratio read from text: 'Two (2) new Ordinary Voting Shares for every One (01) ordinary voting share',https://cdn.cse.lk/cmt/announcement_portal_prod/CLE_RI_Disclosure_13022026_20260213_0001_44746328864154378.pdf
+36348:ATL.N0000,ATL.N0000,rights,2026-04-17,,,,,19,needs_review,ratio read from text: '03 Ordinary Voting share for every 14 existing Ordinary Voting shares',https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20-%20Dates%20to%20CSE_20260326_0001_48310802978913901.pdf
+35626:COCO.N0000,COCO.N0000,subdivision,2026-03-20,,1,1,2,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/RFPLC_ExcerptofArticles_Subdivision_44166711724843240.pdf
+35626:COCO.X0000,COCO.X0000,subdivision,2026-03-20,,1,1,2,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/RFPLC_ExcerptofArticles_Subdivision_44166711724843240.pdf
+38780:COCO.N0000,COCO.N0000,cash_dividend,2026-09-25,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/R%20FOOD_0001_11059403945527568.pdf
+38780:COCO.X0000,COCO.X0000,cash_dividend,2026-09-25,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/R%20FOOD_0001_11059403945527568.pdf
+39111:COCO.N0000,COCO.N0000,scrip,2026-09-25,,1,294.44459493,1.00339622,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/R%20Foods-%20Dividend%20Dates_12069613810958297.pdf
+39111:COCO.X0000,COCO.X0000,scrip,2026-09-25,,1,248.89040279,1.00401783,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/R%20Foods-%20Dividend%20Dates_12069613810958297.pdf
+35633:JAT.N0000,JAT.N0000,cash_dividend,2026-02-17,0.44,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Disclosure%20-%20Final%20Dividend%2024-25_44166054161871108.pdf
+38216:JAT.N0000,JAT.N0000,cash_dividend,2026-08-07,0.72,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Disclosure%20-%20Final%20Dividend%20FY%2025-26_8105362064706630.pdf
+36405:DIAL.N0000,DIAL.N0000,cash_dividend,2026-06-12,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%2004-2026%20-%20Dividend%20dates_48651512123615644.pdf
+36422:DIAL.N0000,DIAL.N0000,cash_dividend,2026-06-12,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%2005-2026%20-%20Dividend%20dates%20-%20Further%20announcement_48661989054017821.pdf
+37007:DIAL.N0000,DIAL.N0000,cash_dividend,2026-05-26,0.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%2011%20-%202026%20-%20Interim%20Dividend%20Q1%202026%20-Announcement%20-_1687731627156779.pdf
+38499:DIAL.N0000,DIAL.N0000,cash_dividend,2026-08-25,0.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%2020%20-%202026%20-%20Interim%20Dividend%20Q2%202026%20-Announcement_9584913276223700.pdf
+35645:ONAL.N0000,ONAL.N0000,cash_dividend,2026-02-18,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20made%20to%20the%20CSE%20on%20Interim%20Dividend_44418955123007345.pdf
+38440:ONAL.N0000,ONAL.N0000,cash_dividend,2026-08-21,1.4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_9378422642680637.pdf
+35646:LFIN.N0000,LFIN.N0000,cash_dividend,2026-02-18,2.25,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_44419810094454893.pdf
+37159:LFIN.N0000,LFIN.N0000,cash_dividend,2026-07-01,5.95,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_2757082675988174.pdf
+35711:VPEL.N0000,VPEL.N0000,cash_dividend,2026-02-24,0.6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20CSE%20-%20signed_44741675496882611.pdf
+35768:PABC.N0000,PABC.N0000,cash_dividend,2026-04-02,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend_45088486804076826_45088565003129941.pdf
+35820:SAMP.N0000,SAMP.N0000,cash_dividend,2026-03-31,10.3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Sampath%20Bank%20PLC%20-%20Dividend%20Announcement%202025-26_45346980000216196.pdf
+35868:NTB.N0000,NTB.N0000,cash_dividend,2026-03-05,3.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_45635940607768512.pdf
+35868:NTB.X0000,NTB.X0000,cash_dividend,2026-03-05,3.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_45635940607768512.pdf
+35876:HASU.N0000,HASU.N0000,cash_dividend,2026-03-31,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20DIVIDEND%20CSE%20Announcement%20-%2024.02.2026_45720359433547407.pdf
+35880:CSD.N0000,CSD.N0000,cash_dividend,2026-04-02,1.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/IA-14%20to%20CSE%20-%20First%20%26%20Final%20dividend%20-%20Announcement%20%2824.02.26%29_45719755923838008.pdf
+35890:DFCC.N0000,DFCC.N0000,cash_dividend,2026-03-09,2.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_45779025869887529.pdf
+35905:HNB.N0000,HNB.N0000,cash_dividend,2026-04-02,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45809827412756503.pdf
+35905:HNB.X0000,HNB.X0000,cash_dividend,2026-04-02,15,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45809827412756503.pdf
+35922:SEYB.N0000,SEYB.N0000,cash_dividend,2026-04-02,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement-Dividend%20for%20the%20year%202025_45891352498204831.pdf
+35922:SEYB.X0000,SEYB.X0000,cash_dividend,2026-04-02,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement-Dividend%20for%20the%20year%202025_45891352498204831.pdf
+35929:COMB.N0000,COMB.N0000,cash_dividend,2026-04-02,8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20First%20and%20Final%20Dividend%20FY%202025_45894983093555721.pdf
+35929:COMB.X0000,COMB.X0000,cash_dividend,2026-04-02,8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20First%20and%20Final%20Dividend%20FY%202025_45894983093555721.pdf
+36113:COMB.N0000,COMB.N0000,scrip,2026-04-02,,1,108.23529454,1.00923913,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Date%20of%20AGM%2C%20XD%2C%20Record%20Date_46855826864959015.pdf
+36113:COMB.X0000,COMB.X0000,scrip,2026-04-02,,1,97.88235324,1.01021635,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Date%20of%20AGM%2C%20XD%2C%20Record%20Date_46855826864959015.pdf
+35940:UAL.N0000,UAL.N0000,cash_dividend,2026-03-11,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/UAL%20Dividend%20Letter%20New_45978569029145744.pdf
+35984:PARQ.N0000,PARQ.N0000,cash_dividend,2026-03-12,1.7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.%20Annoucement%20made%20to%20the%20CSE_46298235346519303.pdf
+37061:PARQ.N0000,PARQ.N0000,cash_dividend,2026-07-01,0.4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement_2233216014104054.pdf
+36024:TILE.N0000,TILE.N0000,cash_dividend,2026-03-12,1.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20made%20to%20the%20CSE%20on%20Interim%20Dividend_46333679413057862.pdf
+37084:TILE.N0000,TILE.N0000,cash_dividend,2026-07-01,0.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement_2326318275128236.pdf
+36039:OSEA.N0000,OSEA.N0000,cash_dividend,2026-04-30,1.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Dividend_46413894138301004.pdf
+36066:RCL.N0000,RCL.N0000,cash_dividend,2026-03-16,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_46501776164049777.pdf
+37214:RCL.N0000,RCL.N0000,cash_dividend,2026-07-01,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Final%20Dividend%20as%20at%2031st%20March%202026_2934461270708032.pdf
+36084:CPRT.N0000,CPRT.N0000,subdivision,2026-04-20,,69,1,70,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Subdivision%20of%20shares_46590648091642821.pdf
+39027:CPRT.N0000,CPRT.N0000,rights,2026-10-05,,1,4,,40,needs_review,ratio read from text: 'One (01) New Ordinary Voting Share for every Four (04) existing Ordinary Voting Shares hel',https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Rights%20Issue%20Dates_11733590680299175.pdf
+36176:TRAN.N0000,TRAN.N0000,cash_dividend,2026-03-24,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Trans%20Asia%20Dividend%20Letter_47182702317117439.pdf
+36195:SLTL.N0000,SLTL.N0000,cash_dividend,2026-06-22,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement%20FY%202025_47442925637486892.pdf
+36228:DIMO.N0000,DIMO.N0000,cash_dividend,2026-03-27,10,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20Interim%20Dividend%2025%2026%20final_47609408712728259.pdf
+37621:DIMO.N0000,DIMO.N0000,cash_dividend,2026-07-03,40,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20%281%29_5086644125796958.pdf
+36233:NDB.N0000,NDB.N0000,cash_dividend,2026-03-27,6.46,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/NDB%20Final%20Dividend%20Announcement%202025_47618491895001990.pdf
+36304:CINS.N0000,CINS.N0000,cash_dividend,2026-05-20,51,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/ANNOUNCEMENT_48137138247087697.pdf
+36304:CINS.X0000,CINS.X0000,cash_dividend,2026-05-20,51,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/ANNOUNCEMENT_48137138247087697.pdf
+36423:REXP.N0000,REXP.N0000,cash_dividend,2026-04-10,9,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RPE%20-%20CSE%20Annoucement_48663728763861878.pdf
+36424:MASK.N0000,MASK.N0000,cash_dividend,2026-04-10,4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/MPL%20-%20CSE%20Announcement_48663997127987253.pdf
+36429:KGAL.N0000,KGAL.N0000,cash_dividend,2026-04-10,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KPL%20-%20CSE%20Announcement_48671266949440494.pdf
+36495:ALUM.N0000,ALUM.N0000,cash_dividend,2026-04-15,0.47,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Alum_CSE%20Announcement_31%20March%202026_48747387847785700.pdf
+39447:ALUM.N0000,ALUM.N0000,cash_dividend,2026-10-09,0.2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Alumex%20_%20CSE%20Announcement_13641491385840533.pdf
+36994:HNBF.N0000,HNBF.N0000,rights,2026-06-02,,2,9,,5.5,needs_review,ratio read from text: 'Two (2) New Ordinary Voting Shares for every Nine (09) Existing Ordinary Voting Shares hel',https://cdn.cse.lk/cmt/announcement_portal_prod/Rights%20Issue%20Dates%20-%202026_1626983250008879.pdf
+36994:HNBF.X0000,HNBF.X0000,rights,2026-06-02,,2,9,,5,needs_review,ratio read from text: 'Two (2) New Ordinary Non-Voting Shares for every Nine (09) Existing Ordinary Non-Voting Sh',https://cdn.cse.lk/cmt/announcement_portal_prod/Rights%20Issue%20Dates%20-%202026_1626983250008879.pdf
+36735:AFSL.N0000,AFSL.N0000,cash_dividend,2026-05-04,2.72,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_50646874724552562.pdf
+37302:MBSL.N0000,MBSL.N0000,rights,2026-07-07,,,,,10,needs_review,ratio read from text: 'Four new Preference Shares for existing 21 ordinary shares',https://cdn.cse.lk/cmt/announcement_portal_prod/2026.06.03-CSE%20Letter_3359355486620907.pdf
+36891:ETWO.N0000,ETWO.N0000,cash_dividend,2026-05-14,4.41,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/ETWO-CSE-ANN-2026-NW-03%20-%20First%20Interim%20Dividend%2031%20Mar%202026_847843728839914.pdf
+37474:LIOC.N0000,LIOC.N0000,cash_dividend,2026-07-10,5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/LIOC%20First%20%26%20Final%20Dividend%20FY%202025-26-%20Further%20Announcement%20to%20CSE_3871916773745082.pdf
+37049:CIND.N0000,CIND.N0000,cash_dividend,2026-06-30,6,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Annct_2150919459085255.pdf
+37062:CERA.N0000,CERA.N0000,cash_dividend,2026-07-01,6.4,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20Dividend%20of%20Rs.%206.40%20per%20share%20for%20the%20year%20ended%2031st%20March%202026_2243503772651025.pdf
+37079:GLAS.N0000,GLAS.N0000,cash_dividend,2026-07-27,2.98,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20CSE-First%20%26%20Final%20Dividend%20FY%202025-2026_0001_2321968142142202.pdf
+37101:BALA.N0000,BALA.N0000,cash_dividend,2026-06-25,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20Dividend%20%282025%29_2579035101028317.pdf
+37103:ASHO.N0000,ASHO.N0000,cash_dividend,2026-08-17,30,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement_2581469098554260.pdf
+37109:LHL.N0000,LHL.N0000,cash_dividend,2026-07-01,3,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.LHH%20-%20Announcement%20to%20CSE.docx_2638434096304627.pdf
+37119:KHL.N0000,KHL.N0000,cash_dividend,2026-06-05,0.35,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KHL%20Dividend%20Letter_2661159600694805.pdf
+37128:AGAL.N0000,AGAL.N0000,cash_dividend,2026-07-01,0.75,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/APL%20DISCLOSURE%20TO%20CSE%2026.05.2026_2664724918229161.pdf
+37130:AHPL.N0000,AHPL.N0000,cash_dividend,2026-06-05,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/AHPL%20Dividend%20Letter_2666475663485457.pdf
+37137:JETS.N0000,JETS.N0000,cash_dividend,2026-07-01,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1.JETS%20-%20Announcement%20to%20CSE_2723051841059338.pdf
+37146:SIL.N0000,SIL.N0000,cash_dividend,2026-06-08,2,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Samson%20International%20Dividend%20Announcement_2749521740486545.pdf
+37167:PLR.N0000,PLR.N0000,cash_dividend,2026-06-09,0.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/SP-34%20to%20CSE%20-%20Declaration%20of%20an%20interim%20divident%20share%20for%20the%20year%20ended%2031st%20March-26%20%2828.05.26%29_2896932559397854.pdf
+37173:AHUN.N0000,AHUN.N0000,cash_dividend,2026-07-01,0.28,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Signed-%20CSE%20Announcement_2904185926931330.pdf
+37192:MAL.N0000,MAL.N0000,cash_dividend,2026-06-26,0.12,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/MVPL%20-%20Dividend%20Announcement_2919766051942723.pdf
+37192:MAL.X0000,MAL.X0000,cash_dividend,2026-06-26,0.12,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/MVPL%20-%20Dividend%20Announcement_2919766051942723.pdf
+37299:ELPL.N0000,ELPL.N0000,cash_dividend,2026-06-30,7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Dividend%20Announcement%20EPP%20-%2003.06.2026%20REVISED_3358676976878950.pdf
+37336:RIL.N0000,RIL.N0000,cash_dividend,2026-07-01,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20CSE%20-%20Declaration%20of%20dividend%20from%20R%20I%20L_3443627815009644.pdf
+38106:PEG.N0000,PEG.N0000,subdivision,2026-09-21,,1,1,2,,confirmed,ex-date = trading commencement after the split,https://cdn.cse.lk/cmt/announcement_portal_prod/PEG-CSE-ANN-2026-NW-03%20-%20Sub-Division%20of%20Shares%20%28Initial%20Ann.%29_7503816296614305.pdf
+38525:GEST.N0000,GEST.N0000,cash_dividend,2026-09-22,3.9,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/IMG_20260818_0010_9924540380847262.pdf
+39112:RAL.N0000,RAL.N0000,scrip,2026-09-25,,1,130.58824265,1.00765766,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RAF_ScripD2026_Dates_12072134075128770.pdf
+39113:RHL.N0000,RHL.N0000,scrip,2026-09-25,,1,209.90580966,1.00476404,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RHL_SricpD2026_Dates_12072408879028646.pdf
+39113:RHL.X0000,RHL.X0000,scrip,2026-09-25,,1,150.94376185,1.00662498,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/RHL_SricpD2026_Dates_12072408879028646.pdf

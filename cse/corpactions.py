@@ -359,6 +359,12 @@ def effective(rows: list[dict], reviews: tuple[dict[str, dict], set[str]]) -> li
             r.update({k: v for k, v in confirm[r["id"]].items()})
             r["status"] = "confirmed (reviewed)"
         out.append(r)
+    # One event per (symbol, type, ex-date): an amended or repeated announcement replaces the
+    # earlier one instead of being counted twice. The latest announcement id wins.
+    latest: dict[tuple, dict] = {}
+    for r in sorted(out, key=lambda r: int(r["id"].split(":")[0].split("+")[0])):
+        latest[(r["symbol"], r["type"], r["ex_date"])] = r
+    out = list(latest.values())
     for r in out:
         for k in ("amount_per_share", "ratio_new", "ratio_held", "factor", "subscription_price"):
             r[k] = _num(r[k]) if r[k] not in (None, "") else None
