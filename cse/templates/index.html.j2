@@ -84,6 +84,7 @@ details.pf summary{cursor:pointer;color:var(--text-2)}
 .swatch[data-series=max_sharpe]{background:#199e70}.swatch[data-series=equal_weight]{background:#c98500}
 .swatch[data-series=market]{background:#d55181}.swatch[data-series=my_book]{background:#9085e9}
 td.wrap{white-space:normal;min-width:16em}
+.banner.preview{border-color:var(--accent);background:#0f2236;color:#9ec5f4}
 footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
 </style>
 </head>
@@ -262,12 +263,17 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   {% if L.status != "ok" %}
     <div class="banner" style="margin:8px 0">{{ "Waiting for history" if L.status == "waiting" else "Constraints infeasible" }}: {{ L.message }}</div>
   {% endif %}
+  {% if L.preview %}
+    <div class="banner preview" style="margin:8px 0">PREVIEW — estimated on the {{ L.preview.weeks }} weekly returns that exist ({{ L.preview.universe }} stocks pass the other filters).
+      Nothing below is traded or recorded; the live record starts on the first run with {{ L.config.min_history_weeks }} weeks.
+      {% if L.preview.infeasible %}Preview constraints infeasible: {{ L.preview.infeasible }}{% endif %}</div>
+  {% endif %}
   <dl class="kv lab-assume">
     <dt>Risk-free (12-m T-bill)</dt><dd>{{ (L.config.risk_free_annual * 100) | num(2) }}%</dd>
     <dt>Equity risk premium (assumption)</dt><dd>{{ (L.config.equity_risk_premium * 100) | num(2) }}%</dd>
     <dt>Cost per side</dt><dd>{{ (L.config.cost_per_side * 100) | num(2) }}%</dd>
     <dt>Caps: stock / sector</dt><dd>{{ (L.config.max_weight * 100) | num(0) }}% / {{ (L.config.max_sector_weight * 100) | num(0) }}%</dd>
-    <dt>Universe</dt><dd>{{ L.universe | length }} stocks · {{ L.dropped | length }} dropped</dd>
+    <dt>Universe</dt><dd>{{ L.universe | length }} live{% if L.preview %} · preview {{ L.preview.universe }}{% endif %} · {{ L.dropped | length }} dropped</dd>
     {% if L.n_weeks %}<dt>Estimation window</dt><dd>{{ L.n_weeks }} weekly returns, {{ L.weeks[0] }} → {{ L.weeks[1] }}</dd>
     <dt>Ledoit-Wolf shrinkage</dt><dd>{{ L.shrinkage | num(3) }}</dd>{% endif %}
   </dl>
@@ -277,7 +283,8 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
     <div class="card">
       <h3 style="margin-top:0">Risk / return (CAPM expected return vs Ledoit-Wolf volatility, annual)</h3>
       <div class="chart-lg"><canvas id="rr-chart" aria-label="Expected return against volatility for every universe stock, the constrained efficient frontier and the model portfolios"></canvas></div>
-      <p class="mut sm">Grey: universe stocks. Line: efficient frontier under the caps. Points: model portfolios.</p>
+      <p class="mut sm">Grey: universe stocks. Line: efficient frontier under the caps. Points: model portfolios.
+        <span id="rr-offscale"></span></p>
     </div>
     <div class="card">
       <h3 style="margin-top:0">Model portfolios</h3>
@@ -463,14 +470,32 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   var surface = css.getPropertyValue('--surface-2').trim();
   var pct = function (v) { return (v * 100).toFixed(0) + '%'; };
   var labelPlugin = { id: 'pointLabels', afterDatasetsDraw: function (chart) {
-    var ctx = chart.ctx; ctx.save(); ctx.font = '11px monospace'; ctx.fillStyle = ink; ctx.textBaseline = 'middle';
+    // Direct labels for the portfolio points, pushed apart vertically so they never overlap.
+    var ctx = chart.ctx, items = [];
     chart.data.datasets.forEach(function (ds, i) {
       if (!ds.pointLabels) return;
-      chart.getDatasetMeta(i).data.forEach(function (pt, j) { ctx.fillText(ds.pointLabels[j], pt.x + 8, pt.y); });
+      chart.getDatasetMeta(i).data.forEach(function (pt, j) { items.push({ x: pt.x, y: pt.y, ly: pt.y, text: ds.pointLabels[j] }); });
+    });
+    items.sort(function (a, b) { return a.y - b.y; });
+    for (var k = 1; k < items.length; k++) if (items[k].ly - items[k - 1].ly < 14) items[k].ly = items[k - 1].ly + 14;
+    ctx.save(); ctx.font = '11px monospace'; ctx.textBaseline = 'middle';
+    items.forEach(function (it) {
+      ctx.strokeStyle = muted; ctx.lineWidth = 1;
+      if (Math.abs(it.ly - it.y) > 2) { ctx.beginPath(); ctx.moveTo(it.x + 6, it.y); ctx.lineTo(it.x + 14, it.ly); ctx.stroke(); }
+      ctx.fillStyle = surface; var w = ctx.measureText(it.text).width; ctx.fillRect(it.x + 15, it.ly - 7, w + 4, 14);
+      ctx.fillStyle = ink; ctx.fillText(it.text, it.x + 17, it.ly);
     });
     ctx.restore(); } };
   var rrEl = document.getElementById('rr-chart');
   if (rrEl && lab.rr) {
+    // x-axis: frontier/portfolios and the 95th percentile of stocks; the rest are counted, not hidden silently.
+    var vols = lab.rr.stocks.map(function (p) { return p.x; }).sort(function (a, b) { return a - b; });
+    var p95 = vols.length ? vols[Math.floor(0.95 * (vols.length - 1))] : 1;
+    var anchor = Math.max.apply(null, lab.rr.frontier.concat(lab.rr.portfolios).map(function (p) { return p.x; }).concat([p95]));
+    var xmax = Math.ceil(anchor * 1.1 * 10) / 10;
+    var off = lab.rr.stocks.filter(function (p) { return p.x > xmax; });
+    if (off.length) document.getElementById('rr-offscale').textContent = off.length + ' stock' + (off.length > 1 ? 's' : '') +
+      ' beyond ' + pct(xmax) + ' volatility not shown: ' + off.map(function (p) { return p.label + ' ' + pct(p.x); }).join(', ') + '.';
     var ds = [
       { type: 'scatter', label: 'Universe stocks', data: lab.rr.stocks, backgroundColor: muted, pointRadius: 2.5, pointHoverRadius: 5, order: 3 },
       { type: 'line', label: 'Efficient frontier', data: lab.rr.frontier, borderColor: ink, borderWidth: 2, pointRadius: 0, tension: 0, order: 2 }
@@ -483,7 +508,7 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
       options: { responsive: true, maintainAspectRatio: false, animation: false,
         plugins: { legend: { display: false },
           tooltip: { callbacks: { label: function (c) { var r = c.raw; return (r.label || c.dataset.label) + ': return ' + pct(r.y) + ', vol ' + pct(r.x); } } } },
-        scales: { x: { type: 'linear', title: { display: true, text: 'Volatility (annual)', color: ink2 }, ticks: { color: ink2, callback: pct }, grid: { color: rule } },
+        scales: { x: { type: 'linear', min: 0, max: xmax, title: { display: true, text: 'Volatility (annual)', color: ink2 }, ticks: { color: ink2, callback: pct }, grid: { color: rule } },
                   y: { title: { display: true, text: 'CAPM expected return', color: ink2 }, ticks: { color: ink2, callback: pct }, grid: { color: rule } } } } });
   }
   var navEl = document.getElementById('nav-chart');

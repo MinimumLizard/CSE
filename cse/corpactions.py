@@ -123,10 +123,50 @@ def parse_rights_text(text: str | None) -> tuple[float, float] | None:
     m = re.search(r"\((\d+(?:\.\d+)?)\)[^()]*?new.*?every[^()]*?\((\d+(?:\.\d+)?)\)", t)
     if m:
         return float(m.group(1)), float(m.group(2))
+    if ":" in t or "every" not in t:
+        return None
+    head, _, tail = t.partition("every")
+    if "preference" in head:                       # preference shares aren't an ordinary rights issue
+        return None
+    a = re.findall(r"\d+(?:\.\d+)?", head)        # '06 new ordinary shares for every 01 existing'
+    b = re.findall(r"\d+(?:\.\d+)?", tail)
+    if len(a) == 1 and b:
+        return float(a[0]), float(b[0])
     m = re.search(r"(\w+)\s+(?:\(\w+\)\s+)?new.*?every\s+(\w+)", t)
     if m and m.group(1) in _WORDS and m.group(2) in _WORDS:
         return float(_WORDS[m.group(1)]), float(_WORDS[m.group(2)])
     return None
+
+
+def parse_proportion(v) -> tuple[float | None, str]:
+    """Scrip proportion = existing shares per 1 new share. Returns (held_per_new, how).
+
+    The API field is sometimes a number and sometimes text: '1 for 136.0022997317',
+    '1 share for every 115.38 shares', 'one scrip issue for every 80.41807', '1for115.25',
+    'One (1) new share ... for each existing ... (36.97479001)'. Text is accepted only in the
+    form "1 new for N" with exactly one other number N; anything else returns (None, 'unparsed').
+    """
+    n = _num(v)
+    if n is not None:
+        return (n, "numeric") if n > 0 else (None, "unparsed")
+    text = str(v or "").strip()
+    if ":" in text:                       # "1:5" doesn't say which side is new; never guessed
+        return None, "unparsed"
+    if not re.match(r"^(1\b|1for|one\b)", text, re.I):
+        return None, "unparsed"
+    others = [float(x) for x in re.findall(r"\d+(?:\.\d+)?", text) if float(x) != 1.0]
+    return (others[0], "text") if len(others) == 1 and others[0] > 1 else (None, "unparsed")
+
+
+def scrip_check(issued, held_per_new: float, shares_now: float | None) -> bool | None:
+    """Shares issued × proportion ≈ shares outstanding before the issue. `shares_now` (current
+    quantity issued) includes the scrip shares, so the expected ratio is about 1 / (1 + 1/N).
+    Returns None when there's nothing to check against."""
+    issued = _num(issued)
+    if not issued or not shares_now:
+        return None
+    ratio = issued * held_per_new / shares_now
+    return 0.85 <= ratio <= 1.05
 
 
 @dataclass
@@ -206,8 +246,10 @@ def _num(v) -> float | None:
         return None
 
 
-def parse(records: list[Record], share_classes: dict[str, list[str]]) -> list[dict]:
-    """Turn cached records into corporate_actions rows. `share_classes`: code -> symbols."""
+def parse(records: list[Record], share_classes: dict[str, list[str]],
+          shares_out: dict[str, float] | None = None) -> list[dict]:
+    """Turn cached records into corporate_actions rows. `share_classes`: code -> symbols;
+    `shares_out`: symbol -> current quantity issued (for the scrip share-count check)."""
     rows: list[dict] = []
     by_code: dict[str, list[Record]] = {}
     for r in records:
@@ -244,18 +286,48 @@ def parse(records: list[Record], share_classes: dict[str, list[str]]) -> list[di
                                     status=status, note=note))
                 continue
 
-            # Scrip dividend with dates (typed): proportion = existing shares per 1 new share.
+            # Scrip dividend with dates (typed). Proportion = existing shares per 1 new share.
             if dtype == "ScripDividendWithDates":
                 xd = parse_date(d.get("xd"))
-                for sym, pkey in ((voting, "votingPropotion"), (nonvoting, "nonVotingPropotion")):
-                    prop = _num(d.get(pkey))
-                    if not sym or prop is None:
+                for sym, pkey, ikey in ((voting, "votingPropotion", "votingNumSharesIssued"),
+                                        (nonvoting, "nonVotingPropotion", "nonVotingNumSharesIssued")):
+                    if not sym or d.get(pkey) in (None, ""):
                         continue
-                    ok = xd and prop > 0
-                    rows.append(row(rec, sym, "scrip", ex_date=xd, ratio_new=1.0, ratio_held=prop,
-                                    factor=(prop + 1) / prop if prop > 0 else None,
-                                    status="confirmed" if ok else "needs_review",
-                                    note="" if ok else "missing XD or proportion"))
+                    prop, how = parse_proportion(d.get(pkey))
+                    check = scrip_check(d.get(ikey), prop, (shares_out or {}).get(sym)) if prop else None
+                    ok = bool(xd and prop and check is not False and (how == "numeric" or check))
+                    note = "" if how == "numeric" else f"proportion from field text {str(d.get(pkey)).strip()[:60]!r}"
+                    if check is not None:
+                        note += ("; " if note else "") + f"share-count check {'passed' if check else 'FAILED'}"
+                    if not xd:
+                        note += "; no XD date"
+                    rows.append(row(rec, sym, "scrip", ex_date=xd, ratio_new=1.0 if prop else None, ratio_held=prop,
+                                    factor=(prop + 1) / prop if prop else None,
+                                    status="confirmed" if ok else "needs_review", note=note.strip("; ")))
+                continue
+
+            # Announced without dates: if no dated record exists within 120 days either side (the
+            # undated one can precede it, or follow it, e.g. COMB's post-AGM share-number notice),
+            # list it for review (amount/proportion known, ex-date missing) instead of dropping it.
+            if dtype in ("ScripDividendToBeNotified", "CashDividendDatesToBeNotified"):
+                want = "ScripDividendWithDates" if dtype.startswith("Scrip") else "CashDividendWithDates"
+                if rec.date:
+                    d0 = dt.date.fromisoformat(rec.date)
+                    lo, hi = (d0 - dt.timedelta(days=120)).isoformat(), (d0 + dt.timedelta(days=120)).isoformat()
+                else:
+                    lo, hi = "", "9999"
+                if any((x.detail or {}).get("dType") == want and lo <= x.date <= hi for x in recs):
+                    continue
+                if dtype.startswith("Scrip"):
+                    prop, _ = parse_proportion(d.get("votingPropotion"))
+                    if voting and prop:
+                        rows.append(row(rec, voting, "scrip", ratio_new=1.0, ratio_held=prop, factor=(prop + 1) / prop,
+                                        status="needs_review", note="no dated scrip record found: add ex_date when confirming"))
+                else:
+                    amt = _num(d.get("votingDivPerShare")) or _num(d.get("divPerShare"))
+                    if voting and amt:
+                        rows.append(row(rec, voting, "cash_dividend", amount_per_share=amt, status="needs_review",
+                                        note="no dated dividend record found: add ex_date when confirming"))
                 continue
 
             # Share sub-division: ratio from share counts (typed); ex-date from the (DATES) record.
@@ -298,6 +370,11 @@ def parse(records: list[Record], share_classes: dict[str, list[str]]) -> list[di
                                     subscription_price=s_price, status="needs_review",
                                     note=f"ratio read from text: {text.strip()[:90]!r}"
                                          + ("" if s_price else "; subscription price not found")))
+                continue
+
+            if dtype and dtype not in ("RightsIssue",) and voting:
+                rows.append(row(rec, voting, "scrip", status="needs_review",
+                                note=f"unrecognised record type {dtype!r} ({rec.category}): check the PDF"))
                 continue
 
             # Anything else CA-like without a structured parser: list it for review, no numbers.
@@ -387,8 +464,18 @@ def share_classes(paths: Paths, securities=None) -> dict[str, list[str]]:
     return out
 
 
+def shares_outstanding(paths: Paths) -> dict[str, float]:
+    """Latest `quantityIssued` per symbol from cached companyInfoSummery responses."""
+    out = {}
+    for f in sorted((paths.root / "data" / "raw").glob("*/companyInfoSummery/*.json")):
+        q = (json.loads(f.read_bytes()).get("reqSymbolInfo") or {}).get("quantityIssued")
+        if q:
+            out[f.stem] = float(q)
+    return out
+
+
 def rebuild(paths: Paths) -> int:
-    rows = parse(load_records(paths), share_classes(paths))
+    rows = parse(load_records(paths), share_classes(paths), shares_outstanding(paths))
     return storage.append(paths.history / "corporate_actions.csv", CA_COLS, rows, key=("id",))
 
 

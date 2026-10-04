@@ -74,6 +74,35 @@ def _jsonable(x):
     return x
 
 
+def compute(out: dict, universe, tris, prices, indices, sectors, cfg, session, weeks_all):
+    """Estimates, feasibility, the three optimised portfolios, equal weight and the frontier.
+    Fills `out` for the page; raises optimize.Infeasible naming the binding constraint."""
+    est = estimate(universe, tris, prices, indices, sectors, cfg, session, weeks_all)
+    prob = optimize.make_problem(est, cfg)
+    out.update(stocks=[{"symbol": s, "sector": est.sectors[s], "er": est.er[s], "vol": est.vol[s], "beta": est.beta[s],
+                        "beta_current": est.beta_parts.loc[s, "b0"], "beta_lag": est.beta_parts.loc[s, "b1"],
+                        "amihud": est.amihud[s], "median_turnover": est.median_turnover[s],
+                        "turnover_source": est.turnover_source[s], "cap": float(c), "liq_cap": float(lc)}
+                       for s, c, lc in zip(prob.symbols, prob.caps, prob.liq_caps)],
+               weeks=[est.weeks[0], est.weeks[-1]], n_weeks=len(est.weeks), shrinkage=est.shrinkage, rf=est.rf)
+    optimize.check_feasible(prob)
+    w = {"min_variance": optimize.min_variance(prob), "risk_parity": optimize.risk_parity(prob),
+         "max_sharpe": optimize.max_sharpe(prob)}
+    for name, wv in w.items():
+        rep = optimize.constraint_report(wv, prob)
+        if not rep["ok"]:
+            raise RuntimeError(f"{name} violates constraints: {rep}")
+    w["equal_weight"] = np.full(len(prob.symbols), 1 / len(prob.symbols))
+    out["portfolios"] = {k: {**optimize.summary(PORTFOLIO_LABELS[k], v, prob),
+                             "constraints": optimize.constraint_report(v, prob) if k != "equal_weight" else None}
+                         for k, v in w.items()}
+    out["frontier"] = optimize.frontier(prob)
+    return est, prob, w
+
+
+PREVIEW_MIN_WEEKS = 26
+
+
 def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
         min_history_override: int | None = None) -> dict:
     paths = Paths(root)
@@ -136,34 +165,24 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
 
     if len(universe.symbols) < 2:
         need = cfg["min_history_weeks"]
+        if max_weeks >= PREVIEW_MIN_WEEKS:
+            # Preview on the history that exists. Nothing is traded or recorded from it.
+            pcfg = {**cfg, "min_history_weeks": max_weeks}
+            puni = select_universe(securities, prices, sessions, tris, sectors, set(uni_cfg.excluded), pcfg,
+                                   session, weeks_all)
+            out["preview"] = {"weeks": max_weeks, "universe": len(puni.symbols)}
+            try:
+                compute(out, puni, tris, prices, indices, sectors, pcfg, session, weeks_all)
+            except optimize.Infeasible as exc:
+                out["preview"]["infeasible"] = str(exc)
         return value_only("waiting", f"universe has {len(universe.symbols)} stocks: the longest history is "
                                      f"{max_weeks} weekly returns and {need} are required (decision D1). "
                                      "The daily job adds one per week.")
 
-    est = estimate(universe, tris, prices, indices, sectors, cfg, session, weeks_all)
-    prob = optimize.make_problem(est, cfg)
-    stock_rows = [{"symbol": s, "sector": est.sectors[s], "er": est.er[s], "vol": est.vol[s], "beta": est.beta[s],
-                   "beta_current": est.beta_parts.loc[s, "b0"], "beta_lag": est.beta_parts.loc[s, "b1"],
-                   "amihud": est.amihud[s], "median_turnover": est.median_turnover[s],
-                   "turnover_source": est.turnover_source[s], "cap": float(c), "liq_cap": float(lc)}
-                  for s, c, lc in zip(prob.symbols, prob.caps, prob.liq_caps)]
-    out.update(stocks=stock_rows, weeks=[est.weeks[0], est.weeks[-1]], n_weeks=len(est.weeks),
-               shrinkage=est.shrinkage, rf=est.rf)
     try:
-        optimize.check_feasible(prob)
-        w = {"min_variance": optimize.min_variance(prob), "risk_parity": optimize.risk_parity(prob),
-             "max_sharpe": optimize.max_sharpe(prob)}
+        est, prob, w = compute(out, universe, tris, prices, indices, sectors, cfg, session, weeks_all)
     except optimize.Infeasible as exc:
         return value_only("infeasible", str(exc))
-    for name, wv in w.items():
-        rep = optimize.constraint_report(wv, prob)
-        if not rep["ok"]:
-            raise RuntimeError(f"{name} violates constraints: {rep}")
-    w["equal_weight"] = np.full(len(prob.symbols), 1 / len(prob.symbols))
-    out["portfolios"] = {k: {**optimize.summary(PORTFOLIO_LABELS[k], v, prob),
-                             "constraints": optimize.constraint_report(v, prob) if k != "equal_weight" else None}
-                         for k, v in w.items()}
-    out["frontier"] = optimize.frontier(prob)
     targets = {k: {s: float(x) for s, x in zip(prob.symbols, v) if x > 1e-6} for k, v in w.items()}
 
     pre_weights = record.last_weights(root, series)

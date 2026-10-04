@@ -66,6 +66,11 @@ def test_rights_are_always_reviewed():
 @pytest.mark.parametrize("text,expected", [
     ("Three (3) new Ordinary Voting Shares for every Fifty (50) existing Ordinary Voting Shares ", (3.0, 50.0)),
     ("One (01) new Ordinary Voting Share for every One (01) existing issued Ordinary voting shares held", (1.0, 1.0)),
+    ("1 new share for every 4 existing shares", (1.0, 4.0)),
+    ("06 new ordinary shares for every 01 existing ordinary share", (6.0, 1.0)),
+    ("03 Ordinary Voting share for every 14 existing Ordinary Voting shares", (3.0, 14.0)),
+    ("Fourteen (14) New Ordinary Shares for every Forty-Five (45) existing Ordinary Shares", (14.0, 45.0)),
+    ("Four new Preference Shares for existing 21 ordinary shares", None),
     ("1:5", None),                      # ambiguous order: never guessed
     (None, None),
 ])
