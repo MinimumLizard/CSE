@@ -45,6 +45,10 @@ class FakeClient:
             path = self.fixtures / "getGeneralAnnouncementById" / f"{params['announcementId']}.json"
             if not path.exists():
                 return Response(endpoint, params, 200, b"{}", {})   # live API answers {} for typed ids
+        elif endpoint == "companyProfile":
+            path = self.fixtures / "companyProfile" / f"{params['symbol']}.json"
+            if not path.exists():
+                return Response(endpoint, params, 200, b'{"reqComSumInfo":[]}', {"reqComSumInfo": []})
         elif endpoint == "companyChartDataByStock":
             sym = {s["id"]: s["symbol"] for s in load("allSecurityCode.json")}[int(params["stockId"])]
             path = self.fixtures / "companyChartDataByStock" / f"{sym}.json"

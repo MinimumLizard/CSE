@@ -20,6 +20,9 @@ from .models import SLT
 from .tags import tag
 
 ANNOUNCEMENT_DAYS = 90
+STATS_MIN_WEEKS = 26
+METHODS_URL = "https://github.com/MinimumLizard/CSE/blob/main/docs/METHODS.md"
+SERIES_ORDER = ["min_variance", "risk_parity", "max_sharpe", "equal_weight", "market", "my_book"]
 
 
 # --- formatting (Jinja filters) ---------------------------------------------------------------
@@ -211,7 +214,61 @@ def build_context(root: Path = ROOT) -> dict:
         "announcements": announcements, "announcement_days": ANNOUNCEMENT_DAYS,
         "calendar_len": len(calendar), "calendar_start": calendar[0] if calendar else None,
         "tags": ["board", "dealings", "dividend", "capital", "results", "other"],
+        "labx": lab_context(root),
     }
+
+
+def record_stats(nav: pd.Series) -> dict:
+    """Return, annualised volatility (weekly, Wednesday closes) and maximum drawdown of a NAV series.
+    Shown only once STATS_MIN_WEEKS weeks have passed since inception."""
+    nav = nav.sort_index()
+    if nav.empty:
+        return {"weeks": 0}
+    start, end = dt.date.fromisoformat(nav.index[0]), dt.date.fromisoformat(nav.index[-1])
+    weeks = (end - start).days // 7
+    out = {"weeks": weeks, "return": float(nav.iloc[-1] / nav.iloc[0] - 1)}
+    if weeks < STATS_MIN_WEEKS:
+        return out
+    from .returns import weekly_returns, wednesdays
+    wr = weekly_returns(nav, wednesdays(nav.index[0], nav.index[-1])).dropna()
+    out["vol"] = float(wr.std(ddof=1) * (52 ** 0.5)) if len(wr) > 1 else None
+    out["max_drawdown"] = float((nav / nav.cummax() - 1).min())
+    return out
+
+
+def lab_context(root: Path) -> dict | None:
+    path = root / "data" / "lab" / "latest.json"
+    if not path.exists():
+        return None
+    lab = json.loads(path.read_text())
+    navs = [r for r in storage.read_rows(root / "record" / "nav.csv") if r["series"] == lab["series"]]
+    series = {}
+    for r in navs:
+        series.setdefault(r["portfolio"], {})[r["date"]] = float(r["nav"])
+    record = []
+    for k in SERIES_ORDER:
+        if k in series:
+            s = pd.Series(series[k])
+            record.append({"key": k, "label": lab["labels"].get(k, k), "stats": record_stats(s),
+                           "nav": float(s.sort_index().iloc[-1])})
+    chart = {k: {"dates": sorted(v), "values": [round(v[d] / v[sorted(v)[0]] * 100, 3) for d in sorted(v)]}
+             for k, v in series.items()}
+    # Risk/return scatter data
+    rr = None
+    if lab.get("stocks"):
+        rr = {"stocks": [{"x": s["vol"], "y": s["er"], "label": s["symbol"].split(".")[0]} for s in lab["stocks"]],
+              "frontier": [{"x": f["vol"], "y": f["er"]} for f in lab.get("frontier", [])],
+              "portfolios": [{"x": p["vol"], "y": p["er"], "label": p["name"], "key": k}
+                             for k, p in (lab.get("portfolios") or {}).items()]}
+    flags = {}
+    for k, tl in (lab.get("trade_lists") or {}).items():
+        flags[k] = tl
+    inception = min((r["date"] for r in navs), default=None)
+    runs = [r for r in storage.read_rows(root / "data" / "runs.csv") if r["command"] == "lab"]
+    failed = runs[-1] if runs and runs[-1]["status"] == "failed" else None
+    return {"lab": lab, "record": record, "record_chart": chart, "rr": rr, "flags": flags,
+            "inception": inception, "failed": failed, "stats_min_weeks": STATS_MIN_WEEKS, "methods_url": METHODS_URL,
+            "series_order": [k for k in SERIES_ORDER if k in chart]}
 
 
 def render(context: dict, out: Path) -> None:
@@ -219,8 +276,11 @@ def render(context: dict, out: Path) -> None:
                       autoescape=select_autoescape(["html", "j2"]), trim_blocks=True, lstrip_blocks=True)
     env.filters.update(rs=f_rs, num=f_num, signed=f_signed, spct=f_spct, cls=f_cls, vol=f_vol)
     charts = {h["label"]: h["series"] for h in context["headline"] if h["series"]}
+    lab = context.get("labx")
+    lab_json = json.dumps({"rr": lab["rr"], "record": lab["record_chart"], "order": lab["series_order"],
+                           "labels": lab["lab"]["labels"]} if lab else {}, separators=(",", ":"))
     html = env.get_template("index.html.j2").render(
-        **context, charts_json=json.dumps(charts, separators=(",", ":")),
+        **context, charts_json=json.dumps(charts, separators=(",", ":")), lab_json=lab_json,
         meta_json=json.dumps({"session": context["session"], "built": context["built_iso"]}))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)

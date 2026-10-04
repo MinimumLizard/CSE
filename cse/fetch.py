@@ -19,7 +19,7 @@ from urllib.parse import quote
 from . import storage
 from .config import ROOT, load_universe, resolve
 from .http import ApiError, CseClient
-from .models import (AnnouncementDetail, ApprovedAnnouncements, CompanyInfo, DailyMarketSummary,
+from .models import (AnnouncementDetail, ApprovedAnnouncements, CompanyInfo, CompanyProfile, DailyMarketSummary,
                      FinancialAnnouncements, IndexTick, MarketStatus, MarketSummery, SectorList,
                      SecurityList, TradeSummary, ms_to_date, validate)
 
@@ -136,6 +136,13 @@ def collect(client: CseClient, paths: Paths, universe_path: Path | None = None) 
         info = get("companyInfoSummery", CompanyInfo, f"companyInfoSummery/{sym}.json", symbol=sym)
         if info.reqSymbolInfo.symbol != sym:
             raise ApiError(f"companyInfoSummery for {sym} returned {info.reqSymbolInfo.symbol}")
+
+    # Sector labels (Phase 2) come from companyProfile. Fetch it once for any ordinary share that
+    # has no cached profile yet (in practice: new listings).
+    have = {p.stem for p in (paths.root / "data" / "raw").glob("*/companyProfile/*.json")}
+    for s in securities:
+        if s.symbol.endswith((".N0000", ".X0000")) and s.symbol not in have:
+            get("companyProfile", CompanyProfile, f"companyProfile/{s.symbol}.json", symbol=s.symbol)
 
     snap = Snapshot(session=session, raw=raw)
 

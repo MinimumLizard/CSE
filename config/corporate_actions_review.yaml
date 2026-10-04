@@ -1,0 +1,15 @@
+# Your decisions on corporate actions marked `needs_review` in data/history/corporate_actions.csv
+# (listed on the site under Panel D with links to the source PDF).
+#
+# confirm: accept a row, optionally correcting fields (same names as the CSV columns).
+# reject:  ignore a row entirely.
+# Rows not listed here stay unused, so total returns and the record never use an unconfirmed amount.
+#
+# Example:
+# confirm:
+#   "35920:HAYL.N0000": {}                                 # accept as parsed
+#   "12345:ABC.N0000": {ratio_new: 1, ratio_held: 10}      # accept with a correction
+# reject:
+#   - "99999:XYZ.N0000"
+confirm: {}
+reject: []

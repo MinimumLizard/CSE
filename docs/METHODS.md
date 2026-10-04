@@ -104,22 +104,134 @@ group. Anything else is "Unclassified".
 
 ---
 
-## 8. Phase 2 (portfolio lab): formulas from the brief, not yet implemented
+## 8. Phase 2 — portfolio lab: corporate actions, returns, estimates
 
-These will be implemented and tested in Phase 2. They're listed here so the method is fixed in
-advance. Series label **`v0-52w`** (decision D1).
+Config: `config/portfolio.yaml`. Code: `cse/corpactions.py`, `cse/returns.py`, `cse/estimates.py`,
+`cse/optimize.py`, `cse/record.py`, orchestrated by `cse/lab.py`. Series label **`v0-52w`** (decision D1).
 
-- Total return on ex-date t: R_t = (P_t × F_t + D_t × (1 − w)) / P_{t−1} − 1. D_t = cash dividend
-  per share; F_t = share-count factor; w = `dividend_withholding`.
-- Sub-division or scrip of b new per a held: F = (a + b) / a.
-- Rights, m new per n held at S, cum-rights close P_cum: TERP = (n × P_cum + m × S) / (n + m);
-  return over the ex-date = P_ex / TERP − 1.
-- Otherwise F = 1, D = 0.
-- Weekly returns: Wednesday close to Wednesday close, last traded price on or before each Wednesday.
-- Covariance: Ledoit-Wolf shrinkage on weekly returns, × 52.
-- Beta (Dimson): r_i − r_f = α + β₀(r_m − r_f)_t + β₁(r_m − r_f)_{t−1} + ε; β = β₀ + β₁.
-  Market = ASPI (price) until TRI history covers the window (decision D4).
-- Expected return (CAPM): E[R_i] = r_f + β_i × ERP.
-- Amihud illiquidity: mean over weeks of |r_week| / turnover_week (Rs mn), using `turnover_est`
-  where real turnover is absent (decision D2).
-- Liquidity cap per stock: (participation × median daily turnover × days_to_build) / portfolio_size.
+### 8.1 Corporate actions (`data/history/corporate_actions.csv`)
+
+Built from the CSE's structured announcement records (API_NOTES Q2): typed detail from
+`getAnnouncementById`, and "(DATES)" follow-ups from `getGeneralAnnouncementById`.
+
+| Type | Amount / ratio taken from | Ex-date taken from | Status |
+|---|---|---|---|
+| `cash_dividend` | `votingDivPerShare` / `nonVotingDivPerShare` (one row per share class) | `xd` | confirmed |
+| `scrip` | `votingPropotion` = shares held per 1 new share, so a = proportion, b = 1 | `xd` | confirmed |
+| `subdivision` | resulting ÷ existing share counts = F; a = 1, b = F − 1 | `tradingCommencement` of the (DATES) record (first session after the split) | confirmed once the dates exist |
+| `rights` | ratio read from text ("Three (3) new … for every Fifty (50) …"), S = `votingShareConsideration` | `xr` of the (DATES) record | **always `needs_review`** (ratio is text) |
+| bonus / consolidation | none | none | `needs_review`, numbers left blank |
+
+- Amounts are never inferred. A ratio like "1:5" on a rights issue is ambiguous about which side is
+  "new", so it isn't parsed.
+- `needs_review` rows are used only once confirmed (optionally corrected) in
+  `config/corporate_actions_review.yaml`. Rows listed under `reject` are ignored.
+- The CSV is append-only. When a split's dates arrive after its ratio, a new complete row is appended
+  (its id includes the dates record), and the earlier incomplete row is *superseded*: it no longer
+  appears for review or in use.
+
+### 8.2 Total returns
+
+For consecutive traded closes P_{t0} → P_{t1}, with every effective action whose ex-date lies in
+(t0, t1]. An action applies to the **first traded close on or after its ex-date**, which matters for
+names that don't trade on the ex-date:
+
+- F = ∏ share-count factors; sub-division or scrip of b new per a held: F = (a + b) / a
+- D = Σ cash dividends per share
+- base = TERP = (n × P_{t0} + m × S) / (n + m) if a rights issue (m new per n at S) goes ex; otherwise P_{t0}
+- **R = (P_{t1} × F + D × (1 − withholding)) / base − 1**
+
+With a rights issue alone, this reduces to P_ex / TERP − 1, as in the brief. On all other days
+F = 1 and D = 0. TRI_t = ∏ (1 + R).
+
+**No double adjustment.** The API's history is unadjusted (API_NOTES Q1, proven at CIC's 1:5 split).
+`history_adjusted: false` therefore applies F and TERP. At every confirmed share-count event with
+F ≥ 1.5, `check_adjustment` verifies that the raw close actually dropped by about F. If it didn't (an
+adjusted source) the run stops rather than adjust twice; if `history_adjusted: true` and the close
+*did* drop, it also stops. Tests cover both directions using CIC's real closes.
+
+### 8.3 Universe
+
+Applied in order. Every security in `allSecurityCode` that fails a step is listed on the page with
+its reason.
+
+1. Ordinary shares only: `.N0000` (voting) and `.X0000` (non-voting).
+2. Not in `excluded`.
+3. History: number of weekly total returns ≥ `min_history_weeks` (52).
+4. Traded on ≥ `min_traded_share` (80%) of ASPI sessions in the last 52 weeks.
+5. Median daily turnover over those sessions (0 on no-trade days) ≥ `min_median_turnover_lkr`.
+   Turnover is real where the daily job recorded it, otherwise close × volume (decision D2). The page
+   says which per stock.
+6. Sector classifiable (§6). Unclassified stocks are dropped with a pointer to `config/sector_overrides.yaml`.
+
+### 8.4 Estimates
+
+- **Weekly returns**: TRI sampled at the last traded close on or before each Wednesday;
+  r_w = TRI_w / TRI_{w−1} − 1. The window is the last `min_history_weeks` weeks ending at the last
+  Wednesday on or before the session.
+- **Covariance**: Ledoit-Wolf (scikit-learn `LedoitWolf`, default shrinkage target) on the T × N weekly
+  return matrix, × 52. The shrinkage intensity is shown on the page.
+- **Beta (Dimson)**: r_i − r_f = α + β₀ (r_m − r_f)_t + β₁ (r_m − r_f)_{t−1} + ε by OLS; β = β₀ + β₁.
+  r_f weekly = (1 + risk_free_annual)^{1/52} − 1. Market = ASPI weekly price returns (decision D4).
+- **Expected return (CAPM)**: E[R_i] = r_f + β_i × ERP. Historical means are never used.
+- **Volatility**: √diag(Σ).
+- **Amihud**: mean over weeks with turnover > 0 of |r_w| / (weekly turnover in Rs mn), where weekly
+  turnover = Σ daily turnover over (previous Wednesday, Wednesday].
+
+### 8.5 Model portfolios (cvxpy, Clarabel solver)
+
+Constraints for 1–3: 0 ≤ w_i ≤ cap_i; Σ_{sector} w ≤ `max_sector_weight`; Σ w = 1, where
+**cap_i = min(max_weight, participation × median daily turnover_i × days_to_build / portfolio_size_lkr)**.
+
+- Feasibility is checked first. Σ cap_i ≥ 1 and Σ_sectors min(sector cap, Σ caps in sector) ≥ 1 are
+  necessary and sufficient here. If either fails, nothing is solved or traded, and the page names the
+  binding constraint (max_weight with too few stocks, liquidity caps, or sector caps).
+- *Note:* with the default settings, the liquidity cap is ≥ 0.20 × Rs 1 mn × 10 / Rs 5 mn = 40%, so it
+  can't bind below `max_weight` (10%). It starts to matter above roughly Rs 20 mn of portfolio size.
+
+1. **Minimum variance**: min w′Σw.
+2. **Risk parity**: the convex log-barrier form (Spinu 2013), min ½ y′Σy − (1/n) Σ log y_i, with
+   the caps written homogeneously (y_i ≤ cap_i Σy, sector sums ≤ cap Σy); w = y / Σy. With no binding
+   cap this gives exactly equal risk contributions. When a cap binds they can't all be equal, and the
+   actual contributions are shown. *(The brief didn't specify how risk parity meets the caps; this is
+   the standard convex formulation.)*
+3. **Maximum Sharpe** on CAPM expected returns: the homogenised problem min y′Σy subject to
+   (μ − r_f)′y = 1, y = κw, constraints scaled by κ ≥ 0; w = y / κ.
+4. **Equal weight**: 1/N across the filtered universe, with no caps (benchmark).
+5. **Market**: ASPI, held as index units (benchmark, not investable).
+6. **My book**: shares listed under `my_book` in the config, valued daily (comparison only; not traded).
+
+Per portfolio the page shows weights, sector split, risk contribution RC_i = w_i (Σw)_i / w′Σw (sums to 1),
+E[R], σ = √(w′Σw) and Sharpe = (E[R] − r_f) / σ. The **efficient frontier** is minimum variance at 25
+target returns, from the minimum-variance portfolio's E[R] up to the highest E[R] the constraints allow.
+
+## 9. Live record and rebalancing
+
+- **Inception** = the first lab run whose universe passes the filters. Each traded portfolio starts with
+  `record_notional_lkr` and buys whole shares at that session's close:
+  shares_i = ⌊w_i × N / (P_i × (1 + cost))⌋. It pays `cost_per_side` on each trade value and holds the rest as cash.
+- **Daily value** = Σ shares × last traded close + cash. If a share-count action went ex but the stock
+  hasn't traded since, the stale close is divided by F (or replaced by TERP for rights, or reduced by
+  the dividend for cash dividends), so value doesn't jump.
+- **Corporate actions on holdings**, on the ex-date (confirmed actions only):
+  - cash dividend: credited = shares × D × (1 − withholding);
+  - split/scrip: shares = ⌊shares × F⌋ (fractions dropped);
+  - rights: the portfolio subscribes, ⌊shares × m / n⌋ new shares at S, paid from cash. If cash is short
+    it takes up what it can afford, and the trade row records the shortfall. *(Brief: "share counts adjust
+    for rights"; subscribing is how they adjust.)*
+- **Scheduled rebalance**: on the first session of each month in `rebalance_months`, re-estimate,
+  re-optimise, and trade every name to its new target at that close, with costs. Sells come first,
+  then buys limited by cash. Trades under `min_trade_lkr` are skipped.
+- **Drift**: after each session, name i is flagged if |w_i − target_i| > max(`band_relative` × target_i,
+  `band_absolute`). Flagged names trade back to target at the **next** session's close (targets unchanged).
+- **Trade list** (page): per portfolio, the trades executed today and those flagged for the next close,
+  scaled to `portfolio_size_lkr`: amount = (target − current weight) × size, shares = amount / price,
+  est. cost = amount × cost_per_side, and the trade as a multiple of the stock's median daily turnover.
+  Under `min_trade_lkr` is omitted.
+- **Files**: `record/nav.csv`, `record/holdings.csv` (with target weight and flag), `record/trades.csv`
+  (buys, sells, dividends, share-count changes, rights). All are append-only and carry the series label.
+  A second run on the same session writes nothing. A method change gets a new series label; the old
+  series stays in the files and on the page.
+- **Statistics** (page), only once 26 weeks have passed since inception: return since inception,
+  annualised volatility of weekly (Wednesday) NAV returns, and maximum drawdown = min(NAV / running
+  max − 1). No performance is shown for any date before inception.

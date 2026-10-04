@@ -71,6 +71,19 @@ tr.grp td{color:var(--text-2);background:var(--surface-2);text-align:left;font-s
 .tag.capital{border-color:#3987e566;color:#86b6ef} .tag.results{border-color:#9085e966;color:#b7aff5}
 .tag.board{border-color:#e6676766;color:#f0a0a0}
 .feed li[hidden]{display:none}
+#panel-d{grid-column:1 / -1}
+.note{color:var(--text-2);margin:0 0 8px}
+.lab-assume{max-width:560px;margin:4px 0 10px}
+.grid-d{display:grid;gap:12px;grid-template-columns:minmax(0,1fr);margin-top:8px}
+@media (min-width:1000px){.grid-d{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+.chart-lg{position:relative;height:320px}
+details.pf{margin-top:8px;border:1px solid var(--rule);border-radius:4px;padding:6px 10px;background:var(--surface-2)}
+details.pf summary{cursor:pointer;color:var(--text-2)}
+.swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:baseline;background:var(--muted)}
+.swatch[data-series=min_variance]{background:#3987e5}.swatch[data-series=risk_parity]{background:#d95926}
+.swatch[data-series=max_sharpe]{background:#199e70}.swatch[data-series=equal_weight]{background:#c98500}
+.swatch[data-series=market]{background:#d55181}.swatch[data-series=my_book]{background:#9085e9}
+td.wrap{white-space:normal;min-width:16em}
 footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
 </style>
 </head>
@@ -231,6 +244,145 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   </ul>
   <p class="mut sm" id="feed-empty" hidden>Nothing from your universe in the last {{ announcement_days }} days.</p>
 </section>
+
+<!-- Panel D ================================================================================ -->
+<section class="panel" id="panel-d">
+  <h2>D · Portfolio lab
+    {% if labx %}<span class="mut sm" style="text-transform:none;letter-spacing:0">series {{ labx.lab.series }} · market proxy {{ labx.lab.market_proxy }}</span>{% endif %}
+  </h2>
+  <p class="note">Model outputs from the stated assumptions, not investment advice.
+    Method and every formula: <a href="{{ labx.methods_url if labx else '#' }}" target="_blank" rel="noopener">docs/METHODS.md</a>.</p>
+  {% if not labx %}
+    <p class="mut">The portfolio lab has not run yet (<code>python -m cse.lab</code>).</p>
+  {% else %}
+  {% set L = labx.lab %}
+  {% if labx.failed %}
+    <div class="banner" style="margin:8px 0">⚠ The latest lab run failed ({{ labx.failed.run_at_utc }} UTC): {{ labx.failed.message }}. Showing the last good output, session {{ L.session }}.</div>
+  {% endif %}
+  {% if L.status != "ok" %}
+    <div class="banner" style="margin:8px 0">{{ "Waiting for history" if L.status == "waiting" else "Constraints infeasible" }}: {{ L.message }}</div>
+  {% endif %}
+  <dl class="kv lab-assume">
+    <dt>Risk-free (12-m T-bill)</dt><dd>{{ (L.config.risk_free_annual * 100) | num(2) }}%</dd>
+    <dt>Equity risk premium (assumption)</dt><dd>{{ (L.config.equity_risk_premium * 100) | num(2) }}%</dd>
+    <dt>Cost per side</dt><dd>{{ (L.config.cost_per_side * 100) | num(2) }}%</dd>
+    <dt>Caps: stock / sector</dt><dd>{{ (L.config.max_weight * 100) | num(0) }}% / {{ (L.config.max_sector_weight * 100) | num(0) }}%</dd>
+    <dt>Universe</dt><dd>{{ L.universe | length }} stocks · {{ L.dropped | length }} dropped</dd>
+    {% if L.n_weeks %}<dt>Estimation window</dt><dd>{{ L.n_weeks }} weekly returns, {{ L.weeks[0] }} → {{ L.weeks[1] }}</dd>
+    <dt>Ledoit-Wolf shrinkage</dt><dd>{{ L.shrinkage | num(3) }}</dd>{% endif %}
+  </dl>
+
+  {% if L.portfolios %}
+  <div class="grid-d">
+    <div class="card">
+      <h3 style="margin-top:0">Risk / return (CAPM expected return vs Ledoit-Wolf volatility, annual)</h3>
+      <div class="chart-lg"><canvas id="rr-chart" aria-label="Expected return against volatility for every universe stock, the constrained efficient frontier and the model portfolios"></canvas></div>
+      <p class="mut sm">Grey: universe stocks. Line: efficient frontier under the caps. Points: model portfolios.</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Model portfolios</h3>
+      <div class="scroll"><table>
+        <thead><tr><th class="l">Portfolio</th><th>Exp. return</th><th>Volatility</th><th>Sharpe</th><th>Holdings</th><th>Constraints</th></tr></thead>
+        <tbody>{% for k, p in L.portfolios.items() %}<tr>
+          <td class="l"><span class="swatch" data-series="{{ k }}"></span>{{ p.name }}</td>
+          <td>{{ (p.er * 100) | num(1) }}%</td><td>{{ (p.vol * 100) | num(1) }}%</td><td>{{ p.sharpe | num(2) }}</td><td>{{ p.n }}</td>
+          <td>{% if p.constraints %}{{ "✓ all hold" if p.constraints.ok else "✗" }}{% else %}<span class="mut">n/a (1/N)</span>{% endif %}</td></tr>{% endfor %}</tbody>
+      </table></div>
+    </div>
+  </div>
+
+  {% for k, p in L.portfolios.items() %}
+  <details class="pf">
+    <summary><span class="swatch" data-series="{{ k }}"></span>{{ p.name }} — {{ p.n }} holdings · top sector {{ (p.sectors | list)[0] }} {{ ((p.sectors.values() | list)[0] * 100) | num(1) }}%</summary>
+    <div class="grid-d">
+      <div class="scroll"><table>
+        <thead><tr><th class="l">Symbol</th><th class="l">Sector</th><th>Weight</th><th title="Share of portfolio variance">Risk contr.</th><th>Cap</th><th>Exp. ret.</th></tr></thead>
+        <tbody>{% for h in p.holdings %}<tr><td class="l sym">{{ h.symbol.split(".")[0] }}{% if h.symbol.endswith(".X0000") %}<span class="mut sm">.X</span>{% endif %}</td>
+          <td class="l"><span class="trunc">{{ h.sector }}</span></td><td>{{ (h.weight * 100) | num(2) }}%</td>
+          <td>{{ (h.risk_contribution * 100) | num(2) }}%</td><td class="mut">{{ (h.cap * 100) | num(1) }}%</td><td>{{ (h.er * 100) | num(1) }}%</td></tr>{% endfor %}</tbody>
+      </table></div>
+      <div><table>
+        <thead><tr><th class="l">Sector</th><th>Weight</th></tr></thead>
+        <tbody>{% for sec, wt in p.sectors.items() %}<tr><td class="l">{{ sec }}</td><td>{{ (wt * 100) | num(1) }}%</td></tr>{% endfor %}</tbody>
+      </table></div>
+    </div>
+  </details>
+  {% endfor %}
+  {% endif %}
+
+  <h3>Live record{% if labx.inception %} since {{ labx.inception }}{% endif %}</h3>
+  {% if labx.record %}
+  <div class="grid-d">
+    <div class="card"><div class="chart-lg"><canvas id="nav-chart" aria-label="Value of each model portfolio, indexed to 100 at inception"></canvas></div></div>
+    <div class="card"><div class="scroll"><table>
+      <thead><tr><th class="l">Portfolio</th><th>Value (Rs)</th><th>Return</th><th>Volatility</th><th>Max drawdown</th></tr></thead>
+      <tbody>{% for r in labx.record %}<tr><td class="l"><span class="swatch" data-series="{{ r.key }}"></span>{{ r.label }}</td>
+        <td>{{ r.nav | rs }}</td>
+        {% if r.stats.weeks >= labx.stats_min_weeks %}
+          <td class="{{ r.stats['return'] | cls }}">{{ r.stats['return'] | spct }}</td><td>{{ r.stats.vol | spct }}</td><td class="dn">{{ r.stats.max_drawdown | spct }}</td>
+        {% else %}<td colspan="3" class="need">shown after {{ labx.stats_min_weeks }} weeks ({{ labx.stats_min_weeks - r.stats.weeks }} to go)</td>{% endif %}
+      </tr>{% endfor %}</tbody>
+    </table></div>
+    <p class="mut sm">No performance is shown for any date before inception. History files are append-only; a method change starts a new series.</p></div>
+  </div>
+  {% else %}<p class="mut">No record yet. Inception is the first run where the universe passes the filters.</p>{% endif %}
+
+  {% if labx.flags %}
+  <h3>Rebalance flags and trade list <span class="mut">· scaled to {{ L.config.portfolio_size_lkr | rs }}</span></h3>
+  <div class="grid-d">
+  {% for k, tl in labx.flags.items() %}
+    <div class="card">
+      <h3 style="margin-top:0"><span class="swatch" data-series="{{ k }}"></span>{{ L.labels[k] }}</h3>
+      {% set rows = (tl.today_scaled or []) + (tl.next_close or []) %}
+      {% if rows %}<div class="scroll"><table>
+        <thead><tr><th class="l">When</th><th class="l">Symbol</th><th class="l">Side</th><th>Shares</th><th>Amount</th><th>Est. cost</th><th title="Trade ÷ median daily turnover">× med. TO</th></tr></thead>
+        <tbody>{% for t in rows %}<tr><td class="l mut">{{ t.when }}</td><td class="l sym">{{ t.symbol.split(".")[0] }}</td>
+          <td class="l {{ 'up' if t.side == 'add' else 'dn' }}">{{ "+ add" if t.side == "add" else "− trim" }}</td>
+          <td>{{ t.shares | num(0) }}</td><td>{{ t.amount | rs }}</td><td>{{ t.cost | rs }}</td><td>{{ t.x_median_turnover | num(2) }}</td></tr>{% endfor %}</tbody>
+      </table></div>
+      {% else %}<p class="mut sm">No names outside their drift band; nothing to trade.</p>{% endif %}
+    </div>
+  {% endfor %}
+  </div>
+  {% endif %}
+
+  {% set urgent = L.needs_review | selectattr("affects_holdings") | list %}
+  {% if urgent %}<div class="banner" style="margin:8px 0">⚠ {{ urgent | length }} unconfirmed corporate action{{ "s" if urgent | length > 1 }} on stocks the model portfolios hold
+    ({% for r in urgent %}{{ r.symbol.split(".")[0] }} ex {{ r.ex_date or "date tbc" }}{{ ", " if not loop.last }}{% endfor %}).
+    Confirm before the ex-date: the record books actions on their ex-date and never restates history.</div>{% endif %}
+  <h3>Corporate actions to confirm ({{ L.needs_review | length }})</h3>
+  {% if L.needs_review %}
+  <p class="mut sm">Not used for returns or the record until confirmed in <code>config/corporate_actions_review.yaml</code>. Check each against its PDF.</p>
+  <div class="scroll"><table>
+    <thead><tr><th class="l">Id</th><th class="l">Symbol</th><th class="l">Type</th><th>Ex-date</th><th>Amount</th><th>Ratio (new:held)</th><th>Sub. price</th><th class="l">Note</th><th class="l">Source</th></tr></thead>
+    <tbody>{% for r in L.needs_review | sort(attribute="affects_holdings", reverse=True) %}<tr><td class="l mut sm">{% if r.affects_holdings %}<span class="flag" title="held by a model portfolio">⚠ </span>{% endif %}{{ r.id }}</td><td class="l sym">{{ r.symbol.split(".")[0] }}</td><td class="l">{{ r.type }}</td>
+      <td>{{ r.ex_date or "—" }}</td><td>{{ r.amount_per_share or "—" }}</td>
+      <td>{% if r.ratio_new %}{{ r.ratio_new }}:{{ r.ratio_held }}{% else %}—{% endif %}</td><td>{{ r.subscription_price or "—" }}</td>
+      <td class="l sm wrap">{{ r.note }}</td><td class="l">{% if r.source_url %}<a href="{{ r.source_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</td></tr>{% endfor %}</tbody>
+  </table></div>
+  {% else %}<p class="mut sm">None pending. {{ L.actions_used }} corporate actions in use.</p>{% endif %}
+
+  <details class="pf">
+    <summary>Universe: {{ L.universe | length }} included, {{ L.dropped | length }} dropped (with reasons)</summary>
+    <div class="scroll"><table>
+      <thead><tr><th class="l">Symbol</th><th class="l">Name</th><th class="l">Reason dropped</th></tr></thead>
+      <tbody>{% for d in L.dropped %}<tr><td class="l sym">{{ d.symbol }}</td><td class="l mut"><span class="trunc" style="max-width:18em">{{ d.name }}</span></td><td class="l wrap">{{ d.reason }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </details>
+  {% if L.stocks %}
+  <details class="pf">
+    <summary>Per-stock estimates ({{ L.stocks | length }})</summary>
+    <div class="scroll"><table>
+      <thead><tr><th class="l">Symbol</th><th class="l">Sector</th><th>Exp. ret.</th><th>Vol</th><th title="Dimson: current + lagged slope">β</th><th>β₀</th><th>β₁</th><th title="mean |weekly return| / weekly turnover (Rs mn)">Amihud</th><th>Med. turnover</th><th class="l">Turnover data</th><th>Cap</th></tr></thead>
+      <tbody>{% for s in L.stocks | sort(attribute="er", reverse=True) %}<tr><td class="l sym">{{ s.symbol.split(".")[0] }}{% if s.symbol.endswith(".X0000") %}<span class="mut sm">.X</span>{% endif %}</td>
+        <td class="l"><span class="trunc">{{ s.sector }}</span></td><td>{{ (s.er * 100) | num(1) }}%</td><td>{{ (s.vol * 100) | num(1) }}%</td>
+        <td>{{ s.beta | num(2) }}</td><td class="mut">{{ s.beta_current | num(2) }}</td><td class="mut">{{ s.beta_lag | num(2) }}</td>
+        <td>{{ s.amihud | num(4) }}</td><td>{{ s.median_turnover | rs }}</td><td class="l mut">{{ s.turnover_source }}</td><td>{{ (s.cap * 100) | num(1) }}%</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </details>
+  {% endif %}
+  {% endif %}
+</section>
 </main>
 
 <footer>
@@ -240,6 +392,7 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
 
 <script type="application/json" id="charts-data">{{ charts_json | safe }}</script>
 <script type="application/json" id="meta-data">{{ meta_json | safe }}</script>
+<script type="application/json" id="lab-data">{{ lab_json | safe }}</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
 (function () {
@@ -301,6 +454,50 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
       }
     });
   });
+
+  // Panel D charts ------------------------------------------------------------------------
+  var lab = JSON.parse(document.getElementById('lab-data').textContent || '{}');
+  var COLORS = { min_variance: '#3987e5', risk_parity: '#d95926', max_sharpe: '#199e70',
+                 equal_weight: '#c98500', market: '#d55181', my_book: '#9085e9' };
+  var ink = css.getPropertyValue('--text').trim(), muted = css.getPropertyValue('--muted').trim();
+  var surface = css.getPropertyValue('--surface-2').trim();
+  var pct = function (v) { return (v * 100).toFixed(0) + '%'; };
+  var labelPlugin = { id: 'pointLabels', afterDatasetsDraw: function (chart) {
+    var ctx = chart.ctx; ctx.save(); ctx.font = '11px monospace'; ctx.fillStyle = ink; ctx.textBaseline = 'middle';
+    chart.data.datasets.forEach(function (ds, i) {
+      if (!ds.pointLabels) return;
+      chart.getDatasetMeta(i).data.forEach(function (pt, j) { ctx.fillText(ds.pointLabels[j], pt.x + 8, pt.y); });
+    });
+    ctx.restore(); } };
+  var rrEl = document.getElementById('rr-chart');
+  if (rrEl && lab.rr) {
+    var ds = [
+      { type: 'scatter', label: 'Universe stocks', data: lab.rr.stocks, backgroundColor: muted, pointRadius: 2.5, pointHoverRadius: 5, order: 3 },
+      { type: 'line', label: 'Efficient frontier', data: lab.rr.frontier, borderColor: ink, borderWidth: 2, pointRadius: 0, tension: 0, order: 2 }
+    ];
+    lab.rr.portfolios.forEach(function (p) {
+      ds.push({ type: 'scatter', label: p.label, data: [{ x: p.x, y: p.y }], backgroundColor: COLORS[p.key],
+                borderColor: surface, borderWidth: 2, pointRadius: 7, pointHoverRadius: 9, pointLabels: [p.label], order: 1 });
+    });
+    new Chart(rrEl, { data: { datasets: ds }, plugins: [labelPlugin],
+      options: { responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: { legend: { display: false },
+          tooltip: { callbacks: { label: function (c) { var r = c.raw; return (r.label || c.dataset.label) + ': return ' + pct(r.y) + ', vol ' + pct(r.x); } } } },
+        scales: { x: { type: 'linear', title: { display: true, text: 'Volatility (annual)', color: ink2 }, ticks: { color: ink2, callback: pct }, grid: { color: rule } },
+                  y: { title: { display: true, text: 'CAPM expected return', color: ink2 }, ticks: { color: ink2, callback: pct }, grid: { color: rule } } } } });
+  }
+  var navEl = document.getElementById('nav-chart');
+  if (navEl && lab.record && lab.order && lab.order.length) {
+    var first = lab.record[lab.order[0]];
+    new Chart(navEl, { type: 'line',
+      data: { labels: first.dates, datasets: lab.order.map(function (k) {
+        return { label: lab.labels[k] || k, data: lab.record[k].values, borderColor: COLORS[k], backgroundColor: COLORS[k],
+                 borderWidth: 2, pointRadius: first.dates.length < 3 ? 4 : 0, tension: 0 }; }) },
+      options: { responsive: true, maintainAspectRatio: false, animation: false, interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { position: 'bottom', labels: { color: ink2, boxWidth: 10, font: { family: 'monospace', size: 11 } } } },
+        scales: { x: { ticks: { color: ink2, maxTicksLimit: 6, maxRotation: 0 }, grid: { display: false } },
+                  y: { title: { display: true, text: 'Indexed to 100 at inception', color: ink2 }, ticks: { color: ink2 }, grid: { color: rule } } } } });
+  }
 })();
 </script>
 </body>

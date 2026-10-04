@@ -8,7 +8,8 @@ raw responses and append-only history CSVs to this repo, and renders `site/index
 no backend, the browser makes no API calls, and every number on the page can be reproduced from
 files in `data/`.
 
-**Status:** Step 0 and Phase 1 (terminal) are done. Phase 2 (portfolio lab) comes after review.
+**Status:** Step 0, Phase 1 (terminal) and Phase 2 (portfolio lab) are built. The live record starts
+automatically on the first daily run with 52 weekly returns of history (about 7 Oct 2026; see below).
 
 | Doc | What's in it |
 |---|---|
@@ -28,13 +29,25 @@ cse/                 python package
   metrics.py         Panel A/B computations
   tags.py            disclosure tagging rules (one tested file)
   sectors.py         sector-label normalisation
+  corpactions.py     corporate actions from structured CSE announcements
+  returns.py         total returns (dividends, splits, scrip, rights / TERP)
+  estimates.py       universe filter, Ledoit-Wolf, Dimson beta, CAPM, Amihud
+  optimize.py        cvxpy: min variance, risk parity, max Sharpe, frontier
+  record.py          forward-only live record and rebalancing
+  lab.py             portfolio lab job -> data/lab/, record/
 config/
   universe.yaml      your watchlist and excluded names
+  portfolio.yaml     portfolio lab settings
   sector_overrides.yaml
+  corporate_actions_review.yaml   your confirmations of needs_review corporate actions
 data/
   raw/<session>/     untouched API responses
   history/           prices.csv, indices.csv, market.csv, announcements.csv (append-only)
-  runs.csv           one line per run (ok / no_new_session / failed)
+  history/corporate_actions.csv
+  raw/announcements/ cached announcement lists and details (corporate actions)
+  lab/<session>.json everything Panel D shows, per session
+  runs.csv           one line per run (ok / no_new_session / failed / waiting / infeasible)
+record/              live record: nav.csv, holdings.csv, trades.csv (append-only)
 tests/               pytest; fixtures are real API responses
 ```
 
@@ -50,8 +63,13 @@ python -m pytest -q          # all tests run offline against recorded real respo
 python -m cse.fetch          # today's session (about 5-15 min; the API is slow and we are polite)
 python -m cse.backfill       # one-off: ~1 year of history for every equity (about 20 min cold;
                              #   it reuses any raw responses already saved under data/raw/)
+python -m cse.corpactions    # one-off: ~1 year of corporate actions (about 1 h cold; cached)
+python -m cse.lab            # portfolio lab (seconds); --dry-run computes without writing
 python -m cse.build          # writes site/index.html; open it in a browser
 ```
+
+The daily workflow runs `fetch`, `lab` and `build`. New corporate actions in the daily announcement
+feed are picked up by `lab` automatically; `cse.corpactions` is only needed once.
 
 You can run `fetch` and `backfill` in either order, and re-run either one. Neither can create
 duplicate rows. If the API's session date equals the last stored one, `fetch` prints
@@ -84,9 +102,23 @@ These are per-symbol sector assignments for the few companies whose CSE label is
 industry group. The current entries are proposals, so confirm or edit them. Values must be one
 of the 20 S&P/CSE industry-group names; anything else fails validation.
 
-### `config/portfolio.yaml` (Phase 2)
+### `config/portfolio.yaml`
 
-Arrives with Phase 2: portfolio size, risk-free rate, costs, constraints, rebalance schedule.
+Values are the brief's, plus `series`, `history_adjusted` and `my_book`. Lines marked EDIT are yours:
+
+- `portfolio_size_lkr`: your real size, used for liquidity caps and the trade list.
+- `risk_free_annual`: the 12-month T-bill yield. Update it by hand when it moves; it feeds CAPM and Sharpe.
+- `dividend_withholding`: set it to the current rate for net-of-tax returns.
+- `cost_per_side`: verify against the current CSE cost schedule.
+- `my_book`: optional `{SYMBOL: shares}` to compare your holdings with the models.
+- `series`: the record's version label. **If you change a method setting in a way that would make past
+  record rows inconsistent, also change the label** (e.g. `v1-...`). A new series starts at the next run
+  and the old one stays visible. Never edit `record/` by hand.
+- `history_adjusted`: keep `false`. The run stops if the price data ever contradicts it (§8.2 of METHODS).
+- `min_history_weeks: 52` (decision D1). The API gives about 1 year of history, so the first run with 52
+  weekly returns is around 7 Oct 2026, provided the daily job has been running since then. Until that
+  run, Panel D shows "waiting". To preview the lab before then without touching the record:
+  `python -m cse.lab --dry-run --min-history-weeks 51 --out /tmp/lab`.
 
 ## Enabling GitHub Pages and the daily run
 
@@ -103,14 +135,29 @@ and deploys `site/`. **If the fetch fails, the job fails, nothing is written, an
 site stays up.** The failure is recorded in `data/runs.csv`, and the live page shows a stale-data
 banner once its data falls a session behind. No secrets are needed.
 
-## Confirming `needs_review` corporate actions (Phase 2)
+## Confirming `needs_review` corporate actions
 
-Phase 2 builds `data/history/corporate_actions.csv` from the CSE's structured announcement
-records (see API_NOTES Q2). Any row that couldn't be filled from structured fields, typically a
-rights ratio given only as free text, is marked `needs_review` and listed on the site with a link
-to its PDF. To confirm one, open the PDF, check the type, ex-date and amount or ratio, and set
-`status` to `confirmed` in that row (or correct it first). Amounts are never inferred. A row
-stays out of the total-return calculation until it is confirmed.
+`data/history/corporate_actions.csv` is built from the CSE's structured announcement records (API_NOTES
+Q2). Cash dividends, scrip dividends and dated sub-divisions come from numeric fields and are used
+directly. Anything read from free text, notably every rights issue (its ratio is a sentence), is marked
+`needs_review`. These rows are listed at the bottom of Panel D with a link to the source PDF, and they're
+**not used** for returns or the record until you confirm them.
+
+To confirm, open the PDF, check the ex-date, ratio and subscription price, and add the row's `id` to
+`config/corporate_actions_review.yaml`:
+
+```yaml
+confirm:
+  "35920:HAYL.N0000": {}                                   # correct as parsed
+  "40001:ABC.N0000": {ratio_new: 1, ratio_held: 10}        # correct it while confirming
+reject:
+  - "40002:XYZ.N0000"                                      # not a real event / duplicate
+```
+
+Commit the file. The next run uses the action, and Panel D stops listing it. The CSV itself is never
+edited; it's append-only. If you confirm an action after its ex-date has passed, the total-return
+history picks it up on the next run (estimates are recomputed every run). The live record does **not**
+book it retroactively, because history is never restated. Confirm promptly when a name you hold goes ex.
 
 ## When the API changes
 
@@ -135,4 +182,5 @@ That's a change of source, and per the original brief it needs an explicit decis
 - Read-only, no logins, and no broker or order endpoints.
 - No fabricated, interpolated or hard-coded market data, including in tests.
 - Dependencies are pinned in `requirements.txt`.
-- History files are append-only and are never restated.
+- History files and the live record are append-only and are never restated.
+- Panel D is model output from stated assumptions, not investment advice.

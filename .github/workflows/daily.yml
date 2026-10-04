@@ -20,6 +20,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    outputs:
+      built: ${{ steps.upload.outcome == 'success' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,9 +48,7 @@ jobs:
       - name: Fetch
         run: python -m cse.fetch
 
-      - name: Build
-        run: python -m cse.build
-
+      # Commit the fetched data first, so a lab problem can never lose a day of data.
       - name: Commit data
         run: |
           git add data
@@ -56,10 +56,34 @@ jobs:
           git pull --rebase origin "$GITHUB_REF_NAME"   # data/ commits rebase cleanly over code pushes
           git push origin "HEAD:$GITHUB_REF_NAME"
 
+      # Portfolio lab: corporate actions, estimates, model portfolios, live record.
+      # Allowed to fail without blocking the terminal; the job is marked failed at the end.
+      - name: Portfolio lab
+        id: lab
+        continue-on-error: true
+        run: python -m cse.lab
+
+      - name: Build
+        run: python -m cse.build
+
+      - name: Commit record
+        run: |
+          git add data record
+          git diff --cached --quiet || git commit -m "record: daily update $(date -u +%F)"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        id: upload
         with:
           path: site
+
+      - name: Fail the job if the lab failed
+        if: steps.lab.outcome == 'failure'
+        run: |
+          echo "::error::cse.lab failed; the terminal was deployed, Panel D shows the last good lab output"
+          exit 1
 
       # Keep a record of the failure (data/runs.csv only; no market data) so the next
       # successful build can show it. The page also warns by itself when its data goes stale.
@@ -71,6 +95,8 @@ jobs:
 
   deploy:
     needs: update
+    # Deploy whenever the site was built, even if only the lab step failed.
+    if: ${{ always() && needs.update.outputs.built == 'true' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
