@@ -1,0 +1,41 @@
+{
+ "reqBaseAnnouncement": {
+  "id": 32457,
+  "dType": "ShareSplits",
+  "dateOfAnnouncement": "05 Aug 2025",
+  "cbApproved": null,
+  "cbApprovedReceived": true,
+  "cbApprovedNotRequired": false,
+  "cbApprovedPending": false,
+  "remarks": "Sub-Division of Shares",
+  "approveStatus": null,
+  "cseComment": null,
+  "createdDate": null,
+  "updatedDate": null,
+  "approveStatusDisplay": null,
+  "company": null,
+  "announcementDocuments": null,
+  "symbol": "CIC",
+  "companyName": "CIC HOLDINGS PLC",
+  "votingExistingNumOfShares": 291600000,
+  "nonVotingExistingNumOfShares": 87480000,
+  "votingResultingNumOfShares": "1458000000",
+  "nonVotingResultingNumOfShares": "437400000",
+  "votingProportion": "1:5",
+  "nonVotingProportion": "1:5",
+  "tradingSuspended": null,
+  "tradingCommencement": null
+ },
+ "reqAnnouncementDocs": [
+  {
+   "id": 190820,
+   "fileName": "Sub Division of Shares_28198962286516450.pdf",
+   "fileUrl": "cmt/announcement_portal_prod/Sub Division of Shares_28198962286516450.pdf",
+   "fileSize": 762195,
+   "fileOriginalName": "Sub Division of Shares.pdf",
+   "contentType": "application/pdf",
+   "status": "1",
+   "baseUrl": "https://cdn.cse.lk/"
+  }
+ ]
+}

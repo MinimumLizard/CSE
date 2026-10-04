@@ -1,0 +1,27 @@
+{
+ "reqFinancialAnnouncemnets": [
+  {
+   "id": 53163,
+   "path": "cmt/upload_report_file/499_1790759508850.09.2026) Proof 19 (with signatues) VM Final.pdf",
+   "manualDate": 1774895400000,
+   "uploadedDate": "30 Sep 2026 02:41:48 PM",
+   "fileText": "Annual Report as at 31st March 2026",
+   "name": "STANDARD CAPITAL PLC",
+   "symbol": "SING",
+   "logoUrl": null,
+   "authorizedDate": "30 Sep 2026 05:01:24 PM"
+  },
+  {
+   "id": 53161,
+   "path": "cmt/upload_report_file/371_1790738365431.pdf",
+   "manualDate": 1790706600000,
+   "uploadedDate": "30 Sep 2026 08:49:25 AM",
+   "fileText": "Trust Deed",
+   "name": "DFCC BANK PLC",
+   "symbol": "DFCC",
+   "logoUrl": "upload_logo/371_1601452506.jpeg",
+   "authorizedDate": "30 Sep 2026 09:35:36 AM"
+  },
+  "... 3 more"
+ ]
+}

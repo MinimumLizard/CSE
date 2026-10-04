@@ -1,0 +1,43 @@
+{
+ "reqBaseAnnouncement": {
+  "id": 39511,
+  "dType": "RightsIssue",
+  "dateOfAnnouncement": "02 Oct 2026",
+  "cbApproved": null,
+  "cbApprovedReceived": true,
+  "cbApprovedNotRequired": false,
+  "cbApprovedPending": false,
+  "remarks": "to issue One Hundred Twenty Two Million Three Hundred Eighty Eight Thousand Three Hundred Ninety Four (122,388,394) ordinary voting shares at a price of Rs. 16, by way of Rights Issue ",
+  "approveStatus": null,
+  "cseComment": null,
+  "createdDate": null,
+  "updatedDate": null,
+  "approveStatusDisplay": null,
+  "company": null,
+  "announcementDocuments": null,
+  "symbol": "WAPO",
+  "companyName": "GALLE FACE CAPITAL PARTNERS PLC",
+  "numOfVotingShrsIssued": 122388394,
+  "numOfNonVotingShrsIssued": null,
+  "votingShrsPropToBeIssued": "One (01) new Ordinary Voting Share for every One (01) existing issued Ordinary voting shares held",
+  "nonVotingShrsPropToBeIssued": null,
+  "votingShareConsideration": 16,
+  "nonVotingShareConsideration": null,
+  "curStatCapOfEntity": 732814112.2,
+  "perposeOfTheIssue": "1.\tSettlement of  short-term bank borrowings\r\n2.\tSettlement of short-term intercompany borrowings\r\n3.\tFinancing Future Investments\r\n",
+  "xr": null,
+  "tradingCommencement": null
+ },
+ "reqAnnouncementDocs": [
+  {
+   "id": 227003,
+   "fileName": "Disclosure_Rights Issue_13812507853961586.pdf",
+   "fileUrl": "cmt/announcement_portal_prod/Disclosure_Rights Issue_13812507853961586.pdf",
+   "fileSize": 616158,
+   "fileOriginalName": "Disclosure_Rights Issue.pdf",
+   "contentType": "application/pdf",
+   "status": "1",
+   "baseUrl": "https://cdn.cse.lk/"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+[
+ [
+  {
+   "id": 105582,
+   "sectorId": 223,
+   "symbol": "EGY",
+   "indexCode": "1010",
+   "indexCodeSp": "SPCSEEIP",
+   "indexName": "S&P/CSE Energy Industry Group Index",
+   "name": "Energy",
+   "indexValue": 2691.33,
+   "change": -12.44,
+   "percentage": -0.4600983071784952,
+   "sectorTradeToday": 102.0,
+   "sectorVolumeToday": 554547,
+   "sectorTurnoverToday": 71033823.1,
+   "sectorPreviousClose": 2703.77,
+   "transactionTime": 1790931516138
+  },
+  {
+   "id": 105573,
+   "sectorId": 224,
+   "symbol": "MAT",
+   "indexCode": "1510",
+   "indexCodeSp": "SPCSEMIP",
+   "indexName": "S&P/CSE Materials Industry Group Index",
+   "name": "Materials",
+   "indexValue": 3070.32,
+   "change": 4.79,
+   "percentage": 0.1562535678985363,
+   "sectorTradeToday": 1047.0,
+   "sectorVolumeToday": 1151550,
+   "sectorTurnoverToday": 43347574.9,
+   "sectorPreviousClose": 3065.53,
+   "transactionTime": 1790931597544
+  },
+  "... 18 more"
+ ]
+]

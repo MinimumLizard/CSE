@@ -1,0 +1,49 @@
+{
+ "reqCompanyAnnouncement": [
+  {
+   "id": 32900,
+   "createdDate": 1790246715000,
+   "dateOfAnnouncement": "24 Sep 2026",
+   "announcementId": 39282,
+   "announcementCategory": "ANNUAL GENERAL MEETING - APPROVED",
+   "company": "LOLC HOLDINGS PLC",
+   "type": "new",
+   "symbol": null,
+   "recordDate": null,
+   "allotment": null,
+   "xr": null,
+   "xc": null,
+   "xd": null,
+   "tradingCommencement": null,
+   "tradingSuspended": null,
+   "paymentDate": null,
+   "agmDate": null,
+   "dateOfAgmInitial": null,
+   "logoUrl": null,
+   "remarks": null
+  },
+  {
+   "id": 32422,
+   "createdDate": 1788152759000,
+   "dateOfAnnouncement": "28 Aug 2026",
+   "announcementId": 38699,
+   "announcementCategory": "CIRCULAR TO SHAREHOLDERS",
+   "company": "LOLC HOLDINGS PLC",
+   "type": "new",
+   "symbol": null,
+   "recordDate": null,
+   "allotment": null,
+   "xr": null,
+   "xc": null,
+   "xd": null,
+   "tradingCommencement": null,
+   "tradingSuspended": null,
+   "paymentDate": null,
+   "agmDate": null,
+   "dateOfAgmInitial": null,
+   "logoUrl": null,
+   "remarks": null
+  },
+  "... 22 more"
+ ]
+}

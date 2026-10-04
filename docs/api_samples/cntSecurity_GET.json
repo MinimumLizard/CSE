@@ -1,0 +1,21 @@
+{
+ "status": "OK",
+ "statusCode": 200,
+ "content": [
+  {
+   "securityId": 642,
+   "name": "ABANS ELECTRICALS PLC",
+   "symbol": "ABAN",
+   "boardId": 0,
+   "deleted": 0
+  },
+  {
+   "securityId": 1069,
+   "name": "ABANS FINANCE PLC",
+   "symbol": "AFSL",
+   "boardId": 3,
+   "deleted": 0
+  },
+  "... 367 more"
+ ]
+}

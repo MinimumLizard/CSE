@@ -1,0 +1,49 @@
+{
+ "approvedAnnouncements": [
+  {
+   "id": 33090,
+   "createdDate": 1790942311000,
+   "dateOfAnnouncement": "02 Oct 2026",
+   "announcementId": 39516,
+   "announcementCategory": "RESIGNATION OF CHAIRPERSON",
+   "company": "FIRST CAPITAL TREASURIES PLC",
+   "type": null,
+   "symbol": null,
+   "recordDate": null,
+   "allotment": null,
+   "xr": null,
+   "xc": null,
+   "xd": null,
+   "tradingCommencement": null,
+   "tradingSuspended": null,
+   "paymentDate": null,
+   "agmDate": null,
+   "dateOfAgmInitial": null,
+   "logoUrl": "upload_logo/1426_1669717257.jpeg",
+   "remarks": null
+  },
+  {
+   "id": 33089,
+   "createdDate": 1790942002000,
+   "dateOfAnnouncement": "02 Oct 2026",
+   "announcementId": 39515,
+   "announcementCategory": "RESIGNATION OF DIRECTORS",
+   "company": "FIRST CAPITAL TREASURIES PLC",
+   "type": null,
+   "symbol": null,
+   "recordDate": null,
+   "allotment": null,
+   "xr": null,
+   "xc": null,
+   "xd": null,
+   "tradingCommencement": null,
+   "tradingSuspended": null,
+   "paymentDate": null,
+   "agmDate": null,
+   "dateOfAgmInitial": null,
+   "logoUrl": "upload_logo/1426_1669717257.jpeg",
+   "remarks": null
+  },
+  "... 131 more"
+ ]
+}

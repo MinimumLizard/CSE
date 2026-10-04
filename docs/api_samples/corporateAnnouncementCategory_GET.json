@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "categoryName": "ANNUAL GENERAL MEETING - APPROVED",
+  "pageName": "annuAgmUpload.html",
+  "pageView": "annuAgmApprvdUploadList",
+  "methodName": "getLastAgmApproved",
+  "genAnnou": false,
+  "smd": true,
+  "parentCategoryId": null
+ },
+ {
+  "id": 2,
+  "categoryName": "ANNUAL GENERAL MEETING - INITIAL",
+  "pageName": "annuAgmInitUpload.html",
+  "pageView": "annuAgmInitUploadList",
+  "methodName": "getLastAgmInitial",
+  "genAnnou": false,
+  "smd": true,
+  "parentCategoryId": null
+ },
+ "... 51 more"
+]
