@@ -1,0 +1,4 @@
+run_at_utc,command,status,session,message
+2026-10-04T11:53:43Z,fetch,ok,2026-10-02,"session 2026-10-02: prices +278, indices +26, market +2, announcements +138 (226 API calls)"
+2026-10-04T11:54:18Z,backfill,ok,2026-10-02,"backfill to 2026-10-02: prices +67900 rows (302 equities), indices +5258 rows (22 indices), 26 API calls"
+2026-10-04T11:54:40Z,fetch,no_new_session,2026-10-02,no new session (latest stored daily session 2026-10-02)
