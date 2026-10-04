@@ -77,7 +77,8 @@ def doc_url(detail: AnnouncementDetail | None) -> str:
     if not detail or not detail.reqAnnouncementDocs:
         return ""
     d = detail.reqAnnouncementDocs[0]
-    return (d.baseUrl or CDN).rstrip("/") + "/" + quote(d.fileUrl.lstrip("/"), safe="/")
+    base = d.baseUrl if (d.baseUrl or "").startswith("https://") else CDN  # never emit a non-https href
+    return base.rstrip("/") + "/" + quote(d.fileUrl.lstrip("/"), safe="/")
 
 
 def announcement_detail(client: CseClient, aid: int) -> tuple[AnnouncementDetail | None, str | None, bytes]:
@@ -141,7 +142,7 @@ def collect(client: CseClient, paths: Paths, universe_path: Path | None = None) 
     for r in trade.reqTradeSummery:
         snap.prices.append({
             "date": session, "symbol": r.symbol, "close": r.closingPrice,
-            "previous_close": r.previousClose, "high": r.high, "low": r.low,
+            "previous_close": r.previousClose or None, "high": r.high, "low": r.low,
             "volume": r.sharevolume, "turnover": r.turnover, "turnover_est": None, "source": "daily",
         })
 

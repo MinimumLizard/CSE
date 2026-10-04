@@ -181,7 +181,7 @@ def build_context(root: Path = ROOT) -> dict:
                 "traded": t is not None, "price": price,
                 "change": t.change if t else None, "pct": (t.percentageChange / 100) if t else None,
                 "lo": lo, "hi": hi, "pos": metrics.range_position(price, lo, hi),
-                "range_flag": has_flag(closes, year_ago),
+                "range_flag": metrics.has_jump(closes, year_ago),
                 "vol": metrics.volume_vs_average(volumes, calendar, t.sharevolume if t else 0),
                 "rel": metrics.relative_returns(closes, aspi_series, calendar),
                 "mcap": (t.marketCap if t and t.marketCap else (si.marketCap if si else None)),
@@ -212,10 +212,6 @@ def build_context(root: Path = ROOT) -> dict:
         "calendar_len": len(calendar), "calendar_start": calendar[0] if calendar else None,
         "tags": ["board", "dealings", "dividend", "capital", "results", "other"],
     }
-
-
-def has_flag(closes: pd.Series, since: str) -> bool:
-    return metrics.has_jump(closes, since)
 
 
 def render(context: dict, out: Path) -> None:

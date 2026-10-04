@@ -22,6 +22,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so the pre-push rebase always works
 
       - uses: actions/setup-python@v5
         with:
@@ -51,7 +53,8 @@ jobs:
         run: |
           git add data
           git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
-          git push
+          git pull --rebase origin "$GITHUB_REF_NAME"   # data/ commits rebase cleanly over code pushes
+          git push origin "HEAD:$GITHUB_REF_NAME"
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
@@ -64,7 +67,7 @@ jobs:
         if: failure()
         run: |
           git add data/runs.csv || true
-          git diff --cached --quiet || (git commit -m "data: record failed run $(date -u +%F)" && git push)
+          git diff --cached --quiet || (git commit -m "data: record failed run $(date -u +%F)" && git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME")
 
   deploy:
     needs: update

@@ -98,3 +98,19 @@ def test_announcement_detail_falls_back_to_general_endpoint(client):
 def test_typed_detail_is_used_when_available(client):
     detail, endpoint, _ = fetch.announcement_detail(client, 39511)
     assert endpoint == "getAnnouncementById" and detail.reqBaseAnnouncement.dType == "RightsIssue"
+
+
+def test_new_listing_with_zero_previous_close_does_not_fail_the_run(root):
+    data = load("tradeSummary.json")
+    data["reqTradeSummery"][0]["previousClose"] = 0.0   # how a first-day listing is reported
+    fetch.run(FakeClient(overrides={"tradeSummary": data}), root)
+    row = storage.read_rows(fetch.Paths(root).prices)[0]
+    assert row["previous_close"] == ""
+
+
+def test_pdf_links_are_always_https():
+    from cse.models import AnnouncementDetail
+    d = load("getAnnouncementById/39511.json")
+    d["reqAnnouncementDocs"][0]["baseUrl"] = "javascript:alert(1)//"
+    url = fetch.doc_url(AnnouncementDetail.model_validate(d))
+    assert url.startswith("https://cdn.cse.lk/")

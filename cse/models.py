@@ -31,7 +31,7 @@ class TradeSummaryRow(Model):
     name: str
     price: float = Field(gt=0)
     closingPrice: float = Field(gt=0)
-    previousClose: float = Field(gt=0)
+    previousClose: float = Field(ge=0)  # 0 on a new listing's first day
     open: float | None = None
     high: float = Field(gt=0)
     low: float = Field(gt=0)
