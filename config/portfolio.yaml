@@ -1,0 +1,25 @@
+# Portfolio lab settings (Phase 2). Formulas: docs/METHODS.md section 8.
+series: v0-52w                  # record series label; change it (never edit history) if the method changes
+
+portfolio_size_lkr: 5000000     # EDIT: size used for liquidity caps and trade lists
+record_notional_lkr: 10000000   # starting value of each model portfolio
+risk_free_annual: 0.099         # EDIT: 12-month T-bill yield, updated by hand
+equity_risk_premium: 0.06       # ASSUMPTION: used only for CAPM expected returns
+cost_per_side: 0.0112           # VERIFY against the current CSE cost schedule
+dividend_withholding: 0.0       # EDIT: set to the current rate for net returns
+max_weight: 0.10
+max_sector_weight: 0.30
+min_history_weeks: 52           # decision D1 (brief said 104); weekly returns required
+min_traded_share: 0.80          # share of sessions with a trade, last 52 weeks
+min_median_turnover_lkr: 1000000
+participation: 0.20             # share of median daily turnover I can trade
+days_to_build: 10
+rebalance_months: [1, 4, 7, 10]
+band_relative: 0.25
+band_absolute: 0.02
+min_trade_lkr: 25000
+
+history_adjusted: false         # Step 0 proved the API's price history is UNADJUSTED. Never set true
+                                # unless the source changes; corporate actions are then not re-applied.
+
+my_book: {}                     # EDIT (optional): your holdings for comparison, e.g. {JKH.N0000: 1000}
