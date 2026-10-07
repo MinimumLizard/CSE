@@ -235,3 +235,147 @@ target returns, from the minimum-variance portfolio's E[R] up to the highest E[R
 - **Statistics** (page), only once 26 weeks have passed since inception: return since inception,
   annualised volatility of weekly (Wednesday) NAV returns, and maximum drawdown = min(NAV / running
   max − 1). No performance is shown for any date before inception.
+
+## 10. Ownership tracker
+
+Page: `site/ownership.html`. Code: `cse/ownership/` (`collect`, `parse`, `names`, `analyse`, `site`). Tests:
+`tests/test_ownership.py`, on real report text.
+
+**Source.** CSE Listing Rule 7.4 requires every interim report to list the company's twenty largest
+shareholders. The CSE API's `shareholderList` endpoint only holds directors' holdings at listing, so the
+reports themselves are the source.
+
+### 10.1 Collection (`python -m cse.ownership.collect`, weekly)
+
+- For each company (one call per company code, voting class preferred), `financials` lists its filed
+  reports. The newest quarterly report is taken by period date, then upload time. The newest annual report
+  is used only when a company has no quarterly filing.
+- The PDF is downloaded from cdn.cse.lk with the same polite rules as the daily job and converted with
+  `pdftotext -layout` (poppler-utils). Only the text is kept: `data/raw/ownership/text/<report id>.txt`.
+  It is indexed in `data/raw/ownership/reports.csv` (append-only, keyed on report id), and the
+  `financials` response is saved under `data/raw/ownership/financials/`.
+- Report text is never replaced. A new quarter is a new report id, so earlier quarters stay and every
+  run re-parses all of them (`holdings.csv` covers every collected period).
+- Reports under 200 words are `no_text`: scanned images with no text layer. They are not OCR'd.
+
+### 10.2 Table parsing (`cse/ownership/parse.py`)
+
+- **Headings.** A heading is "twenty / thirty / top / first / major / largest / list of / main …
+  shareholders (or shareholdings)", or "shareholders … as at". Headings mentioning debentures, directors,
+  key management, related parties, bonds, preference shares, analysis, distribution, categories, public
+  holding or the number of shareholders are skipped.
+- **Share class.** "Non-voting" in the heading, or in a sub-heading within 40 lines after a table,
+  marks a non-voting (`X`) table.
+- **Rows.** A row is an optional rank, a name, the current-period share count and its percentage. Any
+  prior-period columns after them are ignored. The parser also handles:
+  - names wrapped above or below their numbers;
+  - sub-numbered rows (`1.1`, `1.2`);
+  - one holder's accounts followed by their combined line;
+  - footnote markers (`** 7.91`);
+  - digits split by the PDF (`1 7,52 1 ,1 1 0`);
+  - whole-number percentages (`67%`).
+
+  A row whose current-period cell is `-`, `N/A` or `Nil` is a holder that held nothing this period, and
+  is dropped.
+- **End of table.** A table ends at its total or subtotal line (its share count and percentage are
+  recorded), at the next heading or section (directors, public holding…), or when ranks restart at 1.
+- **Checks.** A table is used only if it passes all of these:
+  - at least 5 rows, and the percentages sum to ≤ 100.5;
+  - **internal consistency**: each of the ten largest rows implies a class total
+    T = shares × 100 / %. Because the printed % is rounded or truncated to *d* places, each row gives an
+    interval [shares × 100 / (% + 10⁻ᵈ), shares × 100 / (% − 10⁻ᵈ)]. The intervals must overlap (0.5 %
+    slack). The implied total is the geometric midpoint of the overlap;
+  - **share count**:
+    - `verified` means the implied total is within 10 % of the CSE's `quantityIssued` for that class;
+    - otherwise `verified_total` means the overlap contains the report's own printed class total (a
+      "Total … 100 %" line). The share count has changed since the report date (rights issue, split);
+    - anything else is `unverified` and is not used;
+  - if the table prints a subtotal, the rows must add up to it: shares within 0.5 %, or percentages
+    within 0.25 + n × 10⁻ᵈ / 2.
+
+  When several tables pass for one class, the one with more rows is kept.
+- **Holding fraction.** f = shares / T₀, where T₀ is, in this order:
+  1. the report's printed class total, when the overlap contains it;
+  2. otherwise the CSE share count, when the overlap contains it;
+  3. otherwise the implied total.
+
+  Using the report-date total keeps f right across later splits and new issues.
+
+### 10.3 Beneficial owner and entity (`cse/ownership/names.py`; user decision: credit the beneficial owner, show names as filed)
+
+1. Normalise for matching only. The steps:
+   - upper case, without apostrophes or punctuation;
+   - drop titles (Mr/Mrs/Dr/Prof/Rev/M/S…), a leading "The", and account designations ("A/C No.2",
+     "No 3 Share Investment Account", "(Collateral)");
+   - treat "(Pvt) Ltd / Private Limited / Limited / PLC" as the same suffix.
+
+   A cell that the PDF printed twice is collapsed to one copy.
+2. **Custodians and trustees** are stripped, and the owner named after them is credited, with the
+   custodian kept as `via`. This covers:
+   - "<bank> S/A <owner>", "BNYM SA/NV-…", "SSBT-…", "BBH-…", "JPMCB NA-…", "CACEIS…", "Citibank N.A.…";
+   - "<…> as trustee for/to <fund>";
+   - "<bank> A/C <fund or trust>";
+   - "<bank> - <fund / trust / scheme>".
+3. **Margin and financed accounts**: "<lender>/<owner>" credits the owner after the last slash, but only
+   when the part before it names a bank, finance, leasing, capital, securities, wealth or investment
+   firm, or a company. Otherwise slashes mean joint holders.
+4. Insurers' **life and policyholder funds** are institutions in their own right. They are never chained
+   to the listed insurer, because that money belongs to policyholders.
+5. **Types**:
+   - `listed`: the normalised name equals a CSE-listed company's name. A holder filed as "X Limited" matches
+     "X PLC"; companies re-register as PLC on listing.
+   - `estate`, `trust`, `institution`: funds, provident and pension schemes, insurers' funds,
+     development-finance institutions, the Treasury and state bodies.
+   - `company`: unlisted, including foreign companies.
+   - `joint`, `individual`, `nominee`: a nominee is unidentified and never counts as a controller.
+6. **Merging.** Holders merge only when their normalised names are identical. Initials are never matched
+   to full names, so "K.D.D. Perera" and "K.A.D.D. Perera" stay separate. Merging those would be a guess
+   about a person's identity. `config/ownership_aliases.yaml` merges spellings that you know are the same
+   holder, and it always wins.
+
+### 10.4 Graph (`cse/ownership/analyse.py`)
+
+The analysis uses each company's latest report, with only `verified` and `verified_total` tables. Market
+value is f × the class's market capitalisation, from the latest `tradeSummary` (or `companyInfoSummery` for
+a class that didn't trade). Holdings are as at the report date and prices are as at the latest session.
+
+- **Direct value** of holder h: V_h = Σ_c Σ_class f(h, c, class) × cap(c, class). A listed holding
+  company appears here, and summing these values double-counts.
+- **Economic look-through.**
+  - Let W[c′, c] be the fraction of company c's market value held by listed company c′, counting only
+    listed companies whose own register is covered.
+  - Let D[o, c] be the same fraction for every other holder o.
+  - Then F = D (I − W)⁻¹ gives o's ultimate fraction of c through any chain of listed holding companies,
+    and look-through value = F · cap. The run stops if the spectral radius of W is ≥ 1, which would mean a
+    closed loop of cross-holdings.
+  - Each column of F sums to at most 1, so Σ look-through ≤ covered market cap, and nothing is counted
+    twice.
+  - Stakes held by a listed company whose own register isn't verified stay with that company
+    ("listed holder, register not verified").
+  - Value outside the published top-20 lists is shown as unattributed.
+- **Control** (voting shares only).
+  - For each company, votes are summed by **block**: a holder's accounts, plus the votes of every listed
+    company that the holder controls.
+  - The largest block (nominees excluded, the company's own shares excluded) makes the company
+    `controlled` if it is > 50 %, or `influence` if it is 20–50 %.
+  - This is iterated to a fixed point, so control can pass up a chain. The page shows the chain as
+    company ← largest member of the block ← … ← block owner.
+  - Statutory caps on voting rights are not applied. For example, HNB footnotes that some holders' combined
+    votes are capped at 10 % under the Banking Act. Those holders show at their registered percentage.
+- **Outputs** (rebuilt in full every run):
+  - `data/ownership/holdings.csv`: every parsed row of every collected report, with the credited owner,
+    type, `via`, rule, f and table status;
+  - `companies.csv`: per company, the report, table status and note, controller, block %, level and chain;
+  - `owners.csv`: per owner, direct and look-through value, holdings, companies controlled and influenced;
+  - `latest.json`: page input, not committed; rebuilt by the daily job at that session's prices.
+
+  The weekly workflow commits the CSVs. The daily workflow re-values them for the page and doesn't commit
+  them.
+
+### 10.5 Limits
+
+- Only the top 20–30 holders per company are visible. Holders below that are not, nor are owners of
+  unlisted companies (who owns Milford Exports, for example, is not in any CSE filing).
+- Data is as at each report's period end, which is usually the last quarter end.
+- The `no_text`, `no_table` and `unverified` companies are listed in the lookup, each with its reason. Nothing
+  is estimated for them.

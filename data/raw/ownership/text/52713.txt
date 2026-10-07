@@ -1,0 +1,882 @@
+                                                      Page 0
+
+
+
+
+DIALOG AXIATA PLC
+
+
+
+
+CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+
+FOR THE QUARTER ENDED
+
+30 JUNE 2026
+                                                                                                           Deloitte Partners
+                                                                                                           100 Braybrooke Place
+                                                                                                           Colombo 2
+                                                                                                           Sri Lanka
+
+                                                                                                           Tel: +94 11 771 9700,
+                                                                                                           +94 11 771 9838
+                                                                                                           Fax: +94 11 230 7237
+                                                                                                           www.deloitte.com
+
+
+Report on Review of Condensed Consolidated Interim Financial Information
+
+To the Board of Directors of Dialog Axiata PLC
+
+
+
+Introduction
+
+
+
+
+                           6, the related condensed statements of comprehensive income of the Company and the
+Group for the quarter ended and cumulative six - months ended 30 June 2026, the related changes in equity and cash
+flows of the Company and the Group for the cumulative six - months then ended, and a summary of material
+accounting policies and other explanatory notes. Management is responsible for the preparation and fair presentation
+of this condensed interim financial information in accordance with Sri Lanka Accounting Standard 34 [LKAS34]
+Interim Financial Reporting. Our responsibility is to express a conclusion on this condensed interim financial
+information based on our review.
+
+Scope of Review
+
+We conducted our review in accordance with Sri Lanka Standard on Review Engagements [SLSRE] 2410
+
+information consists of making inquiries, primarily of persons responsible for financial and accounting matters, and
+applying analytical and other review procedures. A review is substantially less in scope than an audit conducted in
+accordance with Sri Lanka Auditing Standards and consequently does not enable us to obtain assurance that we would
+become aware of all significant matters that might be identified in an audit. Accordingly, we do not express an audit
+opinion.
+
+Conclusion
+
+Based on our review, nothing has come to our attention that causes us to believe that the accompanying condensed
+interim financial information is not presented, in all material respects, in accordance with the Sri Lanka Accounting
+Standard 34 [LKAS34] Interim Financial Reporting.
+
+
+
+
+CHARTERED ACCOUNTANTS
+
+COLOMBO
+
+14 August 2026
+
+
+
+
+C S Manoharan FCA, T U Jayasinghe FCA, M D B Boyagoda FCA, H A C H Gunarathne FCA, M P M T Gunasekara FCA, N R Gunasekera FCA, M S J Henry
+FCA, M M R Hilmy FCA, H P V Lakdeva FCA, K M D R P Manatunga ACA, M M M Manzeer FCA, L A C Tillekeratne ACA, D C A J Yapa ACA
+
+Regd. Office: P.O. Box 918, 100 Braybrooke Place, Colombo 02, Sri Lanka. Reg. No.: w/4179
+                                                                                                                                 Page 2
+
+DIALOG AXIATA PLC
+Statement of financial position
+
+(all amounts are in Sri Lanka Rupees thousands)
+
+                                                                             Group                                 Company
+As at                                                                   30 June  31 December                   30 June 31 December
+                                                                           2026          2025                     2026         2025
+                                                                     (Reviewed)      (Audited)              (Reviewed)     (Audited)
+ASSETS
+Non-current assets
+Intangible assets                                                     46,872,170        42,233,321           37,403,929    33,208,814
+Contract costs assets                                                 10,192,369        11,767,495            2,882,926     3,159,678
+Property, plant and equipment                                        144,495,775       141,688,633          112,960,927   108,109,849
+Right-of-use assets                                                   10,682,480         9,415,848           10,305,645     9,072,717
+Deferred tax asset                                                       249,307           225,931                    -             -
+Investment in subsidiaries                                                     -                 -           40,983,648    40,675,068
+Other financial assets                                                 3,660,298         3,533,279                    -             -
+                                                                     216,152,399       208,864,507          204,537,075   194,226,126
+Current assets
+Inventories                                                            2,225,965         1,792,975              518,990       304,732
+Trade and other receivables                                           32,900,628        37,788,321           18,962,759    24,387,112
+Other financial assets                                                 9,962,103         7,979,184              689,071      100,304
+Cash and cash equivalents                                             20,000,348        19,050,199           17,653,208    14,995,399
+                                                                      65,089,044        66,610,679           37,824,028    39,787,547
+Total assets                                                         281,241,443       275,475,186          242,361,103   234,013,673
+
+EQUITY
+Capital and reserves attributable to equity holders
+Stated capital                                                        39,905,563        39,905,563           39,905,563    39,905,563
+Reserves                                                              49,158,662        50,224,636           29,948,777    34,410,608
+Non-controlling interest                                                  15,192         (117,471)                    -             -
+Total equity                                                          89,079,417        90,012,728           69,854,340    74,316,171
+LIABILITIES
+Non-current liabilities
+Borrowings                                                            19,012,000        15,482,402           17,712,000    13,146,186
+Contract liabilities                                                   8,234,162         6,106,728            7,204,658     5,069,234
+Deferred income                                                          180,632           228,865              180,632       228,865
+Lease liabilities                                                     10,662,247         9,427,146           10,314,608     9,151,770
+Other financial liabilities                                              442,527           300,997                    -             -
+Employee benefit payables                                              2,355,411         2,218,377            1,671,853     1,580,298
+Provision for other liabilities                                        8,929,430         4,957,418            8,503,382     4,536,320
+Deferred tax liability                                                 4,220,307         3,660,828            2,138,890     1,800,000
+                                                                      54,036,716        42,382,761           47,726,023    35,512,673
+Current liabilities
+Trade and other payables                                              71,870,445        67,114,369           80,033,388    70,800,091
+Borrowings                                                            52,282,082        61,003,632           37,661,177    43,891,953
+Other financial liabilities                                            4,805,202         3,318,810                    -             -
+Lease liabilities                                                      2,016,281         1,812,334            1,942,705     1,707,607
+Contract liabilities                                                   4,487,069         8,367,771            3,570,695     6,442,759
+Current income tax liabilities                                         2,664,231         1,462,781            1,572,775     1,342,419
+                                                                     138,125,310       143,079,697          124,780,740   124,184,829
+Total liabilities                                                    192,162,026       185,462,458          172,506,763   159,697,502
+Total equity and liabilities                                         281,241,443       275,475,186          242,361,103   234,013,673
+Net assets per share (Rs.)                                                  9.68              9.78                 7.59          8.08
+The notes on pages 8 to 14 form an integral part of these financial statements.
+I certify that these financial statements have been prepared in compliance with the requirements of the Companies Act, No. 07 of 2007.
+
+
+Sim Siew Shan
+Group Chief Financial Officer
+
+The Board of Directors is responsible for the preparation and presentation of these financial statements.
+
+
+David Nai Pek Lau                                                Supun Weerasinghe
+Chairman                                                         Director
+Date: 14 August 2026
+                                                                                                                      Page 3
+
+DIALOG AXIATA PLC
+
+Statement of comprehensive income
+
+(all amounts are in Sri Lanka Rupees thousands)
+
+                                                                      Group                             Company
+For the six months ended 30 June                                   2026           2025                 2026          2025
+                                                             (Reviewed)     (Reviewed)           (Reviewed)    (Reviewed)
+
+Revenue                                                       95,515,048           87,419,671     73,251,657     65,974,666
+
+Direct costs                                                (41,237,552)          (42,136,959)   (31,368,749)   (30,721,815)
+
+Gross profit                                                  54,277,496           45,282,712     41,882,908     35,252,851
+
+Distribution costs                                          (10,289,174)          (10,415,290)    (8,790,304)    (9,019,791)
+
+Administrative costs                                        (17,044,927)          (16,941,811)   (12,266,279)   (12,393,035)
+
+Net impairment losses on financial assets                     (1,404,581)          (1,361,024)     (266,076)      (717,712)
+
+Other income                                                     318,630              541,433        295,780        555,695
+
+Operating profit                                              25,857,444           17,106,020     20,856,029     13,678,008
+
+Finance income                                                   354,713              555,146        399,267        520,667
+
+Finance costs                                                 (4,207,382)          (4,936,110)    (3,602,550)    (4,242,465)
+
+Net foreign exchange gain / (loss)                               505,217            (645,617)        102,863      (808,632)
+
+Finance costs - net                                           (3,347,452)          (5,026,581)    (3,100,420)    (4,530,430)
+
+Share of loss from associates - net of tax                               -            (47,115)              -              -
+
+Profit before income tax                                      22,509,992           12,032,324     17,755,609      9,147,578
+
+Income tax expense                                            (3,209,253)          (2,839,682)    (1,976,703)    (2,272,103)
+
+Profit for the period                                         19,300,739            9,192,642     15,778,906      6,875,475
+
+Other comprehensive income not to be
+reclassified to income statement
+
+Net gain /(loss) on equity instruments at fair value
+through other comprehensive income, net of tax                      6,687             (30,036)              -              -
+
+Other comprehensive income for the period,
+net of tax                                                          6,687             (30,036)              -              -
+
+Total comprehensive income for the period                     19,307,426            9,162,606     15,778,906      6,875,475
+
+Profit / (loss) for the period attributable to:
+  - owners of the Company                                     19,300,514            9,197,488     15,778,906      6,875,475
+  - non-controlling interest                                         225               (4,846)             -              -
+
+Total comprehensive income for the period
+  attributable to:
+  - owners of the Company                                     19,307,256            9,169,071     15,778,906      6,875,475
+  - non-controlling interest                                         170               (6,465)             -              -
+
+Earnings per share
+ - basic                                                             2.10                1.00           1.72           0.75
+ - diluted                                                           2.10                1.00           1.72           0.75
+
+
+Dividend per share                                                   2.20                1.00           2.20           1.00
+
+
+
+
+The notes on pages 8 to 14 form an integral part of these financial statements.
+                                                                                                                      Page 4
+
+DIALOG AXIATA PLC
+
+Statement of comprehensive income
+
+(all amounts are in Sri Lanka Rupees thousands)
+
+                                                                      Group                             Company
+For the quarter ended 30 June                                      2026           2025                 2026          2025
+                                                             (Reviewed)     (Reviewed)           (Reviewed)    (Reviewed)
+
+Revenue                                                       48,222,852           44,125,720     37,231,246     33,720,704
+
+Direct costs                                                (20,791,556)          (20,720,167)   (16,153,117)   (15,378,787)
+
+Gross profit                                                  27,431,296           23,405,553     21,078,129     18,341,917
+
+Distribution costs                                            (5,311,810)          (5,354,088)    (4,555,848)    (4,657,221)
+
+Administrative costs                                          (8,575,048)          (8,688,801)    (6,031,048)    (6,253,766)
+
+Net impairment (loss) / gain on financial assets                (658,938)           (825,417)         12,713      (432,127)
+
+Other income                                                     120,821              391,417        124,175        441,505
+
+Operating profit                                              13,006,321            8,928,664     10,628,121      7,440,308
+
+Finance income                                                   217,463              298,244        225,906        280,562
+
+Finance costs                                                 (2,116,090)          (2,417,132)    (1,796,710)    (2,046,301)
+
+Net foreign exchange gain / (loss)                               516,180            (398,275)         71,844      (457,075)
+
+Finance costs - net                                           (1,382,447)          (2,517,163)    (1,498,960)    (2,222,814)
+
+Share of loss from associates - net of tax                               -                   -              -              -
+
+Profit before income tax                                      11,623,874            6,411,501      9,129,161      5,217,494
+
+Income tax expense                                            (1,510,209)          (1,347,913)     (942,139)     (1,205,948)
+
+Profit for the period                                         10,113,665            5,063,588      8,187,022      4,011,546
+
+Other comprehensive income not to be
+reclassified to income statement
+
+Net loss on equity instruments at fair value
+through other comprehensive income, net of tax                           -            (30,036)              -              -
+
+Other comprehensive income for the period,
+net of tax                                                               -            (30,036)              -              -
+
+Total comprehensive income for the period                     10,113,665            5,033,552      8,187,022      4,011,546
+
+Profit / (loss) for the period attributable to:
+  - owners of the Company                                     10,114,422            5,066,275      8,187,022      4,011,546
+  - non-controlling interest                                       (757)               (2,687)             -              -
+
+Total comprehensive income for the period
+  attributable to:
+  - owners of the Company                                     10,114,422            5,037,858      8,187,022      4,011,546
+  - non-controlling interest                                       (757)               (4,306)             -              -
+
+Earnings per share
+ - basic                                                             1.10                0.55           0.89           0.44
+ - diluted                                                           1.10                0.55           0.89           0.44
+
+
+Dividend per share                                                   2.20                1.00           2.20           1.00
+
+
+
+
+The notes on pages 8 to 14 form an integral part of these financial statements.
+                                                                                                                     Page 5
+
+ DIALOG AXIATA PLC
+
+ Consolidated statement of changes in equity
+
+ (all amounts are in Sri Lanka Rupees thousands)
+
+                                                              Attributable to owners of the
+                                                                         Parent
+                                                                                                       Non-
+                                                                    Stated                       controlling
+                                                                    capital         Reserves        interest         Total
+
+ Balance at 1 January 2026                                     39,905,563          50,224,636     (117,471)     90,012,728
+
+ Profit for the period                                                    -        19,300,514           225     19,300,739
+
+ Other comprehensive income                                               -             6,742           (55)         6,687
+
+ Total comprehensive income for the period                                -        19,307,256           170     19,307,426
+
+ Transaction with Non-controlling interest                                -         (132,493)       132,493               -
+
+ Dividend to shareholders                                                 -       (20,240,737)             -   (20,240,737)
+
+ Balance at 30 June 2026                                       39,905,563          49,158,662        15,192     89,079,417
+
+ Balance at 1 January 2025                                     39,905,563          38,448,023       (73,623)    78,279,963
+
+ Profit / (loss) for the period                                           -         9,197,488        (4,846)     9,192,642
+
+ Other comprehensive income                                               -           (28,417)       (1,619)       (30,036)
+
+ Total comprehensive income for the period                                -         9,169,071        (6,465)     9,162,606
+
+ Transaction with non-controlling interest                                -             7,862       (16,600)        (8,738)
+
+ Dividend to shareholders                                                 -        (9,200,335)             -    (9,200,335)
+
+ Balance at 30 June 2025                                       39,905,563          38,424,621       (96,688)    78,233,496
+
+ Balance at 1 July 2025                                        39,905,563          38,424,621       (96,688)    78,233,496
+
+ Profit / (loss) for the period                                           -        11,572,435        (5,079)    11,567,356
+
+ Other comprehensive income                                               -           223,663             2        223,665
+
+ Total comprehensive income for the period                                -        11,796,098        (5,077)    11,791,021
+
+ Transactions with non-controlling interest                               -             3,917       (15,706)       (11,789)
+
+ Balance at 31 December 2025                                   39,905,563          50,224,636     (117,471)     90,012,728
+
+
+
+
+The notes on pages 8 to 14 form an integral part of these financial statements.
+                                                                                                                    Page 6
+
+DIALOG AXIATA PLC
+Company statement of changes in equity
+
+(all amounts are in Sri Lanka Rupees thousands)
+
+
+
+                                                                              Stated capital     Reserves           Total
+
+Balance at 1 January 2026                                                         39,905,563    34,410,608     74,316,171
+
+Profit for the period                                                                      -    15,778,906     15,778,906
+
+Other comprehensive income                                                                 -              -              -
+
+Total comprehensive income for the period                                                  -    15,778,906     15,778,906
+
+Dividend to shareholders                                                                   -   (20,240,737)   (20,240,737)
+
+Balance at 30 June 2026                                                           39,905,563    29,948,777     69,854,340
+
+Balance at 1 January 2025                                                         39,905,563    27,843,679     67,749,242
+
+Profit for the period                                                                      -     6,875,475      6,875,475
+
+Other comprehensive income                                                                 -              -              -
+
+Total comprehensive income for the period                                                  -     6,875,475      6,875,475
+
+Dividend to shareholders                                                                   -    (9,200,335)    (9,200,335)
+
+Balance at 30 June 2025                                                           39,905,563    25,518,819     65,424,382
+
+Balance at 01 July 2025                                                           39,905,563    25,518,819     65,424,382
+
+Profit for the period                                                                      -     8,703,957      8,703,957
+
+Other comprehensive income                                                                 -       187,832        187,832
+
+Total comprehensive income for the period                                                  -     8,891,789      8,891,789
+
+Balance at 31 December 2025                                                       39,905,563    34,410,608     74,316,171
+
+
+
+
+The notes on pages 8 to 14 form an integral part of these financial statements.
+                                                                                                                         Page 7
+
+DIALOG AXIATA PLC
+Statement of cash flows
+
+(all amounts are in Sri Lanka Rupees thousands)
+
+For the six months ended 30 June                                        Group                            Company
+                                                                      2026              2025           2026         2025
+                                                                (Reviewed)         (Reviewed)    (Reviewed)   (Reviewed)
+Cash flows from operating activities
+
+Cash generated from operations                                  49,472,795         43,009,965     46,089,455     40,618,392
+Interest received                                                 1,403,797            499,100       233,676         361,877
+Interest paid                                                   (2,629,526)        (4,718,153)    (1,794,372)    (3,869,738)
+Income taxes paid                                               (1,719,012)        (1,357,742)    (1,359,549)    (1,209,392)
+Employee benefits obligations paid                                (141,500)          (223,415)      (114,712)      (181,329)
+Net cash inflow from operating activities                       46,386,554         37,209,755     43,054,498     35,719,810
+
+Cash flows from investing activities
+
+Purchase of property, plant and equipment                     (10,685,329)        (11,609,211)    (8,634,961)    (8,425,302)
+Purchase of intangible assets                                  (1,429,511)         (2,832,532)    (1,339,648)    (1,753,893)
+Investment in subsidiaries                                               -                   -      (308,580)              -
+Net proceeds from sale of other financial assets                   368,395             100,000              -              -
+Dividend received                                                       57                   -              -              -
+Net cash outflow from investing activities                    (11,746,388)        (14,341,743)   (10,283,189)   (10,179,195)
+
+Cash flows from financing activities
+
+Repayment of borrowings                                       (35,687,598)        (26,607,902)   (31,881,615)   (24,028,969)
+Proceeds from borrowings                                        35,580,172          25,661,200     32,250,000     22,850,000
+Principal element of lease payment                             (1,912,286)         (2,011,577)    (1,818,519)    (1,943,064)
+Dividends paid to ordinary shareholders                       (27,030,970)        (17,784,656)   (27,030,970)   (17,784,656)
+Redemption of preference shares from non-
+controlling interest                                                     -             (8,738)              -              -
+Net cash outflow from financing activities                    (29,050,682)        (20,751,673)   (28,481,104)   (20,906,689)
+
+Net increase in cash and cash equivalents                        5,589,484          2,116,339      4,290,205        4,633,926
+
+Movement in cash and cash equivalents
+
+At beginning of the period                                       3,245,397         11,503,551      6,062,151        6,832,631
+Net increase in cash and cash equivalent                         5,589,484          2,116,339      4,290,205        4,633,926
+Effect of exchange rate changes                                  1,067,009            767,668      1,171,811          713,899
+At end of the period                                             9,901,890         14,387,558     11,524,167     12,180,456
+
+
+
+Cash and cash equivalents at the end of the financial period consist of the following:
+
+                                                                        Group                             Company
+As at 30 June                                                         2026               2025           2026            2025
+
+Cash in hand and at bank                                        20,000,348         38,221,162     17,653,208     31,053,436
+Bank overdrafts                                               (10,098,458)        (23,833,604)    (6,129,041)   (18,872,980)
+At end of the period                                             9,901,890          14,387,558    11,524,167      12,180,456
+
+
+
+
+The notes on pages 8 to 14 form an integral part of these financial statements.
+                                                                                                                                   Page 8
+
+
+DIALOG AXIATA PLC
+Notes to the condensed consolidated interim financial statements
+
+(all amounts in the notes are in Sri Lanka Rupees thousands unless otherwise stated)
+
+1    General information
+
+
+     broadband, international gateway services), telecommunication infrastructure services (tower infrastructure and transmission
+     services), media (digital television services based on multiple media - satellite, cable, terrestrial), digital services including but
+     not limited to digital commerce (mobile and eCommerce), electronic payments (including mobile payment), digital health,
+     navigation and enterprise services and financial services, software solutions, data center services, manpower services,
+     provision of Information Technology and venture capital investment activities.
+
+     Dialog Axiata PLC is a public limited liability company incorporated and domiciled in Sri Lanka and is listed on the Colombo
+     Stock Exchange since 28 July 2005. The registered office of the Company is located at 475, Union Place, Colombo 2.
+
+2    Basis of preparation
+
+     The condensed interim financial statements for the period ended 30 June 2026 of the Company and the Group have been
+
+     consolidated interim financial statements should be read in conjunction with the audited financial statements for the year ended
+     31 December 2025.
+
+3   Segment information
+
+     Operating segments are presented in a manner consistent with the internal reporting provided to chief operating decision
+     makers.
+
+         The segment results for the period ended 30 June 2026 are as follows:
+
+                                                                      Fixed telephony
+                                                         Mobile        and broadband          Television Elimination
+                                                       operation             operation         operation /Adjustment                 Group
+
+      Total segmental revenue                         78,598,096           17,942,360         7,468,307                -       104,008,763
+      Inter-segment revenue                           (4,369,770)         (4,075,164)          (48,781)                -        (8,493,715)
+      Revenue from external customers                 74,228,326           13,867,196         7,419,526                -        95,515,048
+
+      Segment operating profit for the period         20,025,982            5,389,043           421,055         21,364          25,857,444
+      Finance cost    net                                                                                                       (3,347,452)
+      Profit before income tax                                                                                                  22,509,992
+      Income tax expense                                                                                                        (3,209,253)
+      Profit for the period                                                                                                     19,300,739
+
+
+          Other segment items included in the statement of comprehensive income are as follows:
+
+                                                                    Fixed telephony
+                                                        Mobile       and broadband         Television      Elimination
+                                                      operation           operation         operation     /Adjustment             Group
+
+      Depreciation, amortization
+                                                     17,106,357             5,379,570       1,927,435                  -     24,413,362
+        and impairment
+                                                                                                                       Page 9
+
+
+DIALOG AXIATA PLC
+
+Notes to the condensed consolidated interim financial statements (Continued)
+
+3   Segment information (Continued)
+
+         The segment assets and liabilities at 30 June 2026 and capital expenditure for the period ended are as follows:
+
+                                                                  Fixed telephony
+                                                       Mobile      and broadband     Television     Elimination
+                                                     operation           operation    operation    /Adjustment          Group
+
+      Assets                                       265,931,905         77,315,692    14,024,043    (39,199,007)    318,072,633
+      Inter-segment assets                          (7,107,813)       (26,084,290)   (3,639,087)               -   (36,831,190)
+      Total assets                                 258,824,092         51,231,402    10,384,956    (39,199,007)    281,241,443
+
+      Liabilities                                  190,796,116         20,728,874    17,155,749                -   228,680,739
+      Inter-segment liabilities                    (32,205,634)          (849,136)   (3,463,943)               -   (36,518,713)
+      Total liabilities                            158,590,482         19,879,738    13,691,806                -   192,162,026
+
+      Capital expenditure                           22,630,327          1,894,795        31,182                -    24,556,304
+
+
+          The segment results for the period ended 30 June 2025 are as follows:
+
+                                                                  Fixed telephony
+                                                       Mobile      and broadband     Television     Elimination
+                                                     operation           operation    operation    /Adjustment         Group
+
+      Total segmental revenue                       71,081,005         17,392,681     6,391,941                -   94,865,627
+      Inter-segment revenue                         (4,155,497)        (3,262,913)      (27,546)               -   (7,445,956)
+
+      Revenue from external customers               66,925,508         14,129,768     6,364,395                -   87,419,671
+
+      Segment operating profit / (loss) for         13,779,473          3,691,618      (356,581)     (8,490)       17,106,020
+      the period
+
+      Finance costs       net                                                                                      (5,026,581)
+      Share of loss from associates - net of tax                                                                      (47,115)
+      Profit before income tax                                                                                     12,032,324
+      Income tax expense                                                                                           (2,839,682)
+      Profit for the period                                                                                         9,192,642
+
+           Other segment items included in the statement of comprehensive income are as follows:
+                                                                  Fixed telephony
+                                                       Mobile      and broadband     Television     Elimination
+                                                     operation           operation    operation    /Adjustment         Group
+
+      Depreciation, amortization                    16,377,952          5,942,662    1,576,374                 -   23,896,988
+        and impairment
+                                                                                                                             Page 10
+
+DIALOG AXIATA PLC
+Notes to the condensed consolidated interim financial statements (Continued)
+
+3    Segment information (Continued)
+
+         The segment assets and liabilities at 30 June 2025 and capital expenditure for the period then ended are as
+         follows:
+
+                                                                Fixed telephony
+                                                      Mobile     and broadband        Television         Elimination
+                                                    operation         operation        operation        /Adjustment           Group
+
+         Assets                                  277,989,668          75,031,526      12,349,237        (38,643,138)     326,727,293
+         Inter-segment assets                     (4,162,990)       (17,019,411)      (3,111,809)                  -     (24,294,210)
+         Total assets                            273,826,678          58,012,115       9,237,428        (38,643,138)     302,433,083
+
+         Liabilities                             207,591,512          25,771,406      15,676,460                     -   249,039,378
+         Inter-segment liabilities               (20,293,821)          (832,030)      (3,713,940)                    -   (24,839,791)
+         Total liabilities                       187,297,691          24,939,376      11,962,520                     -   224,199,587
+
+
+         Capital expenditure                        6,894,011          4,063,001          25,162                     -    10,982,174
+
+
+4    Reserves
+
+                                                                              Group                            Company
+                                                                            2026        2025                 2026        2025
+     As at                                                               30 June 31 December              30 June 31 December
+
+     Attributable to the owners of the Company
+     Retained earnings                                                48,954,643       50,027,368       29,948,777       34,410,608
+     Fair value through other comprehensive
+                                                                         204,019          197,268                -                 -
+
+     Attributable to the non-controlling interest
+     Non-controlling interest                                             15,192         (117,471)               -                 -
+                                                                      49,173,854       50,107,165       29,948,777       34,410,608
+
+5    Seasonal or cyclical factors
+
+     The operations of the Group were not significantly affected by any seasonal or cyclical factors.
+
+
+6    Estimates
+
+     The preparation of condensed consolidated interim financial statements requires management to make judgments, estimates
+     and assumptions that affect the application of accounting policies and the reported amounts of assets and liabilities, income
+     and expenses. Actual results may differ from these estimates.
+
+     There were no changes in estimates and assumptions used in prior financial periods that may have a material effect in the
+     current quarter and for the financial period to date.
+
+     In preparing the condensed consolidated interim financial statements, the significant judgments made by the management in
+
+     statements for the year ended 31 December 2025.
+
+
+7    Stated capital
+
+     Stated capital of the Company consists of 9,200,334,994 ordinary shares as at 30 June 2026 (31 December 2025 -
+     9,200,334,994)
+                                                                                                                         Page 11
+
+DIALOG AXIATA PLC
+Notes to the condensed consolidated interim financial statements (Continued)
+
+
+8    Market price per share
+
+     For the three months ended 30 June                                                                      2026          2025
+                                                                                                             LKR           LKR
+
+     - Highest                                                                                              48.40         19.30
+     - Lowest                                                                                               30.10         13.00
+     - Last traded                                                                                          46.10         19.10
+
+9
+
+     The details of shares held directly by the Directors and their spouses as at 30 June 2026 are as follows:
+
+                                                                                                                       Number
+                                                                                                                      of shares
+     Mr. Supun Weerasinghe                                                                                            4,260,200
+
+     None of the Directors and their spouses, other than those disclosed above directly held any share in the Company.
+
+10   Twenty largest shareholders of the Company
+
+     Name of Shareholders                                                                          No. of shares      % Holding
+        1 Axiata Investments (Labuan) Limited                                                      6,785,252,765          73.75
+         2   Bharti Airtel Limited                                                                   952,694,689           10.36
+         3   Employees Provident Fund                                                                266,393,402            2.90
+         4   Citibank Hong Kong S/A Hostplus Pooled Superannuation Trust                             170,378,629            1.85
+         5   BBH Luxfidelity Funds-Pacific Fund                                                     128,421,60 4            1.40
+         6   SSBT-Sunsuper PTY. LTD. as Trustee for Sunsuper Superannuation Fund                     122,573,762            1.33
+         7   J.B. Cocoshell (PVT) LTD                                                                 74,135,214            0.81
+         8   BBH - Fidelity Funds                                                                     53,560,648            0.58
+         9   Deutsche Bank Ag Trustee to Lynear Wealth Dynamic Opportunities Fund                     46,682,663            0.51
+        10   CACEIS Bank, Luxembourg Branch-NEF                                                       32,772,588            0.36
+        11   Union Assurance PLC-Universal Life Fund                                                  30,150,831            0.33
+        12   JPMCB NA - Government Institutions Pension Fund                                          29,891,387            0.32
+        13   JPMCB NA - Fidelity Asian Values PLC                                                     28,909,966            0.31
+             CACEIS Bank, Ireland branch S/A bridge UCITS funds ICAV - Hosking Global
+        14                                                                                            20,620,833            0.22
+              Equity Fund
+        15   Mr. J.J. Hosking                                                                         20,500,000            0.22
+        16   Invenco Capital Private Limited                                                          19,394,568            0.21
+        17   Northern Trust Company S/A Hosking Global Fund PLC                                       19,025,872            0.21
+       18    Lynear wealth management / Mr. Hanif Yusoof                                              17,118,751            0.19
+       19    Mandala Ventures (PVT) LTD                                                               15,000,000            0.16
+       20    GF Capital Global Limited                                                                13,687,960            0.15
+
+
+11   Public shareholdings
+
+     Information pertaining to public shareholding is as follows:
+     As at                                                                                                  2026           2025
+                                                                                                         June 30     December 31
+
+     Public holding percentage                                                                          15.85%             15.85%
+     Number of public shareholders                                                                       27,457             24,876
+     Float adjusted market capitalization (LKR)                                                  67,219,670,374     43,452,194,732
+
+
+     The Company is compliant with the Minimum Public Holding requirement under Option 1 of Rule 7.13.1 (i)(a) of the Listing
+     Rules of the Colombo Stock Exchange.
+                                                                                                                                Page 12
+
+DIALOG AXIATA PLC
+Notes to the condensed consolidated interim financial statements (Continued)
+
+12     Effect of changes in composition of the Group
+
+
+      a)
+
+           DADIF, a subsidiary of Digital Holdings Lanka (Private) Limited, issued a total of 7,500 Preference Shares in Fund 2 to DHL,
+           with 3,750 shares issued on 30 April 2026, and 3,750 on 26 June 2026.
+
+      b)   As part of Dialog Axiata PLC            -wide legal entity simplification initiative, steps are being undertaken to streamline
+           dormant and non-core subsidiaries, with the objective of achieving cost efficiencies, enhancing governance oversight, and
+           simplifying reporting structures. Accordingly, the following transfer of shares from Dormant Subsidiaries was completed on
+           the dates indicated;
+
+
+           i)
+
+                  -   Dialog Axiata PLC completed the transfer of its 01 Ordinary Share held in CBN to Digital Holdings Lanka (Private)
+                                      on 14 May 2026.
+
+                  -    Dialog Television (Private) Limited completed the transfer of its 44,747,810 Ordinary Shares held in CBN to DHL
+                      on 15 June 2026.
+
+                  Following the aforesaid share transfers, DHL now holds 100% of the issued shares in CBN.
+
+           ii)
+
+                  Dialog Axiata PLC completed the transfer of its 623,124 Ordinary Shares held in DCL to DHL on 14 May 2026. Following
+                  the share transfer, DHL increased its shareholding in DCL to 100% of the issued shares.
+
+           iii)
+
+                  Dialog Axiata PLC completed the transfer of its 146,801,500 Ordinary Shares held in DDT to DHL on 14 May 2026.
+                  Following the share transfer, DHL now holds 100% of the issued shares in DDT.
+
+           iv)
+
+                  Dialog Broadband Networks (Private) Limited completed the transfer of its 13,300,001 Ordinary Shares held in Telecard
+                  to DHL on 15 June 2026. Following the share transfer, DHL increased its shareholding in Telecard to 100% of the
+                  issued shares.
+
+           v)
+
+                   DADIF completed the transfer of its 1,000 Ordinary Shares held in Headstart to DHL on 15 June 2026. Following the
+                  share transfer, DHL increased its shareholding in Headstart (Private) Limited to 100% of the issued shares.
+
+
+
+13     Financial instruments measured at fair value
+
+
+                                                                   Measurement criteria and the fair value Group
+                                                   Level 1                Level 2                Level 3             Total
+                                               30 Jun 31 Dec           30 Jun    31 Dec     30 Jun      31 Dec   30 Jun    31 Dec
+                                                 2026      2025          2026      2025       2026        2025     2026      2025
+     Financial assets / (liabilities)
+
+     Financial assets at fair value
+     through profit or loss (FVTPL)
+       - Investment in quoted equities          3,163     3,976        233,204   233,204          -           -       236,367    237,180
+       - Investment in unquoted equities            -         -              -         -    264,646     247,246       264,646    247,246
+     Derivative financial asset                     -         -      1,263,501   154,518          -           -     1,263,501    154,518
+
+     Financial assets at fair value
+     through other comprehensive
+     income (FVOCI)
+        - Investment in unquoted equities            -         -             -          -   644,256     637,569       644,256    637,569
+                                                                                                                                Page 13
+
+DIALOG AXIATA PLC
+Notes to the condensed consolidated interim financial statements (Continued)
+
+13   Financial instruments measured at fair value (Continued)
+
+     The Group measures the financial instruments based on published price quotations (Level 1), market approach valuation
+     technique (Level 2) with inputs of valuation technique such as interest rates and yield curves observable at commonly quoted
+     intervals; implied volatilities; and credit spreads that are observable directly or indirectly and valuation technique with
+     unobservable inputs (Level 3) at the end of the financial reporting period.
+
+     (a) Carrying value of financial assets at FVTPL at the end of the financial reporting period represents the investments in quoted
+         equity investments by Dialog Finance PLC and investment in unquoted equity investments by Dialog Axiata Digital
+         Innovation Fund (Private) Limited (DADIF). During the fourth quarter 2025                                          Insurance
+         Brokers PLC was listed on the Empower Board of the Colombo Stock Exchange; however, as the company remains in a
+         lock-in period for sales, it is assumed that there is no active market for this investment. Accordingly, the investment is
+         classified under Level 2 of the fair value hierarchy.
+
+     (b) Carrying value of financial assets at FVOCI represents the fair value of the investment in shares in the Credit Information
+         Bureau of Sri Lanka by Dialog Finance PLC and investment in unquoted equity investments by Dialog Axiata Digital
+         Innovation Fund (Private) Limited.
+
+14 Cash and cash equivalents
+
+     Cash and cash equivalents of the Group also include restricted cash deposited in the following financial institutions:
+     As at                                                                                               30 June      31 December
+                                                                                                            2026             2025
+
+     Hatton National Bank PLC, amount deposited in custodian accounts to facilitate Ez
+     cash operation                                                                                      804,104               803,433
+                                                                                                         804,104               803,433
+
+15 Revenue from contracts with customers
+
+                                                                              Group                             Company
+     For the period ended 30 June                                           2026             2025              2026               2025
+
+     Mobile operation                                                74,228,326        66,925,508       73,251,657          65,974,666
+     Fixed telephony and broadband operation                         13,867,196        14,129,768                -                   -
+     Television operation                                             7,419,526         6,364,395                -                   -
+                                                                     95,515,048        87,419,671       73,251,657          65,974,666
+
+                                                                              Group                             Company
+     Timing of revenue recognition                                          2026             2025              2026                2025
+
+     At a point in time                                               1,698,477         2,282,085           51,156                22,346
+     Over time                                                       93,816,571        85,137,586       73,200,501            65,952,320
+                                                                     95,515,048        87,419,671       73,251,657            65,974,666
+
+16 Valuation of property, plant and equipment
+
+     The Company and the Group do not adopt a revaluation policy on its property, plant and equipment.
+
+17 Donations
+
+     The total donations made by the Company and its subsidiaries during the period ending 30 June 2026 amounted to LKR 8.92Mn
+     (2025 LKR 12.89Mn).
+
+     For the period ended 30 June                                                            Group                   Company
+                                                                                           2026        2025          2026          2025
+     Yeheli                                                                               4,703        1,060        4,703         1,060
+     Jaffna Speech Therapy Center - Nuffield School                                       1,375        1,189        1,375         1,189
+     Nenasa & SMART School                                                                2,798        5,535        2,798         5,535
+     Others                                                                                  45        5,102           45         5,102
+                                                                                          8,921       12,886        8,921        12,886
+                                                                                                                           Page 14
+
+DIALOG AXIATA PLC
+Notes to the condensed consolidated interim financial statements (Continued)
+
+18 Contingent liabilities
+
+
+                                                                                                                               ling
+     under the duty exemptions granted under the terms and conditions of the agreement with the Board of Investment of Sri Lanka.
+     The shipment was cleared by DBN upon submitting bank guarantees and thereafter subsequent shipments of CPE were cleared
+     by paying duty 'Under Protest'. SLC commenced an inquiry into this matter on 30 January 2009 which was temporarily suspended
+     upon a proposed settlement by the Secretary to the Treasury in May 2010. However, SLC took steps to continue with the inquiry.
+     Inquiry was held on several dates and the last date being 9 September 2016, however the inquiry was not concluded on this
+     date.
+     Rs. 1,626,622,200. DBN has instituted legal action challenging the order made by SLC in the Court of Appeal under Case No:
+     CA (Writ) 166/2018. The matter was supported on 28 November 2018, and notices were issued on the respondents.
+
+     Thereafter, SLC filed objections on 15 February 2019 as directed by the Courts. The case was fixed for argument on several
+     dates. The matter has been refixed for argument on 30 September 2026.
+
+     Except for the disclosed above, there has not been a significant change in the nature of the contingent liabilities, which were
+     disclosed in the audited financial statements for the year ended 31 December 2025.
+
+
+19   Capital commitments
+
+      Capital expenditure contracted for as at the statement of financial position date but not yet incurred consists of
+      LKR 16,898 Mn (31.12.2025- LKR 6,302 Mn) and LKR 12,951 Mn (31.12.2025 - LKR 4,769 Mn) of the Group and the Company
+      respectively.
+
+
+20 Events after the reporting period
+
+     The Board of Directors of the Company has proposed an interim dividend of LKR 0.70 per share for the financial year 2026. As
+     required by section 56 (2) of the Companies Act No. 07 of 2007, the Board of Directors had confirmed that the Company satisfied
+     the solvency test in accordance with section 57 of the Companies Act No. 07 of 2007, and obtained a certificate from auditors,
+     prior to declaring the dividend.
+

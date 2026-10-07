@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSE Ownership</title>
+<meta name="description" content="Who owns the Colombo Stock Exchange: largest shareholders of every listed company, traced through holding companies.">
+<style>
+:root{
+  --bg:#0d0d0c; --surface:#161615; --surface-2:#1e1e1c; --rule:#2c2c29;
+  --text:#ecebe6; --text-2:#b4b3aa; --muted:#7d7c74;
+  --up:#3fb950; --dn:#f85149; --accent:#3987e5; --warn:#d29922; --warn-bg:#2b2410;
+  --mono:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:13px/1.45 var(--mono)}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+header{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding:10px 16px;border-bottom:1px solid var(--rule);background:var(--surface)}
+header h1{font-size:14px;margin:0;letter-spacing:.08em;text-transform:uppercase}
+header .meta{color:var(--text-2)} header .meta b{color:var(--text);font-weight:600}
+main{display:grid;gap:12px;padding:12px 16px 24px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:1400px){main{grid-template-columns:minmax(0,1fr) minmax(0,1fr)} .wide{grid-column:1 / -1}}
+section.panel{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px;min-width:0}
+section.panel>h2{margin:0 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 4px;font-weight:600}
+.note{color:var(--text-2);margin:0 0 8px;max-width:980px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:3px 6px;white-space:nowrap;border-bottom:1px solid var(--rule);vertical-align:top}
+th{color:var(--muted);font-weight:500;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+td{text-align:right} th.l,td.l{text-align:left}
+td.wrap{white-space:normal;min-width:14em}
+tbody tr:hover{background:#ffffff08}
+.mut{color:var(--muted)} .sm{font-size:11px} .sym{font-weight:600}
+.kpis{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.kpi{background:var(--surface-2);border-radius:4px;padding:8px 10px}
+.kpi .v{font-size:18px;font-weight:600} .kpi .k{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.mix{display:flex;height:14px;border-radius:3px;overflow:hidden;margin:6px 0 8px;background:#2f2f2c}
+.mix i{display:block;height:100%}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:baseline}
+.t-individual{background:#3987e5}.t-joint{background:#7aa7e8}.t-estate{background:#9aa0a6}.t-trust{background:#9085e9}
+.t-institution{background:#199e70}.t-company{background:#c98500}.t-listed{background:#d55181}.t-nominee{background:#666}
+.t-rest{background:#3a3a36}
+.chip{display:inline-block;font-size:11px;padding:0 5px;border-radius:3px;border:1px solid var(--rule);color:var(--text-2);margin:0 4px 2px 0}
+.lvl-controlled{color:#7ee2a8} .lvl-influence{color:#f2cc60}
+.toggle{display:inline-flex;border:1px solid var(--rule);border-radius:4px;overflow:hidden;flex-wrap:wrap}
+.toggle button{font:inherit;font-size:11px;background:transparent;color:var(--text-2);border:0;padding:3px 9px;cursor:pointer}
+.toggle button[aria-pressed=true]{background:var(--accent);color:#fff}
+input[type=search],select{font:inherit;background:var(--surface-2);color:var(--text);border:1px solid var(--rule);border-radius:4px;padding:4px 8px;max-width:100%}
+details.grp{border-bottom:1px solid var(--rule);padding:5px 0}
+details.grp summary{cursor:pointer;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+details.grp summary .cap{margin-left:auto;color:var(--text-2)}
+.chain{color:var(--muted);font-size:11px}
+tr[hidden]{display:none}
+.status-verified,.status-verified_total{color:#7ee2a8} .status-unverified{color:#f2cc60} .status-none{color:var(--muted)}
+footer{color:var(--muted);padding:0 16px 24px;font-size:11px;max-width:1100px}
+</style>
+</head>
+<body>
+<header>
+  <h1>CSE Ownership</h1>
+  <span class="meta"><a href="index.html">← Terminal</a></span>
+  <span class="meta">Shareholder lists as at <b>{{ periods[0][0] if periods else "—" }}</b>{% if periods|length > 1 %} (most companies){% endif %}</span>
+  <span class="meta">Prices: session <b>{{ s.price_session }}</b></span>
+  <span class="meta">Built <b>{{ built_slt }}</b> SLT</span>
+</header>
+<main>
+
+<section class="panel wide" id="summary">
+  <h2>Who owns the CSE <a class="sm" href="{{ methods_url }}">method</a></h2>
+  <p class="note">Every listed company publishes its twenty (sometimes 25–30) largest shareholders in its quarterly interim report.
+  These lists are read from the PDFs, checked against the CSE's own share counts, and joined into one graph. Shares held by a
+  <b>listed</b> company are traced through to that company's own shareholders, so each rupee of market value is credited once,
+  to whoever ultimately owns it. Names are shown as filed. Custodian and margin accounts are credited to the
+  beneficial owner named in them.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ s.verified_companies }} / {{ s.companies }}</div><div class="k">companies with a verified list</div></div>
+    <div class="kpi"><div class="v">{{ "%.1f"|format(covered_share * 100) }}%</div><div class="k">of market cap covered</div></div>
+    <div class="kpi"><div class="v">Rs {{ s.covered_cap|bn }} bn</div><div class="k">market cap covered (of Rs {{ s.total_cap|bn }} bn)</div></div>
+    <div class="kpi"><div class="v">{{ "%.1f"|format(s.attributed_value / s.covered_cap * 100) }}%</div><div class="k">of it traced to a named ultimate owner</div></div>
+  </div>
+  <h3>Ultimate owners of the covered market, by type</h3>
+  <div class="mix" role="img" aria-label="Share of covered market value by type of ultimate owner">
+    {% for m in mix %}<i class="t-{{ m.t }}" style="width:{{ '%.3f'|format(m.share * 100) }}%" title="{{ m.type }} {{ '%.1f'|format(m.share * 100) }}%"></i>{% endfor %}
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th class="l">Owner type</th><th>Rs bn</th><th>Share</th></tr></thead>
+    <tbody>
+    {% for m in mix %}
+      <tr><td class="l wrap"><span class="sw t-{{ m.t }}"></span>{{ m.type }}</td>
+      <td>{{ m.value|bn }}</td><td>{{ "%.1f"|format(m.share * 100) }}%</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <p class="note sm">Not covered: {{ no_text }} reports are scanned images with no text layer, {{ no_table }} reports have no
+  shareholder table that could be read, and {{ n_unverified }} tables failed the checks (rows inconsistent with each other or with the share
+  count). Those companies appear in the lookup below with the reason; nothing is guessed for them.</p>
+</section>
+
+<section class="panel wide" id="ultimate">
+  <h2>Biggest ultimate owners
+    <span class="toggle" role="group" aria-label="Filter by type" data-filter="ultimate-table">
+      <button aria-pressed="true" data-t="">All</button><button aria-pressed="false" data-t="individual">People</button><button aria-pressed="false" data-t="company">Companies</button><button aria-pressed="false" data-t="institution">Institutions</button>
+    </span>
+  </h2>
+  <p class="note sm">Value each owner holds directly plus its share of everything held by listed companies it owns stakes in
+  (look-through). Listed companies themselves don't appear: their holdings are passed to their shareholders. Market value at the latest close.</p>
+  <div class="scroll"><table id="ultimate-table">
+    <thead><tr><th>#</th><th class="l">Owner (as filed)</th><th class="l">Type</th><th>Look-through Rs bn</th><th>Direct Rs bn</th><th>Controls</th><th class="l">Largest direct holdings</th></tr></thead>
+    <tbody>
+    {% for o in ultimate %}
+      <tr data-t="{{ 'individual' if o.type in ('individual','joint','estate') else o.type }}"><td class="mut">{{ loop.index }}</td>
+        <td class="l wrap">{{ o.name }}</td><td class="l sm">{{ o.label }}</td>
+        <td class="sym">{{ o.lookthrough_value|bn }}</td><td>{{ o.direct_value|bn }}</td>
+        <td>{% if o.companies_controlled %}{{ o.companies_controlled }}{% else %}<span class="mut">—</span>{% endif %}</td>
+        <td class="l wrap sm">{% for h in o.top %}<span class="chip">{{ h.code }} {{ "%.2f"|format(h.pct) }}%</span>{% endfor %}{% if o.more %}<span class="mut">+{{ o.more }}</span>{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="panel wide" id="direct">
+  <h2>Biggest registered holders</h2>
+  <p class="note sm">The same lists without look-through: what each holder owns in its own name (after crediting custodian and
+  margin accounts to the beneficial owner). Listed holding companies appear here. Adding these values up double-counts.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>#</th><th class="l">Holder (as filed)</th><th class="l">Type</th><th>Direct Rs bn</th><th>Holdings</th><th class="l">Largest</th></tr></thead>
+    <tbody>
+    {% for o in direct %}
+      <tr><td class="mut">{{ loop.index }}</td><td class="l wrap">{{ o.name }}{% if o.symbol %} <span class="mut">({{ o.symbol }})</span>{% endif %}</td>
+        <td class="l sm">{{ o.label }}</td><td class="sym">{{ o.direct_value|bn }}</td><td>{{ o.holdings }}</td>
+        <td class="l wrap sm">{% for h in o.top[:3] %}<span class="chip">{{ h.code }} {{ "%.2f"|format(h.pct) }}%</span>{% endfor %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="panel wide" id="groups">
+  <h2>Control groups</h2>
+  <p class="note sm">A company is <span class="lvl-controlled">controlled</span> when one holder's voting block exceeds 50%, and
+  <span class="lvl-influence">influenced</span> when the largest block is 20–50%. A block adds up the holder's accounts and the
+  votes of companies it controls, so control can run through a chain (shown as company ← holder ← … ← ultimate holder).
+  Groups are sorted by the market value of the companies they control; companies whose largest block is 20–50% with
+  no controlling group follow in one table.</p>
+  {% for g in groups %}
+  <details class="grp"{% if loop.index <= 5 %} open{% endif %}>
+    <summary><b>{{ g.name }}</b><span class="mut sm">{{ g.label }}</span>
+      <span class="sm">{{ g.controlled|length }} controlled{% if g.influenced %}, {{ g.influenced|length }} influenced{% endif %}</span>
+      {% if g.parent %}<span class="sm lvl-{{ g.parent.level }}">itself {{ "%.2f"|format(g.parent.pct|float) }}% held by {{ g.parent.name }}</span>{% endif %}
+      <span class="cap sm">Rs {{ g.cap|bn }} bn controlled</span></summary>
+    <div class="scroll"><table>
+      <thead><tr><th class="l">Company</th><th>Block</th><th>Mkt cap Rs bn</th><th class="l">Chain</th></tr></thead>
+      <tbody>
+      {% for m in g.controlled + g.influenced %}
+        <tr><td class="l"><span class="sym">{{ m.code }}</span> <span class="mut sm">{{ m.name }}</span></td>
+          <td class="lvl-{{ m.level }}">{{ "%.2f"|format(m.pct) }}%</td><td>{{ m.cap|bn }}</td>
+          <td class="l chain wrap">{{ m.chain|join(" ← ") }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+  </details>
+  {% endfor %}
+  <h3>Largest holder 20–50%, no group control ({{ influence|length }} companies)</h3>
+  <div class="scroll"><table>
+    <thead><tr><th class="l">Company</th><th class="l">Largest voting block</th><th class="l">Type</th><th>Block</th><th>Mkt cap Rs bn</th></tr></thead>
+    <tbody>
+    {% for m in influence %}
+      <tr><td class="l"><span class="sym">{{ m.code }}</span> <span class="mut sm">{{ m.name }}</span></td>
+        <td class="l wrap">{{ m.holder }}</td><td class="l sm">{{ m.label }}</td>
+        <td class="lvl-influence">{{ "%.2f"|format(m.pct) }}%</td><td>{{ m.cap|bn }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+
+<section class="panel wide" id="lookup">
+  <h2>Company lookup</h2>
+  <p class="note sm">Any listed company's shareholder list as filed, with the owner each line is credited to. The status says
+  whether the table passed the checks.</p>
+  <label class="sm mut" for="co">Company </label>
+  <input type="search" id="co" list="cos" placeholder="code or name, e.g. JKH" autocomplete="off">
+  <datalist id="cos"></datalist>
+  <div id="co-out" class="note" style="margin-top:8px">Pick a company.</div>
+  <div class="scroll"><table id="co-table" hidden>
+    <thead><tr><th class="l">Class</th><th>#</th><th class="l">Name as filed</th><th class="l">Credited to</th><th class="l">Type</th><th>%</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+</section>
+</main>
+<footer>
+  Source: the latest interim report of each company on cse.lk (linked per company in the lookup); share counts and market
+  capitalisation from the CSE API. Shareholdings are as at the report date; values use the latest close, so a stake's value
+  moves with the price, not with trading by the holder. Only the published top-20 lists are visible; holdings below them are not.
+  Individuals are matched only on identical names (initials and full names are never merged automatically; see
+  <code>config/ownership_aliases.yaml</code>). Every number is reproducible from <code>data/ownership/</code> with
+  <code>python -m cse.ownership.analyse</code>. Not investment advice.
+</footer>
+<script>
+const CO = {{ lookup_json|safe }};
+const TYPES = {{ type_label|tojson }};
+document.querySelectorAll(".toggle[data-filter]").forEach(tg => {
+  const table = document.getElementById(tg.dataset.filter);
+  tg.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    tg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    let n = 0;
+    table.querySelectorAll("tbody tr").forEach(tr => {
+      const show = !b.dataset.t || tr.dataset.t === b.dataset.t;
+      tr.hidden = !show;
+      if (show) tr.firstElementChild.textContent = ++n;
+    });
+  });
+});
+const dl = document.getElementById("cos");
+Object.entries(CO).forEach(([c, v]) => { const o = document.createElement("option"); o.value = c; o.label = v.n; dl.appendChild(o); });
+const esc = s => String(s ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+const STATUS = {verified: "verified", verified_total: "verified against the report's own share total", unverified: "failed the checks", "": "no table"};
+function show(code) {
+  const c = CO[code], out = document.getElementById("co-out"), t = document.getElementById("co-table");
+  if (!c) { out.textContent = "No such company code."; t.hidden = true; return; }
+  const st = c.st === "ok" ? "" : (c.st === "no_text" ? "The report is a scanned image with no text layer. " : c.st === "no_table" ? "No shareholder table could be read from the report. " : "");
+  const cls = s => `<span class="status-${esc(s || "none")}">${esc(STATUS[s] ?? s)}</span>`;
+  let h = `<b>${esc(code)}</b> ${esc(c.n)} · market cap Rs ${(c.cap / 1e9).toFixed(1)} bn · list as at ${esc(c.p || "—")}`;
+  if (c.u) h += ` · <a href="${esc(c.u)}" rel="noopener">report PDF</a>`;
+  h += `<br>${esc(st)}Voting table: ${cls(c.sn)}${c.nn ? ` <span class="mut sm">(${esc(c.nn)})</span>` : ""}`;
+  if (c.sx) h += `<br>Non-voting table: ${cls(c.sx)} <span class="mut sm">(${esc(c.nx)})</span>`;
+  if (c.ctl) h += `<br>Largest voting block: <span class="lvl-${esc(c.lvl)}">${esc(c.ctl)} ${Number(c.cp).toFixed(2)}% (${esc(c.lvl)})</span><br><span class="chain">${esc(c.ch.split(" <- ").join(" ← "))}</span>`;
+  out.innerHTML = h;
+  const body = t.querySelector("tbody"); body.innerHTML = "";
+  c.r.forEach(r => {
+    const tr = document.createElement("tr");
+    const credited = r[3] + (r[5] ? ` (${r[5]})` : "") + (r[6] ? ` · via ${r[6]}` : "");
+    tr.innerHTML = `<td class="l">${r[0] === "N" ? "voting" : "non-voting"}</td><td>${esc(r[1])}</td><td class="l wrap">${esc(r[2])}</td>` +
+      `<td class="l wrap">${esc(credited)}</td><td class="l sm">${esc(TYPES[r[4]] || r[4])}</td><td>${Number(r[7]).toFixed(2)}%</td>`;
+    body.appendChild(tr);
+  });
+  t.hidden = c.r.length === 0;
+  try { history.replaceState(null, "", "#" + code); } catch (e) {}
+}
+const inp = document.getElementById("co");
+inp.addEventListener("change", () => show(inp.value.trim().toUpperCase().split(/\s/)[0]));
+const h0 = decodeURIComponent(location.hash.slice(1)).toUpperCase();
+if (CO[h0]) { inp.value = h0; show(h0); }
+</script>
+</body>
+</html>

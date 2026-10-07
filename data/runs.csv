@@ -7,3 +7,5 @@ run_at_utc,command,status,session,message
 2026-10-06T17:09:09Z,fetch,ok,2026-10-06,"session 2026-10-06: prices +285, indices +26, market +2, announcements +27 (83 API calls)"
 2026-10-07T16:39:51Z,fetch,ok,2026-10-07,"session 2026-10-07: prices +285, indices +24, market +1, announcements +10 (67 API calls)"
 2026-10-07T16:39:59Z,lab,ok,2026-10-07,"141 stocks, 52 weekly returns; inception 2026-10-07"
+2026-10-07T16:59:07Z,ownership-collect,ok,,"ownership collect: 281 companies, 278 new reports (0 download failures)"
+2026-10-07T17:09:42Z,ownership-analyse,ok,2026-10-07,"ownership: 245/281 companies with a verified shareholder table (95.8% of market cap); 2899 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"

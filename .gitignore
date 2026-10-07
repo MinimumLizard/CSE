@@ -4,3 +4,4 @@ __pycache__/
 .pytest_cache/
 site/
 .cache/
+data/ownership/latest.json

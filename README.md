@@ -16,6 +16,7 @@ automatically on the first daily run with 52 weekly returns of history (about 7 
 | [docs/API_NOTES.md](docs/API_NOTES.md) | What the API actually serves: endpoints, real responses, gaps, decisions D1–D6 |
 | [docs/METHODS.md](docs/METHODS.md) | Every formula on the site, exactly as implemented |
 | [docs/WATCHLIST_SCREEN.md](docs/WATCHLIST_SCREEN.md) | Whole-market liquidity / size / sector screen behind the watchlist additions |
+| [docs/METHODS.md §10](docs/METHODS.md#10-ownership-tracker) | Ownership tracker: report parsing, beneficial owners, look-through and control |
 
 ## Layout
 
@@ -35,17 +36,22 @@ cse/                 python package
   optimize.py        cvxpy: min variance, risk parity, max Sharpe, frontier
   record.py          forward-only live record and rebalancing
   lab.py             portfolio lab job -> data/lab/, record/
+  ownership/         who owns the CSE: collect.py (interim reports -> text), parse.py (top-20 tables),
+                     names.py (beneficial owners), analyse.py (graph), site.py (site/ownership.html)
 config/
   universe.yaml      your watchlist and excluded names
   portfolio.yaml     portfolio lab settings
   sector_overrides.yaml
   corporate_actions_review.yaml   your confirmations of needs_review corporate actions
+  ownership_aliases.yaml          spellings of one shareholder to merge (individuals are never merged automatically)
 data/
   raw/<session>/     untouched API responses
   history/           prices.csv, indices.csv, market.csv, announcements.csv (append-only)
   history/corporate_actions.csv
   raw/announcements/ cached announcement lists and details (corporate actions)
   lab/<session>.json everything Panel D shows, per session
+  raw/ownership/     interim-report text per report id + reports.csv index (append-only)
+  ownership/         holdings.csv, companies.csv, owners.csv (rebuilt from raw/ownership each week)
   runs.csv           one line per run (ok / no_new_session / failed / waiting / infeasible)
 record/              live record: nav.csv, holdings.csv, trades.csv (append-only)
 tests/               pytest; fixtures are real API responses
@@ -65,7 +71,11 @@ python -m cse.backfill       # one-off: ~1 year of history for every equity (abo
                              #   it reuses any raw responses already saved under data/raw/)
 python -m cse.corpactions    # one-off: ~1 year of corporate actions (about 1 h cold; cached)
 python -m cse.lab            # portfolio lab (seconds); --dry-run computes without writing
-python -m cse.build          # writes site/index.html; open it in a browser
+python -m cse.build          # writes site/index.html (and site/ownership.html); open it in a browser
+
+# ownership tracker (needs pdftotext: apt install poppler-utils / brew install poppler)
+python -m cse.ownership.collect   # latest interim report of every company (about 25 min cold; resumable)
+python -m cse.ownership.analyse   # parse + graph -> data/ownership/ (seconds, no network)
 ```
 
 The daily workflow runs `fetch`, `lab` and `build`. New corporate actions in the daily announcement
@@ -136,6 +146,25 @@ finishes updating at about 14:57. The workflow installs, tests, fetches, builds,
 and deploys `site/`. **If the fetch fails, the job fails, nothing is written, and the previous
 site stays up.** The failure is recorded in `data/runs.csv`, and the live page shows a stale-data
 banner once its data falls a session behind. No secrets are needed.
+
+## Ownership tracker
+
+`site/ownership.html` answers "who owns the CSE". It reads the twenty-largest-shareholders table from every
+listed company's latest interim report and checks each table against the CSE's share count. It credits
+custodian and margin accounts to the beneficial owner, and then traces holdings through listed holding
+companies:
+
+- **Biggest ultimate owners** (look-through). Value held directly, plus a share of everything held by listed
+  companies the owner has stakes in. Each rupee is counted once.
+- **Biggest registered holders**. Holdings in each holder's own name; listed holding companies included.
+- **Control groups**. Who controls whom (> 50 % voting block, or 20–50 % influence), shown as chains.
+- **Company lookup**. Any company's list as filed, what each line is credited to, and why a table was
+  rejected.
+
+The `ownership` workflow collects new reports every Saturday. The daily workflow re-values them at that
+day's prices. Names are shown exactly as filed. Individuals are never merged across different spellings.
+If you know two spellings are the same person, add them to `config/ownership_aliases.yaml`, which has an
+example. See METHODS §10 for every rule and its limits.
 
 ## Confirming `needs_review` corporate actions
 

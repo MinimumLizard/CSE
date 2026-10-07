@@ -1,0 +1,674 @@
+Janashakthi PLC
+Interim Condensed Financial Statements
+Three Months Ended 30 June 2026
+JANASHAKTHI PLC
+STATEMENT OF FINANCIAL POSITION
+LKR '000
+                                                               Notes                   Group                            Company
+As at                                                                     30.06.2026           31.03.2026      30.06.2026          31.03.2026
+                                                                          Unaudited            Unaudited       Unaudited           Unaudited
+Assets
+Property, plant & equipment                                                1,604,260             1,678,569           98,305            95,759
+Investment property                                                        5,730,176             5,730,177        3,021,140         3,021,141
+Right of use of assets                                                     1,047,519             1,075,215          196,899           203,390
+Deferred tax assets                                                        1,003,603               661,833                -                 -
+Intangible assets                                                          4,529,607             4,457,323                -                 -
+Investment in subsidiaries                                       4                 -                     -       22,069,319        22,336,661
+Investment in financial assets                                   5       116,526,045           104,995,837        5,029,674         3,217,041
+Loans and receivables from customers                                      34,511,634            32,961,484                -                 -
+Loans to life policyholders and others                                       345,180               283,577                -                 -
+Inventories                                                                   17,667                17,667                -                 -
+Reinsurance receivables                                                       69,584                34,613                -                 -
+Premium receivables                                                          478,803               652,715                -                 -
+Amounts due from related parties                                             264,831                55,862          260,654           173,401
+Trade, other receivables and advances                                      3,552,873             3,468,675          248,260           239,999
+Derivative financial instruments                                             112,828                10,440                -                 -
+Assets classified as held for sale                                            63,916                63,916           21,500            21,500
+Cash and cash equivalents                                                  1,552,618             2,366,947          348,301           779,351
+Total assets                                                             171,411,144           158,514,850       31,294,052        30,088,243
+Liabilities and equity
+Liabilities
+Debentures                                                       6         7,316,156             8,209,237        1,292,657         2,027,300
+Insurance Liability - Life                                                19,281,059            18,482,314                -                 -
+Retirement benefit obligations                                               428,776               409,923           70,540            67,465
+Interest bearing loans & borrowings                              7        41,609,996            40,192,553       13,349,546        15,347,175
+Deposits from customers                                                   17,771,774            17,694,649                -                 -
+Reinsurance creditors                                                        156,140               101,487                -                 -
+Liabilities related to equity accounted subsidiaries                               -                     -           24,084            20,507
+Amount due to related parties                                                 63,146                24,673           24,672            24,673
+Trade and other payables                                                   7,579,701             9,964,655          469,657         1,153,602
+Derivative financial instruments                                             108,861                 1,818                -                 -
+Securities sold under repurchase agreements                               52,768,305            44,069,015                -                 -
+Bank overdrafts                                                            2,993,737             2,218,037          767,986           506,109
+Total liabilities                                                        150,077,651           141,368,361       15,999,142        19,146,831
+
+Equity
+Stated capital                                                             9,300,000             4,300,000        9,300,000         4,300,000
+Risk reserves                                                              1,384,599             1,384,599        1,384,599         1,384,599
+Reserve fund                                                                 220,261               220,261          220,261           220,261
+Restricted regulatory reserve                                              1,336,414             1,336,414        1,336,414         1,336,414
+Fair valuation reserve                                                      (249,938)             (220,528)        (249,938)         (220,528)
+Revaluation reserve                                                           47,444                47,444           47,444            47,444
+Retained Earnings                                                          3,234,217             3,851,309        3,256,130         3,873,222
+Total equity attributable to shareholders of the company                  15,272,997            10,919,499       15,294,910        10,941,412
+Non - controlling interests                                                6,060,496             6,226,990                -                 -
+Total equity                                                              21,333,493            17,146,489       15,294,910        10,941,412
+Total liabilities and equity                                             171,411,144           158,514,850       31,294,052        30,088,243
+
+Net assets per share (LKR.)                                                        6.64                 6.07                6.65            6.08
+
+
+Figures in brackets indicate deductions.
+I certify that the Financial Statements have been prepared in compliance with the requirements of the Companies Act No. 07 of 2007.
+
+Signed
+………………………………
+Thanushka Jayasundera
+Group Chief Financial Officer
+
+The Board of Directors is responsible for the preparation and presentation of these Financial Statements.
+Approved and signed for and on behalf of the Board by,
+
+Signed
+………………………………                                                                              Signed
+                                                                                          ………………………………
+Chandana L. de Silva                                                                      Ramesh Schaffter
+Chairman                                                                                  Managing Director/ Group Chief Executive Officer
+
+14th August 2026
+Colombo.
+JANASHAKTHI PLC
+STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+LKR '000
+
+                                                                                                                                    Group                                       Company
+For the Quarter ended 30th June                                                                                            2026                  2025                    2026             2025
+                                                                                                                       Unaudited             Unaudited               Unaudited          Unaudited
+
+Revenue                                                                                                                   6,400,178            7,239,289                      76,621             -
+
+Cost of sales and direct expenses                                                                                       (2,532,019)           (2,716,273)                        -               -
+Gross profit                                                                                                             3,868,159             4,523,016                      76,621             -
+
+Benefits and losses
+Insurance claims and benefits (Net)                                                                                       (983,012)             (781,726)                        -               -
+Underwriting and net acquisition cost                                                                                     (713,504)             (531,553)                        -               -
+Change in contract liabilities -Life                                                                                      (809,891)             (692,303)                        -               -
+                                                                                                                        (2,506,407)           (2,005,582)                        -               -
+
+Other operating income                                                                                                      114,356            1,363,107                   13,025          11,103
+Change in fair value of financial assets- Fair value through profit or loss                                                (972,870)           1,256,464                  112,769           7,484
+                                                                                                                            503,238            5,137,005                  202,415          18,587
+
+Operating expenses
+Selling & distribution expenses                                                                                            (58,297)             (134,965)                (12,663)          (11,535)
+Administrative & other operating expenses                                                                               (1,598,161)           (1,462,360)               (151,355)         (118,379)
+Impairment charges                                                                                                         (95,455)              (80,505)                    -                 -
+Profit / (Loss) from operations                                                                                         (1,248,675)            3,459,175                  38,397          (111,327)
+
+Finance income                                                                                                              764,097               12,042                  60,526            12,340
+Finance cost                                                                                                               (459,531)            (420,823)               (474,505)         (489,172)
+Net finance income / (cost)                                                                                                 304,566             (408,781)               (413,979)         (476,832)
+
+Share of profit/(loss) from equity accounted investee (net of tax)                                                              -                    -                  (241,510)       2,097,835
+Profit /(Loss) before Tax                                                                                                  (944,109)           3,050,394                (617,092)       1,509,676
+
+Income tax (expense) /reversal                                                                                              163,343             (869,782)                    -                -
+Net Profit /(Loss) for the year                                                                                            (780,766)           2,180,612                (617,092)       1,509,676
+
+Other comprehensive income
+Items that will never be reclassified to profit or loss
+Gain/(loss) on financial assets measured at fair value through other
+comprehensive income                                                                                                        (32,230)             (45,314)                    -                -
+Share of other comprehensive income from equity accounted investee (net of tax)                                                 -                    -                   (29,410)         (38,366)
+Other comprehensive (loss) / income for the year net of tax                                                                 (32,230)             (45,314)                (29,410)         (38,366)
+Total comprehensive (loss) / income for the year                                                                           (812,996)           2,135,298                (646,502)       1,471,310
+
+Profit / (Loss) attributable to:
+Equity holders of the Company                                                                                              (617,092)           1,509,677                (617,092)       1,509,677
+Non - Controlling Interests                                                                                                (163,674)             670,934                     -                -
+                                                                                                                           (780,766)           2,180,611                (617,092)       1,509,677
+
+Total comprehensive (expense)/income attributable to :
+Equity holders of the Company                                                                                              (646,502)           1,471,310                (646,502)       1,471,310
+Non - Controlling Interests                                                                                                (166,494)             663,988                     -                -
+                                                                                                                           (812,996)           2,135,298                (646,502)       1,471,310
+Earning per share
+Basic Profit / (loss) per share                                                                                                 (0.30)                 2.38                    (0.30)         2.38
+*Janashakthi Insurance PLC's 31 March 2026 financial information was used for Group consolidation as at 30 June 2026 due to its differing financial year-end (31 December).
+
+
+Figures in brackets indicate deductions.
+JANASHAKTHI PLC
+STATEMENT OF CHANGES IN EQUITY
+AS AT 30TH JUNE 2026
+LKR '000
+                                                                                                                                                                        Attributable to equity Holder of the parent
+
+                                                                                                                                                                 Restricted                           Fair    Regulatory Loss                                    Non -
+                                                                                                                         Reserve                                                  Revaluation                                   Retained
+                                                                                                Stated capital                             Risk Reserve          Regulatory                         Valuation   Allowance                        Total        Controlling     Total equity
+                                                                                                                          Fund                                                      Reserve                                     Earnings
+Group                                                                                                                                                             Reserve                            Reserve      reserve                                       Interests
+                                                                                                   LKR. '000            LKR. '000           LKR. '000            LKR. '000          LKR. '000       LKR. '000   LKR. '000       LKR. '000      LKR. '000       LKR. '000      LKR. '000
+
+Balance as of 01 April 2025 - Audited                                                                 4,300,000             220,261            1,274,685             1,336,414           52,804          43,157       181,236     2,264,529      9,673,086       7,612,522      17,285,608
+Profit/(Loss)                                                                                               -                   -                    -                     -                                -             -       1,509,677      1,509,677         670,934       2,180,611
+Other comprehensive income
+Share of equity investees other comprehensive Income/(Loss)                                                 -                   -                    -                     -                -           (38,367)          -             -          (38,367)         (6,946)        (45,313)
+Total comprehensive income                                                                                  -                   -                    -                     -                -           (38,367)          -       1,509,677      1,471,310         663,988       2,135,298
+Transfer to Risk Reserve                                                                                    -                   -                106,286                   -                -               -             -        (106,286)           -               -               -
+Total Transfers                                                                                             -                   -                106,286                   -                -               -             -        (106,286)           -               -               -
+Balance as at 30 June 2025 - Unaudited                                                                4,300,000             220,261            1,380,971             1,336,414           52,804           4,790       181,236     3,667,920     11,144,396       8,276,510      19,420,906
+
+Balance as of 01 April 2026 - Unaudited                                                               4,300,000             220,261            1,384,599             1,336,414           47,444        (220,528)          -       3,851,309     10,919,499       6,226,990      17,146,489
+Initial Public Offering Proceeds                                                                      5,000,000                 -                    -                     -                -               -             -             -        5,000,000             -         5,000,000
+Profit/(Loss)                                                                                               -                   -                    -                     -                -               -             -        (617,092)      (617,092)       (163,674)       (780,766)
+Other comprehensive income
+Share of equity investees other comprehensive Income/(Loss)                                                    -                   -                    -                     -              -          (29,410)          -             -          (29,410)         (2,820)        (32,230)
+Total comprehensive income                                                                                     -                   -                    -                     -              -          (29,410)          -        (617,092)      (646,502)       (166,494)       (812,996)
+
+Balance as at 30 June 2026 - Unaudited                                                                9,300,000             220,261            1,384,599             1,336,414           47,444        (249,938)          -       3,234,217     15,272,997       6,060,496      21,333,493
+*Janashakthi Insurance PLC's 31 March 2026 financial information was used for Group consolidation as at 30 June 2026 due to its differing financial year-end (31 December).
+
+
+
+
+                                                                                                                                                                                                                                                                                          Page | 4
+Company
+                                                                                                                                                                 Restricted                       Fair        Regulatory Loss
+                                                                                                                         Reserve                                                  Revaluation                                     Retained
+                                                                                                Stated capital                             Risk Reserve          Regulatory                     Valuation       Allowance                           Total
+                                                                                                                          Fund                                                      Reserve                                       Earnings
+                                                                                                                                                                  Reserve                        Reserve          reserve
+
+                                                                                                LKR. '000              LKR. '000           LKR. '000            LKR. '000         LKR. '000     LKR. '000     LKR. '000         LKR. '000        LKR. '000
+
+Balance as of 01 April 2025 - Audited                                                                 4,300,000             220,261            1,274,685             1,336,414         52,804       43,157           181,236        2,216,997       9,625,554
+Profit /Loss                                                                                                   -                   -                    -                     -           -            -                  -         1,509,677       1,509,677
+Other comprehensive income
+Share of equity investees other comprehensive Income/(Loss)                                                    -                   -                  -                       -           -        (38,367)               -               -           (38,367)
+Total comprehensive income                                                                                     -                   -                  -                       -           -        (38,367)               -         1,509,677       1,471,310
+Transfer from Risk Reserves                                                                                    -                   -              106,286                     -           -            -                  -          (106,286)            -
+Total transfers                                                                                                -                   -              106,286                     -           -            -                  -          (106,286)            -
+
+Balance as at 30 June 2025 - Unaudited                                                                4,300,000             220,261            1,380,971             1,336,414         52,804        4,790           181,236        3,620,388      11,096,864
+
+Balance as at 01 April 2026 - Unaudited                                                               4,300,000             220,261            1,384,599             1,336,414         47,444     (220,528)               -         3,873,222      10,941,412
+Initial Public Offering Proceeds                                                                      5,000,000                 -                    -                     -              -            -                  -               -         5,000,000
+Profit /Loss                                                                                                -                   -                    -                     -              -            -                  -          (617,092)       (617,092)
+Other comprehensive income
+Share of equity investees other comprehensive Income/(Loss)                                                    -                   -                    -                     -           -        (29,410)               -               -           (29,410)
+Total comprehensive income                                                                                     -                   -                    -                     -           -        (29,410)               -          (617,092)       (646,502)
+Balance as at 30 June 2026 - Unaudited                                                                9,300,000             220,261            1,384,599             1,336,414         47,444     (249,938)               -         3,256,130      15,294,910
+
+*Janashakthi Insurance PLC's 31 March 2026 financial information was used for Group consolidation as at 30 June 2026 due to its differing financial year-end (31 December).
+
+
+Figures in brackets indicate deductions. The above unaudited figures are provisional and subject to audit
+
+
+
+
+                                                                                                                                                                                                                                                                 Page | 5
+JANASHAKTHI PLC
+STATEMENT OF CASH FLOWS
+ LKR '000
+                                                                                                                     Group                                            Company
+For the Quarter ended 30th June                                                                       2026                        2025                         2026            2025
+                                                                                                    Unaudited                   Unaudited                    Unaudited       Unaudited
+Cash flows from operating activities
+Profit/(Loss) before tax expenses                                                                          (944,109)                  3,050,394                    (617,092)    1,509,676
+Adjustments for                                                                                                 -                           -                           -             -
+  Finance income                                                                                           (764,097)                    (12,042)                    (60,526)      (12,340)
+  Finance cost                                                                                              459,531                     420,823                     474,505       489,172
+  Depreciation and amortization                                                                             182,564                     118,320                       7,833        16,382
+  Fair value (gain) /loss on financial assets                                                               972,870                  (1,256,464)                   (112,769)        7,484
+  Exchange( Gain) / Loss                                                                                        -                        (2,795)                        -          (1,970)
+  Impairment charges                                                                                            -                        80,505                         -             -
+  Gratuity provision                                                                                         23,987                      19,402                       3,075         1,764
+  Share of profit from equity accounted investee (net of tax)                                                   -                           -                       241,510    (2,097,835)
+Operating profit/(loss) before working capital changes                                                      (69,254)                  2,418,143                     (63,464)      (87,667)
+
+ Change in loans and advances to customers                                                              (1,550,150)                  (1,837,592)                        -            -
+ Change in amount due from related parties                                                                (208,969)                         -                       (87,253)        (288)
+ Change in premium and other receivables                                                                   138,941                      (16,283)                        -            -
+ Change in trade, other receivables and advances                                                          (145,803)                    (616,659)                     (8,261)       8,251
+ Change in deposits from customers                                                                          77,125                      992,924                         -            -
+ Change in trade and other payables                                                                     (2,095,400)                    (923,206)                   (675,067)         562
+ Change in amount due to related parties                                                                    38,473                     (388,236)                        -       (388,282)
+ Change in life insurance fund                                                                             798,745                      758,086                         -            -
+ Change in Securities sold under re-purchase agreements                                                  8,699,290                    6,099,124                         -            -
+Cash generated from / (used in) operations                                                               5,682,998                    6,486,301                    (834,045)    (467,424)
+
+ Gratuity paid                                                                                              (5,134)                      (2,501)                       -             -
+ Income taxes paid                                                                                        (396,968)                    (731,828)                       -             -
+ Finance costs paid                                                                                       (459,531)                    (420,823)                  (474,505)     (484,971)
+Net cash flows from / (used in) operating activities                                                     4,821,365                    5,331,149                 (1,308,550)     (952,395)
+
+Cash flows from investing activities
+ Acquisition of property, plant and equipment                                                              (44,965)                   (125,878)                     (3,887)       (2,126)
+ Investment in subsidiary                                                                                      -                       (45,314)                        -             -
+ Net investment in financial assets                                                                    (12,498,423)                 (9,969,268)                 (1,699,864)      139,505
+ Addition to right to use assets                                                                               -                      (232,896)                        -             -
+ Acquisition of intangible assets                                                                          (85,033)                        -                           -             -
+ Proceeds from disposal of property, plant and equipment                                                       -                            40                         -             -
+ Finance income                                                                                            764,097                      12,042                      60,526        12,340
+Net cash flows generated from / (used in) investing activities                                         (11,864,324)                (10,361,274)                 (1,643,225)      149,719
+
+Cash flows from financing activities
+ Stated capital / share issue proceeds                                                                   5,000,000                          -                    5,000,000           -
+ Net change in interest bearing loans and borrowings                                                     1,417,443                     (354,695)                (1,997,629)      863,568
+ Net change in overdraft                                                                                   775,698                    1,829,712                    261,877           -
+ Payment of lease liability                                                                                (71,430)                     (58,172)                    (8,880)       (8,160)
+ Net change in debentures                                                                                 (893,081)                   3,307,285                   (734,643)      (57,915)
+Net cash flows generated from financing activities                                                       6,228,630                    4,724,130                  2,520,725       797,493
+
+Net increase / (decrease) in cash and cash equivalents                                                    (814,329)                    (305,995)                   (431,050)      (5,183)
+Cash and cash equivalents at the beginning of the year                                                   2,366,947                    2,837,613                     779,351      822,140
+Cash and cash equivalents at the end of the period                                                       1,552,618                    2,531,618                     348,301      816,957
+
+Analysis of Cash and Cash Equivalents
+Favorable Balances                                                                                       1,552,618                    2,531,618                     348,301      816,958
+ Cash & Bank Balances                                                                                    1,552,618                    2,531,618                     348,301      816,958
+
+*Janashakthi Insurance PLC's 31 March 2026 financial information was used for Group consolidation as at 30 June 2026 due to its differing financial year-end (31 December).
+JANASHAKTHI PLC
+NOTES TO THE FINANCIAL STATEMENTS
+AS AT 30TH JUNE 2026
+
+  1. Corporate Information
+
+    Domicile and Legal Form
+
+    Janashakthi PLC is a Public liability company incorporated and domiciled in Sri Lanka. The registered office of the Company is located at 02, Deal
+    Place, Colombo 03, and the principal place of business is located at Level 39, Mireka Tower, 324, Havelock Road, Colombo 06.
+  2. Basis of Preparation
+    The interim condensed consolidated financial statements have been prepared in accordance with Sri Lanka Accounting Standard LKAS 34 "Interim
+    Financial Reporting" and do not include all the information and disclosures required in annual financial statements. As the Group has not yet published an
+    Annual Report following its recent listing on the Colombo Stock Exchange, these should be read in conjunction with the audited financial statements for
+    the year ended 31st March 2025, which are available on the Colombo Stock Exchange website.
+
+    The audit of the Group’s financial statements for the year ended 31 March 2026 is currently in progress. Accordingly, the figures as at 31 March 2026
+    and for the quarter ended 30 June 2026 are provisional and subject to audit. The accounting policies and methods of computation applied are consistent
+    with those adopted in the audited financial statements for the year ended 31st March 2025.
+
+    Janashakthi Insurance PLC has a financial year-end of 31 December, whereas the other Group companies have a financial year-end of 31 March.
+    Accordingly, in preparing the Group’s interim financial statements for the six months ended 30 June 2026, the financial information of Janashakthi
+    Insurance PLC as at 31 March 2026 has been used for consolidation purposes. In accordance with SLFRS 10 – Consolidated Financial Statements,
+    adjustments have been made, where necessary, for the effects of significant transactions or events occurring between 31 March 2026 and 30 June 2026.
+
+  3. Restricted Regulatory Reserve - Janashakthi Insurance PLC (JIPLC)
+    Following the implementation of the Risk Based Capital (RBC) regime by the Insurance Regulatory Commission of Sri Lanka (IRCSL) in 2016, a one-
+    off surplus arose due to the change in the method used to value policy liabilities. With the approval of the IRCSL, this surplus was transferred from the
+    Life Fund to the Shareholders’ Fund in 2017 and is held as a Restricted Regulatory Reserve. The reserve balance being carried forward is LKR 1,796
+    million as at 30 June 2026. As Janashakthi PLC accounts for its subsidiaries using the equity method, the Company's share of this balance (LKR 1,336
+    million) is reflected in the carrying amount of its investment in the subsidiary.
+JANASHAKTHI PLC
+NOTES TO THE FINANCIAL STATEMENTS
+AS AT 30TH JUNE 2026
+
+ 5. Financial assets                                                                                 Group                            Company
+
+                                                                                        30.06.2026        31.03.2026          30.06.2026       31.03.2026
+                                                                                        LKR. '000         LKR. '000           LKR. '000        LKR. '000
+
+   Financial assets measured at fair value through profit or loss            Note 6.1     87,951,342          82,841,634         4,058,644        2,216,768
+   Financial assets measured at amortized cost                               Note 6.2     24,468,157          18,744,726           971,030        1,000,273
+
+                                                                             Note 6.3      4,106,546           3,409,476               -               -
+   Financial assets measured fair value through other comprehensive income
+                                                                                        116,526,045          104,995,837         5,029,674        3,217,041
+                                                                                                     0                  (0)                0           -
+
+5.1 Financial assets at fair value through profit or loss                                            Group                             Company
+                                                                                        30.06.2026        31.03.2026          30.06.2026     31.03.2026
+                                                                                        LKR. '000         LKR. '000           LKR. '000      LKR. '000
+
+   Investment in quoted equity securities                                                18,592,426           14,478,014         1,778,792       1,424,611
+   Investment in unit trust                                                               8,100,753            3,578,859         1,627,057         792,157
+   Investment in government securities                                                   57,169,338           60,938,700           652,795             -
+   Investment in debentures                                                               4,088,825            3,846,061               -               -
+                                                                                          87,951,342          82,841,634          4,058,644       2,216,768
+                                                                                                -                -                     -              -
+5.2 Financial assets measured at amortized cost                                                    Group                               Company
+                                                                                        30.06.2026      31.03.2026            30.06.2026     31.03.2026
+                                                                                        LKR. '000       LKR. '000             LKR. '000      LKR. '000
+
+   Reverse repurchase agreements                                                          9,141,859           8,161,981                 67              66
+   Short term lending                                                                     1,533,248             925,302               -                -
+   Corporate debts                                                                        6,490,756           7,021,199               -                -
+   Fixed deposits                                                                         6,078,953             281,555           695,875          189,547
+   Commercial Papers                                                                      1,293,735           2,425,136           271,675          807,247
+   Placement with banks and financial institutions                                            3,413               3,413             3,413            3,413
+   Less: Provision for impairment                                                           (73,807)            (73,860)              -                -
+                                                                                          24,468,157          18,744,726           971,030        1,000,273
+                                                                                                     0                   0                 0                0
+
+5.3 Financial assets measured fair value through other comprehensive income                          Group                             Company
+                                                                                        30.06.2026        31.03.2026          30.06.2026     31.03.2026
+                                                                                        LKR. '000         LKR. '000           LKR. '000      LKR. '000
+
+   Equity securities                                                                           7,500               7,500               -               -
+   Investment in government securities                                                     1,790,247           3,401,745               -               -
+   Unquoted Shares                                                                              -                    231               -               -
+   Corporate debt                                                                          2,308,799                -                  -               -
+                                                                                           4,106,546           3,409,476               -               -
+                                                                                                -                   -                  -               -
+5.4. Determination of fair value and fair value hierarchy
+
+    The Group measures fair values using the following fair value hierarchy that reflects the significance of the inputs used in making the measurements in accordance with SLFRS 13.
+
+    Level - 1
+    Financial instruments that are measured in whole or in part by reference to published quotes in an active market. A financial instrument is regarded as quoted in an active market if quoted
+    prices are readily and regularly available from an exchange and those prices represent actual and regularly occurring market transactions on an arm's length basis.
+
+    Level - 2
+    Financial instruments that are measured at fair value on a recurring basis. As market quotes generally are not readily available or accessible for these securities, their fair value measures are
+    determined using relevant information generated by market transactions involving comparable securities.
+
+    Level - 3
+    Valuation techniques using significant unobservable inputs. This category includes all instruments where the valuation technique includes inputs not based on observable data and the
+    unobservable inputs have a significant effect on the instrument's valuation. This category includes instruments that are valued based on quoted prices for similar instruments where significant
+    unobservable adjustments or assumptions are required to reflect differences between the instruments.
+
+
+    The following table shows an analysis of financial instruments recorded at fair value by the level of the fair value hierarchy.
+
+                                                                                            30.06.2026                                                          31.03.2026
+    Group
+                                                                   Level 1          Level 2          Level 3           Total             Level 1          Level 2        Level 3             Total
+                                                                  LKR. '000        LKR. '000        LKR. '000        LKR. '000          LKR. '000        LKR. '000      LKR. '000          LKR. '000
+    Financial assets at fair value through profit or loss
+
+    Investment in government securities                           57,169,338              -                  -        57,169,338        60,938,700               -                -        60,938,700
+    Investment in debentures                                             -          4,088,825                -         4,088,825               -           3,846,061              -         3,846,061
+    Investment in unit trust                                             -          8,100,753                -         8,100,753               -           3,578,859              -         3,578,859
+    Investment in listed shares                                   18,592,426              -                  -        18,592,426        14,478,014               -                -        14,478,014
+                                                                  75,761,764       12,189,578                -        87,951,342        75,416,714         7,424,920              -        82,841,634
+
+    Financial Assets measured at amortized cost
+
+    Reverse repurchase agreements                                          -               -          9,141,858        9,141,859                 -                -        8,161,982        8,161,982
+    Short term lending                                                     -               -          1,533,248        1,533,248                 -                -          763,627          763,627
+    Long term lending                                                      -               -                -                -                   -                -              -                -
+    Corporate debts                                                        -               -          6,259,088        6,259,088                 -                -        5,271,771        5,271,771
+    Unlisted debentures                                                    -               -                -                -                   -                -          285,361          285,361
+    Securitised papers                                                     -               -                -                -                   -                -          755,983          755,983
+    Fixed deposits                                                         -               -          6,078,955        6,078,955                 -                -          440,476          440,476
+    Mortgage loans                                                         -               -                -                -                   -                -                               -
+    Commercial Papers                                                      -               -          1,525,401        1,525,401                 -                -       2,969,296         2,969,296
+    Staff receivables                                                      -               -                -                -                   -                -          94,489            94,489
+    Placement with banks and financial institutions                        -               -              3,413            3,413                 -                -           3,413             3,413
+    Less: Provision for impairment                                         -               -            (73,807)         (73,807)                -                -          (1,673)           (1,673)
+                                                                           -               -         24,468,156       24,468,157                 -                -      18,744,726        18,744,726
+
+    Financial assets - fair value through other
+    comprehensive income
+
+    Government securities                                            1,790,247             -                -          1,790,247          1,560,653               -              -           1,560,653
+    Corporate debt                                                        -                -          2,308,568        2,308,568                -                 -        1,841,094         1,841,094
+    Equity securities                                                     -                 231           7,500            7,731                -                 -            7,731             7,731
+                                                                     1,790,247              231        2,316,068        4,106,546          1,560,653              -         1,848,825         3,409,478
+
+                                                                  77,552,011       12,189,809        26,784,224     116,526,045         76,977,367         7,424,920     20,593,550       104,995,837
+
+
+                                                                                            30.06.2026                                                          31.03.2026
+    Company
+                                                                   Level 1          Level 2          Level 3           Total             Level 1          Level 2        Level 3             Total
+                                                                  LKR. '000        LKR. '000        LKR. '000        LKR. '000          LKR. '000        LKR. '000      LKR. '000          LKR. '000
+    Financial assets at fair value through profit or loss
+
+    Investment in government securities                               652,795             -                  -           652,795                -                -                -                -
+    Investment in unit trust                                              -         1,627,057                -         1,627,057                -            792,157              -            792,157
+    Investment in listed shares                                     1,778,792             -                  -         1,778,792          1,424,611              -                -          1,424,611
+                                                                    2,431,587       1,627,057                -         4,058,644          1,424,611          792,157              -          2,216,768
+
+    Financial Assets measured at amortized cost
+
+    Reverse repurchase agreements                                          -               -                 67               67                 -                -               66                66
+    Fixed deposits                                                         -               -            695,875          695,875                 -                -          189,547           189,547
+    Commercial Papers                                                      -               -            271,675          271,675                 -                -          807,247           807,247
+    Placement with banks and financial institutions                        -               -              3,413            3,413                 -                -            3,413             3,413
+                                                                           -               -            971,030          971,030                 -                -        1,000,273         1,000,273
+
+                                                                    2,431,587       1,627,057           971,030        5,029,674          1,424,611          792,157       1,000,273         3,217,041
+JANASHAKTHI PLC
+NOTES TO THE FINANCIAL STATEMENTS
+ 6. Debentures
+
+                                                No. of Debentures                      Face Value                                    Carrying value
+                   Tenure                                                                                                                                          Maturity Date
+                                             30.06.2026      31.03.2026        30.06.2026           31.03.2026            30.06.2026            31.03.2026
+                                                                               LKR. '000            LKR. '000            LKR. '000             LKR. '000
+                  5 years                     30,000,000       30,000,000          3,000,000           3,000,000           3,070,839             3,310,159          24-Apr-30
+                  5 years                     30,000,000       30,000,000          3,000,000           3,000,000           3,212,661              3,131,778         24-Sep-30
+                  2 years                              -       1,030,000                   -            103,000                  -                    1,440         28-Mar-26
+                  3 years                     9,540,000        9,540,000            954,000             954,000              953,274               953,067          28-Mar-27
+                  2 years                              -       6,460,000                   -            646,000                  -                 734,163          30-Apr-26
+                  3 years                     2,970,000        2,970,000            297,000             297,000              339,383               338,629          30-Apr-27
+                                             72,510,000       80,000,000          7,251,000           8,000,000            7,576,156             8,469,237
+
+   Related party debenture elimination          (26,000)        (26,000)            (260,000)             (260,000)            (260,000)               (260,000)
+   Total                                     72,484,000      79,974,000            6,991,000             7,740,000            7,316,156               8,209,237
+
+
+
+   Company
+
+                                                No. of Debentures                          Face Value                  Carrying value        Carrying value
+                   Tenure                                                                                                                                           Maturity Date
+                                             30.06.2026       31.03.2026       30.06.2026               31.03.2026        30.06.2026             31.03.2026
+                                                                               LKR. '000            LKR. '000             LKR. '000             LKR. '000
+                   2 years                            -        1,030,000                   -            103,000                   -                     -            28-Mar-26
+                   3 years                    9,540,000       12,510,000             954,000            954,000               953,274               953,067          28-Mar-27
+                   2 years                            -        6,460,000                   -            646,000                   -                 735,604          30-Apr-26
+                   3 years                    2,970,000        2,970,000             297,000            297,000               339,383               338,629          30-Apr-27
+                                             12,510,000       22,970,000           1,251,000          2,000,000             1,292,657             2,027,300
+
+
+
+7. Interest bearing borrowings
+
+                                         Group                                 Company
+                                            30.06.2026           31.03.2026       30.06.2026                     31.03.2026
+                                            LKR. '000            LKR. '000        LKR. '000                      LKR. '000
+
+   Current Borrowings                        24,253,112          24,079,631             5,645,574                    11,798,249
+   Non-Currrent Borrowings                   17,356,884          16,112,922             7,703,972                     3,548,926
+                                             41,609,996          40,192,553            13,349,546                    15,347,175
+                                                   0.06                 -                    0.00                           -
+
+ 8. Segmental Reporting
+
+                                                                                                Investment
+                                                          Life Insurance        NBFI                                     Other             Eliminations             Total
+                                                                                                  Banking
+
+   Revenue                                                   2,475,340         1,832,133           2,102,945               78,217               (88,457)            6,400,178
+   Cost of Sales                                                   -            (951,760)         (1,607,762)                 -                  27,503            (2,532,020)
+   Other Operating and Investment Income                       819,627            52,886            (502,580)             186,320              (650,670)              (94,417)
+   Total segmental income                                    3,294,967           933,259              (7,397)             264,537              (711,624)            3,773,741
+
+   Net Benefits and Claims                                   (2,509,169)               -                     -                   -                    2,762        (2,506,407)
+   Other operating, investment related and
+   administrative expenses                                     (483,716)        (795,046)           (961,076)            (631,033)              659,427            (2,211,443)
+   Income tax                                                   (68,018)         (47,799)            279,183                  -                     (23)              163,343
+   Profit after tax                                             234,064           90,414            (689,291)            (366,496)              (49,458)             (780,766)
+
+
+    Segmental assets                                        41,033,790        39,939,202         90,960,668            31,317,850          (31,840,366) 171,411,144
+    Segmental liabilities                                   24,278,937        35,841,911         76,067,715            16,047,008           (2,157,920) 150,077,651
+JANASHAKTHI PLC
+NOTES TO THE FINANCIAL STATEMENTS
+AS AT 30TH JUNE 2026
+
+    9. Contingent Liabilities
+       There were no material changes to contingent liabilities as at the reporting date which require disclosure in the financial
+       statements, other than as disclosed below.
+
+  9.1. Company
+
+    a. The Company has provided corporate guarantees totaling LKR 3 Bn in respect of banking facilities obtained by its
+       subsidiaries.
+
+    b. The Department of Inland Revenue has issued an assessment on income tax for year of assessment 2015/16, 2016/17 and
+       2017/18 totaling LKR 105.7 Mn (inclusive of penalties). The Company has appealed against the assessments.
+
+
+    c. The Department of Inland Revenue has issued an assessment on NBT/VAT on financial services for years of assessment
+       2017/18 totaling LKR59.6Mn (inclusive of penalties). The Company has appealed against the assessment.
+
+      Based on the tax consultant’s opinion, the Board of Directors of the Company is of the view that no liability would arise on
+      the above stated tax matters as they are outside the scope of chargeability of taxes.
+
+
+  9.2. Group Subsidiaries
+       All subsidiaries of the Group are listed on the Colombo Stock Exchange, and their respective contingent liabilities have
+       been disclosed in their individual financial statements.
+
+  10. Commitments
+
+ 10.1. Company
+       There were no material commitments as at the reporting date which require disclosures in the financial statements
+
+ 10.2. Group Subsidiaries
+       All subsidiaries of the Group are listed on the Colombo Stock Exchange, and their respective comittments have been
+       disclosed in their individual financial statements.
+  11. Events After the Reporting Period
+      On 13th August 2026,Janashakthi PLC (JXG) has entered into a Share Purchase Agreement with Melstacorp PLC (MELS), the sole
+      shareholder of Continental Insurance Lanka Limited (CILL), to acquire a 100% stake in CILL for LKR5.2Bn, subject to the approval of
+      the Insurance Regulatory Commission of Sri Lanka (IRCSL). The transaction will see JXG acquire an initial 81% controlling stake,
+      followed by the acquisition of the balance stake on a staggered basis, with 9% to be acquired in the first year and 10% in the
+      subsequent year.
+       Shareholder Information
+      Net asset value per share (LKR)                                                            30.06.2026              31.03.2026
+      Group                                                                                                   6.64                6.07
+      Company                                                                                                 6.65                6.08
+
+      Market Price Per Share
+      For the quarter ended                                                                      30.06.2026                Date
+      Highest Price                                                                                 15.5                 2026.04.29
+      Lowest Price                                                                                  11.8                 2026.06.08
+      Last traded Price                                                                             12.1                 2026.06.30
+
+      Market capitalisation (LKR)                                                                 27,830,000,000
+
+      Public Shareholding
+      Percentage of shares held by the public and the number of public shareholders are given below:
+
+      As at                                                                                      30.06.2026
+      Public shareholding (%)                                                                             21.14%
+      Number of Public Shareholders                                                                       17,130
+      Compliance under option 1-Float adjusted Market Capitalisation (LKR)                         5,883,262,000
+JANASHAKTHI PLC
+NOTES TO THE FINANCIAL STATEMENTS
+AS AT 30TH JUNE 2026
+
+      Directors Shareholding
+
+                             Name                                       No. of Shares             Shareholding
+      Mr. Chandana de Silva                                                           2,000,000      0.09%
+      Mr. Prakash Schaffter                                                          30,000,000      1.30%
+      Mr. Ramesh Schaffter                                                           25,000,000      1.09%
+      Ms. Manjula Mathews                                                            40,000,000      1.74%
+      Ms. Minette Perera                                                                   -         0.00%
+      Mr. Piranavan Sivagananathan                                                         -         0.00%
+      Mr. Rohan Saliya Wickramasuriya                                                   18,069       0.00%
+      Mr. Vishnu Balachandran                                                              -         0.00%
+
+      Shareholders as at 30th June 2026
+      As at 31 December 2025, the Company effected a subdivision of its ordinary shares in the ratio of 2.84 shares for each
+      existing ordinary share. Accordingly, the number of issued ordinary shares increased from 633,551,428 to 1,800,000,000
+      shares following the subdivision. Subsequently, pursuant to the Initial Public Offering (IPO) of 500,000,000 ordinary shares
+      on 29th April 2026, the total number of issued ordinary shares increased to 2,300,000,000 shares.
+
+      List of Largest Shareholders
+
+      Name of the Shareholder                                           No. of Shares                   %
+  1 Schaffters (Private) Limited                                                1,430,000,000            62.17%
+  2 Mrs. Tarni Shameen Schaffter                                                   50,000,000             2.17%
+  3 Ms. Manjula Mathews                                                            40,000,000             1.74%
+  4 Mrs. Emily Sumithra Schaffter                                                  30,000,000             1.30%
+  4 Mr. Prakash Anand Schaffter                                                    30,000,000             1.30%
+    First Capital Asset Management / Merrill J Fernando
+  6                                                                                 25,000,000             1.09%
+    & Sons (Pvt) Limited
+  6 Mr. Ramesh Schaffter                                                            25,000,000             1.09%
+  6 Mrs. Eunice Abigail Maryanne Suwenitha Schaffter                                25,000,000             1.09%
+  9 Ranavav Holdings (Pvt) Ltd                                                      21,470,870             0.93%
+ 10 Mr. James Panamparampil Mathews                                                 20,000,000             0.87%
+ 10 Ms. Ahalya Jaasiel Schaffter                                                    20,000,000             0.87%
+    Senkadagala Finance PLC / R.S.H. Nanayakkara &
+ 12                                                                                 18,000,000             0.78%
+    R.M. Nanayakkara
+ 13 Mr. Dilshan Gunamini Wirasekara                                                 13,709,852             0.60%
+ 14 Bank of Ceylon A/C Ceybank Unit Trust                                           13,187,420             0.57%
+    First Capital Asset Management / M.J.F. Exports (Pvt)
+ 15                                                                                 12,500,000             0.54%
+    Limited
+    First Capital Asset Management / Wegapitiya
+ 16                                                                                 10,275,000             0.45%
+    Kattadiyalage Hemachandra Wegapitiya
+ 17 Ms. Tripti Shirlene Mathews                                                     10,000,000            0.43%
+ 17 Ms. Anika Jerusha Schaffter                                                     10,000,000            0.43%
+ 17 Mr. Ashwin Jeshuran Chandra Schaffter                                           10,000,000            0.43%
+ 17 Mr. Aakash Luke Schaffter                                                       10,000,000            0.43%
+ 17 Mr. Cuthbert Tehan Anand Schaffter                                              10,000,000            0.43%
+ 17 Ms. Sashi Adele Schaffter                                                       10,000,000            0.43%
+ 17 Ms. Sarita Davina Schaffter                                                     10,000,000            0.43%
+ 17 MR. Y.S.H.R.S. Silva                                                            10,000,000            0.43%
+ 17 Sunrich Confectionery (Pvt) Ltd                                                 10,000,000            0.43%
+    Sub Total                                                                    1,874,143,142           81.48%
+    Others                                                                         425,856,858           18.52%
+    Total                                                                        2,300,000,000          100.00%
+Corporate Information
+NAME OF THE COMPANY                         BOARD OF DIRECTORS
+Janashakthi PLC                             Chandana De Silva Chairman
+                                            Prakash Schaffter Deputy Chairman
+NAME OF THE SUBSIDIARIES                    Ramesh Schaffter
+Janashakthi Insurance PLC                   Managing Director/Group Chief Executive Officer
+First Capital Holdings PLC                  Saliya Wickramasuriya Independent Non-
+Janashakthi Finance PLC                     Executive Director
+Janashakthi Corporate Services Ltd          Piranavan Sivagananathan Independent Non-
+                                            Executive Director
+LEGAL FORM                                  Manjula Mathews
+Quoted Public Listed Company                Non-Independent Non-Executive Director
+                                            Minette Perera
+PRINCIPAL ACTIVITIES                        Independent Non-Executive Director
+Investment and Management of Subsidiaries   Vishnu Balachandran Independent Non-Executive
+                                            Director
+COMPANY REGISTRATION NUMBER
+PQ00365525                                  SECRETARY TO THE COMPANY
+                                            Janashakthi Corporate Services Limited
+FINANCIAL YEAR END                          Level 39, Mireka Tower, 324, Havelock Road,
+31st March                                  Colombo 06.
+
+WEBSITE
+https://www.jxg.lk/
+
+REGISTERED OFFICE
+No. 02, Deal Place, Colombo 03, Sri Lanka
+
+OFFICE ADDRESS
+No. 324, 39th Floor, Mireka Tower,
+Havelock Road, Colombo 05
+
+EXTERNAL AUDITORS
+Messrs KPMG Chartered Accountants
+32 A, Sir Mohamad Macan
+Marker Mawatha, P.O. Box
+186, Colombo 03
+
+PRINCIPAL BANKERS
+Commercial Bank of Ceylon PLC
+Seylan Bank PLC
+Hatton National Bank PLC
+Nations Trust Bank PLC
+People’s Bank
+Bank of Ceylon
+National Development Bank
+Cargills Bank
+DFCC Bank
+
