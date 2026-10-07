@@ -214,7 +214,9 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
     out["trade_lists"] = lists
     held_now = {h["symbol"] for h in up.holdings if h["portfolio"] in record.TRADED and float(h["shares"] or 0) > 0}
     for r in out["needs_review"]:
-        r["affects_holdings"] = r["symbol"] in held_now
+        # Only actions the record can still book matter here: ex-date today or later, or unknown.
+        # Past ones affect the estimates only (and are corrected at the next re-estimation).
+        r["affects_holdings"] = r["symbol"] in held_now and (not r["ex_date"] or r["ex_date"] >= session)
     return finish("ok", f"{len(universe.symbols)} stocks, {len(est.weeks)} weekly returns; {up.status}")
 
 

@@ -53,7 +53,7 @@ jobs:
         run: |
           git add data
           git diff --cached --quiet || git commit -m "data: daily update $(date -u +%F)"
-          git pull --rebase origin "$GITHUB_REF_NAME"   # data/ commits rebase cleanly over code pushes
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"   # data/ commits rebase cleanly over code pushes
           git push origin "HEAD:$GITHUB_REF_NAME"
 
       # Portfolio lab: corporate actions, estimates, model portfolios, live record.
@@ -68,9 +68,10 @@ jobs:
 
       - name: Commit record
         run: |
-          git add data record
+          git add data
+          if [ -d record ]; then git add record; fi   # record/ only exists from inception onwards
           git diff --cached --quiet || git commit -m "record: daily update $(date -u +%F)"
-          git pull --rebase origin "$GITHUB_REF_NAME"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
 
       - uses: actions/configure-pages@v5
@@ -91,7 +92,7 @@ jobs:
         if: failure()
         run: |
           git add data/runs.csv || true
-          git diff --cached --quiet || (git commit -m "data: record failed run $(date -u +%F)" && git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME")
+          git diff --cached --quiet || (git commit -m "data: record failed run $(date -u +%F)" && git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME")
 
   deploy:
     needs: update
