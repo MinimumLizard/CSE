@@ -61,3 +61,22 @@ def test_dry_run_writes_nothing(root, client):
     out = lab.run(root, dry_run=True, min_history_override=51)
     assert out["status"] == "ok"
     assert snapshot_files(root) == before and not (root / "record").exists()
+
+
+def test_holdings_warning_only_for_actions_the_record_can_still_book(root, client):
+    """A pending action that went ex before the session can't affect the record any more."""
+    import csv
+    from cse import corpactions
+    setup_root(root, client, max_weight=0.4, max_sector_weight=0.4)
+    path = root / "data" / "history" / "corporate_actions.csv"
+    base = {"amount_per_share": "", "ratio_new": "1", "ratio_held": "10", "factor": "", "subscription_price": "50",
+            "status": "needs_review", "note": "", "source_url": ""}
+    rows = [dict(base, id="1:LOLC.N0000", symbol="LOLC.N0000", type="rights", ex_date="2026-03-02"),   # past
+            dict(base, id="2:COMB.N0000", symbol="COMB.N0000", type="rights", ex_date="2026-10-20"),   # future
+            dict(base, id="3:HAYL.N0000", symbol="HAYL.N0000", type="rights", ex_date="")]             # unknown
+    with path.open("w", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=corpactions.CA_COLS, lineterminator="\n")
+        w.writeheader(); w.writerows(rows)
+    out = lab.run(root, dry_run=True, min_history_override=51)
+    flags = {r["id"]: r["affects_holdings"] for r in out["needs_review"]}
+    assert flags == {"1:LOLC.N0000": False, "2:COMB.N0000": True, "3:HAYL.N0000": True}
