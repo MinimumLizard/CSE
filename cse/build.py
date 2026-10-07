@@ -287,9 +287,16 @@ def render(context: dict, out: Path) -> None:
 
 
 def main() -> None:
+    from .ownership import site as ownership_site
     out = ROOT / "site" / "index.html"
-    render(build_context(ROOT), out)
+    ctx = build_context(ROOT)
+    own = ownership_site.context(ROOT)
+    ctx["ownership_page"] = own is not None
+    render(ctx, out)
     print(f"wrote {out.relative_to(ROOT)}")
+    if own is not None:
+        ownership_site.render(own, ROOT / "site" / "ownership.html")
+        print("wrote site/ownership.html")
 
 
 if __name__ == "__main__":

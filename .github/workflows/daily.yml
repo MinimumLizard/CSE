@@ -63,11 +63,18 @@ jobs:
         continue-on-error: true
         run: python -m cse.lab
 
+      # Ownership graph re-valued at today's prices (no network; reports come from the weekly workflow).
+      - name: Ownership
+        id: ownership
+        continue-on-error: true
+        run: if [ -f data/raw/ownership/reports.csv ]; then python -m cse.ownership.analyse; fi
+
       - name: Build
         run: python -m cse.build
 
       - name: Commit record
         run: |
+          git checkout -- data/ownership 2>/dev/null || true   # re-valued daily for the page; committed weekly only
           git add data
           if [ -d record ]; then git add record; fi   # record/ only exists from inception onwards
           git diff --cached --quiet || git commit -m "record: daily update $(date -u +%F)"
@@ -80,10 +87,10 @@ jobs:
         with:
           path: site
 
-      - name: Fail the job if the lab failed
-        if: steps.lab.outcome == 'failure'
+      - name: Fail the job if the lab or ownership step failed
+        if: steps.lab.outcome == 'failure' || steps.ownership.outcome == 'failure'
         run: |
-          echo "::error::cse.lab failed; the terminal was deployed, Panel D shows the last good lab output"
+          echo "::error::cse.lab (${{ steps.lab.outcome }}) or cse.ownership.analyse (${{ steps.ownership.outcome }}) failed; the terminal was deployed with the last good output"
           exit 1
 
       # Keep a record of the failure (data/runs.csv only; no market data) so the next

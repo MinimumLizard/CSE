@@ -1,0 +1,598 @@
+DIALOG FINANCE PLC
+
+
+
+
+CONDENSED INTERIM FINANCIAL STATEMENTS
+FOR THE SIX MONTHS ENDED
+30 JUNE 2026
+                     Financial review for the six months ended 30 June 2026
+
+
+Dialog Finance PLC reported a strong financial performance for the six months ended 30 June 2026,
+recording a Net Profit After Tax (NPAT) of Rs. 146.9 million, marking a significant turnaround from a profit of
+Rs. 22.7 million in the previous year. Operating income surged by 66.9% year-on-year to Rs. 1,604.4 million,
+reflecting the Company’s continued focus on scalable, technology-led financial solutions.
+
+Profit before taxes rose sharply to Rs. 361.3 million, an increase of 164.8% compared to the previous year,
+driven by strong core business momentum, disciplined cost management, and improved margins. The
+growth in operating income was largely underpinned by strategically structured fee income from key growth
+engines such as Device Financing and the payments business, supported by steady improvements in asset
+quality and net interest margins.
+
+Total assets expanded by 14.7% to Rs. 13.7 billion compared to December 2025, while the net loan book
+grew by a robust 14.6% to Rs. 10.5 billion. Net Interest Income increased by 64% to Rs. 923.7 million,
+supported by prudent pricing strategies and effective asset-liability management, resulting in a healthy Net
+Interest Margin of 13.7%.
+
+Operating expenses grew at a moderated pace of 46.5%, leading to a notable improvement in the cost-to-
+income ratio to 60% from 75% in the previous year. This reflects sustained efforts to enhance operational
+efficiency while scaling the business. Impairment charges increased to Rs. 186.6 million, in line with the
+expansion of the loan portfolio. Despite this, asset quality remained sound, with gross impairment ratio being
+at 6.4% and a strong stage 3 impairment coverage ratio of 66.4%.
+
+The Company’s capital position remained strong, with both Tier I and Total Capital Adequacy Ratios reported
+at 15.3%, comfortably above the minimum regulatory requirements, reinforcing balance sheet resilience.
+
+Dialog Finance PLC, a subsidiary of Dialog Axiata PLC, is a registered finance company in Sri Lanka offering
+innovative, technology-driven financial services, digital lending, and payment solutions. The Company is
+rated ‘AA(lka)’ by Fitch Ratings with a stable outlook.
+
+
+
+
+                                                                                                       Page | 1
+DIALOG FINANCE PLC
+
+Statement of financial position
+(all amounts in Sri Lanka Rupees thousands)
+
+                                                                                                   30 June 2026          31 Dec 2025
+                                                                                                    (Unaudited)             (Audited)
+ ASSETS
+
+ Cash and cash equivalents                                                                             1,292,727             602,236
+ Placements with banks and financial institutions                                                        162,913             161,800
+ Securities purchased under repurchase agreements                                                        203,495             625,521
+ Financial assets at fair value through profit or loss                                                     3,163               3,976
+ Financial assets at amortised cost - loans and advances                                              10,500,237           9,158,595
+ Financial assets at fair value through other comprehensive income                                         2,505               2,505
+ Financial investments at amortised cost                                                                 458,784             400,714
+ Other assets                                                                                            438,993             496,161
+ Right-of-use assets                                                                                      96,304              92,624
+ Property, plant and equipment                                                                           114,282              58,115
+ Intangible assets                                                                                       362,188             303,626
+ Deferred tax assets                                                                                      69,421              45,994
+ Total assets                                                                                         13,705,012          11,951,867
+
+ LIABILITIES
+
+ Financial liabilities at amortised cost - due to customers                                            7,648,952            5,896,562
+ Financial liabilities at amortised cost - due to banks                                                2,012,904            2,109,980
+ Lease liabilities                                                                                       104,069               97,457
+ Retirement benefit obligations                                                                           19,095               14,241
+ Current tax payable                                                                                     119,878               69,283
+ Other liabilities                                                                                       890,355            1,001,456
+ Total liabilities                                                                                    10,795,253            9,188,979
+
+ EQUITY
+
+ Stated capital                                                                                        2,934,582           2,934,582
+ Statutory reserve fund                                                                                    24,674             24,674
+ Fair value through other comprehensive income reserve                                                      3,102              3,102
+ Accumulated losses                                                                                      (52,599)          (199,470)
+ Total equity                                                                                          2,909,759           2,762,888
+ Total equity and liabilities                                                                         13,705,012          11,951,867
+
+ Net assets per share (Rs.)                                                                                 24.79                23.53
+
+ Commitments and contingencies (Note 3)                                                                  129,365               112,842
+
+ The notes on pages 7 to 9 form an integral part of these financial statements.
+
+ CERTIFICATION
+
+ We certify that the above Interim Financial Statements are in compliance with the requirements of the Companies Act No: 7 of
+ 2007 and give true and fair view of its financial position of the entity as at 30 June 2026 and of its financial performance for the
+ period ended 30 June 2026.
+
+
+
+
+                                                                                                                    Page | 2
+DIALOG FINANCE PLC
+
+Statement of profit or loss and other comprehensive income
+(all amounts in Sri Lanka Rupees thousands)
+
+
+
+
+                                         Six months ended 30 June                Three months ended 30 June
+                                           2026          2025 Change              2026          2025     Change
+                                     (Unaudited)  (Unaudited)     %         (Unaudited)   (Unaudited)        %
+
+ Interest income                      1,263,905         737,562       71       648,924      392,610          65
+ Less: Interest expense               (340,156)       (174,305)       95      (183,111)     (94,351)         94
+ Net interest income                    923,749         563,257       64       465,813      298,259          56
+
+ Fee and commission income              650,822        379,208        72       349,912       209,261         67
+
+ Net gain / (loss) from trading           (813)            268      (403)           64           285        (78)
+ Other operating income                  30,661         18,669         64       16,907         6,450        162
+
+ Total operating income               1,604,419        961,402        67       832,696       514,255         62
+
+ Less: Impairment charges and          (186,631)      (103,871)       80      (121,087)     (58,782)        106
+       other losses
+
+ Net operating income                 1,417,788        857,531        65       711,609       455,473         56
+ Less: Operating expenses
+
+ Personnel expenses                    (341,651)      (230,356)       48      (185,949)    (118,693)         57
+ Depreciation and amortization          (57,751)       (34,746)       66       (31,427)     (17,390)         81
+ Other expenses                        (657,041)      (455,992)       44      (320,405)    (237,059)         35
+
+ Operating Profit before taxes on       361,345        136,437       165       173,828        82,331        111
+ financial services
+
+ Taxes on financial services           (115,253)       (62,227)       85       (58,842)     (34,786)         69
+ Profit before tax for the period       246,092         74,210       232       114,986        47,545        142
+
+ Income tax expense                     (99,221)       (51,527)       93       (31,357)     (30,923)          1
+
+ Profit for the period                  146,871         22,683       547        83,629        16,622        403
+
+ Other comprehensive income
+ items that will not be
+ reclassified to profit or loss:
+
+  Changes in the fair value of
+  equity investments at fair value
+                                               -                -       -             -            -           -
+  through other comprehensive
+  income:
+  Remeasurement of defined
+                                               -                -       -             -            -           -
+  benefit obligations:
+  Deferred tax effect on other
+                                               -                -       -             -            -           -
+  comprehensive income:
+  Other comprehensive income,
+                                               -                -       -             -            -           -
+  net of tax
+ Total comprehensive income for
+                                        146,871         22,683       547        83,629        16,622        403
+ the period, net of tax
+
+
+
+ Earnings per share (Rs.)                  1.25              0.19                 0.71          0.14
+
+
+
+
+                                                                                                 Page | 3
+DIALOG FINANCE PLC
+
+Statement of changes in equity
+(all amounts in Sri Lanka Rupees thousands)
+
+
+                                                                            Retained             Fair value
+                                                Stated       Statutory     earnings /        through other
+                                                capital   reserve fund   accumulated       comprehensive
+                                                                              losses       income reserve             Total
+
+ Balance at 1 January 2026                    2,934,582        24,674       (199,470)                3,102       2,762,888
+ Profit for the period                                -             -         146,871                       -      146,871
+ Other comprehensive income, net of
+                                                      -              -                 -                    -               -
+ tax
+ Transfer to statutory reserve fund                   -              -                 -                    -               -
+ Total comprehensive income for
+                                                      -              -       146,871                        -      146,871
+ the period
+ Balance at 30 June 2026                      2,934,582        24,674        (52,599)                3,102       2,909,759
+
+
+
+
+ Balance at 1 January 2025                    2,934,582        16,688       (351,628)                3,301       2,602,943
+ Loss for the period                                  -             -          22,683                    -          22,683
+ Other comprehensive income, net of
+                                                      -              -                 -                    -               -
+ tax
+ Transfer to statutory reserve fund                   -              -                 -                    -               -
+ Total comprehensive income for
+                                                      -              -         22,683                       -       22,683
+ the period
+ Balance at 30 June 2025                      2,934,582        16,688       (328,945)                3,301       2,625,626
+
+
+
+
+ Balance at 1 July 2025                       2,934,582        16,688     (328,945)                3,301        2,625,626
+ Profit for the period                                -             -       137,044                    -          137,044
+ Other comprehensive income, net of                   -             -           417                (199)              218
+ tax
+ Transfer to statutory reserve fund                   -              -             -                    -               -
+ Total comprehensive income for
+                                                      -              -      137,461                 (199)        137,262
+ the period
+ Transferred to statutory reserve                     -         7,986        (7,986)                    -               -
+
+ Balance at 31 December 2025                  2,934,582        24,674     (199,470)                3,102        2,762,888
+
+
+
+
+                                                                                                   Page | 4
+DIALOG FINANCE PLC
+
+Statement of cash flows
+(all amounts in Sri Lanka Rupees thousands)
+                                                                                 Six months ended 30 June
+                                                                                    2026         2025
+                                                                                 (Unaudited) (Unaudited)
+
+ Cash flows from operating activities
+
+ Profit before income tax                                                           246,092         74,210
+
+ Adjustments for
+ Interest expenses                                                                  340,156        174,305
+ Impairment charges and other losses                                                186,631        103,871
+ Provision for retirement benefits obligation                                         6,114          5,405
+ Depreciation on property plant and equipment                                        15,899          7,768
+ Depreciation for right-of-use assets                                                19,085          7,734
+ Amortization on intangible assets                                                   22,767         19,244
+ Interest on lease liabilities                                                        5,158          1,860
+ Dividend income                                                                        (57)             -
+ Net losses / (gains) on financial assets at fair value through profit or loss          813          (268)
+ Cash generated from operations before changes in operating assets and              842,658        394,129
+ liabilities
+
+ Increase in loans and advances                                                  (1,528,272)    (1,822,003)
+ Decrease in inventories                                                                5,377              -
+ Decrease / (Increase) in other assets                                                 57,168       (24,498)
+ Increase in amounts due to customers                                              1,752,391      1,324,029
+ Decrease in other liabilities                                                      (111,103)       (67,053)
+ Cash generated from / (used in) operations                                        1,018,219      (195,396)
+
+ Interest paid                                                                     (237,308)     (174,305)
+ Retirement benefits paid                                                            (1,260)             -
+ Income tax paid                                                                    (72,051)               -
+
+ Net cash generated from / (used in) operating activities                           707,600      (369,701)
+
+ Cash flows from investing activities
+
+ Acquisition of property plant and equipment and intangible assets                 (158,772)      (119,826)
+ Net investment in treasury bills                                                   (58,070)          2,639
+ Net placements with banks and financial institutions                                 (1,113)        (3,911)
+ Net investment in securities purchased under repurchased agreement                  422,026        153,931
+ Net investment in unit trust                                                               -       253,998
+ Dividend received                                                                         57              -
+ Net cash generated from investing activities                                       204,128        286,831
+
+ Cash flows from financing activities
+ Net proceeds from bank borrowings                                                  (97,076)       554,084
+ Repayment of lease liabilities                                                     (21,313)        (9,019)
+ Net cash (used in) / generated from financing activities                          (118,389)       545,065
+
+ Net increase in cash and cash equivalents                                          793,339        480,233
+ Cash and cash equivalents at the beginning of the period                           662,532        311,570
+
+ Cash and cash equivalents at the end of the period                                1,455,871       791,803
+
+ Analysis of cash and cash equivalents at the end of the period
+ Cash and bank balances                                                            1,292,915       730,245
+ Add: Placements with financial Institutions (less than 90 days)                    162,956         61,558
+                                                                                   1,455,871       791,803
+ Less: Impairment provision                                                            (231)         (142)
+                                                                                   1,455,640       791,661
+
+
+
+                                                                                                    Page | 5
+DIALOG FINANCE PLC
+
+Financial reporting by segment
+(All amounts in Sri Lanka rupees thousands)
+
+
+
+
+                                                 Consumer Segment          MSME Segment          Treasury/Investments            Unallocated                      Total
+            For the three months ended 30 June
+                                                  2026      2025          2026      2025          2026          2025          2026        2025         2026           2025
+            Interest income                        734,210    377,903     475,574     302,051       54,121        57,608            -            -    1,263,905        737,562
+            Interest expenses                    (109,233)    (61,517)    (99,673)    (60,578)   (131,250)      (52,210)            -            -    (340,156)      (174,305)
+
+            Net interest income                   624,977     316,386     375,901     241,473     (77,129)        5,398             -            -     923,749        563,257
+            Net Fee & commission income           463,455     241,635     187,367     137,573            -            -             -            -     650,822        379,208
+            Other income                           23,803      16,632       5,988       2,305           57            -             -            -      29,848         18,937
+            Operating income by segment          1,112,235    574,653     569,256     381,351     (77,072)        5,398             -            -    1,604,419       961,402
+
+            Impairment (expense) / reversal      (141,201)    (73,756)    (45,382)    (30,291)        (48)          176             -            -    (186,631)      (103,871)
+
+            Net operating income                  971,034     500,897     523,874     351,060     (77,120)        5,574             -            -    1,417,788       857,531
+            Operating expenses                   (203,135)   (119,705)   (154,026)   (125,186)           -              -   (299,880)   (211,101)     (657,041)      (455,992)
+            Segment result                        767,899     381,192     369,848     225,874     (77,120)        5,574     (299,880)   (211,101)      760,747        401,539
+            Personnel expenses                                                                                                                        (341,651)      (230,356)
+            Depreciation and amortization                                                                                                              (57,751)       (34,746)
+            Profit from operations                                                                                                                     361,345        136,437
+            VAT on financial services                                                                                                                 (115,253)       (62,227)
+            Income tax expense                                                                                                                         (99,221)       (51,527)
+
+            Profit for the period                                                                                                                      146,871         22,683
+
+            Other information
+
+            Balance at 30 June
+            Segment assets                       5,351,140   3,443,568   5,149,097   3,445,900   2,123,587    1,651,937     1,081,188    693,721     13,705,012     9,235,126
+            Total assets                         5,351,140   3,443,568   5,149,097   3,445,900   2,123,587    1,651,937     1,081,188    693,721     13,705,012     9,235,126
+
+            Segment liabilities                  5,643,387   3,328,303   5,151,866   3,281,197           -              -           -            -   10,795,253     6,609,500
+            Total liabilities                    5,643,387   3,328,303   5,151,866   3,281,197           -              -           -            -   10,795,253     6,609,500
+
+
+
+
+                                                                                                                                                                             Page | 6
+      DIALOG FINANCE PLC
+
+      Notes to the condensed interim financial statements
+      (all amounts in the notes are in Sri Lanka Rupees thousands unless otherwise stated)
+
+1       Basis of preparation
+
+        The condensed interim financial statements for the six months ended 30 June 2026 of the Company have been
+        prepared in accordance with Sri Lanka Accounting Standard LKAS 34, ‘Interim Financial Reporting’. The
+        condensed interim financial statements should be read in conjunction with the audited financial statements for the
+        year ended 31 December 2025.
+
+        There were no changes to the accounting policies since the publication of the audited financial statements for the
+        year ended 31 December 2025.
+
+2       Events after the reporting period
+
+        No circumstances have arisen since the statement of financial position date which requires adjustments to or
+        disclosures in the financial statements.
+
+3       Contingent liabilities
+
+        The Commitments and Contingencies as at 30th June 2026 and 31st December 2025 was as follows.
+
+
+                                                            30 June           31 Dec
+                           Commitments
+                                                             2026              2025
+          Commitment to unutilized facilities
+          Factoring and revolving loans                               -          2,713
+          Capital commitments                                129,365           110,129
+
+          Total commitments                                  129,365           112,842
+
+
+4       Fair value of financial instruments
+
+        The Company uses valuation techniques that are appropriate in the circumstances and for which sufficient data
+        are available to measure fair value, maximizing the use of relevant observable inputs and minimizing the use of
+        unobservable inputs.
+        All assets and liabilities for which fair value is measured or disclosed in the financial statements are categorized
+        within the fair value hierarchy, described as follows, based on the lowest level input that is significant to the fair
+        value measurement as a whole:
+
+        Level 1 - Quoted (unadjusted) market prices in active markets for identical assets or liabilities
+
+        Level 2 - Valuation techniques for which the lowest level input that is significant to the fair value measurement is
+        directly or indirectly observable
+
+        Level 3 - Valuation techniques for which the lowest level input that is significant to the fair value measurement is
+        unobservable
+
+        For assets and liabilities that are recognized in the financial statements on a recurring basis, the Company
+        determines whether transfers have occurred between levels in the hierarchy by re-assessing categorization
+        (based on the lowest level input that is significant to the fair value measurement as a whole) at the end of each
+        reporting period.
+
+                                                                           Measurement criteria and the fair value
+                                                                    Level 1              Level 3                   Total
+                                                              30 June       31 Dec 30 June       31 Dec 30 June          31 Dec
+                                                                 2026         2025    2026         2025        2026        2025
+    Financial assets
+    Financial assets at fair value through profit or loss        3,163            3,976          -           -      3,163         3,976
+    Financial assets at fair value through other
+    comprehensive income                                                  -              -   2,505     2,505        2,505         2,505
+
+
+
+
+                                                                                                                       Page | 7
+DIALOG FINANCE PLC
+Notes to the condensed interim financial statements (Continued)
+
+5         Market price per share
+
+          For the three months ended 30 June                                                 2026               2025
+                                                                                              Rs.                Rs.
+
+           - Highest                                                                       177.75              53.90
+           - Lowest                                                                        120.00              39.00
+           - Last traded                                                                   134.50              43.90
+
+
+
+6         Twenty largest shareholders of the company
+
+
+                                                                                                                         %
+    Name of Shareholders                                                                             No. of shares
+                                                                                                                       Holding
+     1     Dialog Axiata PLC                                                                           116,290,376          99.05
+     2     Hatton National Bank PLC / Dawi Investment Trust (Pvt) Ltd                                      180,176           0.15
+     3     Mr. P. Poongunaseelan                                                                            87,524           0.07
+     4     GF Capital Global Limited                                                                        81,376           0.07
+     5     Senkadagala Finance PLC / G.B.R.P.Gunawardana                                                    51,968           0.04
+     6     Commercial Bank of Ceylon PLC / P. Gajendra                                                      27,301           0.02
+     7     Seylan Bank PLC / S.R. Fernando                                                                  26,872           0.02
+     8     Golden Top Far East Limited                                                                      25,000           0.02
+     9     Mr. N.V.S.N. Chirantha                                                                           24,583           0.02
+    10     J.B. Cocoshell (Pvt) Ltd                                                                         24,203           0.02
+    11     Mrs. K.S.R.D. Fernando                                                                           24,000           0.02
+    12     Mr. R.J.K.I. Ranathunga                                                                          22,580           0.02
+    13     Senkadagala Finance PLC / A.N.S.Bandara                                                          20,959           0.02
+    14     People's Leasing & Finance PLC / C.D.Kohombanwickramage                                          19,452           0.02
+    15     Mr. M.A.T. Raaymakers                                                                            16,030           0.01
+    16     Citizens Development Business Finance PLC / K.D.C. Somalatha and K. Nandasiri                    15,850           0.01
+    17     Senkadagala Finance PLC / A.K.G. Indika                                                          15,100           0.01
+    18     Mr. B.V.L. Chamara                                                                               11,219           0.01
+    19     Mrs. A.P.L.D.D.N. Fernando                                                                       10,000           0.01
+    20     Mr. C. Thamotharampillai                                                                         10,000           0.01
+                                                                                                       116,984,569          99.62
+           Others                                                                                          415,297           0.38
+           Total                                                                                       117,399,866      100.00
+
+
+7        Directors’ shareholdings
+
+          None of the Directors and their close family members held any shares in the company as at 30 June 2026.
+
+
+8        Public shareholdings
+
+          Information pertaining to public shareholding is as follows:
+
+                                                                                                    30 June 2026       30 June 2025
+
+            Public holding percentage                                                                     0.95%                 0.95%
+            Number of public shareholders                                                                  1,118                   951
+            Float adjusted market capitalization (Rs.)                                               150,007,679            48,961,614
+
+
+          (a) The Company is not compliant with the Minimum Public Holding requirement under option 2 of Rule 7.13.1(b)
+              of the Listing Rules of the Colombo Stock Exchange (‘CSE’). Accordingly, the Company was transferred to the
+              Second Board on 10 February 2020.
+
+
+
+                                                                                                                Page | 8
+DIALOG FINANCE PLC
+
+Notes to the condensed interim financial statements (Continued)
+
+Selected performance indicators
+
+                                                                     As at 30 June   As at 30 June
+ Item                                                                         2026            2025
+
+ Regulatory capital adequacy
+
+    Tier I capital base, Rs. '000                                       2,469,267        2,366,114
+    Total capital base, Rs. '000                                        2,469,267        2,366,114
+    Risk weighted assets, Rs. '000                                     16,141,779       10,431,206
+
+    Tier I capital adequacy ratio
+    (As a % of risk weighted assets - Minimum requirement – 8.5%)          15.30%          22.68%
+    Total capital adequacy ratio
+    (As a % of risk weighted assets - Minimum requirement – 12.5%)         15.30%          22.68%
+
+ Capital funds to deposit liabilities ratio                                30.12%          43.59%
+   (Minimum requirement, 10%)
+
+ Assets quality (quality of loan portfolio)
+
+    Gross non-performing accommodations, Rs. '000                         853,208          400,166
+    Gross non-performing accommodations ratio, %                           7.52%            5.49%
+    Net-non-performing accommodations ratio, %                             2.18%            1.20%
+
+ Profitability
+
+    Net Interest margin, %                                                 13.72%          14.49%
+    Return on assets (before taxes), %                                      6.15%           3.28%
+    Return on equity (after taxes), %                                      12.42%           3.56%
+
+
+ Regulatory liquidity (Rs. '000)
+
+    Required minimum amount of liquid assets                             1,073,885         704,539
+    Available amount of liquid assets                                    2,048,940       1,642,932
+    Required minimum amount of government securities                      458,605          253,784
+
+    Available amount of government securities                             662,491          741,992
+
+
+
+ Memorandum information
+
+
+    Number of employees                                                       265               153
+
+    Number of branches                                                          1                1
+
+
+
+
+                                                                                     Page | 9
+DIALOG FINANCE PLC
+
+ Corporate Information
+
+
+
+ Name of the Company                                        Bankers
+ Dialog Finance PLC                                         Seylan Bank PLC
+                                                            Commercial Bank of Ceylon PLC
+ Legal Form and Stock Exchange Listing                      Nations Trust Bank PLC
+ A Public Quoted Company with Limited Liability which was   Bank of Ceylon
+ quoted on the Diri Savi Board of the Colombo Stock
+                                                            Cargills Bank Ltd
+ Exchange on 4th October 2011 and subsequently
+ transferred to the Second Board on 10 February 2020.       People’s Bank
+                                                            Hatton National Bank PLC
+ Date of Incorporation                                      National Development Bank PLC
+                                                            DFCC Bank PLC
+ 25 November 1981                                           Sampath Bank
+
+
+
+ Company Registration No.
+                                                            Auditors
+ PB 765 PQ
+                                                            Messrs. Deloitte partners
+                                                            Chartered Accountants
+                                                            100, Braybrooke Place
+                                                            Colombo 02
+                                                            Sri Lanka
+ Board of Directors
+
+ Ms. Renuka Fernando (Chairperson)
+ Mr. Supun Weerasinghe
+ Ms. Lim Li San
+ Mr. Alexander Lowback
+ Mr. Shivaan Kanag-Isvaran
+ Mr. Uditha Chinthana Jayasinghe
+ Mr. Nazeem Mohamed
+
+
+ Registered Office
+
+ No. 475, Union Place, Colombo 02
+
+                                                            Credit Rating
+ Principal Office
+                                                            AA (lka), stable outlook was affirmed by Fitch
+ 1st Floor, 57, Srimath Anagarika Dharmapala Mawatha,       Ratings Lanka Ltd
+ Colombo 03.
+                                                            Taxpayer Identification Number (TIN)
+ Tel : + 94 11 4317317
+ Fax :+ 94 11 4317335                                       104079687
+ E-mail: financialservice@dialog.lk
+
+
+
+
+                                                                                        Page | 10
+

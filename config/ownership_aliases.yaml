@@ -1,0 +1,17 @@
+# Ownership tracker: spellings of one holder that the automatic rules don't merge.
+#
+# Matching already ignores case, punctuation, titles (Mr/Mrs/Dr...), "The", account numbers
+# ("A/C No.2") and legal suffixes ((Pvt) Ltd, Private Limited, PLC...). Add an entry only when
+# two names are certainly the same holder:
+#
+#   Display name:
+#     variants: [other spelling, another spelling]   # as filed; matched after normalisation
+#     type: institution        # optional: listed | individual | joint | estate | trust | institution | company
+#     symbol: ABC              # optional: CSE code, when the holder is a listed company
+#
+# Individuals are never merged automatically (initials vs full names would be a guess about a
+# person's identity). If you know two spellings are the same person, add them here yourself.
+aliases:
+  Employees' Trust Fund Board:
+    variants: [Employees Trust Fund]
+    type: institution
