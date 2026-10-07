@@ -399,7 +399,34 @@ decision was taken 2026-10-07 and the record series became `v1-52w-grp20`.
   group weight was 15.6 % (Mr. K.D.D. Perera's companies in maximum Sharpe). In dry runs, a 10 % cap
   changed maximum Sharpe's ratio from 0.544 to 0.543.
 
-### 10.6 Limits
+### 10.6 Owners of unlisted holders (`cse/ownership/annual.py`, `parents.py`; decision 2026-10-07: with review file)
+
+- **Sources.** Listed companies' reports often name the owner of their unlisted parent. They do so in:
+  - the parent and ultimate-parent note (LKAS 1 para 138(c));
+  - the "ultimate beneficial ownership" or ultimate controlling party note (LKAS 24);
+  - directors' indirect holdings ("through Odeon Holdings (Ceylon) (Pvt) Ltd");
+  - related-party descriptions ("a company wholly owned by the Chairman").
+- **Collection.** `cse.ownership.annual` downloads each company's latest annual report (the `financials`
+  response saved by the weekly collector, so it makes no extra API call). From the text it keeps only
+  the passages around those phrases: 5 lines either side, merged, at most 60 per report, with strong
+  mentions first. They go to `data/raw/ownership/annual/<id>.json`, indexed in `annual_reports.csv`.
+  The full text is not kept, because reports run to 100 000+ words; the PDF stays linked. The interim
+  reports' text is scanned the same way.
+- **Evidence sheet.** `cse.ownership.parents` writes `docs/OWNERSHIP_PARENTS_EVIDENCE.md`. It covers
+  every unlisted company (or trust) that is a listed company's largest voting block, ordered by the
+  value it ultimately holds. Under each one it quotes those companies' passages and lists the
+  statements a pattern recognised. Recognised statements are suggestions only; two-column layouts can
+  garble them.
+- **Confirmation.** A link is used only when you copy it into `config/ownership_parents.yaml`, with its
+  owner, the percentage if stated, the source PDF and the quote. Then:
+  - **Control:** the holder's votes count with its owner's. This applies when no percentage is given (the
+    report states control) or the percentage is > 50 %. Control chains, control groups and the lab's
+    ownership groups continue upward.
+  - **Value:** the stated percentage of the holder's look-through value passes to the owner, and the
+    rest stays with the holder. Without a percentage, no value moves. Links can chain (A → B → C), so
+    the total is conserved.
+
+### 10.7 Limits
 
 - Only the top 20–30 holders per company are visible. Holders below that are not, nor are owners of
   unlisted companies (who owns Milford Exports, for example, is not in any CSE filing).

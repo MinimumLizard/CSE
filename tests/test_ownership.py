@@ -178,9 +178,7 @@ def test_alias_file_wins(tmp_path, listed):
 
 # --- graph ----------------------------------------------------------------------------------
 
-@pytest.fixture(scope="module")
-def result(tmp_path_factory):
-    root = tmp_path_factory.mktemp("own")
+def make_root(root: Path) -> Path:
     sess = root / "data" / "raw" / "2026-10-02"
     (sess / "companyInfoSummery").mkdir(parents=True)
     for f in ("allSecurityCode.json", "tradeSummary.json"):
@@ -189,6 +187,12 @@ def result(tmp_path_factory):
         shutil.copy(f, sess / "companyInfoSummery" / f.name)
     shutil.copytree(OWN / "text", root / "data" / "raw" / "ownership" / "text")
     shutil.copy(OWN / "reports.csv", root / "data" / "raw" / "ownership" / "reports.csv")
+    return root
+
+
+@pytest.fixture(scope="module")
+def result(tmp_path_factory):
+    root = make_root(tmp_path_factory.mktemp("own"))
     res = analyse.build(root)
     analyse.write(res, root)
     return root, res
@@ -246,3 +250,73 @@ def test_groups_for_the_exposure_cap(result):
     assert not g["DIST"].startswith("LISTED:") and "MILFORD" in labels[g["DIST"]].upper()
     sym, _ = groups.for_symbols(root, ["DIST.N0000", "MELS.N0000", "ACL.N0000"])
     assert sym["DIST.N0000"] == sym["MELS.N0000"] != sym["ACL.N0000"]
+
+
+# --- confirmed owners of unlisted holders (config/ownership_parents.yaml) ---------------------------
+# Quotes are the companies' own words: CT Holdings' interim report (fixture text, line 533) and its
+# 2025/26 annual report (cdn.cse.lk/cmt/upload_report_file/503_1785423763477.pdf, note on contributions).
+
+ODEON_CONTROL = """parents:
+  Odeon Holdings (Ceylon) (Private) Ltd:
+    owner: Mr. Louis Page
+    owner_type: individual
+    source: https://cdn.cse.lk/cmt/upload_report_file/503_1785423763477.pdf
+    quote: "The ultimate beneficial owner of the CT Holdings PLC is Mr. Louis Page."
+"""
+ODEON_OWNED = ODEON_CONTROL.replace("    owner_type: individual\n", "    owner_type: individual\n    pct: 100\n").replace(
+    'quote: "The ultimate beneficial owner of the CT Holdings PLC is Mr. Louis Page."',
+    'quote: "Odeon Holdings (Ceylon) (Private) Limited (a company wholly owned by the Chairman, Mr. L R Page)"')
+
+
+def built_with(tmp_path, cfg: str | None):
+    root = make_root(tmp_path)
+    if cfg:
+        (root / "config").mkdir()
+        (root / "config" / "ownership_parents.yaml").write_text(cfg)
+    return analyse.build(root)
+
+
+def test_without_confirmed_parent_chain_stops_at_the_unlisted_holder(tmp_path):
+    res = built_with(tmp_path, None)
+    assert res["companies"]["CTHR"]["controller_name"].startswith("Odeon Holdings")
+    assert res["companies"]["CARG"]["chain"].split(" <- ")[:2] == ["CARG", "CTHR"]
+
+
+def test_confirmed_control_link_moves_control_but_not_value(tmp_path):
+    base = built_with(tmp_path / "a", None)
+    res = built_with(tmp_path / "b", ODEON_CONTROL)
+    page = analyse.entity_for("Mr. Louis Page", res["market"], {}).key
+    c = res["companies"]
+    assert c["CTHR"]["controller_key"] == page and c["CTHR"]["control_level"] == "controlled"
+    assert c["CARG"]["controller_key"] == page               # CARG <- CTHR <- Odeon <- Mr. Louis Page
+    assert c["CARG"]["chain"].endswith("Mr. Louis Page")
+    odeon = names.key_of("Odeon Holdings (Ceylon) (Private) Ltd")
+    # no percentage stated: value stays with Odeon
+    assert res["owners"][odeon]["lookthrough_value"] == pytest.approx(base["owners"][odeon]["lookthrough_value"])
+
+
+def test_confirmed_ownership_link_passes_value_up(tmp_path):
+    base = built_with(tmp_path / "a", None)
+    res = built_with(tmp_path / "b", ODEON_OWNED)
+    odeon = names.key_of("Odeon Holdings (Ceylon) (Private) Ltd")
+    page = analyse.entity_for("Mr. Louis Page", res["market"], {}).key
+    before_page = base["owners"].get(page, {}).get("lookthrough_value", 0.0)
+    assert res["owners"][odeon]["lookthrough_value"] == pytest.approx(0.0, abs=1.0)   # rupees
+    assert res["owners"][page]["lookthrough_value"] == pytest.approx(
+        before_page + base["owners"][odeon]["lookthrough_value"], rel=1e-9)
+    total = lambda r: sum(o["lookthrough_value"] for o in r["owners"].values())
+    assert total(res) == pytest.approx(total(base), rel=1e-9)  # value moves, never appears
+
+
+def test_parent_file_requires_evidence(tmp_path):
+    from cse.ownership import parents
+    bad = tmp_path / "p.yaml"
+    bad.write_text("parents:\n  X Ltd:\n    owner: Y\n    source: https://cdn.cse.lk/a.pdf\n")
+    with pytest.raises(ValueError, match="needs 'quote'"):
+        parents.load(bad)
+
+
+def test_statements_recognised_in_report_text():
+    from cse.ownership import parents
+    found = parents.statements(text("CTHR"))
+    assert ("ultimate controlling party", "", "Mr. Louis Page") in found

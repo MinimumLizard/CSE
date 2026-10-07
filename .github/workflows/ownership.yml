@@ -18,7 +18,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150   # the first run fetches ~280 annual reports (about 70 min)
     steps:
       - uses: actions/checkout@v4
         with:
@@ -45,12 +45,19 @@ jobs:
       - name: Collect reports
         run: python -m cse.ownership.collect
 
+      # Annual reports: passages naming parents and ultimate owners (only new reports are fetched).
+      - name: Collect annual-report passages
+        run: python -m cse.ownership.annual
+
       - name: Analyse
         run: python -m cse.ownership.analyse
 
+      - name: Evidence sheet for unlisted holders' owners
+        run: python -m cse.ownership.parents
+
       - name: Commit
         run: |
-          git add data
+          git add data docs/OWNERSHIP_PARENTS_EVIDENCE.md
           git diff --cached --quiet || git commit -m "ownership: weekly update $(date -u +%F)"
           git pull --rebase --autostash origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"

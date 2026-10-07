@@ -1,0 +1,18 @@
+# Ownership tracker: who owns or controls an UNLISTED shareholder (docs/METHODS.md §10.6).
+#
+# The tracker's chains stop at unlisted holders such as Milford Exports or Odeon Holdings, because
+# their shareholders are in no CSE table. Their owners are sometimes named in the listed companies'
+# own reports. docs/OWNERSHIP_PARENTS_EVIDENCE.md quotes those passages (regenerated weekly), and
+# ends with suggested entries. Nothing there is used until you copy it here, after checking it
+# against the PDF.
+#
+#   <holder, as the tracker names it>:
+#     owner: <who owns or controls it>          # spelled as in the tables if they hold shares directly
+#     owner_type: individual | company | institution | trust
+#     pct: 100            # % of the holder's shares; OMIT when the report states control but no %
+#     source: <PDF url>
+#     quote: "<the sentence, verbatim>"
+#
+# Effect: the holder's votes count with its owner's (control chains and groups continue upward).
+# Value passes up only for the stated pct; without a pct the holder keeps it.
+parents: {}
