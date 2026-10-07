@@ -312,7 +312,15 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
       <div><table>
         <thead><tr><th class="l">Sector</th><th>Weight</th></tr></thead>
         <tbody>{% for sec, wt in p.sectors.items() %}<tr><td class="l">{{ sec }}</td><td>{{ (wt * 100) | num(1) }}%</td></tr>{% endfor %}</tbody>
-      </table></div>
+      </table>
+      {% if p.groups %}
+      <table style="margin-top:8px">
+        <thead><tr><th class="l" title="Companies whose ownership traces to the same holder (METHODS §10.5)">Ownership group</th><th>Weight</th></tr></thead>
+        <tbody>{% for g, wt in p.groups.items() %}{% if loop.index <= 6 %}<tr><td class="l"><span class="trunc" style="max-width:18em" title="{{ L.group_labels.get(g, g) }}">{{ L.group_labels.get(g, g) }}</span></td><td>{{ (wt * 100) | num(1) }}%</td></tr>{% endif %}{% endfor %}</tbody>
+      </table>
+      {% if L.config.max_group_weight %}<p class="mut sm">Cap {{ (L.config.max_group_weight * 100) | num(0) }}% per group.</p>{% endif %}
+      {% endif %}
+      </div>
     </div>
   </details>
   {% endfor %}

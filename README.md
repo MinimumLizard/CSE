@@ -121,6 +121,9 @@ Values are the brief's, plus `series`, `history_adjusted` and `my_book`. Lines m
 - `dividend_withholding`: set it to the current rate for net-of-tax returns.
 - `cost_per_side`: verify against the current CSE cost schedule.
 - `my_book`: optional `{SYMBOL: shares}` to compare your holdings with the models.
+- `max_group_weight`: cap on the total weight of companies that trace to the same owner (e.g. all of
+  Mr. K.D.D. Perera's Hayleys and Vallibel companies). Groups come from the ownership tracker
+  (METHODS §10.5). Changing it is a method change: change `series` too.
 - `series`: the record's version label. **If you change a method setting in a way that would make past
   record rows inconsistent, also change the label** (e.g. `v1-...`). A new series starts at the next run
   and the old one stays visible. Never edit `record/` by hand.

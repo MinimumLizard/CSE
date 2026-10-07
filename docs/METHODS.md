@@ -180,12 +180,15 @@ its reason.
 
 ### 8.5 Model portfolios (cvxpy, Clarabel solver)
 
-Constraints for 1–3: 0 ≤ w_i ≤ cap_i; Σ_{sector} w ≤ `max_sector_weight`; Σ w = 1, where
+Constraints for 1–3: 0 ≤ w_i ≤ cap_i; Σ_{sector} w ≤ `max_sector_weight`; Σ_{ownership group} w ≤
+`max_group_weight` (from series v1-52w-grp20; §10.5); Σ w = 1, where
 **cap_i = min(max_weight, participation × median daily turnover_i × days_to_build / portfolio_size_lkr)**.
 
 - Feasibility is checked first. Σ cap_i ≥ 1 and Σ_sectors min(sector cap, Σ caps in sector) ≥ 1 are
-  necessary and sufficient here. If either fails, nothing is solved or traded, and the page names the
-  binding constraint (max_weight with too few stocks, liquidity caps, or sector caps).
+  necessary, and for box + sector constraints alone also sufficient. With group caps, the same reach test
+  is applied per group, and then an exact LP decides. If any check fails, nothing is solved or traded, and
+  the page names the binding constraint (max_weight with too few stocks, liquidity caps, sector caps,
+  group caps, or sector and group caps together).
 - *Note:* with the default settings, the liquidity cap is ≥ 0.20 × Rs 1 mn × 10 / Rs 5 mn = 40%, so it
   can't bind below `max_weight` (10%). It starts to matter above roughly Rs 20 mn of portfolio size.
 
@@ -372,7 +375,31 @@ a class that didn't trade). Holdings are as at the report date and prices are as
   The weekly workflow commits the CSVs. The daily workflow re-values them for the page and doesn't commit
   them.
 
-### 10.5 Limits
+### 10.5 Ownership groups and the group exposure cap (`cse/ownership/groups.py`)
+
+The portfolio lab caps the weight in any one **ownership group** at `max_group_weight` (20 %). The
+decision was taken 2026-10-07 and the record series became `v1-52w-grp20`.
+
+- **Building a group.** Start from a stock's company and follow its largest voting block (§10.4) upward.
+  Follow it only when the block is ≥ 20 % and its owner is not an institution, fund or unidentified
+  nominee. When that owner is a listed company, repeat from it. Stop at an owner that isn't listed, at a
+  listed company with no such block, or at a loop.
+- **Membership.** Stocks that end at the same owner form one group, and both share classes of a company
+  are in the same group.
+- **Wider than the page's control groups.** The page's control groups require > 50 %; this rule
+  deliberately goes wider. A 43 % holder (Milford Exports in Melstacorp) runs the company in practice,
+  and for a risk cap grouping too widely is the safe error. Funds are not group heads, because a fund
+  holding 20 % of several companies doesn't make them move together.
+- **When the constraint applies.** It is added for every group with two or more stocks in the universe.
+  It also applies to single-stock groups whenever `max_group_weight` is below `max_weight`.
+- **No data.** Without `data/ownership/companies.csv` there is no group constraint.
+- **Inputs.** Groups come from the committed `data/ownership/companies.csv` and include your merges in
+  `config/ownership_aliases.yaml`. They change when the weekly ownership run sees a new quarter.
+- **Effect when adopted (session 2026-10-07).** The cap did not bind any model portfolio. The largest
+  group weight was 15.6 % (Mr. K.D.D. Perera's companies in maximum Sharpe). In dry runs, a 10 % cap
+  changed maximum Sharpe's ratio from 0.544 to 0.543.
+
+### 10.6 Limits
 
 - Only the top 20–30 holders per company are visible. Holders below that are not, nor are owners of
   unlisted companies (who owns Milford Exports, for example, is not in any CSE filing).

@@ -235,3 +235,14 @@ def test_outputs_are_written_and_reproducible(result):
     assert latest["summary"]["verified_companies"] == sum(
         1 for c in res["companies"].values() if c["status_N"] in analyse.USABLE or c["status_X"] in analyse.USABLE)
     assert np.isfinite([o["direct_value"] for o in latest["owners"]]).all()
+
+
+def test_groups_for_the_exposure_cap(result):
+    from cse.ownership import groups
+    root, _res = result
+    g, labels = groups.group_of(root)
+    assert g["ALUM"] == g["HAYL"]                       # Alumex <- Hayleys <- the same individual
+    assert g["DIST"] == g["MELS"]                       # Distilleries <- Melstacorp <- Milford (43 %, influence)
+    assert not g["DIST"].startswith("LISTED:") and "MILFORD" in labels[g["DIST"]].upper()
+    sym, _ = groups.for_symbols(root, ["DIST.N0000", "MELS.N0000", "ACL.N0000"])
+    assert sym["DIST.N0000"] == sym["MELS.N0000"] != sym["ACL.N0000"]

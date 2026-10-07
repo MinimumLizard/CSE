@@ -24,6 +24,7 @@ from .config import EQUITY_SUFFIXES, ROOT, load_universe
 from .estimates import MARKET_INDEX, all_wednesdays, build_tris, estimate, select_universe, trading_sessions
 from .fetch import Paths, log_run
 from .models import SecurityList, validate
+from .ownership import groups as ownership_groups
 from .sectors import classify, load_overrides
 
 PORTFOLIO_LABELS = {"min_variance": "Minimum variance", "risk_parity": "Risk parity",
@@ -74,12 +75,12 @@ def _jsonable(x):
     return x
 
 
-def compute(out: dict, universe, tris, prices, indices, sectors, cfg, session, weeks_all):
+def compute(out: dict, universe, tris, prices, indices, sectors, cfg, session, weeks_all, groups=None):
     """Estimates, feasibility, the three optimised portfolios, equal weight and the frontier.
     Fills `out` for the page; raises optimize.Infeasible naming the binding constraint."""
     est = estimate(universe, tris, prices, indices, sectors, cfg, session, weeks_all)
-    prob = optimize.make_problem(est, cfg)
-    out.update(stocks=[{"symbol": s, "sector": est.sectors[s], "er": est.er[s], "vol": est.vol[s], "beta": est.beta[s],
+    prob = optimize.make_problem(est, cfg, groups)
+    out.update(stocks=[{"symbol": s, "sector": est.sectors[s], "group": (groups or {}).get(s, s), "er": est.er[s], "vol": est.vol[s], "beta": est.beta[s],
                         "beta_current": est.beta_parts.loc[s, "b0"], "beta_lag": est.beta_parts.loc[s, "b1"],
                         "amihud": est.amihud[s], "median_turnover": est.median_turnover[s],
                         "turnover_source": est.turnover_source[s], "cap": float(c), "liq_cap": float(lc)}
@@ -125,6 +126,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
     needs_review = [{**r, "affects_holdings": False} for r in corpactions.pending_review(ca_rows, reviews)]
 
     sectors, labels = sector_map(paths, equities)
+    group_map, group_labels = ownership_groups.for_symbols(root, equities)
     tris = build_tris(prices, actions, equities, cfg["dividend_withholding"], cfg["history_adjusted"])
     weeks_all = all_wednesdays(sessions, session)
     universe = select_universe(securities, prices, sessions, tris, sectors, set(uni_cfg.excluded), cfg,
@@ -136,7 +138,9 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
            "config": {k: v for k, v in cfg.items() if k != "my_book"}, "market_proxy": "ASPI (price index)",
            "universe": universe.symbols, "dropped": universe.dropped,
            "needs_review": needs_review, "actions_used": len(actions),
-           "labels": PORTFOLIO_LABELS, "weeks_available": max_weeks}
+           "labels": PORTFOLIO_LABELS, "weeks_available": max_weeks,
+           "group_labels": {g: group_labels.get(g, g) for g in sorted({group_map.get(s, s) for s in universe.symbols})}
+           if group_map else {}}
 
     def finish(status: str, message: str) -> dict:
         out.update(status=status, message=message)
@@ -172,7 +176,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
                                    session, weeks_all)
             out["preview"] = {"weeks": max_weeks, "universe": len(puni.symbols)}
             try:
-                compute(out, puni, tris, prices, indices, sectors, pcfg, session, weeks_all)
+                compute(out, puni, tris, prices, indices, sectors, pcfg, session, weeks_all, group_map)
             except optimize.Infeasible as exc:
                 out["preview"]["infeasible"] = str(exc)
         return value_only("waiting", f"universe has {len(universe.symbols)} stocks: the longest history is "
@@ -180,7 +184,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
                                      "The daily job adds one per week.")
 
     try:
-        est, prob, w = compute(out, universe, tris, prices, indices, sectors, cfg, session, weeks_all)
+        est, prob, w = compute(out, universe, tris, prices, indices, sectors, cfg, session, weeks_all, group_map)
     except optimize.Infeasible as exc:
         return value_only("infeasible", str(exc))
     targets = {k: {s: float(x) for s, x in zip(prob.symbols, v) if x > 1e-6} for k, v in w.items()}
