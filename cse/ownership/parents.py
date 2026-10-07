@@ -158,6 +158,27 @@ def evidence(root: Path = ROOT) -> str:
         if not any_text:
             out.append("_No passage naming an ultimate or indirect owner. The registry (Companies "
                        "(Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._\n")
+    readings_path = root / "docs" / "ownership_parent_readings.yaml"
+    readings = (yaml.safe_load(readings_path.read_text()) or {}).get("readings") or {} if readings_path.exists() else {}
+    if readings:
+        out.append("## Suggested `config/ownership_parents.yaml`\n")
+        out.append("Claude's reading of the passages above (docs/ownership_parent_readings.yaml). **Check each "
+                   "quote against its PDF before you copy an entry.** Already-confirmed holders are left out.\n")
+        block = ["parents:"]
+        for holder, r in readings.items():
+            if names.key_of(holder) in confirmed:
+                continue
+            block.append(f"  {holder}:")
+            block.append(f"    owner: {r['owner']}")
+            if r.get("owner_type"):
+                block.append(f"    owner_type: {r['owner_type']}")
+            if r.get("pct") is not None:
+                block.append(f"    pct: {r['pct']}")
+            block.append(f"    source: {r['source']}")
+            block.append("    quote: " + json.dumps(r["quote"], ensure_ascii=False))
+            if r.get("note"):
+                block.append(f"    # {r['note']}")
+        out.append("```yaml\n" + "\n".join(block) + "\n```\n")
     out.append("## Format of `config/ownership_parents.yaml`\n")
     out.append("```yaml\nparents:\n  Odeon Holdings (Ceylon) (Private) Ltd:      # the holder, as the tracker names it\n"
                "    owner: Mr. L.R. Page                     # who owns / controls it\n"
