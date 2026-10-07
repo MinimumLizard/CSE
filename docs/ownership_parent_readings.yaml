@@ -1,0 +1,124 @@
+# Claude's readings of the parent passages (docs/OWNERSHIP_PARENTS_EVIDENCE.md). Suggestions only:
+# nothing here is used until copied into config/ownership_parents.yaml after checking the PDF.
+readings:
+  Odeon Holdings (Ceylon) (Private) Ltd:
+    owner: Mr. L.R. Page
+    owner_type: individual
+    pct: 100
+    source: https://cdn.cse.lk/cmt/upload_report_file/503_1785423763477.pdf
+    quote: M/s Odeon Holdings (Ceylon) (Private) Limited (a company wholly owned by the Chairman, Mr. L R Page)
+    note: C T Holdings annual report 2025/26; its interim report also says 'The ultimate beneficial owner of the CT Holdings PLC is Mr. Louis Page.'
+  Axiata Investments (Labuan) Limited:
+    owner: Axiata Group Berhad
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/389_1779181920569.pdf
+    quote: Axiata Investments (Labuan) Limited owns 73.75% of the total number of shares in issue of the Company. The remaining 26.25% of the shares are widely held. The ultimate parent of the Company is
+      Axiata Group Berhad.
+    note: 'Dialog Axiata annual report. Control only: the report names the ultimate parent, not its % of Axiata Investments (Labuan).'
+  PGP GLASS PRIVATE LIMITED:
+    owner: Blackstone Inc
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/666_1782983755189.pdf
+    quote: The Company’s parent undertaking is PGP Glass Private Limited (Formerly known as “Pristine Glass Private Limited”) and the ultimate parent is Blackstone Inc.
+    note: PGP Glass Ceylon annual report.
+  LOLC Ceylon Holdings PLC:
+    owner: LOLC Holdings PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/1073_1787218542639.pdf
+    quote: The Company’s immediate parent is LOLC Ceylon Holdings Limited and ultimate parent undertaking and controlling entity is LOLC Holding PLC.
+    note: LOLC Finance annual report, note 39.1. The tracker names the holder 'LOLC Ceylon Holdings PLC' as filed in LOFC's register.
+  Culture Financial Holdings Ltd:
+    owner: CG Corp Panama
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/1047_1772185238175.pdf
+    quote: The Bank’s immediate parent is Culture Financial Holding Limited which is registered in the Cayman Islands. The ultimate parent is CG Corp Panama which is registered in Panama.
+    note: Union Bank of Colombo annual report, note 48.1.
+  Sterling Capital Investments (Private) Limited:
+    owner: Rush Japan Corporation
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/405_1788200139208.pdf
+    quote: The Company’s immediate parent and ultimate controlling party is Sterling Capital Investments (Private) Limited (SCIL) and the ultimate parent company is Rush Japan Corporation as at 31 March
+      2026, SCIL have a holding of 81.58%.
+    note: 'PMF Finance annual report, note 35.1. Ambiguous: SCIL is called the ultimate controlling party AND Rush Japan the ultimate parent. Check before confirming.'
+  BANSEI SECURITIES COMPANY LIMITED:
+    owner: Bansei Holdings Co Limited
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/1322_1784518977107.pdf
+    quote: In the opinion of the Directors, the Company’s immediate parent undertaking is Bansei Securities Co Limited, and the ultimate parent undertaking is Bansei Holdings Co Limited, both the companies
+      are incorporated in Japan.
+    note: Bansei Royal Resorts Hikkaduwa annual report, note 1.3.
+  EKTA GLOBAL PTE LTD:
+    owner: Shore Tree Holdings Pte Ltd
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/730_1787923029102.pdf
+    quote: The company's immediate parent is Ekta Global Pte Ltd, and the ultimate parent company is Shore Tree Holdings Pte Ltd.
+    note: Kerner Haus annual report, note 1.2. Sentence reassembled from a two-column layout; check the PDF.
+  RPC Plantation Management Services (Pvt) Ltd:
+    owner: Richard Peiris Plantations (Pvt) Ltd
+    owner_type: company
+    pct: 100
+    source: https://cdn.cse.lk/cmt/upload_report_file/711_1788178780909.pdf
+    quote: The Company is a subsidiary of RPC Plantation Management Services (Pvt) Ltd., which is a wholly owned subsidiary of Richard Peiris Plantations (Pvt) Ltd whose ultimate parent enterprise is Richard
+      Peiris & Co. PLC.
+    note: Kegalle Plantations annual report.
+  Richard Peiris Plantations (Pvt) Ltd:
+    owner: Richard Pieris and Company PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/711_1788178780909.pdf
+    quote: which is a wholly owned subsidiary of Richard Peiris Plantations (Pvt) Ltd whose ultimate parent enterprise is Richard Peiris & Co. PLC.
+    note: Same sentence; the listed company is RICH (CSE spelling 'Pieris'). Needed so the chain continues past the previous link.
+  Ceyline Investments (Pvt) Ltd:
+    owner: BG International (Pvt) Ltd
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/669_1788172340964.pdf
+    quote: The Company’s immediate parent entity is Ceyline Investment (Pvt) Ltd, and the ultimate parent undertaking is BG International (Pvt) Ltd.
+    note: Dankotuwa Porcelain annual report (report spells 'Ceyline Investment').
+  B G INVESTMENTS (PVT) LIMITED:
+    owner: BG Capital (Pvt) Ltd
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/1063_1785980907062.pdf
+    quote: Company’s immediate parent is BG Investment (Pvt) Ltd. In the opinion of the directors, the Company’s ultimate parent entity is BG Capital (Pvt) Ltd
+    note: Commercial Credit and Finance annual report. Sentence reassembled from a two-column layout; check the PDF.
+  Cargills Dairies (Pvt) Ltd:
+    owner: C T Holdings PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/484_1785410323347.pdf
+    quote: The Company’s parent entity is Cargills Dairies (Pvt) Ltd., and the Company’s ultimate parent entity is C T Holdings PLC
+    note: Kotmale Holdings annual report, note 1.3. Reassembled from a two-column layout; check the PDF.
+  Lanka Olex Cables (Private) Ltd:
+    owner: ACL Cables PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/672_1788172126496.pdf
+    quote: The parent company is Lanka Olex Cables (Private) Limited and the ultimate holding Company is ACL Cables PLC.
+    note: Kelani Cables annual report.
+  Hayleys Plantation Services (Private) Limited:
+    owner: Hayleys PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/709_1780480470502.pdf
+    quote: Horana Plantations PLC is a subsidiary of Hayleys Plantation Services (Private) Limited, with Hayleys PLC serving as its ultimate parent company.
+    note: Horana Plantations annual report.
+  DPL PLANTATIONS (PRIVATE) LIMITED:
+    owner: Hayleys PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/712_1780477745406.pdf
+    quote: The Company has controlling related party relationship with its parent company DPL Plantations (Pvt) Ltd. (i) Hayleys PLC Ultimate parent
+    note: Kelani Valley Plantations annual report, related-party table (garbled layout); check the PDF.
+  EQUITY ONE LIMITED:
+    owner: Carson Cumberbatch PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/621_1780566638345.pdf
+    quote: Equity One Limited is the immediate Parent Company of Equity Two PLC. Carson Cumberbatch PLC is the Parent Company of Equity One Limited and Bukit Darah PLC is the Ultimate Parent and Controlling
+      Entity of Equity One Limited.
+    note: Equity Two annual report.
+  SUNSHINE WILMAR (PRIVATE) LIMITED:
+    owner: Sunshine Holdings PLC
+    owner_type: listed
+    source: https://cdn.cse.lk/cmt/upload_report_file/728_1780541655801.pdf
+    quote: The Immediate parent of Watawala Plantations PLC is Sunshine Wilmar (Private) Limited and ultimate parent is Sunshine Holdings PLC.
+    note: Watawala Plantations annual report, note 1.3. Reassembled from a two-column layout; check the PDF.
+  MJF Teas (Pvt) Ltd:
+    owner: MJF Holdings (Pvt) Limited
+    owner_type: company
+    source: https://cdn.cse.lk/cmt/upload_report_file/489_1784052647709.pdf
+    quote: MJF Teas (Private) Limited Parent Company ... ultimate parent undertaking and controlling party is MJF Holdings (Pvt) Limited, which is incorporated in Sri Lanka.
+    note: 'Dilmah Ceylon Tea annual report: related-party table + accounting-policy note (two places, two-column layout); check the PDF.'

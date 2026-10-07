@@ -3,7 +3,9 @@
 Constraints for minimum variance, risk parity and maximum Sharpe:
   0 ≤ w_i ≤ cap_i,  cap_i = min(max_weight, participation × median daily turnover_i × days_to_build
                                              / portfolio_size)
-  Σ_{i ∈ sector} w_i ≤ max_sector_weight,   Σ w_i = 1.
+  Σ_{i ∈ sector} w_i ≤ max_sector_weight,   Σ_{i ∈ group} w_i ≤ max_group_weight,   Σ w_i = 1.
+A group is the companies whose ownership traces to the same holder (cse.ownership.groups); a
+one-stock group adds a constraint only when max_group_weight is tighter than max_weight.
 If they can't all hold, `check_feasible` names the binding constraint and nothing is solved.
 """
 from __future__ import annotations
@@ -32,6 +34,8 @@ class Problem:
     liq_caps: np.ndarray
     max_weight: float
     max_sector_weight: float
+    groups: list[str] | None = None            # group key per symbol (None: no group constraint)
+    max_group_weight: float | None = None
 
     @property
     def sector_names(self) -> list[str]:
@@ -40,20 +44,37 @@ class Problem:
     def sector_matrix(self) -> np.ndarray:
         return np.array([[1.0 if s == name else 0.0 for s in self.sectors] for name in self.sector_names])
 
+    @property
+    def group_names(self) -> list[str]:
+        """Groups that need a constraint: those with two or more stocks in the problem, plus every
+        one-stock group when max_group_weight is tighter than max_weight."""
+        if not self.groups or self.max_group_weight is None:
+            return []
+        counts = pd.Series(self.groups).value_counts()
+        need = 1 if self.max_group_weight < self.max_weight else 2
+        return sorted(counts[counts >= need].index)
 
-def make_problem(est, cfg: dict) -> Problem:
+    def group_matrix(self) -> np.ndarray:
+        return np.array([[1.0 if g == name else 0.0 for g in self.groups] for name in self.group_names]) \
+            if self.group_names else np.zeros((0, len(self.symbols)))
+
+
+def make_problem(est, cfg: dict, groups: dict[str, str] | None = None) -> Problem:
     med = est.median_turnover.reindex(est.symbols).to_numpy()
     liq = cfg["participation"] * med * cfg["days_to_build"] / cfg["portfolio_size_lkr"]
     caps = np.minimum(cfg["max_weight"], liq)
     return Problem(symbols=list(est.symbols), sectors=[est.sectors[s] for s in est.symbols],
                    cov=np.asarray(est.cov), er=est.er.reindex(est.symbols).to_numpy(), rf=est.rf,
                    caps=caps, liq_caps=liq, max_weight=cfg["max_weight"],
-                   max_sector_weight=cfg["max_sector_weight"])
+                   max_sector_weight=cfg["max_sector_weight"],
+                   groups=[groups.get(s, s) for s in est.symbols] if groups and cfg.get("max_group_weight") else None,
+                   max_group_weight=cfg.get("max_group_weight") if groups else None)
 
 
 def check_feasible(p: Problem) -> None:
     """Σ caps ≥ 1 and Σ_sectors min(sector cap, Σ caps in sector) ≥ 1 are necessary and, for
-    these box + sector constraints, sufficient."""
+    box + sector constraints alone, sufficient. Group caps overlap sectors, so with groups the
+    same reach test is applied per group and an exact LP decides what remains."""
     n_liq = int((p.liq_caps < p.max_weight).sum())
     total = float(p.caps.sum())
     if total < 1 - 1e-9:
@@ -68,12 +89,27 @@ def check_feasible(p: Problem) -> None:
         raise Infeasible(
             f"sector caps bind: with max_sector_weight {p.max_sector_weight:.0%} and the per-stock caps, "
             f"the {len(p.sector_names)} sectors can hold at most {reach.sum():.3f} in total")
+    G = p.group_matrix()
+    if len(G):
+        alone = 1 - G.sum(axis=0)                  # stocks in no multi-stock group
+        greach = float(np.minimum(p.max_group_weight, G @ p.caps).sum() + alone @ p.caps)
+        if greach < 1 - 1e-9:
+            raise Infeasible(
+                f"group caps bind: with max_group_weight {p.max_group_weight:.0%} and the per-stock caps, "
+                f"the universe can hold at most {greach:.3f} in total")
+        w = cp.Variable(len(p.symbols))
+        prob = cp.Problem(cp.Minimize(0), _constraints(p, w) + [cp.sum(w) == 1])
+        prob.solve(solver=SOLVER)
+        if prob.status not in (cp.OPTIMAL, cp.OPTIMAL_INACCURATE):
+            raise Infeasible(f"sector and group caps bind together (max_sector_weight {p.max_sector_weight:.0%}, "
+                             f"max_group_weight {p.max_group_weight:.0%}): no fully invested portfolio satisfies both")
 
 
 def _constraints(p: Problem, w, scale=1.0):
     """Linear constraints on w; `scale` homogenises them (w = y / κ formulations)."""
-    S = p.sector_matrix()
-    return [w >= 0, w <= p.caps * scale, S @ w <= p.max_sector_weight * scale]
+    S, G = p.sector_matrix(), p.group_matrix()
+    cons = [w >= 0, w <= p.caps * scale, S @ w <= p.max_sector_weight * scale]
+    return cons + ([G @ w <= p.max_group_weight * scale] if len(G) else [])
 
 
 def _solve(prob: cp.Problem, what: str):
@@ -114,8 +150,10 @@ def risk_parity(p: Problem) -> np.ndarray:
     y = cp.Variable(n)
     t = cp.sum(y)
     obj = 0.5 * cp.quad_form(y, cp.psd_wrap(p.cov)) - cp.sum(cp.log(y)) / n
+    G = p.group_matrix()
     _solve(cp.Problem(cp.Minimize(obj), [y >= 1e-9, y <= p.caps * t,
-                                         p.sector_matrix() @ y <= p.max_sector_weight * t]), "risk parity")
+                                         p.sector_matrix() @ y <= p.max_sector_weight * t]
+                      + ([G @ y <= p.max_group_weight * t] if len(G) else [])), "risk parity")
     return _clean(y.value / y.value.sum())
 
 
@@ -157,16 +195,23 @@ def summary(name: str, w: np.ndarray, p: Problem) -> dict:
                  "sector": sec, "er": float(e)}
                 for s, wi, ri, c, sec, e in zip(p.symbols, w, rc, p.caps, p.sectors, p.er) if wi > 1e-6]
     holdings.sort(key=lambda h: -h["weight"])
-    return {"name": name, "er": er, "vol": vol, "sharpe": (er - p.rf) / vol if vol else None,
+    groups = {}
+    if p.group_names:
+        gw = pd.Series(w, index=p.groups).groupby(level=0).sum()
+        groups = {k: float(gw[k]) for k in p.group_names if gw[k] > 1e-6}
+        groups = dict(sorted(groups.items(), key=lambda kv: -kv[1]))
+    return {"groups": groups, "name": name, "er": er, "vol": vol, "sharpe": (er - p.rf) / vol if vol else None,
             "holdings": holdings, "sectors": {k: float(v) for k, v in sector[sector > 1e-6].sort_values(ascending=False).items()},
             "n": len(holdings)}
 
 
 def constraint_report(w: np.ndarray, p: Problem, tol: float = 1e-6) -> dict:
     """Used by tests and shown on the page: every constraint, checked numerically."""
-    S = p.sector_matrix()
+    S, G = p.sector_matrix(), p.group_matrix()
+    group_over = float((G @ w - p.max_group_weight).max()) if len(G) else -1.0
     return {"sum": float(w.sum()), "min": float(w.min()),
             "max_over_cap": float((w - p.caps).max()),
             "max_sector_over": float((S @ w - p.max_sector_weight).max()),
+            "max_group_over": group_over,
             "ok": bool(abs(w.sum() - 1) < tol and w.min() >= -tol and (w - p.caps).max() <= tol
-                       and (S @ w - p.max_sector_weight).max() <= tol)}
+                       and (S @ w - p.max_sector_weight).max() <= tol and group_over <= tol)}

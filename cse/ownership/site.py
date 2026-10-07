@@ -99,7 +99,8 @@ def context(root: Path = ROOT) -> dict | None:
         }
     built = dt.datetime.strptime(s["built_utc"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc)
     status = s["report_status"]
-    return {"s": s, "ultimate": ultimate[:TOP], "direct": direct[:TOP], "groups": groups, "influence": influence,
+    links = sorted(d.get("links") or [], key=lambda l: l["holder"])
+    return {"links": links, "s": s, "ultimate": ultimate[:TOP], "direct": direct[:TOP], "groups": groups, "influence": influence,
             "mix": mix,
             "covered_share": covered / s["total_cap"] if s["total_cap"] else 0,
             "built_slt": built.astimezone(SLT).strftime("%Y-%m-%d %H:%M"),

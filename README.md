@@ -44,6 +44,7 @@ config/
   sector_overrides.yaml
   corporate_actions_review.yaml   your confirmations of needs_review corporate actions
   ownership_aliases.yaml          spellings of one shareholder to merge (individuals are never merged automatically)
+  ownership_parents.yaml          owners of unlisted holders that you confirmed from the evidence sheet
 data/
   raw/<session>/     untouched API responses
   history/           prices.csv, indices.csv, market.csv, announcements.csv (append-only)
@@ -75,7 +76,9 @@ python -m cse.build          # writes site/index.html (and site/ownership.html);
 
 # ownership tracker (needs pdftotext: apt install poppler-utils / brew install poppler)
 python -m cse.ownership.collect   # latest interim report of every company (about 25 min cold; resumable)
+python -m cse.ownership.annual    # parent / ultimate-owner passages from annual reports (about 70 min cold)
 python -m cse.ownership.analyse   # parse + graph -> data/ownership/ (seconds, no network)
+python -m cse.ownership.parents   # evidence sheet -> docs/OWNERSHIP_PARENTS_EVIDENCE.md
 ```
 
 The daily workflow runs `fetch`, `lab` and `build`. New corporate actions in the daily announcement
@@ -121,6 +124,9 @@ Values are the brief's, plus `series`, `history_adjusted` and `my_book`. Lines m
 - `dividend_withholding`: set it to the current rate for net-of-tax returns.
 - `cost_per_side`: verify against the current CSE cost schedule.
 - `my_book`: optional `{SYMBOL: shares}` to compare your holdings with the models.
+- `max_group_weight`: cap on the total weight of companies that trace to the same owner (e.g. all of
+  Mr. K.D.D. Perera's Hayleys and Vallibel companies). Groups come from the ownership tracker
+  (METHODS §10.5). Changing it is a method change: change `series` too.
 - `series`: the record's version label. **If you change a method setting in a way that would make past
   record rows inconsistent, also change the label** (e.g. `v1-...`). A new series starts at the next run
   and the old one stays visible. Never edit `record/` by hand.
@@ -160,6 +166,11 @@ companies:
 - **Control groups**. Who controls whom (> 50 % voting block, or 20–50 % influence), shown as chains.
 - **Company lookup**. Any company's list as filed, what each line is credited to, and why a table was
   rejected.
+
+Chains stop at unlisted holders (Milford Exports, Odeon Holdings…) unless you confirm who owns them.
+`docs/OWNERSHIP_PARENTS_EVIDENCE.md` quotes what the listed companies' own annual and interim reports
+say. For example, CT Holdings' reports name its ultimate beneficial owner. Copy the links you've
+checked into `config/ownership_parents.yaml`, and from the next run the chains continue upward.
 
 The `ownership` workflow collects new reports every Saturday. The daily workflow re-values them at that
 day's prices. Names are shown exactly as filed. Individuals are never merged across different spellings.

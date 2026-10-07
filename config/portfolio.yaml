@@ -1,5 +1,6 @@
 # Portfolio lab settings (Phase 2). Formulas: docs/METHODS.md section 8.
-series: v0-52w                  # record series label; change it (never edit history) if the method changes
+series: v1-52w-grp20            # record series label; change it (never edit history) if the method changes
+                                # v0-52w (2026-10-07..) had no group cap; v1 adds max_group_weight
 
 portfolio_size_lkr: 5000000     # EDIT: size used for liquidity caps and trade lists
 record_notional_lkr: 10000000   # starting value of each model portfolio
@@ -9,6 +10,7 @@ cost_per_side: 0.0112           # VERIFY against the current CSE cost schedule
 dividend_withholding: 0.0       # EDIT: set to the current rate for net returns
 max_weight: 0.10
 max_sector_weight: 0.30
+max_group_weight: 0.20          # cap per ownership group (cse/ownership/groups.py, METHODS §10.6)
 min_history_weeks: 52           # decision D1 (brief said 104); weekly returns required
 min_traded_share: 0.80          # share of sessions with a trade, last 52 weeks
 min_median_turnover_lkr: 1000000

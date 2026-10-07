@@ -174,6 +174,28 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px;max-width:1100px}
   </table></div>
 </section>
 
+<section class="panel wide" id="parents">
+  <h2>Behind the unlisted holders</h2>
+  <p class="note sm">Most chains stop at an unlisted company: its shareholders are not in any CSE table. Where a company's own
+  report names who owns or controls such a holder, and the link has been checked against the report and confirmed in
+  <code>config/ownership_parents.yaml</code>, it is used above: control always, and value only when a percentage is stated.
+  The candidates and their evidence are in <code>docs/OWNERSHIP_PARENTS_EVIDENCE.md</code>.</p>
+  {% if links %}
+  <div class="scroll"><table>
+    <thead><tr><th class="l">Unlisted holder</th><th class="l">Owned / controlled by</th><th>Share</th><th class="l">The report says</th></tr></thead>
+    <tbody>
+    {% for l in links %}
+      <tr><td class="l wrap">{{ l.holder }}</td><td class="l wrap">{{ l.owner_name }}</td>
+        <td>{{ "%.0f%%"|format(l.pct) if l.pct else "control" }}</td>
+        <td class="l wrap sm">“{{ l.quote }}” <a href="{{ l.source }}" rel="noopener">source</a></td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}
+  <p class="note sm mut">No links confirmed yet.</p>
+  {% endif %}
+</section>
+
 <section class="panel wide" id="lookup">
   <h2>Company lookup</h2>
   <p class="note sm">Any listed company's shareholder list as filed, with the owner each line is credited to. The status says

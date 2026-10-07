@@ -33,7 +33,7 @@ from .. import storage
 from ..config import EQUITY_SUFFIXES, ROOT
 from ..fetch import Paths, log_run
 from ..models import SecurityList, validate
-from . import names, parse
+from . import names, parents, parse
 from .collect import own_dir
 
 HOLDING_COLS = ["report_id", "period_date", "code", "symbol", "class", "rank", "name_as_filed", "shares", "pct", "fraction",
@@ -162,9 +162,15 @@ def build(root: Path = ROOT) -> dict:
                                  "table_status": t.status, "source_url": rep["url"]})
     latest_ids = {r["id"] for r in reports.values()}
     current = [h for h in holdings if h["report_id"] in latest_ids and h["table_status"] in USABLE]
-    owners, graph = analyse(current, market, companies)
+    links = {}
+    for hk, link in parents.load(root / "config" / "ownership_parents.yaml").items():
+        e = entity_for(link.owner, market, aliases)
+        links[hk] = {"owner_key": e.key, "owner_name": e.name, "owner_type": link.owner_type or e.type,
+                     "owner_symbol": e.symbol, "pct": link.pct, "source": link.source, "quote": link.quote,
+                     "holder": link.holder}
+    owners, graph = analyse(current, market, companies, links)
     return {"market": market, "holdings": holdings, "companies": companies, "owners": owners, "graph": graph,
-            "current": current}
+            "current": current, "links": links}
 
 
 def entity_for(name_as_filed: str, market: Market, aliases: dict) -> names.Entity:
@@ -174,7 +180,12 @@ def entity_for(name_as_filed: str, market: Market, aliases: dict) -> names.Entit
     return e
 
 
-def analyse(rows: list[dict], market: Market, companies: dict[str, dict]) -> tuple[dict[str, dict], dict]:
+def analyse(rows: list[dict], market: Market, companies: dict[str, dict],
+            links: dict[str, dict] | None = None) -> tuple[dict[str, dict], dict]:
+    """`links`: confirmed owners of unlisted holders (config/ownership_parents.yaml), keyed by the
+    holder's entity key. A link with a percentage passes that share of the holder's look-through value
+    to its owner; any link with no percentage or > 50 % also passes the holder's votes (control)."""
+    links = links or {}
     covered = sorted({r["code"] for r in rows})
     # Direct holdings, aggregated per (owner, company); value at the latest market price.
     direct: dict[tuple[str, str], float] = defaultdict(float)
@@ -214,11 +225,27 @@ def analyse(rows: list[dict], market: Market, companies: dict[str, dict]) -> tup
         raise SystemExit("ownership look-through: cross-holdings form a closed loop (spectral radius >= 1)")
     F = D @ np.linalg.inv(np.eye(len(through)) - W) if len(through) else D
     V = np.array([caps[c] for c in through])
-    look = dict(zip(terminal, F @ V if len(through) else np.zeros(len(terminal))))
+    look0 = dict(zip(terminal, F @ V if len(through) else np.zeros(len(terminal))))
+    # Confirmed owners of unlisted holders: pass the stated share of value up the chain.
+    look: dict[str, float] = defaultdict(float)
+
+    def push(k: str, val: float, depth: int = 0) -> None:
+        link = links.get(k)
+        if link and link["pct"] and depth < 20:
+            share = val * link["pct"] / 100
+            look[k] += val - share
+            push(link["owner_key"], share, depth + 1)
+        else:
+            look[k] += val
+    for k, v in look0.items():
+        push(k, float(v))
+    for link in links.values():
+        info.setdefault(link["owner_key"], {"key": link["owner_key"], "name": link["owner_name"],
+                                            "type": link["owner_type"], "symbol": link["owner_symbol"]})
     attributed = F.sum(axis=0) if len(through) else np.zeros(0)
 
     # Control: votes summed by group, iterated to a fixed point.
-    ctrl = control(votes, info)
+    ctrl = control(votes, info, links)
     for c, x in ctrl.items():
         comp = companies[c]
         comp.update(controller_key=x["root"], controller_name=info.get(x["root"], {}).get("name", x["root"]),
@@ -257,13 +284,20 @@ def analyse(rows: list[dict], market: Market, companies: dict[str, dict]) -> tup
     return owners, graph
 
 
-def control(votes: dict[str, dict[str, float]], info: dict[str, dict]) -> dict[str, dict]:
+def control(votes: dict[str, dict[str, float]], info: dict[str, dict],
+            links: dict[str, dict] | None = None) -> dict[str, dict]:
     """company -> {root, pct, level, chain}. A holder's votes count for the group it belongs to:
-    a listed holder that is itself > 50 % controlled votes with its controller's group."""
+    a listed holder that is itself > 50 % controlled votes with its controller's group, and an
+    unlisted holder with a confirmed controlling owner (config/ownership_parents.yaml) votes with it."""
     ctrl: dict[str, dict] = {}
+    links = links or {}
 
     def root(k: str, seen: frozenset = frozenset()) -> str:
         if not k.startswith("LISTED:"):
+            link = links.get(k)
+            if link and (link["pct"] is None or link["pct"] > 50) and link["owner_key"] not in seen \
+                    and link["owner_key"] != k:
+                return root(link["owner_key"], seen | {k})
             return k
         x = ctrl.get(k[7:])
         if x and x["level"] == "controlled" and x["root"] not in seen and x["root"] != k:
@@ -338,7 +372,9 @@ def write(result: dict, root: Path = ROOT) -> str:
               "owners": ranked,
               "groups": {k: sorted(v, key=lambda g: -g["cap"]) for k, v in groups.items()},
               "companies": list(companies.values()),
-              "holdings": result["current"]}
+              "holdings": result["current"],
+              "links": [{**v, "holder_key": k, "holder_value": owners.get(k, {}).get("lookthrough_value", 0.0)}
+                        for k, v in (result.get("links") or {}).items()]}
     storage.atomic_write_bytes(out / "latest.json", json.dumps(latest, separators=(",", ":"), default=float).encode())
     msg = (f"ownership: {verified}/{len(companies)} companies with a verified shareholder table "
            f"({graph['covered_cap'] / graph['total_cap']:.1%} of market cap); {len(owners)} owners; "

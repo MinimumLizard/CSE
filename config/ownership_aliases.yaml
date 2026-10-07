@@ -15,3 +15,10 @@ aliases:
   Employees' Trust Fund Board:
     variants: [Employees Trust Fund]
     type: institution
+  # Confirmed by the repo owner on 2026-10-07 (not stated in any filing):
+  Mr. K.D.D. Perera:
+    variants: [Mr. K.A.D.D. Perera]
+    type: individual
+  Ishara Chinthaka Nanayakkara:
+    variants: [Mr. I.C. Nanayakkara]
+    type: individual

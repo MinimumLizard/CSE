@@ -105,3 +105,47 @@ def test_dimson_beta_sums_current_and_lagged_slopes():
     b, b0, b1 = dimson_beta(y, m)
     assert b0 == pytest.approx(0.7, abs=1e-6) and b1 == pytest.approx(0.3, abs=0.05)
     assert b == pytest.approx(b0 + b1)
+
+
+# --- ownership group cap (groups are the real ones derived from data/ownership on 2026-10-07) -------
+
+GROUPS = pd.read_csv(FIX / "weekly_returns_30_groups.csv").set_index("symbol").loc[R.columns, "group"]
+
+
+def grouped(cap, **kw):
+    p = problem(**kw)
+    p.groups, p.max_group_weight = GROUPS.loc[p.symbols].tolist(), cap
+    return p
+
+
+@pytest.mark.parametrize("solver", [optimize.min_variance, optimize.risk_parity, optimize.max_sharpe])
+def test_group_cap_holds(solver):
+    p = grouped(0.12, max_weight=0.25, max_sector=0.6)
+    w = solver(p)
+    rep = optimize.constraint_report(w, p)
+    assert rep["ok"] and rep["max_group_over"] <= 1e-6, rep
+    by_group = pd.Series(w, index=p.groups).groupby(level=0).sum()
+    assert by_group.max() <= 0.12 + 1e-6
+    assert "KDDPERERA" in p.group_names                 # six of the 30 stocks trace to one holder
+
+
+def test_group_cap_binds_where_it_should():
+    free = optimize.max_sharpe(problem(max_weight=0.25, max_sector=0.6))
+    by_group = pd.Series(free, index=GROUPS.tolist()).groupby(level=0).sum()
+    top = by_group.idxmax()
+    capped_at = float(by_group.max()) / 2
+    p = grouped(capped_at, max_weight=0.25, max_sector=0.6)
+    w = optimize.max_sharpe(p)
+    assert pd.Series(w, index=p.groups).groupby(level=0).sum()[top] <= capped_at + 1e-6
+
+
+def test_infeasible_group_cap_is_named():
+    syms = GROUPS[GROUPS == "KDDPERERA"].index.tolist()
+    p = grouped(0.5, max_weight=1.0, max_sector=1.0, symbols=syms)   # every stock in one group
+    with pytest.raises(optimize.Infeasible, match="group caps bind"):
+        optimize.check_feasible(p)
+
+
+def test_no_groups_means_no_group_constraint():
+    p = problem()
+    assert p.group_names == [] and optimize.constraint_report(optimize.min_variance(p), p)["max_group_over"] == -1.0
