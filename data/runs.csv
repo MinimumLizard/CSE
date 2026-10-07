@@ -11,3 +11,4 @@ run_at_utc,command,status,session,message
 2026-10-07T17:09:42Z,ownership-analyse,ok,2026-10-07,"ownership: 245/281 companies with a verified shareholder table (95.8% of market cap); 2899 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
 2026-10-07T17:20:54Z,ownership-analyse,ok,2026-10-07,"ownership: 245/281 companies with a verified shareholder table (95.8% of market cap); 2897 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
 2026-10-07T17:25:18Z,ownership-analyse,ok,2026-10-07,"ownership: 245/281 companies with a verified shareholder table (95.8% of market cap); 2897 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
+2026-10-07T17:44:00Z,ownership-annual,ok,,"ownership annual: 281 companies, 280 new annual reports (0 download failures)"
