@@ -5,3 +5,4 @@ run_at_utc,command,status,session,message
 2026-10-04T12:38:49Z,corpactions,ok,,corporate actions: 483 CA announcements cached (2025-06-01..2026-10-04); +372 rows
 2026-10-04T12:42:35Z,lab,waiting,2026-10-02,universe has 0 stocks: the longest history is 51 weekly returns and 52 are required (decision D1). The daily job adds one per week.
 2026-10-06T17:09:09Z,fetch,ok,2026-10-06,"session 2026-10-06: prices +285, indices +26, market +2, announcements +27 (83 API calls)"
+2026-10-07T16:39:51Z,fetch,ok,2026-10-07,"session 2026-10-07: prices +285, indices +24, market +1, announcements +10 (67 API calls)"
