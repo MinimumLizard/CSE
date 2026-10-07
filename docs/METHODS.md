@@ -433,3 +433,69 @@ decision was taken 2026-10-07 and the record series became `v1-52w-grp20`.
 - Data is as at each report's period end, which is usually the last quarter end.
 - The `no_text`, `no_table` and `unverified` companies are listed in the lookup, each with its reason. Nothing
   is estimated for them.
+
+## 11. Money flows
+
+Page: `site/flows.html`. Code: `cse/dealings.py` and `cse/flows.py`. Tests: `tests/test_dealings.py`, on
+real API responses. The page shows who moved money where, as early as the disclosures allow. It doesn't
+predict prices.
+
+### 11.1 Directors' dealings (`cse.dealings`)
+
+- **Source.** Listed companies announce every share dealing by a director, in the director's own name or
+  through a "relevant interest" account: a company or relative the director is connected with. The API's
+  `getAnnouncementById` returns these as structured records (`dType = DealingsByDirectors`). Each record
+  has the director, the nature of the directorship, own or related account and the related account's
+  name, plus each transaction's type, date, quantity and price.
+- **Collection.**
+  - Daily: the fetch already saves the detail of every new announcement in
+    `data/raw/<session>/getAnnouncementById/`, so no extra calls are needed.
+  - One-off: the past year's notices (ids from the per-company announcement lists in
+    `data/raw/announcements/byCompany/`) were fetched into `data/raw/dealings/<id>.json` by
+    `python -m cse.dealings`.
+- **Table.** `data/dealings/dealings.csv` has one row per transaction and is rebuilt from the raw files
+  every run.
+  - value = quantity × price;
+  - lag = weekdays from the trade date to the announcement (public holidays not removed).
+- **Side** comes from the free-text transaction type: buy (purchase, acquisition, subscription) or sell
+  (sale, disposal). Anything else, including gifts, transfers, inheritance and mixed or unrecognised
+  wording, is `other` and is never counted as buying or selling.
+
+### 11.2 Who traded (`cse.flows`)
+
+- **The actor** is the account that traded: the director, or the related account's holder.
+- **Cleaning account names.** Suffixes such as "- Directors", "- Common Directors" and "- Directors /
+  Shareholders" are removed, so "CT Holdings PLC - Common Directors" becomes C T Holdings PLC (listed).
+  Generic account names ("Shareholders", "N/A", "as per attachment") fall back to the director(s).
+  Relatives keep their own name: "Mrs X (Spouse)" is not Mrs X.
+- **Matching to owners.** Actors go through the ownership tracker's name resolution and your aliases. A
+  listed actor carries its ownership group (§10.5).
+- **Per window (30, 90 and 365 days to the latest trade date):**
+  - per actor: bought, sold, net, number of trades, net by stock;
+  - per company: net insider value and the distinct buying and selling owners;
+  - a **cluster** is two or more distinct owners buying with net buying positive.
+- **Flags.**
+  - *large*: ≥ Rs 10 mn;
+  - *watchlist*: your stocks;
+  - *own group*: the actor and the stock are in the same ownership group, e.g. a parent buying its
+    subsidiary;
+  - *related account*.
+
+### 11.3 Quarter-to-quarter list changes
+
+- **What is compared.** Consecutive verified top-20 lists of the same company and share class, 40–130 days
+  apart. The weekly collector keeps every quarterly report from 30 June 2025 on (`--since`). Per holder,
+  both share count and fraction of the class are compared:
+
+| Shares | Fraction | Classified as | Counted as a trade |
+|---|---|---|---|
+| changed | changed | bought / sold | yes |
+| same | changed | diluted / concentrated by others' trades or new issues | no |
+| changed | same | corporate action (split, bonus, scrip) | no |
+| — | new to the list | entered list: bought at least (fraction − previous list's smallest fraction) | yes |
+| — | dropped off | left list: sold at least (fraction − new list's smallest fraction) | yes |
+
+- **Values** are Δfraction × the class's latest market capitalisation. All quarters are valued at one
+  price, and splits don't distort them.
+- **Limits.** Only holders in the top 20–30 are visible. The lists come out 1–2 months after the quarter
+  ends.

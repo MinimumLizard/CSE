@@ -5,3 +5,4 @@ __pycache__/
 site/
 .cache/
 data/ownership/latest.json
+data/flows/latest.json

@@ -69,6 +69,14 @@ jobs:
         continue-on-error: true
         run: if [ -f data/raw/ownership/reports.csv ]; then python -m cse.ownership.analyse; fi
 
+      # Money flows: today's dealing notices were saved by the fetch; rebuild the table and the page input.
+      - name: Flows
+        id: flows
+        continue-on-error: true
+        run: |
+          python -m cse.dealings --offline
+          if [ -f data/ownership/companies.csv ]; then python -m cse.flows; fi
+
       - name: Build
         run: python -m cse.build
 
@@ -87,10 +95,10 @@ jobs:
         with:
           path: site
 
-      - name: Fail the job if the lab or ownership step failed
-        if: steps.lab.outcome == 'failure' || steps.ownership.outcome == 'failure'
+      - name: Fail the job if the lab, ownership or flows step failed
+        if: steps.lab.outcome == 'failure' || steps.ownership.outcome == 'failure' || steps.flows.outcome == 'failure'
         run: |
-          echo "::error::cse.lab (${{ steps.lab.outcome }}) or cse.ownership.analyse (${{ steps.ownership.outcome }}) failed; the terminal was deployed with the last good output"
+          echo "::error::lab (${{ steps.lab.outcome }}), ownership (${{ steps.ownership.outcome }}) or flows (${{ steps.flows.outcome }}) failed; the terminal was deployed with the last good output"
           exit 1
 
       # Keep a record of the failure (data/runs.csv only; no market data) so the next

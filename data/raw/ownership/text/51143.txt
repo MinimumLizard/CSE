@@ -1,0 +1,884 @@
+            Amana Takaful PLC
+
+
+
+
+Condensed Consolidated Interim Financial Statements
+
+                  31 March 2026
+STATEMENT OF FINANCIAL POSITION
+
+                                                                                     Group                                                Company
+                                                                       Unaudited                  Unaudited                  Unaudited              Unaudited
+AS AT                                                    Notes         31.03.2026                 31.12.2025                 31.03.2026             31.12.2025
+                                                                          Rs.                        Rs.                        Rs.                    Rs.
+ASSETS
+
+Intangible Assets                                                            250,980,816             253,375,794                     56,264,844         57,583,163
+Property, Plant and Equipment                                                235,887,743             243,832,181                     76,052,086         72,828,525
+Right of Use Lease Assets                                   3                761,683,753             788,838,118                    284,078,705        297,671,722
+Investment in Subsidiaries                                                           -                       -                    4,296,289,945      4,293,602,856
+Financial Assets                                           4              12,960,727,023          13,305,639,572                  2,285,713,522      2,612,971,019
+Financial Assets - Unit Linked                             5               4,447,864,248           4,255,470,504
+Retakaful (Reinsurance) Receivables                        22              3,578,270,275           2,947,632,699                  2,546,753,845      2,447,742,060
+Contribution (Premium) Receivables                                         3,128,672,255           1,672,859,383                  1,398,068,687      1,228,907,538
+Other Assets                                                                 444,019,676             622,437,678                    107,764,642        230,115,482
+Cash and Bank Balances                                     11              1,100,476,831             497,615,041                                       107,560,770
+Cash and Bank Balances - Unit Linked                       11                 83,006,464              74,368,772
+
+Total Assets                                                              26,991,589,085          24,662,069,741                11,050,986,276      11,348,983,135
+
+
+LIABILITIES
+
+Insurance Contract Liabilities - Non Life                                   7,147,899,313          6,417,017,946                  3,193,621,175      4,030,062,209
+Insurance Contract Liabilities - Family Takaful Fund                          244,638,291            241,659,512
+Insurance Contract Liabilities - Family Takaful Unit Linked                 4,492,575,855          4,289,307,630
+Employee Benefits                                                             246,460,955            238,423,347                     90,799,043         87,255,918
+Deferred Tax Liability                                      13                373,852,949            372,296,649
+Subordinated Debt                                                             644,461,973            529,474,356                    691,353,639        576,012,680
+Other Liabilities - Unit Linked                                               222,776,662            216,875,410
+Other Liabilities                                                           4,542,152,251          3,404,526,320                  1,535,969,383      1,328,168,847
+Lease Liabilities                                           3                 593,484,003            611,146,120                    322,681,344        334,064,742
+Bank Overdrafts                                                               152,059,412                                           152,059,412
+
+Total Liabilities                                                         18,660,361,665          16,320,727,291                  5,986,483,996      6,355,564,395
+
+SHAREHOLDERS' EQUITY
+
+Stated Capital                                             21              2,159,952,741           2,159,952,741                  2,159,952,741      2,159,952,741
+Other Reserves                                                               721,662,210             764,205,249                     33,541,361         33,541,361
+Revenue Reserves                                                           2,153,414,453           2,091,554,676                  2,871,008,179      2,799,924,637
+                                                                           5,035,029,404           5,015,712,666                  5,064,502,281      4,993,418,739
+Non Controlling Interest                                                   3,296,198,017           3,325,629,785
+Total Equity                                                               8,331,227,420           8,341,342,450                  5,064,502,281      4,993,418,739
+Total Liabilities and Equity                                              26,991,589,085          24,662,069,741                11,050,986,276      11,348,983,135
+
+
+
+The notes form an integral part of the Financial Statements.
+
+
+We certify that the preparation and presentation of these Financial Statements comply with the requirements under Companies Act, No. 07 of 2007.
+
+
+
+Signed                                                                                                             Signed
+……………………………….                                                                                                      ……………………………….
+Nilushan Somarathna                                                                                                S. Karthigun
+Chief Financial Officer                                                                                            Chief Executive Officer
+
+Signed for and on behalf of the Board
+
+
+Signed                                                                                                             Signed
+……………………………….                                                                                                      ……………………………….
+M. Zulficar Ghouse                                                                                                 Hassan Kassim
+Chairman                                                                                                           Director
+
+Colombo
+Date : 15th May 2026
+STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+
+                                                                                                             Group                                         Company
+                                                                                           Unaudited          Unaudited                   Unaudited          Unaudited
+FOR THE PERIOD ENDED 31ST MARCH                                                              2026                2025          Change       2026               2025           Change
+                                                                                   Notes      Rs.                 Rs.            %           Rs.                Rs.             %
+
+
+
+Gross Written Contribution (Premium)                                                 6      5,500,263,986     3,722,102,520      48%     1,874,857,545       1,552,291,409      21%
+Retakaful Contribution (Reinsurance Premium)                                               (1,573,915,615)   (1,247,557,129)     -26%     (519,482,129)       (453,510,954)    -15%
+Net Written Contribution (Premium)                                                          3,926,348,371     2,474,545,391      59%     1,355,375,416       1,098,780,455      23%
+Net Change in Reserve for Unearned Contribution (Premium)                                    (868,858,463)        4,541,079    -19233%    (137,088,996)       (152,450,919)     10%
+Net Earned Contribution (Premium)                                                           3,057,489,909     2,479,086,471      23%     1,218,286,420         946,329,536      29%
+
+Other Revenue
+Income from Investments                                                                      207,231,562        264,976,652     -22%        67,097,583          38,955,756     72%
+Share of Profit of Equity Accounted Subsidiaries                                                     -                  -           -      235,740,362         133,376,048     77%
+Other Income                                                                                 271,218,474        118,525,859     129%        65,796,082          33,591,824     96%
+Total Revenue                                                                        7     3,535,939,944      2,862,588,981      24%     1,586,920,447       1,152,253,164     38%
+
+Benefits, Losses and Expenses
+
+Takaful (Insurance) Claims and Benefits                                                    (1,710,201,720)   (1,470,447,332)    -16%       (806,809,530)      (590,722,560)    -37%
+Acquisition Cost (Net of Reinsurance Commission)                                             (339,035,352)     (267,999,574)    -27%       (103,470,137)      (115,921,711)     11%
+Change in Family Takaful Contract Liability                                                  (191,552,925)     (166,856,040)    -15%                -                  -           -
+Other Operating and Administration Expenses                                                  (756,701,889)     (629,439,324)    -20%       (330,132,286)      (289,882,128)    -14%
+Depreciation & Amortization                                                                   (38,881,867)      (36,165,273)     -8%        (20,194,450)       (20,655,994)     2%
+Total Claims, Benefits and Expenses                                                        (3,036,373,752)   (2,570,907,544)    -18%     (1,260,606,403)    (1,017,182,392)    -24%
+
+Profit from Operations                                                                       499,566,192       291,681,437      71%        326,314,044        135,070,773     142%
+
+Finance Cost                                                                                 (28,065,516)       (22,354,879)    -26%       (23,708,702)        (20,835,659)    -14%
+
+Profit Before Taxation                                                              10       471,500,676       269,326,558      75%        302,605,341        114,235,114     165%
+
+Income Tax Expenses                                                                 12       (27,840,030)       (42,166,848)    34%
+
+Net Profit / (Loss) for the Period                                                           443,660,646       227,159,710      95%        302,605,341        114,235,114     165%
+
+Attributable to:                                                                               Rs                Rs
+Equity Holders of the Parent                                                                 252,569,388       111,988,868
+Non-Controlling Interest                                                                     191,091,257       115,170,842
+                                                                                             443,660,646       227,159,710
+
+                                                                                               Rs                 Rs                         Rs                  Rs
+Weighted Average Earnings Per Share                                                                  1.02              0.55                        1.23               0.56
+Diluted Earnings Per Share                                                                           1.02              0.45                        1.23               0.46
+Dividend Paid Per Share
+ Interim Dividend Paid Per Share
+ Final Proposed Dividend Paid Per Share
+
+
+
+OTHER COMPREHENSIVE INCOME
+                                                                                                             Group                                         Company
+                                                                                           Unaudited          Unaudited                   Unaudited          Unaudited
+FOR THE PERIOD ENDED 31ST MARCH                                                              2026                2025          Change       2026               2025           Change
+                                                                                              Rs.                 Rs.            %           Rs.                Rs.             %
+Profit for the Period                                                                       443,660,646        227,159,710      95%        302,605,341        114,235,114      165%
+
+Change in Fair Value of Available for Sale Financial Assets                                 (346,533,297)       50,566,989     -785%         1,730,850           1,896,017     -9%
+Fair Value of Available for Sale Financial Assets Reclassified to Profit or Loss
+Share of Other Comprehensive income of Equity Accounted Subsidiaries                                                                      (233,252,648)       108,347,017     -315%
+Fair Value of Available for Sale Financial Assets Transferred to Policyholder's
+                                                                                               1,095,243         2,064,788      -47%
+Reserve
+Defined Benefit Plan Actuarial Losses
+Revaluation of Property, Plant & Equipment
+Foreign Currency Translation Differences In Foreign Operations                               (77,350,978)      145,233,932      153%
+                                                                                            (422,789,032)      197,865,708     -314%      (231,521,798)       110,243,034     -310%
+Total Comprehensive Income for the Period                                                     20,871,614       425,025,418      -95%        71,083,543        224,478,148      -68%
+
+Attributable to;
+Equity Holders of the Parent                                                                  21,047,591       222,108,015
+Non-Controlling Interest                                                                        (175,977)      202,917,403
+                                                                                              20,871,614       425,025,418
+GROUP STATEMENT OF CHANGES IN EQUITY
+
+                                                                                                                                              Other Reserves                                      Revenue Reserves
+                                                                                                                                                          Translation         Available For Sale Policy Holder's     Accumulated       Non Controlling
+                                                                                                               Stated Capital   Revaluation Reserve                                                                                                       Total Equity
+                                                                                                                                                           Reserve                Reserve            Rserve            Losses             Interest
+                                                                                                                   (Rs)                (Rs)                    (Rs)                 (Rs)               (Rs)             (Rs)                (Rs)             (Rs)
+
+Balance as at 1st January 2025                                                                                 1,966,338,648            52,537,134             467,676,589       1,235,710,313        38,880,220        335,322,666      2,655,238,763     6,751,704,332
+
+
+Net Profit for the Period                                                                                                                                                                                               381,741,652        417,095,675       798,837,326
+
+Other Comprehensive Income
+
+Net Change in Fair Value of Available for Sale Financial Assets                                                                                                                    113,757,855                                              87,117,873       200,875,728
+
+Net Change in Fair Value of Property, plant and equipment                                                                                                                                                                                          -                     -
+
+Net Change in Fair Value of Available-for-Sale Financial Assets Transferred (to)/ from Policyholders
+Reserve                                                                                                                                                                                                9,999,378                             3,105,967        13,105,344
+
+Defined Benefit Plan Actuarial Losses, Net of Deferred Tax                                                                                                                                                               (8,455,260)        (3,215,486)       (11,670,745)
+
+Foreign Currency Translation Difference                                                                                                                        243,991,526                                                                 199,629,430       443,620,956
+
+Related Tax                                                                                                                                                                                                             (15,402,149)       (12,601,758)       (28,003,906)
+
+Total Comprehensive Income                                                                                       193,614,093                     -             243,991,526         113,757,855         9,999,378        357,884,244        691,131,701     1,416,764,703
+
+Dividend Distributed                                                                                                                                                                                                                       (20,740,679)       (20,740,679)
+
+Balance as at 31st December 2025                                                                                2,159,952,741           52,537,134             711,668,115       1,349,468,167        48,879,597        693,206,910      3,325,629,785     8,341,342,448
+
+Net Profit for the Period                                                                                                                                                                                               252,569,388        191,091,257       443,660,645
+
+Other Comprehensive Income
+
+Net Change in Fair Value of Available for Sale Financial Assets                                                                                                                   (191,545,281)                                           (156,718,866)     (348,264,147)
+
+Net Change in Fair Value of Available for Sale Financial Assets Transferred (to)/ from Policyholders Reserve                                                                                            835,671                                259,573         1,095,243
+
+Foreign Currency Translation Difference                                                                                                                        (42,543,038)                                                                (34,807,940)       (77,350,978)
+
+Total Comprehensive Income                                                                                                -                      -             (42,543,038)       (191,545,281)         835,671         252,569,388           (175,898)       19,140,763
+
+Dividend Distributed                                                                                                                                                                                                                       (29,255,870)       (29,255,870)
+
+Total Change in Ownership Interests                                                                                       -                      -                      -                   -                 -                 -          (29,255,870)       (29,255,870)
+
+Balance as at 31st March 2026                                                                                   2,159,952,741           52,537,134             669,125,076       1,157,922,887        49,715,268        945,776,298      3,296,198,017     8,331,227,420
+COMPANY STATEMENT OF CHANGES IN EQUITY
+
+                                                                                           Other Reserves                    Revenue Reserves
+                                                                                                               Accumulated Profit/              Available For Sale
+                                                                       Stated Capital    Revaluation Reserve                                                         Total Equity
+                                                                                                                   (Losses)                         Reserve
+
+
+                                                                           (Rs)                 (Rs)                  (Rs)                            (Rs)              (Rs)
+
+
+Balance as at 1st January 2025                                           1,966,338,649           33,541,361                    2,049,571,532            42,757,273             4,092,208,814
+
+Net Profit/ (Loss) for the period                                                                                                384,116,231                                        384,116,231
+
+Share of Other Comprehensive income of Equity accounted Subsidiaries                                                             320,506,012                                        320,506,012
+
+Net Change in Fair Value of Available for Sale Financial Assets                                                                                          7,280,454                    7,280,454
+
+Issue of Shares on Conversion of Debentures ( Note 21.1)                   193,614,093                                                                                              193,614,093
+
+Defined Benefit Plan Actuarial Losses                                                                                             (4,306,866)                                        (4,306,866)
+
+Total Comprehensive Income                                               2,159,952,741           33,541,361                    2,749,886,909            50,037,727             4,993,418,737
+
+Total changes in ownership interests                                                -                   -                                -                     -                            -
+Balance as at 31st December 2025                                         2,159,952,741           33,541,361                    2,749,886,909            50,037,727             4,993,418,737
+
+Net Profit/ (Loss) for the period                                                                                                302,605,341                                        302,605,341
+
+Share of Other Comprehensive income of Equity accounted Subsidiaries                                                            (233,252,648)                                   (233,252,648)
+
+Other Comprehensive Income
+
+Net Change in Fair Value of Available for Sale Financial Assets                                                                                          1,730,850                    1,730,850
+                                                                                                                                                                                            -
+Total Comprehensive Income                                                          -                   -                         69,352,693             1,730,850                   71,083,543
+
+Balance as at 31st March 2026                                            2,159,952,741           33,541,361                    2,819,239,602            51,768,577             5,064,502,281
+CASH FLOW STATEMENT
+
+                                                                                        Group                              Company
+                                                                            Unaudited           Unaudited         Unaudited          Unaudited
+FOR THE PERIOD ENDED 31ST MARCH                                               2026                2025              2026               2025
+                                                                               Rs                  Rs                Rs                 Rs
+
+Cash Flows from Operating Activities
+Contribution (Premium) received from customers                              5,339,479,002       3,184,673,547     2,098,479,051      1,608,416,615
+Retakaful (Reinsurance) Premium paid                                          (463,597,157)       (710,196,163)     (358,136,833)     (410,196,163)
+Claims, Benefits and Expenses paid                                          (2,895,166,398)     (1,653,313,949)   (1,891,286,005)     (540,986,922)
+Retakaful (Reinsurance) Receipts in respect of Claims                         386,525,590         283,858,891       321,686,897       122,743,047
+Cash paid to and behalf of Employees                                         (462,008,210)       (617,929,495)     (237,193,995)      (373,569,150)
+Profits received from Investments and Other Income                            320,528,701         283,346,616       147,054,089         78,955,756
+Dividends received                                                              4,656,972           8,073,046        32,271,308                -
+Finance Cost paid                                                             (28,065,516)        (22,354,879)      (23,708,702)       (20,835,659)
+Other operating cash receipts/ (payments)                                   (1,064,311,595)      (418,571,958)     (747,907,354)      (226,393,058)
+Cash Flow from/(used in) Operating Activities (Note A)                      1,138,041,388         337,585,657      (658,741,544)      238,134,466
+
+Gratuity Paid                                                                  (7,602,708)         (2,058,652)        (7,602,708)       (2,058,652)
+Income Tax Paid                                                               (24,732,684)        (42,166,848)
+Net Cash Flow from/(used in) Operating Activities                           1,105,705,996         293,360,158      (666,344,252)      236,075,815
+
+Cash Flows from/(used in) Investing Activities
+
+Net Acquisition of Financial Assets                                          (585,179,027)      (2,253,432,776)    (157,527,051)    (1,088,843,761)
+Purchase of Property, Plant & Equipment                                       (24,362,159)         (61,161,490)     (10,457,121)       (10,160,525)
+Net Cash Flow used in Investing Activities                                   (609,541,186)       (730,317,374)     (167,984,172)      (412,193,863)
+
+Cash Flows from Financing Activities
+
+Repayment of Lease Facility                                                   (52,349,153)        (31,347,749)      (22,809,886)      (24,421,758)
+Short term Loan Obtained                                                                          137,000,000                         137,000,000
+Subordinated Debt Obtained                                                    115,340,959                           115,340,959
+Dividend Paid                                                                 (29,255,870)
+Net cash flows from financing activities                                       33,735,936         105,652,251        92,531,073       112,578,242
+
+Increase/(Decrease) in Cash and Cash Equivalents (Note B)                     529,900,745        (331,304,965)     (741,797,351)       (63,539,807)
+
+NOTE A
+Reconciliation of Operating Profit/(Loss) with Cash Flows from Operations
+
+Profit from Operations                                                        499,566,192         291,681,437       326,314,044        135,070,773
+Share of Profit of Equity Accounted Subsidiaries                                                                   (235,740,362)      (133,376,048)
+Depreciation                                                                    38,881,867         36,165,273        18,876,131         20,655,994
+Amortisations                                                                    5,331,242          2,413,625         1,318,319          2,029,113
+Provision for Gratuity                                                          15,641,459          8,001,396        11,145,833          3,645,833
+Unrealised (Income)/Losses                                                     (39,420,698)       (44,177,234)
+(Increase)/Decrease in Debtors and Other Assets                             (1,908,032,448)      (430,734,180)    (1,202,960,875)     (440,252,267)
+Increase/(Decrease)Family Takaful (Long Term Insurance) Fund                  206,247,004          (3,865,811)
+Increase/(Decrease) in Unearned Contribution (Premium)                        868,858,463          (4,541,079)      137,088,996       152,450,919
+Increase/(Decrease) in Claims Provision                                       342,588,481         125,649,390        83,608,751       (49,856,554)
+Increase/(Decrease) in Other Creditors                                      1,137,625,931         379,347,718       200,197,828       568,602,363
+Finance Cost Paid                                                             (28,065,516)        (22,354,879)      (23,708,702)      (20,835,659)
+Cash Flows from/(used in) Operating Activities                              1,139,221,977         337,585,657      (683,860,037)      238,134,466
+
+NOTE B
+Increase/( Decrease ) in Cash and Cash Equivalents
+
+Cash at bank and in Hand and Cash Equivalents                               3,737,025,205       2,816,826,523       682,849,751       668,648,576
+Over drafts                                                                  (152,059,412)                         (152,059,412)
+Cash and Cash Equivalents at the end of the period                          3,584,965,793       2,816,826,523       530,790,339       668,648,576
+
+Cash and Cash Equivalents at the beginning of the year                      3,055,065,048       3,148,131,488     1,272,587,691       732,188,382
+Increase/( Decrease ) in Cash and Cash Equivalents                            529,900,744        (331,304,965)     (741,797,352)      (63,539,807)
+STATEMENT OF FINANCIAL POSITION
+FAMILY TAKAFUL / LIFE INSURANCE SEGMENT - SUPPLEMENTARY
+
+                                                                                                               Unaudited                 Unaudited
+AS AT                                                                                                          31.03.2026                 31.12.2025
+                                                                                                                   Rs.                       Rs.
+ASSETS
+
+Intangible Assets                                                                                                    19,325,460                 16,628,217
+
+Property, Plant and Equipment                                                                                        79,099,129                 84,742,821
+
+Right of Use of Assets                                                                                               50,653,521                 53,877,004
+
+Financial Assets                                                                                                 1,013,126,584                 999,645,315
+
+Financial Assets - Unit Linked                                                                                   4,447,864,248               4,255,470,504
+
+Retakaful Receivable                                                                                                 50,074,168                 50,074,168
+
+Contribution (Premium) Receivable                                                                                    75,821,600                 51,885,714
+
+Other Assets                                                                                                       163,554,187                 136,808,835
+
+Cash and Bank Balances                                                                                               34,050,887                 48,947,841
+
+Cash and Bank Balances - Unit Linked                                                                                 83,006,464                 74,368,772
+
+Total Assets                                                                                                     6,016,576,247               5,772,449,189
+
+
+
+LIABILITIES
+
+Insurance Contract Liability - Family Takaful Fund                                                                 244,638,291                 241,659,512
+
+Insurance Contract Liability - Family Takaful Linked Unit Linked                                                 4,492,575,856               4,289,307,630
+
+Employee Benefits                                                                                                    20,161,271                 19,411,271
+
+Finance Lease Liability                                                                                              54,519,964                 57,878,932
+
+Subordinated Debt                                                                                                  105,705,632                 103,870,871
+
+Other Liabilities                                                                                                  219,121,544                 192,078,670
+
+Other Liabilities - Unit Linked                                                                                    222,776,662                 216,875,410
+
+Income Tax payable                                                                                                    9,613,373                    9,613,373
+
+Total Liabilities                                                                                                5,369,112,594               5,130,695,668
+
+SHAREHOLDERS' EQUITY
+
+Stated Capital                                                                                                     500,000,000                 500,000,000
+
+Other Reserves                                                                                                       21,320,747                 21,320,747
+
+Retained Earnings                                                                                                  126,142,906                 120,432,773
+
+Total Equity                                                                                                       647,463,654                 641,753,520
+
+Total Equity & Liabilities                                                                                       6,016,576,247               5,772,449,189
+
+
+
+The above Long Term Insurance ( Family Takaful ) Balance Sheet is to be read in conjunction with the consolidated Statement of Financial Position.
+NOTES TO THE FINANCIAL STATEMENTS
+
+1. Figures in the Interim Financial Statements for the period ended 31st March 2026 are provisional and unaudited.
+
+2. The interim financial statements of the company and the group for the quarter ended 31 March 2026 have been prepared in accordance with Sri Lanka Accounting Standards
+LKAS 34 - Interim Financial Reporting except for those disclosed below, and comply with the requirements of the Companies Act, No. 7 of 2007 and Regulation of Insurance
+Industry Act, No. 43 of 2000 and subsequent amendments thereto.
+
+The same accounting policies and methods of computation as stated in the Annual Report 2024 have been followed in preparation of these Interim Financial Statements.
+Comparative information has been re-valued/re-classified and restated where necessary to confirm to the current period recognition, measurement and presentation.
+
+In accordance with LKAS 34.19, these interim financial statements do not comply fully with Sri Lanka Accounting Standards (SLFRSs) as the Company has elected to apply
+the Statement of Alternative Tratment (SoAT) issued by the Institute of Chartered Accountants of Sri Lanka (CA Sri Lanka) in respect of the initial adoption of SLFRS 17
+ - Insurance Contracts and SLFRS 9 Financial Instruments for Inusrance entities
+
+Accordingly, these interim financial statements are prepared on the alternative basis described below.
+
+2.1 Application of Statement of Alternative Treatment (SoAT) – Q1 Interim Financial Reporting
+
+
+SLFRS 17 is effective for annual reporting periods beginning on or after 1 January 2026. In response to implementation challenges affecting the insurance industry, CA Sri Lanka
+has permitted insurers to continue applying SLFRS 4 Insurance Contracts for the first and second interim reporting quarters of the initial year of adoption, subject to enhanced
+disclosures on the expected impact of SLFRS 17 and SLFRS 9. The Company has elected to apply this relief for the quarter ended 31 March 2026.
+
+Accordingly, for this interim period:
+
+• Insurance contracts continue to be recognised, measured, and presented in accordance with SLFRS 4 Insurance Contracts.
+• SLFRS 9 Financial Instruments has not been applied, consistent with the SoAT requirement that SLFRS 9 shall not be applied during interim periods where SLFRS 4
+  is continued.
+
+2.1.1. Progress of SLFRS 17 and SLFRS 9 Implementation
+
+The Company has made substantive progress during the first quarter of the financial year towards full implementation of SLFRS 17 and SLFRS 9, including:
+
+• Compilation of concept papers
+• Onerous assessment of the Company's product portfolio
+• Devising a solution to assess transitional impact and to perform calculation once the standards is implemented
+
+
+Amana Takaful Life PLC, the subsidiary of the Company has also progressed in its SLFRS 17 implementation, with the following being completed.
+
+• Completion of major actuarial model builds for insurance contract measurement
+• Refinement of discount rate methodologies and risk adjustment frameworks
+• Strengthening of governance, controls, and data validation processes
+
+
+Amana Takaful (Maldives) PLC, which is another subsiridary of the Company has already implemented IFRS 17, and their financials are convereted to the IFRS 4 basis for the
+purpose of consolidation.
+
+In line with the SoAT, the Company expects to present both the Company's & Group's provisional third‑quarter financial information prepared in accordance with SLFRS 17 and
+SLFRS 9 in the Q3 interim financial statements with quantitative disclosures on all impacted line items.
+
+2.1.2. Expected Impact of SLFRS 17 and SLFRS 9
+
+The implementation of SLFRS 17 is expected to have an impact as described below, on each of the Companies of the Group
+
+Amana Takaful PLC / Amana Takaful (Maldives) PLC
+• The anticipated loss of onerous products is required to recognized at policy inception
+• Deferment of all policy income components & attributable expenses throughout policy period
+
+Amana Takaful Life PLC
+• Measurement based on present value of fulfilment cash flows
+• Explicit risk adjustment for non‑financial risk
+• Recognition of Contractual Service Margin (CSM) for profitable contract groups
+• Profit recognition will align with the provision of insurance coverage and services
+• Onerous groups of insurance contracts, if any, will result in immediate loss recognition.
+• Volatility in profit or loss may arise due to experience adjustments, changes in assumptions, movements in discount rates.
+
+
+On transition, the retained earnings of the individual company will be adjusted for derecognition of liabilities recognised under SLFRS / IFRS 4 & recognition of insurance
+contract assets and liabilities under SLFRS / IFRS 17. Amana Takaful Life PLC's retained earnings will also be adjuested for the recognition of the Contractual Service
+Margin (CSM).
+NOTES TO THE FINANCIAL STATEMENTS
+
+Financial Assets – SLFRS 9
+
+Financial assets will be reclassified based on business model assessments and contractual cash flow characteristics. The introduction of the Expected Credit Loss (ECL)
+model may accelerate impairment recognition compared to existing practices.
+
+
+
+Comparative Information
+Comparative information presented in these interim financial statements has been prepared in accordance with SLFRS 4 Insurance Contracts and LKAS 39 Financial
+Instruments and has not been restated for the effects of SLFRS 17 or SLFRS 9.
+
+
+
+3. Right of Use Lease Assets
+
+                                                                                                                Group                                Company
+3.1 Right of Use Lease Assets                                                                      Unaudited             Unaudited         Unaudited        Unaudited
+AS AT                                                                                              31.03.2026            31.12.2025        31.03.2026       31.12.2025
+                                                                                                       Rs.                   Rs.               Rs.              Rs.
+
+Balance as at 1st January                                                                             788,838,091          622,681,492       297,671,722          346,310,045
+Additions & Improvements                                                                                  700,225          261,712,763
+Transfers from Lease Hold to Free Hold                                                                                      (9,295,663)
+Depreciation for the Period                                                                           (29,682,582)        (102,780,908)       (13,593,017)        (48,638,323)
+Exchange Gain/(Loss)                                                                                    1,827,983           16,520,407
+Closing Right of Use Lease Asset as at                                                                761,683,753          788,838,091       284,078,705          297,671,722
+
+3.2 Lease Liability (Lease Creditor)
+
+
+                                                                                                                Group                                Company
+                                                                                                   Unaudited             Unaudited         Unaudited        Unaudited
+AS AT                                                                                              31.03.2026            31.12.2025        31.03.2026       31.12.2025
+                                                                                                       Rs.                   Rs.               Rs.              Rs.
+
+Balance as at 1st January                                                                             611,146,120          511,354,393       334,064,742          367,425,331
+Additions & Improvements                                                                              118,106,800          150,089,958
+Interest Expense Recognised in Profit or Loss                                                          24,864,834           62,467,248         11,426,488          46,357,980
+Settlement Through Lease Payment                                                                      (52,349,153)        (121,310,291)       (22,809,886)        (79,718,569)
+Exchange Gain/(Loss)                                                                                 (108,284,598)           8,544,812
+Closing Lease Creditors as at                                                                         593,484,003          611,146,120       322,681,344          334,064,742
+
+4. Financial Assets
+
+                                                                                                                Group                                Company
+                                                                                                   Unaudited             Unaudited         Unaudited        Unaudited
+AS AT                                                                                              31.03.2026            31.12.2025        31.03.2026       31.12.2025
+                                                                                                       Rs.                   Rs.               Rs.              Rs.
+
+Financial Assets at Fair Value through Profit or Loss (4.1)                                          545,690,119           458,828,784       174,859,949          183,354,266
+Available for Sale Financial Assets (4.2)                                                          4,067,505,409         4,384,080,377       126,214,993          124,483,409
+Loans & Receivables (4.3)                                                                          8,347,531,483         8,462,730,410     1,984,638,579        2,305,133,344
+                                                                                                  12,960,727,012        13,305,639,571     2,285,713,522        2,612,971,019
+
+
+                                                                                                                Group                                 Company
+                                                                                                   Unaudited             Unaudited         Unaudited            Unaudited
+AS AT                                                                                              31.03.2026            31.12.2025        31.03.2026           31.12.2025
+                                                                                                       Rs.                   Rs.               Rs.                  Rs.
+4.1 Financial Assets at Fair Value Through Profit & Loss
+
+      Investments in Equity Securities                                                                325,189,311         335,935,032        128,329,949          141,524,266
+      Investment in Bullion                                                                           220,500,808         122,893,752         46,530,000           41,830,000
+                                                                                                      545,690,119         458,828,784        174,859,949          183,354,266
+4.2 Available For Sale Financial Assets
+
+      Investments in Equity Securities - Quoted                                                     3,697,714,746        4,016,540,450
+      Unit Trust                                                                                      369,265,663          367,014,927       125,689,993          123,958,409
+      Investments in Equity Securities - Unquoted                                                         525,000              525,000           525,000              525,000
+      Treasury Bonds
+      Treasury Bills
+                                                                                                    4,067,505,409        4,384,080,377       126,214,993          124,483,409
+4.3 Loans and Receivable
+
+        Repurchase Agreements                                                                       2,553,541,910        3,023,994,417       682,849,751        1,165,026,922
+        Corporate Debt
+        Fixed Term Deposits                                                                         5,766,174,925        5,403,337,358     1,276,670,336        1,113,013,751
+        Bank Deposits
+        Investment in Subsidary
+        Advances to Company Officers                                                                   27,814,649           35,398,635        25,118,492           27,092,670
+                                                                                                    8,347,531,483        8,462,730,410     1,984,638,579        2,305,133,344
+NOTES TO THE FINANCIAL STATEMENTS
+
+5. Financial Assets - Unit Linked
+
+                                                                           Group                              Company
+                                                              Unaudited            Unaudited         Unaudited       Unaudited
+AS AT                                                         31.03.2026           31.12.2025        31.03.2026      31.12.2025
+                                                                  Rs.                  Rs.               Rs.             Rs.
+
+Financial Assets at Fair Value Through Profit or Loss (5.1)     671,963,889          315,393,787
+Available For Sale Financial Assets (5.2)                        45,530,662           42,866,057
+Loans & Receivables (5.3)                                     3,730,369,696        3,229,557,165
+                                                              4,447,864,247        3,587,817,010               -                 -
+
+
+                                                                           Group                              Company
+                                                              Unaudited            Unaudited         Unaudited       Unaudited
+AS AT                                                         31.03.2026           31.12.2025        31.03.2026      31.12.2025
+                                                                  Rs.                  Rs.               Rs.             Rs.
+5.1 Financial Assets at Fair Value through Profit & Loss
+        Investments in Equity Securities                        161,667,557           96,135,371
+        Investment in Bullion                                   510,296,332          219,258,416
+                                                                671,963,889          315,393,787               -                 -
+
+5.2 Available For Sale Financial Assets
+
+        Unit Trust                                               45,530,662           42,866,057
+                                                                 45,530,662           42,866,057               -                 -
+
+5.3 Loans and Receivable
+        Repurchase Agreements                                   112,396,604          103,799,215
+        Fixed Term Deposits                                   3,617,973,092        3,125,757,950
+                                                              3,730,369,696        3,229,557,165               -                 -
+
+6. Gross Written Contribution (Premium)
+
+                                                                           Group                             Company
+                                                              Unaudited            Unaudited         Unaudited      Unaudited
+FOR THE PERIOD ENDED 31ST MARCH                                 2026                 2025              2026           2025
+                                                                  Rs.                  Rs.              Rs.                Rs.
+
+6.1 Non-Life (General Takaful)
+Motor                                                         1,031,352,168          768,227,808       994,196,438      737,102,034
+Fire                                                          1,038,602,360          404,347,748       153,860,252      185,236,063
+Marine                                                           74,037,373          193,138,925        63,330,548      137,627,665
+Medical                                                       2,365,530,873        1,209,429,766       540,771,029      395,797,363
+Miscellaneous                                                   371,208,707          755,283,858       122,720,106       96,528,284
+                                                              4,880,731,482        3,330,428,105     1,874,878,371     1,552,291,409
+
+
+
+6.2 Long Term Insurance (Family Takaful)
+
+Unit Linked                                                     487,630,864          358,500,532
+Family Takaful                                                    3,072,917            4,304,768
+Mortgage & Group Family Takaful                                  42,446,546           28,869,116
+                                                                533,150,327          391,674,416                   -                 -
+
+Total Gross Written Premium                                   5,413,881,809        3,722,102,521     1,874,878,371     1,552,291,409
+
+
+ 7. Revenue
+
+ 7.1 Revenue by Segment
+
+                                                                           Group                             Company
+                                                              Unaudited            Unaudited         Unaudited      Unaudited
+FOR THE PERIOD ENDED 31ST MARCH                                 2026                 2025              2026           2025
+                                                                 Rs.                  Rs.               Rs.            Rs.
+Segment
+
+Amana Takaful PLC                                             1,586,920,447        1,152,253,164     1,586,920,447     1,152,253,164
+Amana Takaful Life PLC                                          634,531,015          544,660,171
+Amana Takaful (Maldives) PLC                                  1,667,575,807        1,295,421,271
+Amana Sugurta LLC                                                17,732,041            5,870,423
+Amana Global Ltd                                                    (34,500)            (518,000)
+Eliminations                                                   (370,784,865)        (135,098,048)
+                                                              3,535,939,944        2,862,588,981     1,586,920,447     1,152,253,164
+
+7.2 Revenue
+
+                                                                           Group                             Company
+                                                              Unaudited            Unaudited         Unaudited      Unaudited
+FOR THE PERIOD ENDED 31ST MARCH                                 2026                 2025              2026           2025
+                                                                 Rs.                  Rs.               Rs.            Rs.
+
+
+Gross written Contribution (Premium)                          5,500,263,986        3,722,102,520     1,874,857,545     1,552,291,409
+Less :
+Retakaful Contribution (Reinsurance Premium)                  (1,573,915,615)      (1,247,557,129)    (519,482,129)     (453,510,954)
+Net Written Contribution (Premium)                             3,926,348,371        2,474,545,391    1,355,375,416     1,098,780,455
+
+Net Change in Reserve for Unearned Contribution (Premium)      (868,858,463)           4,541,079      (137,088,996)     (152,450,919)
+Net Earned Contribution (Premium)                             3,057,489,909        2,479,086,471     1,218,286,420       946,329,536
+
+Income from Investments                                         207,231,562          264,976,652       67,097,583        38,955,756
+Share of Profit of Equity Accounted Subsidiaries                                                      235,740,362       133,376,048
+Other Income                                                    271,218,474          118,525,859        65,796,082        33,591,824
+Total Revenue                                                 3,535,939,944        2,862,588,981     1,586,920,447     1,152,253,164
+NOTES TO THE FINANCIAL STATEMENTS
+8. The Company has not done a valuation of the insurance contract liabilities Life (FamilyTakaful) by the consultant actuary for the period ended 31st December
+2025.Valuation will be performed annually.
+
+
+9. The Company has not done a Liability Adequacy Test (LAT) in respect of Insurance Contract Liabilities - Non-Life Fund as per SLFRS 4 - Insurance Contracts as at
+31st December 2025. LAT will be performed annually.
+
+
+10. Profit/ (Loss) Before Taxation by Segment
+
+                                                                                                                     Group                            Company
+FOR THE PERIOD ENDED 31ST MARCH                                                                         Unaudited            Unaudited        Unaudited     Unaudited
+                                                                                                           2026                  2025            2026               2025
+
+Segment
+
+Amana Takaful PLC                                                                                        302,605,341            564,817,723    302,605,341       564,817,723
+Amana Takaful Life PLC                                                                                     6,902,458              4,578,262
+Amana Takaful Maldives PLC                                                                               444,264,852         1,253,280,779
+Amana Sugurta LLC                                                                                          3,504,338            (4,413,710)
+Amana Global Ltd                                                                                             (34,500)           (1,443,748)
+Eliminations                                                                                            (285,741,813)         (664,671,963)
+Total                                                                                                    471,500,676         1,152,147,343     302,605,341       564,817,723
+
+
+11. Cash and Cash Equivalents in Statement of Cash Flows
+
+                                                                                                                     Group                             Company
+AS AT                                                                                                   Unaudited            Unaudited         Unudited      Unaudited
+                                                                                                        31.03.2026           31.12.2025       31.03.2026     31.12.2025
+
+Cash and Bank Balances                                                                                 1,100,476,831           497,615,041                       107,560,770
+Cash and Bank Balances - Unit Linked                                                                      83,006,464            74,368,772
+Investment in Government Securities                                                                    2,553,541,910         2,483,081,236     682,849,751     1,165,026,921
+                                                                                                       3,737,025,205         3,055,065,048     682,849,751     1,272,587,691
+
+12.   12.1 Amana Takaful PLC is liable to income tax at 30% (2025 - 30%)
+      12.2 Amana Global Ltd is liable to income tax at 30% (2025 -30%)
+      12.3 Amana Takaful Maldives PLC is liable to income tax at 15% (2025 - 15%)
+      12.4 Amana Takaful Life PLC is liable for income tax at 30% (2025 - 30%)
+      12.5 Amana Sugurta LLC is liable for income tax at 15% (2025 - 15%)
+
+13. Deferred tax liabilities, related to temporary tax differences are reviewed and are adjusted at every financial year end.
+
+14. The nature of related party transactions in the current period is similar to those reported in the Annual Report 2024.
+
+15. There has not been a significant change in the assets pledged as disclosed in the Annual Report 2024.
+
+
+16. Comparative figures have been restated wherever necessary to conform to the current periods presentation
+
+
+17. Contingencies
+
+A contingent liability at a fair value of Rs. 535 million has been determined from four claims where, Amana Takaful PLC's liability on the retention after receovery of
+reinsurance is assessed at Rs. 100 million, if any. The said claims are subject to legal proceeding at the reporting date, the lawyers are of the view that these five cases
+will be favourable to the Company.
+
+The Group operates in the insurance industry and is subject to legal proceedings in the normal course of business. While it is not practicable to forecast or determine the
+final results of all pending or threatened legal proceedings, the management does not believe that such proceedings (including litigation) will have a material effect on its
+results and financial position.
+
+
+The Group is also subject to insurance solvency regulations in all the territories where it operates and has complied with all these solvency regulations. There are no
+contingencies associated with the Group's compliance or lack of compliance with such regulations.
+
+
+18. Subsequent to the reporting date, the Board of Directors, at its meeting held on 5th February 2026 resolved to proceed with a Rights Issue of ordinary shares
+subject to obtaining the necessary regulatory and shareholder approvals. The proposed issue will comprise 52,854,857 new ordinary shares at a price of Rs. 19.00
+per share, in the proportion of 3 new shares for every 14 existing shares held as at the entitlement date to be determined. The purpose of the issue is to strengthen
+the Company’s equity base and thereby improve its Capital Adequacy Ratio (CAR) under the Risk-Based Capital (RBC) framework introduced by the Insurance
+Regulatory Commission of Sri Lanka (IRCSL). The Company has made the initial announcement to the Colombo Stock Exchange and will make further disclosures.
+
+
+As the decision was made after the reporting date, no adjustments have been made to these Interim Condensed Financial Statements in accordance with LKAS 10
+– Events after the Reporting Period. There is no any other significant event that occurred subsequent to the reporting date that would require disclosure.
+
+
+19. In terms of Direction for Identification and Treatment of One-Off Surplus issued by the Insurance Regulatory Commission of Sri Lanka (Direction # 16 – 20.03.2018),
+the Long-Term Insurance Business of the Company has generated a One-Off Surplus of Rs. 28,963,821 as at 1st January 2016. The One-Off Surplus amount remaining
+after relevant additions and deductions is retained in the Policyholders Liability in the Long Term Insurance Fund
+20. Stated Capital as at 31st March 2026 is represented by shares in issue as given below:
+
+
+                                                                                                                                       Unaudited        Unaudited
+Number of shares as at                                                                                                                 31.03.2026       31.12.2025
+
+Ordinary shares - Voting (Note 21.1)                                                                                                   246,655,997      246,655,997
+
+21. Basic Earnings per Share is calculated by dividing the net profit for the period attributable to ordinary shareholders by the the weighted average number of
+ordinary shares outstanding during the period.
+                                                                                                                                Company
+                                                                                                                       Unaudited          Unaudited
+                                                                                                                       31.03.2026         31.03.2025
+
+Amount used as the Numerator
+Net Profit attributable to Ordinary Shareholders (Rs.)                                                               302,605,341       114,235,114
+
+Number of Ordinary Shares used as Denominator:
+Ordinary shares - Voting (One vote per Ordinary Share)                                                               246,655,997       203,630,643
+
+Basic Earnings Per Share                                                                                                      1.23             0.56
+
+21.1 Diluted Earnings per Share is calculated by dividing the net profit for the period attributable to ordinary shareholders by the weighted average number of
+shares outstanding and dilutive shares during the period.
+                                                                                                                                Company
+                                                                                                                       Unaudited          Unaudited
+                                                                                                                       31.03.2026         31.03.2025
+
+Amount used as the Numerator
+Net Profit attributable to Ordinary Shareholders (Rs.)                                                               302,605,341       114,235,114
+
+Number of shares used as Denominator:
+Ordinary Shares - Voting (One vote per Ordinary Share)                                                               246,655,997       246,655,997
+Issue of Shares on Conversion of Debentures                                                                                                    -
+Total Shares                                                                                                         246,655,997       246,655,997
+
+Diluted Earnings Per Share                                                                                                    1.23             0.46
+
+22. Reinsurance Receivables represent amounts recoverable from reinsurers in respect of claims, benefits and related expenses ceded under reinsurance
+contracts. These include recoveries on paid claims, amounts due on outstanding claims (including IBNR) and any other balances due from reinsurers in
+accordance with the underlying reinsurance arrangements. The significant increase in Reinsurance Receivables of the Company as well as the Group is due to the
+Reinsurance Receivable on paid and outstanding claims reported for the damages caused by the Cyclone Ditwah and subsequent floods in November &
+December 2025.
+
+23. Share Information
+                                                                                                             Group                             Company
+                                                                                                31.03.2026        31.03.2025           31.03.2026   31.03.2025
+                                                                                                    Rs.               Rs.                  Rs.          Rs.
+
+
+Net asset value per share                                                                              20.41                 20.33            20.53               20.24
+Market price per share as at                                                                           20.40                 24.90
+Highest price per share for the period                                                                 28.00                 33.70
+Lowest price per share for the period                                                                  18.10                 21.10
+NOTES TO THE FINANCIAL STATEMENTS
+
+Twenty Five Largest Shareholders as at 31st March 2026
+
+Name of Shareholder                                                                                    No. of Shares             %
+AMANA BANK PLC/MR.OSMAN KASSIM                                                                           44,500,000                  18.04
+ABERDEEN HOLDINGS (PRIVATE) LIMITED                                                                      37,132,522                  15.05
+AMANA BANK PLC                                                                                           34,993,380                  14.19
+MR. SATTAR KASSIM / MRS. S. S. KASSIM                                                                    30,861,752                  12.51
+AMANA BANK PLC/MR. SHAFIK KASSIM                                                                         15,972,442                   6.48
+MR. SHAFIK KASSIM                                                                                        14,496,125                   5.88
+SEYLAN BANK PLC/PHANTOM INVESTMENTS (PVT) LTD                                                            10,200,000                   4.14
+SEYLAN BANK PLC/ARRC CAPITAL (PVT) LTD                                                                    6,982,665                   2.83
+SAMPATH BANK PLC/SENTHILVERL HOLDINGS (PVT) LTD                                                           5,977,679                   2.42
+HATTON NATIONAL BANK PLC/ALMAS HOLDINGS (PRIVATE) LIMITED                                                 4,671,987                   1.89
+EMFI CAPITAL LIMITED                                                                                      2,885,202                   1.17
+SENTHILVERL HOLDINGS (PVT) LTD                                                                            2,000,000                   0.81
+ESANJO CAPITAL LTD                                                                                        1,125,220                   0.46
+SEYLAN BANK PLC/HOTEL INTERNATIONAL (PVT) LTD                                                             1,060,000                   0.43
+FALCON TRADING PVT LTD                                                                                    1,059,740                   0.43
+PMF FINANCE PLC/M.S.HAMZADEEN                                                                             1,000,000                   0.41
+MR. OSMAN KASSIM / MRS. K. KASSIM /MR. A. O. KASSIM                                                         901,823                   0.37
+MR. SRIYAN GURUSINGHE                                                                                       757,024                   0.31
+MR. MOHAMED ZAREEN RASHEED                                                                                  701,500                   0.28
+MR. FAROOK KASSIM                                                                                           644,900                   0.26
+MR. MOHAMED SUBIAN MOHAMED RIZAL                                                                            620,000                   0.25
+MR. LOKU THAMBUGALA RALALAGE SAJITH LAKSIRI JAYAWARDHANA                                                    588,440                   0.24
+MR. SHANAKA ASITHA COORAY / MR. P.T. COORAY / MRS. S. NUGAPITIYA                                            544,788                   0.22
+SEYLAN BANK PLC/ PINNADUWAGE ARAVINDA DE SILVA                                                              541,774                   0.22
+CITIZENS DEVELOPMENT BUSINESS FINANCE ACCOUNT NO. 01                                                        500,000                   0.20
+                                                                                                        220,718,963                   89.48
+Others                                                                                                   25,937,034                   10.52
+Total                                                                                                   246,655,997                  100.00
+
+Public Shareholding                                                                                   31.03.2026            31.12.2025
+
+Float Adjusted Market Capitalisation (Rs.)*                                                            3,366,177,378         4,108,816,106
+Percentage of Shares held by the Public                                                                       66.90%                66.90%
+Number of Public Shareholders                                                                                   5504                  5123
+
+
+
+The Company complies with the minimum public shareholding required under option 02 of section 7.13.1 (b) of the Listing Rules.
+
+
+* Float Adjusted Market Capitalisation = Market Capitalisation X Public Holding Percentage
+
+
+
+Directors' Shareholdings                                                                            No. of Shares         No. of Shares
+                                                                                                     31.03.2026            31.12.2025
+Mr. M. Zulficar Ghouse - Chairman                                                                                Nil                   Nil
+Mr. M.H.S. Kassim - Managing Director                                                                        14,780                10,780
+Mr. Syed Rizwan Hussain                                                                                          Nil                   Nil
+Ms. E. D. Wickramasuriya                                                                                         Nil                   Nil
+Mr. Thilan Manjith Wijesinghe                                                                                    Nil                   Nil
+Mr. Abdullah Kassim                                                                                              Nil                   Nil
+Mr. Padmesh Sajjeewa Weerasekera                                                                                 Nil                   Nil
+
+
+CEO's Shareholding
+Mr. Siva Karthigun - CEO                                                                                           Nil                   Nil
+CORPORATE INFORMATION
+
+
+                                                           NAME OF THE COMPANY           REGISTERED OFFICE
+                                                                Amana Takaful PLC        No. 660 - 1/1, Galle Road, Colombo 03, Sri Lanka
+
+                                                                       LEGAL STATUS      SUBSIDIARY
+Public Quoted Company with Limited Liability incorporated in Sri Lanka on 7th December
+                                                                                         Amana Takaful Life PLC
+         1998. Registered under the Companies Act, No. 07 of 2007 on 27th June 2007.
+                                                                                         No. 660 - 1/1, Galle Road, Colombo 03, Sri Lanka
+                                                                                         Amana Takaful (Maldives) PLC
+                                                                                         H. Mialani, Sosun Mogu, Male, Republic of Maldives
+                                               COMPANY REGISTRATION NUMBER
+                                                                      PQ 23              Amana Global Limited
+                                                                                         No. 660 - 1/1, Galle Road, Colombo 03, Sri Lanka
+                                        TAX PAYER IDENTIFICATION NUMBER(TIN)
+                                                                   134007958             AUDITORS
+                                                                                         Ernst & Young Chartered Accountants
+                                                        STOCK EXCHANGE LISTING
+                                                                                         CONSULTANT ACTUARIES - LONG-TERM INSURANCE
+      The shares of the Company are listed in the Second Board of the Colombo Stock
+                                                                                         Actuarial Partners Consulting Sdn Bhd
+ Exchange, Sri Lanka in November 2006. Stock Exchange Code for Amana Takaful PLC
+                                                                      shares is 'ATL'.   Suite 17.02 Kenanga International
+                                                                                         Jalan Sultan Ismail
+                                                                                         50250 Kuala Lumpur, Malaysia
+                                                                          DIRECTORS
+                                                    Mr. M. Zulficar Ghouse - Chairman    CONSULTANT ACTUARIES – GENERAL INSURANCE
+                                                Mr. M.H.S. Kassim - Managing Director    Actsure Lab (Pvt) Ltd
+                                                             Mr. Syed Rizwan Hussain     11/2, 1st Lane, Pagoda Road
+                                                             Mrs.E. D. Wickramasuriya    Nugegoda
+                                                         Mr. Thilan Manjith Wijesinghe   Sri Lanka
+                                                         Mr. Abdullah Osman Kassim
+                                                 Mr. Padmesh Sajjeewa Weerasekera        REINSURANCE PANEL
+                                                                                         Swiss Reinsurance Company Ltd
+                                                                                         Labuan Reinsurance (L) Ltd, Labuan, Malaysia
+                                                      SHARIAH ADVISORY COUNCIL           Asian Re
+                                                         Mufti M.I.M. Rizwe - Chairman   Saudi Re
+                                              Mufti Shafique Ahmed Jakhura - Member      Tunis Re
+                                               Ash-Sheikh Murshid Mulaffar- Secretary    Ocean Re
+                                                                                         Hannover Re
+                                                                                         Munich Re
+                                                                                         Scor Re
+                                              CHIEF EXECUTIVE OFFICER - ATPLC
+                                                              Mr. Siva Karthigun         SECRETARIES
+                                                                                         Managers & Secretaries (Pvt) Ltd
+                                             CHIEF EXECUTIVE OFFICER - ATLPLC
+                                                    Mr. Gehan Shivantha Rajapakse        PRINCIPAL BANKERS
+                                                                                         Amana Bank PLC/Pan Asia Bank/National Development Bank/
+                                            CHIEF EXECUTIVE OFFICER - ATM PLC            Bank of Ceylon/Commercial Bank/Sampath Bank/Hatton National Bank
+                                                            Mr. Hareez Sulaiman          /Nations Trust Bank/ Seylan Bank/MCB Bank
+

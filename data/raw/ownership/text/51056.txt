@@ -1,0 +1,937 @@
+INTERIM FINANCIAL STATEMENTS - FOR THE PERIOD ENDED 31ST MARCH 2026
+SOFTLOGIC LIFE INSURANCE PLC
+INCOME STATEMENT
+
+                                                                Group                  Company
+For the Period ended 31 March                            Note    2026             2026          2025
+                                                               Rs. ' 000         Rs. ' 000     Rs. ' 000
+                                                              Un-audited         Audited       Audited
+
+Gross written premiums                                     6     12,335,363     11,689,479     8,982,362
+Premiums ceded to reinsurers                                       (750,768)      (732,476)     (676,595)
+Net written premiums                                             11,584,595     10,957,003     8,305,767
+
+Other revenue
+Net finance income                                                1,527,200      1,274,775     1,355,156
+Net realised gains                                                  217,831         83,438        15,503
+Net fair value gains / (losses)                                     (89,655)       (18,055)       85,422
+Other operating income                                                4,282          1,243         1,383
+Total other revenue                                               1,659,658      1,341,401     1,457,464
+Total net revenue                                          7     13,244,253     12,298,404     9,763,231
+
+Net benefits, claims and expenses
+Net insurance benefits and claims paid                           (4,994,988)     (4,546,741)   (4,289,291)
+Net change in insurance claims outstanding                            7,966           7,707        15,662
+Change in insurance contracts liabilities                        (2,869,241)     (2,616,760)   (1,380,864)
+Underwriting and net acquisition cost (Net of reinsurance)       (2,239,911)     (2,140,403)   (1,733,898)
+Other operating and administration expenses                      (2,174,220)     (2,123,289)   (1,574,010)
+Impairment reversal / (provision) on financial investments              851             851        (2,973)
+Finance cost                                               8          1,144           1,144      (129,717)
+Total benefits, claims and expenses                             (12,268,399)    (11,417,491)   (9,095,091)
+
+Profit before tax                                          9        975,854        880,913       668,140
+Income tax expenses                                                (307,764)      (256,865)     (190,521)
+
+Profit for the period                                               668,090        624,048       477,619
+
+Profit attributable to;
+Owners of the Company                                               668,090        624,048       477,619
+Non controlling interest                                                -              -             -
+                                                                    668,090        624,048       477,619
+
+Earnings per share
+Basic earnings per share (Rs.)                            18             2.11          1.97          1.51
+Diluted earnings per share (Rs.)                          18             2.11          1.97          1.51
+
+The Notes form an integral part of these Interim Financial Statements.
+
+
+
+
+                                                                Page 2 of 18
+SOFTLOGIC LIFE INSURANCE PLC
+STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+
+For the Period ended 31 March                                                     Group              Company
+                                                                                   2026        2026        2025
+                                                                                 Rs. ' 000    Rs. ' 000   Rs. ' 000
+                                                                                Un-audited    Audited     Audited
+
+Profit for the period                                                             668,090      624,048      477,619
+
+Other comprehensive income
+Items that will not be reclassified to income statement
+Equity investments at FVOCI - net change in fair value                                -            -        (85,158)
+Equity investments at FVOCI - net change in fair value - Life fund                 19,883       19,883      (47,932)
+Related tax / deferred tax                                                            -            -            -
+                                                                                   19,883       19,883     (133,090)
+
+Items that are or may be reclassified subsequently to income statement
+Debt investments at FVOCI - net change in fair value                              (273,815)     (65,963)   (426,975)
+Debt investments at FVOCI - net change in fair value - Life fund                   (81,768)     (81,768)      5,088
+Related tax / deferred tax                                                             -            -           -
+                                                                                  (355,583)    (147,731)   (421,887)
+
+Total other comprehensive income for the period, net of tax                       (335,700)    (127,848)   (554,977)
+
+Total comprehensive income for the period, net of tax                             332,390      496,200      (77,358)
+
+Total comprehensive income attributable to:
+Owners of the Company                                                             332,390      496,200      (77,358)
+Non - controlling interest                                                            -            -            -
+                                                                                  332,390      496,200      (77,358)
+
+The Notes form an integral part of these Financial Statements.
+
+
+
+
+                                                                 Page 3 of 18
+SOFTLOGIC LIFE INSURANCE PLC
+CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+
+As at                                                                Note                 Group                          Company
+                                                                               31.03.2026     31.12.2025         31.03.2026   31.12.2025
+                                                                               Rs. ' 000       Rs. ' 000          Rs. ' 000    Rs. ' 000
+                                                                               Un-audited      Audited            Audited      Audited
+
+Assets
+Intangible assets                                                                      469,453       472,379           5,594         6,082
+Investment in subsidiary                                                                   -             -         1,426,349     1,426,349
+Property, plant and equipment                                                          861,751       854,727         843,713       832,546
+Right of use assets                                                                  1,535,466     1,428,321       1,535,466     1,269,713
+Deferred tax assets                                                                    660,047       715,134         450,073       454,262
+Financial investments                                                 11            58,607,058    56,962,074      48,627,289    47,072,300
+Loans to life policyholders                                                            430,250       412,829         430,250       412,829
+Reinsurance receivables                                                                593,845       524,933         543,473       482,477
+Premium receivables                                                                  2,572,958     1,991,824       2,506,908     1,918,988
+Receivables and other assets                                                         2,354,876     2,123,050       2,296,897     2,193,602
+Cash and cash equivalents                                                            7,881,171     3,099,838       7,648,909     2,717,805
+Total assets                                                                        75,966,875    68,585,109      66,314,921    58,786,953
+
+Equity and liabilities
+Equity
+Stated capital                                                        17             1,062,500     1,062,500       1,062,500     1,062,500
+Restricted regulatory reserve                                                        1,515,796     1,515,796         798,004       798,004
+Other reserves                                                                      (1,155,849)     (820,149)       (680,349)     (552,501)
+Retained earnings                                                                   12,577,562    11,909,472      12,578,708    11,954,660
+Total equity                                                                        14,000,009    13,667,619      13,758,863    13,262,663
+
+Liabilities
+Insurance contract liabilities                                        12            49,556,524    46,611,447      40,723,029    38,040,296
+Employee benefit liabilities                                                           602,110       582,974         602,110       580,331
+Loans and borrowings                                                                 4,734,348           -         4,734,348             -
+Reinsurance payables                                                                   811,292       721,114         740,424       668,426
+Other liabilities                                                                    5,878,202     6,614,667       5,371,757     5,847,949
+Bank overdraft                                                                         384,390       387,288         384,390       387,288
+Total liabilities                                                                   61,966,866    54,917,490      52,556,058    45,524,290
+Total equity and liabilities                                                        75,966,875    68,585,109      66,314,921    58,786,953
+
+Net asset per share (Rs.)                                            16.1                44.25         44.25           43.48         41.92
+
+The Notes form an integral part of these Financial Statements
+These Financial Statements are in compliance with the requirements of the Companies Act No 07 of 2007.
+
+
+Sgd.
+Nuwan Withanage
+Chief Financial Officer
+
+The Board of Directors is responsible for the preparation and presentation of these Financial Statements.
+Approved and signed for and on behalf of the Board.
+
+
+
+Sgd.                                                                                                            Sgd.
+Ashok Pathirage                                                                                                 Iftikar Ahamed
+Chairman                                                                                                        Managing Director
+
+Colombo
+11 May 2026
+
+                                                                                           -             -               -             -
+
+
+
+
+                                                                     Page 4 of 18
+SOFTLOGIC LIFE INSURANCE PLC
+STATEMENT OF CHANGES IN EQUITY-COMPANY
+                                                                       Stated capital       Restricted             Other                Retained          Total
+For the Period ended 31 March                                                               regulatory            reserve               earnings
+                                                                                               reserve    Fair value Revaluation
+                                                                                                             reserve       reserves
+                                                                             Rs. ' 000       Rs. ' 000     Rs. ' 000      Rs. ' 000     Rs. ' 000     Rs. ' 000
+
+Balance as at 01 January 2025                                               1,062,500        798,004       (937,778)      173,516      9,258,312    10,354,554
+
+Profit for the period                                                                   -             -              -            -      477,619      477,619
+
+Other comprehensive income for the period
+Equity investments at FVOCI - net change in fair value                            -              -           (85,158)         -              -         (85,158)
+Equity investments at FVOCI - net change in fair value - Life fund                -              -           (47,932)         -              -         (47,932)
+Debt investments at FVOCI - net change in fair value                              -              -          (426,975)         -              -        (426,975)
+Re-measurement Gain on defined benefit liabilities                                -              -               -            -              -             -
+Gain on revaluation of land and building                                          -              -               -            -              -             -
+Debt investments at FVOCI - net change in fair value - Life fund                  -              -             5,088          -              -           5,088
+Debt investments at FVOCI - reclassified to income statement                      -              -               -            -              -             -
+Total other comprehensive income, net of tax                                      -              -          (554,977)         -              -        (554,977)
+Total comprehensive income for the period                                         -              -          (554,977)         -          477,619       (77,358)
+Balance as at 31 March 2025                                                 1,062,500        798,004      (1,492,755)     173,516      9,735,931    10,277,196
+
+Profit for the period                                                               -             -              -            -        3,525,859     3,525,859
+
+Other comprehensive income for the period
+Equity investments at FVOCI - net change in fair value                              -             -         679,635           -              -         679,635
+Equity investments at FVOCI - net change in fair value - Life fund                  -             -         410,800           -              -         410,800
+Equity investments at FVOCI – reclassified to retained earnings/Life Fund                                  (596,005)                     214,392      (381,613)
+Debt investments at FVOCI - net change in fair value                                -             -         154,153           -              -         154,153
+Re-measurement Gain on defined benefit liabilities                                  -             -             -             -          (97,694)      (97,694)
+Gain on revaluation of land and building                                            -             -             -          47,591            -          47,591
+Debt investments at FVOCI - net change in fair value - Life fund                    -             -          70,564           -              -          70,564
+Debt investments at FVOCI - reclassified to income statement                        -             -             -             -              -             -
+Total other comprehensive income, net of tax                                        -             -         719,147        47,591        116,698       883,436
+Total comprehensive income for the period                                           -             -         719,147        47,591      3,642,557     4,409,295
+
+Transaction with owners of the Company
+Contribution and distribution
+Interim dividend - 2025                                                           -              -              -             -       (1,423,828)   (1,423,828)
+Balance as at 31 December 2025                                              1,062,500        798,004       (773,608)      221,107     11,954,660    13,262,663
+
+Profit for the period                                                               -             -              -            -         624,048       624,048
+
+Other comprehensive income for the period
+Equity investments at FVOCI - net change in fair value                            -              -              -             -              -             -
+Equity investments at FVOCI - net change in fair value - Life fund                -              -           19,883           -              -          19,883
+Debt investments at FVOCI - net change in fair value                              -              -          (65,963)          -              -         (65,963)
+Debt investments at FVOCI - net change in fair value - Life fund                  -              -          (81,768)          -              -         (81,768)
+Debt investments at FVOCI - reclassified to income statement                      -              -              -             -              -             -
+Total other comprehensive income, net of tax                                      -              -         (127,848)          -              -        (127,848)
+Total comprehensive income for the period                                         -              -         (127,848)          -          624,048       496,200
+Balance as at 31 March 2026                                                 1,062,500        798,004       (901,456)      221,107     12,578,708    13,758,863
+
+
+
+
+                                                                            Page 5 of 18
+SOFTLOGIC LIFE INSURANCE PLC
+STATEMENT OF CHANGES IN EQUITY -GROUP
+                                                                      Stated capital Restricted                     Other                Retained         Total
+For the Period ended 31 March                                                        regulatory                    reserve               earnings
+                                                                                        reserve            Fair value Revaluation
+                                                                                                              reserve       reserves
+                                                                            Rs. ' 000         Rs. ' 000     Rs. ' 000      Rs. ' 000     Rs. ' 000    Rs. ' 000
+
+Balance as at 01 January 2025                                               1,062,500         798,004       (937,778)      173,516      9,258,312    10,354,554
+
+Profit for the period                                                                 -                -              -            -      853,613      853,613
+
+Other comprehensive income for the period
+Equity investments at FVOCI - net change in fair value                            -               -           (85,158)         -              -         (85,158)
+Equity investments at FVOCI - net change in fair value - Life fund                -               -           (47,932)         -              -         (47,932)
+Debt investments at FVOCI - net change in fair value                              -               -          (426,975)         -              -        (426,975)
+Re-measurement Gain on defined benefit liabilities                                -               -               -            -              -             -
+Gain on revaluation of land and building                                          -               -               -            -              -             -
+Debt investments at FVOCI - net change in fair value - Life fund                  -               -             5,088          -              -           5,088
+Debt investments at FVOCI - reclassified to income statement                      -               -               -            -              -             -
+Total other comprehensive income, net of tax                                      -               -          (554,977)         -              -        (554,977)
+Total comprehensive income for the period                                         -               -          (554,977)         -          853,613       298,636
+Balance as at 31 March 2025                                                 1,062,500         798,004      (1,492,755)     173,516     10,111,925    10,653,190
+
+Profit for the period                                                             -           717,792             -            -        3,108,894     3,826,686
+
+Other comprehensive income for the period
+Equity investments at FVOCI - net change in fair value                            -                -         679,635           -              -         679,635
+Equity investments at FVOCI - net change in fair value - Life fund                -                -         410,800           -              -         410,800
+Equity investments at FVOCI – reclassified to retained earnings/Life Fund                                   (596,005)                     214,392      (381,613)
+Debt investments at FVOCI - net change in fair value                              -               -         (170,531)          -              -        (170,531)
+Re-measurement Gain on defined benefit liabilities                                -               -              -             -         (101,911)     (101,911)
+Gain on revaluation of land and building                                          -               -              -          47,591            -          47,591
+Debt investments at FVOCI - net change in fair value - Life fund                  -               -         (110,085)          -              -        (110,085)
+Debt investments at FVOCI - reclassified to income statement                      -               -          237,685           -              -         237,685
+Total other comprehensive income, net of tax                                      -               -          451,499        47,591        112,481       611,571
+Total comprehensive income for the period                                         -           717,792        451,499        47,591      3,221,375     4,438,257
+
+Transaction with owners of the Company
+Contribution and distribution
+Interim dividend - 2025                                                           -                -              -            -       (1,423,828)   (1,423,828)
+Balance as at 31 December 2025                                              1,062,500        1,515,796     (1,041,256)     221,107     11,909,472    13,667,619
+
+Profit for the period                                                             -                -              -            -         668,090       668,090
+
+Other comprehensive income for the period
+Equity investments at FVOCI - net change in fair value                            -                -              -            -              -             -
+Equity investments at FVOCI - net change in fair value - Life fund                -                -           19,883          -              -          19,883
+Debt investments at FVOCI - net change in fair value                              -                -         (273,815)         -              -        (273,815)
+Debt investments at FVOCI - net change in fair value - Life fund                  -                -          (81,768)         -              -         (81,768)
+Debt investments at FVOCI - reclassified to income statement                      -                -              -            -              -             -
+Total other comprehensive income, net of tax                                      -                -         (335,700)         -              -        (335,700)
+Total comprehensive income for the period                                         -                -         (335,700)         -          668,090       332,390
+Balance as at 31 March 2026                                                 1,062,500        1,515,796     (1,376,956)     221,107     12,577,562    14,000,009
+
+
+
+
+                                                                              Page 6 of 18
+SOFTLOGIC LIFE INSURANCE PLC
+STATEMENT OF CASH FLOWS
+
+For the Period ended 31 March                                                           Group                 Company
+                                                                                         2026          2026           2025
+                                                                                       Rs. ' 000      Rs. ' 000      Rs. ' 000
+                                                                                      Un-audited      Audited        Audited
+
+Cash flows from operating activities
+Profit before taxation                                                                    975,854        880,913         668,140
+Adjustments for :
+Depreciation of property, plant and equipment                                              42,970          38,827         30,903
+Amortisation of intangible assets                                                           2,926             488            300
+Depreciation of right of use asset                                                        138,801         135,111         83,352
+Derecognition of ROU asset/ liabilities                                                       916             189            -
+Interest expenses on lease liabilities and loans and borrowings                            47,687          46,547        124,893
+Provision for employee benefit liabilities                                                 20,923          20,923         14,342
+Net realised gains                                                                       (217,831)        (83,438)       (15,503)
+Net fair value (gains)/ losses                                                             89,655          18,055        (85,422)
+Net unrealised losses on foreign currency transactions                                    (84,052)        (84,052)       (27,313)
+Net amortisation of financial investments                                                (164,724)       (172,533)       164,891
+Provision for impairment (reversal) /losses on financial investments                         (851)           (851)         2,973
+                                                                                          852,274         800,179        961,556
+Change in operating assets
+Decrease / (increase) in loans to life policyholders                                      (17,421)        (17,421)       (13,400)
+Increase in reinsurance receivables                                                       (68,912)        (60,996)        15,563
+Decrease in premium receivables                                                          (581,134)       (587,920)       822,333
+Increase in receivables and other assets                                                 (233,083)        (97,504)      (437,171)
+                                                                                         (900,550)       (763,841)       387,325
+Change in operating liabilities
+Increase / (decrease) in insurance contract liabilities                                  2,945,077      2,682,733       1,411,583
+Increase in reinsurance payables                                                            87,472         69,292        (231,232)
+Increase / (decrease) in other liabilities                                                (691,139)      (595,713)         43,928
+                                                                                         2,341,410      2,156,312       1,224,279
+Net cash generated from operations                                                       2,293,134      2,192,650       2,573,159
+Tax Paid                                                                                  (340,000)      (340,000)       (321,000)
+Gratuity paid                                                                               (1,788)        (1,788)           (550)
+Net cash generated from operating activities                                             1,951,346      1,850,862       2,251,610
+Cash flows from investing activities
+Acquisition of investment securities                                                   (13,237,271)   (10,630,233)   (10,249,206)
+Proceeds from sale of investment securities                                             11,636,290      9,269,934      9,180,408
+Acquisition of property, plant and equipment                                               (49,994)       (49,994)       (22,105)
+Acquisition of intangible assets                                                               -              -           (3,925)
+Net cash flows used in investing activities                                             (1,650,975)    (1,410,293)    (1,094,828)
+Cash flows from financing activities
+Proceeds from long term borrowing                                                        4,732,926      4,732,926            -
+Principal Payment of lease liabilities                                                    (249,066)      (239,493)      (109,274)
+Net cash used in financing activities                                                    4,483,860      4,493,433       (109,274)
+Net increase / (Decrease) in cash and cash equivalents                                   4,784,231      4,934,002       1,047,508
+Net cash and cash equivalents as at 1 January                                            2,712,550      2,330,517       1,501,337
+Net cash and cash equivalents as at 31 March                                             7,496,781      7,264,519       2,548,845
+Analysis of cash and cash equivalents
+Cash in hand and at bank                                                                 7,881,171      7,648,909       2,936,057
+Bank overdraft                                                                            (384,390)      (384,390)       (387,212)
+Total cash and cash equivalents as at 31 March                                           7,496,781      7,264,519       2,548,845
+
+
+
+
+                                                                       Page 7 of 18
+SOFTLOGIC LIFE INSURANCE PLC
+STATEMENT OF FINANCIAL POSITION - LIFE INSURANCE FUND OF THE COMPANY
+
+As at                            Note              Group                       Company
+                                        31.03.2026      31.12.2025     31.03.2026   31.12.2025
+                                        Rs. ' 000        Rs. ' 000      Rs. ' 000    Rs. ' 000
+                                        Un-audited       Audited        Audited      Audited
+Assets
+Property, plant and equipment                  329,144       333,000       329,144       333,000
+Right of use assets                          1,473,310     1,428,321     1,473,310     1,269,713
+Financial investments                       46,563,786    46,059,598    37,338,940    36,932,104
+Loans to life policyholders                    430,250       412,829       430,250       412,829
+Reinsurance receivables                        593,845       524,933       543,473       482,477
+Premium receivables                          2,572,958     1,991,824     2,506,908     1,918,988
+Receivables and other assets                 1,992,574     1,900,612     1,932,369     1,840,606
+Cash and cash equivalents                    3,176,084     3,071,469     2,943,822     2,689,436
+Total assets                                57,131,951    55,722,586    47,498,216    45,879,153
+
+Equity and liabilities
+Equity
+Other reserves                                (116,854)     153,717       (102,843)      (40,958)
+Total equity                                  (116,854)     153,717       (102,843)      (40,958)
+
+Liabilities
+Insurance contract liabilities     12       49,556,524    46,611,447    40,723,029    38,040,296
+Employee benefit liabilities                   602,110       582,974       602,110       580,331
+Reinsurance payables                           811,292       721,114       740,424       668,426
+Other liabilities                            5,894,489     7,266,046     5,151,106     6,243,770
+Bank overdraft                                 384,390       387,288       384,390       387,288
+Total liabilities                           57,248,805    55,568,869    47,601,059    45,920,111
+Total equity and liabilities                57,131,951    55,722,586    47,498,216    45,879,153
+
+
+
+
+                                        Page 8 of 18
+    SOFTLOGIC LIFE INSURANCE PLC
+    NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+1    REPORTING ENTITY
+    Softlogic Life Insurance PLC (“the Company”) is a public limited liability company incorporated and domiciled in Sri Lanka. The
+    Company is regulated under the Insurance Industry Act No. 43 of 2000 and amendments thereto, and is a licensed life insurer under
+    the regulation of the Insurance Regulatory Commission of Sri Lanka (IRCSL). The Company was re-registered under the
+    Companies Act No. 07 of 2007. The registered office is situated at Level 16, One Galle Face Tower, Colombo - 02. The ordinary
+    shares of the Company have a primary listing on the Colombo Stock Exchange (CSE).
+
+
+2    APPROVAL OF FINANCIAL STATEMENTS BY THE BOARD OF DIRECTORS
+    The interim condensed Financial Statements of the Group and the Company for the period ended 31 March 2026 were authorised
+    for issue by the Board of Directors on 11 May 2026.
+
+3 BASIS OF PREPARATION
+  The interim condensed Financial Statements for the period ended 31 March 2026 have been prepared in compliance with Sri Lanka
+  Accounting Standard LKAS 34 - Interim Financial Reporting, together with the application of the Statement of Alternative
+  Treatment (SoAT) issued by the Institute of Chartered Accountants of Sri Lanka (CA Sri Lanka) in relation to the initial adoption of
+  SLFRS 17 Insurance Contracts and SLFRS 9 Financial Instruments for insurance entities as stated in Note 3.1. These interim
+  condensed Financial Statements do not include all the information and disclosures required in the annual financial statements, and
+  should be read in conjunction with the Annual Financial Statements for the year ended 31 December 2025.
+
+    The same accounting policies and methods of computation as stated in the Annual Financial Statements for 2024 have been
+    followed in preparing these interim condensed Financial Statements, except for the impact of the acquisition of Softlogic Life
+    Insurance Lanka Limited (formerly known as Allianz Life Insurance Lanka Limited) by Softlogic Life Insurance PLC, which is
+    disclosed as a significant event. Further, the provisions of the Companies Act No. 7 of 2007, the Regulation of the Insurance
+    Industry Act No. 43 of 2000, and the requirements of the CSE have been considered.
+
+    The interim period’s disclosures are in accordance with the provisions of SLFRS 3 - Business Combinations and SLFRS 12 -
+    Disclosure of Interests in Other Entities. In preparing these condensed interim financial statements, management has made
+    judgements and estimates that affect the reported amounts of assets and liabilities, income, and expense. Actual results may differ
+    from these estimates.
+
+    The significant judgements made by management in applying the Company’s accounting policies and the key sources of estimation
+    uncertainty were the same as those described in the last annual financial statements.
+
+    New SLFRSs and Interpretations issued but not yet effective have not been early adopted during the period.
+
+3.1 Application of SoAT on the Figures in the Interim Financial Statements
+
+    SLFRS 17 Insurance Contracts becomes effective for annual reporting periods commencing on or after 1 January 2026. Due to
+    implementation challenges within the insurance industry, CA Sri Lanka has permitted insurers to continue applying SLFRS 4
+    Insurance Contracts for the first and second interim reporting periods of the initial year of adoption, provided that additional
+    disclosures are made regarding the anticipated impact of SLFRS 17 and SLFRS 9.
+
+    Softlogic Life Insurance PLC has undertaken a structured, multi-year transformation to implement SLFRS 17, the new insurance
+    accounting standard replacing SLFRS 4. The initiative began with early gap assessments and design phases, and has progressed
+    through system development, policy formulation, and operational readiness. By early 2026, the Company had achieved key
+    milestones, including the implementation of a dedicated SLFRS 17 calculation engine, ensuring that the front-end operational
+    systems as well as accounting and actuarial developments in place, engagement of actuarial and accounting experts, and the
+    refinement of accounting policies to enhance consistency and transparency in financial reporting. The Company remains on track
+    for full compliance by the 1 January 2026 effective date, with parallel runs and transition financial statements forming part of the
+    final implementation phase.
+
+
+
+
+                                                                    Page 9 of 18
+    The implementation of SLFRS 17 at Softlogic Life Insurance PLC represents a fundamental shift from a largely premium-based
+    accounting model under SLFRS 4 to a fulfilment cash flow (FCF) driven measurement framework. The Company has transitioned
+    to a model that explicitly measures insurance contract liabilities as the sum of discounted probability-weighted future cash flows, a
+    risk adjustment for non-financial risk, and the contractual service margin (CSM). For long-term life insurance portfolios, the
+    General Measurement Model (GMM) has been predominantly applied, while simplified approaches such as the Premium Allocation
+    Approach (PAA) and Variable Fee Approach (VFA) are used where eligibility criteria are met. This has required significant
+    recalibration of actuarial methodologies, including assumptions relating to mortality, persistency, expenses, and discount rates, with
+    increased emphasis on current estimates and explicit risk quantification.
+
+    A key technical focus area has been the operationalisation of the CSM, which defers unearned profits and releases them
+    systematically over the coverage period based on service patterns. This introduces improved volatility management compared to
+    legacy accounting, particularly through the separation of insurance service results from insurance finance income or expenses. The
+    Company has also determined appropriate discount rate methodologies (top-down or bottom-up approaches) and defined portfolios
+    and groups of contracts at a more granular level, in line with SLFRS 17 grouping requirements. These changes have necessitated the
+    deployment of an integrated actuarial valuation engine and sub-ledger architecture capable of handling high-volume, policy-level
+    data and producing multi-dimensional disclosures.
+
+    From a systems and data perspective, Softlogic Life has undertaken extensive data model redesign and integration across actuarial,
+    finance, and IT systems to ensure consistency and auditability. The introduction of an SLFRS 17 sub-ledger enables automated
+    postings, reconciliation with the general ledger, and the generation of required disclosures such as roll-forwards of insurance
+    liabilities and CSM movements. Parallel run milestones are critical for validating measurement outputs against SLFRS 4 and
+    identifying transition impacts, including the treatment of loss components for onerous contracts and the selection of transition
+    approaches (full retrospective, modified retrospective, or fair value). Overall, the implementation enhances the granularity and
+    economic relevance of financial reporting, while also introducing greater complexity in modelling, controls, and governance.
+
+    In accordance with the SoAT, the entity will not present the qualitative and quantitative disclosures with the first interim financial
+    statements for the period ended 31 March 2026, due to the absence of sufficiently reliable and finalised results, as the
+    implementation and validation of SLFRS 17 are still in progress. Stakeholders are encouraged to refer to the detailed
+    expected/possible impact assessment and comprehensive disclosures presented in the Company’s Annual Report 2025, available in
+    the Investor Relations section (pages 451 to 461), for an in-depth analysis of the financial, actuarial, and operational implications
+    arising from the implementation.
+
+
+ 4 EFFECT OF CHANGES IN COMPOSITION OF THE GROUP
+4.1 Business Combination – Acquisition of Softlogic Life Insurance Lanka Limited
+    On 11 July 2025, Softlogic Life Insurance PLC acquired 100% of the issued and paid-up share capital of Softlogic Life Insurance
+    Lanka Limited (“the Subsidiary”) from Allianz SE, following approval granted by the IRCSL via letter dated 2 July 2025. The
+    purchase consideration of Rs. 1,426 Million was paid in cash. Following the acquisition, Allianz Life became a wholly-owned
+    subsidiary of Softlogic Life. The Subsidiary will continue to operate as a separate licensed entity under the regulatory framework of
+    the IRCSL until any future integration plans are approved.
+
+    The acquisition has been accounted for using the acquisition method in accordance with SLFRS 3 – Business Combinations and the
+    Control of the Subsidiary was obtained on 11 July 2025. Management evaluated the financial impact of the Subsidiary for the
+    period prior to the acquisition and concluded that the results and cash flows for this period were not material to the Group.
+
+    As at 11 July 2025, the Group recognised provisional amounts for the identifiable assets acquired and liabilities assumed, including
+    goodwill, in accordance with SLFRS 3 Business Combinations pending the finalisation of certain fair value assessments
+    of assets and liabilities acquired. These provisional amounts are subject to adjustment during the measurement period (not
+    exceeding twelve months from the acquisition date) if new information is obtained about facts and circumstances that existed at the
+    acquisition date and would have affected the measurement of the amounts recognised where the impact would not be material to the
+    Financial Statements..
+
+    Based on the preliminary purchase price allocation, the fair value of the identifiable assets acquired and liabilities assumed were Rs.
+    11,190 million and Rs.10,171 million respectively, with a total cash consideration of Rs. 1,426 million. Accordingly, a provisional
+    intangible asset of Rs. 407 million has been recognised in the financial statements.
+
+
+
+
+                                                                    Page 10 of 18
+  SOFTLOGIC LIFE INSURANCE PLC
+  NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+5 FAIR VALUE MEASUREMENT AND RELATED FAIR VALUE DISCLOSURES
+  During the period, there were no transfers between Level 1 and Level 2 and no transfers into or out of Level 3 categories as
+  per the fair value hierarchy. The fair value changes on financial instruments in Level 3 category was properly recorded in the
+  statement of other comprehensive income. As at the reporting date, fair value would not significantly change if one or more
+  of the inputs of financial assets classified at level 3 were changed.
+
+
+6 GROSS WRITTEN PREMIUM
+
+  For the year ended 31 March                                                      Group                   Company
+                                                                                    2026             2026            2025
+                                                                                  Rs. ' 000        Rs. ' 000        Rs. ' 000
+                                                                                 Un-audited         Audited         Audited
+  First year premium                                                               2,342,800        2,219,535        1,854,011
+  Renewal premium                                                                  5,863,665        5,344,595        4,592,052
+  Group life premium                                                               2,829,386        2,826,320        1,965,237
+  Single premium                                                                   1,299,512        1,299,029           571,062
+  Total Gross Written Premium                                                     12,335,363       11,689,479        8,982,362
+
+7 TOTAL NET REVENUE
+
+  For the year ended 31 March                                                      Group                   Company
+                                                                                    2026            2026              2025
+                                                                                     Rs. ' 000      Rs. ' 000           Rs. ' 000
+                                                                                   Un-audited      Audited              Audited
+  Net written premium                                                              11,584,595      10,957,003         8,305,767
+  Other revenue                                                                     1,659,658       1,341,401         1,457,464
+  Total Net Revenue                                                                13,244,253      12,298,404         9,763,231
+
+8 FINANCE COST
+
+  For the year ended 31 March                                                      Group                   Company
+                                                                                    2026            2026             2025
+                                                                                  Rs. ' 000        Rs. ' 000        Rs. ' 000
+                                                                                  Un-audited       Audited               Audited
+  Interest expenses on lease liabilities, loans and borrowings                          47,687         46,547           124,893
+  Net exchange losses / (gains)                                                        (84,052)       (84,052)          (27,313)
+  Other finance cost                                                                    35,221         36,361            32,137
+  Total Finance Cost / (Gains)                                                          (1,144)        (1,144)          129,717
+
+9 PROFIT BEFORE TAXATION
+  For the year ended 31 March                                                      Group                   Company
+                                                                                    2026            2026              2025
+                                                                                     Rs. ' 000      Rs. ' 000           Rs. ' 000
+                                                                                   Un-audited      Audited              Audited
+
+  Profit before taxation                                                              975,854         880,913           668,140
+  Total                                                                               975,854         880,913           668,140
+  Refer Note 12.3 for the details on the surplus transfer from the Non participating fund to shareholder fund during the quarter.
+
+
+
+
+                                                                 Page 11 of 18
+   SOFTLOGIC LIFE INSURANCE PLC
+   NOTES TO THE INTERIM FINANCIAL STATEMENTS
+10 INCOME TAX EXPENSE
+   The gains and profits from the Life Insurance Business are ascertained in terms of Section 67 of the Inland Revenue Act No. 24 of 2017.
+   Accordingly, gains and profits on which tax is payable is the aggregate of:
+
+   Taxable Income Source                                                      Applicable Tax Rate for the
+                                                                                        Group
+   Surplus distributed to shareholders from the Life Insurance
+                                                                                          30%
+   policyholders fund as certiﬁed by the actuary
+   Investment income of the shareholder fund less any expenses
+                                                                                          30%
+   incurred in the production of such income
+   Surplus distributed to a life insurance policyholder who shares the
+                                                                                          30%
+   proﬁts of a person engaged in the business of life insurance
+   Dividend paid out of profit recorded in shareholder fund are subject to income tax at 15%.
+
+11 FINANCIAL INVESTMENTS
+   As at                                                                 Note               Group                       Company
+                                                                                 31.03.2026     31.12.2025      31.03.2026   31.12.2025
+                                                                                  Rs. ' 000      Rs. ' 000       Rs. ' 000    Rs. ' 000
+                                                                                 Un-audited      Audited         Audited      Audited
+   Treasury bonds                                                                 38,091,024      29,688,140     20,880,836   21,252,866
+   Treasury bills                                                                    790,017         391,214               -            -
+   Fixed deposits                                                                  2,007,923       1,872,087      2,462,211     1,753,810
+   Commercial papers                                                               1,633,996       1,633,996      1,991,109     1,633,996
+   Quoted debentures                                                               4,778,220       4,778,220      4,538,350     4,778,220
+   Unquoted debentures                                                               301,555         301,555         308,137      301,555
+   Repo                                                                           10,328,615       9,918,185      9,924,215     9,664,745
+   Equity securities                                                               1,728,420       1,162,645        556,442       536,559
+   International sovereign bonds                                                   3,334,066       3,334,066      3,394,226     3,334,066
+   Unlisted perpetual debenture                                                      719,932         719,932         717,037      719932
+   Unit trust                                                                      3,135,564       3,116,173      3,854,726     3,096,551
+   Securitised papers                                                                  92,511          45,861              -            -
+                                                                                  66,941,843      56,962,074     48,627,289   47,072,300
+12 INSURANCE CONTRACT LIABILITIES
+   As at                                                                 Note        Group                              Company
+                                                                          31.03.2026     31.12.2025             31.03.2026   31.12.2025
+                                                                           Rs. ' 000      Rs. ' 000              Rs. ' 000    Rs. ' 000
+                                                                          Un-audited      Audited                Audited      Audited
+   Insurance contract liabilities                                          47,327,106      44,457,865            38,572,185   35,955,425
+   Surplus created due to change in valuation method from NPV to GPV 12.1   1,056,535       1,056,535             1,056,535     1,056,535
+   Claim payables                                                           1,172,883       1,097,047             1,094,309     1,028,336
+                                                                            49,556,524     46,611,447            40,723,029   38,040,296
+
+
+
+
+                                                              Page 12 of 18
+       SOFTLOGIC LIFE INSURANCE PLC
+       NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+12.1   Transfer of One-off Surplus from Policyholder Fund to Shareholder Fund
+       The Insurance Regulatory Commission of Sri Lanka (IRCSL) has issued a Direction No 16 on 20th March 2018 on
+       “Guidelines/ Directions for Identiﬁcation and Treatment of One-off Surplus” and has instructed all Life Insurance
+       Companies to comply with the new Direction. Based on the new guidelines, Life Insurance Companies are directed
+       to transfer One-off surplus attributable to Policyholder Non-Participating Fund to shareholder fund as at the
+                               st
+       reporting year ended 31 December 2017. The transfer has been presented as a separate line item in the Income
+       Statement as “Change in contract liability due to transfer of One-off surplus” and as a separate reserve in the
+       Statement of Financial Position as “Restricted Regulatory Reserve” under Equity in accordance with above
+                                                                                                                th
+       Direction. As required by the said Direction, the Company received the approval for this transfer on 29 March
+       2018.
+
+       Further distribution of One-off Surplus to shareholders, held as part of the Restricted Regulatory Reserve, is subject
+       to meeting governance requirements stipulated by the IRCSL and can only be released as dividends upon receiving
+       approval from the IRCSL. The One-off Surplus in the shareholder fund will remain invested in government debt
+       securities and deposits as disclosed in Note 11.2 as per the Directions of the IRCSL.
+
+       One-off surplus in respect of participating business is held within the participating fund as part of the unallocated
+       valuation surplus and may only be transferred to the shareholder fund by means of bonuses to policyholders in line
+       with Section 38 of the “Regulation of Insurance Industry Act.
+
+                                                                                                  Company
+       Movement of One-off Surplus After Transfer                             Participating       Non-             Total
+                                                                                 Fund         Participating
+                                                                                                 Fund
+                                                                                    Rs. ' 000       Rs. ' 000      Rs. ' 000
+       Value of insurance contract liability based on independent
+                                                                                   3,866,780         2,472,575    6,339,355
+       actuary-NPV as at 31st December 2015
+       Value of insurance contract liability based on independent
+                                                                                   2,810,245         1,674,571    4,484,816
+       actuary - GPV as at 31st December 2015
+       Surplus Created due to Change in Valuation method
+       from NPV to GPV- One off Surplus as at 1st January                          1,056,535          798,004     1,854,539
+       2016
+       Transfer of one-off surplus from long term fund to
+                                                                                              -      (798,004)     (798,004)
+       restricted regulatory reserve.
+       Surplus created due to Change in Valuation Method -
+                                                                                   1,056,535                  -   1,056,535
+        One-off Surplus as at 31 March 2026
+
+       The distribution of One-off surplus to Shareholders as dividends shall remain restricted until the Company develops
+       appropriate policies and procedures for effective management of its business.
+
+
+
+
+                                                         Page 13 of 18
+     SOFTLOGIC LIFE INSURANCE PLC
+     NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+12.2 Composition of Investments Supporting the Restricted Regulatory Reserve as at 31 March 2026
+                                                                                                     Group                            Company
+     Asset Category                                            ISIN No                        As at 31 March 2026               As at 31 March 2026
+                                                                                            Face Value Market Value        Face Value     Market Value
+                                                                                               Rs.         Rs. ' 000          Rs.            Rs. ' 000
+     Government securities
+     Treasury bonds                                            LKJ01236C152                 240,920,679         185,524     240,920,679               185,524
+                                                               LKJ01337I155                 240,920,679         181,655     240,920,679               181,655
+                                                               LKJ01438I151                 240,920,679         179,453     240,920,679               179,453
+                                                               LKJ01539I156                 240,920,679         177,512     240,920,679               177,512
+                                                               LKJ01640I152                 240,920,679         175,800     240,920,679               175,800
+                                                               LKB01032G014                  25,000,000          34,545
+                                                               LKB02032J017                   9,000,000           8,743
+                                                               LKB02033K013                 172,000,000         161,837
+                                                               LKB02033K013                  35,000,000          32,932
+                                                               LKB01534I155                 125,000,000         120,456
+                                                               LKB02033K013                 150,000,000         141,137
+                                                               LKB01534I155                 150,000,000         144,547
+                                                               LKB01035F159                  50,000,000          50,475
+
+     Repo                                                      LKB00730J158                  61,335,000          60,251
+
+
+     Total Market Value of the Assets                                                               -         1,654,867              -                899,944
+     Restricted Regulatory Reserves                                                                 -         1,515,796              -                798,004
+
+12.3 Valuation of Life Insurance Fund
+     Softlogic Life Insurance PLC:
+     The valuation of life insurance fund as at 31 March 2026 of the Softlogic life insurance PLC was made by Appointed Actuary Mr. Kunj Behari
+     Maheshwari, FIA, FIAI, of Messrs. Willis Towers Watson India Private Limited, who approved to transfer from Non-Participating Life Insurance fund /
+     insurance contract liabilities to the Shareholders fund as surplus transfer.
+     Accordingly, the Company transferred Rs.720 Million from the non participating fund to shareholder fund as surplus transfer for the quarter ended 31
+     March 2026 (2025 - Rs. 420 Million).
+
+
+     Softlogic Life Insurance Lanka Limited:
+     The valuation of the life insurance fund of the subsidiary was carried out by the Appointed Actuary, Mr. Sanyam Jain , FIA, FIAI, of Messrs .Willis
+     Towers Watson India Private Limited. Based on this valuation, the Company transferred Rs.75 Million from the non participating fund to shareholder fund
+     as surplus transfer for the period ended 31 March 2026.
+
+12.4 Liability Adequacy Test (LAT) - Life Insurance Contract Liabilities
+     Liability Adequacy Test (LAT) in respect of the Insurance Contract Liabilities as required by SLFRS 4 - Insurance Contracts are carried out annually by
+     the Company / Group.
+
+13 CAPITAL COMMITMENTS AND CONTINGENCIES
+   The capital commitments approved and contracted as at the reporting date amounted to Rs. 138.23 Million for the Group and Rs. 14.52 Million for the
+   Company.
+
+13.2 Contingencies
+     The Contingent liabilities of the company as at 31 March 2026, relates to the followings;
+     Assessment in Respect of Value Added Tax (VAT)
+     1)VAT assessments have been issued by the Department of Inland Revenue for the taxable period 2010 and was determined by the Tax Appeal
+     Commission (TAC) in 2019. Out of total 11 assessments, 08 assessments were determined in favour of Commissioner General of Inland Revenue (CGIR)
+     amounting to Rs. 46.5 Million including the penalty and 03 assessments were determined in favour of the Company amounting to Rs. 24.8 Million
+     including the penalty.
+     The Company transmitted the former case to the Court of Appeal being dissatisfied with the determination which determined in favour of the CGIR and
+     case is stated for the opinion of the Honourable Court of Appeal. The Total tax exposure of this appeal is Rs. 46.5 Million including the penalty.
+
+
+     The CGIR, transmitted the latter case to the Court of Appeal being dissatisfied with the determination which determined in favour of the Company and the
+     case is stated for the opinion of the Honourable Court of Appeal.
+
+
+
+
+                                                                           Page 14 of 18
+     SOFTLOGIC LIFE INSURANCE PLC
+     NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+13.2 Contingencies (Cont.)
+     Assessment in Respect of Value Added Tax on Financial Services (VAT on FS)
+     2) The CGIR issued its determination on the appeal filed by the Company relating to the assessment raised for Y/A
+     2014/15, 2016/17 and 2017/18 under the Value Added Tax Act amounting to Rs. 68.7 Million, Rs. 28 Million and Rs.
+     102.4 Million respectively, in favour of the CGIR.
+
+     For the Y/A 2014/15 and 2017/18, the Company has received the determinations of the TAC also in favour of the
+     Company. However, the CGIR has transmitted the said cases to the Court of Appeal being dissatisfied with the
+     determinations which determined in favour of the Company and cases are stated for the opinion of the Honourable
+     Court of Appeal.
+
+     The Company is in the process of hearing the other appeal on the Y/A 2016/17 with TAC, on the basis that the
+     underlying computation includes items which are out of scope of the VAT Act.
+
+     3) Assessment has been issued for the Company under the Value Added Tax Act, in relation to the Y/A 2019/20 and
+     2021/22 amounting to Rs. 433.16 Million including the penalty. For the Y/A 2019/20, the Company has appealed to
+     TAC upon the receipt of the CGIR determination. For the other case, the company has appealed on the same basis as
+     stated above and is awaiting for the CGIR determination.
+
+     4)The Company has received an Assessment for the Y/A 2022/23 amounting to Rs.643.54 Million including the
+     penalty and in the process of appealing for an administrative review.
+
+
+     5) An assessment has been issued under the Nation Building Tax Act, in relation to the Y/A 2018/19 amounting to Rs.
+     9.7 Million. The Company has filed an appeal to the CGIR on the basis that the underlying computation includes items
+     which are out of scope of the NBT Act. The Company is awaiting the CGIR's determination.
+      Life Insurance Taxation
+     6) The TAC issued its determination on the appeal filed by the Company relating to the assessment raised for the Y/A
+     2010/11 amounting to Rs. 0.68 Million, in favour of the Company and the CGIR has transmitted this case to the Court
+     of Appeal being dissatisfied with the said determination of TAC and case is stated for the opinion of the Honourable
+     Court of Appeal. The Company is awaiting the decision of the Court of appeal.
+
+     7) The TAC issued its determination on the appeal filed by the Company relating to the assessment raised for the Y/A
+     2011/12 and 2012/13 amounting to Rs.10.1 Million and Rs. 12.4 Million respectively, in favour of CGIR and The
+     Company has transmitted the cases to the Court of Appeal being dissatisfied with the said determination of TAC and
+     cases are stated for the opinion of the Honourable Court of Appeal. The Order has been delivered by the Court of
+     Appeal in favour of the Company.
+
+     8) The CGIR issued its determination on the appeal filed by the Company relating to the assessments raised for the Y/A
+     2014/15, 2015/16, 2016/17 and 2017/18 amounting to Rs. 662.9 Million along with penalty, in favour of the CGIR. For
+     the Y/A 2014/15 and 2017/18, the Company has received the determinations of the TAC in favour of the Company.
+
+
+     However, cases are stated in the Honourable Court of Appeal by the CGIR. The Company is in the process of hearing
+     the appeals with Tax Appeals Commission for the Y/A 2015/16 and 2016/17.
+
+     9) The CGIR issued its determination on the appeal filed by the Company relating to the assessment raised for the Y/A
+     2018/19, 2019/20, 2020/21 and 2021/22 amounting to Rs. 3,007.24 Million along with penalty, in favour of the CGIR.
+     The Company has submitted petition of appeals with TAC.
+
+     10) The Company has received an Assessment on PAYE Tax for the Y/A 2016/17 amounting to Rs. 0.9 Million along
+     with penalty for which company has duly submitted an appeal.
+     The Directors are of the view that the Company has followed due process and complied with the prevailing tax laws in
+     its tax submissions. Accordingly, the likelihood of the Company being required to settle any of these tax assessments is
+     considered to be remote.In addition, in the opinion of the Directors, there are no litigations or claims involving the
+     Company that may have a material effect on the financial statements. Other than those disclosed above, the Group does
+     not have any contingencies that require disclosure in the financial statements.
+
+
+                                                                Page 15 of 18
+     SOFTLOGIC LIFE INSURANCE PLC
+     NOTES TO THE INTERIM FINANCIAL STATEMENTS
+14   EVENTS AFTER THE REPORTING PERIOD
+     No circumstances have arisen since the reporting date which would require adjustments or disclosure in the Interim Financial Statements of the
+     Group.
+
+15   COMPARATIVE INFORMATION
+     The presentation and classification in the financial statements of the Company are amended where appropriate to ensure comparability with the
+     current period.
+
+16   SHARE INFORMATION
+16.1 Net Assets Per Share
+                                          As at                                                Group                           Company
+                                                                                        2026            2025            2026             2025
+
+     Net assets per share                                                                   44.25           43.20           43.48           41.92
+     Net Asset per Share - Excluding One-off Surplus                                        39.46           38.41           40.96           39.39
+
+16.2 Market Price Per Share of the Company
+
+                                                                                                                               Company
+     For the quarter ended 31 March                                                                                     2026             2025
+                                                                                                                         Rs               Rs
+     Last traded price (Last trade date - 31st March 2026)                                                                 81.40             72.40
+     Highest traded price per share for the quarter                                                                        98.00             83.60
+     Lowest traded price per share for the quarter                                                                         73.00             65.70
+
+17
+     STATED CAPITAL
+                                  As at                                                                                      Company
+                                                                                                                     31.03.2026   31.12.2025
+
+     Stated capital (Rs.' 000)                                                                                          1,062,500        1,062,500
+
+     No: of Ordinary Shares                                                                                          316,406,250      316,406,250
+
+
+18   BASIC AND DILUTED EARNING PER SHARE (EPS)
+     For the Period ended 31 March                                                                     Group                   Company
+     Profit attributable to ordinary                                                                    2026           2026             2024
+     shareholders (Rs. 000)                                                                              668,090         624,048          477,619
+     Weighted average no: of shares as at 31 March                                                   316,406,250     316,406,250      316,406,250
+     Basic / Diluted EPS (Rs.)                                                                               2.11           1.97             1.51
+
+
+
+
+                                                                      Page 16 of 18
+        SOFTLOGIC LIFE INSURANCE PLC
+        NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+
+
+19 TWENTY LARGEST SHAREHOLDERS
+
+                                                                                                    Company
+        Name of Shareholder                                                                     As at 31.03.2026
+                                                                                            No. of Shares      %
+    1 Softlogic Capital PLC                                                                  158,714,972          50.16
+    2 Dalvik Inclusion Private Limited                                                        59,531,790          18.81
+    3 Milford Ceylon (Pvt) Ltd                                                                59,531,790          18.81
+    4 People'S Leasing & Finance PLC/Mrs.H.A.J.Wickramasena                                    1,900,000           0.60
+    5 Invenco Capital (Private) Limited                                                        1,386,359           0.44
+    6 Bansei Securities Capital (Pvt) Ltd/I.S.P Perera                                         1,082,230           0.34
+    7 Commercial Bank Of Ceylon PLC/W. Jinadasa                                                1,039,276           0.33
+    8 Mr. L.R.Y. Waidyaratne                                                                   1,000,000           0.32
+    9 Mr. G.C. Goonetilleke                                                                      893,629           0.28
+    10 Mr. P.G.N.D. Gunathilake                                                                  800,000           0.25
+    11 DFCC Bank PLC/Mr.P.Pranavan                                                               627,500           0.20
+    12 Hatton National Bank PLC A/C No.4 (HNB Retirement Pension Fund)                           589,523           0.19
+    13 Mr. D. Balasundaram                                                                       518,548           0.16
+    14 Seylan Bank PLC / G.A. Bhanuka Harischandra                                               466,339           0.15
+    15 DFCC Bank PLC / A.S. Hathiramani                                                          440,863           0.14
+    16 Mr. A.P.P.M. Abeyrathne                                                                   434,185           0.14
+    17 Seylan Bank PLC / Anuja Chamila Jayasinghe                                                413,376           0.13
+    18 Mr. M.A.H. Esufally                                                                       387,316           0.12
+    19 Senkadagala Finance PLC / L.A.J.F. Morais                                                 380,251           0.12
+    20 Dialog Finance PLC / D.S. Nakandala                                                       356,760           0.11
+                                                                                             290,494,707           91.8
+        Others                                                                                25,911,543           8.20
+        Total                                                                                316,406,250         100.00
+
+
+20 PUBLIC SHAREHOLDING
+   The percentage of shares held by the public, the number of public shareholders and the float adjusted market
+   capitalisation are as given below:
+                                                                                                        Company
+   As at                                                                                            2026        2025
+                                                                                                     Rs          Rs
+   Public shareholding (%) - Compliant under Option 1 of CSE listing Rule 7.13.1.b                      12.16      11.32
+   Public shareholders                                                                                  5,477      4,948
+   Float adjusted market capitalisation (Rs.' 000)                                                  3,132,123 2,593,852
+   Public Holding percentage - Ordinary Non-Voting Shares as at 31 March 2026 - Nil
+
+21 DIRECTORS’ SHARE HOLDINGS
+   As at 31 March                                                                                     2026
+   Name of The Director                                                                    No. of Shares        %
+   Mr. A.K. Pathirage (Chairman)                                                                 Nil            Nil
+   Mr. T.M.I. Ahamed (Managing Director / CEO)                                                   Nil            Nil
+   Mr. H.K. Kaimal - Director                                                                    Nil            Nil
+   Ms. Fernanda Lima - Director                                                                  Nil            Nil
+   Mr.V. Govindasamy - Director                                                                  Nil            Nil
+   Mr. R. Snyders - Director                                                                     Nil            Nil
+   Mr. P.L.P. Withana - Director                                                                 Nil            Nil
+   Mr. S.W. Mohottala - Director                                                                 Nil            Nil
+
+
+
+
+                                                                   Page 17 of 18
+     SOFTLOGIC LIFE INSURANCE PLC
+     NOTES TO THE INTERIM FINANCIAL STATEMENTS
+
+22 RELATED PARTY DISCLOSURES
+   The nature of the related parties in the current period and terms and conditions of transactions with related parties are similar to those
+   reported in the audited Financial Statements for the year ended 31 December 2025.
+
+22.1 Transactions with Key Management Personnel of the Company or its parent
+     According to Sri Lanka Accounting Standard - LKAS 24 Related Party Disclosure, Key Management Personnel (KMP) are those
+     having authority and responsibility for planning, directing and controlling the activities of the entity. Accordingly, the Directors
+     (including Executive and Non-Executive Directors) and their immediate family members have been classified as Key Management
+     Personnel of the Company.
+
+     Immediate family member is defined as spouse or dependent. A dependent is defined as anyone who depends on the respective KMP
+     for his/her financial needs.
+     For the Period ended 31 March                                                              Group            Company
+                                                                                                 2026       2026           2025
+                                                                                               Rs.' 000   Rs.' 000       Rs.' 000
+     Transactions with the Ultimate Parent and Parent
+     Recorded in the Income Statement:
+      Net premium                                                                                        1,663        1,663           2,718
+      Interest income                                                                                    9,149        9,149          12,630
+      Expenses                                                                                             -            -             1,010
+      Receiving of services                                                                             31,586       31,586          27,905
+     Recorded in the Statement of Changes in Equity and Statement of Financial Position:
+      Insurance premium receivable                                                                         61            61             93
+      Investments                                                                                     305,800       305,800        211,808
+      Interest income receivable                                                                          -             -           12,753
+      Other Receivable                                                                                    467           467            -
+     Transactions with Other Related Entities
+     Recorded in the Income Statement:
+      Net premium                                                                                      36,258        36,258          52,009
+      Expenses                                                                                        140,229       140,229          85,066
+     Recorded in the Statement of Changes in Equity and Statement of Financial Position:
+      Insurance premium receivable                                                                     10,065        10,065         20,968
+      Investments                                                                                     556,442       556,442        470,603
+      Other Receivable                                                                                 45,941        48,167         44,830
+      Other Payable                                                                                    31,073        31,073            -
+
+
+
+
+                                                                            Page 18 of 18
+
