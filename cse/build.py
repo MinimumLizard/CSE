@@ -166,6 +166,19 @@ def build_context(root: Path = ROOT) -> dict:
     losers = [trow(r) for r in sorted((r for r in liquid if r.percentageChange < 0), key=lambda r: r.percentageChange)[:10]]
 
     # Panel B ---------------------------------------------------------------------------------
+    fund = {r["code"]: r for r in storage.read_rows(root / "data" / "fundamentals" / "latest.csv")}
+
+    def stock_valuation(sym: str, price) -> dict:
+        """P/E, P/B and dividend yield at this row's price (docs/METHODS.md §12); EPS and NAV are per
+        company, so a non-voting share is valued at its own price."""
+        fr = fund.get(sym.split(".")[0])
+        if not fr or not price:
+            return {}
+        eps, nav, div = (float(fr[k]) if fr.get(k) not in (None, "") else None for k in ("ttm_eps", "nav", "div_ttm"))
+        return {"pe": price / eps if eps and eps / price > 0.002 else None, "loss": eps is not None and eps <= 0,
+                "pb": price / nav if nav and nav > 0 else None, "dy": div / price if div is not None else None,
+                "ttm_to": fr.get("ttm_to"), "nav_period": fr.get("nav_period")}
+
     book = []
     year_ago = calendar[-min(len(calendar), 240)] if calendar else sess.date
     for group, syms in universe.groups.items():
@@ -190,6 +203,7 @@ def build_context(root: Path = ROOT) -> dict:
                 "mcap": (t.marketCap if t and t.marketCap else (si.marketCap if si else None)),
                 "beta": info.reqSymbolBetaInfo.triASIBetaValue if info and info.reqSymbolBetaInfo else None,
                 "turnover": t.turnover if t else None,
+                "val": stock_valuation(sym, price),
             })
         book.append({"group": group, "rows": rows})
 
@@ -293,6 +307,7 @@ def main() -> None:
     own = ownership_site.context(ROOT)
     ctx["ownership_page"] = own is not None
     ctx["flows_page"] = (ROOT / "data" / "flows" / "latest.json").exists()
+    ctx["fundamentals_page"] = (ROOT / "data" / "fundamentals" / "latest.csv").exists()
     render(ctx, out)
     print(f"wrote {out.relative_to(ROOT)}")
     if own is not None:
@@ -301,6 +316,15 @@ def main() -> None:
     from . import flows
     if flows.render(ROOT, ROOT / "site" / "flows.html"):
         print("wrote site/flows.html")
+    from . import fundamentals
+    fc = fundamentals.page_context(ROOT)
+    if fc:
+        env = Environment(loader=FileSystemLoader(Path(__file__).parent / "templates"),
+                          autoescape=select_autoescape(["html", "j2"]), trim_blocks=True, lstrip_blocks=True)
+        (ROOT / "site" / "fundamentals.html").write_text(env.get_template("fundamentals.html.j2").render(
+            rows=fc["rows"], c=fc["check"], n_pe=fc["n_pe"], n_pb=fc["n_pb"], n=fc["n"],
+            methods_url=METHODS_URL + "#12-fundamentals"))
+        print("wrote site/fundamentals.html")
 
 
 if __name__ == "__main__":
