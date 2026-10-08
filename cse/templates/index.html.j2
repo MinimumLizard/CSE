@@ -96,6 +96,7 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   <span class="meta">History: {{ calendar_len }} sessions since {{ calendar_start or "—" }}</span>
   {% if ownership_page %}<span class="meta"><a href="ownership.html">Ownership →</a></span>{% endif %}
   {% if flows_page %}<span class="meta"><a href="flows.html">Money flows →</a></span>{% endif %}
+  {% if fundamentals_page %}<span class="meta"><a href="fundamentals.html">Fundamentals →</a></span>{% endif %}
 </header>
 {% if run.failed %}
 <div class="banner" role="alert">⚠ The last data run failed ({{ run.last.run_at_utc }} UTC): {{ run.last.message }}. Figures below are from the last good session, {{ session }}.</div>
@@ -199,10 +200,11 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
       <th class="l">Symbol</th><th>Price</th><th>Day</th><th>52-week range</th><th title="Today's volume ÷ mean of previous {{ avg_sessions }} sessions">Vol/avg</th>
       {% for w in windows %}<th title="Stock price return minus ASPI return, {{ w }}">vs ASPI {{ w }}</th>{% endfor %}
       <th>Mkt cap</th><th title="CSE-published beta vs TRI-ASI">β CSE</th>
+      <th title="Price ÷ trailing-12-month EPS from the interim reports (METHODS §12)">P/E</th><th title="Price ÷ net assets per share from the latest interim report">P/B</th><th title="Cash dividends with ex-date in the last 12 months ÷ price">Div yld</th>
     </tr></thead>
     <tbody>
     {% for g in book %}
-      <tr class="grp"><td colspan="{{ 7 + windows | length }}">{{ g.group }}</td></tr>
+      <tr class="grp"><td colspan="{{ 10 + windows | length }}">{{ g.group }}</td></tr>
       {% for r in g.rows %}
       <tr>
         <td class="l"><span class="sym">{{ r.symbol.split(".")[0] }}</span>{% if r.symbol.endswith(".X0000") %}<span class="mut sm">.X</span>{% endif %}{% if r.excluded %}<span class="excl" title="excluded: flagged, never held by model portfolios">⛔</span>{% endif %}<br><span class="name sm">{{ r.name }}</span></td>
@@ -218,6 +220,9 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
         {% endfor %}
         <td>{{ r.mcap | rs }}</td>
         <td>{{ r.beta | num(2) }}</td>
+        <td title="{{ 'TTM to ' ~ r.val.ttm_to if r.val.ttm_to else 'no trailing 12 months of reconciled quarters' }}">{% if r.val.pe %}{{ r.val.pe | num(1) }}{% elif r.val.loss %}<span class="dn sm">loss</span>{% else %}<span class="mut">—</span>{% endif %}</td>
+        <td title="{{ 'NAV at ' ~ r.val.nav_period if r.val.nav_period else 'no reconciled NAV per share' }}">{% if r.val.pb %}{{ r.val.pb | num(2) }}{% else %}<span class="mut">—</span>{% endif %}</td>
+        <td>{% if r.val.dy is not none and r.val.dy is defined %}{{ (r.val.dy * 100) | num(1) }}%{% else %}<span class="mut">—</span>{% endif %}</td>
       </tr>
       {% endfor %}
     {% endfor %}

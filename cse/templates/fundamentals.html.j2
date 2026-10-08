@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSE Fundamentals</title>
+<meta name="description" content="P/E, P/B, ROE and dividend yield for every listed company, read from its interim reports and reconciled.">
+<style>
+:root{--bg:#0d0d0c;--surface:#161615;--surface-2:#1e1e1c;--rule:#2c2c29;--text:#ecebe6;--text-2:#b4b3aa;--muted:#7d7c74;
+  --up:#3fb950;--dn:#f85149;--accent:#3987e5;--mono:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace;color-scheme:dark}
+*{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font:13px/1.45 var(--mono)}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+header{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding:10px 16px;border-bottom:1px solid var(--rule);background:var(--surface)}
+header h1{font-size:14px;margin:0;letter-spacing:.08em;text-transform:uppercase} header .meta{color:var(--text-2)} header .meta b{color:var(--text)}
+main{display:grid;gap:12px;padding:12px 16px 24px}
+section.panel{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px;min-width:0}
+section.panel>h2{margin:0 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.note{color:var(--text-2);margin:0 0 8px;max-width:1000px} .sm{font-size:11px} .mut{color:var(--muted)} .sym{font-weight:600}
+.kpis{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.kpi{background:var(--surface-2);border-radius:4px;padding:8px 10px} .kpi .v{font-size:17px;font-weight:600} .kpi .k{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:3px 6px;white-space:nowrap;border-bottom:1px solid var(--rule)}
+th{color:var(--muted);font-weight:500;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;user-select:none}
+th[aria-sort=ascending]::after{content:" ▲"} th[aria-sort=descending]::after{content:" ▼"}
+td{text-align:right} th.l,td.l{text-align:left} tbody tr:hover{background:#ffffff08}
+.dn{color:var(--dn)} .chip{font-size:10px;padding:0 5px;border-radius:3px;border:1px solid #3987e566;color:#86b6ef;margin-left:4px}
+.toggle{display:inline-flex;border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.toggle button{font:inherit;font-size:11px;background:transparent;color:var(--text-2);border:0;padding:3px 9px;cursor:pointer}
+.toggle button[aria-pressed=true]{background:var(--accent);color:#fff}
+tr[hidden]{display:none} footer{color:var(--muted);padding:0 16px 24px;font-size:11px;max-width:1100px}
+</style>
+</head>
+<body>
+<header>
+  <h1>CSE Fundamentals</h1>
+  <span class="meta"><a href="index.html">Terminal</a> · <a href="ownership.html">Ownership</a> · <a href="flows.html">Money flows</a></span>
+  <span class="meta">Prices: session <b>{{ c.date }}</b></span>
+</header>
+<main>
+<section class="panel">
+  <h2>Valuation from the companies' own reports <a class="sm" href="{{ methods_url }}">method</a></h2>
+  <p class="note">The CSE publishes no per-company earnings or book value. These figures come from each company's quarterly
+  interim reports. A figure is used only if it <b>reconciles inside its report</b>: EPS × shares must equal the profit line,
+  and net assets per share × shares must equal equity. Trailing-12-month earnings add up four consecutive quarters of profit,
+  so share splits don't distort them. Per-share figures use today's issued shares, so P/E = market cap ÷ profit and
+  P/B = market cap ÷ equity, the same construction as the CSE's market ratios. A dash means the reports didn't give four reconcilable quarters (or a reconcilable book
+  value). Nothing is estimated.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ "%.1f"|format(c.per) if c.per else "—" }} <span class="mut sm">vs CSE {{ c.per_cse }}</span></div><div class="k">market P/E, our companies ({{ "%.0f"|format((c.per_cov or 0) * 100) }}% of cap)</div></div>
+    <div class="kpi"><div class="v">{{ "%.2f"|format(c.pbv) if c.pbv else "—" }} <span class="mut sm">vs CSE {{ c.pbv_cse }}</span></div><div class="k">market P/B ({{ "%.0f"|format((c.pbv_cov or 0) * 100) }}% of cap)</div></div>
+    <div class="kpi"><div class="v">{{ "%.1f"|format(c.dy * 100) if c.dy else "—" }}% <span class="mut sm">vs CSE {{ c.dy_cse }}%</span></div><div class="k">market dividend yield</div></div>
+    <div class="kpi"><div class="v">{{ n_pe }} / {{ n_pb }} / {{ n }}</div><div class="k">companies with P/E · P/B · total</div></div>
+  </div>
+  <p class="note sm">The first three tiles compare our per-company figures, aggregated by market value, with the CSE's own published
+  market ratios. Agreement there checks the extraction as a whole; each row's source report is linked.</p>
+</section>
+<section class="panel">
+  <h2>All companies
+    <span class="toggle" role="group" aria-label="Filter"><button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="watch">Watchlist</button></span>
+  </h2>
+  <div class="scroll"><table id="t">
+    <thead><tr><th class="l" data-k="code" data-t="s">Stock</th><th class="l" data-k="sector" data-t="s">Sector</th><th data-k="cap">Mkt cap Rs bn</th><th data-k="price">Price</th>
+      <th data-k="pe" title="Price ÷ trailing-12-month EPS">P/E</th><th data-k="ey" title="Trailing-12-month EPS ÷ price (works for losses too)">Earnings yld</th>
+      <th data-k="pb" title="Price ÷ net assets per share">P/B</th><th data-k="roe" title="Trailing EPS ÷ net assets per share">ROE</th>
+      <th data-k="dy" title="Cash dividends with ex-date in the last 12 months ÷ price">Div yld</th><th class="l" data-k="ttm_to" data-t="s">Earnings to</th><th class="l">Report</th></tr></thead>
+    <tbody>
+    {% for r in rows %}
+      <tr data-watch="{{ 1 if r.watch else 0 }}" data-code="{{ r.code }}" data-sector="{{ r.sector }}" data-cap="{{ r.cap }}" data-price="{{ r.price or '' }}" data-pe="{{ r.pe or '' }}" data-ey="{{ r.ey if r.ey is not none else '' }}" data-pb="{{ r.pb or '' }}" data-roe="{{ r.roe if r.roe is not none else '' }}" data-dy="{{ r.dy if r.dy is not none else '' }}" data-ttm_to="{{ r.ttm_to }}">
+        <td class="l"><span class="sym">{{ r.code }}</span>{% if r.watch %}<span class="chip">watch</span>{% endif %}<br><span class="mut sm">{{ r.name[:38] }}</span></td>
+        <td class="l sm mut">{{ r.sector[:26] }}</td>
+        <td>{{ "{:,.1f}".format(r.cap / 1e9) }}</td><td>{{ "{:,.2f}".format(r.price) if r.price else "—" }}</td>
+        <td>{% if r.pe %}{{ "%.1f"|format(r.pe) }}{% elif r.loss %}<span class="dn sm">loss</span>{% else %}<span class="mut">—</span>{% endif %}</td>
+        <td>{{ "%.1f%%"|format(r.ey * 100) if r.ey is not none else "—" }}</td>
+        <td>{{ "%.2f"|format(r.pb) if r.pb else "—" }}</td>
+        <td>{{ "%.1f%%"|format(r.roe * 100) if r.roe is not none else "—" }}</td>
+        <td>{{ "%.1f%%"|format(r.dy * 100) if r.dy is not none else "—" }}</td>
+        <td class="l sm">{{ r.ttm_to or "" }}</td>
+        <td class="l sm">{% if r.url %}<a href="{{ r.url }}" rel="noopener">PDF</a>{% endif %}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+</main>
+<footer>Sources: each company's interim reports on cdn.cse.lk (text kept in <code>data/raw/ownership/text/</code>), CSE share counts
+and closing prices, and confirmed corporate actions for dividends. Per-report figures and the lines they were read from are in
+<code>data/fundamentals/reports.csv</code>; rebuild with <code>python -m cse.fundamentals</code>. Not investment advice.</footer>
+<script>
+const tbody = document.querySelector("#t tbody");
+document.querySelectorAll("#t th[data-k]").forEach(th => th.addEventListener("click", () => {
+  const k = th.dataset.k, str = th.dataset.t === "s";
+  const dir = th.getAttribute("aria-sort") === "descending" ? 1 : -1;
+  document.querySelectorAll("#t th").forEach(x => x.removeAttribute("aria-sort"));
+  th.setAttribute("aria-sort", dir === 1 ? "ascending" : "descending");
+  const rows = [...tbody.rows];
+  rows.sort((a, b) => {
+    const x = a.dataset[k], y = b.dataset[k];
+    if (x === "" && y !== "") return 1; if (y === "" && x !== "") return -1;
+    return str ? dir * x.localeCompare(y) : dir * (parseFloat(x) - parseFloat(y));
+  });
+  rows.forEach(r => tbody.appendChild(r));
+}));
+document.querySelectorAll(".toggle button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".toggle button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  [...tbody.rows].forEach(r => r.hidden = b.dataset.f === "watch" && r.dataset.watch !== "1");
+}));
+</script>
+</body>
+</html>

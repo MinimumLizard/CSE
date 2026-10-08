@@ -27,3 +27,5 @@ run_at_utc,command,status,session,message
 2026-10-08T05:46:45Z,lab,ok,2026-10-07,"141 stocks, 52 weekly returns; record already has 2026-10-07 for v1-52w-grp20; nothing written"
 2026-10-08T05:46:56Z,ownership-analyse,ok,2026-10-07,"ownership: 247/281 companies with a verified shareholder table (95.9% of market cap); 2916 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
 2026-10-08T05:46:56Z,dealings,ok,,"dealings: 0 notices fetched; 2242 transactions (573 buys, 1658 sells, 11 other)"
+2026-10-08T06:09:05Z,fundamentals,ok,,"fundamentals: 1004/1328 report EPS and 897 NAV/share reconciled; 214 companies with P/B, 153 with trailing-12-month EPS"
+2026-10-08T06:13:18Z,fundamentals,ok,,"fundamentals: 1004/1328 report EPS and 897 NAV/share reconciled; 214 companies with P/B, 153 with trailing-12-month EPS"
