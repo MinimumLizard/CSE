@@ -23,3 +23,4 @@ run_at_utc,command,status,session,message
 2026-10-08T04:16:41Z,ownership-analyse,ok,2026-10-07,"ownership: 247/281 companies with a verified shareholder table (95.9% of market cap); 2916 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
 2026-10-08T04:30:55Z,dealings,ok,,"dealings: 830 notices fetched; 2242 transactions (568 buys, 1658 sells, 16 other)"
 2026-10-08T04:31:16Z,dealings,ok,,"dealings: 0 notices fetched; 2242 transactions (573 buys, 1658 sells, 11 other)"
+2026-10-08T05:46:40Z,fetch,no_new_session,2026-10-07,no new session (latest stored daily session 2026-10-07)
