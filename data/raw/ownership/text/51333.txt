@@ -1,0 +1,621 @@
+                                                  CHEMANEX PLC
+
+                            INTERIM FINANCIAL STATEMENTS FOR THE PERIOD ENDED 31.03.2025
+
+
+
+
+                                                 CHEMANEX PLC
+
+                                       FOR THE PERIOD ENDED 31st MARCH 2026
+CIC HOLDINGS PLC – PUBLIC
+    CHEMANEX PLC
+    Corporate Information
+
+    Name of Company               Chemanex PLC
+
+    Legal Status                  A Public Quoted Company with Limited Liability
+                                  Under the provisions of Companies Act No 7 of 2007
+
+    Registered Office             No 199, Kew Road
+                                  Colombo 02
+
+
+    Date of Incorporation         28 August 1974
+
+    Company Registration Number   PQ 64
+
+    Directors                     S A B Ekanayake - Chairman
+                                  R P Bandaranayake
+                                  W P Madawanarachchi (appointed w.e.f. 16/01/2026)
+                                  T K D A P Samarasinghe
+                                  P A Seresinhe
+                                  P R Saldin (deceased on 16/01/2026)
+
+    Company Secretary             S A B P W M R R W T Wegodapola
+
+    Auditors                      Ernst & Young
+                                  Chartered Accountants
+                                  Rotunda Towers, No.109, Galle Road,
+                                  P.O.Box 101, Colombo 03.
+
+    Legal Advisers                Nithya Partners
+                                  Attorneys-at - Law
+                                  97A, Galle Road, Colombo 3.
+
+                                  Heritage Partners
+                                  Attorneys-at - Law
+                                  04, Malasekara Pedesa, Colombo 07,
+
+    Subsidiary Companies          Chemanex Exports (Pvt) Limited (Non operating)
+                                  Chemcel (Pvt) Limited (Non operating)
+
+    Bankers                       Commercial Bank of Ceylon PLC
+                                  Standard Chartered Bank
+                                  Hatton National Bank PLC
+                                  Nations Trust Bank PLC
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                          CHEMANEX PLC
+             CHEMANEX PLC
+             STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+
+                                                                           Quarter ended 31 March             Twelve months ended 31 March
+                                                                                                Variance
+                                                                        2026         2025                     2026         2025       Variance %
+                                                                                                   %
+             (In Rs. '000)                                  Note
+             Revenue                                          1         267,624      240,444          11     1,092,939     873,516            25
+             Cost of sales                                             (190,186)    (173,226)         10      (803,366)   (621,461)           29
+             Gross profit                                                77,439       67,218          15       289,574     252,055            15
+             Other income                                     2          26,889       10,290         161        83,233      55,381            50
+             Finance cost                                                (2,808)      (4,140)        (32)      (27,904)    (21,371)           31
+             Finance income                                                 655       (1,115)       (159)        2,458       1,261            95
+             Net finance expense                              3          (2,153)      (5,255)        (59)      (25,446)    (20,110)          (27)
+             Administrative expenses                                    (14,416)     (13,102)         10       (55,844)    (56,811)           (2)
+             Distribution expenses                                      (20,060)     (21,701)         (8)      (92,865)    (77,955)           19
+             Reversal of impairment provision on trade receivables          692        4,319         (84)          429       8,592            95
+             Other operating expenses                         4            (145)      (5,079)        (97)         (145)     (5,199)          (97)
+             Profit before tax                                           68,246      36,690           86      198,936     155,953            28
+             Income tax expense                                         (12,242)     (7,433)         (65)     (45,330)    (38,527)           18
+             Profit for the period                                       56,004      29,257           91      153,606     117,426            31
+
+             Other comprehensive income
+             Items that will not be re-classified to profit or loss
+             Actuarial gain/(loss) on retirement benefit obligation         (619)          26     (2,481)        (619)         26        (2,481)
+             Income tax on other comprehensive income                   (111,761)    (26,296)        325     (111,761)    (26,296)          325
+             Profit from sale of rights                                      -           -           -            -        16,794           100
+             Net gain/(loss) from fair value change of financial assets (207,816)   (301,094)        (31)     114,330     387,484           (70)
+             Total other comprehensive income                           (320,197)   (327,364)          (2)      1,949     378,008           (99)
+             Total comprehensive income for the period                  (264,193)   (298,107)        (11)     155,555     495,434           (69)
+
+             Profit attributable to:
+             Equity holders of the Company                               56,004      29,257           91      153,606     117,426            31
+                                                                         56,004      29,257           91      153,606     117,426            31
+             Other comprehensive income attributable to:
+             Equity holders of the Company                             (320,197)    (327,364)         (2)        1,949    378,008            (99)
+                                                                       (320,197)    (327,364)         (2)        1,949    378,008            (99)
+
+             Earnings per share
+             Basic/Diluted earnings per share (Rs.)                        3.47         1.86          86          9.51        7.48           27
+
+             Figures in brackets indicate deductions.
+             The above figures are provisional & subject to audit.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                CHEMANEX PLC
+         CHEMANEX PLC
+         CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+
+                                                                                Quarter ended 31 March             Twelve months ended 31 March
+                                                                                                  Variance                                Variance
+                                                                              2026        2025                      2026       2025
+                                                                                                      %                                      %
+         (In Rs. '000)                                                 Note
+         Revenue                                                        1 267,624         240,444        11       1,092,939     873,516         25
+         Cost of sales                                                      (190,186)    (173,226)       10        (803,366)   (621,461)        29
+         Gross profit                                                         77,439       67,218        15         289,574     252,055         15
+         Other income                                                   2     26,889       10,290      161           83,233      55,381         50
+         Finance cost                                                         (2,808)      (4,140)     (32)         (27,904)    (21,371)        31
+         Finance income                                                          655       (1,115)    (159)           2,458       1,261         95
+         Net finance expense                                            3     (2,153)      (5,255)     (59)         (25,446)    (20,110)      (27)
+         Administrative expenses                                             (14,416)     (13,102)       10         (55,844)    (56,811)        (2)
+         Distribution expenses                                               (20,060)     (21,701)       (8)        (92,865)    (77,955)        19
+         Reversal of impairment provision on trade receivables                   692        4,319      (84)             429       8,592         95
+         Other operating expenses                                       4        -         (5,051)     100              -        (5,051)      100
+         Share of loss of equity accounted investees, net of tax                 -            -        -                -           -         -
+         Profit before tax                                                    68,391       36,718        86         199,081     156,101         28
+         Income tax expenses                                                 (12,242)      (7,433)       65         (45,330)    (38,527)        18
+         Profit after tax from continuing operations                          56,149       29,285        92         153,751     117,574         31
+         Profit from discontinued operations, net of tax                       3,187          392      713            9,492       1,039       814
+         Profit for the period                                                59,336       29,677      100          163,243     118,613         38
+
+         Other comprehensive income
+         Items that will not be re-classified to profit or loss
+         Actuarial loss on retirement benefit obligation                         (619)          26   (2,481)          (619)         26     (2,481)
+         Profit from sale of rights                                               -           -         -              -        16,794        100
+         Net gain/(loss) from fair value change of financial assets          (206,578)   (300,914)      (31)       117,618     390,287        (70)
+         Income tax expense on other comprehensive income                    (111,761)    (26,296)      325       (111,761)    (26,296)       325
+         Other comprehensive income for the period, net of tax               (318,959)   (327,184)          (3)       5,237    380,811        (99)
+         Total comprehensive income for the period                           (259,623)   (297,507)      (13)       168,480     499,424        (66)
+
+         Profit attributable to :
+         Equity holders of the Company                                        59,375      29,687       100         163,282     118,651         38
+         Non-controlling interest                                                (39)        (10)      290             (39)        (38)         3
+                                                                              59,336      29,677       100         163,243     118,613         38
+         Other comprehensive income attributable to :
+         Equity holders of the Company                                       (318,959)   (327,184)          (3)       5,237    380,811        (99)
+         Non-controlling interest                                                 -           -         -                                     -
+                                                                             (318,959)   (327,184)          (3)       5,237    380,811        (99)
+
+         Basic/Diluted earnings per share from continuing operations (Rs.)       3.48        1.87           87         9.52        7.49        27
+         Basic/Diluted earnings per share (Rs.)                                  3.68        1.89           94        10.11        7.55        34
+
+         Figures in brackets indicate deductions.
+         The above figures are provisional & subject to audit.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                       CHEMANEX PLC
+             CHEMANEX PLC
+             STATEMENT OF FINANCIAL POSITION
+                                                                                           Company                             Group
+
+                                                                                     31 March      31 March       31 March         31 March
+                                                                                       2026          2025           2026             2025
+             As at                                                         Note
+             (In Rs. '000)
+             Non-Current Assets
+             Property, plant & equipment                                               11,734         13,034          11,734             13,034
+             Intangible assets                                                            382            521             382                521
+             Equity investment at fair value through OCI                              759,634        386,469         759,634            386,469
+
+                                                                                      771,750        400,024         771,750            400,024
+             Current Assets
+             Inventories                                                               177,101        192,514        177,101             192,514
+             Trade and other receivables                                               245,177        225,506        245,177             225,506
+             Equity investment at fair value through OCI                             3,319,088      3,526,299      3,319,088           3,526,299
+             Deposits with banks                                                        27,671         24,473         27,671              24,473
+             Cash & cash equivalents                                         5          28,785         25,156         28,785              25,156
+                                                                                     3,797,821      3,993,948      3,797,821           3,993,948
+             Assets classified as held for distribution                                 47,000         47,000         77,482              64,216
+                                                                                     3,844,821      4,040,948      3,875,303           4,058,164
+             Total Assets                                                            4,616,571      4,440,972      4,647,053           4,458,188
+
+             EQUITY & LIABILITIES
+             Stated capital                                                            193,006        126,250        193,006             126,250
+             Capital reserves                                                              -              -            3,000               3,000
+             Revenue reserves                                                        3,910,911      3,873,158      4,010,082           3,959,365
+             Equity attributable to equity holders of the parent                     4,103,917      3,999,408      4,206,088           4,088,615
+             Non- controlling interests                                                    -              -           (2,909)             (2,870)
+             Total Equity                                                            4,103,917      3,999,408      4,203,179           4,085,745
+
+             Non-Current Liabilities
+             Retirement benefit obligations                                             7,272           6,775          7,272              6,775
+             Deferred tax liabilities                                                 150,634          37,487        150,634             37,487
+                                                                                      157,906          44,262        157,906             44,262
+             Current Liabilities
+             Trade payable                                                             60,535         54,489          60,535             54,489
+             Income tax payable                                                        24,964         22,431          24,964             22,431
+             Accruals & other payable                                                 109,824        111,663          39,854             41,525
+             Loans and borrowings                                                     159,425        208,719         159,425            208,719
+                                                                                      354,748        397,302         284,778            327,164
+
+             Liabilities classified as held for distribution                               -              -            1,190               1,017
+             Total liabilities                                                        512,654        441,564         443,874            372,443
+             Total Equity & Liabilities                                              4,616,571      4,440,972      4,647,053           4,458,188
+
+             Net Assets per share (Rs.)                                                254.08          254.63         260.41             260.31
+             The above figures are provisional & subject to audit.
+             I certify that the above Financial Statements comply with the requirements of the Companies Act No. 7 of 2007.
+
+             (Sgd. ) T M S R Muthugama
+             Chief Financial Officer
+             The Board of Directors is responsible for these Financial Statements.
+             Signed for and on behalf of the Board by;
+
+
+             (Sgd. ) S A B Ekanayake                           (Sgd .) R P Bandaranayake          (Sgd .) S A B P W M R R W T Wegodapola
+
+             Chairman                                          Director                           Company Secretary
+             Colombo
+             26th May 2026
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                                       CHEMANEX PLC
+            CHEMANEX PLC
+
+            STATEMENT OF CHANGES IN EQUITY
+            FOR THE PERIOD ENDED 31 MARCH
+
+
+                                                                    Stated
+            COMPANY                                                                                       Total Equity
+                                                                    Capital    Fair Value   Retained
+            (In Rs. '000)                                                       Reserve     Earnings
+
+
+
+
+            Balance as at 01 April 2024                              126,250     837,550     2,579,442        3,543,242
+
+            Profit for the period                                         -           -        117,426         117,426
+
+            Other comprehensive income                                    -      361,196        16,812         378,008
+
+            Dividends                                                     -                    (39,268)         (39,268)
+
+
+            Balance as at 31 March 2025                              126,250    1,198,746    2,674,412        3,999,408
+
+
+
+            Balance as at 01 April 2025                              126,250    1,198,746    2,674,412        3,999,408
+
+            Profit for the period                                         -           -        153,606         153,606
+
+            Dividends                                                 66,756          -       (117,802)         (51,046)
+
+            Other comprehensive income                                    -        2,576          (627)          1,949
+
+
+            Balance as at 31 March 2026                              193,006    1,201,322    2,709,589        4,103,917
+
+            Figures in brackets indicate deductions.
+            The above figures are provisional & subject to audit.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                    CHEMANEX PLC
+    CHEMANEX PLC
+    STATEMENT OF CHANGES IN EQUITY
+    FOR THE PERIOD ENDED 31 MARCH
+
+
+    GROUP                                                                    Capital Reserves       Revenue Reserves
+                                                                                                                                               Non-
+                                                                                                                                Total
+    (In Rs. '000)                                           Stated Capital      Reserve on      Fair Value      Retained                     Controlling   Total Equity
+                                                                                                                               Reserves
+                                                                                  Script         Reserve        Earnings                      Interest
+                                                                                  Issue
+
+
+    Balance as at 01 April 2024                                  126,250                3,000      836,329      2,662,842       3,628,421        (2,832)     3,625,589
+
+    Profit for the period                                             -                   -             -         118,651        118,651            (38)       118,613
+
+    Dividends                                                         -                   -             -         (39,268)        (39,268)          -          (39,268)
+
+    Other comprehensive income                                        -                   -        363,999         16,812        380,811            -          380,811
+
+
+    Balance as at 31 March 2025                                  126,250                3,000     1,200,328     2,759,037       4,088,615        (2,870)     4,085,745
+
+    Balance as at 01 April 2025                                  126,250                3,000     1,200,328     2,759,037       4,088,615        (2,870)     4,085,745
+
+    Profit for the period                                             -                   -             -         163,282        163,282            (39)       163,243
+
+    Dividends                                                      66,756                 -             -        (117,802)        (51,046)          -          (51,046)
+
+    Other comprehensive income                                        -                   -           5,856            (619)       5,237            -            5,237
+
+    Balance as at 31 March 2026                                  193,006                3,000     1,206,184     2,803,898       4,206,088        (2,909)     4,203,179
+    Figures in brackets indicate deductions.
+    The above figures are provisional & subject to audit.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                                                             CHEMANEX PLC
+    CHEMANEX PLC
+     STATEMENT OF CASH FLOW
+     Cash flow statement                                                        Company                   Group
+     For the period ended 31 March                                             2026   2025              2026    2025
+                                                                           Rs. '000    Rs. '000     Rs. '000    Rs. '000
+     Cash flow from operating activities
+     Cash generated from operations (Note A)                               166,559        93,305    164,934       96,145
+     Interest paid                                                         (27,904)      (20,709)   (23,130)     (20,709)
+     Retirement benefit costs paid                                          (1,668)         (521)    (1,668)        (521)
+     Income tax paid                                                       (41,410)      (20,822)   (41,410)     (20,822)
+     Net cash inflow from operating activities                              95,577        51,253     98,726       54,093
+     Cash flow from investing activities
+     Acquisition of investments                                            (527,803)     (55,746)   (527,803)    (55,746)
+     Addition to property, plant & equipment                                   (592)        (727)       (592)       (727)
+     Proceeds from disposal of investments                                  476,178                  476,178
+     Proceeds from disposal of property, plant & equipment                      -          1,221         -         1,221
+     Dividend received from other companies                                  61,350       32,398      61,350      32,398
+     Investment in bank deposits                                             (3,198)     (17,007)     (3,198)    (17,007)
+     Disposal of rights                                                         -         16,794         -        16,794
+     Interest income received                                                 2,458          952       1,541         344
+     Net cash outflow from investing activities                               8,393      (22,115)      7,476     (22,723)
+
+     Cash flow from financing activities
+     Dividend paid                                                          (51,046)     (39,268)    (51,046)    (39,268)
+     Settlement of lease liability                                              -         (7,410)        -        (7,410)
+     Net cash outflow from financing activities                             (51,046)     (46,678)    (51,046)    (46,678)
+
+     Net decrease in cash & cash
+     equivalents during the period                                          52,924       (17,540)    55,156      (15,308)
+     Cash & cash equivalents at the beginning of the period                (183,563)   (166,023)    (130,651)   (113,111)
+     Unrealised exchange loss/(gain) on cash & cash equivalent                  -                        -           -
+     Cash & cash equivalents at the end of the period (Note B)             (130,639)   (183,563)     (75,495)   (128,419)
+
+     Note A - Cash generated from operations
+     Profit before tax from continued operations                           198,936      155,953     199,081     156,101
+     Profit before tax from discontinued operations                            -            -         9,492       1,048
+     Adjustments for:
+     Depreciation on property, plant & equipment                              1,893        1,984       1,893       1,984
+     Amortization of intangible assets                                          139          139         139         139
+     Amortization of right of use of assets                                     -          5,708         -         5,708
+     Gain on disposal of property, plant & equipment                            -         (1,221)        -        (1,221)
+     Provision for retirement benefit                                         1,546        1,507       1,546       1,507
+     Dividend income                                                        (61,350)     (32,398)    (61,350)    (32,398)
+     Interest income                                                         (2,458)        (952)     (1,541)       (344)
+     Interest expense                                                        27,904       21,371      23,130      21,371
+     Unrelaised exchange (gain)/loss                                            -                        -           -
+     Operating profit before working capital changes                       166,610      152,091     172,390     153,895
+     Increase in trade and other receivables                                (19,671)     (27,408)    (27,417)    (26,618)
+     (Increase)/ decrease in inventories                                     15,413      (52,468)     15,413     (52,468)
+     (Decrease)/ increase in trade and other payables                         4,207       21,090       4,548      21,336
+     Cash generated from operations                                        166,559       93,305     164,934      96,145
+     Note B - Analysis of cash & cash equivalents at the end of the year
+     Cash in hand, at bank and investment in government securities           28,785      25,156       83,929      80,300
+     Interest bearing short-term borrowings                                (159,425)   (208,719)    (159,425)   (208,719)
+                                                                           (130,640)   (183,563)     (75,496)   (128,419)
+     Figures in brackets indicate deductions.
+     The above figures are provisional & subject to audit.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC
+                  CHEMANEX PLC
+                  SEGMENT INFORMATION
+
+                  Note 1
+                                                                                 Group
+
+                  For the period ended 31 March                           2026           2025
+
+                  (In Rs. '000)
+            (a)   Industry segment revenue
+                  Rubber and plastic                                       541,912       440,806
+                  Coating and packaging                                     381,233      293,025
+                  Home and personal care                                    169,794      139,685
+                  Total revenue from external customers                   1,092,939      873,516
+
+
+
+                  PROFIT BEFORE TAXATION
+                  (In Rs. '000)
+            (b)   Industry segment
+                  Rubber and plastic                                       114,649        98,792
+                  Coating and packaging                                     15,524        22,854
+                  Home and personal care                                    12,684         6,613
+
+                                                                           142,857       128,259
+                  Unallocated expenses                                      (1,563)       (7,429)
+                  Other income                                              83,233        55,381
+                  Finance income/ (cost) (net)                             (25,446)      (20,110)
+                  Income tax expense                                       (45,330)      (38,527)
+                  Profit from discontinued operations                        9,492         1,039
+                                                                           163,243       118,613
+
+                  The above figures are provisional & subject to audit.
+                  Figures in brackets indicate deductions.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC
+           CHEMANEX PLC
+           Notes to the Financial Statements
+
+                                                                                              Company                            Group
+           For the period ended 31 March                                              2026              2025         2026                2025
+           (In Rs. '000)
+       2   Other income
+
+           Dividend income                                                             61,350             32,398       61,350                   32,398
+           Direct sales commission                                                     21,883             14,027       21,883                   14,027
+           Rent income                                                                    -                7,696          -                      7,696
+           Profit from disposal of property, plant & equipment                            -                1,221          -                      1,221
+           Sundry income                                                                  -                   39          -                         39
+
+                                                                                       83,233             55,381       83,233                   55,381
+
+
+
+       3   Net finance income                                                                 Company                            Group
+           For the period ended 31 March                                              2026              2025         2026                2025
+           (In Rs. '000)
+           Interest income on deposits                                                   2,458                 952      2,458                      952
+           Gain on foreign currency                                                        -                   309        -                        309
+           Finance cost (Note 3.1)                                                     (27,904)          (21,371)     (27,904)                  (21,371)
+                                                                                                                          -
+                                                                                                                          -
+                                                                                       (25,446)          (20,110)     (25,446)                  (20,110)
+
+
+
+      3.1 Finance cost                                                                        Company                            Group
+           For the period ended 31 March                                              2026              2025         2026                2025
+           (In Rs. '000)
+           Interest on short-term loans & overdrafts                                   23,130             20,709       23,130                   20,709
+           Interest on lease                                                              -                  662          -                        662
+           Loss on foreign currency                                                     4,774                -          4,774                      -
+                                                                                       27,904             21,371       27,904                   21,371
+
+
+
+       4   Other operating expenses                                                           Company                            Group
+           For the period ended 31 March                                              2026              2025         2026                2025
+           (In Rs. '000)
+           Provision for inter- company receivables                                          145             148            -                      -
+           Provision for the advance given to Rainforest Ecolodge (Private) Limited          -             5,051            -                    5,051
+                                                                                             145           5,199            -                    5,051
+
+
+
+       5   Cash and Cash equivalents                                                          Company                            Group
+           For the period ended 31 March                                              2026              2025         2026                2025
+           (In Rs. '000)
+           Cash and bank - Local Currency                                              28,785             25,156       28,785                   25,156
+
+                                                                                       28,785             25,156       28,785                   25,156
+
+           Loans & borrowings                                                          (90,000)         (192,580)     (90,000)              (192,580)
+           Bank overdrafts                                                             (69,425)          (16,139)     (69,425)               (16,139)
+           Cash & Cash equivalents classified as held for sale and distribution            -                 -         55,144                 55,144
+           Cash & Cash equivalents for cash flow purpose                              (130,640)         (183,563)     (75,496)              (128,419)
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                              CHEMANEX PLC
+           Notes to the Financial Statements (Cont..)
+       6   Market value of a share
+                                                                                                                              2026                     2025
+
+                                                                                                                             31-Mar                   31-Mar
+
+                                                                                                                                     Rs.                           Rs.
+           Highest                                                                                                                195.00                       189.00
+           Lowest                                                                                                                 151.00                       146.25
+           Last traded                                                                                                            158.50                       154.00
+
+       7   Earnings and net assets per share                                                        Company                                  Group
+           For the period ended 31 March                                                   2026               2025            2026                     2025
+
+
+           Basic earnings per share (Rs.)                                                      9.51               7.48            10.11                          7.55
+           Net assets per share (Rs.)                                                        254.08             254.63           260.41                        264.56
+
+       8   Share trading
+           For the period ended 31 March                                                                                      2026                     2025
+
+                                                                                                                            31-Mar                    31-Mar
+
+
+           No of transactions during the period                                                                                   1,254                         1,782
+           No of shares traded during the period                                                                                495,529                       878,027
+           Value of shares traded during the period (Rs.000)                                                                 88,397,121                 149,282,277
+
+       9   Stated capital
+                                                                                                      2026                                   2025
+                                                                                           No of             Value           No of                     Value
+                                                                                           shares                            shares
+                                                                                           ('000)            Rs.000          ('000)                   Rs.000
+           As at 31 March                                                                    16,152            193,006           15,707                       126,250
+
+      10   Dividend paid per share
+                                                                                                                              2026                     2025
+                                                                                                                               Rs.                      Rs.
+           Final (FY 2024/25 Rs.2.50, FY 2023/24 Rs.2.50)                                                                             2.50                        2.50
+           Final Scrip (FY 2024/25 Rs.5)                                                                                              5.00                         -
+           Interim                                                                                                                     -                           -
+
+           The Board of directors has recommended a final dividend of Rs. 2.50 per share amounting to Rs. 40.38Mn on the issued capital which is payable on 20th
+           July 2026, if approved by the shareholders at the Annual General Meeting.Other than the above,there were no material events took place since the
+           reporting date which require adjustment to or disclosure in these financial statements.
+
+      11   As at the reporting date no Directors had shares of the Company together with their spouses.
+
+      12   Twenty largest shareholders                                                                                     31.03.2026                31.03.2026
+           Name of the shareholder                                                                                        No of shares                  %
+
+           CIC Holdings PLC                                                                                                   8,164,321                         50.55
+           CIC Holdings PLC/ Charitable & Education Trust Fund                                                                1,673,492                         10.36
+           Sakuvi Investment Trust (Private) Limited                                                                            877,796                          5.43
+           Hatton National Bank PLC/ Mr. W. Jinadasa                                                                            469,400                          2.91
+           CIC Agri Businesses (Private) Limited                                                                                459,257                          2.84
+           S.K. Wickremesinghe Trust (Guarantee) Limited                                                                        411,333                          2.55
+           Mr. S. Srikanthan & Mrs. S. Srikanthan                                                                               308,500                          1.91
+           Senkadagala Finance PLC/ R.S.H. Nanayakkara & R.M. Nanayakkara                                                       145,346                          0.90
+           Senkadagala Finance PLC/ Mr. L.L. Fernando & D.S. Fernando                                                           120,000                          0.74
+           Senkadagala Finance PLC/ Mr. M. Siridaran                                                                            118,474                          0.73
+           Mr. H.R. Peries                                                                                                       74,554                          0.46
+           Dr. H.S.D Soysa & Mrs. G. Soysa                                                                                       70,367                          0.44
+           Mr. Z.G. Carimjee                                                                                                     68,454                          0.42
+           Mrs. H.G.S. Ansell & Mrs. A.P. Ansell                                                                                 66,941                          0.41
+           Dr. H.R. Wickremasinghe & Mr. V.K. Wickramasinghe (Deceased)                                                          61,700                          0.38
+           Shalsri Investments (Private) Limited                                                                                 57,709                          0.36
+           Mr. R.S.H. Nanayakkara & Ms. R.M. Nanayakkara                                                                         56,600                          0.35
+           Mrs. A.G.R.S.C. Thilakarathna                                                                                         55,746                          0.35
+           Mr. U.I. Suriyabandara                                                                                                53,492                          0.33
+           Mr. P.R.D. Fernando                                                                                                   46,239                          0.29
+
+                                                                                                                             13,359,721                         82.71
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                                             CHEMANEX PLC
+           Notes to the Financial Statements (Cont..)
+      13   Public Holding                                                                                                       31.03.2026             31.03.2026
+                                                                                                                               No of shares                %
+           Parent company & related companies
+              CIC Holdings PLC                                                                                                      8,164,321                   50.55
+              CIC Trustees for Charitable & Educational Trust Fund                                                                  1,673,492                   10.36
+              CIC Agri Businesses (Private) Limited                                                                                   459,257                    2.84
+
+                                                                                                                                  10,297,070                     63.75
+           Public holding                                                                                                          5,855,283                     36.25
+                                                                                                                                  16,152,353                    100.00
+
+     13.1 Public Holding
+          Ordinary shares of the Company held by public as at 31 March 2025 were as follows :
+
+           Number of Public Shareholders                                                                                                1,705
+           Percentage of public holding                                                                                                36.25%
+
+      14   Market Capitalization
+
+                                                                                                            No of shares      Share price Rs.        Capitalization Rs.
+           Ordinary shares                                                                                    16,152,353             158.50             2,560,147,951
+
+
+      15   Float Adjusted Market Capitalization
+
+                                                                                                            No of shares      Share price Rs.        Capitalization Rs.
+           Shares held by public                                                                               5,855,283             158.50               928,062,356
+
+
+           As the float adjusted market capitalisation is below Rs.2.5 Bn, Chemanex PLC complies under option 5 with the minimum public holding requirement.
+
+
+      16   The accounting policies followed in the preparation of the Interim Statement of Comprehensive Income for the period ended 31 March 2026 and the
+           Interim Statement of Financial Position as at 31 March 2026 unless otherwise stated are consistent with those followed in the preparation of Financial
+           Statements for the year ended 31 March 2025 and are in compliance with Sri Lanka Accounting Standard 34 - Interim Financial Reporting. The
+           presentation and classification of the Financial Statements of the previous period have been amended, where relevant, for better presentation and to be
+           comparable with those of the current period.
+
+
+      17   Fair value measurement and related fair value disclosures
+           As at 31 March 2026, all the listed equity instruments amounting to Rs.3,319.09Mn were measured based on the active market prices as at 31 March 2026
+           and categorised under Level 1 of the fair value hierarchy.
+
+
+           Based on the fair valuation methodology, other non- current equity investment at fair value though OCI amounting to Rs.759.63 Mn is categorised under
+           "Level 3" of the "fair value measurement hierarchy". Fair value would not significantly vary if one or more of the inputs were changed.
+
+
+      18   There are no material contingent liabilities as at the reporting date, which require adjustment and/or disclosure in the Financial Statements.
+
+
+      19   There were no material events have been taken place as at the reporting date which require adjustments to ot disclosures in the Financial Statements.
+
+
+
+
+#   CIC HOLDINGS PLC – PUBLIC                                                                                                                               CHEMANEX PLC
+
