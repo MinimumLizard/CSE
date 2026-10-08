@@ -34,7 +34,7 @@ from .http import CseClient
 
 COLS = ["announcement_id", "announced", "symbol", "company", "director", "director_role", "account_type",
         "account", "trade_date", "side", "trans_type", "quantity", "price", "value", "lag_days", "url"]
-BUY = re.compile(r"purchas|acqui|\bbuy|bought|subscri", re.I)
+BUY = re.compile(r"pu?r?chas|a[cq]{1,2}ui|\bbuy|bought|subscri|allot\w*\W+rights|rights\W+(?:issue\W+)?(?:allot|subscri)", re.I)
 SELL = re.compile(r"\bsale\b|\bsell|\bsold|dispos", re.I)
 OTHER = re.compile(r"gift|transfer|inherit|bequest|transmission|donat", re.I)
 CATEGORY = re.compile(r"DEALING|RELEVANT INTEREST", re.I)

@@ -37,6 +37,8 @@ def test_related_account_with_two_transactions():
     ("Purchase of Shares", "buy"), ("PURCHASE", "buy"), ("Acquisition of shares", "buy"), ("purchased", "buy"),
     ("Sale", "sell"), ("Sale of Shares ", "sell"), ("Disposal of Shares (Voting)", "sell"), ("disposal", "sell"),
     ("Gift Transfer", "other"), ("Transfer", "other"), ("", "other"), ("Purchase and sale", "other"),
+    ("Aquisition", "buy"), ("Puchase", "buy"), ("Share Allotment - Rights Issue", "buy"),
+    ("Share Allotment", "other"), ("Transmission", "other"), ("Ordinary Voting Shares", "other"),
 ])
 def test_side_from_free_text(raw, side):              # wordings seen in the API's transType field
     assert dealings.side_of(raw) == side
@@ -53,6 +55,10 @@ def test_related_account_resolves_to_the_listed_parent():
     assert (e.type, e.symbol) == ("listed", "CTHR")
     assert flows.actor_entity("Senthilverl Holdings (Pvt) Ltd- Director", market, {}).name == "Senthilverl Holdings (Pvt) Ltd"
     assert "SPOUSE" in flows.actor_entity("Mrs X Perera (Spouse)", market, {}).key   # a relative is not the director
+    assert flows.actor_entity("Disposal of shares by Distilleries Company of Sri Lanka PLC", market, {}).symbol == "DIST"
+    assert flows.actor_entity("Odeon Holdings (Ceylon) (Private) Limited, privately held company owned by Mr. L R Page",
+                              market, {}).name == "Odeon Holdings (Ceylon) (Private) Limited"
+    assert flows.GENERIC_ACCOUNT.match("Please refer attachment")
 
 
 def test_non_dealing_announcements_are_ignored():

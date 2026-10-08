@@ -459,16 +459,28 @@ predict prices.
   every run.
   - value = quantity × price;
   - lag = weekdays from the trade date to the announcement (public holidays not removed).
-- **Side** comes from the free-text transaction type: buy (purchase, acquisition, subscription) or sell
-  (sale, disposal). Anything else, including gifts, transfers, inheritance and mixed or unrecognised
-  wording, is `other` and is never counted as buying or selling.
+- **Side** comes from the free-text transaction type:
+  - buy: purchase, acquisition, subscription, or a rights-issue allotment, including common misspellings
+    such as "Puchase" and "Aquisition";
+  - sell: sale or disposal;
+  - `other`: anything else, including gifts, transfers, transmission, plain allotments, and mixed or
+    unrecognised wording. These are never counted as buying or selling.
+
+  On the backfill (May 2025 – Oct 2026) there were 2,242 transactions from 830 notices: 573 buys, 1,658
+  sells and 11 other. The median disclosure delay was 2 weekdays, and 90 % were disclosed within 4.
 
 ### 11.2 Who traded (`cse.flows`)
 
 - **The actor** is the account that traded: the director, or the related account's holder.
 - **Cleaning account names.** Suffixes such as "- Directors", "- Common Directors" and "- Directors /
   Shareholders" are removed, so "CT Holdings PLC - Common Directors" becomes C T Holdings PLC (listed).
-  Generic account names ("Shareholders", "N/A", "as per attachment") fall back to the director(s).
+  Other cleaning steps:
+  - leading phrases are removed ("Disposal of shares by X", "Directors of X", "The said Directors also
+    serve as Directors of X" all become X);
+  - descriptions after the name are removed (", privately held company owned by…", " in which…",
+    ", Major Shareholder of…");
+  - generic account names ("Shareholders", "N/A", "Please refer attachment") fall back to the
+    director(s), and to "<company> – directors (see notice)" when those are generic too.
   Relatives keep their own name: "Mrs X (Spouse)" is not Mrs X.
 - **Matching to owners.** Actors go through the ownership tracker's name resolution and your aliases. A
   listed actor carries its ownership group (§10.5).

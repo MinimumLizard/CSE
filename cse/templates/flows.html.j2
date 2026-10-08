@@ -222,10 +222,10 @@ function follow(key) {
     type: "line",
     data: {labels: pts.map(p => p.x), datasets: [
       {label: "cumulative net Rs mn", data: pts.map(p => p.y), borderColor: INK, borderWidth: 2, stepped: true, pointRadius: 0, order: 2},
-      {label: "buy", data: pts.map(p => p.t[2] === "buy" ? p.y : null), showLine: false, pointRadius: 5, pointHoverRadius: 7, pointBackgroundColor: BUY, pointBorderColor: "#161615", pointBorderWidth: 2, order: 1},
-      {label: "sell", data: pts.map(p => p.t[2] === "sell" ? p.y : null), showLine: false, pointRadius: 5, pointHoverRadius: 7, pointStyle: "rectRot", pointBackgroundColor: SELL, pointBorderColor: "#161615", pointBorderWidth: 2, order: 1}]},
+      {label: "buy", data: pts.map(p => p.t[2] === "buy" ? p.y : null), showLine: false, pointRadius: 5, pointHoverRadius: 7, pointBackgroundColor: BUY, pointBorderColor: "#161615", pointBorderWidth: 2, backgroundColor: BUY, borderColor: BUY, order: 1},
+      {label: "sell", data: pts.map(p => p.t[2] === "sell" ? p.y : null), showLine: false, pointRadius: 5, pointHoverRadius: 7, pointStyle: "rectRot", pointBackgroundColor: SELL, pointBorderColor: "#161615", pointBorderWidth: 2, backgroundColor: SELL, borderColor: SELL, order: 1}]},
     options: {maintainAspectRatio: false, animation: false, interaction: {mode: "index", intersect: false},
-      plugins: {legend: {labels: {color: INK, boxWidth: 10}}, tooltip: {filter: i => i.datasetIndex === 0, callbacks: {label: c => {
+      plugins: {legend: {labels: {color: INK, boxWidth: 10, usePointStyle: true}}, tooltip: {filter: i => i.datasetIndex === 0, callbacks: {label: c => {
         const t = pts[c.dataIndex].t; return [`cumulative Rs ${c.parsed.y.toFixed(1)} mn`, `${t[2]} ${t[1]} ${t[3].toLocaleString()} @ ${t[4]} = Rs ${mn(t[5])} mn`]; }}}},
       scales: {x: {grid: {color: GRID}, ticks: {color: INK, maxTicksLimit: 8}}, y: {grid: {color: GRID}, ticks: {color: INK}, title: {display: true, text: "Rs mn", color: INK}}}}
   });

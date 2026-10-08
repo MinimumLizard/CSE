@@ -45,9 +45,22 @@ def actor_entity(account: str, market, aliases) -> names.Entity:
     """The ownership entity behind a dealing's account name ('CT Holdings PLC - Common Directors'
     -> C T Holdings PLC; 'Mr X (Spouse)' -> Mr X's spouse is not Mr X, so only the suffix forms
     that name the account holder itself are stripped)."""
+    # 'Disposal of shares by X', 'Directors of X', 'Nominee Directors of X', 'Shares held by X' -> X
+    account = re.sub(r"^\s*(?:(?:purchase|disposal|sale|acquisition)\s+of\s+shares\s+by|(?:nominee\s+)?directors?\s+of|"
+                     r"shares?\s+held\s+by|on\s+behalf\s+of)\s+", "", account, flags=re.I)
+    # '... are directors of X', 'The said Directors also serve as Directors of X' -> X
+    m = re.search(r"\bdirectors?\s+of\s+(?:the\s+)?(.+)$", account, flags=re.I)
+    if m and not re.match(r"^\s*(?:nominee\s+)?directors?\s+of", account, re.I):
+        account = m.group(1)
+    account = re.sub(r"\.\s+(?:Mr|Mrs|Ms|Miss|Dr)\b.*$", "", account)          # 'X Ltd. Mr. Y ...' -> X Ltd
+    account = re.sub(r"\s+(?:in\s+which|where|which\s+is)\b.*$", "", account, flags=re.I)
+    # 'X, privately held company owned by ...', 'X, a company in which ...' -> X
+    account = re.sub(r",\s*(?:a\s+)?(?:privately|private|public|wholly|company|which|in\s+which|where)\b.*$", "",
+                     account, flags=re.I)
     # '<company> - Directors', '<company>- Directors / Shareholders', '<company> - Common Directors'
     name = re.sub(r"\s*[-–(]\s*(?:common\s+)?(?:directors?|shareholders?)"
-                  r"(?:\s*[/&,]\s*(?:common\s+)?(?:directors?|shareholders?))*\s*\)?\s*$", "", account, flags=re.I)
+                  r"\b.*$", "", account, flags=re.I)
+    name = re.sub(r",\s*(?:a\s+|the\s+)?(?:major|substantial|controlling)\s+shareholders?\b.*$", "", name, flags=re.I)
     return analyse.entity_for(name.strip(" -,"), market, aliases)
 
 
@@ -55,14 +68,16 @@ def _f(x) -> float:
     return float(x) if x not in (None, "") else 0.0
 
 
-GENERIC_ACCOUNT = re.compile(r"^\W*(?:shareholders?|n/?a|nil|none|-+|as per (?:the )?attach\w*|attached|"
-                             r"see attach\w*|related part(?:y|ies))\W*$", re.I)
+GENERIC_ACCOUNT = re.compile(r"^\W*(?:shareholders?|n/?a|nil|none|-+|(?:please\s+)?(?:refer|see)\b.*|as per\b.*|attached|"
+                             r"related part(?:y|ies)|as mentioned\b.*)\W*$", re.I)
 
 
 def dealings_rows(root: Path, market, aliases, group_of: dict, group_label: dict) -> list[dict]:
     out = []
     for r in storage.read_rows(root / "data" / "dealings" / "dealings.csv"):
         account = r["account"] if r["account"] and not GENERIC_ACCOUNT.match(r["account"]) else r["director"]
+        if not account or GENERIC_ACCOUNT.match(account):
+            account = f"{r['company']} – directors (see notice)"
         e = actor_entity(account, market, aliases)
         target_group = group_of.get(r["symbol"], "LISTED:" + r["symbol"])
         actor_group = group_of.get(e.symbol, "LISTED:" + e.symbol) if e.type == "listed" else e.key
