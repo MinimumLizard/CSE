@@ -17,6 +17,7 @@ automatically on the first daily run with 52 weekly returns of history (about 7 
 | [docs/METHODS.md](docs/METHODS.md) | Every formula on the site, exactly as implemented |
 | [docs/WATCHLIST_SCREEN.md](docs/WATCHLIST_SCREEN.md) | Whole-market liquidity / size / sector screen behind the watchlist additions |
 | [docs/METHODS.md §10](docs/METHODS.md#10-ownership-tracker) | Ownership tracker: report parsing, beneficial owners, look-through and control |
+| [docs/METHODS.md §11](docs/METHODS.md#11-money-flows) | Money flows: directors' dealings and quarterly stake changes |
 
 ## Layout
 
@@ -36,6 +37,8 @@ cse/                 python package
   optimize.py        cvxpy: min variance, risk parity, max Sharpe, frontier
   record.py          forward-only live record and rebalancing
   lab.py             portfolio lab job -> data/lab/, record/
+  dealings.py        directors' dealings      -> data/dealings/dealings.csv
+  flows.py           money flows              -> site/flows.html
   ownership/         who owns the CSE: collect.py (interim reports -> text), parse.py (top-20 tables),
                      names.py (beneficial owners), analyse.py (graph), site.py (site/ownership.html)
 config/
@@ -176,6 +179,27 @@ The `ownership` workflow collects new reports every Saturday. The daily workflow
 day's prices. Names are shown exactly as filed. Individuals are never merged across different spellings.
 If you know two spellings are the same person, add them to `config/ownership_aliases.yaml`, which has an
 example. See METHODS §10 for every rule and its limits.
+
+## Money flows
+
+`site/flows.html` follows the big owners' money:
+- **Who is buying and selling:** a diverging bar chart of net buying and selling by owner over 30 days,
+  90 days or 1 year.
+- **Where insiders are buying:** net value per company, with clusters of several buyers and your
+  watchlist stocks flagged.
+- **Quarter to quarter:** stake changes between top-20 lists, which also covers holders who aren't
+  directors.
+- **Follow one owner:** an owner's cumulative net buying, every trade, and every quarterly change.
+- **Latest disclosures**, with links to the notices.
+
+The data is directors' dealings, which arrive about 1–2 market days after the trade, plus the quarterly
+lists. See METHODS §11.
+
+```bash
+python -m cse.dealings            # one-off: a year of dealing notices (about 15 min); daily runs use --offline
+python -m cse.ownership.collect --since 2025-06-30   # one-off: four quarters of shareholder lists
+python -m cse.flows               # page input -> data/flows/latest.json
+```
 
 ## Confirming `needs_review` corporate actions
 

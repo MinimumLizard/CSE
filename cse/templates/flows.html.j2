@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSE Money Flows</title>
+<meta name="description" content="Where the big owners' money is moving on the Colombo Stock Exchange: directors' dealings and quarterly shareholder-list changes.">
+<style>
+:root{
+  --bg:#0d0d0c; --surface:#161615; --surface-2:#1e1e1c; --rule:#2c2c29;
+  --text:#ecebe6; --text-2:#b4b3aa; --muted:#7d7c74;
+  --buy:#3987e5; --sell:#e66767; --accent:#3987e5; --warn:#d29922;
+  --mono:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:13px/1.45 var(--mono)}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+header{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:baseline;padding:10px 16px;border-bottom:1px solid var(--rule);background:var(--surface)}
+header h1{font-size:14px;margin:0;letter-spacing:.08em;text-transform:uppercase}
+header .meta{color:var(--text-2)} header .meta b{color:var(--text);font-weight:600}
+main{display:grid;gap:12px;padding:12px 16px 24px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:1300px){main{grid-template-columns:minmax(0,1fr) minmax(0,1fr)} .wide{grid-column:1 / -1}}
+section.panel{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:10px 12px;min-width:0}
+section.panel>h2{margin:0 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-2);display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+h3{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:10px 0 4px;font-weight:600}
+.note{color:var(--text-2);margin:0 0 8px;max-width:980px}
+.sm{font-size:11px} .mut{color:var(--muted)} .sym{font-weight:600}
+.kpis{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.kpi{background:var(--surface-2);border-radius:4px;padding:8px 10px}
+.kpi .v{font-size:18px;font-weight:600} .kpi .k{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:3px 6px;white-space:nowrap;border-bottom:1px solid var(--rule);vertical-align:top}
+th{color:var(--muted);font-weight:500;text-align:right;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+td{text-align:right} th.l,td.l{text-align:left} td.wrap{white-space:normal;min-width:12em}
+tbody tr:hover{background:#ffffff08}
+.buy{color:var(--buy)} .sell{color:var(--sell)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:baseline}
+.sw.buy{background:var(--buy)} .sw.sell{background:var(--sell)}
+.legend{display:flex;gap:14px;color:var(--text-2);font-size:11px;margin:2px 0 6px}
+.chip{display:inline-block;font-size:10px;padding:0 5px;border-radius:3px;border:1px solid var(--rule);color:var(--text-2);margin:0 3px 2px 0;text-transform:uppercase;letter-spacing:.04em}
+.chip.large{border-color:#d2992266;color:#f2cc60} .chip.watchlist{border-color:#3987e566;color:#86b6ef}
+.chip.cluster{border-color:#3987e5;color:#cde2fb}
+.toggle{display:inline-flex;border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.toggle button{font:inherit;font-size:11px;background:transparent;color:var(--text-2);border:0;padding:3px 9px;cursor:pointer}
+.toggle button[aria-pressed=true]{background:var(--accent);color:#fff}
+.chart{position:relative;height:460px}
+.chart.sm{height:300px}
+input[type=search]{font:inherit;background:var(--surface-2);color:var(--text);border:1px solid var(--rule);border-radius:4px;padding:4px 8px;max-width:100%;min-width:260px}
+details.tbl{margin-top:6px} details.tbl summary{cursor:pointer;color:var(--text-2);font-size:11px}
+footer{color:var(--muted);padding:0 16px 24px;font-size:11px;max-width:1100px}
+</style>
+</head>
+<body>
+<header>
+  <h1>CSE Money Flows</h1>
+  <span class="meta"><a href="index.html">Terminal</a> · <a href="ownership.html">Ownership</a></span>
+  <span class="meta">Dealings to <b>{{ d.asof }}</b></span>
+  <span class="meta">Prices: session <b>{{ d.price_session }}</b></span>
+  <span class="meta">Built <b>{{ built_slt }}</b> SLT</span>
+</header>
+<main>
+<section class="panel wide">
+  <h2>Where the big owners' money is moving <a class="sm" href="{{ methods_url }}">method</a></h2>
+  <p class="note">Two public feeds, joined to the ownership tracker's owners. <b>Dealings</b>: every share trade by a director, or by
+  a company or relative linked to one ("related account"), which listed companies must announce. These run about
+  {{ "%.0f"|format(d.lag_median or 0) }} market day(s) behind the trade. <b>Quarterly lists</b>: changes between consecutive top-20 shareholder lists. These
+  are slower (1–2 months) but also show big holders who aren't directors. Blue is buying and red is selling, valued in rupees.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ d.n_trades }}</div><div class="k">dealings recorded (buys and sells)</div></div>
+    <div class="kpi"><div class="v">{{ "%.0f"|format(d.lag_median or 0) }} day{{ "" if d.lag_median == 1 else "s" }}</div><div class="k">median disclosure delay</div></div>
+    <div class="kpi"><div class="v">{{ d.quarter_periods|length }}</div><div class="k">quarter-on-quarter comparisons</div></div>
+    <div class="kpi"><div class="v">{{ d.actors['30']|length }}</div><div class="k">owners trading in the last 30 days</div></div>
+  </div>
+</section>
+
+<section class="panel wide" id="who">
+  <h2>Who is buying and selling
+    <span class="toggle" role="group" aria-label="Window" data-target="who">
+      <button aria-pressed="false" data-w="30">30 days</button><button aria-pressed="true" data-w="90">90 days</button><button aria-pressed="false" data-w="365">1 year</button>
+    </span>
+  </h2>
+  <p class="note sm">Net value of each owner's disclosed trades in the window: purchases minus sales. A related account (for example a
+  holding company trading in its subsidiary) is shown under its own name, with its ownership group in the tooltip. Top 20 by size.</p>
+  <div class="legend"><span><span class="sw buy"></span>net buying</span><span><span class="sw sell"></span>net selling</span></div>
+  <div class="chart"><canvas id="who-chart" role="img" aria-label="Net buying and selling by owner"></canvas></div>
+  <details class="tbl"><summary>Table</summary><div class="scroll"><table id="who-table"><thead><tr><th class="l">Owner</th><th class="l">Group</th><th>Bought Rs mn</th><th>Sold Rs mn</th><th>Net Rs mn</th><th>Trades</th><th class="l">Stocks (net Rs mn)</th></tr></thead><tbody></tbody></table></div></details>
+</section>
+
+<section class="panel" id="where">
+  <h2>Where insiders are buying <span class="mut sm" id="where-w"></span></h2>
+  <p class="note sm">Net insider value per company in the same window. <span class="chip cluster">cluster</span> means two or more
+  different owners bought; <span class="chip watchlist">watchlist</span> marks your stocks.</p>
+  <div class="legend"><span><span class="sw buy"></span>net bought</span><span><span class="sw sell"></span>net sold</span></div>
+  <div class="chart sm"><canvas id="where-chart" role="img" aria-label="Net insider buying by company"></canvas></div>
+  <div class="scroll"><table id="where-table"><thead><tr><th class="l">Stock</th><th>Net Rs mn</th><th class="l">Buyers</th><th class="l">Sellers</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section class="panel" id="quarters">
+  <h2>Quarter to quarter: the top-20 lists</h2>
+  {% if d.quarter_owners %}
+  <p class="note sm">Net stake changes between consecutive quarterly lists ({{ d.quarter_periods[0] }} to {{ d.quarter_periods[-1] }}), for every holder,
+  directors or not. Only real trades count: changes from dilution or splits don't. Entering or leaving the list counts as at least the
+  change past the list's cut-off. Valued at today's prices.</p>
+  <div class="legend"><span><span class="sw buy"></span>added</span><span><span class="sw sell"></span>reduced</span></div>
+  <div class="chart sm"><canvas id="q-chart" role="img" aria-label="Net quarterly stake changes by owner"></canvas></div>
+  <details class="tbl" open><summary>Largest single changes</summary><div class="scroll"><table>
+    <thead><tr><th class="l">Quarter to</th><th class="l">Stock</th><th class="l">Holder</th><th class="l">Change</th><th>Stake</th><th>Rs mn</th></tr></thead>
+    <tbody>{% for c in d.quarter_changes[:25] %}<tr><td class="l">{{ c.to }}</td><td class="l sym">{{ c.code }}</td><td class="l wrap">{{ c.owner }}</td>
+      <td class="l {{ 'buy' if c.value > 0 else 'sell' }}">{{ c.kind }}</td>
+      <td>{{ "%.2f"|format((c.frac_from or 0) * 100) }}% → {{ "%.2f"|format((c.frac_to or 0) * 100) }}%</td>
+      <td class="{{ 'buy' if c.value > 0 else 'sell' }}">{{ "{:+,.1f}".format(c.value / 1e6) }}</td></tr>{% endfor %}</tbody>
+  </table></div></details>
+  {% else %}
+  <p class="note sm mut">Needs two consecutive quarterly lists per company. The history is collected weekly.</p>
+  {% endif %}
+</section>
+
+<section class="panel wide" id="follow">
+  <h2>Follow one owner</h2>
+  <p class="note sm">Pick a person or company: the chart shows their cumulative net buying over the past year from disclosed dealings
+  (each dot is a trade), and the tables list every trade and every quarterly change.</p>
+  <label class="sm mut" for="who-in">Owner </label><input type="search" id="who-in" list="owners" placeholder="e.g. C T HOLDINGS PLC" autocomplete="off">
+  <datalist id="owners"></datalist>
+  <div id="f-out" class="note" style="margin-top:8px">Pick an owner, or click a bar above.</div>
+  <div class="chart sm" id="f-chart-wrap" hidden><canvas id="f-chart" role="img" aria-label="Cumulative net buying of the selected owner"></canvas></div>
+  <div class="scroll"><table id="f-trades" hidden><thead><tr><th class="l">Trade date</th><th class="l">Stock</th><th class="l">Side</th><th>Shares</th><th>Price</th><th>Rs mn</th><th class="l">As filed</th></tr></thead><tbody></tbody></table></div>
+  <div class="scroll"><table id="f-quarters" hidden><thead><tr><th class="l">Quarter to</th><th class="l">Stock</th><th class="l">Change</th><th>Stake Δ</th><th>Rs mn</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section class="panel wide" id="feed">
+  <h2>Latest disclosures</h2>
+  <div class="scroll"><table>
+    <thead><tr><th class="l">Trade</th><th>Lag</th><th class="l">Stock</th><th class="l">Who traded</th><th class="l">Side</th><th>Shares</th><th>Price</th><th>Rs mn</th><th class="l"></th><th class="l">Notice</th></tr></thead>
+    <tbody>{% for f in d.feed[:80] %}<tr>
+      <td class="l">{{ f.date }}</td><td class="mut">{{ f.lag_days }}</td><td class="l sym">{{ f.symbol }}</td>
+      <td class="l wrap">{{ f.actor }}{% if f.account_type == "related" %} <span class="mut sm">via director(s): {{ f.director[:60] }}</span>{% endif %}</td>
+      <td class="l {{ f.side }}">{{ f.side if f.side != "other" else f.trans_type[:20] }}</td>
+      <td>{{ "{:,.0f}".format(f.quantity|float) if f.quantity else "" }}</td><td>{{ f.price }}</td>
+      <td class="{{ f.side }}">{{ "%.2f"|format(f.value / 1e6) if f.value else "" }}</td>
+      <td class="l">{% for fl in f.flags %}<span class="chip {{ fl.replace(' ', '-') }}">{{ fl }}</span>{% endfor %}</td>
+      <td class="l">{% if f.url %}<a href="{{ f.url }}" rel="noopener">PDF</a>{% endif %}</td></tr>{% endfor %}</tbody>
+  </table></div>
+</section>
+</main>
+<footer>
+  Sources: CSE directors' dealings notices (structured fields of each announcement) and the top-20 shareholder lists in quarterly
+  interim reports. Dealings cover directors and their related accounts only. Big holders who aren't directors appear only in the
+  quarterly lists. A disclosed purchase is not a recommendation; nothing here predicts prices. Every figure is reproducible from
+  <code>data/dealings/</code> and <code>data/ownership/</code> with <code>python -m cse.flows</code>.
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+const D = {{ d_json|safe }};
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const BUY = css("--buy"), SELL = css("--sell"), INK = css("--text-2"), GRID = "#2c2c29";
+const mn = v => (v / 1e6).toLocaleString(undefined, {maximumFractionDigits: 1});
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let W = "90";
+const charts = {};
+function divBars(id, rows, label, onClick) {
+  if (!window.Chart) return;
+  const el = document.getElementById(id); if (!el) return;
+  charts[id]?.destroy();
+  charts[id] = new Chart(el, {
+    type: "bar",
+    data: {labels: rows.map(r => label(r)), datasets: [{data: rows.map(r => r.net / 1e6),
+      backgroundColor: rows.map(r => r.net >= 0 ? BUY : SELL), borderRadius: 4, borderSkipped: "start",
+      barPercentage: .8, categoryPercentage: .9}]},
+    options: {indexAxis: "y", maintainAspectRatio: false, animation: false,
+      plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => {
+        const r = rows[c.dataIndex];
+        const lines = [`net Rs ${mn(r.net)} mn` + (r.buy !== undefined ? ` (bought ${mn(r.buy)}, sold ${mn(r.sell)})` : "")];
+        if (r.group && r.group !== r.name) lines.push(`group: ${r.group}`);
+        if (r.codes) lines.push(Object.entries(r.codes).map(([k, v]) => `${k} ${v >= 0 ? "+" : ""}${mn(v)}`).join("  "));
+        return lines;
+      }}}},
+      scales: {x: {grid: {color: GRID}, ticks: {color: INK, callback: v => v.toLocaleString()}, title: {display: true, text: "Rs mn", color: INK}},
+               y: {grid: {display: false}, ticks: {color: INK, autoSkip: false, font: {size: 11}}}},
+      onClick: (e, els) => { if (els.length && onClick) onClick(rows[els[0].index]); },
+      onHover: (e, els) => { e.native.target.style.cursor = els.length && onClick ? "pointer" : "default"; }}
+  });
+}
+function renderWindow() {
+  const who = (D.actors[W] || []).slice(0, 20);
+  divBars("who-chart", who, r => r.name.length > 34 ? r.name.slice(0, 33) + "…" : r.name, r => follow(r.key));
+  document.querySelector("#who-table tbody").innerHTML = (D.actors[W] || []).map(r =>
+    `<tr><td class="l wrap">${esc(r.name)}</td><td class="l wrap mut">${esc(r.group !== r.name ? r.group : "")}</td><td class="buy">${mn(r.buy)}</td><td class="sell">${mn(r.sell)}</td>` +
+    `<td class="${r.net >= 0 ? "buy" : "sell"}">${mn(r.net)}</td><td>${r.n}</td><td class="l sm">${Object.entries(r.codes).map(([k, v]) => `${esc(k)} ${mn(v)}`).join(" · ")}</td></tr>`).join("");
+  const cos = (D.companies[W] || []).slice(0, 15);
+  divBars("where-chart", cos, r => r.symbol, null);
+  document.getElementById("where-w").textContent = `(${W === "365" ? "1 year" : W + " days"})`;
+  document.querySelector("#where-table tbody").innerHTML = cos.map(c =>
+    `<tr><td class="l"><span class="sym">${esc(c.symbol)}</span> ${c.cluster ? '<span class="chip cluster">cluster</span>' : ""}${c.watch ? '<span class="chip watchlist">watchlist</span>' : ""}</td>` +
+    `<td class="${c.net >= 0 ? "buy" : "sell"}">${mn(c.net)}</td><td class="l wrap sm">${esc(c.buyers.join(", "))}</td><td class="l wrap sm">${esc(c.sellers.join(", "))}</td></tr>`).join("");
+}
+document.querySelectorAll(".toggle[data-target=who] button").forEach(b => b.addEventListener("click", () => {
+  W = b.dataset.w; document.querySelectorAll(".toggle[data-target=who] button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderWindow();
+}));
+if (D.quarter_owners && D.quarter_owners.length) divBars("q-chart", D.quarter_owners.slice(0, 15),
+  r => r.name.length > 30 ? r.name.slice(0, 29) + "…" : r.name, r => follow(r.key));
+
+const keys = Object.keys(D.detail).sort((a, b) => D.detail[a].name.localeCompare(D.detail[b].name));
+const dl = document.getElementById("owners");
+const byName = {};
+keys.forEach(k => { const o = document.createElement("option"); o.value = D.detail[k].name; dl.appendChild(o); byName[D.detail[k].name.toUpperCase()] = k; });
+function follow(key) {
+  const x = D.detail[key]; const out = document.getElementById("f-out");
+  const wrap = document.getElementById("f-chart-wrap"), tt = document.getElementById("f-trades"), tq = document.getElementById("f-quarters");
+  if (!x) { out.textContent = "No dealings or quarterly changes for that owner."; wrap.hidden = tt.hidden = tq.hidden = true; return; }
+  document.getElementById("who-in").value = x.name;
+  out.innerHTML = `<b>${esc(x.name)}</b> <span class="mut">${esc(x.type)}${x.group && x.group !== x.name ? " · group: " + esc(x.group) : ""}</span> · ${x.trades.length} dealing(s), ${x.quarters.length} quarterly change(s)`;
+  const trades = x.trades.slice().sort((a, b) => a[0].localeCompare(b[0]));
+  let cum = 0; const pts = [], buys = [], sells = [];
+  trades.forEach(t => { if (t[2] === "buy") cum += t[5]; else if (t[2] === "sell") cum -= t[5]; else return;
+    const p = {x: t[0], y: cum / 1e6, t}; pts.push(p); (t[2] === "buy" ? buys : sells).push(p); });
+  wrap.hidden = pts.length === 0;
+  charts["f-chart"]?.destroy();
+  if (pts.length && window.Chart) charts["f-chart"] = new Chart(document.getElementById("f-chart"), {
+    type: "line",
+    data: {labels: pts.map(p => p.x), datasets: [
+      {label: "cumulative net Rs mn", data: pts.map(p => p.y), borderColor: INK, borderWidth: 2, stepped: true, pointRadius: 0, order: 2},
+      {label: "buy", data: pts.map(p => p.t[2] === "buy" ? p.y : null), showLine: false, pointRadius: 5, pointHoverRadius: 7, pointBackgroundColor: BUY, pointBorderColor: "#161615", pointBorderWidth: 2, backgroundColor: BUY, borderColor: BUY, order: 1},
+      {label: "sell", data: pts.map(p => p.t[2] === "sell" ? p.y : null), showLine: false, pointRadius: 5, pointHoverRadius: 7, pointStyle: "rectRot", pointBackgroundColor: SELL, pointBorderColor: "#161615", pointBorderWidth: 2, backgroundColor: SELL, borderColor: SELL, order: 1}]},
+    options: {maintainAspectRatio: false, animation: false, interaction: {mode: "index", intersect: false},
+      plugins: {legend: {labels: {color: INK, boxWidth: 10, usePointStyle: true}}, tooltip: {filter: i => i.datasetIndex === 0, callbacks: {label: c => {
+        const t = pts[c.dataIndex].t; return [`cumulative Rs ${c.parsed.y.toFixed(1)} mn`, `${t[2]} ${t[1]} ${t[3].toLocaleString()} @ ${t[4]} = Rs ${mn(t[5])} mn`]; }}}},
+      scales: {x: {grid: {color: GRID}, ticks: {color: INK, maxTicksLimit: 8}}, y: {grid: {color: GRID}, ticks: {color: INK}, title: {display: true, text: "Rs mn", color: INK}}}}
+  });
+  tt.hidden = x.trades.length === 0;
+  tt.querySelector("tbody").innerHTML = x.trades.slice().sort((a, b) => b[0].localeCompare(a[0])).map(t =>
+    `<tr><td class="l">${esc(t[0])}</td><td class="l sym">${esc(t[1])}</td><td class="l ${t[2]}">${esc(t[2])}</td><td>${t[3].toLocaleString()}</td><td>${t[4]}</td>` +
+    `<td class="${t[2]}">${mn(t[5])}</td><td class="l sm mut">${t[7] ? `<a href="${esc(t[7])}" rel="noopener">${esc(t[6])}</a>` : esc(t[6])}</td></tr>`).join("");
+  tq.hidden = x.quarters.length === 0;
+  tq.querySelector("tbody").innerHTML = x.quarters.slice().sort((a, b) => b[0].localeCompare(a[0])).map(q =>
+    `<tr><td class="l">${esc(q[0])}</td><td class="l sym">${esc(q[1])}</td><td class="l ${q[4] >= 0 ? "buy" : "sell"}">${esc(q[2])}</td><td>${(q[3] * 100).toFixed(2)} pts</td><td class="${q[4] >= 0 ? "buy" : "sell"}">${mn(q[4])}</td></tr>`).join("");
+  try { history.replaceState(null, "", "#" + encodeURIComponent(key)); } catch (e) {}
+  document.getElementById("follow").scrollIntoView({behavior: "smooth", block: "start"});
+}
+document.getElementById("who-in").addEventListener("change", e => follow(byName[e.target.value.trim().toUpperCase()]));
+renderWindow();
+const h0 = decodeURIComponent(location.hash.slice(1)); if (D.detail[h0]) follow(h0);
+</script>
+</body>
+</html>

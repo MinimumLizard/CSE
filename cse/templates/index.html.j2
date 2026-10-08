@@ -95,6 +95,7 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   <span class="meta">Built <b>{{ built_slt }}</b> Sri Lanka time (UTC+05:30)</span>
   <span class="meta">History: {{ calendar_len }} sessions since {{ calendar_start or "—" }}</span>
   {% if ownership_page %}<span class="meta"><a href="ownership.html">Ownership →</a></span>{% endif %}
+  {% if flows_page %}<span class="meta"><a href="flows.html">Money flows →</a></span>{% endif %}
 </header>
 {% if run.failed %}
 <div class="banner" role="alert">⚠ The last data run failed ({{ run.last.run_at_utc }} UTC): {{ run.last.message }}. Figures below are from the last good session, {{ session }}.</div>

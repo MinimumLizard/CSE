@@ -55,6 +55,21 @@ def pick_report(fin: dict) -> tuple[str, dict] | None:
     return None
 
 
+def history_reports(fin: dict, since: str) -> list[tuple[str, dict]]:
+    """Every quarterly report with a period date on or after `since` (YYYY-MM-DD), one per period:
+    the latest upload wins when a period was filed twice (e.g. a corrected report)."""
+    by_period: dict[str, dict] = {}
+    for x in (fin.get("infoQuarterlyData") or []):
+        if not x.get("path") or not x.get("manualDate"):
+            continue
+        period = ms_to_date(x["manualDate"]).isoformat()
+        if since <= period <= dt.date.today().isoformat():
+            cur = by_period.get(period)
+            if cur is None or (x.get("uploadedDate") or 0) > (cur.get("uploadedDate") or 0):
+                by_period[period] = x
+    return [("quarterly", by_period[p]) for p in sorted(by_period)]
+
+
 def pdf_to_text(content: bytes) -> tuple[str, int]:
     with tempfile.TemporaryDirectory() as d:
         pdf = Path(d) / "r.pdf"
@@ -65,7 +80,10 @@ def pdf_to_text(content: bytes) -> tuple[str, int]:
     return txt.stdout, pages
 
 
-def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | None = None) -> str:
+def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | None = None,
+        since: str | None = None) -> str:
+    """Collect each company's latest report; with `since`, also every earlier quarterly report from
+    that period on (the ownership history behind data/ownership/changes.csv)."""
     if not shutil.which("pdftotext"):
         raise SystemExit("pdftotext not found: install poppler-utils")
     paths = Paths(root)
@@ -80,43 +98,18 @@ def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | No
         comps = {c: s for c, s in comps.items() if c in only or s in only}
     new, failed = 0, 0
     for i, (code, symbol) in enumerate(sorted(comps.items()), 1):
-        fin = client.call("financials", symbol=symbol).data or {}
-        storage.atomic_write_bytes(base / "financials" / f"{symbol}.json", json.dumps(fin).encode())
-        picked = pick_report(fin)
-        if not picked:
-            continue
-        kind, rep = picked
-        rid = str(rep["id"])
-        if rid in known:
-            continue
-        url = CDN + quote(str(rep["path"]).lstrip("/"), safe="/")
-        row = {"id": rid, "code": code, "symbol": symbol, "kind": kind, "title": (rep.get("fileText") or "").strip(),
-               "period_date": ms_to_date(rep["manualDate"]).isoformat() if rep.get("manualDate") else "",
-               "uploaded_utc": dt.datetime.fromtimestamp((rep.get("uploadedDate") or 0) / 1000, dt.timezone.utc)
-               .strftime("%Y-%m-%dT%H:%M:%SZ") if isinstance(rep.get("uploadedDate"), (int, float)) else "",
-               "url": url, "pages": 0, "words": 0, "status": "",
-               "fetched_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
-        content = None
-        for attempt in range(3):
-            try:
-                r = web.get(url, timeout=120)
-                time.sleep(1)
-                if r.status_code == 200 and r.content[:4] == b"%PDF":
-                    content = r.content
-                    break
-            except requests.RequestException:
-                pass
-            time.sleep(2 ** (attempt + 1))
-        if content is None:
-            row["status"] = "download_failed"
-            failed += 1
+        saved = base / "financials" / f"{symbol}.json"
+        if since and saved.exists():                # a history pass re-uses this week's listing
+            fin = json.loads(saved.read_bytes())
         else:
-            text, pages = pdf_to_text(content)
-            row.update(pages=pages, words=len(text.split()), status="ok" if len(text.split()) > 200 else "no_text")
-            storage.atomic_write_bytes(base / "text" / f"{rid}.txt", text.encode())
-        storage.append(index, REPORT_COLS, [row], key=("id",))
-        known.add(rid)
-        new += 1
+            fin = client.call("financials", symbol=symbol).data or {}
+            storage.atomic_write_bytes(saved, json.dumps(fin).encode())
+        picked = [p for p in [pick_report(fin)] if p] + (history_reports(fin, since) if since else [])
+        for kind, rep in picked:
+            if str(rep["id"]) in known:
+                continue
+            new, failed = _fetch_one(base, index, web, code, symbol, kind, rep, new, failed)
+            known.add(str(rep["id"]))
         if i % 25 == 0:
             print(f"  {i}/{len(comps)} companies, {new} new reports", file=sys.stderr)
     msg = f"ownership collect: {len(comps)} companies, {new} new reports ({failed} download failures)"
@@ -124,5 +117,41 @@ def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | No
     return msg
 
 
+def _fetch_one(base, index, web, code, symbol, kind, rep, new, failed):
+    """Download one report PDF, keep its text, index it. Returns the updated (new, failed) counts."""
+    rid = str(rep["id"])
+    url = CDN + quote(str(rep["path"]).lstrip("/"), safe="/")
+    row = {"id": rid, "code": code, "symbol": symbol, "kind": kind, "title": (rep.get("fileText") or "").strip(),
+           "period_date": ms_to_date(rep["manualDate"]).isoformat() if rep.get("manualDate") else "",
+           "uploaded_utc": dt.datetime.fromtimestamp((rep.get("uploadedDate") or 0) / 1000, dt.timezone.utc)
+           .strftime("%Y-%m-%dT%H:%M:%SZ") if isinstance(rep.get("uploadedDate"), (int, float)) else "",
+           "url": url, "pages": 0, "words": 0, "status": "",
+           "fetched_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+    content = None
+    for attempt in range(3):
+        try:
+            r = web.get(url, timeout=120)
+            time.sleep(1)
+            if r.status_code == 200 and r.content[:4] == b"%PDF":
+                content = r.content
+                break
+        except requests.RequestException:
+            pass
+        time.sleep(2 ** (attempt + 1))
+    if content is None:
+        row["status"] = "download_failed"
+        failed += 1
+    else:
+        text, pages = pdf_to_text(content)
+        row.update(pages=pages, words=len(text.split()), status="ok" if len(text.split()) > 200 else "no_text")
+        storage.atomic_write_bytes(base / "text" / f"{rid}.txt", text.encode())
+    storage.append(index, REPORT_COLS, [row], key=("id",))
+    new += 1
+    return new, failed
+
+
 if __name__ == "__main__":
-    print(run())
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--since", help="also collect every quarterly report from this period on (YYYY-MM-DD)")
+    print(run(since=ap.parse_args().since))

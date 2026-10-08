@@ -1,0 +1,1060 @@
+CONDENSED CONSOLIDATED INTERIM FINANCIAL STATEMENTS
+         For the Period Ended 30th September 2025
+                                    Statement of Financial Position
+                                                                               Group                                Company
+                                                                      Unaudited          Audited            Unaudited       Audited
+As at,                                                            30th Sep 2025    31st Dec 2024        30th Sep 2025 31st Dec 2024
+                                                           Note         Rs. ‘000         Rs. ‘000             Rs. ‘000      Rs. ‘000
+Assets
+Property, Plant and Equipment                                              771,312           769,638           510,266          541,118
+Right of Use Assets                                                        527,344           482,551           414,375          427,016
+Intangible Assets                                                          298,959           164,019           279,322          155,588
+Deferred Tax Assets                                                         17,540            14,783                 -                -
+Financial Investments                                        3          63,677,120        54,304,798        57,271,202       48,486,327
+Investment in Subsidiary                                                         -                 -         1,150,000        1,150,000
+Loans to Life Policyholders                                                496,495           459,395           496,495          459,395
+Reinsurance Receivables                                                  1,725,982         1,268,504           566,901          238,175
+Premium Receivables                                                      2,655,634         2,272,135           566,240          198,723
+Other Assets                                                             1,414,161         1,277,749           962,093          906,713
+Insurance Contract - Deferred Expenses                                      26,154            33,468                 -                -
+Cash and Cash Equivalents                                                1,600,321         1,402,419         1,020,295          841,377
+Total Assets                                                            73,211,022        62,449,459        63,237,189       53,404,432
+Equity and Liabilities
+Equity Attributable to the Equity Holders
+Stated Capital                                                           1,171,875         1,171,875         1,171,875        1,171,875
+Retained Earnings                                                       10,563,339        10,351,725         8,722,161        8,689,963
+Available for Sale Reserve                                                 267,712           279,432           197,431           211,076
+Other Reserves                                                           (104,708)         (104,708)           (82,179)         (82,179)
+Life Policyholders' Available for Sale Reserve Fund          5             608,858           437,695           608,858          437,695
+Restricted Regulatory Reserve                                6             381,156           381,156           381,156          381,156
+Equity Attributable to the Equity Holders                               12,888,232        12,517,175        10,999,302       10,809,586
+Non-Controlling Interest                                                         -                 -                  -                -
+Total Equity                                                            12,888,232        12,517,175        10,999,302       10,809,586
+Liabilities
+Insurance Contract Liabilities - Life Insurance              7          47,783,005        38,647,547        47,783,005       38,647,547
+Insurance Contract Liabilities - General Insurance           8           4,984,611         4,507,058                 -                -
+Employee Defined Benefit Liabilities                                       563,635           477,315           349,666          279,864
+Current Tax Liabilities                                                    244,070           559,876           186,594          479,148
+Reinsurance Creditors                                                    1,962,052         1,000,350           788,012          214,999
+Lease Creditors                                                            613,989           560,905           499,592          503,233
+Other Liabilities                                                        3,917,514         3,760,247         2,464,359        2,276,075
+Bank Overdrafts                                                            253,914           418,986           166,659          193,980
+Total Liabilities                                                       60,322,790        49,932,284        52,237,887       42,594,846
+Total Equity and Liabilities                                            73,211,022        62,449,459        63,237,189       53,404,432
+The Notes form an integral part of these Condensed Consolidated Interim Financial Statements.
+These Condensed Consolidated Interim Financial Statements are in compliance with the requirements of the Companies Act, No. 07 of 2007.
+
+
+
+Anuranga Perera
+Head of Finance
+
+
+The Board of Directors is responsible for these Condensed Consolidated Interim Financial Statements.
+Signed on behalf of the Board;
+
+
+
+Stuart Chapman                                                                            Ashoka Goonesekere
+Chairman                                                                                  Senior Independent Director
+Colombo, Sri Lanka
+31st October 2025
+                                                                    1
+                 Statement of Profit or Loss and Other Comprehensive Income
+    Group
+     (Audited)                                                                                       Group                      Company                 Change
+ Year Ended                                                                                  Unaudited   Unaudited       Unaudited Unaudited         Group Company
+  st
+31 Dec 2024      For the Nine Months Ended 30th September,                                       2025         2024            2025       2024
+      Rs. ‘000                                                                     Note       Rs. ‘000     Rs. ‘000        Rs. ‘000   Rs. ‘000            %      %
+
+   22,737,994    Gross Written Premium                                                 9     21,895,072    16,649,826    13,749,432     9,976,081         32    38
+  (4,585,634)    Premium Ceded to Reinsurers                                                 (4,394,202)   (3,453,702)    (785,898)     (571,046)         27    38
+   18,152,360    Net Written Premium                                                         17,500,870    13,196,124    12,963,534     9,405,035         33    38
+      199,390    Net Change in Reserves for Unearned Premium                                  (385,206)       351,109              -             -     (210)      -
+   18,351,750    Net Earned Premium                                                          17,115,664    13,547,233    12,963,534     9,405,035         26    38
+                 Other Revenue
+    7,561,878    Interest and Dividend Income                                          10     6,040,261     5,625,309     5,499,461     5,045,410          7     9
+      100,442    Net Realised Gains                                                             440,562        74,247       419,553        15,148        493 2,670
+       64,853    Net Fair Value Gains                                                            45,973        12,939        34,594        25,398        255    36
+      421,785    Fee and Commission Income                                                      390,527       317,454        88,721        80,139         23    11
+       24,723    Other Income                                                                    22,199        39,855         8,396        22,595       (44)   (63)
+    8,173,681    Total Other Revenue                                                          6,939,522     6,069,804     6,050,725     5,188,690         14    17
+   26,525,431    Net Income                                                                  24,055,186    19,617,037    19,014,259    14,593,725         23    30
+                 Net Benefits, Claims and Expenses
+  (6,711,226)    Net Insurance Benefits and Claims                                           (6,184,276)   (4,956,117)   (3,254,533)   (2,120,112)        25    54
+  (7,679,932)    Change in Contract Liabilities - Life Fund                                  (9,072,789)   (6,965,256)   (9,072,789) (6,965,256)          30    30
+  (6,429,682)    Other Operating and Administration Expenses                                 (5,176,953)   (4,510,137)   (3,378,428) (2,885,172)          15    17
+  (2,749,433)    Underwriting and Net Acquisition Costs                                      (2,359,489)   (1,921,879)   (2,279,861) (1,686,774)          23    35
+    (242,237)    Finance and Other Insurance Related Costs                                    (133,511)     (201,529)     (152,888)     (161,665)       (34)    (5)
+ (23,812,510)    Total Benefits, Claims and Other Expenses                                  (22,927,018) (18,554,918) (18,138,499) (13,818,979)           24    31
+
+    2,712,921    Profit Before Taxation                                                       1,128,168     1,062,119       875,760       774,746          6    13
+    (816,060)    Income Tax Expense                                                    11     (331,554)     (327,388)     (258,562)     (224,350)          1    15
+    1,896,861    Profit for the Period                                                 12       796,614       734,731       617,198       550,396          8    12
+
+                 Other Comprehensive Income, Net of Related Tax
+                 Items that are or may be reclassified to profit or loss
+    1,087,198    - Net Change in fair value of Available For Sale Financial Assets              499,704       208,837       488,068       185,253        139   163
+    (131,952)    - Realised Gains transferred to Income Statement                             (387,775)      (93,887)     (378,889)        (7,839)       313 4,733
+       57,165    - Amortisation of AFS reserve on reclassification                               48,339        42,027        48,339        42,027         15    15
+                 - Net Change in fair value of Available For Sale Financial Assets
+    (906,981)     transferred to Life Policyholders' Available For Sale Reserve Fund          (171,163)     (206,511)     (171,163)     (206,511)       (17)   (17)
+                 - Tax related on items that are or may be reclassified
+        (356)     to profit or loss                                                    11         (825)        18,739              -             -     (104)      -
+                 Items that will never be reclassified to profit or loss
+     (94,430)    - Actuarial Losses on Defined Benefit Plans                                           -             -             -             -         -      -
+       15,976    - Actuarial Gains on Land and Building Revaluation                                    -             -             -             -         -      -
+                 - Tax related on items that will never be reclassified
+      (4,964)    to profit or loss                                                     11              -             -             -             -         -      -
+       21,656    Total Other Comprehensive Income for the Period, Net of Related Tax            (11,720)     (30,795)      (13,645)        12,930       (62) (206)
+    1,918,517    Total Comprehensive Income for the Period                                      784,894       703,936       603,553       563,326         12     7
+                 Profit Attributable to:
+    1,896,861    Equity Holders of the Company                                                  796,614       734,731       617,198       550,396          8    12
+             -   Non-Controlling Interest                                                              -             -             -             -         -      -
+                 Total Comprehensive Income Attributable to:
+    1,918,517    Equity Holders of the Company                                                  784,894       703,936       603,553       563,326         12     7
+             -   Non-Controlling Interest                                                              -             -             -             -         -      -
+        12.65 Basic and Diluted Earnings Per Share (Rs.)                          13          5.31               4.90          4.11          3.67         8     12
+The Notes form an integral part of these Condensed Consolidated Interim Financial Statements.
+                                                                                       2
+                                                                           Statement of Changes in Equity - Group
+                                                                                                             Stated      Retained      Available        Other                 Life   Restricted       Total
+                                                                                                                                        for Sale                   Policyholders'    Regulatory
+                                                                                                             Capital     Earnings                     Reserve       AFS Reserve                     Equity
+                                                                                                                                        Reserve                             Fund       Reserve
+                                                                                                            Rs. ‘000      Rs. ‘000      Rs. ‘000      Rs. ‘000           Rs. ‘000      Rs. ‘000    Rs. ‘000
+    Balance as at 01st January 2024                                                                          1,171,875     9,039,864      174,358       (21,290)        (469,286)        381,156   10,276,677
+    Comprehensive Income for the Period
+    Profit for the Period-Unaudited                                                                                  -      734,731               -            -                -              -     734,731
+    Other Comprehensive Income for the Period, Net of Related Tax
+    Net Change in fair value of Available For Sale Financial Assets                                                  -             -      175,716              -                -              -     175,716
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred to Life Policyholders' Available For Sale Reserve Fund                                             -            -      (206,511)             -                -              -    (206,511)
+    Total Other Comprehensive Income for the Period                                                                  -            -       (30,795)             -                -              -     (30,795)
+    Total Comprehensive Income for the Period                                                                        -      734,731       (30,795)             -                -              -     703,936
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred from Available For Sale Reserve                                                                    -             -              -            -         206,511               -      206,511
+    Transactions with owners recorded directly in equity
+    Distributions to owners of the Parent
+    Dividend to equity holders for 2023                                                                              -     (585,000)            -              -                -              -    (585,000)
+    Unaudited balance as at 30th September 2024                                                              1,171,875     9,189,595      143,563       (21,290)        (262,775)        381,156   10,602,124
+    Comprehensive Income for the Period
+    Profit for the Period-Unaudited                                                                                  -     1,162,130              -            -                -              -    1,162,130
+    Other Comprehensive Income for the Period, Net of Related Tax
+
+
+
+
+3
+    Net Change in fair value of Available For Sale Financial Assets                                                  -             -      836,339              -                -              -     836,339
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred to Life Policyholders' Available For Sale Reserve Fund                                             -             -     (700,470)             -                -              -    (700,470)
+    Actuarial Losses on Defined Benefit Plans                                                                        -             -             -      (95,849)                -              -      (95,849)
+    Gains on Land and Building Revaluation                                                                           -             -             -        12,431                -              -        12,431
+    Total Other Comprehensive Income for the Period                                                                  -             -       135,869      (83,418)                -              -        52,451
+    Total Comprehensive Income for the Period                                                                        -     1,162,130       135,869      (83,418)                -              -    1,214,581
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred from Available For Sale Reserve                                                                    -             -            -              -         700,470               -      700,470
+    Audited balance as at 31st December 2024                                                                 1,171,875    10,351,725      279,432      (104,708)         437,695         381,156   12,517,175
+    Balance as at 01st January 2025                                                                          1,171,875    10,351,725      279,432      (104,708)         437,695         381,156   12,517,175
+    Comprehensive Income for the Period
+    Profit for the Period-Unaudited                                                                                  -      796,614               -            -                -              -     796,614
+    Other Comprehensive Income for the Period, Net of Related Tax
+    Net Change in fair value of Available For Sale Financial Assets                                                  -             -      159,443              -                -              -     159,443
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred to Life Policyholders' Available For Sale Reserve Fund                                             -            -      (171,163)             -                -              -    (171,163)
+    Total Other Comprehensive Income for the Period                                                                  -            -        (11,720)            -                -              -      (11,720)
+    Total Comprehensive Income for the Period                                                                        -      796,614        (11,720)            -                -              -      784,894
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred from Available For Sale Reserve                                                                    -             -              -            -         171,163               -     171,163
+    Transactions with owners recorded directly in equity
+    Distributions to owners of the Parent
+    First and final dividend to equity holders for 2024                                                              -     (585,000)            -              -               -               -    (585,000)
+    Unaudited balance as at 30th September 2025                                                              1,171,875    10,563,339      267,712      (104,708)         608,858         381,156   12,888,232
+
+    Stated Capital represents 150 Million Ordinary Shares as at 30th September 2025 (2024 - 150 Million).
+    The Notes form an integral part of these Condensed Consolidated Interim Financial Statements.
+                                                                            Statement of Changes in Equity - Company
+                                                                                                             Stated      Retained     Available       Other                 Life   Restricted       Total
+                                                                                                                                       for Sale                  Policyholders'    Regulatory
+                                                                                                             Capital     Earnings                   Reserve       AFS Reserve                     Equity
+                                                                                                                                       Reserve                            Fund       Reserve
+                                                                                                            Rs. ‘000      Rs. ‘000     Rs. ‘000     Rs. ‘000           Rs. ‘000      Rs. ‘000    Rs. ‘000
+    Balance as at 01st January 2024                                                                          1,171,875    7,618,252      106,834      (21,175)        (469,286)        381,156    8,787,656
+    Comprehensive Income for the Period
+    Profit for the Period-Unaudited                                                                                  -      550,396             -            -                -              -     550,396
+    Other Comprehensive Income for the Period, Net of Related Tax
+    Net Change in fair value of Available For Sale Financial Assets                                                  -            -      219,441             -                -              -     219,441
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred to Life Policyholders' Available For Sale Reserve Fund                                             -            -     (206,511)            -                -              -    (206,511)
+    Total Other Comprehensive Income for the Period                                                                  -            -       12,930             -                -              -      12,930
+    Total Comprehensive Income for the Period                                                                        -      550,396       12,930             -                -              -     563,326
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred from Available For Sale Reserve                                                                    -            -             -            -         206,511               -      206,511
+    Transactions with owners recorded directly in equity
+    Distributions to owners of the Company
+    Dividend to equity holders for 2023                                                                              -    (585,000)            -             -                -              -    (585,000)
+    Unaudited balance as at 30th September 2024                                                              1,171,875    7,583,648      119,764      (21,175)        (262,775)        381,156    8,972,493
+    Comprehensive Income for the Period
+    Profit for the Period-Unaudited                                                                                  -    1,106,315             -            -                -              -    1,106,315
+    Other Comprehensive Income for the Period, Net of Related Tax
+
+
+
+
+4
+    Net Change in fair value of Available For Sale Financial Assets                                                  -            -      791,782             -                -              -     791,782
+    Net Change in fair value of Available For Sale Financial Assets
+     - transferred to Life Policyholders' Available For Sale Reserve Fund                                            -            -     (700,470)            -                -              -    (700,470)
+    Actuarial Losses on Defined Benefit Plans                                                                        -            -             -     (61,004)                -              -      (61,004)
+    Total Other Comprehensive Income for the Period                                                                  -            -        91,312     (61,004)                -              -        30,308
+    Total Comprehensive Income for the Period                                                                        -    1,106,315        91,312     (61,004)                -              -    1,136,623
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred from Available For Sale Reserve                                                                    -            -            -             -         700,470               -      700,470
+    Audited balance as at 31st December 2024                                                                 1,171,875    8,689,963      211,076      (82,179)         437,695         381,156   10,809,586
+    Balance as at 01st January 2025                                                                          1,171,875    8,689,963      211,076      (82,179)         437,695         381,156   10,809,586
+    Comprehensive Income for the Period
+    Profit for the Period-Unaudited                                                                                  -      617,198             -            -                -              -     617,198
+    Other Comprehensive Income for the Period, Net of Related Tax
+    Net Change in fair value of Available For Sale Financial Assets                                                  -            -      157,518             -                -              -     157,518
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred to Life Policyholders' Available For Sale Reserve Fund                                             -            -     (171,163)            -                -              -    (171,163)
+    Total Other Comprehensive Income for the Period                                                                  -            -      (13,645)            -                -              -     (13,645)
+    Total Comprehensive Income for the Period                                                                        -      617,198      (13,645)            -                -              -      603,553
+    Net Change in fair value of Available For Sale Financial Assets
+    - transferred from Available For Sale Reserve                                                                    -            -             -            -         171,163               -     171,163
+    Transactions with owners recorded directly in equity
+    Distributions to owners of the Company
+    First and final dividend to equity holders for 2024                                                              -    (585,000)            -             -               -               -    (585,000)
+    Unaudited balance as at 30th September 2025                                                              1,171,875    8,722,161      197,431      (82,179)         608,858         381,156   10,999,302
+    Stated Capital represents 150 Million Ordinary Shares as at 30th September 2025 (2024 - 150 Million).
+    The Notes form an integral part of these Condensed Consolidated Interim Financial Statements.
+                                                  Statement of Cash Flows
+                                                                                                         Group                             Company
+                                                                                            Unaudited            Unaudited        Unaudited       Unaudited
+ For the Nine Months Ended 30th September,                                                       2025                 2024             2025            2024
+                                                                                Note          Rs. ‘000             Rs. ‘000         Rs. ‘000        Rs. ‘000
+Cash Flows From Operating Activities
+Profit Before Taxation                                                                    1,128,168              1,062,119         875,760         774,746
+Adjustments for:
+Interest Income                                                                 10       (6,001,594)         (5,604,616)        (5,460,794)     (5,024,749)
+Dividend Income                                                                 10          (38,667)              (20,693)         (38,667)        (20,661)
+Amortisation of Intangible Assets                                                             37,192               22,623           34,849           21,059
+Depreciation of Property, Plant and Equipment                                               156,753               131,163          116,574         100,368
+Net Depreciation of Right of Use Assets                                                     163,376               155,087          147,356         143,864
+Interest Expense of Lease Creditors                                                          68,721                 81,211          58,475           74,540
+Provision for Employee Benefits                                                             105,678                98,998           75,228           65,864
+Net Realised Gains                                                                         (440,562)              (74,247)        (419,553)        (15,148)
+Net Fair Value Gains                                                                        (45,973)              (12,939)         (34,594)        (25,398)
+Gains on Disposal of Property, Plant and Equipment                                             (330)              (18,944)            (262)        (18,886)
+Gains on Disposal of Right of Use Asset                                                             -                (347)                -           (347)
+                                                                                         (4,867,238)         (4,180,585)        (4,645,628)     (3,924,748)
+
+
+Net Change in Operating Assets                                                  A        (1,022,053)             (339,550)        (788,723)      (337,980)
+Net Change in Operating Liabilities                                             B        10,731,980              7,629,406       9,896,755       7,027,440
+Cash Flows from Operating Activities                                                      4,842,689              3,109,271       4,462,404       2,764,712
+
+
+Gratuity Paid                                                                               (19,358)              (22,740)          (5,426)        (13,182)
+Income Tax Paid                                                                            (633,398)             (517,494)        (551,116)      (440,013)
+Payment of Lease Interest                                                                   (68,721)              (81,211)         (58,475)        (74,540)
+Capital Gain Tax Paid                                                                        (2,666)              (16,786)                -                -
+Net Cash Generated from Operating Activities                                              4,118,546              2,471,040       3,847,387       2,236,977
+
+
+Cash Flows from Investing Activities
+Acquisition of Financial Investments                                                   (141,654,696)        (84,510,009)      (105,407,895)    (57,246,280)
+Proceeds from Maturity of Financial Investments                                         132,217,446          75,899,817         96,728,888      50,324,760
+Proceeds from Sale of Financial Investments                                               1,248,489              2,057,346       1,034,479       1,168,780
+Interest Received                                                                         5,469,071              5,005,710       4,936,346       4,307,932
+Dividend Received                                                                            34,433                17,961           34,433           17,929
+Acquisition of Intangible Assets                                                           (172,132)             (123,681)        (158,583)      (120,969)
+Acquisition of Property, Plant and Equipment                                               (158,783)             (168,266)         (86,021)      (138,637)
+Proceeds from the Disposal of Property, Plant and Equipment                                      686               23,552              561           23,445
+Advance Paid to Right of Use asset                                                          (20,760)               (8,635)         (10,560)          (6,235)
+Net Cash Used in Investing Activities                                                    (3,036,246)         (1,806,205)        (2,928,352)     (1,669,275)
+
+
+Cash Flows from Financing Activities
+Dividend Paid                                                                              (585,000)             (585,000)        (585,000)      (585,000)
+Payment of Lease Capital                                                                   (134,326)              (91,358)        (127,796)        (87,312)
+Net Cash Used in Financing Activities                                                      (719,326)             (676,358)        (712,796)      (672,312)
+
+
+Net Increase/(Decrease) in Cash and Cash Equivalents (Net of Book OD)                       362,974               (11,523)         206,239       (104,610)
+Cash and Cash Equivalents at the beginning of the Period (Net of Book OD)                   983,433               651,733          647,397         505,675
+Cash and Cash Equivalents at the end of the Period (Net of Book OD)             C         1,346,407               640,210          853,636         401,065
+
+
+
+
+                                                                            5
+                                           Notes to the Statement of Cash Flows
+                                                                                                                     Group                             Company
+                                                                                                        Unaudited            Unaudited        Unaudited         Unaudited
+For the Nine Months Ended 30th September,                                                                    2025                 2024             2025              2024
+                                                                                            Note          Rs. ‘000             Rs. ‘000         Rs. ‘000          Rs. ‘000
+A. Change in Operating Assets
+Decrease in Deferred Expenses                                                                              7,314              147,668                  -                -
+Increase in Loans to Life Policyholders                                                                 (37,100)               (3,149)         (37,100)          (3,149)
+Increase in Reinsurance Receivables                                                                    (457,478)             (330,999)       (328,726)         (139,429)
+Increase in Premium Receivables                                                                        (383,499)              (66,604)       (367,517)          (85,738)
+Increase in Other Assets                                                                               (151,290)              (86,466)         (55,380)        (109,664)
+Net Change in Operating Assets                                                                       (1,022,053)             (339,550)       (788,723)         (337,980)
+
+
+B. Change in Operating Liabilities
+Increase/(Decrease) in Other Liabilities                                                                157,267                 8,977          188,284         (214,412)
+Increase in Insurance Contract Liabilities (before tax) - Life Insurance                              9,135,458              6,982,443       9,135,458         6,982,443
+Increase/(Decrease) in Insurance Contract Liabilities - General Insurance                               477,553               (93,880)                 -                -
+Increase in Reinsurance Creditors                                                                       961,702               731,866          573,013          259,409
+Net Change in Operating Liabilities                                                                  10,731,980              7,629,406       9,896,755         7,027,440
+
+
+C. Cash and Cash Equivalents at the end of the Period
+Cash in Hand and at Bank                                                                              1,600,321               787,184        1,020,295          537,067
+Bank Overdrafts                                                                                        (253,914)             (146,974)       (166,659)         (136,002)
+Cash and Cash Equivalents (Net of Book OD)                                                            1,346,407               640,210          853,636          401,065
+
+For the purpose of the cash flow statement, cash and cash equivalents consist of cash in hand and at bank, net of outstanding bank overdraft as shown above.
+The Notes form an integral part of these Condensed Consolidated Interim Financial Statements.
+
+
+
+
+                                                                                     6
+                  Statement of Profit or Loss and Other Comprehensive Income
+                                                                                              Group                     Company                Change
+                                                                                      Unaudited Unaudited       Unaudited    Unaudited      Group Company
+For the Three Months Ended 30th September,                                                2025         2024          2025         2024
+                                                                               Note    Rs. ‘000     Rs. ‘000      Rs. ‘000     Rs. ‘000         %        %
+
+Gross Written Premium                                                           9      7,625,756    5,690,139    5,118,359     3,571,473       34       43
+Premium Ceded to Reinsurers                                                           (1,327,468) (1,194,214)    (301,404)     (205,797)       11       46
+Net Written Premium                                                                    6,298,288    4,495,925    4,816,955     3,365,676       40       43
+Net Change in Reserves for Unearned Premium                                              (29,634)    218,740              -             -    (114)        -
+Net Earned Premium                                                                     6,268,654    4,714,665    4,816,955     3,365,676       33       43
+Other Revenue
+Interest and Dividend Income                                                    10     2,065,649    1,877,920    1,882,777     1,695,000       10       11
+Net Realised Gains                                                                       356,561      36,364       351,889        12,325      881     2,755
+Net Fair Value Gains/(Losses)                                                              5,267     (11,415)        1,313        (8,781)     146      115
+Fee and Commission Income                                                                105,600     104,042        13,113        11,977        1        9
+Other Income                                                                               7,084      15,262           262         6,649      (54)     (96)
+Total Other Revenue                                                                    2,540,161    2,022,173    2,249,354     1,717,170       26       31
+Net Income                                                                             8,808,815    6,736,838    7,066,309     5,082,846       31       39
+Net Benefits, Claims and Expenses
+Net Insurance Benefits and Claims                                                     (2,337,300) (1,599,868)   (1,351,192)    (687,393)       46       97
+Change in Contract Liabilities - Life Fund                                            (3,290,262) (2,432,280)   (3,290,262)   (2,432,280)      35       35
+Other Operating and Administration Expenses                                           (1,887,173) (1,598,721)   (1,267,084)   (1,030,590)      18       23
+Underwriting and Net Acquisition Costs                                                 (869,160)    (682,316)    (837,726)     (614,824)       27       36
+Finance and Other Insurance Related Costs                                                (27,166)    (72,127)     (51,258)      (55,970)      (62)      (8)
+Total Benefits, Claims and Other Expenses                                             (8,411,061) (6,385,312)   (6,797,522)   (4,821,057)      32       41
+
+
+Profit Before Taxation                                                                   397,754     351,526       268,787       261,789       13        3
+Income Tax Expense                                                              11     (120,500)     (90,985)     (79,875)      (76,028)       32        5
+Profit for the Period                                                           12       277,254     260,541       188,912       185,761        6        2
+
+
+Other Comprehensive Income, Net of Related Tax
+Items that are or may be reclassified to profit or loss
+- Net Change in fair value of Available For Sale Financial Assets                         36,459    (104,063)       48,966      (85,156)      135      158
+- Realised Gains transferred to Income Statement                                       (312,007)     (36,795)    (312,007)        (2,380)     748    13,010
+- Amortisation of AFS reserve on reclassification                                         16,803      14,593        16,803        14,593       15       15
+- Net Change in fair value of Available For Sale Financial Assets
+ transferred to Life Policyholder's Available For Sale Reserve Fund                      233,104      44,283       233,104        44,283      426      426
+- Tax related on items that are or may be reclassified to profit or loss        11         3,752      15,996              -             -     (77)        -
+Total Other Comprehensive Income for the Period, Net of Related tax                      (21,889)    (65,986)     (13,134)      (28,660)      (67)     (54)
+Total Comprehensive Income for the Period                                                255,365     194,555       175,778       157,101       31       12
+Profit Attributable to:
+Equity Holders of the Company                                                            277,254     260,541       188,912       185,761        6        2
+Non-Controlling Interest                                                                        -           -             -             -        -        -
+Total Comprehensive Income Attributable to:
+Equity Holders of the Company                                                            255,365     194,555       175,778       157,101       31       12
+Non-Controlling Interest                                                                        -           -             -             -        -        -
+Basic and Diluted Earnings Per Share (Rs.)                                      13          1.85         1.74         1.26          1.24        6        2
+
+
+The Notes form an integral part of these Condensed Consolidated Interim Financial Statements.
+
+
+
+
+                                                                               7
+           Operating Segment Information - Assets and Liabilities
+                                                                   Unaudited                      Audited
+As at,                                                         30th September 2025          31st December 2024
+                                                                Life         General          Life         General
+                                                          Insurance        Insurance    Insurance        Insurance
+                                                              Rs. '000       Rs. '000       Rs. '000       Rs. '000
+Assets
+Property, Plant and Equipment                                510,266          261,046       541,118         228,520
+Right of Use Assets                                          414,375          112,969       427,016          55,535
+Intangible Assets                                            279,322           19,637       155,588           8,431
+Deferred Tax Assets                                                -           17,540             -          14,783
+Financial Investments                                     57,271,202        6,405,918    48,486,327       5,818,471
+Investment in Subsidiary                                   1,150,000                -     1,150,000               -
+Loans to Life Policyholders                                  496,495                -       459,395               -
+Reinsurance Receivables                                      566,901        1,159,081       238,175       1,030,329
+Premium Receivables                                          566,240        2,089,477       198,723       2,081,953
+Other Assets                                                 962,093          477,311       906,713         396,910
+Insurance Contract - Deferred Expenses                             -           26,154             -          33,468
+Cash and Cash Equivalents                                  1,020,295          580,026       841,377         561,042
+Total Assets                                              63,237,189       11,149,159    53,404,432      10,229,442
+Liabilities
+Insurance Contract Liabilities - Life Insurance           47,783,005                -    38,647,547               -
+Insurance Contract Liabilities - General Insurance                 -        4,984,611             -       4,507,058
+Employee Defined Benefit Liabilities                         349,666          213,969       279,864         197,451
+Current Tax Liabilities                                      186,594           57,476       479,148          80,728
+Reinsurance Creditors                                        788,012        1,174,040       214,999         785,351
+Lease Creditors                                              499,592          114,397       503,233          57,672
+Other Liabilities                                          2,464,359        1,478,481     2,276,075       1,518,587
+Bank Overdrafts                                              166,659           87,255       193,980         225,006
+Total Liabilities                                         52,237,887        8,110,229    42,594,846       7,371,853
+
+
+                       Operating Segment Information - Profitability
+                                                                   Unaudited                     Unaudited
+For the Nine Months Ended,                                  30th September 2025           30th September 2024
+                                                                Life         General          Life         General
+                                                          Insurance        Insurance    Insurance        Insurance
+                                                              Rs. '000       Rs. '000       Rs. '000       Rs. '000
+Gross Written Premium                                     13,749,432        8,184,211     9,976,081       6,742,709
+Premium Ceded to Reinsurers                                (785,898)      (3,608,304)     (571,046)     (2,882,656)
+Net Written Premium                                       12,963,534        4,575,907     9,405,035       3,860,053
+Net Change in Reserves for Unearned Premium                        -        (385,206)             -         351,109
+Net Earned Premium                                        12,963,534        4,190,701     9,405,035       4,211,162
+Other Revenue
+Interest and Dividend Income                               5,499,461         540,800      5,045,410        579,899
+Net Realised Gains                                           419,553          21,009         15,148          59,099
+Net Fair Value Gains/(Losses)                                 34,594          11,379         25,398        (12,459)
+Fee and Commission Income                                     88,721         323,601         80,139        262,725
+Other Income                                                   8,396          13,803         22,595          17,260
+Total Other Revenue                                        6,050,725         910,592      5,188,690        906,524
+Net Income                                                19,014,259        5,101,293    14,593,725       5,117,686
+Net Benefits, Claims and Expenses
+Net Insurance Benefits and Claims                         (3,254,533)     (2,929,824)     (2,120,112)   (2,836,224)
+Change in Contract Liabilities - Life Fund                (9,072,789)               -    (6,965,256)              -
+Other Operating and Administration Expenses               (3,378,428)     (1,851,014)    (2,885,172)    (1,706,675)
+Underwriting and Net Acquisition Cost                     (2,279,861)        (87,424)    (1,686,774)      (247,550)
+Finance and Other Insurance Related Costs                   (152,888)          19,377       (161,665)      (39,864)
+Total Benefits, Claims and other Expenses                (18,138,499)     (4,848,885)   (13,818,979)    (4,830,313)
+Profit Before Taxation                                        875,760         252,408         774,746       287,373
+Income Tax Expense                                          (258,562)        (72,992)       (224,350)     (103,038)
+Profit for the Period                                         617,198         179,416         550,396       184,335
+
+
+                                                     8
+    Notes to the Condensed Consolidated Interim Financial Statements
+1 CORPORATE INFORMATION
+1.1 Reporting Entity
+    HNB Assurance PLC (“the Company”) is a public limited liability Company incorporated on 23rd August 2001 and domiciled
+    in Sri Lanka. The registered office of the Company is situated at No. 479, T B Jayah Mawatha, Colombo 10 and the principal
+    place of business is situated at No. 30, Iceland Business Centre, Sri Uttarananda Mawatha, Colombo 03. The Ordinary
+    Shares of the Company are listed on the Colombo Stock Exchange (CSE).
+     The Group's controlling entity and ultimate parent undertaking is Hatton National Bank PLC which is a licensed Commercial
+    Bank incorporated in Sri Lanka.
+
+1.2 Approval of Financial Statements
+    The Condensed Consolidated Interim Financial Statements were authorised for issue by the Board of Directors on 31st
+    October 2025.
+    Figures in these Condensed Consolidated Interim Financial Statements for the period ended 30th September 2025 are
+    provisional and unaudited.
+
+2    BASIS OF PREPARATION
+     These Condensed Consolidated Interim Financial Statements of the Group and Company have been prepared in
+     compliance with Sri Lanka Accounting Standard LKAS 34- Interim Financial Reporting and comply with the requirements of
+     the Companies Act, No. 7 of 2007 and the Regulation of Insurance Industry Act, No. 43 of 2000 and subsequent amendments
+     thereto.
+     These Condensed Consolidated Interim Financial Statements should be read in conjunction with the Annual Financial
+     Statements for the year ended 31st December 2024. The same accounting policies have been followed in preparation of
+     these interim financial statements as stated in the Audited Financial Statements for the year ended 31st December 2024.
+     Comparative information has been re-valued/re-classified where necessary, to conform to the current period recognition,
+     measurement and presentations.
+
+2.1 Temporary Exemption for Application of SLFRS 09
+     SLFRS 9 addresses the accounting for financial instruments and is effective for annual periods beginning on or after 01st
+    January 2018. However, for an insurer that meets the criteria in paragraph 20B of SLFRS 4 (Amended) which provides a
+    temporary exemption that permits, but does not require, the insurer to apply LKAS 39 Financial Instruments: Recognition and
+    Measurement rather than SLFRS 9 for annual periods beginning before 01st January 2026.
+    Having considered the above, since HNB Assurance PLC and HNB General Insurance Limited are predominantly carrying
+    out Insurance activities, both Companies continue to apply LKAS 39 Financial Instruments: Recognition and Measurement
+    rather than SLFRS 9 for the annual periods beginning before 01st January 2026.
+    Group has not early adopted the new SLFRSs and interpretations issued but not yet effective.
+
+
+
+3    FINANCIAL INVESTMENTS                                                     Group                       Company
+                                                                       Unaudited       Audited     Unaudited       Audited
+     As at,                                                        30th Sep 2025 31st Dec 2024 30th Sep 2025 31st Dec 2024
+                                                                         Rs. '000      Rs. '000      Rs. '000      Rs. '000
+     Held to Maturity Financial Assets                               14,759,704     13,429,892      14,759,704    13,429,892
+     Loans and Receivables                                           30,346,571     22,404,413      26,234,254    19,418,909
+     Available for Sale Financial Assets                             17,914,411     18,022,934      15,794,961    15,234,056
+     Financial Assets at Fair Value Through Profit or Loss              656,434        447,559         482,283       403,470
+     Total Financial Investment                                      63,677,120     54,304,798      57,271,202    48,486,327
+
+
+                                                              9
+    Notes to the Condensed Consolidated Interim Financial Statements
+4    THE ACCOUNTING POLICY FOR CONSOLIDATION OF SUBSIDIARY
+     Subsidiaries are all entities (including structured entities) over which the group has control. The group controls an entity when
+     the group is exposed to, or has rights to, variable returns from its involvement with the entity and has the ability to affect those
+     returns through its power over the entity. Subsidiaries are fully consolidated from the date on which control is transferred to
+     the group. They are deconsolidated from the date that control ceases.
+     Inter-company transactions, balances and unrealised gains on transactions between group companies and unrealised
+     losses are eliminated. Amounts reported by subsidiary companies are adjusted to conform with the Group’s accounting
+     policies where necessary.
+
+5    LIFE POLICYHOLDERS' AVAILABLE FOR SALE RESERVE FUND
+     Life Policyholders' Available For Sale Reserve Fund includes the fair value changes recorded in Other Comprehensive
+     Income in respect of Life Insurance related assets.
+     Unrealised gains and losses of Available For Sale Financial Assets of Life Insurance are included under Life Policyholders'
+     Available For Sale Reserve Fund in Equity.
+
+6    RESTRICTED REGULATORY RESERVE                                                          Group                        Company
+                                                                                     Unaudited       Audited         Unaudited       Audited
+     As at,                                                                      30th Sep 2025 31st Dec 2024     30th Sep 2025 31st Dec 2024
+                                                                        Note           Rs. '000      Rs. '000          Rs. '000      Rs. '000
+     Balance at the end of the Period                                    6.2         381,156        381,156         381,156        381,156
+6.1 Nature and Purpose of Reserve
+    The Insurance Regulatory Commission of Sri Lanka (IRCSL) has issued Direction No. 16 on 20th March 2018 on
+    "Identification and Treatment of One-off Surplus" and has instructed all Life Insurance Companies to comply with the
+    Direction. Based on the Direction, Life Insurance Companies are allowed to transfer One-off surplus attributable to
+    Policyholders' Non-Participating Fund to Shareholders' Fund. The transfer has been presented as a separate reserve in the
+    Statement of Financial Position as "Restricted Regulatory Reserve" under Equity in accordance with the Direction above.
+    The distribution of One-off Surplus to Shareholders as dividend shall remain restricted until the requirements disclosed in
+    Note (6.3) are met. As required by the said Direction, the Company received the approval for this transfer on 11th May 2018.
+
+6.2 As required by the IRCSL, every registered insurer was required to apply Solvency Margin (Risk Based Capital) Rules with
+    effect from 01st January 2016. According to the Risk Based Capital rules, all Insurers are required to value Life Insurance
+    Policy Liabilities as per the Gross Premium Valuation (GPV) method and valuation rules and methodologies stipulated by the
+    IRCSL. The change in the valuation method from NPV to GPV resulted in a release in Life Policyholder Liabilities of the
+    Company as of 01st January 2016.
+    The IRCSL had directed insurance Companies to maintain this One-off Surplus arising from change in the policy liability
+    valuation within the Long-Term Insurance Fund/Insurance Contract Liabilities separately in the name of “Surplus created due
+    to change in valuation method from NPV to GPV” and not to transfer/distribute any part of the surplus until specific
+    instructions are issued in this regard.
+
+     Surplus created due to Change in Valuation Method                                                                    Non
+                                                                                                 Participating   Participating
+     Description                                                                                         Fund            Fund           Total
+                                                                                                      Rs. '000        Rs. '000       Rs. '000
+     Value of Insurance contract liability based on NPV as at 31st December 2015 A 2,988,500                      3,856,964 6,845,464
+     Value of Insurance contract liability based on GPV as at 31st December 2015 B 3,015,001                      3,475,808 6,490,809
+     Zerorisation of Negative Surplus as per Direction No. 16                     C   26,501                              -    26,501
+     Surplus created due to Change in Valuation Method
+       -One-off Surplus as at 01st January 2016                                 A-B+C      -                        381,156        381,156
+
+
+                                                                   10
+    Notes to the Condensed Consolidated Interim Financial Statements
+     The One-off surplus in the Shareholder's Fund will remain invested in Term Deposits as disclosed in Note No. 6.3.2 as per the
+     Direction of IRCSL.
+     The financial ratios presented in these Condensed Consolidated Interim Financial Statements have been determined in
+     accordance with Sri Lanka Accounting Standards. Additionally, the Company has voluntarily presented financial ratios
+     without One-off Surplus impact. As per the Direction One-off Surplus in respect of Participating business is to be held within
+     the Participating Fund as part of the unallocated valuation surplus and may only be transferred to the Shareholder Fund by
+     means of bonuses to Policyholders in line with Section 38 of the "Regulation of Insurance Industry, Act No. 43 of 2000".
+
+6.3 Distribution of One-off Surplus
+6.3.1 Distribution of one-off surplus to shareholders, held as part of the Restricted Regulatory Reserve under equity in the
+      statement of financial position is subject to meeting governance requirements stipulated by the IRCSL and can only be
+      released upon receiving approval from the IRCSL.
+6.3.2 Composition of Investments Supporting the Restricted Regulatory Reserve as at 30th September 2025
+      Based on the Direction issued by IRCSL following Instruments have been marked to support the Restricted Regulatory
+      Reserve of the Company.
+     Asset Category                                    Fair Value /
+                                                    Carrying Value
+     As at,                                         30th Sep 2025
+                                                         (Rs. '000)
+     Term Deposits                                        381,183
+7    INSURANCE CONTRACT LIABILITIES - LIFE INSURANCE                                          Group                            Company
+                                                                                       Unaudited          Audited        Unaudited          Audited
+     As at,                                                                        30th Sep 2025    31st Dec 2024    30th Sep 2025    31st Dec 2024
+                                                                           Note          Rs. '000         Rs. '000         Rs. '000         Rs. '000
+     Life Insurance Fund                                                   7.1     47,410,087 38,337,298             47,410,087 38,337,298
+     Claims Outstanding                                                               372,918    310,249                372,918    310,249
+     Total Insurance Contract Liabilities                                          47,783,005 38,647,547             47,783,005 38,647,547
+7.1 Insurance Contract Liabilities - Life Insurance Fund
+                                                                                              Group                            Company
+                                                                                       Unaudited          Audited        Unaudited          Audited
+     As at,                                                                        30th Sep 2025    31st Dec 2024    30th Sep 2025    31st Dec 2024
+                                                                                         Rs. '000         Rs. '000         Rs. '000         Rs. '000
+     The Movement in the Life Insurance Fund is as follows:
+     Balance as at the beginning of the Period                                     38,337,298 30,676,040 38,337,298 30,676,040
+     Change in Contract Liabilities Life Fund
+     Increase in Life Insurance Fund Before Surplus Distribution to Shareholders    9,072,789 9,029,932 9,072,789 9,029,932
+     Surplus Distributed to Shareholders                                                    - (1,350,000)         - (1,350,000)
+     Increase in Life Insurance Fund                                                9,072,789 7,679,932 9,072,789 7,679,932
+     Effect of Taxation on surplus/Bonus transferred to Policyholders                       -    (18,674)         -    (18,674)
+     Balance as at the end of the Period                                           47,410,087 38,337,298 47,410,087 38,337,298
+
+7.2 Liability Adequacy Test
+    A Liability Adequacy Test (LAT) for Life Insurance contract Liability was carried out by Mr. Abhishek Chadha, FIA, on behalf of
+    Willis Towers Watson India Private Limited, as at 31st December 2024 as required by SLFRS 4 - Insurance Contracts. When
+    performing the LAT, the Company discounts all contractual cash flows and compares this amount with the carrying value of
+    the liability. The valuation is based on internationally accepted actuarial methods. According to the Appointed Actuary's
+    report, assets are sufficiently adequate as compared to the discounted cash flow reserves and in contrast to the reserves as
+    at 31st December 2024.
+                                                                      11
+ Notes to the Condensed Consolidated Interim Financial Statements
+8 INSURANCE CONTRACT LIABILITIES - GENERAL INSURANCE
+                                                                                    Group                            Company
+                                                                             Unaudited          Audited        Unaudited          Audited
+    As at,                                                               30th Sep 2025    31st Dec 2024    30th Sep 2025    31st Dec 2024
+                                                                               Rs. '000         Rs. '000         Rs. '000         Rs. '000
+    Reserves for Net Unearned Premium                                     3,099,321          2,734,648                 -                -
+    Reserves for Title Insurance                                             95,620             75,088                 -                -
+    Reserves for Gross Outstanding Claims                                 1,789,670          1,697,322                 -                -
+    Total Insurance Contract Liabilities                                  4,984,611          4,507,058                 -                -
+
+
+8.1 Valuation of the IBNR/IBNER was carried by the Appointed Actuary, Ms. Sipika Tandon Mathur, FIA, as at 30th September
+    2025 for and on behalf of Willis Towers Watson India Private Limited. The Appointed Actuary have ensured that adequate
+    provisions have been made in these Condensed Consolidated Interim Financial Statements.
+
+8.2 Liability Adequacy Test
+    A Liability Adequacy Test (LAT) for the General Insurance Contract Liability was performed by the Appointed Actuary, Ms.
+    Sipika Tandon Mathur, FIA, for and on behalf of Willis Towers Watson India Private Limited as at 31st December 2024 as
+    required by SLFRS 4 - Insurance Contracts. According to the Appointed Actuary's report, HNB General Insurance Ltd
+    adequately satisfies the LAT requirement as at 31st December 2024.
+
+9 GROSS WRITTEN PREMIUM
+   Group
+      Audited                                                                        Group                           Company
+      For the
+  Year Ended                                                                 Unaudited        Unaudited        Unaudited        Unaudited
+31st Dec 2024 For the Nine Months Ended,                                 30th Sep 2025    30th Sep 2024    30th Sep 2025    30th Sep 2024
+      Rs. '000                                                                 Rs. '000         Rs. '000         Rs. '000         Rs. '000
+            Life Insurance
+13,187,037 Individual Policies                                           13,164,674        9,581,638 13,164,674              9,581,638
+   522,618 Corporate Policies                                               584,758          394,443    584,758                394,443
+   (55,720) Adjustment for Inter Company Premiums                           (30,020)         (36,837)         -                      -
+13,653,935 Gross Written Premium - Life Insurance                        13,719,412        9,939,244 13,749,432              9,976,081
+
+            General Insurance
+ 1,885,932 Fire                                                           1,965,148        1,483,212          -                      -
+ 4,775,374 Motor                                                          4,373,030        3,576,545          -                      -
+   327,135 Marine                                                           199,552          243,933          -                      -
+ 2,133,105 Miscellaneous                                                  1,646,481        1,439,019          -                      -
+   (37,487) Adjustment for Inter Company Premiums                            (8,551)         (32,127)         -                      -
+ 9,084,059 Gross Written Premium - General Insurance                      8,175,660        6,710,582          -                      -
+22,737,994 Total Gross Written Premium                                   21,895,072       16,649,826 13,749,432              9,976,081
+
+
+
+
+                                                            12
+  Notes to the Condensed Consolidated Interim Financial Statements
+                                                                                      Group                           Company
+                                                                             Unaudited      Unaudited          Unaudited      Unaudited
+     For the Three Months Ended,                                         30th Sep 2025 30th Sep 2024       30th Sep 2025 30th Sep 2024
+                                                                               Rs. '000       Rs. '000           Rs. '000       Rs. '000
+     Life Insurance
+     Individual Policies                                                 4,925,274          3,388,518       4,925,274        3,388,518
+     Corporate Policies                                                    193,085            182,955         193,085          182,955
+     Adjustment for Inter Company Premiums                                 (11,470)           (13,361)              -                -
+     Gross Written Premium - Life Insurance                              5,106,889          3,558,112       5,118,359        3,571,473
+
+     General Insurance
+     Fire                                                                  403,053            435,807               -                -
+     Motor                                                               1,800,376          1,279,963               -                -
+     Marine                                                                 78,440              93,955              -                -
+     Miscellaneous                                                         237,155            341,097               -                -
+     Adjustment for Inter Company Premiums                                   (157)            (18,795)              -                -
+     Gross Written Premium - General Insurance                           2,518,867          2,132,027               -                -
+     Total Gross Written Premium                                         7,625,756          5,690,139       5,118,359        3,571,473
+
+10 INTEREST AND DIVIDEND INCOME
+    Group
+      Audited                                                                       Group                            Company
+      For the
+  Year Ended                                                             Unaudited            Unaudited        Unaudited        Unaudited
+31st Dec 2024 For the Nine Months Ended,                             30th Sep 2025        30th Sep 2024    30th Sep 2025    30th Sep 2024
+      Rs. '000                                                             Rs. '000             Rs. '000         Rs. '000         Rs. '000
+ 7,538,650 Interest Income                                                6,001,594         5,604,616       5,460,794        5,024,749
+    23,228 Dividend Income                                                   38,667            20,693          38,667           20,661
+ 7,561,878 Total                                                          6,040,261         5,625,309       5,499,461        5,045,410
+                                                                                   Group                             Company
+                                                                         Unaudited     Unaudited               Unaudited        Unaudited
+     For the Three Months Ended,                                     30th Sep 2025 30th Sep 2024           30th Sep 2025    30th Sep 2024
+                                                                           Rs. '000      Rs. '000                Rs. '000         Rs. '000
+
+    Interest Income                                                       2,056,220        1,872,768        1,873,348        1,689,848
+    Dividend Income                                                           9,429            5,152            9,429            5,152
+    Total                                                                 2,065,649        1,877,920        1,882,777        1,695,000
+
+11 INCOME TAX EXPENSE
+    Group
+      Audited                                                                        Group                            Company
+      For the
+  Year Ended                                                                 Unaudited        Unaudited        Unaudited        Unaudited
+31st Dec 2024 For the Nine Months Ended,                                 30th Sep 2025    30th Sep 2024    30th Sep 2025    30th Sep 2024
+      Rs. '000                                                                 Rs. '000         Rs. '000         Rs. '000         Rs. '000
+  (830,996) Income Tax Charge                                          (335,136)             (335,625)       (258,562)        (224,350)
+    (3,639) Under Provision of Income Taxes in respect of prior Period         -                     -               -                -
+     18,575 Deferred Income Tax - Recognised through Profit or Loss        3,582                 8,237               -                -
+  (816,060) Total Tax charge in Profit or Loss                         (331,554)             (327,388)       (258,562)        (224,350)
+
+             Deferred Tax on net change in debt instruments
+       (356) categorised under Available for Sale                               (825)           18,739                  -                -
+     (1,419) Deferred Tax on Actuarial Losses on Defined Benefit Plans              -                -                  -                -
+     (3,545) Deferred Tax on Revaluation Gains of Land and Buildings                -                -                  -                -
+     (5,320) Total Tax charge in Other Comprehensive Income                     (825)           18,739                  -                -
+                                                           13
+  Notes to the Condensed Consolidated Interim Financial Statements
+                                                                                      Group                           Company
+                                                                             Unaudited        Unaudited        Unaudited        Unaudited
+     For the Three Months Ended,                                         30th Sep 2025    30th Sep 2024    30th Sep 2025    30th Sep 2024
+                                                                               Rs. '000         Rs. '000         Rs. '000         Rs. '000
+    Income Tax Charge                                                     (119,536)           (93,117)        (79,875)         (76,028)
+    Deferred Income Tax - Recognised through Profit or Loss                   (964)              2,132               -                -
+    Total Tax charge in Profit or Loss                                    (120,500)           (90,985)        (79,875)         (76,028)
+
+    Deferred tax on net change in debt instruments
+     categorised under Available for Sale                                      3,752           15,996                   -                -
+    Total Tax charge in Other Comprehensive Income                             3,752           15,996                   -                -
+
+Income Tax
+As per the Inland Revenue (Amendment) Act No 45 of 2022 income tax rates applicable to Company and Subsidiary is 30%.
+
+Deferred Tax Assets
+The Company's deferred tax asset of Rs. 1,454.5 Million which was recognized in 2018, on account of brought forward tax losses,
+was fully utilized against taxable income by 31st December 2022. Accordingly, the Company has charged an income tax expense
+of Rs. 178.69 Million for the period ended 30th September 2025. The Subsidiary carried a deferred tax asset of Rs. 17.54 Million
+as at 30th September 2025.
+
+12 PROFIT FOR THE PERIOD
+    Group
+      Audited
+      For the
+  Year Ended                                                                                                   Unaudited        Unaudited
+31st Dec 2024 For the Nine Months Ended,                                                                   30th Sep 2025    30th Sep 2024
+      Rs. '000                                                                                                   Rs. '000         Rs. '000
+           Company - HNB Assurance PLC
+ 1,350,000 Surplus Transferred from Life Policyholders' Fund to Shareholders' Fund                                   -                -
+ 1,008,470 Profit Before Tax from Life Shareholders' Fund                                                      875,760          774,746
+ (701,759) Income Tax Expense                                                                                (258,562)        (224,350)
+ 1,656,711 Profit for the Period                                                                               617,198          550,396
+
+           Subsidiary - HNB General Insurance Ltd
+   354,451 Profit Before Tax                                                                                  252,408           287,373
+ (114,301) Income Tax and Deferred Tax Expense                                                                (72,992)        (103,038)
+   240,150 Profit for the Period                                                                              179,416           184,335
+ 1,896,861 Profit for the Period - Group                                                                      796,614           734,731
+                                                                                                               Unaudited        Unaudited
+     For the Three Months Ended,                                                                           30th Sep 2025    30th Sep 2024
+                                                                                                                 Rs. '000         Rs. '000
+
+    Company - HNB Assurance PLC
+    Profit Before Tax from Life Shareholders' Fund                                                            268,787          261,789
+    Income Tax Expense                                                                                        (79,875)         (76,028)
+    Profit for the Period                                                                                     188,912          185,761
+    Subsidiary - HNB General Insurance Ltd
+    Profit Before Tax                                                                                         128,967            89,737
+    Income Tax and Deferred Tax Expense                                                                       (40,625)         (14,957)
+    Profit for the Period                                                                                       88,342           74,780
+    Profit for the Period - Group                                                                             277,254          260,541
+                                                              14
+  Notes to the Condensed Consolidated Interim Financial Statements
+13 BASIC AND DILUTED EARNINGS PER SHARE (EPS)
+   Basic Earnings Per Share is calculated by dividing the profit after tax for the period attributable to ordinary shareholders by
+   the weighted average number of ordinary shares outstanding during the period. Diluted EPS is determined by adjusting the
+   profit or loss attributable to ordinary shareholders and the weighted average number of ordinary shares outstanding for the
+   effects of all dilutive potential ordinary shares. There were no potential dilutive ordinary shares outstanding at any time during
+   the period. Therefore, Diluted Earnings Per Share is same as Basic Earnings Per Share.
+
+    Group
+      Audited                                                                               Group                              Company
+      For the
+  Year Ended                                                                       Unaudited         Unaudited           Unaudited        Unaudited
+31st Dec 2024    For the Nine Months Ended,                                    30th Sep 2025     30th Sep 2024       30th Sep 2025    30th Sep 2024
+      Rs. '000                                                                       Rs. '000          Rs. '000            Rs. '000         Rs. '000
+ 1,896,861 Profit for the Period (Rs. '000)                                        796,614           734,731            617,198           550,396
+   150,000 Weighted average number of ordinary shares ('000)                       150,000           150,000            150,000           150,000
+     12.65 Basic and Diluted Earnings Per Share (Rs.)                                 5.31              4.90               4.11              3.67
+                                                                                           Group                               Company
+                                                                                   Unaudited     Unaudited               Unaudited     Unaudited
+      For the Three Months Ended,                                              30th Sep 2025 30th Sep 2024           30th Sep 2025 30th Sep 2024
+     Profit for the Period (Rs. '000)                                             277,254            260,541            188,912           185,761
+     Weighted average number of ordinary shares ('000)                            150,000            150,000            150,000           150,000
+     Basic and Diluted Earnings Per Share (Rs.)                                      1.85               1.74               1.26              1.24
+
+
+14 RELATED PARTY DISCLOSURES
+14.1 Transactions and Outstanding Balances with the Parent and Ultimate Controlling Party - Hatton National Bank PLC
+     Transactions                                                                  Group                                    Company
+                                                                          Unaudited            Unaudited              Unaudited           Unaudited
+     For the Nine Months Ended,                                       30th Sep 2025        30th Sep 2024          30th Sep 2025       30th Sep 2024
+                                                                            Rs. '000             Rs. '000               Rs. '000            Rs. '000
+     Insurance Premium                                                   238,197                152,559                 8,866                  -
+     Claims Incurred                                                      74,060                 76,232                39,622             49,331
+     Investment Income                                                   161,855                419,483               129,149            386,730
+     Referral fees                                                       736,633                528,386               606,152            411,746
+     Rent and Other Operational Expenses                                  21,636                 18,880                13,739             12,326
+     Dividend Paid                                                       350,918                350,918               350,918            350,918
+
+     Outstanding Balances                                                          Group                                    Company
+                                                                          Unaudited              Audited              Unaudited             Audited
+     As at,                                                           30th Sep 2025        31st Dec 2024          30th Sep 2025       31st Dec 2024
+                                                                            Rs. '000             Rs. '000               Rs. '000            Rs. '000
+
+     Investments Balance (Includes Deposits and Debentures)           1,492,038             1,899,734                 951,188          1,571,387
+     Cash at Bank Balances                                            1,151,624               939,252                 745,473            620,890
+     Premium Receivable                                                  13,558                   210                   8,848                  -
+     Referral fees Payable                                              107,933               133,934                  76,923            111,091
+     Rent and Other Operational Expenses Payable                            567                 1,567                     387                801
+
+
+
+
+                                                                 15
+ Notes to the Condensed Consolidated Interim Financial Statements
+14.2 Transactions and Outstanding Balances with the Subsidiary Company - HNB General Insurance Ltd.
+   Transactions                                                                                            Unaudited         Unaudited
+    For the Nine Months Ended,                                                                         30th Sep 2025     30th Sep 2024
+                                                                                                             Rs. '000          Rs. '000
+   Insurance Premium                                                                                       30,020              36,837
+   Insurance Expenses                                                                                       8,551              32,127
+   Claims Received                                                                                             81                 219
+   Claims Paid                                                                                              5,429               3,600
+   Reimbursement Expenses Relating to Employees                                                            70,463              70,089
+   Other Reimbursement Expenses                                                                           166,817             216,303
+   Fund Management Fee                                                                                     13,999              12,965
+   Profit Commission Expense                                                                                7,796              12,445
+
+   Outstanding Balances                                                                                    Unaudited             Audited
+   As at,                                                                                              30th Sep 2025       31st Dec 2024
+                                                                                                             Rs. '000            Rs. '000
+   Premium Payable to HNB General Insurance Ltd                                                                83                8,541
+   Receivable from HNB General Insurance Ltd                                                               25,243               25,874
+14.3 Transactions and Outstanding Balances with/between Subsidiary Companies of the Ultimate Controlling Party
+   Transactions                                                               Group                              Company
+                                                                     Unaudited            Unaudited        Unaudited           Unaudited
+   For the Nine Months Ended,                                    30th Sep 2025        30th Sep 2024    30th Sep 2025       30th Sep 2024
+                                                                       Rs. '000             Rs. '000         Rs. '000            Rs. '000
+
+   Insurance Premium                                                109,230              189,710              223               76,945
+   Claims Incurred                                                   30,694               38,898            5,487               27,064
+   Investment Income                                                161,912               82,921          129,082               65,157
+   Referral fees and other operating expenses                        19,363               18,078            2,709                3,564
+   Outstanding Balances                                                       Group                               Company
+                                                                     Unaudited            Audited          Unaudited           Audited
+   As at,                                                        30th Sep 2025      31st Dec 2024      30th Sep 2025     31st Dec 2024
+                                                                       Rs. '000           Rs. '000           Rs. '000          Rs. '000
+
+   Investments Balance (Includes Deposits, Debentures and Repo) 3,315,348             1,008,529        2,908,262               808,711
+   Cash at Bank Balances                                                  50                 49               50                    49
+   Premium Receivable                                                  2,256              8,768                -                     -
+   Referral fees Payable                                               3,946              4,078              458                     6
+14.4 Transactions with Key Management Personnel/Directors of the Group or its Parent Hatton National Bank PLC
+                                                                                                           Unaudited         Unaudited
+   For the Nine Months Ended,                                                                          30th Sep 2025     30th Sep 2024
+                                                                                                             Rs. '000          Rs. '000
+   Director Fee                                                                                             24,295              23,340
+   Short-term and Post Employment Benefits                                                                  97,990              88,577
+   Insurance Premium                                                                                         1,709               2,898
+   Claims Paid including Maturities                                                                            105                 984
+   Appoinment of Executive Directors
+   The Chief Executive Officer of HNB Assurance PLC, Mr. Pawla Hewage Lasitha Niroshan Wimalaratne was appointed as an
+   Executive Director of HNB Assurance PLC w.e.f. 3rd July 2025.
+   The Chief Executive Officer of HNB General Insurance Limited, Mr. Sithumina Jayasundara was appointed as an Executive
+   Director of HNB General Insurance Limited w.e.f.2nd July 2025.
+
+
+
+                                                            16
+ Notes to the Condensed Consolidated Interim Financial Statements
+15 EVENTS OCCURRING AFTER THE REPORTING DATE
+   Appointment of the Board of Director
+   Ms. Wijesingha Arachchige Poornima Anuradhi Ranawaka was appointed as Non-Executive /Non-Independent Director of
+   HNB Assurance PLC w.e.f. 1st October 2025.
+   Other than mentioned above, there have been no material events that occurred after the reporting date that require
+   adjustments or disclosure in these Condensed Consolidated Interim Financial Statements.
+
+16 CAPITAL COMMITMENTS
+    The Group has committed an expense of Rs. 199.09 Million as at 30th September 2025 for purchase of computer hardware,
+    software and other equipment (As at 31st December 2024 – Rs.465.51 Million for the purchase of computer hardware,
+    software and Other equipment).
+    As at end of the financial period, other than the disclosed above no material capital expenditure approved by the Board of
+    Directors and contracted for which no provision has been made in the Condensed Consolidated Interim Financial
+    Statements.
+
+17 CONTINGENCIES
+
+17.1 Income Tax
+   The Company has received Income Tax Assessments for Life Insurance Taxation for the years of assessment 2011/12,
+   2012/13, 2013/14, 2014/15, 2015/16, 2016/17, 2017/18, 2018/19, 2019/20, 2020/21 and 2021/22.
+   The Tax Appeals Commission has issued determinations in favor of IRD for the years of assessments 2011/12, 2012/13,
+   2014/15 and 2017/18 totaling to Rs. 1,158 Mn including interest and penalties of Rs. 144 Mn. This includes loss adjustment of
+   Rs. 588 Mn relating to the years of assessments 2011/12 and 2012/13. Company dissatisfied with these determinations of
+   the Tax Appeals Commission and filed appeals against those determinations in the Court of Appeal. The Company is awaiting
+   for the decisions of the Court of Appeal.
+   Income tax assessments in relation to the year of assessment 2018/19, 2019/20 and 2020/21 totaling to Rs. 1,698 Mn
+   including interest and penalties of Rs. 870 Mn are in the process of hearing with the Tax Appeals Commission.
+   Income tax assessment for the year of assessment 2015/16 and 2021/22 totaling to Rs. 733 Mn including interest and
+   penalties of Rs. 241 Mn is awaiting for CGIR determination.
+   Assessments raised on the Company for 2013/14 and 2016/17 totaling to Rs. 422 Mn were determined by Tax Appeals
+   Commission in favour of the Company by allowing the appeals, annulling the assessments, and setting aside the
+   determinations of CGIR. The CGIR has lodged cases with the Court of Appeal for these assessments.
+   In the view of the Company and its Tax Consultants, these Assessments do not conform to the description of requirements
+   stated under Section 92 of Inland Revenue Act, No. 10 of 2006 and Section 67 of the Inland Revenue Act No. 24 of 2017.
+   Further, the basis for these Income Tax Assessments has been same for all Life Insurance companies in the insurance
+   industry.
+   Subsidiary Company HNB General Insurance Limited also received income tax assessments for the years of assessment
+   2018/19 and 2019/20.
+   Income tax assessment for the year of assessment 2018/2019 and 2019/20 totaling to Rs. 138 Mn including interest and
+   penalty of Rs. 72.42 Mn are in the process of hearing with the Tax Appeals Commission.
+
+                                                              17
+ Notes to the Condensed Consolidated Interim Financial Statements
+17.2 VAT & NBT On Financial Servicest
+    The Company received Eight Notices of Assessments on VAT and NBT on Financial Services (FS) for the taxable periods
+    01.01.2014 to 31.12.2014, 01.01.2015 to 31.12.2015, 01.01.2016 to 31.12.2016, 01.01.2017 to 31.12.2017, 01.01.2018 to
+    31.12.2018, 01.01.2019 to 31.12.2019, 01.01.2021 to 31.12.2021 and 01.01.2022 to 31.12.2022.
+    The assessment issued relating to VAT on Financial Services (VAT on FS) for the taxable periods 01.01.2014 to 31.12.2014
+    and 01.01.2018 to 31.12.2018 amounting to Rs. 130.45 Mn, including penalties of Rs. 43.48 Mn are in the process of hearing
+    with the Tax Appeals Commission.
+    The assessments for the taxable period 01.01.2019 to 31.12.2019, 01.01.2021 to 31.12.2021 and 01.01.2022 to 31.12.2022
+    totaling to Rs. 434.1 Mn including penalties of Rs. 144.7 Mn is still with CGIR and awaiting the CGIR determination.
+    The VAT/NBT on FS assessments raised on the Company for 01.01.2015 to 31.12.2015, 01.01.2016 to 31.12.2016 and
+    01.01.2017 to 31.12.2017 with tax in dispute and penalties totaling to Rs. 141.91 Mn including penalty of Rs. 50.1 Mn were
+    determined by Tax Appeals Commission in favour of the Company by allowing the appeals, annulling the assessments and
+    setting aside the determinations of CGIR.
+    Further, subsidiary Company HNB General Insurance Limited also received VAT on FS Assessments for taxable periods
+    01.01.2018 to 31.12.2018, 01.01.2019 to 31.12.2019, 01.01.2021 to 31.12.2021 and 01.01.2022 to 31.12.2022.
+    The assessment issued relating to VAT on Financial Services (VAT on FS) for the taxable period 01.01.2019 to 31.12.2019
+    amounting to Rs. 17.07 Mn, including penalty of Rs. 5.7 Mn is in the process of hearing with the Tax Appeals Commission.
+    The assessments for the taxable period 01.01.2021 to 31.12.2021 and 01.01.2022 to 31.12.2022 totaling to Rs. 54.07 Mn
+    including penalties of Rs. 18.02 Mn is still with CGIR and awaiting the CGIR determination.
+    The VAT on FS assessment raised on the subsidiary company for 01.01.2018 to 31.12.2018 with tax in dispute and penalties
+    amounting to Rs. 15.61 Mn, including penalty of Rs. 5.20 Mn were determined by Tax Appeals Commission in favour of HNB
+    General Insurance Limited by allowing the appeal, annulling the assessment and setting aside the determination of CGIR.
+    The CGIR has lodged cases with the Court of Appeal for these assessments. Company also took the relevant legal steps in
+    this matter.
+    Company and Subsidiary have duly appealed for all assessments as the Group’s stance is that, it is in the business of
+    Insurance hence it is not liable for VAT or NBT on FS. Other insurers have also received similar assessments and have
+    appealed against them. As an outflow of resources is not expected, no provision is made in the Financial Statements.
+
+
+17.3 Value Added Tax (VAT) On Reinsurance
+    The Company received an Assessment on Value Added Tax (VAT) on Reinsurance Claims during 2013 from the IRD for the
+    year of Assessment 2010/2011 amounting to Rs. 21.99 Million for which company has filed responses in IRD and
+    subsequently with TAC. The TAC has granted their final determination during 2018 in favor of IRD. The Company has filed a
+    case in the Court of Appeal and the case is yet to be determined by the Court of Appeal.
+
+
+17.4 Other taxes
+    The Company and its Subsidiary have received VAT notice of assessments. The Company has duly appealed against these
+    Assessments in consultation with the Tax Consultants on the basis that no proper reasons were communicated as to why the
+    penalty and default notices were raised against the Company. As such no provision has been made in the Financial
+    Statements for the tax in dispute and penalty which amounts to Rs. 15.12 Mn. Further, the subsidiary company, HNB General
+
+                                                                18
+Notes to the Condensed Consolidated Interim Financial Statements
+ Insurance Limited, has received tax assessments and penalties amounting to Rs. 482.31 Mn on VAT returns filed and the
+ subsidiary has duly appealed against the assessments.
+ HNB General Insurance Limited received an Assessment on Social Security Contribution Levy (SSCL) from the IRD for the
+ year of Assessment 2023/2024 amounting to Rs. 6.12 Mn including penalty of Rs. 3.28 Mn for which Subsidiary Company
+ has Appealed against IRD.
+ The Company has received two demanding payments on Whithholding Tax (WHT) from the IRD for the year of Assessments
+ 2022/2023 and 2023/2024 amounting to Rs. 9.07 Mn and Subsidiary has received a demanding payment for WHT from IRD
+ for the year of Assessment 2023/2024 amounting to Rs. 0.13 Mn for which Company and Subsidiary has appealed against
+ these assessments in consultation with Company’s Tax Consultant to IRD.
+
+
+ Management and the Company's/Subsidiary's Tax Consultant are of the view that the company has followed the due process
+ and acted in accordance with the prevailing laws in its tax compliances and therefore, the probability of the
+ Company's/Subsidiary's having to settle any of above tax assessments detailed under Note 17.1 to 17.4 is very low. As an
+ outflow of resources is not expected, no provision is made in the Financial Statements.
+
+
+
+
+                                                            19
+                                               Share Information
+Top 20 Shareholders
+Name of the Shareholder                                            30th September 2025                    30th June 2025
+                                                               Shareholding   % on Issued Shares    Shareholding   % on Issued Shares
+
+01 Hatton National Bank PLC A/C No 01                          89,979,000           59.99           89,979,000           59.99
+02 Ceylon Guardian Investment Trust PLC A/C # 02                6,531,394            4.35            7,006,394             4.67
+03 Employees Trust Fund Board                                   2,643,294            1.76            3,418,790             2.28
+04 J.B. Cocoshell (Pvt) Ltd                                     2,319,220            1.55            2,134,146             1.42
+05 Mr. M.F. Hashim                                              1,824,737            1.22            1,824,737             1.22
+06 Mr. V. Sharda                                                1,625,000            1.08            1,625,000             1.08
+0
+07 Ceylon Investment PLC A/C # 02                               1,587,174            1.06            1,712,174             1.14
+08 Thread Capital (Pvt) Ltd                                     1,503,476            1.00            1,644,342             1.10
+09 Mrs. A. Kailasapillai                                        1,500,000            1.00            1,500,000             1.00
+10 Mrs. A. Selliah                                              1,500,000            1.00            1,500,000             1.00
+11 Arunodhaya (Pvt) Ltd                                         1,350,000            0.90            1,350,000             0.90
+12 Arunodhaya Investments (Pvt) Ltd                             1,350,000            0.90            1,350,000             0.90
+13 Arunodhaya Industries (Pvt) Limited                          1,350,000            0.90            1,350,000             0.90
+14 Andysel (Pvt) Ltd                                               750,000           0.50              750,000             0.50
+15 Corporate Holdings (Pvt) Ltd A/C No.01                          735,309           0.49              735,309             0.49
+16 Mr. J.P. Paul                                                   728,956           0.49                      -               -
+17 Dr. S. Selliah                                                  600,000           0.40              600,000             0.40
+18 Corporate Holdings (Pvt) Ltd A/C No.02                          573,969           0.38              573,969             0.38
+19 Rubber Investment Trust Ltd A/C No. 01                          572,779           0.38              572,779             0.38
+20 Commercial Bank Of Ceylon PLC A/C No. 03                        513,000           0.34              513,000             0.34
+
+
+
+
+Public Shareholding                                                              30th September 2025 31st December 2024
+* Float Adjusted Market Capitalisation (Rs.)                                            6,242,080,208      4,807,602,160
+Percentage of Shares held by the Public                                                            40.013%                40.013%
+Number of Public Shareholders                                                                        4,425                   3,893
+The Company complies the minimum public Shareholding requirement under option 3 of section 7.13.1 (a) of the Listing Rules as
+at 30th September 2025. (As at 31/12/2024 - Complied under option 4)
+* Float Adjusted Market Capitalisation = Market Capitalisation X Public Holding Percentage
+
+
+
+
+                                                              20
+                                      Share Information (Contd.)
+Shareholdings of Directors and Chief Executive Officer
+                                                                                     No. of Shares      No. of Shares
+Name                                                                                 30th Sep 2025      31st Dec 2024
+Mr. S.A. Chapman (Chairman)                                                                      500             500
+Mr. A. Goonesekere                                                                                Nil             Nil
+Mr. L.U.D. Fernando                                                                               Nil             Nil
+Mr. L.H.A.L. Silva                                                                                Nil             Nil
+Dr. P.S. Gamwarige                                                                                Nil             Nil
+Mr. P.R. Saldin                                                                                   Nil             Nil
+Prof. A.K.W. Jayawardane                                                                          Nil             Nil
+Mr. P.H.L.N. Wimalarathne (Chief Executive Officer/Executive Director)                            Nil             Nil
+
+
+Number of Shares
+No. of shares representing the Stated Capital                    150,000,000
+Class of Share                                                   Ordinary
+Voting Rights                                                    One vote per Ordinary Share
+
+
+
+Share Performance
+As at,                                                                               30th Sep 2025      31st Dec 2024
+                                                                                               Rs.                Rs.
+Net Asset Value Per Share - Group                                                               85.92           83.45
+Net Asset Value Per Share - Company                                                             73.33           72.06
+Net Asset Value Per Share without Restricted Regulatory Reserve - Group                         83.38           80.91
+Net Asset Value Per Share without Restricted Regulatory Reserve - Company                       70.79           69.52
+
+
+For the Three Months Ended 30th September,                                                      2025            2024
+                                                                                                 Rs.             Rs.
+Highest Price Per Share                                                                        115.00          61.20
+Lowest Price Per Share                                                                          84.30          56.20
+Last Traded Price Per Share                                                                    104.00          60.90
+
+
+
+
+                                                            21
+

@@ -1,0 +1,633 @@
+ LVL ENERGY FUND PLC
+
+
+
+
+Interim Financial Statements
+        30TH JUNE 2025
+                                                              LVL ENERGY FUND PLC
+
+
+
+
+CONTENTS
+1. Statement of Profit or Loss & Other Comprehensive Income
+2. Statement of Financial Position
+3. Statement of Changes in Equity
+4. Statement of Cash Flows
+5. Notes to the Interim Financial Statements
+6. Corporate Information
+               Statement of Profit or Loss & Other Comprehensive Income
+               Quarter Ended 30th June 2025
+
+
+
+
+                                                                      GROUP                            COMPANY
+                                                               30.06.2025       30.06.2024       30.06.2025       30.06.2024
+                                                                LKR 000          LKR 000          LKR 000          LKR 000
+Revenue                                                           117,412           84,151                    -           -
+Direct expenses                                                   (58,262)         (45,827)                   -           -
+Gross Profit                                                       59,150           38,324                    -           -
+Interest income                                                     2,309            4,567              398            1,049
+Other income                                                          242           67,673                  1             32
+Operating expenses
+Administrative expenses                                                     -                -                -                -
+Sales and establishment expenses                                            -          (46)                   -                -
+Other operating expenses                                          (18,449)         (18,734)         (11,843)         (13,210)
+Results from operating activities                                  43,252           91,784          (11,444)         (12,129)
+Share of earnings from equity accounted investees                 387,823          321,032          406,729          381,951
+Finance cost                                                      (70,445)         (87,369)         (50,292)         (59,076)
+Profit/(loss) before income tax                                   360,630          325,447          344,993          310,746
+Tax (expense) / Reversal                                           (4,533)           1,370                    -                -
+Profit/(loss) for the period                                      356,097          326,817          344,993          310,746
+Profit/(loss) attributable to:
+Equity holders of the company                                     344,993          310,746          344,993          310,746
+Non-controlling interest                                           11,104           16,071                    -                -
+Profit/(loss) for the period                                      356,097          326,817          344,993          310,746
+
+
+Other comprehensive income, net of income tax
+Foreign operations - foreign currency translation difference       33,910         (138,615)          33,910         (138,615)
+Share of other comprehensive income from equity accounted
+                                                                   30,745         (310,737)          30,745         (310,737)
+investees
+Defined benefit plan actuarial gains/(losses) net of Tax
+Total other comprehensive income for the period, net of tax        64,655         (449,352)          64,655         (449,352)
+
+
+Total comprehensive income for the period                         420,752         (122,535)         409,648         (138,606)
+
+
+Total comprehensive income attributable to:
+Equity holders of the company                                     409,648         (138,606)         409,648         (138,606)
+Non-controlling interest                                           11,104           16,071                    -                -
+Total comprehensive income for the period                         420,752         (122,535)         409,648         (138,606)
+
+
+Basic earnings per share (Rs.)                                       0.49             0.50             0.49             0.50
+
+
+                                                                                                                              01
+                      Statement of Financial Position
+                      As At 30th June 2025
+
+
+
+                                                                              GROUP                                 COMPANY
+                                                                   30.06.2025         31.03.2025            30.06.2025        31.03.2025
+                                                                    LKR 000            LKR 000               LKR 000           LKR 000
+ASSETS
+Non current assets
+Property, plant and equipment                                           1,443,363          1,461,694                      -                 -
+Right-of-use assets                                                         2,380              2,427                      -                 -
+Investment in equity accounted investees                                6,341,495          5,889,018            7,973,392         7,502,008
+Deferred tax asset                                                         31,413             31,413                      -                 -
+Intangible assets                                                         114,226            115,468                      -                 -
+Total non current assets                                                7,932,877          7,500,020            7,973,392         7,502,008
+Current assets
+Loans and receivables                                                     102,598             60,164                   237               179
+Amounts due from related parties                                              511              1,724              17,415            20,214
+Other receivables                                                         977,100            987,390                      -         10,290
+Income tax receivables                                                     11,372              9,907               5,235             5,235
+Cash and cash equivalents                                                 171,477            153,751              43,829            14,485
+Total current assets                                                    1,263,058          1,212,935              66,716            50,403
+Total Assets                                                            9,195,935          8,712,955            8,040,108         7,552,411
+
+
+EQUITY & LIABILITIES
+Equity
+Stated capital                                                          3,372,295          3,372,295            3,372,295         3,372,295
+Revaluation reserve                                                         9,101              9,101               9,101             9,101
+Translation reserve                                                     1,470,443          1,436,533            1,470,443         1,436,533
+Cashflow hedge reserve                                                (1,447,243)        (1,477,988)          (1,447,243)       (1,477,988)
+Retained earnings                                                       2,437,253          2,092,260            2,443,178         2,098,185
+Total equity attributable to equity holders of the Company              5,841,849          5,432,202            5,847,774         5,438,127
+Non controlling interest                                                  161,958            151,996                      -                 -
+Total equity                                                            6,003,807          5,584,198            5,847,774         5,438,127
+Liabilities
+Non current liabilities
+Interest bearing borrowings                                             2,214,394          2,370,123            1,483,131         1,618,382
+Deferred tax liability                                                    159,580            159,580                      -                 -
+Total non current liabilities                                           2,373,974          2,529,702            1,483,131         1,618,382
+Current liabilities
+Interest bearing borrowings                                               589,071            481,286             520,457           412,672
+Amounts due to related parties                                            186,572                   -            186,572                    -
+Other payables                                                             23,181             18,672               2,174             1,671
+Income tax payables                                                        19,330             17,538                      -                 -
+Bank overdraft                                                                   -            81,560                      -         81,560
+Total current liabilities                                                 818,154            599,055             709,203           495,902
+Total liabilities                                                       3,192,128          3,128,757            2,192,334         2,114,284
+Total equity and liabilities                                            9,195,935          8,712,955            8,040,108         7,552,411
+
+
+Net assets per share (Rs.)                                                    8.36               7.77                  8.37              7.78
+
+
+I certify that the above financial statements comply with the requirements of the Companies Act No. 07 of 2007.
+
+
+
+(Sgd.) Jayantha Pradeep
+Finance Manager
+
+The Board of Directors is responsible for the preparation and presentation of these financial statements.
+Signed for and on behalf of the Board.
+
+
+
+(Sgd.) W P K Jayawardana                                                                  (Sgd.) A G R Dissanayake
+Director                                                                                  Director
+Colombo. Aug 12th, 2025
+                                                                                                                                                02
+                  Statement of Changes in Equity
+                  Period Ended 30th June 2025
+
+
+
+
+                                                               Equity attributable to equity holders of the Company
+                                                                                                                                     Non
+                                                                                           Cashflow                               controlling Total equity
+                                                     Stated     Revaluation Translation                Retained
+                        GROUP                                                               hedge                       Total      interest
+                                                     capital      reserve     reserve                  earnings
+                                                                                           reserve
+
+                                                    LKR 000       LKR 000      LKR 000     LKR 000      LKR 000       LKR 000      LKR 000     LKR 000
+
+
+
+Balance as at 01st April 2024                       2,906,472      9,101     1,982,436 (1,211,576) 1,528,709 5,215,142             156,595    5,371,737
+
+Profit/(loss) for the period                            -             -           -            -        310,746       310,746      16,071      326,817
+Foreign operations - foreign currency translation
+                                                        -             -       (138,615)        -            -         (138,615)        -      (138,615)
+difference
+Share of other comprehensive income from equity
+                                                        -             -           -        (310,737)        -         (310,737)        -      (310,737)
+accounted investees
+
+Total comprehensive income for the period               -             -       (138,615)    (310,737)    310,746       (138,606)    16,071     (122,535)
+
+Transactions with equity holders recognized
+directly in equit
+
+Shares issued during the period                     465,823           -           -            -            -         465,823          -       465,823
+
+Dividend paid                                           -             -           -            -            -             -            -           -
+
+Balance as at 30th June 2024                        3,372,295      9,101     1,843,821 (1,522,313) 1,839,455 5,542,359             172,666    5,715,025
+
+
+
+Balance as at 01st April 2025                       3,372,295      9,101     1,436,533 (1,477,988) 2,092,260 5,432,201             151,996    5,584,197
+
+Profit/(loss) for the period                            -             -           -            -        344,993       344,993      11,104      356,097
+Foreign operations - foreign currency translation
+                                                        -             -        33,910          -            -          33,910          -        33,910
+difference
+Share of other comprehensive income from equity
+                                                        -             -           -         30,745          -          30,745          -        30,745
+accounted investees
+
+Total comprehensive income for the period               -             -        33,910       30,745      344,993       409,648      11,104      420,752
+
+Transactions with equity holders recognized
+directly in equity
+
+Shares issued during the period                                       -           -            -            -                          -
+
+Dividend paid                                           -             -           -            -            -             -        (1,142)      (1,142)
+
+Balance as at 30th June 2025                        3,372,295      9,101     1,470,443 (1,447,243) 2,437,253 5,841,849             161,958    6,003,807
+
+
+
+
+                                                                                                                                                          03
+                  Statement of Changes in Equity
+                  Period Ended 30th June 2025
+
+
+
+
+                                                                                                             Cashflow
+                                                                                Revaluation   Translation                 Retained
+                                                               Stated capital                                 hedge                   Total equity
+                           COMPANY                                                reserve       reserve                   earnings
+                                                                                                             reserve
+
+                                                                 LKR 000          LKR 000      LKR 000       LKR 000      LKR 000      LKR 000
+
+
+
+Balance as at 01st April 2024                                   2,906,472          9,101      1,982,436     (1,211,576)   1,534,634   5,221,067
+
+Profit/(loss) for the period                                         -                  -          -             -        310,746      310,746
+
+Foreign operations - foreign currency translation difference         -                  -     (138,615)          -            -       (138,615)
+
+Share of other comprehensive income from equity
+                                                                     -                  -          -        (310,737)         -       (310,737)
+accounted investees
+Total comprehensive income for the period                            -                  -     (138,615)     (310,737)     310,746     (138,606)
+
+Transactions with equity holders recognized directly in
+equit
+Shares issued during the period                                  465,823                -          -             -            -        465,823
+
+Dividend paid                                                        -                  -          -             -            -            -
+
+Balance as at 30th June 2024                                    3,372,295          9,101      1,843,821     (1,522,313)   1,845,380   5,548,284
+
+
+
+Balance as at 01st April 2025                                   3,372,295       9,101         1,436,533     (1,477,988)   2,098,185   5,438,126
+
+Profit/(loss) for the period                                         -                  -          -             -        344,993      344,993
+
+Foreign operations - foreign currency translation difference         -                  -      33,910            -            -         33,910
+
+Share of other comprehensive income from equity
+                                                                     -                  -          -          30,745          -         30,745
+accounted investees
+Total comprehensive income for the period                            -                  -      33,910         30,745      344,993      409,648
+
+Transactions with equity holders recognized directly in
+equity
+Shares issued during the period                                      -                  -          -             -            -            -
+
+Dividend paid                                                        -                  -          -             -            -            -
+
+Balance as at 30th June 2025                                    3,372,295          9,101      1,470,443     (1,447,243)   2,443,178   5,847,774
+
+
+
+
+                                                                                                                                                     04
+                    Statement of Cash Flows
+                    Period Ended 30th June 2025
+
+
+
+                                                                       GROUP                       COMPANY
+                                                           30.06.2025     30.06.2024     30.06.2025    30.06.2024
+                                                            LKR 000        LKR 000        LKR 000       LKR 000
+
+
+Cash flows from operating activities
+Profit/(loss) before income tax                             360,630        325,447        344,993        310,746
+
+
+Adjustments for:
+Depreciation                                                 20,032            20,217         -              176
+Amortization of intangible assets                            1,289             1,289          -               -
+Share of profit from equity accounted investees             (387,823)      (321,032)      (406,729)     (381,951)
+Interest income on investments                               (2,309)           (4,567)      (398)        (1,049)
+Other income                                                  (242)        (67,673)          (1)             (32)
+Interest expense                                             66,575            86,742      46,617        58,713
+Operating cash flow before working capital changes           58,152            40,423     (15,518)      (13,397)
+
+
+(Increase)/decrease in Loans and receivables                (42,434)           5,643        (58)             (60)
+(Increase)/decrease in Amounts due from related parties      1,213             (1,093)     2,799          6,055
+(Increase)/decrease in Other receivables                        -                 -           -               -
+Increase/(decrease) in Amounts due to related parties       186,572            (174)      186,572         (174)
+Increase/(decrease) in Other payables                        4,507             2,846        502              68
+Cash generated from operating activities                    208,010            47,645     174,297        (7,508)
+
+
+Gratuity paid                                                   -                 -           -               -
+Taxes paid                                                   (3,628)           (317)          -               -
+Interest paid                                               (50,151)       (83,422)       (30,193)      (54,950)
+Net cash from operating activities                          154,231        (36,094)       144,104       (62,458)
+
+
+Cash flows from investing activities
+Interest received                                            2,552             72,240       399           1,081
+Dividend received                                            10,290            34,000      10,290        34,000
+Additions to intangible assets                                  -                 -           -               -
+Additions to property, plant & equipment                     (1,701)           (1,300)        -               -
+Net cash from investing activities                           11,141        104,940         10,689        35,081
+
+
+Cash flows from financing activities
+Cash proceeds of interest bearing borrowings                    -                 -           -               -
+Cash repayments of interest bearing borrowings              (64,367)       (183,397)      (43,889)      (111,016)
+Shares issued                                                   -          465,823            -          465,823
+Dividend paid to minority share holders by subsidiary        (1,721)              -           -               -
+Net cash from financing activities                          (66,088)       282,426        (43,889)       354,807
+
+
+Net increase/(decrease) in cash and cash equivalents         99,284        351,272        110,904        327,430
+
+
+Cash and cash equivalents at the beginning of the period     72,192        157,416        (67,075)        1,198
+Cash and cash equivalents at the end of the period          171,476        508,688         43,829        328,628
+
+
+
+
+                                                                                                                    05
+             Notes to the Interim Financial Statements
+             Period Ended 30th June 2025
+
+
+
+
+01.CORPORATE INFORMATION                                   03.DIVIDEND FROM BANGLADESH ASSOCIATES
+LVL Energy Fund PLC is a public limited liability          There was a delay in receiving dividends from associate
+company listed on the Colombo Stock Exchange               companies in Bangladesh due to the prevailing country
+incorporated and domiciled in Sri Lanka. The registered    situation and banking restrictions on remitting dividends.
+office is situated at 2nd Floor, "Sayuru Sevana", No.      However, the management of the associate companies
+46/12, Navam Mawatha, Colombo 02, Sri Lanka                has taken steps to expedite the remittance process. In
+                                                           the meantime, LVL Energy Fund PLC has taken
+                                                           proactive measures to manage its cash flow, including
+02.BASIS OF PREPARATION OF INTERIM FINANCIAL               the restructuring of bank loans and the successful
+STATEMENTS                                                 conclusion of a rights issue in June 2024.
+02.1 The interim condensed consolidated financial
+statements for the quarter ended 30 th June 2025, which
+have not been audited, have been prepared in               04.INVESTMENTS IN ASSOCIATES IN BANGLADESH
+accordance with LKAS 34 / Interim Financial Reporting.
+These financial statements do not include all the          Two of our investee companies in Bangladesh, namely
+information and disclosures required for the annual        Lakdhanavi Bangla Power Limited and Feni Lanka
+                                                           Power Limited, have USD-denominated borrowings and
+financial statements and have been prepared based on
+                                                           USD revenue components under their respective Power
+the accounting policies set out in the audited financial
+                                                           Purchase Agreements (PPAs) with the Bangladesh
+statements for the year ended 31st March 2025. The         Power Development Board. Both companies generate
+provisions of the Companies Act No. 7 of 2007 and the      sufficient USD cash inflows to fully cover their USD loan
+revised Listing Rules of the Colombo Stock Exchange        repayments.
+have also been considered in the preparation of the
+interim financial statements of the Company and the        In accordance with IFRS 9 / Financial Instruments, the
+Group.                                                     investee    companies       have    designated     these
+                                                           arrangements as cash flow hedges in their financial
+02.2 There are no new standards or interpretations that    statements. The USD borrowings have been identified
+were adopted after 31 March 2025.                          as the hedging instruments, and the USD revenue
+                                                           streams under the PPAs have been designated as the
+02.3 There are no significant changes in the nature of     hedged items. Both the hedging instruments and hedged
+the contingent liabilities disclosed in the Audited        items meet the recognition criteria set out in IFRS 9,
+                                                           and hedge effectiveness has been assessed at 100%.
+Financial Statements for the year ended 31st March
+                                                           Consequently, hedge accounting principles have been
+2025.
+                                                           appropriately applied by the respective companies.
+02.4 Events after the Reporting Date : There were no       Since these companies are associates, the Group has
+material events occurring after the reporting date that    applied the equity method of accounting as per LKAS 28
+require adjustments to or disclosure in the financial      / Investments in Associates and Joint Ventures.
+statements.                                                Accordingly, the Group has recognized its share of profit
+                                                           or loss, other comprehensive income, and net assets
+02.5 Where necessary, comparative figures have been        relating to these investments in its consolidated
+re-classified to conform with the current period’s         financial statements.
+presentation.
+
+
+
+
+                                                                                                                  06
+                Notes to the Interim Financial Statements
+                Period Ended 30th June 2025
+
+
+
+
+05.RIGHTS ISSUE
+The Company successfully raised Rs. 465,822,500/- through a Rights Issue. A total of 116,455,625 ordinary shares
+were issued to the holders of ordinary voting shares of the Company, on the basis of one (1) new ordinary voting
+share for every five (5) ordinary voting shares held, at a consideration of Rs. 4/- per share.
+The objective of the Rights Issue and the details of the intended utilization of funds are outlined below.
+
+UTILIZATION OF RIGHTS ISSUE PROCEEDS AS AT 30TH JUNE 2025
+                                                             Proposed        Amount
+                                                Amount                                   Percentage                               Clarification if not
+                                                              Date of       Allocated                  Amount        Amount
+                                              Allocated as                                 of Total                                  fully utilized
+                                                             Utilization       from                    Utilized     Utilized %
+ No        Objectives as the per Circular     per Circular                                Proceeds                               including where the
+                                                               as per       Proceeds
+                                                                                                                                  funds are invested
+                                                              Circular
+                                                 LKR                          LKR            %           LKR            %
+
+    Capital due on the term loan obtained
+                                                             14 March
+ 01 on 14 March 2022 from Hatton National      15,000,000                   15,000,000    3.22%        15,000,000     100%          Not Applicable
+                                                               2024
+    Bank
+                                                             25 March
+ 02 Capital due on the term loan obtained      28,571,428                   28,571,428    6.13%        28,571,428     100%          Not Applicable
+    on 21 March 2019 from DFCC Bank                            2024
+
+    Capital due on the term loan obtained
+                                                             25 March
+ 03 on 25 September 2017 from DFCC             54,666,673                   54,666,673    11.74%       54,666,673     100%          Not Applicable
+                                                               2024
+    Bank
+    Capital due on the term loan obtained
+                                                             29 March
+ 04 on 27 September 2019 from DFCC             13,888,889                   13,888,889    2.98%        13,888,889     100%          Not Applicable
+                                                               2024
+    Bank
+    Capital and interest due on the term
+                                                              30 April
+ 05 loan obtained on 08 May 2019 from         105,200,000                  105,200,000    22.58%      105,200,000     100%          Not Applicable
+                                                               2024
+    NDB Bank
+    Capital and interest due on the term
+                                                              30 April
+ 06 loan obtained on 08 May 2019 from         110,200,000                  110,200,000    23.66%      110,200,000     100%          Not Applicable
+                                                               2024
+    NDB Bank
+
+    Capital due on the term loan obtained                     29 June
+ 07 on 27 September 2019 from DFCC             13,888,889                   13,888,889    2.98%        13,888,889     100%          Not Applicable
+                                                               2024
+    Bank
+
+    Capital due on the term loan obtained                     29 Sep
+ 08 on 27 September 2019 from DFCC             13,888,889                   13,888,889    2.98%        13,888,889     100%          Not Applicable
+                                                               2024
+    Bank
+    Capital due on the term loan obtained
+                                                              29 Dec
+ 09 on 27 September 2019 from DFCC             13,888,889                   13,888,889    2.98%        13,888,889     100%          Not Applicable
+                                                               2024
+    Bank
+
+    Capital due on the term loan obtained                    16 March
+ 10 on 14 March 2022 from Hatton National      15,000,000                   15,000,000    3.22%        15,000,000     100%          Not Applicable
+                                                               2025
+    Bank
+
+                                                             25 March
+ 11 Capital due on the term loan obtained      28,571,428                   28,571,428    6.13%        28,571,428     100%          Not Applicable
+                                                               2025
+    on 21 March 2019 from DFCC Bank
+    Capital due on the term loan obtained
+                                                             25 March
+ 12 on 25 September 2017 from DFCC             53,057,415                   53,057,415    11.39%       53,057,415     100%          Not Applicable
+                                                               2025
+    Bank
+
+
+
+
+                                                                                                                                                     07
+                 Notes to the Interim Financial Statements
+                 Period Ended 30th June 2025
+
+
+
+
+06.SHARE PRICE
+
+                                                                         30-06-2025     30-06-2024
+ For the quarter ended
+                                                                           (LKR)          (LKR)
+ Highest price                                                              8.80           5.30
+ Lowest price                                                               5.40           4.40
+ Last traded price                                                          8.10           4.60
+
+
+
+
+07.STATED CAPITAL
+Stated capital is represented by the number of shares in issue as given below.
+
+
+ As At                                                                   30-06-2025     30-06-2024
+
+ Numbers of Ordinary Shares                                              698,733,742    698,733,742
+
+
+
+
+08.TOP TWENTY MAJOR SHAREHOLDERS AS AT 30 TH JUNE 2025
+
+ No Shareholder Name                                                    No. of Shares       %
+
+ 01 Lanka Ventures PLC                                                  386,762,730       55.35%
+ 02 Mr. G. Anuragavan                                                    17,122,000       2.45%
+ 03 Mr. M. M. Sunil                                                       7,686,737       1.10%
+ 04 Peoples Leasing & Finance PLC / L. P. Hapangama                       7,320,807       1.05%
+ 05 Sri Lanka Insurance Corporation Limited - General Fund                6,500,000       0.93%
+ 06 Bansei Securities Capital (Pvt) Ltd /J. P. N. P. K. Jayasekara        5,999,990       0.86%
+ 07 Dialog Finance PLC/Fors Investment (Private) Limited                  5,128,878       0.73%
+ 08 Mr. L. T. R. S. L. Jayawardhana                                       4,000,000       0.57%
+ 09 DFCC Bank PLC/ Kanagasabapathy Mithulan                               3,054,025       0.44%
+ 10 Citizens Development Business Finance PLC / T. Ruchira                3,000,006       0.43%
+ 11 Dr. G. N. Indika                                                      3,000,000       0.43%
+ 12 Est.of Lat K.C. Vignarajah                                            2,859,744       0.41%
+ 13 Mr. D. D. Gunaratne                                                   2,701,000       0.39%
+ 14 People's Leasing & Finance PLC / L. H. L. M. P. Haradasa              2,639,088       0.38%
+ 15 Merchant Bank of Sri Lanka & Finance PLC 01                           2,500,000       0.36%
+ 16 Mr. A. G. C. J. Gamage                                                2,400,734       0.34%
+ 17 Mr. D. M. D. R. Gunathilaka                                           2,300,115       0.33%
+ 18 Senkadagala Finance PLC                                               2,264,532       0.32%
+ 19 Ms. J. Tharshana                                                      2,200,000       0.31%
+ 20 Nation Lanka Capital LTD / I. W. P. K. S. K. Karunanayake             2,189,500       0.31%
+     Sub Total                                                          471,629,886       67.5%
+     Other Shareholders                                                 227,103,856       32.5%
+     Total Numbers of Shares                                            698,733,742       100.0%
+
+
+
+
+                                                                                                      08
+              Notes to the Interim Financial Statements
+              Period Ended 30th June 2025
+
+
+
+
+08.1 The percentage of shares held by the public as at 30 th June 2025 was 44.61%.
+The number of shareholders representing the public holding was 4,347
+
+08.2 The float adjusted market capitalization as at 30 th June 2025 was LKR 2,524,811,491
+
+08.3 The Float adjusted market capitalization of the Company falls under Option 5 of Rule 7.13.1 (i) (a) of the Listing
+Rules of the Colombo Stock Exchange and the Company has complied with the minimum public holding requirement
+applicable under the said option.
+
+
+
+09.SHAREHOLDING OF DIRECTORS AND CEO AS AT 30 TH JUNE 2025
+The shareholding of the Directors and the CEO is set out below:
+
+
+                           Name                                     Designation                   No. of Shares
+
+
+                 Mr. P.G. D. B. Pallewatte                           Chairman                          Nil
+
+                  Mr. M. R. Abeywardena                               Director                         Nil
+
+                 Mr. A. G. R. Dissanayake                             Director                         Nil
+
+                  Mr. J. D. N. Kekulawala                             Director                       250,000
+
+               Mr. K. C. S. Dharmawardana                             Director                         Nil
+
+                Mr. W. P. K. Jayawardana                              Director                         Nil
+
+                     Mr. I. G. J. Palitha                      Chief Executive Officer                 Nil
+
+
+
+
+                                                                                                                      09
+             Corporate Information
+
+
+
+NAME OF COMPANY                                          LAWYERS
+LVL ENERGY FUND PLC                                      F J & G De Saram
+                                                         No 216 de Saram Place, Colombo 10, Sri Lanka.
+LEGAL FORM
+A Public Limited Liability Company incorporated in Sri   SUBSIDIARY COMPANIES
+Lanka under the Companies Ordinance No. 51 of 1938,      Lanka Energy International (Private) Limited
+(Registered under the Companies Act No. 07 of 2007)      Unit Energy Lanka (Private) Limited
+and listed on the Colombo Stock Exchange.                Sapthakanya Hydro Electric Company (Private) Limited
+                                                         Campion Hydro (Private) Limited
+REGISTRATION NUMBER                                      Pupulaketiya Hydro Power (Private) Limited
+PV1966PB/PQ                                              Solar Energy Investments (Private) Limited
+                                                         Solar Energy Investments Pallekele (Private) Limited
+                                                         SEI Mathugama (Private) Limited
+DATE OF INCORPORATION
+                                                         SEI Maho (Private) Limited
+26 June 2006
+
+
+REGISTERED OFFICE
+2nd Floor, "Sayuru Sevana", No. 46/12,          Navam    ASSOCIATE COMPANIES
+Mawatha, Colombo 02, Sri Lanka                           Hayleys Hydro Energy (Private) Limited
+Tel : +94 112439201 Fax : +94 112439203                  Neluwa Cascade Hydro Power (Private) Limited
+E-Mail : lvl@sltnet.lk                                   Pawan Danavi (Private) Limited
+                                                         Nala Dhanavi (Private) Limited
+DIRECTOR                                                 Raj Lanka Power Company Limited
+Mr. P.G. D. B. Pallewatte                                Lakdhanavi Bangla Power Limited
+Mr. M. R. Abeywardena                                    Feni Lanka Power Limited
+Mr. A. G. R. Dissanayake                                 Nividhu (Private) Limited
+Mr. J. D. N. Kekulawala                                  Nividhu Assupiniella (Private) Limited
+Mr. K. C. S. Dharmawardana                               Bambarapana Hydro Power (Private) Limited
+Mr. K. Jayawardana                                       LTL Energy (Private) Limited
+                                                         Makari Gad Hydro Power ((Private) Limited
+                                                         Parambe Hydro (Private) Limited
+
+SECRETARIES
+Corporate Services (Private) Limited
+No. 216, De Saram Place, Colombo 10, Sri Lanka           BANKERS
+                                                         Hatton National Bank PLC
+AUDITORS                                                 DFCC Bank PLC
+KPMG                                                     National Development Bank PLC
+No. 32A, Sir Mohamed         Macan   Markar   Mawatha,   Sampath Bank PLC
+Colombo 03, Sri Lanka                                    Commercial Bank of Ceylon PLC
+
+
+
+
+                                                                                                            10
+LVL ENERGY FUND PLC
+

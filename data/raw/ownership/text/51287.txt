@@ -1,0 +1,887 @@
+                                       John Keells PLC
+
+                        Interim Financial Statements
+
+                                       31st March 2026
+
+
+
+
+#   John Keells Group - Confidential
+      John Keells PLC
+
+       CONSOLIDATED
+       INCOME STATEMENT
+                                                                                 Quarter ended 31st March                 Year ended 31st March
+                                                                         2026              2025       Change %          2026         2025     Change %
+       Continuing operations
+       Services transferred at a point of time                         300,309         259,657             16       1,233,194    1,009,382          22
+       Revenue from contracts with customers                           300,309         259,657             16       1,233,194    1,009,382          22
+
+       Cost of sales                                               (112,209)          (116,467)            (4)      (491,422)     (473,616)          4
+       Gross profit                                                 188,100            143,190             31        741,772       535,766          38
+
+       Other operating income                                           238              2,564            (91)         1,190        14,731         (92)
+       Other operating expense                                       (1,482)            (5,702)          (100)       (10,008)       (5,702)         76
+       Distribution expenses                                        (76,336)           (15,467)           394       (122,559)      (38,973)        214
+       Administrative expenses                                     (105,441)           (90,322)            17       (404,442)     (363,458)         11
+       Results from operating activities                              5,079             34,263            (85)       205,953       142,364          45
+
+       Finance expenses                                                   (934)         (1,954)           (52)        (5,625)      (18,080)         (69)
+       Finance income                                                   25,615          20,483             25         81,740        69,290           18
+       Net finance income / (expense)                                   24,681          18,529             33         76,115        51,210           49
+
+       Changes in fair value of investment properties                        -               -                  -     12,900        30,500          (58)
+
+       Share of results of equity-accounted investees                    2,760          31,954            (91)         6,136        32,570          (81)
+
+       Profit before tax                                                32,520          84,746            (62)       301,104      256,644           17
+       Tax (expense) / Reversal                                        (46,358)        (46,161)             0       (140,710)      (83,156)         69
+
+       Profit for the period                                           (13,838)         38,585           (136)       160,394      173,488            (8)
+
+
+       Attributable to :
+       Equity holders of the parent                                    (22,627)         34,681           (165)       126,778      170,510           (26)
+       Non-controlling interests                                         8,789           3,904            125         33,616        2,978         1,029
+                                                                       (13,838)         38,585           (136)       160,394      173,488            (8)
+
+
+
+      Earnings per share                                                 Rs.              Rs.                          Rs.            Rs.
+      Basic                                                              (0.37)           0.57                          2.09          2.80
+      Diluted                                                            (0.37)           0.57                          2.09          2.80
+      Dividend per share                                                  0.45            1.00                           2.95         1.00
+
+
+      Note: All values are in Rupees '000s, unless otherwise stated.
+            Figures in brackets indicate deductions.
+            The above figures are not audited.
+
+
+                                                                                                                                                      1
+
+
+
+
+#   John Keells Group - Confidential
+John Keells PLC
+
+CONSOLIDATED STATEMENT OF
+COMPREHENSIVE INCOME
+                                                                                                       Quarter ended 31st March        Year ended 31st March
+
+                                                                                                      2026                  2025      2026              2025
+
+Profit for the period                                                                              (13,838)              38,585    160,394           173,488
+
+Other comprehensive income not to be reclassified to income statement in subsequent periods
+
+Net (Loss)/gain on equity instruments at fair value through other comprehensive income            (622,380)             (26,396)   (653,571)         519,700
+Revaluation of buildings on leasehold land                                                               -                    -      49,188           23,357
+Re-measurement gain /(loss) on defined benefit plans                                               (11,552)              11,756     (11,552)          11,756
+Net other comprehensive income not to be reclassified to income statement in subsequent periods   (633,932)             (14,640)   (615,935)         554,813
+
+Tax on other comprehensive income                                                                    3,353               (3,527)    (11,403)          (10,534)
+
+Other comprehensive income for the period, net of tax                                             (630,579)             (18,167)   (627,338)         544,279
+
+Total comprehensive income for the period, net of tax                                             (644,417)              20,418    (466,944)         717,767
+
+Attributable to :
+Equity holders of the parent                                                                      (653,206)              16,514    (500,560)         714,789
+Non-controlling interests                                                                            8,789                3,904      33,616            2,978
+                                                                                                  (644,417)              20,418    (466,944)         717,767
+
+
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      Figures in brackets indicate deductions.
+      The above figures are not audited.
+
+
+
+
+                                                                                                                                                               2
+
+
+
+
+       #   John Keells Group - Confidential
+        John Keells PLC
+
+        CONSOLIDATED
+        STATEMENT OF FINANCIAL POSITION
+       As at 31st March                                                                  2026               2025
+       ASSETS
+       Non-current assets
+       Property, plant and equipment                                                  919,949            890,517
+       Right of use asset                                                              28,223             29,312
+       Investment property                                                            557,650            544,750
+       Intangible assets                                                               13,588              7,878
+       Investments in associates                                                       24,156             64,420
+       Non-current financial assets                                                 2,316,312          3,079,098
+       Other non-current assets                                                        10,872             16,358
+       Deferred tax assets                                                             12,686             10,608
+                                                                                    3,883,436          4,642,941
+
+       Current assets
+       Inventories                                                                      1,316                996
+       Trade and other receivables                                                  1,370,995          1,118,777
+       Amounts due from related parties                                                25,244             11,766
+       Other current assets                                                            14,505             11,928
+       Short term investments                                                         822,538            533,450
+       Cash in hand and at bank                                                       847,369            217,536
+                                                                                    3,081,967          1,894,453
+       Total assets                                                                 6,965,403          6,537,394
+
+       EQUITY AND LIABILITIES
+       Attributable to equity holders of the parent
+       Stated capital                                                                 152,000            152,000
+       Revenue reserves                                                             2,961,800          3,022,206
+       Other components of equity                                                     945,037          1,549,639
+                                                                                    4,058,837          4,723,845
+       Non-controlling interests                                                       70,854             59,862
+       Total equity                                                                 4,129,691          4,783,707       -1
+
+       Non-current liabilities
+       Deferred tax liabilities                                                      284,711             284,571
+       Long Term Borrowing                                                               -                32,800
+       Employee benefit liabilities                                                   97,678              75,485
+                                                                                     382,389             392,856
+
+       Current liabilities
+       Trade and other payables                                                     2,299,533          1,285,276
+       Amounts due to related parties                                                  16,357             18,085
+       Income tax payable                                                              47,746             17,977
+       Other current liabilities                                                       24,690              3,178
+       Short term borrowings                                                           32,800             33,600
+       Bank overdrafts                                                                 32,197              2,715
+                                                                                    2,453,323          1,360,831
+       Total equity and liabilities                                                 6,965,403          6,537,394
+
+                                                                                           Rs.                 Rs.
+       Net assets per share                                                             66.76               77.69
+
+       Note: All values are in Rupees '000s, unless otherwise stated.
+             The above figures are not audited.
+
+       I certify that the financial statements comply with the requirements of the Companies Act No.7 of 2007.
+
+
+
+
+       N. W. R. Wijewantha
+       Chief Financial Officer
+
+       The Board of Directors is responsible for these financial statements.
+
+
+
+
+       K. N. J. Balendra                                                                         J. G. A. Cooray
+       Chairperson                                                                               Director
+
+       25 May 2026
+                                                                                                                   3
+#   John Keells Group - Confidential
+    John Keells PLC
+    CONSOLIDATED
+    CASH FLOW STATEMENT
+    For the year ended 31st March                                    Note       2026       2025
+    CASH FLOWS FROM OPERATING ACTIVITIES
+    Profit before working capital changes                             A      397,695     234,490
+
+    (Increase) / Decrease in inventories                                         (320)     1,777
+    (Increase) / Decrease in amounts due from related parties                 (13,478)    (1,743)
+    (Increase) / Decrease in other non-current assets                         114,836     84,066
+    (Increase) / Decrease in trade and other receivables                     (357,748)   212,483
+    (Increase) / Decrease in other current assets                              (2,577)    (7,058)
+    Increase / (Decrease) in trade and other payables                       1,014,256     38,367
+    Increase / (Decrease) in amounts due to related parties                    (1,728)    (1,714)
+    Increase / (Decrease) in other current liabilities                         21,512    (26,441)
+    Cash generated from operations                                          1,172,448    534,227
+
+    Finance income received                                                    74,588     63,931
+    Finance costs paid                                                         (5,625)   (18,080)
+    Tax paid and setoff                                                      (117,451)   (83,203)
+    Dividend received                                                          39,440     59,427
+    Gratuity (paid)/ transfers out                                             (2,826)   (29,414)
+    Net cash flow from/(used in) operating activities                       1,160,574    526,888
+
+    CASH FLOWS FROM/(USED IN) INVESTING ACTIVITIES
+    Purchase and construction of property, plant and equipment                (26,164)   (38,030)
+    Dividend received - FVOCI financial assets                                  7,152      5,359
+    Purchase of intangible assets                                             (14,514)    (2,659)
+    Proceeds from sale of property plant & equipment                              479     12,114
+    Net cash flow used in investing activities                                (33,047)   (23,216)
+
+    CASH FLOWS FROM/(USED IN) FINANCING ACTIVITIES
+    Dividend paid to equity holders of parent                               (179,360)    (60,800)
+    Proceeds from /(Repayment) of long term borrowings                       (33,600)    (33,600)
+    Dividend Paid to Non Controlling Shareholders'                           (25,128)        -
+    Proceeds from short term borrowings                                            -     100,000
+    Net cash flow used in financing activities                              (238,088)      5,600
+
+    NET INCREASE/(DECREASE) IN CASH AND CASH EQUIVALENTS                     889,439     509,272
+
+    CASH AND CASH EQUIVALENTS AT THE BEGINNING                               748,271     238,999
+
+    CASH AND CASH EQUIVALENTS AT THE END                                    1,637,710    748,271
+
+    ANALYSIS OF CASH AND CASH EQUIVALENTS
+    Favourable balances
+    Short term investments                                                    822,538    533,450
+    Cash in hand and at bank                                                  847,369    217,536
+                                                                            1,669,907    750,986
+    Unfavourable balances
+    Bank overdrafts                                                           (32,197)    (2,715)
+    Cash and cash equivalents                                               1,637,710    748,271
+
+    Note: All values are in Rupees '000s, unless otherwise stated.
+          Figures in brackets indicate deductions.
+          The above figures are not audited.
+                                                                                                   4
+#   John Keells Group - Confidential
+John Keells PLC
+
+CONSOLIDATED
+CASH FLOW STATEMENT
+For the year ended 31st March                                                             2026       2025
+
+A. Profit before working capital changes
+      Profit before tax                                                                 301,104    256,644
+
+      Adjustments for:
+       Finance income                                                                   (74,588)   (63,931)
+       Finance expenses                                                                   5,625     18,080
+       Dividend income - FVOCI financial assets                                          (7,152)    (5,359)
+       Share of results of equity-accounted investees                                    (6,136)   (32,570)
+       Change in fair value of investment properties                                    (12,900)   (30,500)
+       Depreciation of property, plant and equipment                                     45,917     41,889
+       Amortisation of intangible assets                                                  4,581      3,353
+       Amortisation of right-of-use assets                                                1,089      1,089
+       Loss on derecogntion of intangible assets                                          4,222          -
+       (Profit) / loss on sale of property, plant and equipment and intangible assets      (479)   (12,114)
+       Share based payment expenses                                                      17,415     15,032
+       Gratuity provision and related costs                                              13,467     17,025
+       Impairment of trade debtors                                                      105,530     25,852
+                                                                                        397,695    234,490
+
+
+
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      Figures in brackets indicate deductions.
+      The above figures are not audited.
+                                                                                                         5
+
+
+
+
+ #   John Keells Group - Confidential
+                                                                          Attributable to equity holders of parent
+
+                                                                                               Other Components of Equity
+
+                                                          Stated          Revenue      Revaluation    Fair value reserve Other capital      Total Non-controlling       Total
+                                                          capital         reserves        reserves          of financial     reserves                    interest      Equity
+                                                                                                                                                                                                                                 John Keells PLC
+
+
+
+                                                                                                       assets at FVOCI
+    As at 1st April 2024                                   152,000        2,904,267        482,971              355,362        162,324   4,056,924         54,784     4,111,708
+
+    Profit for the year                                             -      170,510               -                    -              -    170,510           2,978      173,488
+    Other comprehensive income net of tax                           -        8,229          16,350              519,700              -    544,279               -      544,279
+    Total comprehensive income net of tax                           -      178,739          16,350              519,700              -    714,789           2,978      717,767
+
+
+    Share based payment expenses                                      -           -               -                   -         12,932     12,932           2,100       15,032
+    Interim dividend paid - 2024/25                              -          (60,800)             -                    -              -     (60,800)             -       (60,800)
+    As at 31st March 2025                                  152,000        3,022,206        499,321              875,062        175,256   4,723,845         59,862     4,783,707
+
+
+
+    As at 1st April 2025                                   152,000        3,022,206         499,321             875,062        175,256   4,723,845         59,862     4,783,707
+
+    Profit for the year                                               -    126,778                -                   -              -     126,778          33,616      160,395
+    Other comprehensive income net of tax                             -     (7,824)          34,057            (653,571)             -    (627,338)              -     (627,338)
+    Total comprehensive income net of tax                             -    118,953           34,057            (653,571)             -    (500,560)         33,616     (466,943)
+
+    Share based payment expenses                                      -           -               -                   -         14,912      14,912           2,503       17,415
+                                                                                                                                                                                   CONSOLIDATED STATEMENT OF CHANGES IN EQUITY
+
+
+
+
+    Final dividend paid 2024/25                                       -     (97,280)              -                   -              -     (97,280)              -      (97,280)
+
+    Interim dividend paid - 2025/26                                   -     (82,080)              -                   -              -     (82,080)              -      (82,080)
+
+    Subsidiary Dividend to Non- Controlling Interest                  -           -               -                   -              -           -         (25,128)     (25,128)
+
+    As at 31st March 2026                                  152,000        2,961,800         533,378             221,491        190,168   4,058,837          70,853    4,129,691
+
+
+
+
+     Note: All values are in Rupees '000s, unless otherwise stated.
+           Figures in brackets indicate deductions.
+           The above figures are not audited.
+
+
+
+
+6
+       #   John Keells Group - Confidential
+John Keells PLC
+
+COMPANY
+INCOME STATEMENT
+                                                                      Quarter ended 31st March                        Year ended 31st March
+                                                                    2026              2025       Change %         2026              2025      Change %
+Continuing operations
+Revenue from contracts with customers                            120,024          116,516                 3   489,877            510,634           (4)
+
+Cost of sales                                                    (51,627)          (50,696)               2   (203,813)         (214,138)          (5)
+Gross profit                                                      68,397            65,820                4    286,064           296,496           (4)
+
+Dividend income                                                   81,314            18,870            331      132,576            78,297           69
+Other operating income                                               119             2,499            (95)         488             2,542          (81)
+Other operating expense                                           (1,239)               67         (1,949)      (5,394)              (89)       5,960
+Distribution expenses                                            (73,760)          (13,941)           429     (117,024)          (35,048)         234
+Administrative expenses                                          (36,507)          (40,510)           (10)    (158,660)         (142,436)          11
+Results from operating activities                                 38,324            32,805             17      138,050           199,762          (31)
+
+Finance expenses                                                     (28)            (297)            (90)     (1,056)           (10,683)         (90)
+Finance income                                                     9,039            8,577               5      25,336             21,864           16
+Net finance income / (expense)                                     9,011            8,280               9      24,280             11,181          117
+
+Changes in fair value of investment properties                         -               -              -        12,900             30,500          (58)
+
+Profit before tax                                                 47,335           41,085             15      175,230            241,443          (27)
+
+Tax expense                                                      (11,946)          (10,717)           11       (51,004)          (63,280)         (19)
+
+Profit for the period                                             35,389           30,368             17      124,226            178,163          (30)
+
+                                                                     Rs.               Rs.                         Rs.                Rs.
+
+Dividend per share                                                  0.45              1.00                        2.95              1.00
+
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      Figures in brackets indicate deductions.
+      The above figures are not audited.
+
+                                                                                                                                                     7
+
+
+
+
+      #   John Keells Group - Confidential
+John Keells PLC
+
+COMPANY STATEMENT OF
+COMPREHENSIVE INCOME
+                                                                                                   Quarter ended 31st March     Year ended 31st March
+
+                                                                                                      2026             2025        2026                   2025
+
+Profit for the period                                                                              35,389            30,368    124,226             178,163
+
+Other comprehensive income not to be reclassified to income statement in subsequent periods
+Net (loss)/gain on equity instruments at fair value through other comprehensive income            (622,380)         (26,396)   (653,571)           519,700
+Re-measurement gain /(loss) on defined benefit plans                                                (9,654)          10,358      (9,654)            10,358
+Net other comprehensive income not to be reclassified to income statement in subsequent periods   (632,034)   -     (16,038)   (663,225)           530,058
+
+Tax on other comprehensive income                                                                    2,896           (3,108)      2,896                 (3,108)
+
+Other comprehensive income for the period, net of tax                                             (629,138)         (19,146)   (660,329)           526,950
+
+Total comprehensive income for the period, net of tax                                             (593,749)          11,222    (536,103)           705,113
+
+
+
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      Figures in brackets indicate deductions.
+      The above figures are not audited.
+
+                                                                                                                                                             8
+
+
+
+
+       #   John Keells Group - Confidential
+John Keells PLC
+
+COMPANY
+STATEMENT OF FINANCIAL POSITION
+As at 31st March                                                               2026                 2025
+
+ASSETS
+Non-current assets
+Property, plant and equipment                                                21,195              20,554
+Investment property                                                         557,650             544,750
+Investment in subsidiaries                                                  158,570             158,570
+Equity accounted investments                                                 24,000              24,000
+Non-current financial assets                                              2,291,717           3,062,389
+Other non-current assets                                                      5,257               8,373
+                                                                          3,058,389           3,818,636
+
+Current assets
+Inventories                                                                     549                 372
+Trade and other receivables                                                 931,333             810,309
+Amounts due from related parties                                              2,625               2,999
+Other current assets                                                          5,319               2,756
+Cash in hand and at bank                                                    825,701             191,570
+                                                                          1,765,527           1,008,006
+Total assets                                                              4,823,916           4,826,642
+
+EQUITY AND LIABILITIES
+Stated capital                                                              152,000             152,000
+Revenue reserves                                                          2,761,039           2,822,931
+Other components of equity                                                  337,541             984,127
+Total equity                                                              3,250,580           3,959,058
+
+Non-current liabilities
+Deferred tax liabilities                                                     68,198              68,361
+Employee benefit liabilities                                                 52,622              38,948
+                                                                            120,820             107,309
+
+Current liabilities
+Trade and other payables                                                  1,387,274              727,163
+Amounts due to related parties                                               14,329               15,960
+Income tax payable                                                           12,429               13,096
+Other current liabilities                                                     6,287                1,342
+Bank overdrafts                                                              32,197                2,714
+                                                                          1,452,516              760,275
+Total equity and liabilities                                              4,823,916            4,826,642
+
+                                                                                  Rs.                 Rs.
+Net assets per share                                                           53.46               65.12
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      The above figures are not audited.
+
+I certify that the financial statements comply with the requirements of the Companies Act No.7 of 2007.
+
+
+
+N. W. R. Wijewantha
+Chief Financial Officer
+
+The Board of Directors is responsible for the preparation and presentation of these financial statements.
+
+
+
+K. N. J. Balendra                                                                       J. G. A. Cooray
+Chairperson                                                                             Director
+
+25 May 2026
+                                                                                                          9
+      #   John Keells Group - Confidential
+John Keells PLC
+
+COMPANY
+CASH FLOW STATEMENT
+For the year ended 31st March                                        2026       2025
+CASH FLOWS FROM OPERATING ACTIVITIES
+Profit before tax                                                175,230     241,443
+
+Adjustments for:
+Interest income                                                   (18,184)   (16,505)
+Dividend income - FVOCI Financial Assets                           (7,152)    (5,359)
+Dividend income subsidiary                                       (132,576)   (78,297)
+Finance expenses                                                    1,056     10,683
+Change in fair value of investment properties                     (12,900)   (30,500)
+Depreciation of property, plant and equipment                       5,032      3,781
+Impairment of trade debtors                                       105,530     25,852
+Gratuity provision and related costs                                6,838      9,448
+Share based payment expenses                                        6,985      6,283
+Profit before working capital changes                             129,859    166,829
+
+(Increase) / Decrease in inventories                                 (177)     1,776
+(Increase) / Decrease in trade and other receivables             (226,554)   178,687
+(Increase) / Decrease in amounts due from related parties             374      2,522
+(Increase) / Decrease in other current assets                      (2,563)    (2,695)
+(Increase) / Decrease in other non current assets                 120,224     76,951
+Increase / (Decrease) in amounts due to related parties            (1,631)     1,904
+Increase / (Decrease) in other current liabilities                  4,946    (11,770)
+Increase / (Decrease) in trade and other payables                 660,111    (76,284)
+Cash generated from / (used in) operations                        684,589    337,918
+
+Finance income received                                           18,184      16,505
+Finance expenses paid                                             (1,056)    (10,683)
+Dividend received                                                132,576      78,297
+Tax paid                                                         (48,942)    (60,628)
+Gratuity (paid)/ transfers out                                    (2,819)    (14,012)
+Net cash flow from / (used in) operating activities              782,532     347,399
+
+CASH FLOWS FROM / (USED IN) INVESTING ACTIVITIES
+Purchase and construction of property, plant and equipment         (5,676)    (4,888)
+Dividend income- FVOCI Financial Assets                             7,152      5,359
+Net cash flow used in investing activities                          1,476        471
+
+CASH FLOWS FROM / (USED IN) FINANCING ACTIVITIES
+
+Dividend paid                                                    (179,360)   (60,800)
+Net cash flow used in financing activities                       (179,360)   (60,800)
+
+NET INCREASE/(DECREASE) IN CASH AND CASH EQUIVALENTS             604,648     287,070
+
+CASH AND CASH EQUIVALENTS AT THE BEGINNING                       188,856     (98,214)
+
+CASH AND CASH EQUIVALENTS AT THE END                             793,504     188,856
+
+ANALYSIS OF CASH & CASH EQUIVALENTS
+Favourable balances
+Cash in hand and at bank                                         825,701     191,570
+
+Unfavourable balances
+Bank overdrafts                                                  (32,197)     (2,714)
+                                                                 793,504     188,856
+
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      Figures in brackets indicate deductions.
+  TheThe
+       above
+          above
+              figures
+                 figures
+                      are are
+                          subject
+                              not audited.
+                                   to audit.
+
+                                                                                  10
+      #   John Keells Group - Confidential
+John Keells PLC
+
+COMPANY STATEMENT OF CHANGES IN EQUITY
+                                                                                             Other Components of Equity
+                                                                      Stated   Revenue                Fair value       Other        Total
+                                                                     capital   reserves     reserve of financial      capital      equity
+                                                                                               assets at FVOCI       reserves
+As at 1st April 2024                                                 152,000   2,698,318              365,434          92,710   3,308,462
+
+Profit for the year                                                      -      178,163                     -               -    178,163
+
+Other comprehensive income net of tax                                    -        7,250               519,700               -    526,950
+Total comprehensive income net of tax                                    -      185,413               519,700               -    705,113
+
+Share based payment expenses                                             -            -                     -           6,283       6,283
+Interim dividend paid - 2024/25                                          -       (60,800)                   -               -     (60,800)
+
+As at 31st March 2025                                                152,000   2,822,931              885,134          98,993   3,959,058
+
+As at 1st April 2025                                                 152,000   2,822,931              885,134          98,993   3,959,058
+
+Profit for the year                                                      -      124,226                     -               -    124,226
+Other comprehensive income net of tax                                    -       (6,758)             (653,571)              -   (660,329)
+Total comprehensive income net of tax                                    -      117,468              (653,571)              -   (536,103)
+
+
+Share based payment expenses                                             -             -                    -           6,985       6,985
+Final dividend paid 2024/25                                              -       (97,280)                   -               -     (97,280)
+Interim dividend paid - 2025/26                                          -       (82,080)                   -               -     (82,080)
+
+As at 31st March 2026                                                152,000   2,761,039              231,563         105,978   3,250,580
+
+
+
+
+Note:     All values are in Rupees '000s, unless otherwise stated.
+         Figures in brackets indicate deductions.
+         The above figures are not audited.
+
+
+                                                                                                                                      11
+
+
+
+  #   John Keells Group - Confidential
+    John Keells PLC
+
+    OPERATING SEGMENT INFORMATION
+    OPERATING SEGMENTS
+    The following table presents revenue and profit information regarding the Group's operating segments.
+                                                                   Produce Broking                    Warehousing           Stock Broking            Group Total
+    For the quarter ended 31st March                             2026         2025                 2026         2025      2026         2025       2026         2025
+    Services transferred over time                             120,024     116,516                43,307     38,166     136,978     104,974     300,309     259,657
+    Inter segment revenue                                          -            -                  2,369       1,862        -           -         2,369        1,862
+    Total Segment Revenue                                      120,024     116,516                45,676     40,028     136,978     104,974     302,678     261,519
+    Eliminations of inter segment revenue                                                                                                        (2,369)      (1,862)
+    External Revenue                                                                                                                            300,309     259,657
+
+
+    Segment Results                                            (42,988)     13,823                 9,978       6,096     38,089     14,344        5,079       34,263
+    Finance expenses                                               (28)       (297)                 (905)     (1,656)          -          (1)      (934)      (1,954)
+    Finance income                                               9,039       8,690                 1,204       1,256     15,374     10,537       25,615       20,483
+    Change in fair value in investment property                     -           -                     -           -          -          -            -            -
+    Share of results of equity-accounted investees                  -           -                     -           -          -          -         2,760-      31,954-
+    Profit / (loss) before tax                                 (33,978)     22,216                10,276       5,696     53,462     24,880       32,520       84,746
+    Tax expense                                                                                                                                 (46,358)     (46,161)
+
+    Profit for the period                                                                                                                       (13,838)     38,585
+
+
+
+
+    Note : All values are in Rupees '000s, unless otherwise stated.
+           Figures in brackets indicate deductions.
+           The above figures are not audited.
+
+
+                                                                                                                                                                  12
+
+
+
+
+#   John Keells Group - Confidential
+John Keells PLC
+OPERATING SEGMENT INFORMATION
+OPERATING SEGMENTS
+The following table presents revenue and profit information regarding the group's operating segments.
+
+                                                                   Produce Broking                       Warehousing         Stock Broking           Group Total
+For the year ended 31st March                                        2026         2025                  2026        2025        2026       2025       2026           2025
+
+Services transferred over time                                    489,877        510,634           177,800       153,961     565,517    344,787    1,233,194    1,009,382     #
+Inter segment revenue                                                 -              -               8,800         7,467         -          -          8,800        7,467
+Total Segment Revenue                                             489,877        510,634           186,600       161,428     565,517    344,787    1,241,994    1,016,849     ##
+Eliminations of inter segment revenue                                                                                                                 (8,800)      (7,467)
+External Revenue                                                                                                                                   1,233,194    1,009,382
+
+
+
+
+Segment Results                                                     5,475        121,465            47,802        42,319     152,676    (21,420)    205,953        142,364
+Finance expenses                                                   (1,056)       (10,683)           (4,568)       (7,390)         (1)        (7)     (5,625)       (18,080)
+Finance income                                                     25,336         21,864             4,692         4,657      51,713     42,769      81,740         69,290
+Changes in fair value of investment property                       12,900         30,500                 -             -           -          -      12,900         30,500
+Share of results of equity-accounted investees                          -              -                 -             -           -          -       6,136         32,570
+Profit before tax                                                  42,655        163,146            47,926        39,586     204,388     21,342     301,104        256,644
+Tax expense                                                                                                                                        (140,710)       (83,157)
+Profit for the period                                                                                                                               160,394        173,488
+
+Purchase and construction of PPE*                                    5,676          4,888           19,226        32,119        1,262     1,024       26,164       38,030
+Depreciation of PPE*                                                 5,032          3,781           39,434        36,707        1,451     1,400       45,917       41,889
+Addition to intangible assets                                          -              -                -             -         14,514     2,659       14,514        2,659
+Amortisation of intangible assets                                      -              -                -             -          4,581     3,353        4,581        3,353
+Amortisation of right-of-use assets                                    -              -              1,089         1,089          -         -          1,089        1,089
+Gratuity provision and related cost                                  6,838          9,448              339           377        6,290     7,200       13,467       17,025
+Segment Assets                                                   4,665,504      4,708,494        1,024,100       995,411    1,275,799   833,489    6,965,403    6,537,394
+Segment Liabilities                                              1,555,507        862,756          299,933       308,237      980,272   582,694    2,835,712    1,753,688
+
+Note: All values are in Rupees '000s, unless otherwise stated.
+      Figures in brackets indicate deductions.
+      The above figures are not audited.
+
+*PPE (Property, plant and equipment)
+                                                                                                                                                                        13
+                                   John Keells PLC
+                                   NOTES TO THE INTERIM CONDENSED FINANCIAL STATEMENTS
+
+                                   1          CORPORATE INFORMATION
+                                              John Keells PLC, is a public limited company incorporated and domiciled in Sri Lanka and listed on the Colombo Stock Exchange.
+
+                                   2          INTERIM CONDENSED FINANCIAL STATEMENTS
+                                              The financial statements for the period ended 31st March 2026, includes “the Company” referring to John Keells PLC as the holding
+                                              company and “the Group” referring to the companies whose accounts have been consolidated therein.
+
+                                   3          APPROVAL OF FINANCIAL STATEMENTS
+                                              The interim condensed financial statements of the Group and the Company for the period ended 31st March 2026 were authorised for
+                                              issue by the Board of Directors on 25th May 2026.
+
+                                   4          BASIS OF PREPARATION AND CHANGES TO THE GROUP'S ACCOUNTING POLICIES
+                                   4.1        BASIS OF PREPARATION
+                                              The interim condensed financial statements have been prepared in accordance with Sri Lanka Accounting Standard (SLAS) LKAS 34 -
+                                              Interim Financial Reporting. These interim condensed financial statements should be read in conjunction with the annual financial
+                                              statements for the year ended 31 March 2025.
+
+                                              The presentation and classification of the financial statements of the previous year have been amended, where relevant, for better
+                                              presentation and to be comparable with those of the current year.
+
+                                              The interim condensed financial statements are presented in Sri Lankan Rupees and all values are rounded to the nearest thousand
+                                              except when otherwise indicated.
+
+                                   4.2        FAIR VALUE MEASUREMENT AND RELATED FAIR VALUE DISCLOSURES
+                                              The fair values of all the financial assets and financial liabilities recognised during the quarter were not materially different from the
+                                              transaction prices at the date of initial recognition. There were no transfers between Level 1 and Level 2 and no transfers into or out of
+                                              Level 3 categories as per the fair value hierarchy, during the period. The fair value changes on financial instruments in Level 3
+                                              category was properly recorded in the statement of other comprehensive income and there were no purchases and/or disposals during
+                                              the period. Fair valuation was done as at 31st March 2026 for all unquoted equity shares classified as level 3 in the fair value
+                                              hierarchy according to fair valuation methodology.
+
+                                   4.3        TAXES
+                                              For the Year ended 31st March                                                         Group                              Company
+                                              In Rs.000'                                                                           2026           2025          2026              2025
+                                              Income Statement
+                                              Current income tax                                                               147,220          70,143        48,271             52,411
+                                              Adjustments in respect of current income tax of previous year                       (128)            196             -                196
+
+                                              Deferred Income Tax
+                                              Relating to origination and reversal of temporary differences                      (6,382)        12,817         2,733             10,673
+                                              Tax expense                                                                       140,710         83,156        51,004             63,280
+
+                                   5          OPERATING SEGMENTS
+                                              For management purposes, the group is organised into business units based on their products and services and has three reportable
+                                              operating segments as follows:
+John Keells Group - Confidential
+
+
+
+
+                                              5.1 Produce Broking
+                                                  This includes tea and rubber broking.
+                                              5.2 Warehousing
+                                                  This includes tea auction produce warehousing.
+                                              5.3 Stock Broking
+                                                  This includes the stock broking segment.
+
+                                                                                                                                                                                     14
+                     #
+
+
+
+
+                                         #   John Keells Group - Confidential
+John Keells PLC
+NOTES TO THE INTERIM CONDENSED FINANCIAL STATEMENTS
+
+6   RELATED PARTY TRANSACTIONS
+                                                                                    Group                      Company
+    For the year ended 31st March                                               2026               2025       2026                2025
+                                                                             Rs 000's           Rs 000's   Rs 000's            Rs 000's
+    Transactions with related parties
+    Ultimate Parent
+    Receiving of Services for which fees are paid                            57,781             53,900     29,267              27,072
+
+    Subsidiaries
+    Renting of stores space for which rent is paid                            8,800                   -     8,800                7,720
+
+    Key management personnel
+      Short term employee benefits                                            3,903              3,617          -                    -
+     (Receiving) / Rendering of services                                     11,831              5,589          -                    -
+
+    Close family members of KMP
+     (Receiving) / Rendering of services                                           -                  -         -                    -
+
+    Companies under common control
+
+    Purchases of goods for a fee                                               4,107              1,374     2,730                1,374
+    Receiving of Services for which fees are paid                             39,005             36,201    21,364               17,747
+    Lending Money for which interest is received                              41,618             28,073         -                    -
+    Renting Office space for which rent is received                           (9,840)            (9,419)   (6,485)              (1,952)
+    Providing of Services for which fees are received                        (13,775)           (35,522)        -              (35,522)
+
+    Post employment benefit plan
+    Contributions to the provident fund                                       9,563             13,342      9,563              13,342
+
+
+
+
+7   NET FINANCE INCOME/(EXPENSES)
+                                                                                        Group                        Company
+    For the year ended 31st March                                               2026               2025      2026                 2025
+
+    Finance income
+    Interest income                                                          66,961             53,951     14,317              13,015
+    Financial assets at fair value through OCI                                7,627              9,980      3,867               3,490
+    Dividend income on financial assets at FVOCI Keells Foods Products PLC    7,152              5,359      7,152               5,359
+    Total finance income                                                     81,740             69,290     25,336              21,864
+
+    Finance cost
+    Interest expense on borrowings                                           (5,625)            (18,080)   (1,056)             (10,683)
+    Total finance cost                                                       (5,625)            (18,080)   (1,056)             (10,683)
+    Net finance income / (expenses)                                          76,115              51,210    24,280               11,181
+
+
+                                                                                                                                    15
+
+
+
+
+         #   John Keells Group - Confidential
+John Keells PLC
+NOTES TO THE INTERIM CONDENSED FINANCIAL STATEMENTS
+8      SHARE INFORMATION
+
+8.1    Stated capital
+       Stated capital is represented by number of shares in issue as given below:
+       As at                                                                                                                 31-03-2026                        31-12-2025
+       Ordinary shares                                                                                                        60,800,000                       60,800,000
+
+8.2    Public share holdings
+       Percentage of shares held by the public and the number of public shareholders is as given below:
+       As at                                                                                                                  31-03-2026                       31-12-2025
+       The percentage of shares held by the public                                                                                13.10%                           13.10%
+       The number of Public Shareholders                                                                                           2,292                            2,154
+       Compliant under Rule 7.13.1 (b) option 2 - Float adjusted market capitalization (Rs Bn )                                     0.65                             0.68
+
+8.3    Directors' and CEO's share holdings
+       The number of shares held by the Board of Directors/CEO are as follows:
+       As at                                                                                                                  31-03-2026                       31-12-2025
+       K. N. J. Balendra - Chairperson                                                                                              Nil                              Nil
+       J. G. A. Cooray                                                                                                              Nil                              Nil
+       A. Z. Hashim                                                                                                                 Nil                              Nil
+       N. W. R. Wijewantha                                                                                                          Nil                              Nil
+       N.A.S. Akuratiyagama                                                                                                         Nil                              Nil
+       P.T. Wanigasekara                                                                                                            Nil                              Nil
+       P. D. Samarasinghe                                                                                                            Nil                             Nil
+
+       H. G. R. De Mel - CEO                                                                                                         Nil                               Nil
+
+8.4    Twenty largest shareholders of the company are as follows:
+       As at                                                                                                               31-03-2026                        31-12-2025
+                                                                                                                       Number of shares          %       Number of shares          %
+       1             John Keells Holdings PLC                                                                               52,834,784       86.90%          52,834,784       86.90%
+       3             People's Leasing & Finance PLC/L.P. Hapangama                                                             884,909        1.46%             884,909        1.46%
+       2             Dr. H.S.D.Soysa                                                                                           625,611        1.03%             625,611        1.03%
+       4             People's Leasing & Finance PLC/Dr.H.S.D. Soysa & Mrs.G. Soysa                                             456,581        0.75%             456,581        0.75%
+       5             Mrs. H.G.S. Ansell                                                                                        240,000        0.39%             240,000        0.39%
+       6             People's Leasing & Finance PLC/L.H.L.M.P. Haradasa                                                        238,145        0.39%             238,145        0.39%
+       7             Mrs. M.L. De Silva                                                                                        207,872        0.34%              207,872       0.34%
+       8             Bank Of Ceylon No. 1 Account                                                                              197,048        0.32%              197,048       0.32%
+       9             Mr. A.M. Weerasinghe                                                                                        179,792      0.30%               179,792       0.30%
+       10            Catholic Bishops Conference In Sri Lanka                                                                    171,416      0.28%               171,416       0.28%
+       11            Employees Trust Fund Board                                                                                  169,988      0.28%               169,988       0.28%
+       12            Miss N.S. De Mel                                                                                            137,115      0.23%               137,115       0.23%
+       13            Miss. M. P. Radhakrishnan                                                                                   136,400      0.22%               136,400       0.22%
+       14            Miss. A. Radhakrishnan                                                                                      136,400      0.22%               136,400       0.22%
+       15            Mr. A.J.M. Jinadasa                                                                                         133,000      0.22%               133,000       0.22%
+       16            Colombo Fort Investments PLC                                                                                114,000      0.19%               114,000       0.19%
+       17            Mrs. G. Soysa                                                                                               105,000      0.17%               105,000       0.17%
+       18            Colombo Investment Trust PLC                                                                                102,848      0.17%               102,848       0.17%
+       19            Mr. H.P.N. Soysa                                                                                            100,000      0.16%               100,000       0.16%
+       20            Ms. W.K. Pitiyage                                                                                           100,000      0.16%               100,000       0.16%
+                                                                                                                              57,270,909     94.20%            57,270,909      94.20%
+8.5    Net assets per share
+       Net assets per share have been calculated, for all periods, based on the number of shares in issue as at 31st March 2026
+
+8.6    Market price per share
+       For the quarter ended 31st March                                                                                             2026                              2025
+                                                                                                                                     Rs.                                Rs.
+       Highest                                                                                                                      86.00                             88.00
+       Lowest                                                                                                                       77.00                             70.00
+       Closing price as at 31st of March                                                                                            81.20                             74.00
+
+9      CONTINGENCIES, CAPITAL AND OTHER COMMITMENTS
+       There has been no significant change in the nature of the contingencies and other commitments, which were disclosed in the annual report for the year ended 31 March 2026
+       and no circumstances have arisen since the Statement of Financial Position date, which would require adjustments to or disclosure in the financial statements.
+10     EVENTS AFTER THE REPORTING PERIOD
+       There have been no material events occurring after the statement of financial position date that require adjustment or disclosure in the financial statements other than
+       following.
+       The Board of Directors has approved the payment of a final dividend of Rs 1.60 per share to be paid on or before 23rd June 2026. As required by section 56 (2) of the
+       Companies Act, No. 07 of 2007, the Board of Directors has confirmed that the Company satisfies the solvency test in accordance with Section 57 of the Companies Act, No.
+       07 of 2007, and has obtained a certificate from the auditors, prior to approving the final dividend. In accordance with LKAS 10, Events after the reporting period, the final
+       dividend has not been recognised as a liability in the Financial Statements as at 31 March 2026.
+                                                                                                                                                                                     16
+
+       #   John Keells Group - Confidential
+

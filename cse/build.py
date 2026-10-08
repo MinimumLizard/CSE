@@ -292,11 +292,15 @@ def main() -> None:
     ctx = build_context(ROOT)
     own = ownership_site.context(ROOT)
     ctx["ownership_page"] = own is not None
+    ctx["flows_page"] = (ROOT / "data" / "flows" / "latest.json").exists()
     render(ctx, out)
     print(f"wrote {out.relative_to(ROOT)}")
     if own is not None:
         ownership_site.render(own, ROOT / "site" / "ownership.html")
         print("wrote site/ownership.html")
+    from . import flows
+    if flows.render(ROOT, ROOT / "site" / "flows.html"):
+        print("wrote site/flows.html")
 
 
 if __name__ == "__main__":

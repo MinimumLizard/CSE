@@ -1,0 +1,873 @@
+Amana Takaful Life PLC
+
+
+
+
+Interim Financial Statements
+       31 March 2026
+STATEMENT OF FINANCIAL POSITION
+As at                                                                        31.03.2026           31.12.2025
+                                                                                Rs.                  Rs.
+                                                               Notes        (Unaudited)           (Audited)
+Assets
+
+Intangible assets                                                                 19,325,460          16,628,217
+Property, plant and equipment                                                     79,099,129          84,742,821
+Right-of-use lease assets                                       3.1               50,653,521          53,877,004
+Financial assets                                                 4             1,013,126,584         999,645,315
+Financial assets - Unit Linked                                   5             4,447,864,248       4,255,470,504
+Retakaful (reinsurance) receivables                                               50,074,168          50,074,168
+Contribution (premium) receivables                                                75,821,600          51,885,714
+Other assets                                                                     163,554,190         136,808,835
+Cash and bank balances                                             6              34,050,887          48,947,841
+Cash and bank balances - Unit Linked                               6              83,006,464          74,368,772
+
+Total assets                                                                   6,016,576,250       5,772,449,191
+
+
+Liabilities
+
+
+Insurance contract liabilities - Family Takaful Fund                             244,638,291         241,659,512
+Insurance contract liabilities - Unit Linked                                   4,492,575,855       4,289,307,630
+Employee benefits                                                                 20,161,271          19,411,271
+Subordinated debt                                                                105,705,632         103,870,871
+Finance lease liabilities                                       3.2               54,519,964          57,878,932
+Other liabilities - Unit Linked                                                  222,776,662         216,875,410
+Other liabilities                                                                216,833,977         192,078,670
+Income tax payable                                                 10             11,900,941           9,613,373
+Total liabilities                                                              5,369,112,593       5,130,695,669
+
+Shareholders' equity
+
+Stated capital                                                                   500,000,000         500,000,000
+Revaluation reserve                                                               21,320,747          21,320,747
+Revenue reserves                                                                 126,142,906         120,432,775
+Total equity                                                                     647,463,654         641,753,522
+Total liabilities and equity                                                   6,016,576,250       5,772,449,191
+
+
+The notes form an integral part of the financial statements.
+We certify that the preparation and presentation of these financial statements comply with the requirements under
+Companies Act, No. 07 of 2007.
+
+
+Signed
+………………….                                                                Signed
+                                                                        ………………….
+Nilushan Somarathna                                                     Gehan Rajapakse
+Chief Financial Officer                                                 Executive Director/CEO
+
+Signed for and on behalf of the Board
+
+
+Signed
+………………….                                                                Signed
+                                                                        ………………….
+Osman Kassim                                                            Hassan Kassim
+Chairman                                                                Director
+
+Colombo
+15 May 2026
+                                                                                                      Amana Takaful Life PLC
+                                                                                 Interim Financial Statements 31st March 2026
+                                                               1
+STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME
+
+For year ended                                                              31.03.2026        31.03.2025      Change
+                                                                                Rs.               Rs.           %
+                                                                 Notes     (Unaudited)       (Unaudited)
+
+Gross written contribution (premium)                              7          533,150,326      391,674,415         36%
+Retakaful contribution (reinsurance premium)                                 (29,136,756)     (22,750,979)       -28%
+Net written contribution (premium)                                           504,013,571      368,923,436         37%
+Net change in reserve for un-earned contribution (premium)                   (14,681,681)      (9,347,237)        57%
+Net earned contribution (premium)                                            489,331,890      359,576,199         36%
+
+Other revenue
+Income from investments                                                      126,946,460      168,508,340        -25%
+Other income                                                                  18,252,666       16,575,632         10%
+
+Total revenue                                                     8          634,531,015      544,660,171        17%
+
+Benefits, losses and expenses
+
+Takaful (insurance) claims and benefits                                      (142,037,846)    (154,037,421)        8%
+Acquisition cost (net of reinsurance commission)                              (81,278,016)     (56,901,710)      -43%
+Change in family takaful contract liability                                  (191,552,925)    (166,856,040)      -15%
+Other operating and administration expenses                                  (210,224,231)    (179,877,052)      -17%
+Amortisation                                                                     (412,757)        (404,261)       -2%
+Total claims, benefits and expenses                                          (625,505,776)    (558,076,484)      -12%
+
+Profit from operations                                                          9,025,239      (13,416,313)     -167%
+
+Finance cost                                                                   (2,122,782)      (2,020,566)      -5%
+
+Profit before taxation                                            9             6,902,458      (15,436,878)     -145%
+
+Income tax expenses                                               10           (2,287,568)             -         -
+
+Profit for the period                                                           4,614,890      (15,436,878)     -130%
+
+
+Basic/diluted earnings per share to equity holders                                   0.09            (0.31)     -130%
+
+
+Other comprehensive income
+
+Net profit for the period                                                       4,614,890      (15,436,878)     -130%
+Net change in fair value of available for sale financial
+ assets transfer (to)/ from life policyholder's reserve                         1,095,243        2,064,788       -47%
+
+Total comprehensive income for the period                                       5,710,134      (13,372,091)     -143%
+
+
+
+
+                                                                                            Amana Takaful Life PLC
+                                                             2         Interim Financial Statements 31st March 2026
+STATEMENT OF CHANGES IN EQUITY
+
+                                                                                                          Revenue Reserves
+                                                                                                                      Policy
+                                                                           Stated      Revaluation    Accumulated
+                                                                                                                     Holders'       Total Equity
+                                                                           Capital      Reserve       Profit/(Loss)
+                                                                                                                     Reserve
+                                                                            (Rs)          (Rs)            (Rs)         (Rs)            (Rs)
+
+Audited balance as at 31 December 2024                                 500,000,000      21,320,747       67,156,375    49,237,713   637,714,835
+
+Net profit/(loss) for the period                                                                        (15,436,878)                (15,436,878)
+
+Net change in fair value of available for sale financial -
+- assets transfer (to)/ from life policyholder's reserve                                                                2,064,788     2,064,788
+
+
+Defined benefit plan acturial losses, net of deferred tax                                                                                     -
+
+
+Unaudited balance as at 31 March 2025                                  500,000,000      21,320,747       51,719,496    51,302,500   624,342,744
+
+Net profit for the period                                                          -             -        6,831,537           -       6,831,537
+
+Other comprehensive income
+
+Net change in fair value of available for sale financial asstes                    -             -              -             -               -
+Net change in fair value of available for sale financial -
+- assets transfer (to)/ from life policyholder's reserve                           -             -              -      11,040,557    11,040,557
+
+Transfer from revaluation reserve                                                                                                             -
+
+Revaluation of property, plant and equipment                                                     -                                            -
+Net change in fair value of available for sale financial asstes
+- transferred to the statement of income                                           -             -              -             -               -
+
+Defined benefit plan acturial losses, net of deferred tax                          -             -         (461,315)          -        (461,315)
+
+Total comprehensive income                                                         -             -        6,370,222    11,040,557    17,410,778
+
+Audited balance as at 31 December 2025                                 500,000,000      21,320,747       58,089,716    62,343,057   641,753,522
+
+Net profit for the period (unaudited)                                              -             -        4,614,890           -       4,614,890
+
+Other Comprehensive Income
+
+Net change in fair value of available for sale financial -
+- assets transfer (to)/ from life policyholder's reserve (unaudited)               -             -              -       1,095,243     1,095,243
+
+
+Total comprehensive income (unaudited)                                             -             -        4,614,890     1,095,243     5,710,134
+
+
+Unaudited balance as at 31 March 2026                                  500,000,000      21,320,747       62,704,606    63,438,300   647,463,654
+
+
+
+
+                                                                                                                          Amana Takaful Life PLC
+                                                                       3                             Interim Financial Statements 31st March 2026
+STATEMENT OF CASH FLOWS
+
+For year ended                                                                   31.03.2026        31.03.2025
+                                                                                     Rs.               Rs.
+                                                                        Notes   (Unaudited)       (Unaudited)
+
+Cash flows from operating activities
+Contribution (premium) received from customers                                    509,214,441       363,819,823
+Retakaful (reinsurance) premium paid                                              (18,751,121)              -
+Claims and benefits paid                                                         (147,760,441)     (139,684,729)
+Cash paid to and behalf of employees                                              (95,169,029)      (83,117,214)
+Profits received from investments and other income                                137,551,300        52,150,324
+Finance cost paid                                                                  (2,122,782)       (2,020,566)
+Other operating cash payments                                                    (155,582,047)     (144,791,396)
+
+Cash flow from (used in) operating activities (Note A)                            227,380,321        46,356,243
+
+                                                                                           -                -
+Net cash flow from (used in) operating activities (note a)                        227,380,321        46,356,243
+
+Cash flows from investing activities
+
+Purchase of financial assets                                                    (2,116,965,880)    (850,529,446)
+Sale of financial assets                                                         1,890,903,403      833,385,165
+Dividend received                                                                    1,184,323        1,175,579
+Purchase of property, plant & equipment                                             (3,905,038)     (41,000,965)
+Net cash flow from investing activities                                           (228,783,192)     (56,969,667)
+
+
+Cash flows used in financing activities
+Repayment of finance lease liabilities                                              (4,551,651)      (3,214,800)
+Net cash flows used in financing activities                                         (4,551,651)      (3,214,800)
+
+
+Net increase/(decrease) in cash and cash equivalents                     B          (5,954,521)     (13,828,224)
+
+
+NOTE A
+Reconciliation of operating profit with cash flows from operations
+For year ended                                                                  31.03.2026        31.03.2025
+                                                                                    Rs.              Rs.
+                                                                        Notes   (Unaudited)       (Unaudited)
+Profit from operations                                                              9,025,239       (13,416,313)
+Depreciation                                                                        5,643,692         4,570,368
+Amortisations                                                                         412,757           404,261
+Depreciation right of use asset                                                     3,923,709         2,555,435
+Provision for gratuity                                                                750,000           825,000
+Unrealised (income)/losses                                                        (39,420,698)      (44,177,234)
+(Increase)/decrease in debtors and other assets                                    12,288,462      (129,933,791)
+Increase in family takaful (long term insurance) fund/ (decrease)                 191,552,925       166,856,040
+Increase/(decrease) in unearned contribution (premium)                             14,681,681         9,347,237
+Increase/(decrease) in other creditors                                             30,656,559        51,223,996
+Finance cost paid                                                                  (2,122,782)       (2,020,566)
+Gratuity paid                                                                             -                 -
+Exchange gain/(loss)                                                                  (11,225)          121,808
+
+Cash flows from operating activities                                              227,380,321        46,356,243
+
+Note B
+Increase/(decrease) in cash and cash equivalents
+
+Cash and cash equivalents at the end of the period                       6        132,536,406       393,460,562
+
+Cash and cash equivalents at the beginning of the period                          138,490,928       407,288,786
+
+Increase/(decrease) in cash and cash equivalents                                    (5,954,521)     (13,828,224)
+
+
+
+
+                                                                                               Amana Takaful Life PLC
+                                                                    4     Interim Financial Statements 31st March 2026
+STATEMENT OF FINANCIAL POSITION - SEGMENTAL ANALYSIS
+
+
+                                                                                                                 Unaudited
+                                                                                                        Shareholders'
+As at 31.03.2026                                                              Family Takaful Fund           Fund          Adjustments                Total
+                                                                                      Rs.                    Rs.              Rs.                     Rs.
+Assets
+
+Intangible assets                                                                               -            19,325,460                  -           19,325,460
+
+Property, plant and equipment                                                                   -            79,099,129                  -           79,099,129
+
+Right-of-use lease assets                                                                       -            50,653,521                  -           50,653,521
+
+Financial assets                                                                       405,484,942         607,641,641                   -        1,013,126,584
+
+Financial assets - Unit Linked                                                       4,447,864,248                   -                   -        4,447,864,248
+
+Retakaful receivables                                                                   50,074,168                   -                   -           50,074,168
+
+Contribution (premium) receivables                                                      75,821,600                   -                   -           75,821,600
+
+Other assets                                                                            62,885,412         100,668,778                   -          163,554,190
+
+Interfund receivable                                                                            -             3,099,884           (3,099,884)                   -
+
+Cash and bank balances                                                                  33,313,628              737,259                  -           34,050,887
+
+Cash and bank balances - Unit Linked                                                    83,006,464                   -                   -           83,006,464
+
+Total assets                                                                         5,158,450,462         861,225,672            (3,099,884)     6,016,576,250
+
+Liabilities
+
+Insurance contract liability - Family Takaful Fund                                     244,638,291                   -                   -          244,638,291
+
+Insurance contract liability - Unit Linked Fund                                      4,492,575,855                   -                   -        4,492,575,855
+
+Employee benefits                                                                               -           20,161,271                   -           20,161,271
+                                                                                                                   -
+Subordinated debt                                                                               -          105,705,632                   -          105,705,632
+
+Finance lease liability                                                                         -            54,519,964                  -           54,519,964
+
+Inter fund payable                                                                        3,099,884                  -            (3,099,884)                   -
+
+Other liabilities - Unit Linked                                                        222,776,662                   -                   -          222,776,662
+
+Other liabilities                                                                      135,549,878           81,284,099                  -          216,833,977
+
+Income tax payable                                                                                           11,900,941                              11,900,941
+
+Total liabilities                                                                    5,098,640,571         273,571,907            (3,099,884)     5,369,112,592
+
+Shareholders' equity
+
+Stated capital                                                                                  -          500,000,000                   -          500,000,000
+
+Revaluation reserve                                                                             -            21,320,747                  -           21,320,747
+
+Revenue reserves                                                                        59,809,888           66,333,019                  -          126,142,906
+
+Total equity                                                                            59,809,888         587,653,766                   -          647,463,653
+
+Total liabilities and equity                                                         5,158,450,462         861,225,672            (3,099,884)     6,016,576,250
+
+                                                                                       #REF!
+The above long term insurance (family takaful) statement of financial position is to be read in conjunction with the Company statement of financial position.
+
+
+
+
+                                                                                                                                   Amana Takaful Life PLC
+                                                                              5                               Interim Financial Statements 31st March 2026
+STATEMENT OF FINANCIAL POSITION - SEGMENTAL ANALYSIS
+
+                                                                                                      Audited
+                                                                       Family Takaful       Shareholders
+As at 31.12.2025                                                           Fund                Fund           Adujstments              Total
+                                                                            Rs.                 Rs.               Rs.                   Rs.
+Assets
+
+Intangible assets                                                                                16,628,217                            16,628,217
+
+Property, Plant and Equipment                                                                    84,742,821                            84,742,821
+
+Right-of-use lease assets                                                                        53,877,004                            53,877,004
+
+Financial assets                                                           399,014,116          600,631,199                          999,645,315
+
+Financial assets - Unit Linked                                            4,255,470,504                                             4,255,470,504
+
+Retakaful receivables                                                        50,074,168                                                50,074,168
+
+Contribution (premium) receivables                                           51,885,714                                                51,885,714
+
+Other assets                                                                 65,546,546          71,262,289                          136,808,835
+
+Interfund receivable                                                                              7,449,526          (7,449,526)               -
+
+Cash and bank balances                                                       43,600,279           5,347,562                            48,947,841
+
+Cash and bank balances - Unit Linked                                         74,368,772                                                74,368,772
+
+Total assets                                                              4,939,960,099         839,938,616          (7,449,526)    5,772,449,191
+
+
+
+Liabilities
+
+Insurance contract liability - Family Takaful Fund                         241,659,512                                               241,659,512
+
+Insurance contract liability - Unit Linked Fund                           4,289,307,630                                             4,289,307,630
+
+Employee benefits                                                                                19,411,271                            19,411,271
+
+Subordinated debt                                                                               103,870,871                          103,870,871
+                                                                                                        -
+Finance lease liabilities                                                                        57,878,932                            57,878,932
+
+Inter fund payable                                                            7,449,526                              (7,449,526)               -
+
+Other liabilities - Unit Linked                                            216,875,410                                               216,875,410
+
+Other liabilities                                                          124,052,576           68,026,094                          192,078,670
+
+Income tax payable                                                                                9,613,373                             9,613,373
+
+Total liabilities                                                         4,879,344,654         258,800,540          (7,449,526)    5,130,695,669
+
+Shareholders' equity
+
+Stated capital                                                                                  500,000,000                          500,000,000
+
+Revaluation reserve                                                                              21,320,747                            21,320,747
+
+Revenue reserves                                                             60,615,447          59,817,329                          120,432,774
+
+Total equity                                                                 60,615,447         581,138,076                 -        641,753,522
+
+Total liabilities and equity                                              4,939,960,099         839,938,616          (7,449,526)    5,772,449,191
+
+                                                                             #REF!
+The above long term insurance (family takaful) statement of financial position is to be read in conjunction with the Company statement of financial
+position.
+
+
+
+
+                                                                                                                      Amana Takaful Life PLC
+                                                                      6                          Interim Financial Statements 31st March 2026
+NOTES TO THE FINANCIAL STATEMENTS
+
+1. Figures in the interim financial statements for the three months ended 31 March 2026 are provisional and unaudited.
+
+2. The interim financial statements of the company for the quarter ended 31 March 2026 have been prepared in accordance with Sri
+Lanka Accounting Standards LKAS 34 - Interim Financial Reporting except for those disclosed below, and comply with the requirements
+of the Companies Act, No. 7 of 2007 and Regulation of Insurance Industry Act, No. 43 of 2000 and subsequent amendments thereto.
+
+The same accounting policies and methods of computation as stated in the audited financial statements 2024 have been followed in
+preparation of these interim financial statements. Comparative information has been re-valued/re-classified where necessary, to confirm
+to the current period recognition, measurement and presentation.
+
+In accordance with LKAS 34.19, these interim financial statements do not comply fully with Sri Lanka Accounting Standards (SLFRSs)
+as the Company has elected to apply the Statement of Alternative Tratment (SoAT) issued by the Institute of Chartered Accountants of
+Sri Lanka (CA Sri Lanka) in respect of the initial adoption of SLFRS 17 - Insurance Contracts and SLFRS 9 Financial Instruments for
+Inusrance entities
+
+Accordingly, these interim financial statements are prepared on the alternative basis described below.
+
+
+2.1 Application of Statement of Alternative Treatment (SoAT) – Q1 Interim Financial Reporting
+
+SLFRS 17 Insurance Contracts is effective for annual reporting periods beginning on or after 1 January 2026. In response to
+implementation challenges affecting the insurance industry, CA Sri Lanka has permitted insurers to continue applying SLFRS 4
+Insurance Contracts for the first and second interim reporting quarters of the initial year of adoption, subject to enhanced disclosures on
+the expected impact of SLFRS 17 and SLFRS 9.
+
+The Company has elected to apply this relief for the quarter ended 31 March 2026.
+
+Accordingly, for this interim period:
+
+• Insurance contracts continue to be recognised, measured, and presented in accordance with SLFRS 4 Insurance Contracts.
+• SLFRS 9 Financial Instruments has not been applied, consistent with the SoAT requirement that SLFRS 9 shall not be applied during
+interim periods where SLFRS 4 is continued.
+
+2.1.1. Progress of SLFRS 17 and SLFRS 9 Implementation
+
+The Company has made substantive progress during the first quarter of the financial year towards full implementation of SLFRS 17 and
+SLFRS 9, including:
+
+• Completion of major actuarial model builds for insurance contract measurement
+• Refinement of discount rate methodologies and risk adjustment frameworks
+• Strengthening of governance, controls, and data validation processes
+
+In line with the SoAT, the Company expects to present provisional third‑quarter financial information prepared in accordance with
+SLFRS 17 and SLFRS 9 in the Q3 interim financial statements with quantitative disclosures on all impacted line items.
+
+2.1.2. Expected Impact of SLFRS 17 and SLFRS 9
+
+As required for the first interim reporting period, the Company provides below-up-to-date qualitative disclosures of adopting SLFRS 17
+and SLFRS 9 on significant financial statement line items.
+
+Insurance Contract Liabilities
+
+• Measurement based on present value of fulfilment cash flows
+• Explicit risk adjustment for non‑financial risk
+• Recognition of Contractual Service Margin (CSM) for profitable contract groups
+
+Certain portfolios, particularly short‑duration contracts, are expected to show reduced volatility, while longer‑coverage contracts may
+exhibit changes in liability profiles.
+
+
+
+
+                                                                                                                          Amana Takaful Life PLC
+                                                                         7                           Interim Financial Statements 31st March 2026
+Insurance Revenue and Profit or Loss
+
+• Insurance revenue under SLFRS 17 will no longer correspond to gross written premiums
+• Profit recognition will align with the provision of insurance coverage and services
+• Onerous groups of insurance contracts, if any, will result in immediate loss recognition.
+• Volatility in profit or loss may arise due to:
+       • Experience adjustments
+       • Changes in assumptions
+       • Movements in discount rates.
+
+Equity
+
+On transition, retained earnings are expected to be adjusted for:
+• Derecognition of liabilities recognised under SLFRS 4
+• Recognition of insurance contract assets and liabilities under SLFRS 17
+• Initial recognition of CSM.
+
+Financial Assets – SLFRS 9
+
+Financial assets will be reclassified based on business model assessments and contractual cash flow characteristics.
+The introduction of the Expected Credit Loss (ECL) model may accelerate impairment recognition compared to existing practices.
+
+
+
+Comparative Information
+
+Comparative information presented in these interim financial statements has been prepared in accordance with SLFRS 4 Insurance
+Contracts and LKAS 39 Financial Instruments and has not been restated for the effects of SLFRS 17 or SLFRS 9.
+
+In accordance with the SoAT, comparative figures for the year ended 31 December 2025 will be restated and presented in accordance
+with SLFRS 17 and SLFRS 9 in the annual financial statements for the year ending 31 December 2026, applying the permitted transition
+options.
+
+2.1.3. Accounting Policy Choice for Interim Reporting under SLFRS 17
+
+In accordance with SLFRS 17 and LKAS 34, an accounting policy choice is required regarding whether estimates in interim periods are
+updated on a year‑to‑date basis or a period‑to‑period basis. This policy choice will be formally determined and applied consistently to all
+groups of insurance contracts issued and reinsurance contracts held upon full adoption of SLFRS 17.
+
+Following will be the financial statement line items which have major impacts
+
+Statement of Financial Position
+
+• Financial investments
+• Equity
+• Insurance contract liabilities
+
+Statement of Profit or loss and Other Comprehensive Income
+
+The line-item descriptions in the statement of profit or loss and other comprehensive income will change significantly compared to
+SLFRS 4. As per SLFRS 4, the Company reported the following line items:
+
+• Gross written premiums
+• Net written premiums
+• Other revenue
+• Net insurance benefits and claims paid
+• Changes in contract liabilities – Life fund
+
+Instead, SLFRS 17 requires separate presentations of:
+
+• Insurance revenue
+• Insurance service expenses
+• Insurance finance income or expenses
+• Income or expenses from reinsurance contracts held
+
+2.2 Motor vehicles were revalued in 2024 as per the company policy to revalue them once in every three years.
+
+
+                                                                                                                          Amana Takaful Life PLC
+                                                                         8                           Interim Financial Statements 31st March 2026
+3.1 Right-of-use lease asset
+
+
+                                                                                         Unaudited as at 31.03.2026          Audited
+                                                                                                                            31.12.2025
+                                                                                            Property          Total
+                                                                                                                                Rs.
+
+
+Opening right-of-use lease asset as at 1st January                                          53,877,004      53,877,004       35,619,380
+Elimination                                                                                                                  (9,295,663)
+Addition                                                                                       700,225         700,225       42,310,126
+Net depreciation for the period                                                             (3,923,709)     (3,923,709)     (14,756,839)
+Closing right-of-use lease asset as at 31 March 2026                                        50,653,521      50,653,521       53,877,004
+
+
+
+3.2 Lease liabilities (lease creditors)
+
+The lease liabilities are initially measured at the present value of the lease payments that are not paid at the commencement date,
+discounted using the Ijarah rate implicit in the lease or, if that rate can not be readily determined, the company’s incremental borrowing
+rate. The movement of lease creditor for the period is as follows,
+
+                                                                                         Unaudited as at 31.03.2026          Audited
+                                                                                                                            31.12.2025
+                                                                                            Property          Total
+                                                                                                                                Rs.
+
+
+Opening lease creditor as at 1st January                                                    57,878,931      57,878,931       37,693,000
+Elimination                                                                                                                  (9,835,305)
+Addition                                                                                           -               -         42,310,126
+Ijarah expense recognised in profit or loss                                                  1,192,684       1,192,684        4,419,214
+Settlement through lease payment                                                            (4,551,651)     (4,551,651)     (16,708,104)
+Closing lease liabilities as at 31 March 2026                                               54,519,964      54,519,964       57,878,932
+
+
+
+
+                                                                                                                         Amana Takaful Life PLC
+                                                                         9                          Interim Financial Statements 31st March 2026
+NOTES TO THE FINANCIAL STATEMENTS
+
+
+4. Financial assets
+
+As at                                                                        Unaudited as at   Audited as at
+                                                                               31.03.2026       31.12.2025
+                                                                                   Rs.              Rs.
+
+Financial assets at fair value through profit or loss (4.1)                       29,699,999      35,599,997
+Available for sale financial assets (4.2)                                        243,575,670     243,056,518
+Loans & receivables (4.3)                                                        739,850,915     720,988,800
+                                                                               1,013,126,584     999,645,315
+
+As at                                                                        Unaudited as at   Audited as at
+                                                                               31.03.2026       31.12.2025
+                                                                                   Rs.              Rs.
+4.1 Financial assets at fair value through profit & loss
+
+    Investment in bullion                                                         29,699,999      35,599,997
+                                                                                  29,699,999      35,599,997
+
+4.2 Available for sale financial assets
+
+    Unit trust                                                                   243,575,670     243,056,518
+                                                                                 243,575,670     243,056,518
+
+4.3 Loans and receivables
+
+     Repurchase agreements                                                       255,726,758     250,724,995
+     Fixed term investments                                                      484,124,157     470,263,805
+                                                                                 739,850,915     720,988,800
+
+
+
+
+                                                                                        Amana Takaful Life PLC
+                                                              10   Interim Financial Statements 31st March 2026
+NOTES TO THE FINANCIAL STATEMENTS
+
+
+5. Financial assets - Unit linked
+As at                                                                        Unaudited as at   Audited as at
+                                                                               31.03.2026       31.12.2025
+                                                                                   Rs.              Rs.
+
+Financial assets at fair value through profit or loss (5.1)                      760,156,478      671,963,889
+Available for sale financial assets (5.2)                                         46,106,754       45,530,662
+Loans & receivables (5.3)                                                      3,641,601,016    3,537,975,953
+                                                                               4,447,864,248    4,255,470,504
+
+As at                                                                        Unaudited as at   Audited as at
+                                                                               31.03.2026       31.12.2025
+                                                                                   Rs.              Rs.
+5.1 Financial assets at fair value through profit & loss
+
+    Investments in equity securities                                             157,213,478     161,667,557
+    Investment in bullion                                                        602,943,000     510,296,332
+                                                                                 760,156,478     671,963,889
+
+5.2 Available for sale financial assets
+
+    Unit trust                                                                    46,106,754      45,530,662
+                                                                                  46,106,754      45,530,662
+
+5.3 Loans and receivables
+
+     Repurchase agreements                                                       114,610,741      112,396,604
+     Fixed term investments                                                    3,526,990,274    3,425,579,349
+                                                                               3,641,601,016    3,537,975,953
+
+6. Cash and cash equivalents in statement of cash flows
+
+As at                                                                        Unaudited as at   Audited as at
+                                                                               31.03.2026       31.12.2025
+                                                                                   Rs.              Rs.
+
+Cash and bank balances                                                            34,050,887      48,947,841
+Cash and bank balances - Unit Linked                                              83,006,464      74,368,772
+Investment in government securities                                               15,479,055      15,174,315
+                                                                                 132,536,406     138,490,928
+
+
+
+
+                                                                                        Amana Takaful Life PLC
+                                                              11   Interim Financial Statements 31st March 2026
+NOTES TO THE FINANCIAL STATEMENTS
+
+7. Gross written contribution (premium)
+For year ended                                                      31.03.2026       31.03.2025
+                                                                        Rs.              Rs.
+                                                                   (Unaudited)      (Unaudited)
+
+7.1 Long term insurance (family takaful)
+
+Unit linked                                                          487,630,864     358,500,532
+Family takaful                                                         3,072,917       4,304,768
+Mortgage & group family takaful                                       42,446,546      28,869,116
+Total gross written premium                                          533,150,326     391,674,415
+
+ 8. Revenue
+
+ 8.1 Revenue by segment
+
+For year ended                                                      31.03.2026       31.03.2025
+                                                                        Rs.              Rs.
+                                                                   (Unaudited)      (Unaudited)
+Segment
+
+Long term (family takaful)                                           604,317,022     513,715,329
+Shareholders' fund                                                    30,213,993      30,944,842
+                                                                     634,531,015     544,660,171
+
+8.2 Revenue
+
+For year ended                                                     31.03.2026       31.03.2025
+                                                                       Rs.              Rs.
+                                                                   (Unaudited)      (Unaudited)
+
+Gross written contribution (premium)                                 533,150,326     391,674,415
+Less :
+Reinsurance premium                                                  (29,136,756)    (22,750,979)
+Net written premium                                                  504,013,571     368,923,436
+
+(Increase)/decrease in net unearned premium                          (14,681,681)     (9,347,237)
+Net earned premium                                                   489,331,890     359,576,199
+
+Income from investments                                              126,946,460     168,508,340
+Other income                                                          18,252,666      16,575,632
+Total revenue                                                        634,531,015     544,660,171
+
+
+9. Profit/(loss) before taxation by segment
+
+For year ended                                                     31.03.2026       31.03.2025
+                                                                       Rs.              Rs.
+                                                                   (Unaudited)      (Unaudited)
+Segment
+
+Shareholders' fund                                                     4,614,890     (15,436,878)
+Total                                                                  4,614,890     (15,436,878)
+
+
+
+
+                                                                        Amana Takaful Life PLC
+                                              12   Interim Financial Statements 31st March 2026
+NOTES TO THE FINANCIAL STATEMENTS
+
+10. Amana Takaful Life PLC is liable for income tax at 30% (2025 - 30%).
+
+
+11. The nature of related party transactions in the current period is similar to those reported in the issued financial statements 2024
+
+12. Comparative figures have been restated wherever necessary to conform to the current periods presentation.
+
+
+13. There has not been a significant change in the nature of the contingent liabilities as disclosed in the issued financial statements 2024.
+
+
+14. No events have occurred since the reporting date that necessitates adjustments to or disclosure in the financial statements.
+
+15. Basic earnings per share is calculated by dividing the net profit/(loss) for the period attributable to ordinary shareholders by the the
+weighted average number of ordinary shares outstanding during the period.
+
+                                                                                                                  31.03.2026        31.03.2025
+                                                                                                                 (Unaudited)       (Unaudited)
+Amount used as the numerator
+Net profit attributable to ordinary shareholders (Rs.)                                                              4,614,890        (15,436,878)
+
+Number of ordinary shares used as denominator:
+Ordinary shares - Voting (One vote per ordinary share)                                                             50,000,000        50,000,000
+
+16. Share Information
+                                                                                                                 31.03.2026         31.03.2025
+                                                                                                                     Rs.                Rs.
+
+Net asset value per share                                                                                                12.95             12.49
+Market price per share as at                                                                                             25.00             29.50
+Highest price per share for the period                                                                                   38.00             36.80
+Lowest price per share for the period                                                                                    24.90             25.70
+
+
+
+
+                                                                                                                                  Amana Takaful Life PLC
+                                                                             13                              Interim Financial Statements 31st March 2026
+NOTES TO THE FINANCIAL STATEMENTS
+
+Top 25 shareholders
+                                                                                                                  As at 31 March 2026
+Name of the shareholder                                                                                       Shares             %
+Amana Takaful PLC                                                                                             38,150,000            76.30
+Sampath Bank PLC/Senthilverl Holdings (Pvt) Ltd                                                                7,417,919            14.84
+Aberdeen Holdings (Private) Limited                                                                            1,974,624              3.95
+Hatton National Bank PLC/Senfin Insurance Sector Fund                                                            103,170              0.21
+Mr. Malimage Trehan Mario Francisco Perera                                                                       100,000              0.20
+Rev. Uru Bokke Nandarathana                                                                                       96,050              0.19
+Hatton National Bank PLC/Mr.Gerad Shamil Niranjan Peris                                                           84,000              0.17
+Mr. Mohomed Shifaz Riyaz                                                                                          70,178              0.14
+Mr. Abdul Azees Mohamed Anas                                                                                      49,100              0.10
+Mr. Guniyangodage Nuwan Chathuranga                                                                               45,000              0.09
+Senkadagala Finance PLC/K.R.A.L.Kahatapitiya                                                                      39,928              0.08
+Mr. Kahandawala Arachchige Don Ajantha Meththasena                                                                35,120              0.07
+Ms. Ratnayake Mudiyanselage Ridmi Prabhashwari Ratnayake                                                          34,027              0.07
+Mr. Mohamed Sahabdeen Mohamed Ikram                                                                               31,900              0.06
+Mr. Buddika Prasad Kumar                                                                                          30,883              0.06
+Mr. Jiffry Jizfaaz Ahmed                                                                                          30,000              0.06
+PeopleS Leasing And Finance PLC/V.R.Gunasekara                                                                    30,000              0.06
+Mr. Shahul Hameed Mohammad Rizam                                                                                  29,003              0.06
+Mrs. Pattinideva Asoka Swarna Kanthie Beruwalage                                                                  25,059              0.05
+Mr. Mohamed Ziyad Mohamed Nihaz                                                                                   25,000              0.05
+Miss. Rajasekara Hittarage Anne Rashmila                                                                          25,000              0.05
+Mrs. Weerasekara Mudiyanselage Nilanthi Kumari Weerasekara                                                        25,000              0.05
+Mr. Mohamed Nizamdeen Mohamed Nazir                                                                               24,600              0.05
+Mr. Muhammadu Muyees Mohammadu Abdul Cader                                                                        24,600              0.05
+ Dr. Anura Bandara Samarakoon                                                                                     23,907                    0.05
+                                                                                                              48,524,068                   97.05
+Other shareholders                                                                                             1,475,932                    2.95
+Total                                                                                                         50,000,000                  100.00
+
+Public shareholding                                                                                                              As at 31.03.2026
+Float adjusted market capitalisation (Rs.)*                                                                                          246,884,400
+Percentage of shares held by the public                                                                                                    19.75%
+Number of public shareholders                                                                                                               1,454
+
+The Company complies with the minimum public shareholding required under option 02 of section 7.14.1 (b) of the listing rules.
+* Float adjusted market capitalisation = Market capitalisation X Public holding percentage
+
+Directors' shareholdings                                                                                  No. of Shares           No. of Shares
+                                                                                                               As at                  As at
+                                                                                                            31.03.2026             31.12.2025
+Mr. Osman Kassim                                                                                                         Nil                    Nil
+Mr. Gehan Shivantha Rajapakse (Executive Director / CEO)                                                                 Nil                    Nil
+Mr. Hassan Kassim                                                                                                        Nil                    Nil
+Ms. Shehara de Silva                                                                                                     Nil                    Nil
+Mr. Suresh Malith Paranawithana                                                                                          Nil                    Nil
+Mr. Pushpakumar Gunasekara                                                                                               Nil                    Nil
+
+
+
+
+                                                                                                                  Amana Takaful Life PLC
+                                                                           14                Interim Financial Statements 31st March 2026
+CORPORATE INFORMATION
+
+                                           NAME OF THE COMPANY            REGISTERED OFFICE
+                                             Amana Takaful Life PLC       No. 660 - 1/1, Galle Road, Colombo 03, Sri
+                                                                          Lanka
+
+                                                      LEGAL STATUS        AUDITORS
+ Public Quoted Company with Limited Liability incorporated in Sri Lanka   Ernst & Young, Chartered Accountants
+                                                     on 10th July 2014.
+
+                                COMPANY REGISTRATION NUMBER               SECRETARIES
+                                                   PB 5202 PQ             Managers & Secretaries (Pvt) Ltd
+
+
+                        TAX PAYER IDENTIFICATION NUMBER(TIN)              REINSURANCE PANEL
+                                                   139052021              Hannover Re
+                                                                          Munich Re
+
+                                       STOCK EXCHANGE LISTING             CONSULTANT ACTUARIES
+      The shares of the Company are listed in the Second Board of the     Actuarial Partners Consulting Sdn Bhd
+      Colombo Stock Exchange, Sri Lanka on 18th August 2016. Stock        Suite 17.02 Kenanga International Jalan
+         Exchange Code for Amana Takaful Life PLC shares is 'ATLL'.       Sultan Ismail 50250 Kuala Lumpur,
+                                                                          Malaysia
+
+                                                       DIRECTORS          SHARIAH ADVISORY COUNCIL
+                                      Mr. Osman Kassim (Chairman)         Mufti M.I.M. Rizwe - Chairman
+             Mr. Gehan Shivantha Rajapakse - Executive Director/CEO       Mufti Shafique Ahmed Jakhura - Member
+                                                   Mr. Hassan Kassim      Ash-Sheikh Murshid Mulaffar- Secretary
+                                                 Ms. Shehara de Silva
+                                      Mr. Suresh Malith Paranawithana     EXECUTIVE DIRECTOR/CHIEF EXECUTIVE OFFICER
+                                        Mr. Pushpakumar Gunasekara        Mr. Gehan Shivantha Rajapakse
+
+
+                                                                          PRINCIPAL BANKERS
+                                                                          Amana Bank PLC/Pan Asia Bank/National Development Bank/Bank of Ceylon/
+                                                                          Commercial Bank/Sampath Bank/Hatton National Bank/Nations Trust Bank/
+                                                                          People's Bank/MCB Bank
+
