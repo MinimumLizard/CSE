@@ -288,6 +288,8 @@ reports themselves are the source.
     T = shares × 100 / %. Because the printed % is rounded or truncated to *d* places, each row gives an
     interval [shares × 100 / (% + 10⁻ᵈ), shares × 100 / (% − 10⁻ᵈ)]. The intervals must overlap (0.5 %
     slack). The implied total is the geometric midpoint of the overlap;
+  - if exactly one of those rows disagrees with all the others, it is taken as a typo in that row (its %
+    or its shares) and set aside for this check only. The note names it;
   - **share count**:
     - `verified` means the implied total is within 10 % of the CSE's `quantityIssued` for that class;
     - otherwise `verified_total` means the overlap contains the report's own printed class total (a
@@ -495,6 +497,24 @@ predict prices.
 | — | new to the list | entered list: bought at least (fraction − previous list's smallest fraction) | yes |
 | — | dropped off | left list: sold at least (fraction − new list's smallest fraction) | yes |
 
+- **The same holder under different filings.** Lists spell holders differently from quarter to quarter.
+  Before comparing two lists of the same company, these steps run in order:
+  1. **Gaps:** a holder present before and after with the same block (below), but missing from one list
+     in between, is filled in. The parser missed the row, or the list was cut differently.
+  2. **Account splits:** a name that enters or leaves and is a variant of a holder present in both lists
+     is added to that holder ("CEYLINCO LIFE … ACCOUNT NO.3 SHAREHOLDER'S FUND"). Moving shares between
+     one owner's accounts is not a trade.
+  3. **Similar names:** a holder that left and one that entered are paired when exactly one candidate has
+     a similar name. For individuals that means the same surname with compatible initials ("H.H.
+     ABDULHUSEIN" / "HUZAIFA HAMZAALLY ABDULHUSEIN"), or a full name whose initials spell the other ("Y.S.H.I.
+     SILVA" / "YONMERENNE SIMON HEWAGE INDRAKUMARA"). For others, one name contains the other or the
+     spellings are ≥ 90 % alike. The pair's change counts as a trade, and the page shows the old name.
+  4. **Same block:** the remaining leavers and entrants are paired when their share counts agree within
+     1 %, or their fractions agree within 0.5 % (which survives a split). The closest pairs go first.
+     This counts as no trade.
+
+  Individuals are still never merged in the ownership graph itself (§10.3). This pairing is limited to
+  one company's two consecutive lists.
 - **Values** are Δfraction × the class's latest market capitalisation. All quarters are valued at one
   price, and splits don't distort them.
 - **Limits.** Only holders in the top 20–30 are visible. The lists come out 1–2 months after the quarter

@@ -90,41 +90,137 @@ def quarterly_changes(root: Path, market) -> list[dict]:
     for sym, seq in lists.items():
         seq.sort()
         cap = market.mcap.get(sym) or 0.0
-        for (p0, t0), (p1, t1) in zip(seq, seq[1:]):
+        aggs = [(p, _agg(t), t) for p, t in seq]
+        _fill_gaps(aggs)
+        for (p0, a, t0), (p1, b, t1) in zip(aggs, aggs[1:]):
             gap = (dt.date.fromisoformat(p1) - dt.date.fromisoformat(p0)).days
             if not 40 <= gap <= 130:                    # adjacent quarters only
                 continue
-            def agg(t):
-                d: dict[str, dict] = {}
-                for h in t:
-                    x = d.setdefault(h["owner_key"], {"shares": 0.0, "frac": 0.0, "name": h["owner_name"],
-                                                      "type": h["owner_type"]})
-                    x["shares"] += _f(h["shares"])
-                    x["frac"] += _f(h["fraction"])
-                return d
-            a, b = agg(t0), agg(t1)
             cut0, cut1 = min(_f(h["fraction"]) for h in t0), min(_f(h["fraction"]) for h in t1)
-            for k in set(a) | set(b):
-                x0, x1 = a.get(k), b.get(k)
-                ref = x1 or x0
-                if x0 and x1:
-                    dfrac, dsh = x1["frac"] - x0["frac"], x1["shares"] - x0["shares"]
-                    frac_moved = abs(dfrac) > max(2e-5, 1e-3 * x0["frac"])
-                    shares_moved = abs(dsh) > 0.5
-                    if not frac_moved and not shares_moved:
-                        continue
-                    kind = ("bought" if dfrac > 0 else "sold") if frac_moved and shares_moved else \
-                        ("concentrated" if dfrac > 0 else "diluted") if frac_moved else "corporate action"
-                    traded = frac_moved and shares_moved
-                elif x1:
-                    dfrac, kind, traded = max(0.0, x1["frac"] - cut0), "entered list", True
-                else:
-                    dfrac, kind, traded = -max(0.0, x0["frac"] - cut1), "left list", True
-                out.append({"symbol": sym, "code": sym.split(".")[0], "from": p0, "to": p1, "owner_key": k,
-                            "owner": ref["name"], "owner_type": ref["type"], "kind": kind, "traded": traded,
-                            "frac_from": x0["frac"] if x0 else None, "frac_to": x1["frac"] if x1 else None,
-                            "dfrac": dfrac, "value": dfrac * cap if traded else 0.0})
+            a, b = {k: dict(v) for k, v in a.items()}, {k: dict(v) for k, v in b.items()}
+            _merge_splits(a, b)
+            pairs = [(k, k) for k in set(a) & set(b)] + _renames(a, b)
+            paired0, paired1 = {k0 for k0, _ in pairs}, {k1 for _, k1 in pairs}
+            for k0, k1 in pairs:
+                x0, x1 = a[k0], b[k1]
+                dfrac, dsh = x1["frac"] - x0["frac"], x1["shares"] - x0["shares"]
+                frac_moved = abs(dfrac) > max(2e-5, 1e-3 * x0["frac"])
+                shares_moved = abs(dsh) > max(0.5, 1e-4 * x0["shares"])
+                if not frac_moved and not shares_moved:
+                    continue
+                kind = ("bought" if dfrac > 0 else "sold") if frac_moved and shares_moved else \
+                    ("concentrated" if dfrac > 0 else "diluted") if frac_moved else "corporate action"
+                out.append(_change(sym, p0, p1, k1, x1, kind, x0["frac"], x1["frac"], dfrac, cap,
+                                   frac_moved and shares_moved, renamed_from=x0["name"] if k0 != k1 else ""))
+            for k in set(b) - paired1:
+                dfrac = max(0.0, b[k]["frac"] - cut0)
+                out.append(_change(sym, p0, p1, k, b[k], "entered list", None, b[k]["frac"], dfrac, cap, True))
+            for k in set(a) - paired0:
+                dfrac = -max(0.0, a[k]["frac"] - cut1)
+                out.append(_change(sym, p0, p1, k, a[k], "left list", a[k]["frac"], None, dfrac, cap, True))
     return out
+
+
+def _agg(table: list[dict]) -> dict[str, dict]:
+    d: dict[str, dict] = {}
+    for h in table:
+        x = d.setdefault(h["owner_key"], {"shares": 0.0, "frac": 0.0, "name": h["owner_name"], "type": h["owner_type"]})
+        x["shares"] += _f(h["shares"])
+        x["frac"] += _f(h["fraction"])
+    return d
+
+
+def _same_block(x: dict, y: dict) -> bool:
+    """The same holding: share count within 1 %, or (across a split or bonus issue) the same fraction of
+    the class within 0.5 % of itself."""
+    return (abs(x["shares"] - y["shares"]) <= 0.01 * max(x["shares"], y["shares"])
+            or abs(x["frac"] - y["frac"]) <= 0.005 * max(x["frac"], y["frac"]))
+
+
+def _fill_gaps(aggs: list) -> None:
+    """A holder present in the quarters before and after, with about the same shares, but missing from
+    one list in between, was a row the parser didn't read (or a list cut differently): fill it in."""
+    for i in range(1, len(aggs) - 1):
+        before, now, after = aggs[i - 1][1], aggs[i][1], aggs[i + 1][1]
+        for k in (set(before) & set(after)) - set(now):
+            renamed = any(_same_block(before[k], now[j]) for j in set(now) - set(before) - set(after))
+            if _same_block(before[k], after[k]) and not renamed:
+                now[k] = {**before[k], "filled": True}
+
+
+def _tokens(name: str) -> list[str]:
+    c = names.clean(name)
+    c = re.sub(r"\b(PVT LTD|PRIVATE LTD|LTD|PLC|PVT|PRIVATE|INC|LLC|CO|AND)\b", " ", c)
+    return [t for t in re.split(r"[^A-Z0-9]+", c) if t]
+
+
+def similar_names(x: dict, y: dict) -> bool:
+    """Two filings of one holder in the same company's consecutive lists. Individuals: the same surname
+    with compatible initials ('H.H. ABDULHUSEIN' / 'HUZAIFA HAMZAALLY ABDULHUSEIN'), or full names whose
+    initials spell the other's ('Y.S.H.I. SILVA' / 'YONMERENNE SIMON HEWAGE INDRAKUMARA'). Others: one
+    name contained in the other, or nearly the same spelling ('JANASHAKTHI' / 'JANASAKTHI')."""
+    from difflib import SequenceMatcher
+    tx, ty = _tokens(x["name"]), _tokens(y["name"])
+    if not tx or not ty:
+        return False
+    if x["type"] in ("individual", "joint") and y["type"] in ("individual", "joint"):
+        ix, iy = "".join(t[0] for t in tx[:-1]), "".join(t[0] for t in ty[:-1])
+        if tx[-1] == ty[-1] and len(tx[-1]) >= 4 and (ix.startswith(iy) or iy.startswith(ix) or not ix or not iy):
+            return True
+        initials_x, initials_y = "".join(t for t in tx if len(t) == 1), "".join(t for t in ty if len(t) == 1)
+        full_x, full_y = "".join(t[0] for t in tx if len(t) > 1), "".join(t[0] for t in ty if len(t) > 1)
+        return (len(initials_x) >= 3 and full_y.startswith(initials_x)) or \
+               (len(initials_y) >= 3 and full_x.startswith(initials_y))
+    kx, ky = "".join(tx), "".join(ty)
+    if min(len(kx), len(ky)) >= 8 and (kx.startswith(ky) or ky.startswith(kx)):
+        return True
+    return min(len(kx), len(ky)) >= 8 and SequenceMatcher(None, kx, ky).ratio() >= 0.9
+
+
+def _renames(a: dict, b: dict) -> list[tuple[str, str]]:
+    """Pair a holder that left with one that entered: first by similar names (any size change, one
+    candidate only), then the remaining by matching block (same holding under a new spelling, or moved
+    between the same owner's accounts), closest match first across all pairs."""
+    gone, new = set(a) - set(b), set(b) - set(a)
+    pairs = []
+    for k0 in sorted(gone, key=lambda k: -a[k]["shares"]):
+        match = [k1 for k1 in new if similar_names(a[k0], b[k1])]
+        if len(match) == 1:
+            pairs.append((k0, match[0]))
+            new.discard(match[0])
+    gone -= {p[0] for p in pairs}
+
+    def rel(k0, k1):
+        x, y = a[k0], b[k1]
+        return min(abs(x["shares"] - y["shares"]) / max(x["shares"], y["shares"], 1),
+                   abs(x["frac"] - y["frac"]) / max(x["frac"], y["frac"], 1e-12))
+    cands = sorted((rel(k0, k1), k0, k1) for k0 in gone for k1 in new if _same_block(a[k0], b[k1]))
+    for _, k0, k1 in cands:
+        if k0 in gone and k1 in new:
+            pairs.append((k0, k1))
+            gone.discard(k0)
+            new.discard(k1)
+    return pairs
+
+
+def _merge_splits(a: dict, b: dict) -> None:
+    """An entering (or leaving) name that is a variant of a holder present in both lists is that holder's
+    other account: add it to the holder, so moving shares between one owner's accounts isn't a trade."""
+    both = set(a) & set(b)
+    for side, other in ((b, a), (a, b)):
+        for k in [k for k in set(side) - set(other)]:
+            host = [h for h in both if similar_names(side[k], side[h])]
+            if len(host) == 1:
+                h = host[0]
+                side[h] = {**side[h], "shares": side[h]["shares"] + side[k]["shares"],
+                           "frac": side[h]["frac"] + side[k]["frac"]}
+                del side[k]
+
+
+def _change(sym, p0, p1, key, ref, kind, f0, f1, dfrac, cap, traded, renamed_from="") -> dict:
+    return {"symbol": sym, "code": sym.split(".")[0], "from": p0, "to": p1, "owner_key": key, "owner": ref["name"],
+            "owner_type": ref["type"], "kind": kind, "traded": traded, "frac_from": f0, "frac_to": f1,
+            "dfrac": dfrac, "value": dfrac * cap if traded else 0.0, "renamed_from": renamed_from}
 
 
 def build(root: Path = ROOT) -> dict:

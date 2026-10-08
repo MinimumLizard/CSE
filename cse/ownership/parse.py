@@ -20,7 +20,7 @@ HEADING = re.compile(
     r"|share\s?holders?\b[^\n]{0,25}\b(?:as\s+at|as\s+of)\b"
     r"|(?:twenty|20|25|30)\s+(?:largest|major|top)\b)", re.I)
 SKIP_HEADING = re.compile(r"debenture|director|key management|related part|bond|preference|analysis|distribution|"
-                          r"public|number of share\s?holders|"
+                          r"public|number of share\s?holders|sub\s?-?\s?total|\btotal\b|"
                           r"categor|composition|spread of|range of", re.I)
 SECTION_END = re.compile(r"\b(directors?'?s?|debentures?|preference|public\s+(holding|share)|float\s+adjusted)\b", re.I)
 NUM = r"(?:\d{1,3}(?:,\d{3})+|\d{4,})(?:\.0{1,2}(?!\d))?"
@@ -254,6 +254,16 @@ def validate_table(t: Table, shares_issued: float | None) -> Table:
         return t
     ivs = [_interval(r) for r in top]
     lo, hi = max(a for a, _ in ivs), min(b for _, b in ivs)
+    odd = ""
+    if lo > hi * 1.005 and len(top) >= 6:
+        # One row disagreeing with all the others is a typo in that row (its % or its shares), not a
+        # wrong table: check the rest, and say which row was set aside.
+        for i, r in enumerate(top):
+            rest = ivs[:i] + ivs[i + 1:]
+            rlo, rhi = max(a for a, _ in rest), min(b for _, b in rest)
+            if rlo <= rhi * 1.005:
+                lo, hi, odd = rlo, rhi, r["name"][:40]
+                break
     med = (lo * hi) ** 0.5 if lo <= hi else statistics.median(r["shares"] / r["pct"] * 100 for r in top)
     t.implied_total = med
     if lo > hi * 1.005:
@@ -293,6 +303,8 @@ def validate_table(t: Table, shares_issued: float | None) -> Table:
                           f"{t.stated_total_shares:,.0f} / {t.stated_total_pct:.2f}%")
                 return t
         t.note += f"; rows add up to the table's stated total ({t.stated_total_pct:.2f}%)"
+    if odd:
+        t.note += f"; row '{odd}' disagrees with the others (excluded from the check)"
     if gaps:
         t.note += f"; ranks not parsed: {gaps}"
     return t

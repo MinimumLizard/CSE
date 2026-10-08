@@ -58,3 +58,57 @@ def test_related_account_resolves_to_the_listed_parent():
 def test_non_dealing_announcements_are_ignored():
     assert dealings.parse("1", {"reqBaseAnnouncement": {"dType": "AppointmentOfDirectors"}}) == []
     assert dealings.parse("1", {}) == []
+
+
+# --- quarter-to-quarter list changes ------------------------------------------------------------
+# tests/fixtures/flows/holdings.csv: the real parsed voting lists of ACL, CDB and HNB for Jun 2025 to
+# Jun 2026 (data/ownership/holdings.csv); ACL had a 3-for-1 split and a holder filed as 'H A S
+# MADANAYAKE' one quarter and 'Mr. Suren Madanayake' the others; CDB's largest holder split its
+# holding between two accounts; HNB's Mr. Y.S.H.I. Silva was filed under his full name in Sep 2025.
+
+@pytest.fixture(scope="module")
+def changes(tmp_path_factory):
+    import shutil
+    root = tmp_path_factory.mktemp("flows")
+    (root / "data" / "ownership").mkdir(parents=True)
+    (root / "data" / "raw" / "ownership").mkdir(parents=True)
+    shutil.copy(Path(__file__).parent / "fixtures" / "flows" / "holdings.csv", root / "data" / "ownership" / "holdings.csv")
+    shutil.copy(Path(__file__).parent / "fixtures" / "flows" / "reports.csv", root / "data" / "raw" / "ownership" / "reports.csv")
+    return flows.quarterly_changes(root, analyse.load_market(REPO))
+
+
+def test_renamed_holder_across_a_split_is_not_a_trade(changes):
+    acl = [c for c in changes if c["code"] == "ACL" and "MADANAYAKE" in c["owner"].upper()]
+    assert not [c for c in acl if c["traded"] and c["kind"] in ("entered list", "left list")]
+    assert any(c["kind"] == "corporate action" for c in acl)          # the 3-for-1 split
+
+
+def test_moving_shares_between_one_owners_accounts_is_not_a_sale(changes):
+    cdb = [c for c in changes if c["code"] == "CDB" and "CEYLINCO" in c["owner"].upper() and c["traded"]]
+    assert not cdb
+
+
+def test_full_name_and_initials_of_one_holder_are_paired(changes):
+    silva = [c for c in changes if c["code"] == "HNB" and c["renamed_from"] and "SILVA" in c["renamed_from"].upper()]
+    assert silva and silva[0]["kind"] == "bought" and silva[0]["frac_to"] > silva[0]["frac_from"]
+
+
+def test_trade_values_use_fraction_change_at_latest_price(changes):
+    m = analyse.load_market(REPO)
+    for c in changes:
+        if c["traded"]:
+            assert c["value"] == pytest.approx(c["dfrac"] * m.mcap[c["symbol"]])
+        else:
+            assert c["value"] == 0.0
+
+
+@pytest.mark.parametrize("a, b, same", [
+    ("H.H. ABDULHUSEIN", "HUZAIFA HAMZAALLY ABDULHUSEIN", True),
+    ("MR. Y.S.H.I. SILVA", "MR. YONMERENNE SIMON HEWAGE INDRAKUMARA", True),
+    ("Mr. A. B. Perera", "Mr. C. D. Perera", False),                 # same surname, other initials
+    ("JANASHAKTHI PLC", "Janasakthi Ltd", True),
+    ("Ceylon Steel Corporation Limited", "Ceylon Biscuits Limited", False),
+])
+def test_similar_names(a, b, same):
+    t = "individual" if a.upper().startswith(("MR", "H.H")) else "company"
+    assert flows.similar_names({"name": a, "type": t}, {"name": b, "type": t}) is same
