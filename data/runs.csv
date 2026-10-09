@@ -32,3 +32,6 @@ run_at_utc,command,status,session,message
 2026-10-08T17:50:38Z,ownership-analyse,ok,2026-10-08,"ownership: 247/281 companies with a verified shareholder table (95.9% of market cap); 2916 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
 2026-10-08T17:50:38Z,dealings,ok,,"dealings: 0 notices fetched; 2245 transactions (576 buys, 1658 sells, 11 other)"
 2026-10-09T17:26:10Z,fetch,ok,2026-10-09,"session 2026-10-09: prices +282, indices +24, market +1, announcements +16 (76 API calls)"
+2026-10-09T17:26:18Z,lab,ok,2026-10-09,"141 stocks, 52 weekly returns; updated 2026-10-08 → 2026-10-09"
+2026-10-09T17:26:40Z,ownership-analyse,ok,2026-10-09,"ownership: 247/281 companies with a verified shareholder table (95.9% of market cap); 2916 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
+2026-10-09T17:26:40Z,dealings,ok,,"dealings: 0 notices fetched; 2248 transactions (579 buys, 1658 sells, 11 other)"
