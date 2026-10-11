@@ -715,3 +715,19 @@ date,series,portfolio,symbol,action,shares,price,value,cost,reason
 2026-10-07,v1-52w-grp20,equal_weight,WATA.N0000,buy,1482,47.3,70098.6,785.10432,inception
 2026-10-07,v1-52w-grp20,equal_weight,WIND.N0000,buy,1766,39.7,70110.2,785.23424,inception
 2026-10-07,v1-52w-grp20,equal_weight,YORK.N0000,buy,8251,8.5,70133.5,785.4952,inception
+2026-10-09,v1-52w-grp20,min_variance,MGT.N0000,dividend,18852,,5090.04,0,ex 2026-10-09 Rs 0.27/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,min_variance,HAYC.N0000,dividend,317,,317,0,ex 2026-10-09 Rs 1/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,min_variance,ALUM.N0000,dividend,27037,,5407.4,0,ex 2026-10-09 Rs 0.2/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,risk_parity,MGT.N0000,dividend,4948,,1335.96,0,ex 2026-10-09 Rs 0.27/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,risk_parity,DIPD.N0000,dividend,1495,,1435.2,0,ex 2026-10-09 Rs 0.96/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,risk_parity,SINS.N0000,dividend,609,,207.06,0,ex 2026-10-09 Rs 0.34/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,risk_parity,HAYC.N0000,dividend,451,,451,0,ex 2026-10-09 Rs 1/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,risk_parity,ALUM.N0000,dividend,7415,,1483,0,ex 2026-10-09 Rs 0.2/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,max_sharpe,MGT.N0000,dividend,8355,,2255.85,0,ex 2026-10-09 Rs 0.27/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,max_sharpe,DIPD.N0000,dividend,4186,,4018.56,0,ex 2026-10-09 Rs 0.96/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,max_sharpe,HAYC.N0000,dividend,2242,,2242,0,ex 2026-10-09 Rs 1/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,equal_weight,MGT.N0000,dividend,2886,,779.22,0,ex 2026-10-09 Rs 0.27/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,equal_weight,DIPD.N0000,dividend,1205,,1156.8,0,ex 2026-10-09 Rs 0.96/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,equal_weight,SINS.N0000,dividend,937,,318.58,0,ex 2026-10-09 Rs 0.34/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,equal_weight,HAYC.N0000,dividend,344,,344,0,ex 2026-10-09 Rs 1/sh net of 0% WHT
+2026-10-09,v1-52w-grp20,equal_weight,ALUM.N0000,dividend,4614,,922.8,0,ex 2026-10-09 Rs 0.2/sh net of 0% WHT
