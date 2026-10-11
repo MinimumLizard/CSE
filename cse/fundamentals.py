@@ -12,7 +12,7 @@ inside its own report or it isn't used:
 - **Net assets per share** (first column): NAV/share x shares must equal equity attributable to
   owners (or total equity) the same way. Group figures are preferred over company-only ones.
 - Shares are the report's own period-end count (from its verified shareholder table: shares /
-  fraction), or the CSE's current count when the table isn't verified.
+  fraction), else each count the CSE has reported for the company, newest first.
 
 **Trailing-12-month EPS.** Reports differ in what their first column holds: the quarter, or the
 year to date. It is taken from the column headers above the EPS line ("Quarter ended", "03 months
@@ -221,6 +221,29 @@ def report_shares(root: Path) -> dict[str, float]:
     return {rid: sum(v.values()) for rid, v in per.items()}
 
 
+def share_counts(root: Path) -> dict[str, list[float]]:
+    """code -> every distinct shares-issued total (N + X) the CSE reported, newest first: companyInfoSummery
+    where saved, else that session's market cap / close (exactly the CSE's count)."""
+    raw = root / "data" / "raw"
+    issued: dict[str, float] = {}
+    seen: dict[str, list[float]] = defaultdict(list)
+    for sess in sorted(p for p in raw.iterdir() if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.name)):
+        ts = sess / "tradeSummary.json"
+        if ts.exists():
+            for t in json.loads(ts.read_bytes()).get("reqTradeSummery") or []:
+                if t.get("marketCap") and t.get("closingPrice"):
+                    issued[t["symbol"]] = float(round(t["marketCap"] / t["closingPrice"]))
+        for f in sorted((sess / "companyInfoSummery").glob("*.json")) if (sess / "companyInfoSummery").exists() else []:
+            q = (json.loads(f.read_bytes()).get("reqSymbolInfo") or {}).get("quantityIssued")
+            if q:
+                issued[f.stem] = float(q)
+        for code in {s.split(".")[0] for s in issued}:
+            tot = (issued.get(code + ".N0000") or 0) + (issued.get(code + ".X0000") or 0)
+            if tot and tot not in seen[code]:
+                seen[code].append(tot)
+    return {c: v[::-1] for c, v in seen.items()}
+
+
 def fyes(root: Path) -> dict[str, str]:
     out = {}
     for f in sorted((root / "data" / "raw").glob("*/companyProfile/*.json")):
@@ -288,16 +311,18 @@ def build(root: Path = ROOT) -> tuple[list[dict], list[dict]]:
     shares_by_rep = report_shares(root)
     from .ownership.analyse import load_market
     market = load_market(root)
+    counts = share_counts(root)
     fy = fyes(root)
     out = []
     for r in sorted(reps, key=lambda r: (r["code"], r["period_date"], r["id"])):
         cur = (market.issued.get(r["code"] + ".N0000") or 0) + (market.issued.get(r["code"] + ".X0000") or 0)
-        sh = shares_by_rep.get(r["id"]) or cur
         text = (root / "data" / "raw" / "ownership" / "text" / f"{r['id']}.txt").read_text(errors="replace")
-        x = extract(text, sh)
-        if x["eps"] is None and sh != cur and cur:
-            x = extract(text, cur)                       # e.g. weighted shares near today's count
-            sh = cur if x["eps"] is not None or x["nav"] is not None else sh
+        # the report's own count first, then every count the CSE has reported for the company (newest first;
+        # covers an unverified table, and EPS printed on a weighted count near a later one)
+        cands = list(dict.fromkeys(c for c in [shares_by_rep.get(r["id"])] + counts.get(r["code"], []) + [cur] if c))
+        tried = [(c, extract(text, c)) for c in cands] or [(0.0, extract(text, 0.0))]
+        sh, x = next(((c, e) for c, e in tried if e["eps"] is not None), None) \
+            or next(((c, e) for c, e in tried if e["nav"] is not None), tried[0])
         out.append({"report_id": r["id"], "code": r["code"], "period_date": quarter_end(r["title"], r["period_date"]),
                     "fye": fy.get(r["code"], ""),
                     "shares": sh, "eps": x["eps"], "eps_class": x["eps_class"],
@@ -315,7 +340,7 @@ def build(root: Path = ROOT) -> tuple[list[dict], list[dict]]:
         price = float(last.loc[sym, "close"]) if sym in last.index else None
         navr = max((r for r in rows if r["nav_status"] == "verified"), key=lambda r: r["period_date"], default=None)
         profit, eps_to, how = ttm(rows, fy.get(code, "1"))
-        # per-share figures on today's share count (the CSE's latest company summary), so that price / EPS =
+        # per-share figures on today's share count (the latest session's market cap / close), so that price / EPS =
         # market cap / profit and price / NAV = market cap / equity, as in the CSE's own market PER and PBV
         cur = (market.issued.get(code + ".N0000") or 0) + (market.issued.get(code + ".X0000") or 0)
         shares_now = cur or float(max(rows, key=lambda r: r["period_date"])["shares"] or 0)

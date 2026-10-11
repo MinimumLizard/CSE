@@ -38,3 +38,12 @@ def test_last_daily_session_ignores_backfill(tmp_path):
         {"date": "2026-10-01", "symbol": "LOLC.N0000", "close": 443.0, "source": "daily"},
     ], key=("date", "symbol", "source"))
     assert storage.last_daily_session(p) == "2026-10-01"
+
+
+def test_replace_or_append_replaces_only_the_matching_row(tmp_path):
+    p = tmp_path / "idx.csv"
+    cols = ["id", "status"]
+    storage.append(p, cols, [{"id": "1", "status": "ok"}, {"id": "2", "status": "download_failed"}], key=("id",))
+    storage.replace_or_append(p, cols, {"id": "2", "status": "ok"}, key="id")
+    storage.replace_or_append(p, cols, {"id": "3", "status": "ok"}, key="id")
+    assert storage.read_rows(p) == [{"id": "1", "status": "ok"}, {"id": "2", "status": "ok"}, {"id": "3", "status": "ok"}]

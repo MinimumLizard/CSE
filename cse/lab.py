@@ -123,7 +123,7 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
     ca_rows = storage.read_rows(paths.history / "corporate_actions.csv")
     reviews = corpactions.load_reviews(root / "config" / "corporate_actions_review.yaml")
     actions = corpactions.effective(ca_rows, reviews)
-    needs_review = [{**r, "affects_holdings": False} for r in corpactions.pending_review(ca_rows, reviews)]
+    needs_review = [{**r, "affects_holdings": False, "missed": False} for r in corpactions.pending_review(ca_rows, reviews)]
 
     sectors, labels = sector_map(paths, equities)
     group_map, group_labels = ownership_groups.for_symbols(root, equities)
@@ -217,10 +217,14 @@ def run(root: Path = ROOT, dry_run: bool = False, out_dir: Path | None = None,
                                                          est.median_turnover.to_dict(), cfg, "today")
     out["trade_lists"] = lists
     held_now = {h["symbol"] for h in up.holdings if h["portfolio"] in record.TRADED and float(h["shares"] or 0) > 0}
+    inception = min((r["date"] for r in storage.read_rows(record.RecordPaths(root).nav) if r["series"] == series),
+                    default=session)
     for r in out["needs_review"]:
-        # Only actions the record can still book matter here: ex-date today or later, or unknown.
-        # Past ones affect the estimates only (and are corrected at the next re-estimation).
+        # The record books an action on its ex-date only if it is confirmed by then: ex-date today or later
+        # (or unknown) can still be booked; one that went ex unconfirmed since inception was missed (the
+        # record never restates). Older ones affect the estimates only.
         r["affects_holdings"] = r["symbol"] in held_now and (not r["ex_date"] or r["ex_date"] >= session)
+        r["missed"] = r["symbol"] in held_now and bool(r["ex_date"]) and inception <= r["ex_date"] < session
     return finish("ok", f"{len(universe.symbols)} stocks, {len(est.weeks)} weekly returns; {up.status}")
 
 

@@ -92,6 +92,17 @@ def append(path: Path, cols: Sequence[str], rows: Iterable[dict], key: Sequence[
     return n
 
 
+def replace_or_append(path: Path, cols: Sequence[str], row: dict, key: str) -> None:
+    """Write `row`, replacing an existing row with the same `key` value (used only to replace a failed
+    placeholder, e.g. a report whose download failed, once a retry succeeds); otherwise append it."""
+    rows = read_rows(path)
+    if not any(r[key] == fmt(row.get(key)) for r in rows):
+        append(path, cols, [row], key=(key,))
+        return
+    rows = [row if r[key] == fmt(row.get(key)) else r for r in rows]
+    atomic_write_bytes(path, (",".join(cols) + "\n" + _serialise(cols, rows)).encode())
+
+
 def last_daily_session(prices_path: Path) -> str | None:
     """Latest session written by the daily job (backfill rows don't count)."""
     dates = [r["date"] for r in read_rows(prices_path) if r["source"] == "daily"]

@@ -6,7 +6,8 @@
   the newest annual report for companies without quarterly filings.
 - PDFs are downloaded to a temporary file and converted with `pdftotext -layout`; only the text
   is kept, in data/raw/ownership/text/<report id>.txt (the PDF stays on cdn.cse.lk, linked).
-- data/raw/ownership/reports.csv indexes every report collected (append-only, keyed on id).
+- data/raw/ownership/reports.csv indexes every report collected (append-only, keyed on id; a
+  `download_failed` row is retried on the next run and replaced once the download succeeds).
 """
 from __future__ import annotations
 
@@ -92,7 +93,7 @@ def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | No
     web.headers["User-Agent"] = USER_AGENT
     base = own_dir(root)
     index = base / "reports.csv"
-    known = {r["id"] for r in storage.read_rows(index)}
+    known = {r["id"] for r in storage.read_rows(index) if r["status"] != "download_failed"}   # failures are retried
     comps = companies(paths)
     if only:
         comps = {c: s for c, s in comps.items() if c in only or s in only}
@@ -145,7 +146,7 @@ def _fetch_one(base, index, web, code, symbol, kind, rep, new, failed):
         text, pages = pdf_to_text(content)
         row.update(pages=pages, words=len(text.split()), status="ok" if len(text.split()) > 200 else "no_text")
         storage.atomic_write_bytes(base / "text" / f"{rid}.txt", text.encode())
-    storage.append(index, REPORT_COLS, [row], key=("id",))
+    storage.replace_or_append(index, REPORT_COLS, row, key="id")
     new += 1
     return new, failed
 

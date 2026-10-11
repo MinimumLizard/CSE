@@ -97,12 +97,9 @@ def evidence(root: Path = ROOT) -> str:
         cur = annual.get(r["code"])
         if r["status"] == "ok" and (cur is None or r["period_date"] > cur["period_date"]):
             annual[r["code"]] = r
-    interim = {}
-    for r in storage.read_rows(base / "reports.csv"):
-        cur = interim.get(r["code"])
-        if cur is None or (r["period_date"], r["uploaded_utc"]) > (cur["period_date"], cur["uploaded_utc"]):
-            interim[r["code"]] = r
     comps = storage.read_rows(root / "data" / "ownership" / "companies.csv")
+    by_id = {r["id"]: r for r in storage.read_rows(base / "reports.csv")}
+    interim = {c["code"]: by_id[c["report_id"]] for c in comps if c["report_id"] in by_id}   # the analysis's latest
     owners = {o["key"]: o for o in storage.read_rows(root / "data" / "ownership" / "owners.csv")}
     confirmed = load(root / "config" / "ownership_parents.yaml")
     # unlisted holders that head a listed company's largest voting block

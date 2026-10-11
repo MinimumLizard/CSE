@@ -118,3 +118,16 @@ def test_trade_values_use_fraction_change_at_latest_price(changes):
 def test_similar_names(a, b, same):
     t = "individual" if a.upper().startswith(("MR", "H.H")) else "company"
     assert flows.similar_names({"name": a, "type": t}, {"name": b, "type": t}) is same
+
+
+def test_a_corrected_notice_replaces_the_original():
+    # AFS 33337 re-files the five Ultrakleen trades of 33263, correcting one date (real notices)
+    rows = dealings.parse("33263", load("33263")) + dealings.parse("33337", load("33337"))
+    kept = dealings.drop_refiled(rows)
+    assert {r["announcement_id"] for r in kept} == {"33337"} and len(kept) == 5
+    assert ("2025-09-04", 307200.0) in {(r["trade_date"], r["quantity"]) for r in kept}
+
+
+def test_identical_lines_in_one_notice_all_stay():
+    rows = dealings.parse("33263", load("33263"))
+    assert dealings.drop_refiled(rows + [dict(rows[0])]) == rows + [rows[0]]

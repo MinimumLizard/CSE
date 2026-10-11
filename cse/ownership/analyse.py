@@ -84,6 +84,11 @@ def load_market(root: Path) -> Market:
             for r in json.loads(ts.read_bytes()).get("reqTradeSummery") or []:
                 if r.get("marketCap"):
                     mcap[r["symbol"]] = float(r["marketCap"])
+                    # the CSE's market cap is shares issued x close (exact on every saved day that has both),
+                    # so the daily trade summary keeps the share count current for companies outside the
+                    # watchlist, whose companyInfoSummery is fetched only once
+                    if r.get("closingPrice"):
+                        issued[r["symbol"]] = float(round(r["marketCap"] / r["closingPrice"]))
     session = max(p.name for p in sessions if (p / "tradeSummary.json").exists())
     m = Market(session, {s.symbol.split(".")[0]: s.name for s in sorted(equities, key=lambda s: s.symbol)},
                issued, mcap)
@@ -91,10 +96,13 @@ def load_market(root: Path) -> Market:
     return m
 
 
-def latest_reports(root: Path) -> dict[str, dict]:
-    """code -> the newest collected report (by period, then upload time)."""
+def latest_reports(root: Path, asof: str | None = None) -> dict[str, dict]:
+    """code -> the newest collected report (by period, then upload time). Periods after `asof` (the
+    latest price session) are CSE typos, e.g. TESS's 2030-09-30, and never count as the newest."""
     out: dict[str, dict] = {}
     for r in storage.read_rows(own_dir(root) / "reports.csv"):
+        if asof and r["period_date"] > asof:
+            continue
         cur = out.get(r["code"])
         if cur is None or (r["period_date"], r["uploaded_utc"]) > (cur["period_date"], cur["uploaded_utc"]):
             out[r["code"]] = r
@@ -122,8 +130,8 @@ def choose_tables(text: str, code: str, market: Market) -> dict[str, parse.Table
 def build(root: Path = ROOT) -> dict:
     market = load_market(root)
     aliases = names.load_aliases(root / "config" / "ownership_aliases.yaml")
-    reports = latest_reports(root)
-    all_reports = storage.read_rows(own_dir(root) / "reports.csv")
+    reports = latest_reports(root, market.session)
+    all_reports = [r for r in storage.read_rows(own_dir(root) / "reports.csv") if r["period_date"] <= market.session]
 
     holdings: list[dict] = []
     companies: dict[str, dict] = {}

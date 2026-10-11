@@ -144,3 +144,9 @@ def test_review_file_dates_are_accepted_as_written(tmp_path):
     p.write_text('confirm:\n  "3:A.N0000": {ex_date: "5 March", ratio_new: 1, ratio_held: 10}\n')
     with pytest.raises(ValueError, match="YYYY-MM-DD"):
         effective(ROWS, corpactions.load_reviews(p))
+
+
+def test_confirmed_rights_without_a_subscription_price_is_refused():
+    # 2:A.N0000 is a rights row with a ratio but no price; confirming it as is must fail loudly
+    with pytest.raises(ValueError, match="subscription_price"):
+        effective(ROWS, ({"2:A.N0000": {}}, {"1:A.N0000"}))

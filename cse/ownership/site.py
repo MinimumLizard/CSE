@@ -8,7 +8,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from ..build import METHODS_URL
+from ..build import METHODS_URL, script_json
 from ..config import ROOT
 
 TYPE_LABEL = {"individual": "Individual", "joint": "Joint holders", "estate": "Estate", "trust": "Trust",
@@ -109,7 +109,7 @@ def context(root: Path = ROOT) -> dict | None:
             "n_unverified": sum(1 for c in companies.values() if c["report_status"] == "ok"
                                 and c["status_N"] not in ("verified", "verified_total")
                                 and c["status_X"] not in ("verified", "verified_total")),
-            "lookup_json": json.dumps(lookup, separators=(",", ":")), "type_label": TYPE_LABEL,
+            "lookup_json": script_json(lookup), "type_label": TYPE_LABEL,
             "methods_url": METHODS_URL + "#10-ownership-tracker"}
 
 

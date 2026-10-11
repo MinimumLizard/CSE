@@ -85,6 +85,13 @@ def f_vol(v) -> str:
 
 # --- context ---------------------------------------------------------------------------------
 
+def script_json(obj) -> str:
+    """JSON for a <script> element: '<', '>' and '&' escaped, so text from a filing (a holder's name, a
+    title) can never close the element."""
+    return (json.dumps(obj, separators=(",", ":"))
+            .replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026"))
+
+
 def _series(indices: pd.DataFrame, name: str) -> dict:
     s = indices[indices["index"] == name].sort_values("date")
     return {"dates": s["date"].tolist(), "values": [round(float(v), 2) for v in s["value"]]}
@@ -291,11 +298,11 @@ def render(context: dict, out: Path) -> None:
     env.filters.update(rs=f_rs, num=f_num, signed=f_signed, spct=f_spct, cls=f_cls, vol=f_vol)
     charts = {h["label"]: h["series"] for h in context["headline"] if h["series"]}
     lab = context.get("labx")
-    lab_json = json.dumps({"rr": lab["rr"], "record": lab["record_chart"], "order": lab["series_order"],
-                           "labels": lab["lab"]["labels"]} if lab else {}, separators=(",", ":"))
+    lab_json = script_json({"rr": lab["rr"], "record": lab["record_chart"], "order": lab["series_order"],
+                            "labels": lab["lab"]["labels"]} if lab else {})
     html = env.get_template("index.html.j2").render(
-        **context, charts_json=json.dumps(charts, separators=(",", ":")), lab_json=lab_json,
-        meta_json=json.dumps({"session": context["session"], "built": context["built_iso"]}))
+        **context, charts_json=script_json(charts), lab_json=lab_json,
+        meta_json=script_json({"session": context["session"], "built": context["built_iso"]}))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)
 

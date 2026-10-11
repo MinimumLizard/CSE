@@ -1,10 +1,12 @@
 name: daily
 
-# 11:00 UTC = 16:30 Sri Lanka time, weekdays. The CSE trades 09:30-14:30 SLT and its data
-# endpoints finish updating at about 14:57 SLT (docs/API_NOTES.md section 1).
+# 11:23 UTC = 16:53 Sri Lanka time, weekdays. The CSE trades 09:30-14:30 SLT and its data
+# endpoints finish updating at about 14:57 SLT (docs/API_NOTES.md section 1). Off the hour because
+# GitHub queues the top of each hour; even so runs have started 6-8 h late, which is harmless (the
+# API serves the session until the next one opens, and the fetch refuses an open market).
 on:
   schedule:
-    - cron: "0 11 * * 1-5"
+    - cron: "23 11 * * 1-5"
   workflow_dispatch:
 
 permissions:
