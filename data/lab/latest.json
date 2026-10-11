@@ -1,7 +1,7 @@
 {
  "session": "2026-10-09",
  "series": "v1-52w-grp20",
- "generated_utc": "2026-10-09T17:26:15Z",
+ "generated_utc": "2026-10-11T06:03:01Z",
  "config": {
   "series": "v1-52w-grp20",
   "portfolio_size_lkr": 5000000,
@@ -1119,7 +1119,7 @@
    "status": "needs_review",
    "note": "no dated dividend record found: add ex_date when confirming",
    "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20Dividend%20Disclosure%20Amended_22928640723600278.pdf",
-   "affects_holdings": true
+   "affects_holdings": false
   },
   {
    "id": "35997:VFIN.N0000",
@@ -1179,7 +1179,7 @@
    "status": "needs_review",
    "note": "ratio read from text: 'Eight (8) New Ordinary Voting Shares for every Twenty Nine (29) existing Ordinary Voting S'",
    "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Singer%20Finance%20%28Lanka%29%20PLC%20-Rights%20Issue%20Dates_13120428806209786.pdf",
-   "affects_holdings": true
+   "affects_holdings": false
   },
   {
    "id": "36199:MERC.N0000",
@@ -1329,7 +1329,7 @@
    "status": "needs_review",
    "note": "no dated dividend record found: add ex_date when confirming",
    "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20on%20Dividend%20-%20revised_38103910203938606.pdf",
-   "affects_holdings": true
+   "affects_holdings": false
   },
   {
    "id": "37897:AAF.N0000",
@@ -1434,7 +1434,7 @@
    "status": "needs_review",
    "note": "no dated scrip record found: add ex_date when confirming",
    "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45811315088505351.pdf",
-   "affects_holdings": true
+   "affects_holdings": false
   },
   {
    "id": "39027:CPRT.N0000",
@@ -1509,7 +1509,7 @@
    "status": "needs_review",
    "note": "no dated scrip record found: add ex_date when confirming",
    "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45811315088505351.pdf",
-   "affects_holdings": true
+   "affects_holdings": false
   },
   {
    "id": "39546:TAJ.N0000",
@@ -6941,11 +6941,11 @@
    "vol": 0.4962767154649613
   }
  ],
- "record_status": "updated 2026-10-08 \u2192 2026-10-09",
+ "record_status": "record already has 2026-10-09 for v1-52w-grp20; nothing written",
  "record_written": {
-  "nav.csv": 5,
-  "holdings.csv": 361,
-  "trades.csv": 16
+  "nav.csv": 0,
+  "holdings.csv": 0,
+  "trades.csv": 0
  },
  "trade_lists": {
   "min_variance": {
@@ -6966,5 +6966,5 @@
   }
  },
  "status": "ok",
- "message": "141 stocks, 52 weekly returns; updated 2026-10-08 \u2192 2026-10-09"
+ "message": "141 stocks, 52 weekly returns; record already has 2026-10-09 for v1-52w-grp20; nothing written"
 }
