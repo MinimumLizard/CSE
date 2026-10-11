@@ -531,3 +531,127 @@ predict prices.
   price, and splits don't distort them.
 - **Limits.** Only holders in the top 20–30 are visible. The lists come out 1–2 months after the quarter
   ends.
+
+## 12. Fundamentals
+
+Page: `site/fundamentals.html`, plus the P/E, P/B and Div yld columns in Panel B. Code:
+`cse/fundamentals.py`. Tests: `tests/test_fundamentals.py`, on the text of real interim reports. Outputs:
+`data/fundamentals/reports.csv` (one row per report) and `data/fundamentals/latest.csv` (one row per
+company). Both are rebuilt in full every daily run, from files already in the repo (no network).
+
+The CSE API serves the market's P/E, P/BV and dividend yield, but no per-company earnings or book value
+(API_NOTES §5). Those figures are read from the quarterly interim reports that the ownership tracker
+already collects (§10.1, `data/raw/ownership/text/<id>.txt`; four quarters back for every company, plus
+older reports where the collector found them).
+
+### 12.1 Reading a report: every figure must reconcile
+
+A figure counts only if it agrees with another line of the same report. No figure is taken on the
+strength of its label alone.
+
+- **Shares.** The report's own period-end count: shares ÷ fraction from its verified top-20 table
+  (§10.2), N + X classes. When the table isn't verified, today's issued count is used. When the
+  period's count fails to reconcile, today's count is tried once (some companies print EPS on a
+  weighted count close to today's).
+- **EPS.** A line labelled earnings / profit / loss per share (or "Basic EPS"); its numbers may sit on the
+  label line or on a following "Basic" line. A lone integer under 100 right after the label is a note
+  reference, and years (1990–2040) are dropped. Only the **first numeric column** is used. That EPS × shares
+  must equal a profit line within the 60 lines above, in the same first column:
+  - candidates are "profit attributable to equity holders / owners / shareholders of the
+    parent/company/bank" first, then "profit (loss) for the period/year/quarter", nearest first;
+  - units are tried as Rs, Rs '000 and Rs mn. The unit that matches is the statement's unit (on the
+    current run: 703 reports in Rs '000, 269 in Rs, 32 in Rs mn);
+  - tolerance: 2 % + half a unit of the EPS's last printed decimal ÷ |EPS| (at least 2 decimals assumed),
+    capped at 15 %. So an EPS printed as 0.04 tolerates its own rounding, and a 2-decimal EPS of 10 is held
+    to about 2 %;
+  - signs must agree (a loss per share must match a loss).
+  The first EPS line that reconciles wins. The profit used afterwards is the profit line × unit, in Rs.
+- **Net assets per share.** A line labelled net asset(s) (value) per share. Group / consolidated lines
+  come before company-only ones. NAV × shares must equal "equity attributable to owners …" or "total
+  equity" under the same rules. The equity used afterwards is that line × unit.
+- **What the first column holds.** The nearest line above the EPS (within 80 lines) that names a period
+  length decides:
+  - "quarter", "three months", "03 months" → `quarter`;
+  - "six / nine / twelve months", "year ended", "half year", "cumulative" → `ytd`;
+  - if both appear on one line, whichever comes first;
+  - none → `unknown`.
+  On the current run: 718 quarter, 223 ytd, 63 unknown.
+- **Which quarter.** The CSE's period date when it is a quarter end. Otherwise the date in the report's
+  title ("Quarter ended 30th June 2026", "30/06/2026", "30.06.2026"). Otherwise the last quarter end at
+  least 15 days before the CSE's date, because some records carry the filing date. Reports dated after the
+  latest price session are skipped.
+
+Current run: 1,004 of 1,328 reports have a reconciled EPS and 897 a reconciled NAV per share. A report
+without one shows `not found` in `reports.csv`. That figure is then not used, never guessed.
+
+**What reconciliation proves.** EPS and profit come from the same column, with the same share count. It
+does not prove that the column is the current period rather than the comparative one. The first-column
+rule and the market-level check (§12.3) guard against that in aggregate. Each row on the page links the
+report, so any single figure can be checked by hand.
+
+### 12.2 Trailing twelve months, per-share figures and ratios
+
+- **Financial year** from the company profile: `finYearEnd` 1 = 31 March, 2 = 31 December. Quarters are
+  numbered within it (for a March year end, the June quarter is Q1).
+- **Quarterly profit:**
+  - a `quarter` column is the quarter;
+  - a `ytd` column minus the previous quarter's year-to-date (same financial year) is the quarter;
+  - Q1 is both;
+  - an `unknown` column is used only when it is Q1, where both readings agree.
+  Steps alternate between the two series, so a mix of quarter and year-to-date reports fills in.
+- **TTM profit** = the sum of the last four consecutive quarters. Only when all four are known; otherwise
+  the note says which quarter is missing. Nothing is annualised or estimated. Profit is used rather than
+  EPS, so a split or bonus issue during the year doesn't mix old and new per-share figures.
+- **Per-share figures use today's issued shares** (N + X, from the CSE's latest company summary):
+  - TTM EPS = TTM profit ÷ shares today;
+  - NAV per share = latest reconciled equity ÷ shares today.
+  So P/E = market cap ÷ TTM profit and P/B = market cap ÷ equity. That is the construction of the
+  CSE's own market PER and PBV, and it stays correct across splits, bonus and scrip issues. The
+  report's printed EPS and NAV per share stay in `reports.csv`.
+  - Example: AAF had 124.2 mn shares at 30 June 2026 and 222.7 mn today, after a rights issue and
+    preference-share conversion. P/E is 7.8 on today's shares, against 4.3 on the June count, which
+    is not comparable with today's price.
+- **Ratios** at the latest close:
+  - P/E = price ÷ TTM EPS, shown only when earnings yield > 0.2 % (a P/E above 500 is noise). Losses
+    show as "loss";
+  - earnings yield = TTM EPS ÷ price (defined for losses too);
+  - P/B = price ÷ NAV per share, when NAV > 0;
+  - ROE = TTM EPS ÷ NAV per share;
+  - dividend yield = cash dividends per share with ex-dates in the last 365 days (confirmed corporate
+    actions, §8.1) ÷ price.
+
+Coverage on 2026-10-07: 214 of 277 companies have P/B. 153 have a TTM profit: 131 with a P/E, 20
+loss-making, and 2 with near-zero earnings. Of the rest, 83 lack one quarter (most often Q4, whose
+annual-report figures are often printed only as the year) and 41 have no reconciled EPS.
+
+### 12.3 Market-level check
+
+The page compares our per-company figures, aggregated by market value, with the CSE's published market
+ratios for the same session:
+- market P/E = Σ cap ÷ Σ (cap × earnings yield), over the companies with TTM earnings;
+- P/B = Σ cap ÷ Σ (cap ÷ P/B);
+- dividend yield = cap-weighted mean.
+
+On 2026-10-07:
+
+| | Ours | CSE | Our coverage |
+|---|---|---|---|
+| P/E | 10.7 | 10.6 | 72 % of market cap |
+| P/B | 1.35 | 1.2 | 90 % of market cap |
+| Dividend yield | 3.7 % | 3.2 % | all companies |
+
+Agreement checks the extraction as a whole. The remaining gaps fit known differences:
+- the CSE's exact earnings and equity basis is unpublished;
+- our coverage is a subset;
+- our dividends count every cash dividend with an ex-date in the last 365 days, including specials.
+
+### 12.4 Limits
+
+- Figures are as reported, unaudited for most quarters. Exceptional items are not removed.
+- Equity is the latest reported, so a rights issue after that date raises today's share count but not
+  the equity. NAV per share is understated and P/B overstated until the next report. AAF is the
+  current case.
+- Q4 is often missing, because many companies publish the year in the annual report rather than as a
+  fourth interim. Those companies have P/B and dividend yield, but no TTM P/E.
+- Banks and finance companies are compared on the same P/B and P/E as everyone else; no
+  sector-specific measures.

@@ -77,6 +77,13 @@ jobs:
           python -m cse.dealings --offline
           if [ -f data/ownership/companies.csv ]; then python -m cse.flows; fi
 
+      # Fundamentals: P/E, P/B and dividend yield at today's prices, from the interim reports
+      # already in the repo (no network; new reports arrive with the weekly ownership workflow).
+      - name: Fundamentals
+        id: fundamentals
+        continue-on-error: true
+        run: if [ -f data/raw/ownership/reports.csv ]; then python -m cse.fundamentals; fi
+
       - name: Build
         run: python -m cse.build
 
@@ -95,10 +102,10 @@ jobs:
         with:
           path: site
 
-      - name: Fail the job if the lab, ownership or flows step failed
-        if: steps.lab.outcome == 'failure' || steps.ownership.outcome == 'failure' || steps.flows.outcome == 'failure'
+      - name: Fail the job if the lab, ownership, flows or fundamentals step failed
+        if: steps.lab.outcome == 'failure' || steps.ownership.outcome == 'failure' || steps.flows.outcome == 'failure' || steps.fundamentals.outcome == 'failure'
         run: |
-          echo "::error::lab (${{ steps.lab.outcome }}), ownership (${{ steps.ownership.outcome }}) or flows (${{ steps.flows.outcome }}) failed; the terminal was deployed with the last good output"
+          echo "::error::lab (${{ steps.lab.outcome }}), ownership (${{ steps.ownership.outcome }}), flows (${{ steps.flows.outcome }}) or fundamentals (${{ steps.fundamentals.outcome }}) failed; the terminal was deployed with the last good output"
           exit 1
 
       # Keep a record of the failure (data/runs.csv only; no market data) so the next

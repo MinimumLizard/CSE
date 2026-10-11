@@ -39,6 +39,7 @@ cse/                 python package
   lab.py             portfolio lab job -> data/lab/, record/
   dealings.py        directors' dealings      -> data/dealings/dealings.csv
   flows.py           money flows              -> site/flows.html
+  fundamentals.py    earnings and book value from interim reports -> data/fundamentals/, site/fundamentals.html
   ownership/         who owns the CSE: collect.py (interim reports -> text), parse.py (top-20 tables),
                      names.py (beneficial owners), analyse.py (graph), site.py (site/ownership.html)
 config/
@@ -56,6 +57,7 @@ data/
   lab/<session>.json everything Panel D shows, per session
   raw/ownership/     interim-report text per report id + reports.csv index (append-only)
   ownership/         holdings.csv, companies.csv, owners.csv (rebuilt from raw/ownership each week)
+  fundamentals/      reports.csv (EPS, NAV per report), latest.csv (P/E, P/B, ROE, yield per company)
   runs.csv           one line per run (ok / no_new_session / failed / waiting / infeasible)
 record/              live record: nav.csv, holdings.csv, trades.csv (append-only)
 tests/               pytest; fixtures are real API responses
@@ -199,6 +201,22 @@ lists. See METHODS §11.
 python -m cse.dealings            # one-off: a year of dealing notices (about 15 min); daily runs use --offline
 python -m cse.ownership.collect --since 2025-06-30   # one-off: four quarters of shareholder lists
 python -m cse.flows               # page input -> data/flows/latest.json
+```
+
+## Fundamentals
+
+`site/fundamentals.html` shows P/E, earnings yield, P/B, ROE and dividend yield for every listed company.
+Panel B shows the P/E, P/B and Div yld columns for your watchlist. The CSE publishes no per-company earnings or
+book value, so these are read from the quarterly interim reports the ownership tracker already holds:
+- a figure is used only if it reconciles inside its report: EPS × shares = profit, and NAV per share ×
+  shares = equity;
+- trailing-12-month earnings are four consecutive quarters of profit. Nothing is estimated.
+
+The top of the page compares the aggregate with the CSE's own market P/E, P/BV and dividend yield. Every
+row links its source report. See METHODS §12.
+
+```bash
+python -m cse.fundamentals   # -> data/fundamentals/reports.csv, latest.csv (daily, no network)
 ```
 
 ## Confirming `needs_review` corporate actions
