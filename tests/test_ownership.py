@@ -320,3 +320,25 @@ def test_statements_recognised_in_report_text():
     from cse.ownership import parents
     found = parents.statements(text("CTHR"))
     assert ("ultimate controlling party", "", "Mr. Louis Page") in found
+
+
+def test_trade_summary_keeps_the_share_count_current(tmp_path):
+    # market cap / close on the 2026-10-02 trade summary reproduces that day's companyInfoSummery count
+    sess = tmp_path / "data" / "raw" / "2026-10-02"
+    sess.mkdir(parents=True)
+    for f in ("allSecurityCode.json", "tradeSummary.json"):
+        shutil.copy(FIX / f, sess / f)
+    m = analyse.load_market(tmp_path)
+    for f in (OWN / "companyInfoSummery").iterdir():
+        info = json.loads(f.read_bytes())["reqSymbolInfo"]
+        if f.stem in m.issued:
+            assert m.issued[f.stem] == info["quantityIssued"]
+
+
+def test_a_mistyped_future_period_is_never_the_latest_report(tmp_path):
+    # TESS's 30 Sep 2020 report carries period 2030-09-30 in the CSE's listing (real rows)
+    d = tmp_path / "data" / "raw" / "ownership"
+    d.mkdir(parents=True)
+    shutil.copy(Path(__file__).parent / "fixtures" / "ownership_reports" / "tess_reports.csv", d / "reports.csv")
+    assert analyse.latest_reports(tmp_path)["TESS"]["period_date"] == "2030-09-30"
+    assert analyse.latest_reports(tmp_path, "2026-10-09")["TESS"]["period_date"] == "2026-06-30"

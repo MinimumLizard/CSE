@@ -152,8 +152,8 @@ Values are the brief's, plus `series`, `history_adjusted` and `my_book`. Lines m
 4. Run it once by hand: **Actions → daily → Run workflow**. The site URL appears on the
    `deploy` job and under Settings → Pages.
 
-Schedule: weekdays 11:00 UTC (16:30 Sri Lanka time). The CSE trades 09:30–14:30 SLT, and the API
-finishes updating at about 14:57. The workflow installs, tests, fetches, builds, commits `data/`
+Schedule: weekdays 11:23 UTC (16:53 Sri Lanka time). The CSE trades 09:30–14:30 SLT, and the API
+finishes updating at about 14:57. GitHub often starts scheduled runs hours late (so far 22:30–01:00 Sri Lanka time); that is harmless. The workflow installs, tests, fetches, builds, commits `data/`
 and deploys `site/`. **If the fetch fails, the job fails, nothing is written, and the previous
 site stays up.** The failure is recorded in `data/runs.csv`, and the live page shows a stale-data
 banner once its data falls a session behind. No secrets are needed.

@@ -73,7 +73,7 @@ def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | No
     paths = Paths(root)
     base = own_dir(root)
     index = base / "annual_reports.csv"
-    known = {r["id"] for r in storage.read_rows(index)}
+    known = {r["id"] for r in storage.read_rows(index) if r["status"] != "download_failed"}   # failures are retried
     web = requests.Session()
     web.headers["User-Agent"] = USER_AGENT
     comps = companies(paths)
@@ -121,7 +121,7 @@ def run(root: Path = ROOT, client: CseClient | None = None, only: list[str] | No
             storage.atomic_write_bytes(base / "annual" / f"{rid}.json", json.dumps(
                 {"id": rid, "code": code, "symbol": symbol, "url": url, "title": row["title"],
                  "period_date": row["period_date"], "passages": ps}, indent=1, ensure_ascii=False).encode())
-        storage.append(index, INDEX_COLS, [row], key=("id",))
+        storage.replace_or_append(index, INDEX_COLS, row, key="id")
         known.add(rid)
         new += 1
         if i % 25 == 0:

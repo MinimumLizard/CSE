@@ -84,8 +84,9 @@ For symbol *s* on session *T*, with the session calendar c₀ … c_T:
 
 - Build time is shown in Sri Lanka time.
 - **Last run failed**: the latest `fetch` row in `data/runs.csv` has status `failed`.
-- **Stale data** (computed in the browser): expected session = today in Sri Lanka time if it
-  is past 17:30, otherwise the previous day, stepped back past weekends. If the data's session is
+- **Stale data** (computed in the browser): expected session = the Sri Lanka date 27 hours ago
+  (a session is due by 03:00 the next morning, because GitHub starts the scheduled run hours late),
+  stepped back past weekends. If the data's session is
   older, the page shows how many weekday sessions are missing. Exchange holidays aren't known to
   the page, so a holiday can trigger the warning.
 
@@ -457,6 +458,9 @@ predict prices.
     `python -m cse.dealings`.
 - **Table.** `data/dealings/dealings.csv` has one row per transaction and is rebuilt from the raw files
   every run.
+  - **Re-filed notices count once.** A later notice for the same company, director and account that
+    repeats every transaction of an earlier one (same side, quantity and price, at least one also on
+    the same date) replaces it. Example: AFS 33337 re-files 33263 with one trade date corrected.
   - value = quantity × price;
   - lag = weekdays from the trade date to the announcement (public holidays not removed).
 - **Side** comes from the free-text transaction type:
@@ -550,9 +554,11 @@ A figure counts only if it agrees with another line of the same report. No figur
 strength of its label alone.
 
 - **Shares.** The report's own period-end count: shares ÷ fraction from its verified top-20 table
-  (§10.2), N + X classes. When the table isn't verified, today's issued count is used. When the
-  period's count fails to reconcile, today's count is tried once (some companies print EPS on a
-  weighted count close to today's).
+  (§10.2), N + X classes. Then every share count the CSE has reported for the company, newest first:
+  `companyInfoSummery` where saved, else that session's market cap ÷ close, which equals the CSE's
+  count exactly on every saved day that has both. These cover a table that isn't verified, and an
+  EPS printed on a weighted count close to a later one. The first count under which the EPS
+  reconciles is used; failing that, the first under which NAV per share does.
 - **EPS.** A line labelled earnings / profit / loss per share (or "Basic EPS"); its numbers may sit on the
   label line or on a following "Basic" line. A lone integer under 100 right after the label is a note
   reference, and years (1990–2040) are dropped. Only the **first numeric column** is used. That EPS × shares
@@ -581,7 +587,7 @@ strength of its label alone.
   least 15 days before the CSE's date, because some records carry the filing date. Reports dated after the
   latest price session are skipped.
 
-Current run: 1,004 of 1,328 reports have a reconciled EPS and 897 a reconciled NAV per share. A report
+Current run: 1,004 of 1,328 reports have a reconciled EPS and 904 a reconciled NAV per share. A report
 without one shows `not found` in `reports.csv`. That figure is then not used, never guessed.
 
 **What reconciliation proves.** EPS and profit come from the same column, with the same share count. It
@@ -602,7 +608,7 @@ report, so any single figure can be checked by hand.
 - **TTM profit** = the sum of the last four consecutive quarters. Only when all four are known; otherwise
   the note says which quarter is missing. Nothing is annualised or estimated. Profit is used rather than
   EPS, so a split or bonus issue during the year doesn't mix old and new per-share figures.
-- **Per-share figures use today's issued shares** (N + X, from the CSE's latest company summary):
+- **Per-share figures use today's issued shares** (N + X: the latest session's market cap ÷ close, i.e. the CSE's count):
   - TTM EPS = TTM profit ÷ shares today;
   - NAV per share = latest reconciled equity ÷ shares today.
   So P/E = market cap ÷ TTM profit and P/B = market cap ÷ equity. That is the construction of the

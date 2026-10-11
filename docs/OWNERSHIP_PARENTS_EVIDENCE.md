@@ -1104,7 +1104,7 @@ Recognised: *ultimate parent*: Hayleys PLC; *ultimate parent*: Hayleys PLC
 
 ## Renuka Group Ltd
 
-Look-through value Rs 3.6 bn. Largest voting block in: RHL (50.07%, controlled)
+Look-through value Rs 3.5 bn. Largest voting block in: RHL (50.07%, controlled)
 
 _No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
 

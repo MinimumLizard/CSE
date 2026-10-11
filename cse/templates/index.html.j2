@@ -372,12 +372,16 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   {% if urgent %}<div class="banner" style="margin:8px 0">⚠ {{ urgent | length }} unconfirmed corporate action{{ "s" if urgent | length > 1 }} on stocks the model portfolios hold
     ({% for r in urgent %}{{ r.symbol.split(".")[0] }} ex {{ r.ex_date or "date tbc" }}{{ ", " if not loop.last }}{% endfor %}).
     Confirm before the ex-date: the record books actions on their ex-date and never restates history.</div>{% endif %}
+  {% set missed = L.needs_review | selectattr("missed") | list %}
+  {% if missed %}<div class="banner" style="margin:8px 0">⚠ {{ missed | length }} corporate action{{ "s" if missed | length > 1 }} on held stocks went ex unconfirmed
+    ({% for r in missed %}{{ r.symbol.split(".")[0] }} ex {{ r.ex_date }}{{ ", " if not loop.last }}{% endfor %}),
+    so the live record did not book {{ "them" if missed | length > 1 else "it" }} and its value for {{ "those stocks" if missed | length > 1 else "that stock" }} is understated.</div>{% endif %}
   <h3>Corporate actions to confirm ({{ L.needs_review | length }})</h3>
   {% if L.needs_review %}
   <p class="mut sm">Not used for returns or the record until confirmed in <code>config/corporate_actions_review.yaml</code>. Check each against its PDF.</p>
   <div class="scroll"><table>
     <thead><tr><th class="l">Id</th><th class="l">Symbol</th><th class="l">Type</th><th>Ex-date</th><th>Amount</th><th>Ratio (new:held)</th><th>Sub. price</th><th class="l">Note</th><th class="l">Source</th></tr></thead>
-    <tbody>{% for r in L.needs_review | sort(attribute="affects_holdings", reverse=True) %}<tr><td class="l mut sm">{% if r.affects_holdings %}<span class="flag" title="held by a model portfolio">⚠ </span>{% endif %}{{ r.id }}</td><td class="l sym">{{ r.symbol.split(".")[0] }}</td><td class="l">{{ r.type }}</td>
+    <tbody>{% for r in L.needs_review | sort(attribute="affects_holdings", reverse=True) %}<tr><td class="l mut sm">{% if r.affects_holdings or r.missed %}<span class="flag" title="{{ 'went ex unconfirmed: missed by the record' if r.missed else 'held by a model portfolio' }}">⚠ </span>{% endif %}{{ r.id }}</td><td class="l sym">{{ r.symbol.split(".")[0] }}</td><td class="l">{{ r.type }}</td>
       <td>{{ r.ex_date or "—" }}</td><td>{{ r.amount_per_share or "—" }}</td>
       <td>{% if r.ratio_new %}{{ r.ratio_new }}:{{ r.ratio_held }}{% else %}—{% endif %}</td><td>{{ r.subscription_price or "—" }}</td>
       <td class="l sm wrap">{{ r.note }}</td><td class="l">{% if r.source_url %}<a href="{{ r.source_url }}" target="_blank" rel="noopener">PDF</a>{% endif %}</td></tr>{% endfor %}</tbody>
@@ -433,20 +437,20 @@ footer{color:var(--muted);padding:0 16px 24px;font-size:11px}
   setScope(saved === 'all' ? 'all' : 'mine');
 
   // Staleness banner: compare the data's session with the latest weekday session whose daily run
-  // (16:30 Sri Lanka time, + 1 h grace) should have finished. Holidays can trigger it falsely.
+  // should have finished. GitHub starts scheduled runs hours late (22:30-01:00 Sri Lanka time has
+  // been normal), so a session counts as due at 03:00 the next morning. Holidays can trigger it falsely.
   var meta = JSON.parse(document.getElementById('meta-data').textContent);
   function slt(d) { return new Date(d.getTime() + (d.getTimezoneOffset() + 330) * 60000); }
   function iso(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
   var now = slt(new Date());
-  var exp = new Date(now);
-  if (now.getHours() * 60 + now.getMinutes() < 17 * 60 + 30) exp.setDate(exp.getDate() - 1);
+  var exp = new Date(now.getTime() - 27 * 3600000);   // the day whose data is due by now
   while (exp.getDay() === 0 || exp.getDay() === 6) exp.setDate(exp.getDate() - 1);
   var behind = 0, d = new Date(exp);
   while (iso(d) > meta.session && behind < 60) { if (d.getDay() !== 0 && d.getDay() !== 6) behind++; d.setDate(d.getDate() - 1); }
   if (behind > 0) {
     var el = document.getElementById('stale');
     el.textContent = '⚠ Data is from ' + meta.session + ': ' + behind + ' weekday session' + (behind > 1 ? 's' : '') +
-      ' since then (latest expected ' + iso(exp) + ') are missing. The daily run may have failed, or the market was closed for a holiday.';
+      ' since then (latest expected ' + iso(exp) + ') ' + (behind > 1 ? 'are' : 'is') + ' missing. The daily run may have failed, or the market was closed for a holiday.';
     el.hidden = false;
   }
 

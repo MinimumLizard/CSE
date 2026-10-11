@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 import pytest
 
@@ -79,3 +81,10 @@ def test_formatters_pair_colour_with_sign():
     assert build.f_signed(1.5) == "+1.50" and build.f_signed(-1.5) == "−1.50" and build.f_signed(0) == "±0.00"
     assert build.f_spct(0.0123) == "+1.23%"
     assert build.f_rs(2.4e9) == "Rs 2.40 bn" and build.f_rs(5.5e6) == "Rs 5.50 mn" and build.f_rs(None) == "—"
+
+
+def test_script_json_cannot_close_its_script_element():
+    from cse.build import script_json
+    s = script_json({"name": "X </script><script>alert(1)</script> & Co"})
+    assert "<" not in s and ">" not in s and "&" not in s
+    assert json.loads(s) == {"name": "X </script><script>alert(1)</script> & Co"}

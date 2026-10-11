@@ -130,6 +130,29 @@ def backfill(root: Path, client: CseClient) -> int:
     return len(todo)
 
 
+def drop_refiled(rows: list[dict]) -> list[dict]:
+    """A later notice for the same company, director and account that repeats every transaction of an
+    earlier one (same side, quantity and price; at least one also on the same date) is a re-filing or a
+    correction, e.g. AFS 33337 re-files 33263 with one trade date corrected. The later notice replaces
+    the earlier, so nothing is counted twice. Identical lines inside one notice are separate trades."""
+    from collections import Counter
+    notices: dict[str, list[dict]] = {}
+    for r in rows:
+        notices.setdefault(r["announcement_id"], []).append(r)
+    order = sorted(notices, key=lambda a: (notices[a][0]["announced"], int(a)))
+    who = {a: (notices[a][0]["symbol"], notices[a][0]["director"].lower(), notices[a][0]["account"].lower())
+           for a in order}
+    sig = {a: Counter((r["side"], r["quantity"], r["price"]) for r in notices[a]) for a in order}
+    exact = {a: {(r["trade_date"], r["side"], r["quantity"], r["price"]) for r in notices[a]} for a in order}
+    dropped = set()
+    for i, a in enumerate(order):
+        for b in order[i + 1:]:
+            if who[a] == who[b] and not sig[a] - sig[b] and exact[a] & exact[b]:
+                dropped.add(a)
+                break
+    return [r for r in rows if r["announcement_id"] not in dropped]
+
+
 def rebuild(root: Path) -> list[dict]:
     rows = []
     for aid, f in raw_files(root).items():
@@ -138,6 +161,7 @@ def rebuild(root: Path) -> list[dict]:
         except json.JSONDecodeError:
             continue
         rows += parse(aid, data)
+    rows = drop_refiled(rows)
     rows.sort(key=lambda r: (r["trade_date"] or r["announced"], r["announced"], int(r["announcement_id"])))
     out = root / "data" / "dealings" / "dealings.csv"
     storage.atomic_write_bytes(out, (",".join(COLS) + "\n" + storage._serialise(COLS, rows)).encode())

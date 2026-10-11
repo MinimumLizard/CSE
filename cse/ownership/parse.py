@@ -319,5 +319,5 @@ def best_tables(tables: list[Table], issued: dict[str, float | None]) -> dict[st
         cur = out.get(t.share_class)
         if cur is None or (rank[t.status], len(t.rows)) > (rank[cur.status], len(cur.rows)):
             out[t.share_class] = t
-    # A "non-voting" heading may be mislabelled; if an X table matches the N share count, relabel.
+    # (a "non-voting" heading on a voting table is relabelled earlier, in analyse.choose_tables)
     return out

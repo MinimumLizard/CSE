@@ -456,6 +456,12 @@ def effective(rows: list[dict], reviews: tuple[dict[str, dict], set[str]]) -> li
             raise ValueError(f"corporate action {r['id']} is usable but has no ex_date")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(r["ex_date"])):
             raise ValueError(f"corporate action {r['id']}: ex_date {r['ex_date']!r} is not YYYY-MM-DD")
+        need = {"cash_dividend": ("amount_per_share",), "subdivision": ("factor",), "scrip": ("factor",),
+                "rights": ("ratio_new", "ratio_held", "subscription_price")}.get(r["type"], ())
+        missing = [k for k in need if not r[k]]
+        if missing:
+            raise ValueError(f"corporate action {r['id']} ({r['type']}) is usable but has no {', '.join(missing)}: "
+                             "add it in config/corporate_actions_review.yaml")
     return out
 
 
@@ -472,13 +478,10 @@ def share_classes(paths: Paths, securities=None) -> dict[str, list[str]]:
 
 
 def shares_outstanding(paths: Paths) -> dict[str, float]:
-    """Latest `quantityIssued` per symbol from cached companyInfoSummery responses."""
-    out = {}
-    for f in sorted((paths.root / "data" / "raw").glob("*/companyInfoSummery/*.json")):
-        q = (json.loads(f.read_bytes()).get("reqSymbolInfo") or {}).get("quantityIssued")
-        if q:
-            out[f.stem] = float(q)
-    return out
+    """Latest shares issued per symbol: the ownership tracker's count (companyInfoSummery, kept current
+    by each session's market cap / close)."""
+    from .ownership.analyse import load_market
+    return dict(load_market(paths.root).issued)
 
 
 def rebuild(paths: Paths) -> int:
