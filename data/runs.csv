@@ -50,3 +50,4 @@ run_at_utc,command,status,session,message
 2026-10-11T06:11:47Z,dealings,ok,,"dealings: 0 notices fetched; 2243 transactions (579 buys, 1653 sells, 11 other)"
 2026-10-11T06:12:17Z,fundamentals,ok,,"fundamentals: 1002/1328 report EPS and 896 NAV/share reconciled; 214 companies with P/B, 153 with trailing-12-month EPS"
 2026-10-11T06:13:41Z,fundamentals,ok,,"fundamentals: 1004/1328 report EPS and 904 NAV/share reconciled; 214 companies with P/B, 153 with trailing-12-month EPS"
+2026-10-12T20:22:09Z,fetch,ok,2026-10-12,"session 2026-10-12: prices +282, indices +24, market +1, announcements +7 (61 API calls)"
