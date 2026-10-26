@@ -731,3 +731,5 @@ date,series,portfolio,symbol,action,shares,price,value,cost,reason
 2026-10-09,v1-52w-grp20,equal_weight,SINS.N0000,dividend,937,,318.58,0,ex 2026-10-09 Rs 0.34/sh net of 0% WHT
 2026-10-09,v1-52w-grp20,equal_weight,HAYC.N0000,dividend,344,,344,0,ex 2026-10-09 Rs 1/sh net of 0% WHT
 2026-10-09,v1-52w-grp20,equal_weight,ALUM.N0000,dividend,4614,,922.8,0,ex 2026-10-09 Rs 0.2/sh net of 0% WHT
+2026-10-26,v1-52w-grp20,risk_parity,LCBF.N0000,dividend,6677,,1335.4,0,ex 2026-10-26 Rs 0.2/sh net of 0% WHT
+2026-10-26,v1-52w-grp20,equal_weight,LCBF.N0000,dividend,12524,,2504.8,0,ex 2026-10-26 Rs 0.2/sh net of 0% WHT

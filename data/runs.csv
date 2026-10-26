@@ -107,3 +107,7 @@ run_at_utc,command,status,session,message
 2026-10-24T06:57:36Z,ownership-annual,ok,,"ownership annual: 281 companies, 0 new annual reports (0 download failures)"
 2026-10-24T06:57:53Z,ownership-analyse,ok,2026-10-23,"ownership: 248/281 companies with a verified shareholder table (96.0% of market cap); 2928 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
 2026-10-26T17:29:15Z,fetch,ok,2026-10-26,"session 2026-10-26: prices +283, indices +24, market +1, announcements +8 (61 API calls)"
+2026-10-26T17:29:22Z,lab,ok,2026-10-26,"139 stocks, 52 weekly returns; updated 2026-10-23 → 2026-10-26"
+2026-10-26T17:29:34Z,ownership-analyse,ok,2026-10-26,"ownership: 248/281 companies with a verified shareholder table (96.0% of market cap); 2928 owners; report status {'ok': 257, 'no_text': 12, 'no_table': 12}"
+2026-10-26T17:29:35Z,dealings,ok,,"dealings: 0 notices fetched; 2293 transactions (628 buys, 1654 sells, 11 other)"
+2026-10-26T17:29:54Z,fundamentals,ok,,"fundamentals: 1008/1333 report EPS and 907 NAV/share reconciled; 214 companies with P/B, 153 with trailing-12-month EPS"
