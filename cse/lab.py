@@ -1,5 +1,8 @@
 """Portfolio lab job: `python -m cse.lab` (after `cse.fetch`, before `cse.build`).
 
+In plain words: The lab's conductor. It runs the steps in order (share events, measuring the stocks,
+mixing the baskets, writing the diary) and saves everything that Panel D of the Terminal shows.
+
 Reads only repo files. Writes data/lab/<session>.json and data/lab/latest.json (everything
 Panel D shows) and appends the live record (record/*.csv) unless --dry-run.
 

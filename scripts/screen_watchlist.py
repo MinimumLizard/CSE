@@ -1,5 +1,8 @@
 """Whole-market screen used to propose watchlist additions (Step 0 side task).
 
+In plain words: A one-time helper from the start of the project: it looked at every company on the
+exchange to suggest stocks for your watchlist.
+
 Two stages:
   python scripts/screen_watchlist.py fetch    # polite, resumable API pull -> data/raw/<session>/
   python scripts/screen_watchlist.py report   # pure computation from those files -> docs/WATCHLIST_SCREEN.md

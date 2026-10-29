@@ -1,5 +1,9 @@
 """Daily data job: `python -m cse.fetch`.
 
+In plain words: The nightly shopping trip. After the market closes it collects the day's prices,
+index levels, market totals and new announcements, checks every one, and only then writes them into
+the notebooks. If anything is wrong it writes nothing at all, so yesterday's good data stays safe.
+
 1. Pull every endpoint the site needs, sequentially and politely (cse.http).
 2. Validate every response (cse.models). Any failure aborts the run before anything is written.
 3. Take the session date from the API (dailyMarketSummery.tradeDate), not the clock. If it

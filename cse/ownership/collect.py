@@ -1,5 +1,8 @@
 """Collect the latest interim report of every listed company, as text.
 
+In plain words: Downloads each company's latest quarterly report (a PDF from the exchange) and keeps
+only its words.
+
 `python -m cse.ownership.collect` (resumable; a re-run only fetches reports it hasn't seen).
 
 - `financials` (per company) lists report PDFs; the newest quarterly one is used, falling back to

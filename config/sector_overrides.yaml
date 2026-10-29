@@ -1,3 +1,5 @@
+# In plain words: Fixes for companies whose industry family the exchange doesn't say clearly.
+#
 # Per-symbol sector assignments for companies whose CSE profile label is not a GICS
 # industry group (legacy CSE sector names). Values must be one of the 20 S&P/CSE
 # industry-group index names. Used by the market screen now and by the Phase 2 sector cap.

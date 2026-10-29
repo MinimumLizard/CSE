@@ -1,5 +1,8 @@
 """Who owns the parents? Passages from each company's latest annual report.
 
+In plain words: Reads each company's yearly (annual) report for sentences like 'our ultimate parent
+is...' and saves just those sentences.
+
     python -m cse.ownership.annual        (resumable; a re-run only fetches reports it hasn't seen)
 
 Annual reports state the company's parent and ultimate parent (LKAS 1 para 138(c)) and often its

@@ -1,5 +1,8 @@
 """One-off history backfill: `python -m cse.backfill`.
 
+In plain words: A one-time trip into the past: it fetched the last year of prices for every company,
+so the charts had history from the very first day.
+
 Loads the maximum history the public API offers (1 year; docs/API_NOTES.md Q1) for every
 ordinary equity (.N0000 / .X0000) and for ASPI, S&P SL20 and the 20 sector indices.
 

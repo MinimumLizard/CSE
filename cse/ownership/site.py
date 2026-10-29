@@ -1,4 +1,7 @@
-"""site/ownership.html from data/ownership/latest.json (written by `python -m cse.ownership.analyse`)."""
+"""site/ownership.html from data/ownership/latest.json (written by `python -m cse.ownership.analyse`).
+
+In plain words: Paints the Ownership web page.
+"""
 from __future__ import annotations
 
 import datetime as dt

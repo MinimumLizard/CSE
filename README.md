@@ -13,6 +13,7 @@ automatically on the first daily run with 52 weekly returns of history (about 7 
 
 | Doc | What's in it |
 |---|---|
+| [docs/EXPLAINED_SIMPLY.md](docs/EXPLAINED_SIMPLY.md) | **Start here:** the whole project in plain words, every file in one line, and a glossary |
 | [docs/API_NOTES.md](docs/API_NOTES.md) | What the API actually serves: endpoints, real responses, gaps, decisions D1–D6 |
 | [docs/METHODS.md](docs/METHODS.md) | Every formula on the site, exactly as implemented |
 | [docs/WATCHLIST_SCREEN.md](docs/WATCHLIST_SCREEN.md) | Whole-market liquidity / size / sector screen behind the watchlist additions |

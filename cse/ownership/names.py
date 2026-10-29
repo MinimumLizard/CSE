@@ -1,5 +1,9 @@
 """Who is a shareholder really? Name normalisation, beneficial-owner rules and classification.
 
+In plain words: Works out who a shareholder really is. 'Bank X S/A Mr Y' means Mr Y owns the shares
+and Bank X just looks after them. It also decides whether each holder is a person, a company, a
+fund, and so on.
+
 Rules (each tested in tests/test_ownership.py, documented in docs/METHODS.md §10):
 1. Normalise case, punctuation, apostrophes and spacing; drop titles (Mr/Mrs/Dr/M/S...) and
    account designations ("A/C No. 2"); canonicalise legal suffixes ((Pvt) Ltd, Private Limited...).

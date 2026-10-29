@@ -1,5 +1,9 @@
 """Keyword rules that tag a disclosure as board / dealings / dividend / capital / results / other.
 
+In plain words: Sorts each announcement into a labelled box (board, dealings, dividend, capital,
+results, other) by looking for key words in its title, like sorting post by the words on the
+envelope.
+
 Single source of truth for tagging; tested in tests/test_tags.py against real announcement
 titles. Rules run on the upper-cased "category + title" text. The FIRST matching tag wins,
 so order matters: "DEALINGS BY DIRECTORS" must hit `dealings` before `board` sees DIRECTOR,

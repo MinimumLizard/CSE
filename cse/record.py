@@ -1,5 +1,10 @@
 """Forward-only live record of the model portfolios (docs/METHODS.md §9).
 
+In plain words: The pretend-money diary. Each model basket started with Rs 10 million of pretend
+money. Every trading day the robot writes down what each basket is worth, paying trading fees and
+collecting dividends. It never changes an old page, so nobody can make the results look better
+afterwards.
+
 Files (append-only, never restated; every row carries the `series` label):
   record/nav.csv       date, series, portfolio, nav, cash, holdings_value, note
   record/holdings.csv  date, series, portfolio, symbol, shares, price, value, weight, target_weight, flag

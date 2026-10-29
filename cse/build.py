@@ -1,5 +1,8 @@
 """Render the static site: `python -m cse.build` -> site/index.html.
 
+In plain words: The page painter. It turns all the numbers into the Terminal web page, then asks the
+other painters to make the Ownership, Money flows and Fundamentals pages.
+
 Everything is computed here from data/history/*.csv and the latest data/raw/<session>/
 directory and embedded in the page at build time. The browser makes no API calls.
 """

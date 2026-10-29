@@ -1,4 +1,8 @@
-"""Load config/universe.yaml and resolve every symbol against the API's security list."""
+"""Load config/universe.yaml and resolve every symbol against the API's security list.
+
+In plain words: Reads your list of favourite stocks (config/universe.yaml) and checks that every
+name really exists on the exchange. A spelling mistake stops the run and says which name was wrong.
+"""
 from __future__ import annotations
 
 from dataclasses import dataclass, field

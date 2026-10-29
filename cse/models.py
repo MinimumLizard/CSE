@@ -1,5 +1,9 @@
 """Pydantic models for every API response the job uses.
 
+In plain words: These are checklists. Every answer from the website must have the right boxes filled
+in with the right kind of thing (a number where a number belongs). If an answer looks wrong, the
+robot stops instead of writing down nonsense.
+
 Built from the real Step 0 responses in docs/api_samples/. Fields we rely on are required
 and typed; unknown extra fields are ignored so additive API changes do not break the run,
 but a renamed, missing or mistyped field fails validation and therefore fails the run.

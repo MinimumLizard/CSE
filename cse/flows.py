@@ -1,5 +1,9 @@
 """Money flows: where the big owners' money is moving (docs/METHODS.md §11).
 
+In plain words: Follows the money. It adds up who has been buying and selling over the last 30 days,
+90 days and year, spots several insiders buying the same company at once, and compares each
+company's top-20 owner lists from one quarter to the next.
+
     python -m cse.flows      -> data/flows/latest.json (page input, rebuilt every run, not committed)
 
 Two feeds, joined on the ownership tracker's entities (cse.ownership.names: same normalisation,

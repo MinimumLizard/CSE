@@ -1,3 +1,6 @@
+# In plain words: The Saturday alarm clock. Once a week it downloads any new quarterly and annual
+# reports and rebuilds the ownership family tree.
+#
 name: ownership
 
 # Saturdays 02:00 UTC (07:30 Sri Lanka time). Collects any interim report filed since the last

@@ -1,6 +1,11 @@
 """Corporate actions: collect from the CSE's structured announcement records and turn them into
 data/history/corporate_actions.csv.
 
+In plain words: Keeps track of things companies do to their shares: paying cash (dividends), cutting
+each share into smaller pieces (splits), handing out free extra shares (scrip), or offering new
+shares to the people who already own some (rights). Anything the robot isn't sure about waits for
+you to confirm it.
+
 Sources (docs/API_NOTES.md §4 Q2):
 - getAnnouncementByCompany: per-company announcement list over a date range.
 - getAnnouncementById: typed detail (CashDividendWithDates, ScripDividendWithDates, ShareSplits,

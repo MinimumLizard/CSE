@@ -1,3 +1,6 @@
+# In plain words: Your yes/no answers on share events (dividends, splits, rights issues) the robot
+# wasn't sure about. Nothing here is used until you put it here.
+#
 # Your decisions on corporate actions marked `needs_review` in data/history/corporate_actions.csv
 # (listed on the site under Panel D with links to the source PDF).
 #

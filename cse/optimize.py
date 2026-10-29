@@ -1,5 +1,10 @@
 """Long-only, fully invested model portfolios with cvxpy (docs/METHODS.md §8).
 
+In plain words: Mixes stocks into model baskets with maths: the calmest basket possible, a basket
+where every stock adds the same amount of wobble, and the basket with the most reward for its
+wobble. Rules stop any basket from putting too much into one stock, one family of companies, or one
+owner's group.
+
 Constraints for minimum variance, risk parity and maximum Sharpe:
   0 ≤ w_i ≤ cap_i,  cap_i = min(max_weight, participation × median daily turnover_i × days_to_build
                                              / portfolio_size)

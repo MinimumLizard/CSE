@@ -1,5 +1,9 @@
 """Directors' share dealings: who bought or sold what, usually disclosed within 1-4 market days.
 
+In plain words: Collects every 'a director bought or sold shares' notice (usually made public 1 to 4
+days after the trade) and turns each one into a tidy row: who, which company, bought or sold, how
+many shares, and at what price.
+
     python -m cse.dealings              backfill details not yet saved, then rebuild the table
     python -m cse.dealings --offline    rebuild only (the daily job saves new details itself)
 
