@@ -1,5 +1,9 @@
 """Shared fixtures. All market data comes from real API responses captured in Step 0
-(tests/fixtures/2026-10-02/); nothing is hand-typed."""
+(tests/fixtures/2026-10-02/); nothing is hand-typed.
+
+In plain words: the tests are the robot checking its own homework. Each test feeds the code a real
+answer that the exchange once gave (saved in tests/fixtures/) and checks the result is right. The
+daily run does this first, every time, before it touches any data."""
 from __future__ import annotations
 
 import json

@@ -1,5 +1,9 @@
 """Universe filter and risk/return estimates for the portfolio lab (docs/METHODS.md §8).
 
+In plain words: Picks which stocks are fit for the lab (traded often enough, with a year of history)
+and measures each one: how bumpy its ride is, how much it moves along with the whole market, and how
+easy it is to buy and sell.
+
 Inputs are repo files only: prices.csv, indices.csv, corporate_actions.csv (+ review file),
 sector labels from cached companyProfile responses, and config/portfolio.yaml.
 """

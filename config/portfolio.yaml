@@ -1,3 +1,6 @@
+# In plain words: The rules for the portfolio lab: how big the pretend baskets are, what trading
+# costs, and how much may go into one stock, one industry or one owner group.
+#
 # Portfolio lab settings (Phase 2). Formulas: docs/METHODS.md section 8.
 series: v1-52w-grp20            # record series label; change it (never edit history) if the method changes
                                 # v0-52w (2026-10-07..) had no group cap; v1 adds max_group_weight

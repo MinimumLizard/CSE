@@ -1,5 +1,8 @@
 """Owners of unlisted shareholders: evidence, suggestions, and the confirmed links the graph uses.
 
+In plain words: Turns those sentences into a homework sheet for you to check. Only owners that YOU
+confirm in config/ownership_parents.yaml change the family tree.
+
     python -m cse.ownership.parents       -> docs/OWNERSHIP_PARENTS_EVIDENCE.md
 
 The tracker's chains stop at unlisted holders (Milford Exports, Odeon Holdings...). Annual reports

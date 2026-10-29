@@ -1,5 +1,9 @@
 """Append-only CSV history files with de-duplication and atomic writes.
 
+In plain words: The rules for the robot's notebooks (the .csv files). It only adds new lines at the
+end, never rubs anything out, never writes the same line twice, and swaps in a new page all at once,
+so a crash can't leave half a page.
+
 Existing rows are never modified or reordered: a write is (old bytes + new rows) written to a
 temp file and swapped in with os.replace, so a crash can't leave a half-written file.
 """

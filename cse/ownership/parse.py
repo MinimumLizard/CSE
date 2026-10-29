@@ -1,5 +1,8 @@
 """Find and parse the largest-shareholders tables in an interim report's text.
 
+In plain words: Finds the 'largest shareholders' table in a report's words and reads it row by row.
+A table is trusted only if its numbers add up to the company's real number of shares.
+
 Reports differ: "Twenty largest shareholders", "Top 25 Shareholders", "FIRST TWENTY
 SHAREHOLDERS", "List of Shareholders", "Major shareholders"; ranks may be present or not;
 a row may carry a second (prior-period) shares/% pair; voting and non-voting classes get

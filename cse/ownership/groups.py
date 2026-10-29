@@ -1,5 +1,8 @@
 """Ownership groups for the portfolio lab's group exposure cap (docs/METHODS.md §10.5).
 
+In plain words: Puts companies that answer to the same boss into one group, so the lab never puts
+more than 20% of a basket into one group of related companies.
+
 A stock's group is found by following its largest voting block upward:
 
   company → largest voting block holder (≥ 20 %, not a fund/institution or unidentified nominee)

@@ -1,3 +1,6 @@
+# In plain words: Your list of stocks to watch, sorted into groups, plus stocks to leave out (for
+# example because of a conflict of interest).
+#
 # Universe for the CSE Terminal. Every symbol is resolved against the API's security list
 # (allSecurityCode) on each run; an unknown symbol stops the run and names it.
 # Suffixes: .N0000 = voting ordinary share, .X0000 = non-voting ordinary share.

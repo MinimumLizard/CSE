@@ -1,5 +1,8 @@
 """Evidence sheet for corporate actions awaiting confirmation.
 
+In plain words: A helper for you: it downloads the PDF behind each share event waiting for your
+confirmation and quotes the important lines, so you can check them quickly.
+
     python scripts/review_evidence.py    -> docs/CA_REVIEW_EVIDENCE.md
 
 For every pending `needs_review` row it downloads the source PDF from cdn.cse.lk (cached in

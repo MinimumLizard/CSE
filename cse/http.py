@@ -1,5 +1,9 @@
 """Polite, read-only client for the undocumented JSON API behind cse.lk.
 
+In plain words: This is the robot's polite voice. It asks the stock exchange's website one question
+at a time, waits a second between questions, says who it is, tries again up to 3 times if nobody
+answers, and only ever asks to look, never to buy or sell.
+
 Rules (from the brief and docs/API_NOTES.md): sequential requests, a pause between calls,
 a descriptive User-Agent, 3 retries with exponential backoff, 30-second timeouts.
 Parameters are form-encoded. A handful of endpoints only accept GET.

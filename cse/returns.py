@@ -1,5 +1,9 @@
 """Total returns from unadjusted closes and corporate actions (docs/METHODS.md §8).
 
+In plain words: Works out how much an owner really made from a stock: the price change plus any cash
+the company paid, fixed up so that a split (one share becoming two cheaper ones) doesn't look like a
+crash.
+
 For consecutive traded closes P_{t0}, P_{t1}, with every corporate action whose ex-date falls
 in (t0, t1]:
 

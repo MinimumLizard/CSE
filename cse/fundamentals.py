@@ -1,5 +1,10 @@
 """Company fundamentals from the interim reports we already hold (docs/METHODS.md §12).
 
+In plain words: Reads each company's quarterly report to find how much profit it made and how much
+it owns minus what it owes. It only believes a number if it agrees with another line in the same
+report. Then it works out whether the share price looks cheap or expensive (P/E, P/B, dividend
+yield).
+
     python -m cse.fundamentals     -> data/fundamentals/reports.csv, data/fundamentals/latest.csv
 
 The CSE API serves no per-company earnings or book value (API_NOTES §5), so they are read from

@@ -1,3 +1,6 @@
+# In plain words: Tells the robot when two different spellings are the same owner, e.g. 'K.A.D.D.
+# Perera' and 'K.D.D. Perera'.
+#
 # Ownership tracker: spellings of one holder that the automatic rules don't merge.
 #
 # Matching already ignores case, punctuation, titles (Mr/Mrs/Dr...), "The", account numbers

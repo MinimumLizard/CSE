@@ -1,6 +1,10 @@
 """Computations behind Panels A and B. Pure functions over the history CSVs and the latest
 raw session, so every number on the site can be reproduced from files in the repo.
 
+In plain words: Does the sums for the first two panels of the Terminal: how much each stock moved
+compared with the whole market, whether today was busier than usual, and where today's price sits
+between its high and low for the year.
+
 Definitions are documented in docs/METHODS.md (§1 Terminal).
 """
 from __future__ import annotations

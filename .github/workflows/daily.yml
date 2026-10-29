@@ -1,3 +1,7 @@
+# In plain words: The robot's alarm clock. Every weekday evening GitHub wakes the robot, which
+# checks itself (the tests), fetches the day's data, does all its sums, saves the results in the
+# repo and publishes the website.
+#
 name: daily
 
 # 11:23 UTC = 16:53 Sri Lanka time, weekdays. The CSE trades 09:30-14:30 SLT and its data

@@ -1,5 +1,9 @@
 """Who owns the Colombo Stock Exchange? Parse every collected report and build the ownership graph.
 
+In plain words: Builds the family tree. If A owns half of B, and B owns half of C, then A really
+owns a quarter of C. It also finds who is in charge of each company (whoever controls more than half
+of the votes).
+
     python -m cse.ownership.analyse        -> data/ownership/*.csv, data/ownership/latest.json
 
 Inputs (all in the repo): data/raw/ownership/reports.csv + text/<id>.txt (the interim reports'

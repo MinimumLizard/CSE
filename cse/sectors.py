@@ -1,5 +1,8 @@
 """Map companyProfile sector labels onto the 20 S&P/CSE GICS industry-group indices.
 
+In plain words: Puts every company into its family (banks, telecoms, food and drink...) using the
+exchange's 20 official families, so the lab can say 'not too much in banks'.
+
 The API's labels are inconsistent (docs/API_NOTES.md Q5): case, commas and spacing vary,
 some labels are GICS *sub-industries* or raw GICS codes, and a few are legacy CSE sector
 names. Resolution order:
