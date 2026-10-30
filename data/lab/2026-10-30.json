@@ -1,0 +1,6847 @@
+{
+ "session": "2026-10-30",
+ "series": "v1-52w-grp20",
+ "generated_utc": "2026-10-30T17:05:28Z",
+ "config": {
+  "series": "v1-52w-grp20",
+  "portfolio_size_lkr": 5000000,
+  "record_notional_lkr": 10000000,
+  "risk_free_annual": 0.099,
+  "equity_risk_premium": 0.06,
+  "cost_per_side": 0.0112,
+  "dividend_withholding": 0.0,
+  "max_weight": 0.1,
+  "max_sector_weight": 0.3,
+  "max_group_weight": 0.2,
+  "min_history_weeks": 52,
+  "min_traded_share": 0.8,
+  "min_median_turnover_lkr": 1000000,
+  "participation": 0.2,
+  "days_to_build": 10,
+  "rebalance_months": [
+   1,
+   4,
+   7,
+   10
+  ],
+  "band_relative": 0.25,
+  "band_absolute": 0.02,
+  "min_trade_lkr": 25000,
+  "history_adjusted": false
+ },
+ "market_proxy": "ASPI (price index)",
+ "universe": [
+  "AAF.N0000",
+  "AAIC.N0000",
+  "ABL.N0000",
+  "ACL.N0000",
+  "ACME.N0000",
+  "AEL.N0000",
+  "AGST.N0000",
+  "AHUN.N0000",
+  "ALLI.N0000",
+  "ALUM.N0000",
+  "AMSL.N0000",
+  "APLA.N0000",
+  "ASCO.N0000",
+  "ASHO.N0000",
+  "ASIR.N0000",
+  "ASIY.N0000",
+  "ASPH.N0000",
+  "ATL.N0000",
+  "BFL.N0000",
+  "BIL.N0000",
+  "BOGA.N0000",
+  "BRWN.N0000",
+  "CALH.N0000",
+  "CALT.N0000",
+  "CBNK.N0000",
+  "CCS.N0000",
+  "CDB.X0000",
+  "CFIN.N0000",
+  "CFVF.N0000",
+  "CIC.N0000",
+  "CIC.X0000",
+  "CIND.N0000",
+  "CINV.N0000",
+  "CITH.N0000",
+  "CLND.N0000",
+  "COCO.N0000",
+  "COCR.N0000",
+  "COMB.N0000",
+  "COMB.X0000",
+  "COOP.N0000",
+  "CRL.N0000",
+  "CSLK.N0000",
+  "CTC.N0000",
+  "DFCC.N0000",
+  "DIAL.N0000",
+  "DIMO.N0000",
+  "DIPD.N0000",
+  "DIST.N0000",
+  "DOCK.N0000",
+  "EAST.N0000",
+  "EBCR.N0000",
+  "FCT.N0000",
+  "GRAN.N0000",
+  "HASU.N0000",
+  "HAYC.N0000",
+  "HAYL.N0000",
+  "HBS.N0000",
+  "HDFC.N0000",
+  "HEXP.N0000",
+  "HHL.N0000",
+  "HNB.N0000",
+  "HNB.X0000",
+  "HNBF.N0000",
+  "HVA.N0000",
+  "JAT.N0000",
+  "JETS.N0000",
+  "JINS.N0000",
+  "JKH.N0000",
+  "KCAB.N0000",
+  "KHL.N0000",
+  "KOTA.N0000",
+  "KPHL.N0000",
+  "KZOO.N0000",
+  "LALU.N0000",
+  "LCBF.N0000",
+  "LFIN.N0000",
+  "LGL.N0000",
+  "LIOC.N0000",
+  "LLUB.N0000",
+  "LMF.N0000",
+  "LOFC.N0000",
+  "LOLC.N0000",
+  "LUMX.N0000",
+  "LVEF.N0000",
+  "LWL.N0000",
+  "MBSL.N0000",
+  "MELS.N0000",
+  "MERC.N0000",
+  "MFPE.N0000",
+  "MGT.N0000",
+  "NAMU.N0000",
+  "NDB.N0000",
+  "NHL.N0000",
+  "OSEA.N0000",
+  "PABC.N0000",
+  "PAP.N0000",
+  "PARQ.N0000",
+  "PKME.N0000",
+  "PLC.N0000",
+  "PLR.N0000",
+  "RAL.N0000",
+  "RCL.N0000",
+  "REEF.N0000",
+  "RHL.N0000",
+  "RICH.N0000",
+  "RIL.N0000",
+  "RWSL.N0000",
+  "SAMP.N0000",
+  "SCAP.N0000",
+  "SEMB.N0000",
+  "SERV.N0000",
+  "SEYB.N0000",
+  "SEYB.X0000",
+  "SFIN.N0000",
+  "SHAW.N0000",
+  "SHL.N0000",
+  "SINS.N0000",
+  "SIRA.N0000",
+  "SLTL.N0000",
+  "SPEN.N0000",
+  "SUN.N0000",
+  "TAFL.N0000",
+  "TAP.N0000",
+  "TJL.N0000",
+  "TKYO.N0000",
+  "TKYO.X0000",
+  "UBF.N0000",
+  "UML.N0000",
+  "VFIN.N0000",
+  "VLL.N0000",
+  "VONE.N0000",
+  "VPEL.N0000",
+  "WAPO.N0000",
+  "WATA.N0000",
+  "WIND.N0000",
+  "YORK.N0000"
+ ],
+ "dropped": [
+  {
+   "symbol": "AAF.P0000",
+   "name": "ASIA ASSET FINANCE PLC",
+   "reason": "not an ordinary share (preference share)"
+  },
+  {
+   "symbol": "ABAN.N0000",
+   "name": "ABANS ELECTRICALS PLC",
+   "reason": "median daily turnover Rs 0.35 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ABNS.D0000",
+   "name": "ABANS PLC",
+   "reason": "not an ordinary share (no equity prices (debt issuer))"
+  },
+  {
+   "symbol": "ACAP.N0000",
+   "name": "ASIA CAPITAL PLC",
+   "reason": "traded on 20% of sessions < 80%"
+  },
+  {
+   "symbol": "AFIN",
+   "name": "Assetline Finance PLC",
+   "reason": "not an ordinary share (not an ordinary share)"
+  },
+  {
+   "symbol": "AFS.N0000",
+   "name": "ALPHA FIRE SERVICES PLC",
+   "reason": "median daily turnover Rs 0.70 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AFSL.N0000",
+   "name": "ABANS FINANCE PLC",
+   "reason": "median daily turnover Rs 0.13 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AGAL.N0000",
+   "name": "AGALAWATTE PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.75 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AGPL.N0000",
+   "name": "Agarapatana Plantations PLC",
+   "reason": "median daily turnover Rs 0.42 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AGST.X0000",
+   "name": "AGSTAR PLC",
+   "reason": "median daily turnover Rs 0.00 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AHPL.N0000",
+   "name": "ASIAN HOTELS & PROPERTIES PLC",
+   "reason": "median daily turnover Rs 0.32 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AINS.N0000",
+   "name": "ARPICO INSURANCE PLC",
+   "reason": "median daily turnover Rs 0.02 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ALHP.N0000",
+   "name": "ANILANA HOTELS AND PROPERTIES PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "AMCL.N0000",
+   "name": "AMW CAPITAL LEASING AND FINANCE PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "ATL.R0000",
+   "name": "AMANA TAKAFUL  PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "ATLL.N0000",
+   "name": "AMANA TAKAFUL LIFE PLC",
+   "reason": "median daily turnover Rs 0.12 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "AUTO.N0000",
+   "name": "THE AUTODROME PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "BALA.N0000",
+   "name": "BALANGODA PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.25 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "BBH.N0000",
+   "name": "BROWNS BEACH HOTELS PLC",
+   "reason": "traded on 22% of sessions < 80%"
+  },
+  {
+   "symbol": "BERU.N0000",
+   "name": "BERUWALA RESORTS PLC",
+   "reason": "median daily turnover Rs 0.51 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "BFN.N0000",
+   "name": "JANASHAKTHI FINANCE PLC",
+   "reason": "median daily turnover Rs 0.06 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "BLI.N0000",
+   "name": "BIMPUTH LANKA INVESTMENTS PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "BLUE.N0000",
+   "name": "BLUE DIAMONDS JEWELLERY WORLDWIDE PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "BLUE.X0000",
+   "name": "BLUE DIAMONDS JEWELLERY WORLDWIDE PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "BOC.D0000",
+   "name": "BANK OF CEYLON",
+   "reason": "not an ordinary share (no equity prices (debt issuer))"
+  },
+  {
+   "symbol": "BOPL.N0000",
+   "name": "BOGAWANTALAWA TEA ESTATES PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "BPPL.N0000",
+   "name": "B P P L HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.44 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "BREW.N0000",
+   "name": "CEYLON BEVERAGE HOLDINGS PLC",
+   "reason": "traded on 80% of sessions < 80%"
+  },
+  {
+   "symbol": "BRR.N0000",
+   "name": "BANSEI ROYAL RESORTS HIKKADUWA PLC",
+   "reason": "traded on 80% of sessions < 80%"
+  },
+  {
+   "symbol": "BUKI.N0000",
+   "name": "BUKIT DARAH PLC",
+   "reason": "median daily turnover Rs 0.24 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CABO.N0000",
+   "name": "CARGO BOAT DEVELOPMENT COMPANY PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CALC.U0000",
+   "name": "CAL FIVE YEAR CLOSED END FUND (\u201cUnits\u201d)",
+   "reason": "not an ordinary share (fund units)"
+  },
+  {
+   "symbol": "CALF.N0000",
+   "name": "DIALOG FINANCE PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CALI.U0000",
+   "name": "CAL FIVE YEAR OPTIMUM FUND (\u201cUnits\u201d)",
+   "reason": "not an ordinary share (fund units)"
+  },
+  {
+   "symbol": "CALU.U0000",
+   "name": "CAL THREE YEAR CLOSED END FUND (\u201cUnits\u201d)",
+   "reason": "not an ordinary share (fund units)"
+  },
+  {
+   "symbol": "CARE.N0000",
+   "name": "PRINTCARE  PLC",
+   "reason": "median daily turnover Rs 0.17 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CARG.N0000",
+   "name": "CARGILLS (CEYLON) PLC",
+   "reason": "median daily turnover Rs 0.45 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CARS.N0000",
+   "name": "CARSON CUMBERBATCH PLC",
+   "reason": "median daily turnover Rs 0.53 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CBCF.D0000",
+   "name": "CBC FINANCE PLC",
+   "reason": "not an ordinary share (no equity prices (debt issuer))"
+  },
+  {
+   "symbol": "CDB.N0000",
+   "name": "CITIZENS DEVELOPMENT BUSINESS FINANCE PLC",
+   "reason": "median daily turnover Rs 0.54 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CERA.N0000",
+   "name": "LANKA CERAMIC PLC",
+   "reason": "median daily turnover Rs 0.05 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CFI.N0000",
+   "name": "COLOMBO FORT INVESTMENTS PLC",
+   "reason": "median daily turnover Rs 0.17 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CFLB.N0000",
+   "name": "THE COLOMBO FORT LAND & BUILDING PLC",
+   "reason": "median daily turnover Rs 0.09 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CHL.N0000",
+   "name": "CEYLON HOSPITALS PLC (DURDANS)",
+   "reason": "median daily turnover Rs 0.43 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CHL.X0000",
+   "name": "CEYLON HOSPITALS PLC (DURDANS)",
+   "reason": "median daily turnover Rs 0.15 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CHMX.N0000",
+   "name": "CHEMANEX PLC",
+   "reason": "median daily turnover Rs 0.16 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CHOT.N0000",
+   "name": "CEYLON HOTELS CORPORATION PLC",
+   "reason": "median daily turnover Rs 0.57 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CHOU.N0000",
+   "name": "CITY HOUSING & REAL ESTATE CO. PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "CINS.N0000",
+   "name": "CEYLINCO HOLDINGS PLC",
+   "reason": "traded on 79% of sessions < 80%"
+  },
+  {
+   "symbol": "CINS.X0000",
+   "name": "CEYLINCO HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.40 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CIT.N0000",
+   "name": "COLOMBO INVESTMENT TRUST PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CITW.N0000",
+   "name": "WASKADUWA BEACH RESORT PLC",
+   "reason": "median daily turnover Rs 0.93 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "COCO.X0000",
+   "name": "RENUKA FOODS PLC",
+   "reason": "median daily turnover Rs 0.32 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "COF.U0000",
+   "name": "SENFIN SECURITIES LIMITED",
+   "reason": "not an ordinary share (fund units)"
+  },
+  {
+   "symbol": "COLO.N0000",
+   "name": "C M HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.44 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "COMD.N0000",
+   "name": "COMMERCIAL DEVELOPMENT COMPANY PLC",
+   "reason": "median daily turnover Rs 0.05 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CONN.N0000",
+   "name": "HAYLEYS LEISURE  PLC",
+   "reason": "median daily turnover Rs 0.26 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CPRT.N0000",
+   "name": "KERNER HAUS GLOBAL SOLUTIONS PLC",
+   "reason": "median daily turnover Rs 0.41 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CPRT.R0000",
+   "name": "KERNER HAUS GLOBAL SOLUTIONS PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "CSD.N0000",
+   "name": "SEYLAN DEVELOPMENTS PLC",
+   "reason": "median daily turnover Rs 0.33 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CSF.N0000",
+   "name": "NATION LANKA FINANCE PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "CTBL.N0000",
+   "name": "CEYLON TEA BROKERS PLC",
+   "reason": "median daily turnover Rs 0.54 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CTEA.N0000",
+   "name": "DILMAH CEYLON TEA COMPANY PLC",
+   "reason": "median daily turnover Rs 0.07 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CTHR.N0000",
+   "name": "C T HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.07 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CTLD.N0000",
+   "name": "C T LAND DEVELOPMENT PLC",
+   "reason": "median daily turnover Rs 0.19 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CWL.N0000",
+   "name": "CHRISSWORLD PLC",
+   "reason": "median daily turnover Rs 0.54 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "CWM.N0000",
+   "name": "C. W. MACKIE PLC",
+   "reason": "median daily turnover Rs 0.95 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "DPL.N0000",
+   "name": "DANKOTUWA PORCELAIN PLC",
+   "reason": "median daily turnover Rs 0.58 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ECL.N0000",
+   "name": "E-CHANNELLING PLC",
+   "reason": "median daily turnover Rs 0.13 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "EDEN.N0000",
+   "name": "EDEN HOTEL LANKA PLC",
+   "reason": "median daily turnover Rs 0.54 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ELPL.N0000",
+   "name": "ELPITIYA PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.74 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "EMER.N0000",
+   "name": "EASTERN MERCHANTS PLC",
+   "reason": "median daily turnover Rs 0.64 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "EML.N0000",
+   "name": "E M L CONSULTANTS PLC",
+   "reason": "median daily turnover Rs 0.89 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ETWO.N0000",
+   "name": "EQUITY TWO PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "EXT.N0000",
+   "name": "EXTERMINATORS PLC",
+   "reason": "median daily turnover Rs 0.71 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "FFL.D0000",
+   "name": "FINTREX FINANCE PLC",
+   "reason": "not an ordinary share (no equity prices (debt issuer))"
+  },
+  {
+   "symbol": "GEST.N0000",
+   "name": "GESTETNER OF CEYLON PLC",
+   "reason": "median daily turnover Rs 0.41 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "GHLL.N0000",
+   "name": "GALADARI HOTELS (LANKA) PLC",
+   "reason": "median daily turnover Rs 0.60 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "GLAS.N0000",
+   "name": "PGP GLASS CEYLON PLC",
+   "reason": "median daily turnover Rs 0.96 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "GREG.N0000",
+   "name": "AMBEON HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.57 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "GUAR.N0000",
+   "name": "CEYLON GUARDIAN INVESTMENT TRUST PLC",
+   "reason": "median daily turnover Rs 0.80 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HAPU.N0000",
+   "name": "HAPUGASTENNE PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HARI.N0000",
+   "name": "HARISCHANDRA MILLS PLC",
+   "reason": "median daily turnover Rs 0.13 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HAYL.R0000",
+   "name": "HAYLEYS PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "HELA.N0000",
+   "name": "HELA APPAREL HOLDINGS PLC",
+   "reason": "traded on 61% of sessions < 80%"
+  },
+  {
+   "symbol": "HNBF.R0000",
+   "name": "HNB FINANCE PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "HNBF.R0001",
+   "name": "HNB FINANCE PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "HNBF.X0000",
+   "name": "HNB FINANCE PLC",
+   "reason": "median daily turnover Rs 0.86 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HOPL.N0000",
+   "name": "HORANA PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.07 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HPFL.N0000",
+   "name": "LOTUS HYDRO POWER PLC",
+   "reason": "median daily turnover Rs 0.07 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HPL.N0000",
+   "name": "HATTON PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.56 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HPWR.N0000",
+   "name": "RESUS ENERGY PLC",
+   "reason": "median daily turnover Rs 0.67 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HSIG.N0000",
+   "name": "HOTEL SIGIRIYA PLC",
+   "reason": "median daily turnover Rs 0.22 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HUNA.N0000",
+   "name": "HUNAS HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.25 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "HUNT.N0000",
+   "name": "HUNTERS & COMPANY PLC",
+   "reason": "traded on 70% of sessions < 80%"
+  },
+  {
+   "symbol": "INME.N0000",
+   "name": "INSUREME INSURANCE BROKERS PLC",
+   "reason": "history 47 weeks < 52"
+  },
+  {
+   "symbol": "JFP.N0000",
+   "name": "JF PACKAGING PLC",
+   "reason": "history 49 weeks < 52"
+  },
+  {
+   "symbol": "JKL.N0000",
+   "name": "JOHN KEELLS PLC",
+   "reason": "median daily turnover Rs 0.06 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "JXG.N0000",
+   "name": "JANASHAKTHI PLC",
+   "reason": "history 26 weeks < 52"
+  },
+  {
+   "symbol": "KAHA.N0000",
+   "name": "KAHAWATTE PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.08 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "KDL.N0000",
+   "name": "KELSEY DEVELOPMENTS PLC",
+   "reason": "history 0 weeks < 52"
+  },
+  {
+   "symbol": "KFP.N0000",
+   "name": "KEELLS FOOD PRODUCTS PLC",
+   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "KGAL.N0000",
+   "name": "KEGALLE PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.11 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "KHC.N0000",
+   "name": "THE KANDY HOTELS COMPANY (1938) PLC",
+   "reason": "median daily turnover Rs 0.22 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "KOTA.D0000",
+   "name": "KOTAGALA PLANTATIONS PLC",
+   "reason": "not an ordinary share (no equity prices (debt issuer))"
+  },
+  {
+   "symbol": "KVAL.N0000",
+   "name": "KELANI VALLEY PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.37 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LAMB.N0000",
+   "name": "KOTMALE HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.01 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LCEY.N0000",
+   "name": "LANKEM CEYLON PLC",
+   "reason": "median daily turnover Rs 0.19 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LDEV.N0000",
+   "name": "LANKEM DEVELOPMENTS PLC",
+   "reason": "median daily turnover Rs 0.25 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LGIL.N0000",
+   "name": "LOLC GENERAL INSURANCE PLC",
+   "reason": "median daily turnover Rs 0.23 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LGL.X0000",
+   "name": "LAUGFS GAS PLC",
+   "reason": "median daily turnover Rs 0.71 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LHCL.N0000",
+   "name": "THE LANKA HOSPITALS CORPORATION PLC",
+   "reason": "median daily turnover Rs 0.94 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LHL.N0000",
+   "name": "THE LIGHTHOUSE HOTEL PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LION.N0000",
+   "name": "LION BREWERY CEYLON PLC",
+   "reason": "median daily turnover Rs 0.18 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LITE.N0000",
+   "name": "LAXAPANA PLC",
+   "reason": "median daily turnover Rs 0.25 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LPL.N0000",
+   "name": "LAUGFS POWER PLC",
+   "reason": "median daily turnover Rs 0.32 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LPL.X0000",
+   "name": "LAUGFS POWER PLC",
+   "reason": "median daily turnover Rs 0.13 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LPRT.N0000",
+   "name": "LAKE HOUSE PRINTERS AND PUBLISHERS PLC",
+   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "LVEF.R0000",
+   "name": "LVL ENERGY FUND PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "LVEN.N0000",
+   "name": "LANKA VENTURES PLC",
+   "reason": "excluded (conflict of interest)"
+  },
+  {
+   "symbol": "MADU.N0000",
+   "name": "MADULSIMA PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.11 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MAL.N0000",
+   "name": "MALWATTE VALLEY PLANTATIONS PLC",
+   "reason": "traded on 77% of sessions < 80%"
+  },
+  {
+   "symbol": "MAL.X0000",
+   "name": "MALWATTE VALLEY PLANTATIONS PLC",
+   "reason": "traded on 68% of sessions < 80%"
+  },
+  {
+   "symbol": "MARA.N0000",
+   "name": "MARAWILA RESORTS PLC",
+   "reason": "median daily turnover Rs 0.43 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MASK.N0000",
+   "name": "MASKELIYA PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.32 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MBSL.P0000",
+   "name": "MERCHANT BANK OF SRI LANKA & FINANCE PLC",
+   "reason": "not an ordinary share (preference share)"
+  },
+  {
+   "symbol": "MBSL.R0001",
+   "name": "MERCHANT BANK OF SRI LANKA & FINANCE PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "MCPL.N0000",
+   "name": "MAHAWELI COCONUT PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MDL.N0000",
+   "name": "MYLAND DEVELOPMENTS PLC",
+   "reason": "median daily turnover Rs 0.28 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MEL.N0000",
+   "name": "GREENTECH ENERGY PLC",
+   "reason": "median daily turnover Rs 0.52 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MERC.R0000",
+   "name": "MERCANTILE INVESTMENTS AND FINANCE PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "MHDL.N0000",
+   "name": "MILLENNIUM HOUSING DEVELOPERS PLC",
+   "reason": "median daily turnover Rs 0.45 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MIFL",
+   "name": "MAHINDRA IDEAL FINANCE PLC",
+   "reason": "not an ordinary share (not an ordinary share)"
+  },
+  {
+   "symbol": "MRH.N0000",
+   "name": "MAHAWELI REACH HOTELS PLC",
+   "reason": "median daily turnover Rs 0.01 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MSL.N0000",
+   "name": "MERCANTILE SHIPPING COMPANY PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "MULL.N0000",
+   "name": "MULLER AND PHIPPS (CEYLON) PLC",
+   "reason": "median daily turnover Rs 0.65 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "NAVF.U0000",
+   "name": "NAMAL ACUITY VALUE FUND",
+   "reason": "not an ordinary share (fund units)"
+  },
+  {
+   "symbol": "NEH.N0000",
+   "name": "THE NUWARA ELIYA HOTELS COMPANY PLC",
+   "reason": "traded on 78% of sessions < 80%"
+  },
+  {
+   "symbol": "NTB.N0000",
+   "name": "NATIONS TRUST BANK PLC",
+   "reason": "excluded (conflict of interest)"
+  },
+  {
+   "symbol": "NTB.X0000",
+   "name": "NATIONS TRUST BANK PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ODEL.N0000",
+   "name": "ODEL PLC",
+   "reason": "median daily turnover Rs 0.05 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "OFEQ.N0000",
+   "name": "OFFICE EQUIPMENT PLC",
+   "reason": "median daily turnover Rs 0.05 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "ONAL.N0000",
+   "name": "ON ALLY HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.09 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PACK.N0000",
+   "name": "EX-PACK CORRUGATED CARTONS PLC",
+   "reason": "median daily turnover Rs 0.74 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PALM.N0000",
+   "name": "PALM GARDEN HOTELS PLC",
+   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PARA.N0000",
+   "name": "PARAGON CEYLON PLC",
+   "reason": "median daily turnover Rs 0.02 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PEG.N0000",
+   "name": "PEGASUS HOTELS OF CEYLON PLC",
+   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PHAR.N0000",
+   "name": "COLOMBO CITY HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.52 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PINS.N0000",
+   "name": "PEOPLE'S INSURANCE PLC",
+   "reason": "median daily turnover Rs 0.43 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "PMB.N0000",
+   "name": "PMF FINANCE PLC",
+   "reason": "median daily turnover Rs 0.55 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RCH.N0000",
+   "name": "RENUKA HOTELS PLC",
+   "reason": "median daily turnover Rs 0.09 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RENU.N0000",
+   "name": "RENUKA CITY HOTEL PLC",
+   "reason": "median daily turnover Rs 0.22 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "REXP.N0000",
+   "name": "RICHARD PIERIS EXPORTS PLC",
+   "reason": "median daily turnover Rs 0.39 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RFL.N0000",
+   "name": "RAMBODA FALLS PLC",
+   "reason": "median daily turnover Rs 0.09 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RGEM.N0000",
+   "name": "RADIANT GEMS INTERNATIONAL PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RHL.X0000",
+   "name": "RENUKA HOLDINGS PLC",
+   "reason": "median daily turnover Rs 0.12 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RHTL.N0000",
+   "name": "THE FORTRESS RESORTS PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "RPBH.N0000",
+   "name": "ROYAL PALMS BEACH HOTELS PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SDB.N0000",
+   "name": "SANASA DEVELOPMENT BANK PLC",
+   "reason": "median daily turnover Rs 0.98 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SDF.N0000",
+   "name": "SARVODAYA DEVELOPMENT FINANCE PLC",
+   "reason": "median daily turnover Rs 0.57 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SEMB.X0000",
+   "name": "SMB FINANCE PLC",
+   "reason": "median daily turnover Rs 0.36 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SFCL.N0000",
+   "name": "SENKADAGALA FINANCE PLC",
+   "reason": "median daily turnover Rs 0.29 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SFIN.R0000",
+   "name": "SINGER FINANCE (LANKA) PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "SHL.W0000",
+   "name": "SOFTLOGIC HOLDINGS PLC",
+   "reason": "not an ordinary share (warrant)"
+  },
+  {
+   "symbol": "SHOT.N0000",
+   "name": "SERENDIB HOTELS PLC",
+   "reason": "median daily turnover Rs 0.18 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SHOT.X0000",
+   "name": "SERENDIB HOTELS PLC",
+   "reason": "median daily turnover Rs 0.12 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SIC.D0000",
+   "name": "SANASA LIFE INSURANCE COMPANY PLC",
+   "reason": "not an ordinary share (no equity prices (debt issuer))"
+  },
+  {
+   "symbol": "SIGV.N0000",
+   "name": "SIGIRIYA VILLAGE HOTELS PLC",
+   "reason": "median daily turnover Rs 0.34 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SIL.N0000",
+   "name": "SAMSON INTERNATIONAL PLC",
+   "reason": "median daily turnover Rs 0.46 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SING.N0000",
+   "name": "STANDARD CAPITAL PLC",
+   "reason": "traded on 37% of sessions < 80%"
+  },
+  {
+   "symbol": "SINH.N0000",
+   "name": "SINGHE HOSPITALS PLC",
+   "reason": "median daily turnover Rs 0.98 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SLFL",
+   "name": "SIYAPATHA FINANCE PLC",
+   "reason": "not an ordinary share (not an ordinary share)"
+  },
+  {
+   "symbol": "SLND.N0000",
+   "name": "SERENDIB LAND PLC",
+   "reason": "traded on 78% of sessions < 80%"
+  },
+  {
+   "symbol": "SMOT.N0000",
+   "name": "SATHOSA MOTORS PLC",
+   "reason": "median daily turnover Rs 0.53 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SOY.N0000",
+   "name": "CONVENIENCE  FOODS (LANKA )PLC",
+   "reason": "median daily turnover Rs 0.12 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "STAF.N0000",
+   "name": "DOLPHIN HOTELS PLC",
+   "reason": "median daily turnover Rs 0.67 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "SWAD.N0000",
+   "name": "SWADESHI INDUSTRIAL WORKS PLC",
+   "reason": "traded on 42% of sessions < 80%"
+  },
+  {
+   "symbol": "TAJ.N0000",
+   "name": "TAL LANKA HOTELS PLC",
+   "reason": "median daily turnover Rs 0.04 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TAJ.R0000",
+   "name": "TAL LANKA HOTELS PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "TANG.N0000",
+   "name": "TANGERINE BEACH HOTELS PLC",
+   "reason": "median daily turnover Rs 0.01 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TESS.N0000",
+   "name": "TESS AGRO PLC",
+   "reason": "median daily turnover Rs 0.42 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TESS.X0000",
+   "name": "TESS AGRO PLC",
+   "reason": "median daily turnover Rs 0.09 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TILE.N0000",
+   "name": "LANKA TILES PLC",
+   "reason": "median daily turnover Rs 0.77 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TPL.N0000",
+   "name": "TALAWAKELLE TEA ESTATES  PLC",
+   "reason": "median daily turnover Rs 0.39 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TRAN.N0000",
+   "name": "TRANS ASIA HOTELS PLC",
+   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TSML.N0000",
+   "name": "TEA SMALLHOLDER FACTORIES PLC",
+   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "TYRE.N0000",
+   "name": "KELANI TYRES PLC",
+   "reason": "median daily turnover Rs 0.88 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "UAL.N0000",
+   "name": "UNION ASSURANCE PLC",
+   "reason": "median daily turnover Rs 0.78 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "UBC.N0000",
+   "name": "UNION BANK OF COLOMBO PLC",
+   "reason": "median daily turnover Rs 0.74 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "UCAR.N0000",
+   "name": "UNION CHEMICALS LANKA PLC",
+   "reason": "median daily turnover Rs 0.20 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "UDPL.N0000",
+   "name": "UDAPUSSELLAWA PLANTATIONS PLC",
+   "reason": "median daily turnover Rs 0.06 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "VFIN.R0000",
+   "name": "VALLIBEL FINANCE PLC",
+   "reason": "not an ordinary share (rights)"
+  },
+  {
+   "symbol": "VLL.X0000",
+   "name": "VIDULLANKA PLC",
+   "reason": "median daily turnover Rs 0.19 mn < Rs 1.00 mn"
+  },
+  {
+   "symbol": "WLTH.N0000",
+   "name": "WEALTHTRUST SECURITIES PLC",
+   "reason": "history 41 weeks < 52"
+  }
+ ],
+ "needs_review": [
+  {
+   "id": "31382:COOP.N0000",
+   "symbol": "COOP.N0000",
+   "type": "cash_dividend",
+   "ex_date": "",
+   "amount_per_share": "0.05",
+   "ratio_new": "",
+   "ratio_held": "",
+   "factor": "",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "no dated dividend record found: add ex_date when confirming",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20Dividend%20Disclosure%20Amended_22928640723600278.pdf",
+   "affects_holdings": true,
+   "missed": false
+  },
+  {
+   "id": "35997:VFIN.N0000",
+   "symbol": "VFIN.N0000",
+   "type": "rights",
+   "ex_date": "2026-03-27",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "8",
+   "factor": "",
+   "subscription_price": "72",
+   "status": "needs_review",
+   "note": "ratio read from text: 'One (01) new Ordinary Voting share for every Eight (08) existing Ordinary Voting shares he'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20to%20CSE_46311144186899941.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "33477:LCEY.N0000",
+   "symbol": "LCEY.N0000",
+   "type": "rights",
+   "ex_date": "2025-10-16",
+   "amount_per_share": "",
+   "ratio_new": "",
+   "ratio_held": "",
+   "factor": "",
+   "subscription_price": "70",
+   "status": "needs_review",
+   "note": "ratio read from text: '1:3'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/lcl366-09242025142031_32494949127701174.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "32466:SFIN.N0000",
+   "symbol": "SFIN.N0000",
+   "type": "rights",
+   "ex_date": "2025-09-01",
+   "amount_per_share": "",
+   "ratio_new": "6",
+   "ratio_held": "16",
+   "factor": "",
+   "subscription_price": "26.5",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Six (06) New Ordinary Voting Shares for every Sixteen (16) existing Ordinary Voting Shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Singer%20Finance%20%28Lanka%29%20PLC%20-Announcement%20-Rights%20Issue%20Dates_28267338103596207.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "39304:SFIN.N0000",
+   "symbol": "SFIN.N0000",
+   "type": "rights",
+   "ex_date": "2026-10-16",
+   "amount_per_share": "",
+   "ratio_new": "8",
+   "ratio_held": "29",
+   "factor": "",
+   "subscription_price": "39.2",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Eight (8) New Ordinary Voting Shares for every Twenty Nine (29) existing Ordinary Voting S'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Singer%20Finance%20%28Lanka%29%20PLC%20-Rights%20Issue%20Dates_13120428806209786.pdf",
+   "affects_holdings": false,
+   "missed": true
+  },
+  {
+   "id": "36199:MERC.N0000",
+   "symbol": "MERC.N0000",
+   "type": "rights",
+   "ex_date": "2026-04-22",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "18",
+   "factor": "",
+   "subscription_price": "33",
+   "status": "needs_review",
+   "note": "ratio read from text: 'one (01) new ordinary share for every eighteen (18) existing ordinary shares held'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20dates_47446986353691013.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "32539:DOCK.N0000",
+   "symbol": "DOCK.N0000",
+   "type": "rights",
+   "ex_date": "2025-09-10",
+   "amount_per_share": "",
+   "ratio_new": "9",
+   "ratio_held": "2",
+   "factor": "",
+   "subscription_price": "40",
+   "status": "needs_review",
+   "note": "ratio read from text: 'nine (9) new ordinary voting shares for every two (2) existing ordinary voting shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/11d%29CSE%20Announcement-RI%20timeline-11Aug2025-to%20CSE_28699970877945210.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "34271:DOCK.N0000",
+   "symbol": "DOCK.N0000",
+   "type": "rights",
+   "ex_date": "2025-12-05",
+   "amount_per_share": "",
+   "ratio_new": "9",
+   "ratio_held": "2",
+   "factor": "",
+   "subscription_price": "40",
+   "status": "needs_review",
+   "note": "ratio read from text: 'nine (9) new ordinary voting shares for every two (2) existing ordinary voting shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/07Nov2025-CSE%20Announcement%20%28RI%20dates%29-F_36298780603554308.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35051:SFCL.N0000",
+   "symbol": "SFCL.N0000",
+   "type": "rights",
+   "ex_date": "2026-01-20",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "20",
+   "factor": "",
+   "subscription_price": "240",
+   "status": "needs_review",
+   "note": "ratio read from text: 'One (01) new Ordinary Share for every Twenty (20) existing Ordinary Shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20%28Rights%20Issue%20Dates%29_40807228884742259.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "33963:EBCR.N0000",
+   "symbol": "EBCR.N0000",
+   "type": "rights",
+   "ex_date": "2025-11-12",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "10",
+   "factor": "",
+   "subscription_price": "60",
+   "status": "needs_review",
+   "note": "ratio read from text: 'One (01) new Ordinary Share for every Ten (10) existing Ordinary Shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/EBCPLC%20-%20Disclosure%20dated%2017.10.2025_34489412446584585.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "32857:WAPO.N0000",
+   "symbol": "WAPO.N0000",
+   "type": "scrip",
+   "ex_date": "2025-09-22",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "42.05405405",
+   "factor": "1.02377892",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "share-count check FAILED",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Market%20Announcement%20for%20Scrip%20Dividend_30081105140802539.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "32768:KOTA.N0000",
+   "symbol": "KOTA.N0000",
+   "type": "rights",
+   "ex_date": "2025-09-17",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "4",
+   "factor": "",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "ratio read from text: '1 new share for every 4 existing shares'; subscription price not found",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/KPPLC-%20Rights%20Issue%20Dates_29647303594731122.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35245:ACME.N0000",
+   "symbol": "ACME.N0000",
+   "type": "rights",
+   "ex_date": "2026-02-05",
+   "amount_per_share": "",
+   "ratio_new": "6",
+   "ratio_held": "1",
+   "factor": "",
+   "subscription_price": "2.5",
+   "status": "needs_review",
+   "note": "ratio read from text: '06 new ordinary shares for every 01 existing ordinary share'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/RA-20%20to%20CSE-Rights%20Issue%20of%20shares-25%20%2812.01.26%29_42069353788251595.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35217:MFPE.N0000",
+   "symbol": "MFPE.N0000",
+   "type": "rights",
+   "ex_date": "2026-02-02",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "10",
+   "factor": "",
+   "subscription_price": "9",
+   "status": "needs_review",
+   "note": "ratio read from text: 'One (01) new Ordinary Share for every Ten (10) existing issued Ordinary Shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Letter%20to%20CSE%20-%2009.01.2025_41746542067129599.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "34575:TAP.N0000",
+   "symbol": "TAP.N0000",
+   "type": "cash_dividend",
+   "ex_date": "",
+   "amount_per_share": "1",
+   "ratio_new": "",
+   "ratio_held": "",
+   "factor": "",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "no dated dividend record found: add ex_date when confirming",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20on%20Dividend%20-%20revised_38103910203938606.pdf",
+   "affects_holdings": true,
+   "missed": false
+  },
+  {
+   "id": "37897:AAF.N0000",
+   "symbol": "AAF.N0000",
+   "type": "rights",
+   "ex_date": "2026-07-31",
+   "amount_per_share": "",
+   "ratio_new": "4",
+   "ratio_held": "11",
+   "factor": "",
+   "subscription_price": "33.3",
+   "status": "needs_review",
+   "note": "ratio read from text: '04 (Four) new Ordinary Voting Shares will be provisionally allotted to every 11 (Eleven) O'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Disclosure-Rights%20issue_5922409743961601.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35419:CBNK.N0000",
+   "symbol": "CBNK.N0000",
+   "type": "rights",
+   "ex_date": "2026-02-23",
+   "amount_per_share": "",
+   "ratio_new": "14",
+   "ratio_held": "45",
+   "factor": "",
+   "subscription_price": "8.5",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Fourteen (14) New Ordinary Shares for every Forty-Five (45) existing Ordinary Shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/23.01.2026%20-%20Rights%20issue%202026_42955078816476031.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35920:HAYL.N0000",
+   "symbol": "HAYL.N0000",
+   "type": "rights",
+   "ex_date": "2026-03-18",
+   "amount_per_share": "",
+   "ratio_new": "3",
+   "ratio_held": "50",
+   "factor": "",
+   "subscription_price": "200",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Three (3) new Ordinary Voting Shares for every Fifty (50) existing Ordinary Voting Shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Hayleys%20PLC%20-%20Rights%20Issue%20%28Dates%29%20-%2026.02.2026%20sgd_45891024838432502.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "36197:LVEF.N0000",
+   "symbol": "LVEF.N0000",
+   "type": "rights",
+   "ex_date": "2026-04-22",
+   "amount_per_share": "",
+   "ratio_new": "3",
+   "ratio_held": "31",
+   "factor": "",
+   "subscription_price": "7.5",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Three (03) new ordinary voting shares for every thirty one (31) ordinary voting shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/LVL%20-%20RI%20-%20Announcement%20-%20CSE%20%281%29_47445287005098943.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35715:KZOO.N0000",
+   "symbol": "KZOO.N0000",
+   "type": "rights",
+   "ex_date": "2026-03-04",
+   "amount_per_share": "",
+   "ratio_new": "2",
+   "ratio_held": "1",
+   "factor": "",
+   "subscription_price": "7",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Two (2) new Ordinary Voting Shares for every One (01) ordinary voting share'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CLE_RI_Disclosure_13022026_20260213_0001_44746328864154378.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "36348:ATL.N0000",
+   "symbol": "ATL.N0000",
+   "type": "rights",
+   "ex_date": "2026-04-17",
+   "amount_per_share": "",
+   "ratio_new": "3",
+   "ratio_held": "14",
+   "factor": "",
+   "subscription_price": "19",
+   "status": "needs_review",
+   "note": "ratio read from text: '03 Ordinary Voting share for every 14 existing Ordinary Voting shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%20-%20Dates%20to%20CSE_20260326_0001_48310802978913901.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35907:HNB.N0000",
+   "symbol": "HNB.N0000",
+   "type": "scrip",
+   "ex_date": "",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "107.29412199",
+   "factor": "1.00932018",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "no dated scrip record found: add ex_date when confirming",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45811315088505351.pdf",
+   "affects_holdings": true,
+   "missed": false
+  },
+  {
+   "id": "39027:CPRT.N0000",
+   "symbol": "CPRT.N0000",
+   "type": "rights",
+   "ex_date": "2026-10-05",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "4",
+   "factor": "",
+   "subscription_price": "40",
+   "status": "needs_review",
+   "note": "ratio read from text: 'One (01) New Ordinary Voting Share for every Four (04) existing Ordinary Voting Shares hel'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement%20-%20Rights%20Issue%20Dates_11733590680299175.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "36994:HNBF.N0000",
+   "symbol": "HNBF.N0000",
+   "type": "rights",
+   "ex_date": "2026-06-02",
+   "amount_per_share": "",
+   "ratio_new": "2",
+   "ratio_held": "9",
+   "factor": "",
+   "subscription_price": "5.5",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Two (2) New Ordinary Voting Shares for every Nine (09) Existing Ordinary Voting Shares hel'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Rights%20Issue%20Dates%20-%202026_1626983250008879.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "36994:HNBF.X0000",
+   "symbol": "HNBF.X0000",
+   "type": "rights",
+   "ex_date": "2026-06-02",
+   "amount_per_share": "",
+   "ratio_new": "2",
+   "ratio_held": "9",
+   "factor": "",
+   "subscription_price": "5",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Two (2) New Ordinary Non-Voting Shares for every Nine (09) Existing Ordinary Non-Voting Sh'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Rights%20Issue%20Dates%20-%202026_1626983250008879.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "37302:MBSL.N0000",
+   "symbol": "MBSL.N0000",
+   "type": "rights",
+   "ex_date": "2026-07-07",
+   "amount_per_share": "",
+   "ratio_new": "",
+   "ratio_held": "",
+   "factor": "",
+   "subscription_price": "10",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Four new Preference Shares for existing 21 ordinary shares'",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/2026.06.03-CSE%20Letter_3359355486620907.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "35907:HNB.X0000",
+   "symbol": "HNB.X0000",
+   "type": "scrip",
+   "ex_date": "",
+   "amount_per_share": "",
+   "ratio_new": "1",
+   "ratio_held": "92.58825607",
+   "factor": "1.01080051",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "no dated scrip record found: add ex_date when confirming",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Annoucement%20-%20Final%20Dividend%20for%20the%20financial%20year%20ended%2031.12.2025_45811315088505351.pdf",
+   "affects_holdings": true,
+   "missed": false
+  },
+  {
+   "id": "39546:TAJ.N0000",
+   "symbol": "TAJ.N0000",
+   "type": "rights",
+   "ex_date": "2026-10-30",
+   "amount_per_share": "",
+   "ratio_new": "42",
+   "ratio_held": "108",
+   "factor": "",
+   "subscription_price": "28",
+   "status": "needs_review",
+   "note": "ratio read from text: '42 new ordinary voting shares for every 108 existing Ordinary Voting shares'; terms in announcement 37941",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/TAL%20Lanka%20-announcement%20-%20Rights%20Dates%20-%20SGD_14159547748724320.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "39660:NTB.N0000",
+   "symbol": "NTB.N0000",
+   "type": "rights",
+   "ex_date": "2026-11-17",
+   "amount_per_share": "",
+   "ratio_new": "",
+   "ratio_held": "",
+   "factor": "",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "ratio read from text: '0'; subscription price not found",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/11.%20NTB%20-%20Announcement%20of%20Rights%20Issue%20Dates_14928124992291641.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "39660:NTB.X0000",
+   "symbol": "NTB.X0000",
+   "type": "rights",
+   "ex_date": "2026-11-17",
+   "amount_per_share": "",
+   "ratio_new": "3",
+   "ratio_held": "22",
+   "factor": "",
+   "subscription_price": "",
+   "status": "needs_review",
+   "note": "ratio read from text: '3 Ordinary Non-Voting Convertible shares for every 22 Ordinary Voting shares and /or Ordin'; subscription price not found",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/11.%20NTB%20-%20Announcement%20of%20Rights%20Issue%20Dates_14928124992291641.pdf",
+   "affects_holdings": false,
+   "missed": false
+  },
+  {
+   "id": "39673:CRL.N0000",
+   "symbol": "CRL.N0000",
+   "type": "rights",
+   "ex_date": "2026-11-16",
+   "amount_per_share": "",
+   "ratio_new": "",
+   "ratio_held": "",
+   "factor": "",
+   "subscription_price": "2.5",
+   "status": "needs_review",
+   "note": "ratio read from text: 'Every 12 Ordinary Voting Shares, be provisionally allotted 5 new Ordinary Voting shares'; terms in announcement 39199",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20ANNOUNCEMENT%20FOR%20RIGHT%20ISSUE_14939066109246526.pdf",
+   "affects_holdings": true,
+   "missed": false
+  },
+  {
+   "id": "39800:CARE.N0000",
+   "symbol": "CARE.N0000",
+   "type": "rights",
+   "ex_date": "2026-11-17",
+   "amount_per_share": "",
+   "ratio_new": "19",
+   "ratio_held": "70",
+   "factor": "",
+   "subscription_price": "30",
+   "status": "needs_review",
+   "note": "ratio read from text: '19 new Ordinary Voting shares for every 70 Ordinary Voting shares'; terms in announcement 39156",
+   "source_url": "https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20-%20CSE%20Announcement_20261028_0001_16056646723156638.pdf",
+   "affects_holdings": false,
+   "missed": false
+  }
+ ],
+ "actions_used": 372,
+ "labels": {
+  "min_variance": "Minimum variance",
+  "risk_parity": "Risk parity",
+  "max_sharpe": "Maximum Sharpe",
+  "equal_weight": "Equal weight",
+  "market": "Market (ASPI)",
+  "my_book": "My book"
+ },
+ "weeks_available": 55,
+ "group_labels": {
+  "AKBARBROTHERS": "Akbar Brothers Pvt Ltd",
+  "AKPATHIRAGE": "Mr. A K Pathirage",
+  "AMBEONCONSOLIDATED": "AMBEON CONSOLIDATED (PRIVATE) LIMITED",
+  "ASHTHIHOLDINGS": "Ashthi Holdings (Private) Limited",
+  "AWGUNAWARDENE": "Mr. A.W. Gunawardene",
+  "AXIATAINVESTMENTSLABUAN": "Axiata Investments (Labuan) Limited",
+  "BANKOFCEYLONNO1": "Bank of Ceylon-No. 1",
+  "BGINVESTMENTS": "B G INVESTMENTS (PVT) LIMITED",
+  "BRANDIXLANKANUMBER1": "Brandix Lanka Ltd-Number 1",
+  "BRITISHAMERICANTOBACCOINTERNATIONALHOLDINGSBV": "British American Tobacco International Holdings B.V.",
+  "CONSOLIDATEDTEAPLANTATIONS": "CONSOLIDATED TEA PLANTATIONS LIMITED",
+  "CULTUREFINANCIALHOLDINGS": "Culture Financial Holdings Ltd",
+  "EGNG": "MR. E.G. NG",
+  "EIGHTHWONDER": "EIGHTH WONDER",
+  "FIRSTCAPITAL": "FIRST CAPITAL LIMITED",
+  "GEORGESTEUARTANDCO": "GEORGE STEUART & CO LTD",
+  "GOVINDASAMYRAMANAN": "MR. GOVINDASAMY RAMANAN",
+  "GRPFERNANDO": "MR. G.R.P. FERNANDO",
+  "GTVGLOBALHOLDINGS": "G.T. V GLOBAL HOLDINGS (PRIVATE) LIMITED",
+  "HKJDHARMADASA": "Mr. H K J Dharmadasa",
+  "HNBINVESTMENTBANK": "HNB INVESTMENT BANK (PVT) LTD",
+  "HPDVHERATH": "MR. H.P.D.V. HERATH",
+  "HRSWIJERATNE": "Mr. H.R.S. Wijeratne",
+  "ICONICTRUST": "Iconic Trust (Private) Limited",
+  "INDIANOILCORPORATIONINDIA": "Indian Oil Corporation Limited, India",
+  "ISHARACHINTHAKANANAYAKKARA": "Ishara Chinthaka Nanayakkara",
+  "JZHASSEN": "J.Z. Hassen",
+  "KDDPERERA": "Mr. K.D.D. Perera",
+  "LAMUREPINVESTMENTS": "Lamurep Investments Limited",
+  "LANKACOMMODITYBROKERS": "Lanka Commodity Brokers Limited",
+  "LANKACREDITANDBUSINESS": "Lanka Credit and Business Limited",
+  "LANKAFLOORTILES": "LANKA FLOORTILES PLC",
+  "LANKAOLEXCABLES": "Lanka Olex Cables (Private) Ltd",
+  "LAUGFSHOLDINGS": "LAUGFS HOLDINGS LTD",
+  "LISTED:ABL": "AMANA BANK PLC",
+  "LISTED:ASHO": "LANKA ASHOK LEYLAND PLC",
+  "LISTED:ATL": "AMANA TAKAFUL  PLC",
+  "LISTED:BFL": "BAIRAHA FARMS PLC",
+  "LISTED:BOGA": "BOGALA GRAPHITE LANKA PLC",
+  "LISTED:CDB": "CITIZENS DEVELOPMENT BUSINESS FINANCE PLC",
+  "LISTED:CFIN": "CENTRAL FINANCE COMPANY PLC",
+  "LISTED:COMB": "COMMERCIAL BANK OF CEYLON PLC",
+  "LISTED:COOP": "CO-OPERATIVE INSURANCE COMPANY PLC",
+  "LISTED:DFCC": "DFCC BANK PLC",
+  "LISTED:DIMO": "DIESEL & MOTOR ENGINEERING PLC",
+  "LISTED:HBS": "HSENID BUSINESS SOLUTIONS PLC",
+  "LISTED:HDFC": "HOUSING DEVELOPMENT FINANCE CORPORATION BANK OF SRI LANKA",
+  "LISTED:HHL": "HEMAS HOLDINGS PLC",
+  "LISTED:HNB": "HATTON NATIONAL BANK PLC",
+  "LISTED:HNBF": "HNB FINANCE PLC",
+  "LISTED:JETS": "JETWING SYMPHONY PLC",
+  "LISTED:JKH": "JOHN KEELLS HOLDINGS PLC",
+  "LISTED:LALU": "LANKA ALUMINIUM INDUSTRIES PLC",
+  "LISTED:LLUB": "CHEVRON LUBRICANTS LANKA PLC",
+  "LISTED:MERC": "MERCANTILE INVESTMENTS AND FINANCE PLC",
+  "LISTED:NDB": "NATIONAL DEVELOPMENT BANK PLC",
+  "LISTED:SAMP": "SAMPATH BANK PLC",
+  "LISTED:SEYB": "SEYLAN BANK PLC",
+  "LISTED:SLTL": "SRI LANKA TELECOM PLC",
+  "LISTED:TKYO": "TOKYO CEMENT COMPANY (LANKA) PLC",
+  "LISTED:WAPO": "GALLE FACE CAPITAL PARTNERS PLC",
+  "LOLCCEYLONHOLDINGS": "LOLC Ceylon Holdings PLC",
+  "MAZAGONDOCKSHIPBUILDERS": "MAZAGON DOCK SHIPBUILDERS LIMITED",
+  "MILFORDEXPORTSCEYLON": "MILFORD EXPORTS (CEYLON) (PVT) LIMITED",
+  "MUTHOOTFINANCE": "MUTHOOT FINANCE LIMITED",
+  "ODEONHOLDINGSCEYLON": "Odeon Holdings (Ceylon) (Private) Ltd",
+  "PAINTSANDGENERALINDUSTRIES": "Paints & General Industries Limited",
+  "PEOPLESBANK": "PEOPLES' BANK",
+  "PRIMASINGAPORE": "Prima Limited, Singapore",
+  "PRIMELANDS": "Prime Lands (Pvt) Ltd",
+  "RAIGAMMARKETINGSERVICES": "RAIGAM MARKETING SERVICES (PVT) LTD",
+  "RENUKAENTERPRISES": "Renuka Enterprises (Private) Limited",
+  "RENUKAGROUP": "Renuka Group Ltd",
+  "RENUKALAND": "Renuka Land (Pvt) Ltd",
+  "RIYAZMSANGANI": "Mr. Riyaz M. Sangani",
+  "RKEPDESILVA": "Mr.R.K.E.P. de Silva",
+  "RPCPLANTATIONMANAGEMENTSERVICES": "RPC Plantation Management Services (Pvt) Ltd",
+  "RRTAKAHASHI": "MRS. R.R. TAKAHASHI",
+  "RUBBERINVESTMENTTRUST": "RUBBER INVESTMENT TRUST LTD",
+  "SCHAFFTERS": "Schaffters (Private) Limited",
+  "SENTHILVERLHOLDINGS": "Senthilverl Holdings (Pvt) Ltd",
+  "SHINGKWANINVESTMENTCO": "SHING KWAN INVESTMENT COMPANY LIMITED 1",
+  "SKYWORLDOVERSEASHOLDINGS": "Skyworld Overseas Holdings Limited",
+  "SUMALJSPERERA": "Mr Sumal.J.S. Perera",
+  "SUNSHINEWILMAR": "SUNSHINE WILMAR (PRIVATE) LIMITED",
+  "UGMADANAYAKE": "Mr. U. G. Madanayake",
+  "VALLIBELINVESTMENTS": "Vallibel Investments (Pvt) Limited",
+  "VALLIBELPOWER": "Vallibel Power Limited"
+ },
+ "stocks": [
+  {
+   "symbol": "AAF.N0000",
+   "sector": "Diversified Financials",
+   "group": "MUTHOOTFINANCE",
+   "er": 0.16390579729194632,
+   "vol": 0.37095649931250685,
+   "beta": 1.0817632881991053,
+   "beta_current": 1.1015517189652715,
+   "beta_lag": -0.019788430766166196,
+   "amihud": 0.0028679732806945937,
+   "median_turnover": 2395980.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.958392
+  },
+  {
+   "symbol": "AAIC.N0000",
+   "sector": "Insurance",
+   "group": "AKPATHIRAGE",
+   "er": 0.15771613781431099,
+   "vol": 0.35516244501762034,
+   "beta": 0.9786022969051829,
+   "beta_current": 1.0653427207367894,
+   "beta_lag": -0.08674042383160649,
+   "amihud": 0.0005785665945148815,
+   "median_turnover": 11162284.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.464913600000001
+  },
+  {
+   "symbol": "ABL.N0000",
+   "sector": "Banks",
+   "group": "LISTED:ABL",
+   "er": 0.14583668019584467,
+   "vol": 0.3299626897316026,
+   "beta": 0.7806113365974113,
+   "beta_current": 0.883838024036287,
+   "beta_lag": -0.10322668743887568,
+   "amihud": 0.0020477792247103137,
+   "median_turnover": 1943484.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.7773937599999999
+  },
+  {
+   "symbol": "ACL.N0000",
+   "sector": "Capital Goods",
+   "group": "UGMADANAYAKE",
+   "er": 0.17063330861859807,
+   "vol": 0.3562549230839878,
+   "beta": 1.1938884769766345,
+   "beta_current": 1.1975257247726696,
+   "beta_lag": -0.0036372477960350965,
+   "amihud": 0.00016337891726091167,
+   "median_turnover": 28720584.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 11.488233600000001
+  },
+  {
+   "symbol": "ACME.N0000",
+   "sector": "Materials",
+   "group": "SENTHILVERLHOLDINGS",
+   "er": 0.32314703207403783,
+   "vol": 1.1778125007725713,
+   "beta": 3.73578386790063,
+   "beta_current": 2.6031950969012336,
+   "beta_lag": 1.1325887709993963,
+   "amihud": 0.008917582385086876,
+   "median_turnover": 2118593.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.84743744
+  },
+  {
+   "symbol": "AEL.N0000",
+   "sector": "Capital Goods",
+   "group": "SUMALJSPERERA",
+   "er": 0.15860319161794043,
+   "vol": 0.3332562489601321,
+   "beta": 0.9933865269656738,
+   "beta_current": 1.0446138377301573,
+   "beta_lag": -0.051227310764483495,
+   "amihud": 0.00017111679891034873,
+   "median_turnover": 34002040.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 13.600816
+  },
+  {
+   "symbol": "AGST.N0000",
+   "sector": "Materials",
+   "group": "ISHARACHINTHAKANANAYAKKARA",
+   "er": 0.20754208647354833,
+   "vol": 0.4691690365643564,
+   "beta": 1.8090347745591389,
+   "beta_current": 1.4365432838320253,
+   "beta_lag": 0.37249149072711346,
+   "amihud": 0.001551246760031812,
+   "median_turnover": 4017590.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.60703616
+  },
+  {
+   "symbol": "AHUN.N0000",
+   "sector": "Consumer Services",
+   "group": "MILFORDEXPORTSCEYLON",
+   "er": 0.1919777350313721,
+   "vol": 0.3491299333832373,
+   "beta": 1.5496289171895354,
+   "beta_current": 1.3313894038962966,
+   "beta_lag": 0.21823951329323887,
+   "amihud": 0.0018289792910696399,
+   "median_turnover": 2270160.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.908064
+  },
+  {
+   "symbol": "ALLI.N0000",
+   "sector": "Diversified Financials",
+   "group": "RKEPDESILVA",
+   "er": 0.16140607833762707,
+   "vol": 0.30483162266113656,
+   "beta": 1.0401013056271178,
+   "beta_current": 0.8636387948067241,
+   "beta_lag": 0.1764625108203937,
+   "amihud": 0.003501134166818896,
+   "median_turnover": 1309607.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.523843
+  },
+  {
+   "symbol": "ALUM.N0000",
+   "sector": "Materials",
+   "group": "KDDPERERA",
+   "er": 0.1277054162230174,
+   "vol": 0.32675879673464286,
+   "beta": 0.4784236037169565,
+   "beta_current": 0.7448619839597994,
+   "beta_lag": -0.2664383802428429,
+   "amihud": 0.0018201210009091485,
+   "median_turnover": 2793916.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.1175664800000003
+  },
+  {
+   "symbol": "AMSL.N0000",
+   "sector": "Health Care Equipment & Services",
+   "group": "AKPATHIRAGE",
+   "er": 0.20808782436996337,
+   "vol": 0.7406802290262579,
+   "beta": 1.818130406166056,
+   "beta_current": 1.6932525031154955,
+   "beta_lag": 0.12487790305056042,
+   "amihud": 0.006131456440762876,
+   "median_turnover": 1170219.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.4680876
+  },
+  {
+   "symbol": "APLA.N0000",
+   "sector": "Materials",
+   "group": "UGMADANAYAKE",
+   "er": 0.18426542415955827,
+   "vol": 0.40006570874403846,
+   "beta": 1.421090402659304,
+   "beta_current": 1.4231505226349859,
+   "beta_lag": -0.0020601199756818283,
+   "amihud": 0.002533230817862335,
+   "median_turnover": 2610272.25,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.0441089
+  },
+  {
+   "symbol": "ASCO.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "EIGHTHWONDER",
+   "er": 0.2513257544015312,
+   "vol": 0.5010055636124258,
+   "beta": 2.5387625733588535,
+   "beta_current": 2.3505677794719126,
+   "beta_lag": 0.18819479388694074,
+   "amihud": 0.0010602161757806454,
+   "median_turnover": 9440032.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.7760128
+  },
+  {
+   "symbol": "ASHO.N0000",
+   "sector": "Capital Goods",
+   "group": "LISTED:ASHO",
+   "er": 0.20001327126478732,
+   "vol": 0.43597379028827526,
+   "beta": 1.6835545210797886,
+   "beta_current": 1.872020020408304,
+   "beta_lag": -0.18846549932851542,
+   "amihud": 0.005776479847496809,
+   "median_turnover": 1307675.25,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5230701
+  },
+  {
+   "symbol": "ASIR.N0000",
+   "sector": "Health Care Equipment & Services",
+   "group": "AKPATHIRAGE",
+   "er": 0.1766873603369758,
+   "vol": 0.4499876180636969,
+   "beta": 1.2947893389495966,
+   "beta_current": 1.2040769980386559,
+   "beta_lag": 0.09071234091094071,
+   "amihud": 0.00275597755107639,
+   "median_turnover": 2606040.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.042416
+  },
+  {
+   "symbol": "ASIY.N0000",
+   "sector": "Diversified Financials",
+   "group": "LANKACOMMODITYBROKERS",
+   "er": 0.22944313440333303,
+   "vol": 0.6431889750204935,
+   "beta": 2.1740522400555506,
+   "beta_current": 2.3186427418936164,
+   "beta_lag": -0.14459050183806582,
+   "amihud": 0.002384118194897891,
+   "median_turnover": 4810029.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.9240118
+  },
+  {
+   "symbol": "ASPH.N0000",
+   "sector": "Materials",
+   "group": "GOVINDASAMYRAMANAN",
+   "er": 0.2537776870620899,
+   "vol": 0.9103708928341736,
+   "beta": 2.5796281177014984,
+   "beta_current": 1.0748097007109496,
+   "beta_lag": 1.5048184169905487,
+   "amihud": 0.01419010943158572,
+   "median_turnover": 1238945.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.49557816
+  },
+  {
+   "symbol": "ATL.N0000",
+   "sector": "Insurance",
+   "group": "LISTED:ATL",
+   "er": 0.1739638341661478,
+   "vol": 0.3905253219894689,
+   "beta": 1.249397236102463,
+   "beta_current": 1.1683936867231335,
+   "beta_lag": 0.08100354937932958,
+   "amihud": 0.0054509354888341525,
+   "median_turnover": 1261092.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5044368
+  },
+  {
+   "symbol": "BFL.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "LISTED:BFL",
+   "er": 0.18813696369386623,
+   "vol": 0.4067566268186912,
+   "beta": 1.4856160615644372,
+   "beta_current": 1.6552616352400553,
+   "beta_lag": -0.16964557367561825,
+   "amihud": 0.0009409639582061606,
+   "median_turnover": 6797397.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.7189588000000002
+  },
+  {
+   "symbol": "BIL.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "ISHARACHINTHAKANANAYAKKARA",
+   "er": 0.15403099641106094,
+   "vol": 0.3211562659438375,
+   "beta": 0.9171832735176824,
+   "beta_current": 0.9666758146927696,
+   "beta_lag": -0.04949254117508724,
+   "amihud": 0.00033564266085717956,
+   "median_turnover": 13077659.7,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.23106388
+  },
+  {
+   "symbol": "BOGA.N0000",
+   "sector": "Materials",
+   "group": "LISTED:BOGA",
+   "er": 0.26700134626748806,
+   "vol": 0.8026566753513894,
+   "beta": 2.800022437791468,
+   "beta_current": 2.612070206708649,
+   "beta_lag": 0.18795223108281925,
+   "amihud": 0.0027745909581243493,
+   "median_turnover": 2545512.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.0182048
+  },
+  {
+   "symbol": "BRWN.N0000",
+   "sector": "Capital Goods",
+   "group": "ISHARACHINTHAKANANAYAKKARA",
+   "er": 0.16510391712650252,
+   "vol": 0.3741128895763822,
+   "beta": 1.101731952108375,
+   "beta_current": 1.0846908886887123,
+   "beta_lag": 0.01704106341966266,
+   "amihud": 0.002938469282763164,
+   "median_turnover": 2037337.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.8149348
+  },
+  {
+   "symbol": "CALH.N0000",
+   "sector": "Diversified Financials",
+   "group": "ASHTHIHOLDINGS",
+   "er": 0.14583699538978284,
+   "vol": 0.3140542327851649,
+   "beta": 0.780616589829714,
+   "beta_current": 0.7725315870733843,
+   "beta_lag": 0.008085002756329729,
+   "amihud": 0.0024297941390188154,
+   "median_turnover": 2212921.7,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.88516868
+  },
+  {
+   "symbol": "CALT.N0000",
+   "sector": "Diversified Financials",
+   "group": "ASHTHIHOLDINGS",
+   "er": 0.14457597242020503,
+   "vol": 0.3636390253866998,
+   "beta": 0.7595995403367506,
+   "beta_current": 0.6049827911944765,
+   "beta_lag": 0.15461674914227413,
+   "amihud": 0.0017379416684219098,
+   "median_turnover": 2276872.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.9107488
+  },
+  {
+   "symbol": "CBNK.N0000",
+   "sector": "Banks",
+   "group": "ODEONHOLDINGSCEYLON",
+   "er": 0.12169201188650607,
+   "vol": 0.2788939838987359,
+   "beta": 0.37820019810843436,
+   "beta_current": 0.463607613959322,
+   "beta_lag": -0.08540741585088761,
+   "amihud": 0.0010803953099275316,
+   "median_turnover": 3847256.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.5389025600000001
+  },
+  {
+   "symbol": "CCS.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "LISTED:JKH",
+   "er": 0.14151265748877773,
+   "vol": 0.3326226631103152,
+   "beta": 0.7085442914796289,
+   "beta_current": 1.0051572849951893,
+   "beta_lag": -0.2966129935155604,
+   "amihud": 0.000435821242043024,
+   "median_turnover": 13092057.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.2368228000000006
+  },
+  {
+   "symbol": "CDB.X0000",
+   "sector": "Diversified Financials",
+   "group": "LISTED:CDB",
+   "er": 0.16861625114427792,
+   "vol": 0.337921198663252,
+   "beta": 1.160270852404632,
+   "beta_current": 1.0472371963441096,
+   "beta_lag": 0.11303365606052239,
+   "amihud": 0.0024631047756988778,
+   "median_turnover": 1794339.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.7177356800000001
+  },
+  {
+   "symbol": "CFIN.N0000",
+   "sector": "Diversified Financials",
+   "group": "LISTED:CFIN",
+   "er": 0.1726292468548929,
+   "vol": 0.32077199617926144,
+   "beta": 1.2271541142482145,
+   "beta_current": 1.049217551125047,
+   "beta_lag": 0.1779365631231674,
+   "amihud": 0.0005574474190652428,
+   "median_turnover": 6881382.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.7525528000000006
+  },
+  {
+   "symbol": "CFVF.N0000",
+   "sector": "Diversified Financials",
+   "group": "SCHAFFTERS",
+   "er": 0.17340915793985806,
+   "vol": 0.3513910153511072,
+   "beta": 1.2401526323309675,
+   "beta_current": 1.368235067016554,
+   "beta_lag": -0.12808243468558653,
+   "amihud": 0.0024920813317093884,
+   "median_turnover": 3311443.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.3245772800000002
+  },
+  {
+   "symbol": "CIC.N0000",
+   "sector": "Materials",
+   "group": "PAINTSANDGENERALINDUSTRIES",
+   "er": 0.18093562211774628,
+   "vol": 0.33728424508569477,
+   "beta": 1.3655937019624378,
+   "beta_current": 1.2770603463171541,
+   "beta_lag": 0.08853335564528372,
+   "amihud": 0.00039774142103113044,
+   "median_turnover": 12884991.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.15399672
+  },
+  {
+   "symbol": "CIC.X0000",
+   "sector": "Materials",
+   "group": "PAINTSANDGENERALINDUSTRIES",
+   "er": 0.17368283963817358,
+   "vol": 0.3527622009911147,
+   "beta": 1.2447139939695595,
+   "beta_current": 1.3062834513906925,
+   "beta_lag": -0.061569457421132984,
+   "amihud": 0.0005171762910685698,
+   "median_turnover": 10615384.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.2461536
+  },
+  {
+   "symbol": "CIND.N0000",
+   "sector": "Capital Goods",
+   "group": "LISTED:CFIN",
+   "er": 0.15829252966464208,
+   "vol": 0.33954601990534045,
+   "beta": 0.9882088277440348,
+   "beta_current": 1.089229289821703,
+   "beta_lag": -0.1010204620776682,
+   "amihud": 0.0021180093824422386,
+   "median_turnover": 2533182.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.0132728
+  },
+  {
+   "symbol": "CINV.N0000",
+   "sector": "Diversified Financials",
+   "group": "RUBBERINVESTMENTTRUST",
+   "er": 0.16519964865843828,
+   "vol": 0.37198223307309636,
+   "beta": 1.103327477640638,
+   "beta_current": 1.4594177160539576,
+   "beta_lag": -0.3560902384133195,
+   "amihud": 0.0068544250389816225,
+   "median_turnover": 1364724.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5458896
+  },
+  {
+   "symbol": "CITH.N0000",
+   "sector": "Consumer Services",
+   "group": "GEORGESTEUARTANDCO",
+   "er": 0.21217582105069277,
+   "vol": 0.5979567165917486,
+   "beta": 1.8862636841782126,
+   "beta_current": 1.7700070314619962,
+   "beta_lag": 0.11625665271621627,
+   "amihud": 0.0034562856043502174,
+   "median_turnover": 3047220.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.218888
+  },
+  {
+   "symbol": "CLND.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "EGNG",
+   "er": 0.17131267680716378,
+   "vol": 0.4165434660095799,
+   "beta": 1.2052112801193964,
+   "beta_current": 1.147765953039133,
+   "beta_lag": 0.05744532708026323,
+   "amihud": 0.0020373122643600598,
+   "median_turnover": 3795883.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.5183532000000002
+  },
+  {
+   "symbol": "COCO.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "RENUKAENTERPRISES",
+   "er": 0.2423619465682781,
+   "vol": 0.5733161279165871,
+   "beta": 2.3893657761379687,
+   "beta_current": 2.1126001839075688,
+   "beta_lag": 0.27676559223039987,
+   "amihud": 0.004572132826624536,
+   "median_turnover": 2786605.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.1146423200000002
+  },
+  {
+   "symbol": "COCR.N0000",
+   "sector": "Diversified Financials",
+   "group": "BGINVESTMENTS",
+   "er": 0.16332729709351035,
+   "vol": 0.3695532521318023,
+   "beta": 1.0721216182251725,
+   "beta_current": 1.377202991830937,
+   "beta_lag": -0.3050813736057645,
+   "amihud": 0.0005832887733575173,
+   "median_turnover": 12522770.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.009108
+  },
+  {
+   "symbol": "COMB.N0000",
+   "sector": "Banks",
+   "group": "LISTED:COMB",
+   "er": 0.16585875314679865,
+   "vol": 0.3098818998581167,
+   "beta": 1.114312552446644,
+   "beta_current": 1.125453909657599,
+   "beta_lag": -0.011141357210955211,
+   "amihud": 4.8552860682071246e-05,
+   "median_turnover": 55424952.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 22.1699808
+  },
+  {
+   "symbol": "COMB.X0000",
+   "sector": "Banks",
+   "group": "LISTED:COMB",
+   "er": 0.14560794263086407,
+   "vol": 0.3094056977584331,
+   "beta": 0.7767990438477342,
+   "beta_current": 0.9937122209875445,
+   "beta_lag": -0.21691317713981031,
+   "amihud": 0.0004272465223382611,
+   "median_turnover": 8336138.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.3344554000000004
+  },
+  {
+   "symbol": "COOP.N0000",
+   "sector": "Insurance",
+   "group": "LISTED:COOP",
+   "er": 0.15956538421847427,
+   "vol": 0.4464087014075086,
+   "beta": 1.0094230703079046,
+   "beta_current": 1.5564360425519634,
+   "beta_lag": -0.5470129722440589,
+   "amihud": 0.0019312567162547679,
+   "median_turnover": 3527613.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.4110452800000002
+  },
+  {
+   "symbol": "CRL.N0000",
+   "sector": "Diversified Financials",
+   "group": "AKPATHIRAGE",
+   "er": 0.15559150098841945,
+   "vol": 0.5487704131957941,
+   "beta": 0.9431916831403242,
+   "beta_current": 1.403030356492053,
+   "beta_lag": -0.45983867335172884,
+   "amihud": 0.00636594680461798,
+   "median_turnover": 1436103.9,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.57444156
+  },
+  {
+   "symbol": "CSLK.N0000",
+   "sector": "Capital Goods",
+   "group": "UGMADANAYAKE",
+   "er": 0.16309011332923426,
+   "vol": 0.3451434859102184,
+   "beta": 1.0681685554872375,
+   "beta_current": 0.9954700833989005,
+   "beta_lag": 0.07269847208833694,
+   "amihud": 0.0022560077852425593,
+   "median_turnover": 2862417.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.14496704
+  },
+  {
+   "symbol": "CTC.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "BRITISHAMERICANTOBACCOINTERNATIONALHOLDINGSBV",
+   "er": 0.10901289137967303,
+   "vol": 0.2575023248545237,
+   "beta": 0.1668815229945505,
+   "beta_current": 0.1952409599798103,
+   "beta_lag": -0.02835943698525982,
+   "amihud": 0.0003784798083620416,
+   "median_turnover": 2807000.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.1228
+  },
+  {
+   "symbol": "DFCC.N0000",
+   "sector": "Banks",
+   "group": "LISTED:DFCC",
+   "er": 0.15735399153502605,
+   "vol": 0.31622434140301475,
+   "beta": 0.9725665255837673,
+   "beta_current": 1.092403568076505,
+   "beta_lag": -0.11983704249273766,
+   "amihud": 0.00035106422513925863,
+   "median_turnover": 13017059.25,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.2068237
+  },
+  {
+   "symbol": "DIAL.N0000",
+   "sector": "Telecommunication Services",
+   "group": "AXIATAINVESTMENTSLABUAN",
+   "er": 0.1697432086842817,
+   "vol": 0.3598823054052092,
+   "beta": 1.1790534780713615,
+   "beta_current": 1.169283234702379,
+   "beta_lag": 0.009770243368982641,
+   "amihud": 0.0002054600647291628,
+   "median_turnover": 25962437.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 10.384975
+  },
+  {
+   "symbol": "DIMO.N0000",
+   "sector": "Retailing",
+   "group": "LISTED:DIMO",
+   "er": 0.1731172870057428,
+   "vol": 0.3897212948613854,
+   "beta": 1.2352881167623797,
+   "beta_current": 1.3648303448725394,
+   "beta_lag": -0.12954222811015975,
+   "amihud": 0.004003162531607401,
+   "median_turnover": 1411813.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5647252
+  },
+  {
+   "symbol": "DIPD.N0000",
+   "sector": "Materials",
+   "group": "KDDPERERA",
+   "er": 0.16146896169945615,
+   "vol": 0.3259864550235391,
+   "beta": 1.0411493616576026,
+   "beta_current": 0.9363198939135159,
+   "beta_lag": 0.10482946774408684,
+   "amihud": 0.0004159542270602562,
+   "median_turnover": 10616712.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.24668488
+  },
+  {
+   "symbol": "DIST.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "MILFORDEXPORTSCEYLON",
+   "er": 0.14046913829758462,
+   "vol": 0.3127505478047754,
+   "beta": 0.6911523049597437,
+   "beta_current": 0.8660804620359878,
+   "beta_lag": -0.17492815707624407,
+   "amihud": 0.0009966649699741285,
+   "median_turnover": 3619299.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.44771984
+  },
+  {
+   "symbol": "DOCK.N0000",
+   "sector": "Capital Goods",
+   "group": "MAZAGONDOCKSHIPBUILDERS",
+   "er": 0.16272796608362833,
+   "vol": 0.8273391509099918,
+   "beta": 1.0621327680604724,
+   "beta_current": 1.476177971345148,
+   "beta_lag": -0.4140452032846756,
+   "amihud": 0.000293174419613008,
+   "median_turnover": 44054862.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 17.621945
+  },
+  {
+   "symbol": "EAST.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "KDDPERERA",
+   "er": 0.16816668623310027,
+   "vol": 0.39877746417805365,
+   "beta": 1.1527781038850045,
+   "beta_current": 1.2012553620117083,
+   "beta_lag": -0.048477258126704,
+   "amihud": 0.007200474821734872,
+   "median_turnover": 2128234.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.8512938
+  },
+  {
+   "symbol": "EBCR.N0000",
+   "sector": "Capital Goods",
+   "group": "SENTHILVERLHOLDINGS",
+   "er": 0.15778233176629064,
+   "vol": 0.33594517850456596,
+   "beta": 0.979705529438177,
+   "beta_current": 1.0368582352643392,
+   "beta_lag": -0.057152705826162165,
+   "amihud": 0.0027903087426183223,
+   "median_turnover": 1495815.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.59832608
+  },
+  {
+   "symbol": "FCT.N0000",
+   "sector": "Diversified Financials",
+   "group": "FIRSTCAPITAL",
+   "er": 0.13197527922274907,
+   "vol": 0.3524726593669145,
+   "beta": 0.5495879870458177,
+   "beta_current": 0.8548042350693761,
+   "beta_lag": -0.3052162480235584,
+   "amihud": 0.003598270657698151,
+   "median_turnover": 1297582.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5190328
+  },
+  {
+   "symbol": "GRAN.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "PRIMASINGAPORE",
+   "er": 0.20381671485741543,
+   "vol": 0.3731361719383054,
+   "beta": 1.7469452476235903,
+   "beta_current": 1.5346477427295098,
+   "beta_lag": 0.21229750489408042,
+   "amihud": 0.0009967260938600054,
+   "median_turnover": 4526400.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.81056
+  },
+  {
+   "symbol": "HASU.N0000",
+   "sector": "Insurance",
+   "group": "LISTED:HNB",
+   "er": 0.1373170503933895,
+   "vol": 0.36063259096626926,
+   "beta": 0.638617506556492,
+   "beta_current": 0.7927493237203194,
+   "beta_lag": -0.15413181716382737,
+   "amihud": 0.0026615102850541276,
+   "median_turnover": 2395590.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.958236
+  },
+  {
+   "symbol": "HAYC.N0000",
+   "sector": "Materials",
+   "group": "KDDPERERA",
+   "er": 0.18514333216010423,
+   "vol": 0.35720653615609393,
+   "beta": 1.4357222026684038,
+   "beta_current": 0.9949970919168187,
+   "beta_lag": 0.44072511075158505,
+   "amihud": 0.00044382773225938674,
+   "median_turnover": 14018331.75,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.6073327
+  },
+  {
+   "symbol": "HAYL.N0000",
+   "sector": "Capital Goods",
+   "group": "KDDPERERA",
+   "er": 0.17617711949350084,
+   "vol": 0.34683653239480844,
+   "beta": 1.2862853248916806,
+   "beta_current": 1.1366536748379823,
+   "beta_lag": 0.14963165005369827,
+   "amihud": 0.00013034910122190256,
+   "median_turnover": 20716833.75,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 8.2867335
+  },
+  {
+   "symbol": "HBS.N0000",
+   "sector": "Software & Services",
+   "group": "LISTED:HBS",
+   "er": 0.24727421487471274,
+   "vol": 0.4824829601021437,
+   "beta": 2.4712369145785456,
+   "beta_current": 1.6884778866270782,
+   "beta_lag": 0.7827590279514672,
+   "amihud": 0.0020822429872691672,
+   "median_turnover": 6402150.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.56086
+  },
+  {
+   "symbol": "HDFC.N0000",
+   "sector": "Banks",
+   "group": "LISTED:HDFC",
+   "er": 0.2604174880914118,
+   "vol": 0.6243695148291504,
+   "beta": 2.6902914681901966,
+   "beta_current": 2.193772752260174,
+   "beta_lag": 0.4965187159300224,
+   "amihud": 0.005214841176934938,
+   "median_turnover": 2015301.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.8061206000000001
+  },
+  {
+   "symbol": "HEXP.N0000",
+   "sector": "Consumer Durables & Apparel",
+   "group": "KDDPERERA",
+   "er": 0.2331086480704999,
+   "vol": 0.5517142495165325,
+   "beta": 2.235144134508332,
+   "beta_current": 1.9191526648413912,
+   "beta_lag": 0.31599146966694086,
+   "amihud": 0.004105015221374784,
+   "median_turnover": 2472660.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.989064
+  },
+  {
+   "symbol": "HHL.N0000",
+   "sector": "Capital Goods",
+   "group": "LISTED:HHL",
+   "er": 0.1589800579894788,
+   "vol": 0.31248588472474575,
+   "beta": 0.9996676331579801,
+   "beta_current": 1.043537031678854,
+   "beta_lag": -0.043869398520873834,
+   "amihud": 0.0001645027135706487,
+   "median_turnover": 23778073.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 9.511229520000002
+  },
+  {
+   "symbol": "HNB.N0000",
+   "sector": "Banks",
+   "group": "LISTED:HNB",
+   "er": 0.15898621667701623,
+   "vol": 0.2993949500162887,
+   "beta": 0.9997702779502705,
+   "beta_current": 0.9725854046821737,
+   "beta_lag": 0.02718487326809679,
+   "amihud": 7.000522575055087e-05,
+   "median_turnover": 35490385.75,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 14.1961543
+  },
+  {
+   "symbol": "HNB.X0000",
+   "sector": "Banks",
+   "group": "LISTED:HNB",
+   "er": 0.18573133479666998,
+   "vol": 0.3264183766311701,
+   "beta": 1.4455222466111666,
+   "beta_current": 1.2895397367993564,
+   "beta_lag": 0.1559825098118102,
+   "amihud": 0.00017247186131902112,
+   "median_turnover": 28479172.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 11.3916688
+  },
+  {
+   "symbol": "HNBF.N0000",
+   "sector": "Diversified Financials",
+   "group": "LISTED:HNBF",
+   "er": 0.15574202620075844,
+   "vol": 0.44802394438291565,
+   "beta": 0.9457004366793074,
+   "beta_current": 1.4371651382010793,
+   "beta_lag": -0.49146470152177185,
+   "amihud": 0.0009620832501525696,
+   "median_turnover": 8514333.3,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.4057333200000004
+  },
+  {
+   "symbol": "HVA.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "GEORGESTEUARTANDCO",
+   "er": 0.06793686757811082,
+   "vol": 0.7749727654252555,
+   "beta": -0.5177188736981531,
+   "beta_current": 1.184025906742361,
+   "beta_lag": -1.7017447804405141,
+   "amihud": 0.008493084641186975,
+   "median_turnover": 1587525.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.63501
+  },
+  {
+   "symbol": "JAT.N0000",
+   "sector": "Materials",
+   "group": "AWGUNAWARDENE",
+   "er": 0.13887041167572223,
+   "vol": 0.3371412993359304,
+   "beta": 0.6645068612620368,
+   "beta_current": 0.912717157207735,
+   "beta_lag": -0.24821029594569818,
+   "amihud": 0.0010691651406448395,
+   "median_turnover": 6355757.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.5423030399999997
+  },
+  {
+   "symbol": "JETS.N0000",
+   "sector": "Consumer Services",
+   "group": "LISTED:JETS",
+   "er": 0.1477175966240203,
+   "vol": 0.375476645269631,
+   "beta": 0.8119599437336713,
+   "beta_current": 1.0516186406686345,
+   "beta_lag": -0.23965869693496322,
+   "amihud": 0.0017591571079492233,
+   "median_turnover": 2588845.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.03553824
+  },
+  {
+   "symbol": "JINS.N0000",
+   "sector": "Insurance",
+   "group": "SCHAFFTERS",
+   "er": 0.20934709965722798,
+   "vol": 0.3936216561855577,
+   "beta": 1.8391183276204661,
+   "beta_current": 1.518633539604656,
+   "beta_lag": 0.32048478801581015,
+   "amihud": 0.002004392483995698,
+   "median_turnover": 4161230.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.664492
+  },
+  {
+   "symbol": "JKH.N0000",
+   "sector": "Capital Goods",
+   "group": "LISTED:JKH",
+   "er": 0.16666070092753085,
+   "vol": 0.30426316807360737,
+   "beta": 1.1276783487921809,
+   "beta_current": 0.9993057850683285,
+   "beta_lag": 0.12837256372385253,
+   "amihud": 3.0232269547345044e-05,
+   "median_turnover": 103082158.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 41.23286352
+  },
+  {
+   "symbol": "KCAB.N0000",
+   "sector": "Capital Goods",
+   "group": "LANKAOLEXCABLES",
+   "er": 0.18170344748164088,
+   "vol": 0.3792303911518394,
+   "beta": 1.3783907913606814,
+   "beta_current": 1.3004097797535756,
+   "beta_lag": 0.07798101160710588,
+   "amihud": 0.0011376431993350236,
+   "median_turnover": 4947360.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.978944
+  },
+  {
+   "symbol": "KHL.N0000",
+   "sector": "Consumer Services",
+   "group": "LISTED:JKH",
+   "er": 0.1585114268409133,
+   "vol": 0.35304193865272815,
+   "beta": 0.9918571140152214,
+   "beta_current": 1.1090506280733665,
+   "beta_lag": -0.11719351405814517,
+   "amihud": 0.0014477914250561241,
+   "median_turnover": 3465537.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.38621496
+  },
+  {
+   "symbol": "KOTA.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "CONSOLIDATEDTEAPLANTATIONS",
+   "er": 0.17062020531724692,
+   "vol": 0.37907767709446455,
+   "beta": 1.1936700886207823,
+   "beta_current": 1.4586951345097585,
+   "beta_lag": -0.2650250458889763,
+   "amihud": 0.0033470491606905437,
+   "median_turnover": 2646610.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.058644
+  },
+  {
+   "symbol": "KPHL.N0000",
+   "sector": "Retailing",
+   "group": "HPDVHERATH",
+   "er": 0.30482740498103533,
+   "vol": 0.7919475093067603,
+   "beta": 3.430456749683922,
+   "beta_current": 2.7407949050331815,
+   "beta_lag": 0.6896618446507405,
+   "amihud": 0.010323275794500921,
+   "median_turnover": 1639275.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.65571016
+  },
+  {
+   "symbol": "KZOO.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "RENUKALAND",
+   "er": 0.2772571722433981,
+   "vol": 0.7372356725264692,
+   "beta": 2.970952870723301,
+   "beta_current": 2.50066917133843,
+   "beta_lag": 0.470283699384871,
+   "amihud": 0.002181246831959089,
+   "median_turnover": 6640746.1,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.65629844
+  },
+  {
+   "symbol": "LALU.N0000",
+   "sector": "Materials",
+   "group": "LISTED:LALU",
+   "er": 0.15958603722350279,
+   "vol": 0.362999592839133,
+   "beta": 1.0097672870583798,
+   "beta_current": 1.2619487136920675,
+   "beta_lag": -0.2521814266336878,
+   "amihud": 0.005122016236027518,
+   "median_turnover": 1411666.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.56466648
+  },
+  {
+   "symbol": "LCBF.N0000",
+   "sector": "Diversified Financials",
+   "group": "LANKACREDITANDBUSINESS",
+   "er": 0.17218948218774188,
+   "vol": 0.5775728734139781,
+   "beta": 1.2198247031290315,
+   "beta_current": 1.982293638072177,
+   "beta_lag": -0.7624689349431454,
+   "amihud": 0.001278756164016976,
+   "median_turnover": 8453250.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.3813
+  },
+  {
+   "symbol": "LFIN.N0000",
+   "sector": "Diversified Financials",
+   "group": "KDDPERERA",
+   "er": 0.18393619448912657,
+   "vol": 0.3169671867780031,
+   "beta": 1.4156032414854427,
+   "beta_current": 1.0377293152285172,
+   "beta_lag": 0.37787392625692556,
+   "amihud": 0.00046284726149131787,
+   "median_turnover": 6222441.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.4889764
+  },
+  {
+   "symbol": "LGL.N0000",
+   "sector": "Energy",
+   "group": "LAUGFSHOLDINGS",
+   "er": 0.21034348574500558,
+   "vol": 0.421066029591416,
+   "beta": 1.8557247624167597,
+   "beta_current": 1.6477899416672785,
+   "beta_lag": 0.20793482074948108,
+   "amihud": 0.0034707792484754496,
+   "median_turnover": 3849049.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.5396196
+  },
+  {
+   "symbol": "LIOC.N0000",
+   "sector": "Energy",
+   "group": "INDIANOILCORPORATIONINDIA",
+   "er": 0.13657371439554075,
+   "vol": 0.2856253841189895,
+   "beta": 0.6262285732590125,
+   "beta_current": 0.45420078647849155,
+   "beta_lag": 0.17202778678052089,
+   "amihud": 0.00021759343314846604,
+   "median_turnover": 13124844.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.249937600000001
+  },
+  {
+   "symbol": "LLUB.N0000",
+   "sector": "Materials",
+   "group": "LISTED:LLUB",
+   "er": 0.14824146748521916,
+   "vol": 0.2819583061516883,
+   "beta": 0.8206911247536524,
+   "beta_current": 0.7136992798041346,
+   "beta_lag": 0.10699184494951776,
+   "amihud": 0.00022546881345558866,
+   "median_turnover": 7100320.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.840128
+  },
+  {
+   "symbol": "LMF.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "MILFORDEXPORTSCEYLON",
+   "er": 0.14771182656221452,
+   "vol": 0.38819911189555517,
+   "beta": 0.8118637760369085,
+   "beta_current": 1.3335160724505424,
+   "beta_lag": -0.5216522964136339,
+   "amihud": 0.0002480389483939908,
+   "median_turnover": 22884547.1,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 9.153818840000001
+  },
+  {
+   "symbol": "LOFC.N0000",
+   "sector": "Diversified Financials",
+   "group": "LOLCCEYLONHOLDINGS",
+   "er": 0.15471122705172963,
+   "vol": 0.33356966839519014,
+   "beta": 0.9285204508621603,
+   "beta_current": 0.9066969104133039,
+   "beta_lag": 0.021823540448856385,
+   "amihud": 0.0008703616615300091,
+   "median_turnover": 5254253.3,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.10170132
+  },
+  {
+   "symbol": "LOLC.N0000",
+   "sector": "Diversified Financials",
+   "group": "ISHARACHINTHAKANANAYAKKARA",
+   "er": 0.14805615917704681,
+   "vol": 0.2986100763291409,
+   "beta": 0.8176026529507803,
+   "beta_current": 0.6580502475304776,
+   "beta_lag": 0.15955240542030272,
+   "amihud": 0.00044206424208742426,
+   "median_turnover": 11423520.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.569408
+  },
+  {
+   "symbol": "LUMX.N0000",
+   "sector": "Capital Goods",
+   "group": "GRPFERNANDO",
+   "er": 0.16259623964123493,
+   "vol": 0.561122710328686,
+   "beta": 1.0599373273539157,
+   "beta_current": 1.3505105061131637,
+   "beta_lag": -0.29057317875924815,
+   "amihud": 0.005494696069184615,
+   "median_turnover": 1487533.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5950135200000001
+  },
+  {
+   "symbol": "LVEF.N0000",
+   "sector": "Utilities",
+   "group": "HNBINVESTMENTBANK",
+   "er": 0.15755019550231542,
+   "vol": 0.37861924374325046,
+   "beta": 0.975836591705257,
+   "beta_current": 1.3190554045334544,
+   "beta_lag": -0.34321881282819733,
+   "amihud": 0.001766555851769288,
+   "median_turnover": 4685428.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.87417152
+  },
+  {
+   "symbol": "LWL.N0000",
+   "sector": "Capital Goods",
+   "group": "KDDPERERA",
+   "er": 0.16599850677730354,
+   "vol": 0.3555831820967925,
+   "beta": 1.1166417796217256,
+   "beta_current": 1.2058011830588238,
+   "beta_lag": -0.08915940343709816,
+   "amihud": 0.006571710049916928,
+   "median_turnover": 1165437.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.46617504000000004
+  },
+  {
+   "symbol": "MBSL.N0000",
+   "sector": "Diversified Financials",
+   "group": "BANKOFCEYLONNO1",
+   "er": 0.20482177109008365,
+   "vol": 0.5600824416007474,
+   "beta": 1.7636961848347272,
+   "beta_current": 1.9314621218884083,
+   "beta_lag": -0.1677659370536811,
+   "amihud": 0.007977827270527248,
+   "median_turnover": 1445602.1,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5782408400000001
+  },
+  {
+   "symbol": "MELS.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "MILFORDEXPORTSCEYLON",
+   "er": 0.1497108917098045,
+   "vol": 0.289371163167612,
+   "beta": 0.8451815284967419,
+   "beta_current": 0.8287325254604684,
+   "beta_lag": 0.01644900303627355,
+   "amihud": 0.00038694160823508217,
+   "median_turnover": 10298136.75,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.1192547
+  },
+  {
+   "symbol": "MERC.N0000",
+   "sector": "Diversified Financials",
+   "group": "LISTED:MERC",
+   "er": 0.11912402240354619,
+   "vol": 0.5670003812201098,
+   "beta": 0.33540037339243645,
+   "beta_current": 0.502704477852877,
+   "beta_lag": -0.1673041044604405,
+   "amihud": 0.0040245569590963825,
+   "median_turnover": 1186566.7,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.47462667999999997
+  },
+  {
+   "symbol": "MFPE.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "GTVGLOBALHOLDINGS",
+   "er": 0.16126291493691616,
+   "vol": 0.4016403534119424,
+   "beta": 1.0377152489486026,
+   "beta_current": 1.046156864181812,
+   "beta_lag": -0.008441615233209344,
+   "amihud": 0.003592187285598981,
+   "median_turnover": 1428096.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5712386
+  },
+  {
+   "symbol": "MGT.N0000",
+   "sector": "Consumer Durables & Apparel",
+   "group": "KDDPERERA",
+   "er": 0.13736887738977796,
+   "vol": 0.3263757404854681,
+   "beta": 0.6394812898296325,
+   "beta_current": 0.5762777424574919,
+   "beta_lag": 0.06320354737214057,
+   "amihud": 0.0014286407647531875,
+   "median_turnover": 3317760.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.327104
+  },
+  {
+   "symbol": "NAMU.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "RPCPLANTATIONMANAGEMENTSERVICES",
+   "er": 0.22611081185165063,
+   "vol": 0.48104621595722225,
+   "beta": 2.118513530860844,
+   "beta_current": 1.5329302332159516,
+   "beta_lag": 0.5855832976448921,
+   "amihud": 0.005148152470468931,
+   "median_turnover": 1250832.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5003328
+  },
+  {
+   "symbol": "NDB.N0000",
+   "sector": "Banks",
+   "group": "LISTED:NDB",
+   "er": 0.1690914074601989,
+   "vol": 0.3511894239556642,
+   "beta": 1.1681901243366482,
+   "beta_current": 0.9405245014383397,
+   "beta_lag": 0.2276656228983084,
+   "amihud": 0.0002783498083327592,
+   "median_turnover": 13144442.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.257777
+  },
+  {
+   "symbol": "NHL.N0000",
+   "sector": "Health Care Equipment & Services",
+   "group": "HKJDHARMADASA",
+   "er": 0.21139774595896133,
+   "vol": 0.5471879468533055,
+   "beta": 1.8732957659826885,
+   "beta_current": 1.9505143156575466,
+   "beta_lag": -0.077218549674858,
+   "amihud": 0.0053523027834876296,
+   "median_turnover": 1756501.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.70260048
+  },
+  {
+   "symbol": "OSEA.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "SHINGKWANINVESTMENTCO",
+   "er": 0.20774770899653752,
+   "vol": 0.38423730350550694,
+   "beta": 1.8124618166089588,
+   "beta_current": 1.5332225988983414,
+   "beta_lag": 0.2792392177106174,
+   "amihud": 0.0004461333603186043,
+   "median_turnover": 13103009.1,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.24120364
+  },
+  {
+   "symbol": "PABC.N0000",
+   "sector": "Banks",
+   "group": "KDDPERERA",
+   "er": 0.15539130352901484,
+   "vol": 0.3239859268729004,
+   "beta": 0.939855058816914,
+   "beta_current": 1.1034977425053516,
+   "beta_lag": -0.16364268368843762,
+   "amihud": 0.0005968450979072028,
+   "median_turnover": 8170723.9,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.2682895600000004
+  },
+  {
+   "symbol": "PAP.N0000",
+   "sector": "Utilities",
+   "group": "RRTAKAHASHI",
+   "er": 0.14489344965362083,
+   "vol": 0.40854466558235736,
+   "beta": 0.7648908275603472,
+   "beta_current": 1.1802389498688997,
+   "beta_lag": -0.4153481223085525,
+   "amihud": 0.0018176709923885823,
+   "median_turnover": 4533559.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.81342392
+  },
+  {
+   "symbol": "PARQ.N0000",
+   "sector": "Materials",
+   "group": "LANKAFLOORTILES",
+   "er": 0.1228304419759733,
+   "vol": 0.33374979952148115,
+   "beta": 0.3971740329328882,
+   "beta_current": 0.5573554102292778,
+   "beta_lag": -0.1601813772963896,
+   "amihud": 0.0012496011073537237,
+   "median_turnover": 5390489.6,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.1561958399999996
+  },
+  {
+   "symbol": "PKME.N0000",
+   "sector": "Transportation",
+   "group": "JZHASSEN",
+   "er": 0.16821306124812674,
+   "vol": 0.3404247277238627,
+   "beta": 1.1535510208021125,
+   "beta_current": 1.240647518097158,
+   "beta_lag": -0.08709649729504541,
+   "amihud": 0.000215108677657102,
+   "median_turnover": 16246520.25,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 6.498608100000001
+  },
+  {
+   "symbol": "PLC.N0000",
+   "sector": "Diversified Financials",
+   "group": "PEOPLESBANK",
+   "er": 0.16602328032688832,
+   "vol": 0.34352263617404416,
+   "beta": 1.1170546721148051,
+   "beta_current": 1.275408270667865,
+   "beta_lag": -0.15835359855305997,
+   "amihud": 0.001205565546665585,
+   "median_turnover": 3970434.7,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.58817388
+  },
+  {
+   "symbol": "PLR.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "PRIMELANDS",
+   "er": 0.2312535937569157,
+   "vol": 0.4970414173416766,
+   "beta": 2.2042265626152617,
+   "beta_current": 2.2299999714403116,
+   "beta_lag": -0.025773408825049773,
+   "amihud": 0.00042389536142019236,
+   "median_turnover": 20625963.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 8.25038552
+  },
+  {
+   "symbol": "RAL.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "RENUKAENTERPRISES",
+   "er": 0.2318580644911112,
+   "vol": 0.5531785231448814,
+   "beta": 2.2143010748518535,
+   "beta_current": 2.279172124507599,
+   "beta_lag": -0.06487104965574528,
+   "amihud": 0.0009300207120366548,
+   "median_turnover": 17185200.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 6.87408
+  },
+  {
+   "symbol": "RCL.N0000",
+   "sector": "Capital Goods",
+   "group": "KDDPERERA",
+   "er": 0.1821913255650594,
+   "vol": 0.33769872334978607,
+   "beta": 1.3865220927509898,
+   "beta_current": 1.3000146287350134,
+   "beta_lag": 0.08650746401597652,
+   "amihud": 0.0004922288603029873,
+   "median_turnover": 13698855.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 5.479542
+  },
+  {
+   "symbol": "REEF.N0000",
+   "sector": "Consumer Services",
+   "group": "GEORGESTEUARTANDCO",
+   "er": 0.1844929644781998,
+   "vol": 0.433291372958467,
+   "beta": 1.42488274130333,
+   "beta_current": 1.4662614264958849,
+   "beta_lag": -0.041378685192554804,
+   "amihud": 0.00385003799889831,
+   "median_turnover": 1635925.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.6543700800000001
+  },
+  {
+   "symbol": "RHL.N0000",
+   "sector": "Capital Goods",
+   "group": "RENUKAGROUP",
+   "er": 0.2019006488221258,
+   "vol": 0.40737783572918446,
+   "beta": 1.7150108137020967,
+   "beta_current": 1.197020297177959,
+   "beta_lag": 0.5179905165241377,
+   "amihud": 0.011639624807819207,
+   "median_turnover": 1132848.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.4531392
+  },
+  {
+   "symbol": "RICH.N0000",
+   "sector": "Capital Goods",
+   "group": "SKYWORLDOVERSEASHOLDINGS",
+   "er": 0.18437700624627837,
+   "vol": 0.49212197818871994,
+   "beta": 1.4229501041046395,
+   "beta_current": 1.5447567918582952,
+   "beta_lag": -0.1218066877536557,
+   "amihud": 0.006892927954848443,
+   "median_turnover": 1442416.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5769664
+  },
+  {
+   "symbol": "RIL.N0000",
+   "sector": "Retailing",
+   "group": "RRTAKAHASHI",
+   "er": 0.22070413571064237,
+   "vol": 0.44242066546244796,
+   "beta": 2.0284022618440396,
+   "beta_current": 2.1257044561532643,
+   "beta_lag": -0.09730219430922485,
+   "amihud": 0.00041620721927877985,
+   "median_turnover": 21032791.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 8.4131166
+  },
+  {
+   "symbol": "RWSL.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "RAIGAMMARKETINGSERVICES",
+   "er": 0.16553223208114445,
+   "vol": 0.42400565805345336,
+   "beta": 1.1088705346857408,
+   "beta_current": 1.591197280780822,
+   "beta_lag": -0.48232674609508114,
+   "amihud": 0.006309132482267505,
+   "median_turnover": 1393200.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5572802000000001
+  },
+  {
+   "symbol": "SAMP.N0000",
+   "sector": "Banks",
+   "group": "LISTED:SAMP",
+   "er": 0.14316137339159118,
+   "vol": 0.2905278438546103,
+   "beta": 0.7360228898598532,
+   "beta_current": 0.8185243318809512,
+   "beta_lag": -0.08250144202109799,
+   "amihud": 3.821255481448608e-05,
+   "median_turnover": 63565960.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 25.426384
+  },
+  {
+   "symbol": "SCAP.N0000",
+   "sector": "Insurance",
+   "group": "AKPATHIRAGE",
+   "er": 0.1257477657839787,
+   "vol": 0.7019880448757374,
+   "beta": 0.4457960963996448,
+   "beta_current": 1.5876839808728094,
+   "beta_lag": -1.1418878844731646,
+   "amihud": 0.0018192707097492748,
+   "median_turnover": 8164840.9,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.26593636
+  },
+  {
+   "symbol": "SEMB.N0000",
+   "sector": "Diversified Financials",
+   "group": "HRSWIJERATNE",
+   "er": 0.2117245310766843,
+   "vol": 0.5533849706380539,
+   "beta": 1.878742184611405,
+   "beta_current": 1.3699417287392939,
+   "beta_lag": 0.5088004558721111,
+   "amihud": 0.0022433533501521586,
+   "median_turnover": 2805790.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.122316
+  },
+  {
+   "symbol": "SERV.N0000",
+   "sector": "Consumer Services",
+   "group": "KDDPERERA",
+   "er": 0.16060266726366257,
+   "vol": 0.39673947834618084,
+   "beta": 1.0267111210610427,
+   "beta_current": 1.5297834335258975,
+   "beta_lag": -0.503072312464855,
+   "amihud": 0.0030817022560941194,
+   "median_turnover": 1803126.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.7212504
+  },
+  {
+   "symbol": "SEYB.N0000",
+   "sector": "Banks",
+   "group": "LISTED:SEYB",
+   "er": 0.1594433355818338,
+   "vol": 0.29960111412259305,
+   "beta": 1.0073889263638967,
+   "beta_current": 0.9542145862629653,
+   "beta_lag": 0.053174340100931305,
+   "amihud": 0.0020940795460416086,
+   "median_turnover": 1558027.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.6232108
+  },
+  {
+   "symbol": "SEYB.X0000",
+   "sector": "Banks",
+   "group": "LISTED:SEYB",
+   "er": 0.17371833455256927,
+   "vol": 0.3210337054428305,
+   "beta": 1.2453055758761544,
+   "beta_current": 1.2169302849537684,
+   "beta_lag": 0.028375290922386002,
+   "amihud": 0.0007163361501612229,
+   "median_turnover": 6540672.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.6162688000000003
+  },
+  {
+   "symbol": "SFIN.N0000",
+   "sector": "Diversified Financials",
+   "group": "KDDPERERA",
+   "er": 0.22070839958602084,
+   "vol": 0.46641880215738885,
+   "beta": 2.0284733264336805,
+   "beta_current": 2.0411892488947876,
+   "beta_lag": -0.012715922461106944,
+   "amihud": 0.00504276265609002,
+   "median_turnover": 1621776.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.6487104
+  },
+  {
+   "symbol": "SHAW.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "EIGHTHWONDER",
+   "er": 0.18314233355550086,
+   "vol": 0.5084800160954214,
+   "beta": 1.402372225925014,
+   "beta_current": 1.5195905782396237,
+   "beta_lag": -0.11721835231460977,
+   "amihud": 0.0143908214857925,
+   "median_turnover": 1421971.25,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5687885
+  },
+  {
+   "symbol": "SHL.N0000",
+   "sector": "Capital Goods",
+   "group": "AKPATHIRAGE",
+   "er": 0.1352581298891109,
+   "vol": 0.8392880788801532,
+   "beta": 0.604302164818515,
+   "beta_current": 1.8967383497078059,
+   "beta_lag": -1.292436184889291,
+   "amihud": 0.004456610179427771,
+   "median_turnover": 2760662.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.10426496
+  },
+  {
+   "symbol": "SINS.N0000",
+   "sector": "Retailing",
+   "group": "KDDPERERA",
+   "er": 0.18182050648634684,
+   "vol": 0.4160016056116542,
+   "beta": 1.3803417747724471,
+   "beta_current": 1.6185846664715977,
+   "beta_lag": -0.2382428916991507,
+   "amihud": 0.0007548800620577203,
+   "median_turnover": 11178612.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.4714448
+  },
+  {
+   "symbol": "SIRA.N0000",
+   "sector": "Capital Goods",
+   "group": "ICONICTRUST",
+   "er": 0.16442565227199202,
+   "vol": 0.3899594315760211,
+   "beta": 1.0904275378665333,
+   "beta_current": 1.3666346481298328,
+   "beta_lag": -0.2762071102632995,
+   "amihud": 0.00033882065079367507,
+   "median_turnover": 27176039.1,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 10.870415640000001
+  },
+  {
+   "symbol": "SLTL.N0000",
+   "sector": "Telecommunication Services",
+   "group": "LISTED:SLTL",
+   "er": 0.2157883656270548,
+   "vol": 0.4125387248964794,
+   "beta": 1.9464727604509133,
+   "beta_current": 1.55863298168616,
+   "beta_lag": 0.3878397787647534,
+   "amihud": 0.002347996336795642,
+   "median_turnover": 2324536.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.9298144
+  },
+  {
+   "symbol": "SPEN.N0000",
+   "sector": "Capital Goods",
+   "group": "MILFORDEXPORTSCEYLON",
+   "er": 0.15155359523856524,
+   "vol": 0.2991958889288245,
+   "beta": 0.8758932539760872,
+   "beta_current": 0.7371046513911479,
+   "beta_lag": 0.13878860258493927,
+   "amihud": 0.000665223156087018,
+   "median_turnover": 2655103.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.0620414000000002
+  },
+  {
+   "symbol": "SUN.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "LAMUREPINVESTMENTS",
+   "er": 0.15750699031855725,
+   "vol": 0.3597053456681337,
+   "beta": 0.9751165053092874,
+   "beta_current": 1.2739630168882758,
+   "beta_lag": -0.2988465115789885,
+   "amihud": 0.0003318504858744478,
+   "median_turnover": 12129243.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 4.8516972
+  },
+  {
+   "symbol": "TAFL.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "PRIMASINGAPORE",
+   "er": 0.19905578705728805,
+   "vol": 0.3876566884858521,
+   "beta": 1.667596450954801,
+   "beta_current": 1.4620769115984176,
+   "beta_lag": 0.2055195393563834,
+   "amihud": 0.001355357154016176,
+   "median_turnover": 3781256.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.5125024000000002
+  },
+  {
+   "symbol": "TAP.N0000",
+   "sector": "Consumer Durables & Apparel",
+   "group": "AMBEONCONSOLIDATED",
+   "er": 0.179612916951418,
+   "vol": 0.3573287990971531,
+   "beta": 1.3435486158569667,
+   "beta_current": 1.4601685840578433,
+   "beta_lag": -0.11661996820087657,
+   "amihud": 0.001281960887867716,
+   "median_turnover": 7115400.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.84616
+  },
+  {
+   "symbol": "TJL.N0000",
+   "sector": "Consumer Durables & Apparel",
+   "group": "BRANDIXLANKANUMBER1",
+   "er": 0.15875485719424476,
+   "vol": 0.33390895654712033,
+   "beta": 0.9959142865707459,
+   "beta_current": 0.9812115465665037,
+   "beta_lag": 0.014702740004242232,
+   "amihud": 0.0009282157558484267,
+   "median_turnover": 5653500.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.26140016
+  },
+  {
+   "symbol": "TKYO.N0000",
+   "sector": "Materials",
+   "group": "LISTED:TKYO",
+   "er": 0.14074379465845632,
+   "vol": 0.3574905373903616,
+   "beta": 0.6957299109742718,
+   "beta_current": 1.0144633477420268,
+   "beta_lag": -0.31873343676775506,
+   "amihud": 0.0012825370085778238,
+   "median_turnover": 4996655.2,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.9986620800000001
+  },
+  {
+   "symbol": "TKYO.X0000",
+   "sector": "Materials",
+   "group": "LISTED:TKYO",
+   "er": 0.15172870546425263,
+   "vol": 0.34045922244395727,
+   "beta": 0.8788117577375438,
+   "beta_current": 0.9227777363272567,
+   "beta_lag": -0.043965978589712844,
+   "amihud": 0.0005581464964239247,
+   "median_turnover": 9953693.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 3.98147736
+  },
+  {
+   "symbol": "UBF.N0000",
+   "sector": "Diversified Financials",
+   "group": "CULTUREFINANCIALHOLDINGS",
+   "er": 0.19076408075325663,
+   "vol": 0.45390225700520764,
+   "beta": 1.5294013458876106,
+   "beta_current": 1.5889221295723184,
+   "beta_lag": -0.059520783684707916,
+   "amihud": 0.0039062394642948007,
+   "median_turnover": 2242617.3,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.89704692
+  },
+  {
+   "symbol": "UML.N0000",
+   "sector": "Retailing",
+   "group": "RRTAKAHASHI",
+   "er": 0.22331306751588215,
+   "vol": 0.45718716902817164,
+   "beta": 2.071884458598036,
+   "beta_current": 2.0233423221451545,
+   "beta_lag": 0.04854213645288137,
+   "amihud": 0.0016449431055754118,
+   "median_turnover": 5956596.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 2.3826384
+  },
+  {
+   "symbol": "VFIN.N0000",
+   "sector": "Diversified Financials",
+   "group": "VALLIBELINVESTMENTS",
+   "er": 0.16509410594843543,
+   "vol": 0.3622840809552468,
+   "beta": 1.1015684324739237,
+   "beta_current": 1.343561444182241,
+   "beta_lag": -0.24199301170831722,
+   "amihud": 0.0017154069307911298,
+   "median_turnover": 3551413.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.4205654
+  },
+  {
+   "symbol": "VLL.N0000",
+   "sector": "Utilities",
+   "group": "RIYAZMSANGANI",
+   "er": 0.14728909387176203,
+   "vol": 0.3704321177353675,
+   "beta": 0.804818231196034,
+   "beta_current": 0.8663536080146973,
+   "beta_lag": -0.061535376818663313,
+   "amihud": 0.0037061233018003516,
+   "median_turnover": 1502002.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.600801
+  },
+  {
+   "symbol": "VONE.N0000",
+   "sector": "Utilities",
+   "group": "KDDPERERA",
+   "er": 0.1903781191865726,
+   "vol": 0.3406494938610796,
+   "beta": 1.5229686531095437,
+   "beta_current": 1.3894555050983346,
+   "beta_lag": 0.1335131480112091,
+   "amihud": 0.0007381034064694303,
+   "median_turnover": 3969007.5,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.587603
+  },
+  {
+   "symbol": "VPEL.N0000",
+   "sector": "Utilities",
+   "group": "VALLIBELPOWER",
+   "er": 0.15249671115857402,
+   "vol": 0.3215486829765888,
+   "beta": 0.8916118526429004,
+   "beta_current": 0.9586511875568736,
+   "beta_lag": -0.06703933491397317,
+   "amihud": 0.0021804618830080355,
+   "median_turnover": 1750014.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.7000057599999999
+  },
+  {
+   "symbol": "WAPO.N0000",
+   "sector": "Diversified Financials",
+   "group": "LISTED:WAPO",
+   "er": 0.20157053334439645,
+   "vol": 0.44422046421569056,
+   "beta": 1.7095088890732741,
+   "beta_current": 1.726197481342175,
+   "beta_lag": -0.01668859226890082,
+   "amihud": 0.006913995085607734,
+   "median_turnover": 1657780.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.663112
+  },
+  {
+   "symbol": "WATA.N0000",
+   "sector": "Food, Beverage & Tobacco",
+   "group": "SUNSHINEWILMAR",
+   "er": 0.1582267255362203,
+   "vol": 0.3883079556319466,
+   "beta": 0.9871120922703385,
+   "beta_current": 1.4218000462232272,
+   "beta_lag": -0.4346879539528887,
+   "amihud": 0.001132984620827261,
+   "median_turnover": 4903402.8,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.9613611200000003
+  },
+  {
+   "symbol": "WIND.N0000",
+   "sector": "Utilities",
+   "group": "AKBARBROTHERS",
+   "er": 0.14016325430958923,
+   "vol": 0.35663658506155554,
+   "beta": 0.6860542384931536,
+   "beta_current": 0.9758531254243732,
+   "beta_lag": -0.28979888693121963,
+   "amihud": 0.0009277606599842324,
+   "median_turnover": 4158030.0,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 1.663212
+  },
+  {
+   "symbol": "YORK.N0000",
+   "sector": "Real Estate Management & Development",
+   "group": "SENTHILVERLHOLDINGS",
+   "er": 0.5079456782823861,
+   "vol": 2.1421945397796125,
+   "beta": 6.815761304706435,
+   "beta_current": 3.93893832771848,
+   "beta_lag": 2.876822976987955,
+   "amihud": 0.011772779327529353,
+   "median_turnover": 1282751.4,
+   "turnover_source": "mixed",
+   "cap": 0.1,
+   "liq_cap": 0.5131005599999999
+  }
+ ],
+ "weeks": [
+  "2025-11-05",
+  "2026-10-28"
+ ],
+ "n_weeks": 52,
+ "shrinkage": 0.2740665219757132,
+ "rf": 0.099,
+ "portfolios": {
+  "min_variance": {
+   "groups": {
+    "KDDPERERA": 0.11137720938132596,
+    "MILFORDEXPORTSCEYLON": 0.10540213131917915,
+    "ISHARACHINTHAKANANAYAKKARA": 0.056012100103546444,
+    "ASHTHIHOLDINGS": 0.04824913742823392,
+    "LISTED:HNB": 0.04264314909160203,
+    "LISTED:COMB": 0.01592033908135325,
+    "LISTED:SEYB": 0.008922951732610386,
+    "LISTED:JKH": 0.008890575493688152,
+    "LISTED:TKYO": 0.008257727377968404,
+    "UGMADANAYAKE": 0.003770890805701821
+   },
+   "name": "Minimum variance",
+   "er": 0.1400385126577505,
+   "vol": 0.11329242919060215,
+   "sharpe": 0.3622352610050198,
+   "holdings": [
+    {
+     "symbol": "CTC.N0000",
+     "weight": 0.10000001000489928,
+     "risk_contribution": 0.07198569127280209,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.10901289137967303
+    },
+    {
+     "symbol": "CBNK.N0000",
+     "weight": 0.10000000982182614,
+     "risk_contribution": 0.09664446192601771,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.12169201188650607
+    },
+    {
+     "symbol": "LIOC.N0000",
+     "weight": 0.10000000530241182,
+     "risk_contribution": 0.10232766249332752,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.13657371439554075
+    },
+    {
+     "symbol": "LOLC.N0000",
+     "weight": 0.056012100103546444,
+     "risk_contribution": 0.058335979288511655,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14805615917704681
+    },
+    {
+     "symbol": "LLUB.N0000",
+     "weight": 0.05556211469330035,
+     "risk_contribution": 0.05786732420750543,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.14824146748521916
+    },
+    {
+     "symbol": "MGT.N0000",
+     "weight": 0.052235610442024724,
+     "risk_contribution": 0.05440280845170831,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.13736887738977796
+    },
+    {
+     "symbol": "SPEN.N0000",
+     "weight": 0.05024853164009196,
+     "risk_contribution": 0.052333286499957485,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15155359523856524
+    },
+    {
+     "symbol": "PARQ.N0000",
+     "weight": 0.04961248062323005,
+     "risk_contribution": 0.051670845211065866,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.1228304419759733
+    },
+    {
+     "symbol": "SAMP.N0000",
+     "weight": 0.04219714117376476,
+     "risk_contribution": 0.04394785280057243,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14316137339159118
+    },
+    {
+     "symbol": "ALUM.N0000",
+     "weight": 0.04214918204902333,
+     "risk_contribution": 0.04389790238466563,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.1277054162230174
+    },
+    {
+     "symbol": "MELS.N0000",
+     "weight": 0.03632847364899917,
+     "risk_contribution": 0.03783570052928737,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.1497108917098045
+    },
+    {
+     "symbol": "NDB.N0000",
+     "weight": 0.0344466530190485,
+     "risk_contribution": 0.03587580645468631,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1690914074601989
+    },
+    {
+     "symbol": "CALT.N0000",
+     "weight": 0.03406234190367339,
+     "risk_contribution": 0.03547555076237437,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14457597242020503
+    },
+    {
+     "symbol": "ALLI.N0000",
+     "weight": 0.03281976874631304,
+     "risk_contribution": 0.03418142360704948,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16140607833762707
+    },
+    {
+     "symbol": "MERC.N0000",
+     "weight": 0.02962860640758389,
+     "risk_contribution": 0.03085786372147758,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.11912402240354619
+    },
+    {
+     "symbol": "HNB.N0000",
+     "weight": 0.022188272655767106,
+     "risk_contribution": 0.023108838636904824,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15898621667701623
+    },
+    {
+     "symbol": "HASU.N0000",
+     "weight": 0.020454876435834924,
+     "risk_contribution": 0.021303525737836924,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1373170503933895
+    },
+    {
+     "symbol": "DIST.N0000",
+     "weight": 0.018825126030088023,
+     "risk_contribution": 0.019606158897094977,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14046913829758462
+    },
+    {
+     "symbol": "COMB.X0000",
+     "weight": 0.01592033908135325,
+     "risk_contribution": 0.016580855401111837,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14560794263086407
+    },
+    {
+     "symbol": "ABL.N0000",
+     "weight": 0.015415315160198308,
+     "risk_contribution": 0.016054878248745838,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14583668019584467
+    },
+    {
+     "symbol": "CALH.N0000",
+     "weight": 0.01418679552456053,
+     "risk_contribution": 0.01477538906768603,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14583699538978284
+    },
+    {
+     "symbol": "ASPH.N0000",
+     "weight": 0.01406329159015975,
+     "risk_contribution": 0.014646760631357406,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.2537776870620899
+    },
+    {
+     "symbol": "HAYC.N0000",
+     "weight": 0.008995924515314706,
+     "risk_contribution": 0.009369155189297025,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18514333216010423
+    },
+    {
+     "symbol": "SEYB.N0000",
+     "weight": 0.008922951732610386,
+     "risk_contribution": 0.009293154639346156,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1594433355818338
+    },
+    {
+     "symbol": "JKH.N0000",
+     "weight": 0.008890575493688152,
+     "risk_contribution": 0.009259435272900315,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16666070092753085
+    },
+    {
+     "symbol": "TKYO.X0000",
+     "weight": 0.008257727377968404,
+     "risk_contribution": 0.008600330766777575,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.15172870546425263
+    },
+    {
+     "symbol": "VLL.N0000",
+     "weight": 0.008063311537258401,
+     "risk_contribution": 0.008397848718896527,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14728909387176203
+    },
+    {
+     "symbol": "DIPD.N0000",
+     "weight": 0.0079964923749632,
+     "risk_contribution": 0.008328257483904769,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.16146896169945615
+    },
+    {
+     "symbol": "LOFC.N0000",
+     "weight": 0.007127229625388165,
+     "risk_contribution": 0.0074229302673942,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15471122705172963
+    },
+    {
+     "symbol": "CSLK.N0000",
+     "weight": 0.003770890805701821,
+     "risk_contribution": 0.003927340587095573,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16309011332923426
+    },
+    {
+     "symbol": "AEL.N0000",
+     "weight": 0.0011110710411182236,
+     "risk_contribution": 0.0011571686147642756,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15860319161794043
+    },
+    {
+     "symbol": "VPEL.N0000",
+     "weight": 0.000505836102331938,
+     "risk_contribution": 0.0005268254831680247,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.15249671115857402
+    }
+   ],
+   "sectors": {
+    "Banks": 0.23909068264456845,
+    "Materials": 0.1866372132239598,
+    "Diversified Financials": 0.1738375948344255,
+    "Food, Beverage & Tobacco": 0.15515360968398645,
+    "Energy": 0.10000000530241182,
+    "Capital Goods": 0.06402125979319793,
+    "Consumer Durables & Apparel": 0.052235610442024724,
+    "Insurance": 0.020454876435834924,
+    "Utilities": 0.008569147639590338
+   },
+   "n": 32,
+   "constraints": {
+    "sum": 1.0,
+    "min": 0.0,
+    "max_over_cap": 1.0004899270166234e-08,
+    "max_sector_over": -0.060909317355431536,
+    "max_group_over": -0.08862279061867405,
+    "ok": true
+   }
+  },
+  "risk_parity": {
+   "groups": {
+    "KDDPERERA": 0.11416524785693823,
+    "MILFORDEXPORTSCEYLON": 0.04536914453806712,
+    "ISHARACHINTHAKANANAYAKKARA": 0.03438466645654999,
+    "AKPATHIRAGE": 0.030327141527851584,
+    "LISTED:HNB": 0.026947973814112205,
+    "LISTED:JKH": 0.024276937673002832,
+    "ASHTHIHOLDINGS": 0.022900308838037575,
+    "UGMADANAYAKE": 0.022451839840067104,
+    "LISTED:TKYO": 0.01767897734777149,
+    "LISTED:COMB": 0.017069477668249,
+    "LISTED:SEYB": 0.016964639508463813,
+    "LISTED:CFIN": 0.016702397944266426,
+    "RRTAKAHASHI": 0.014848059281612057,
+    "GEORGESTEUARTANDCO": 0.014595930016887481,
+    "SENTHILVERLHOLDINGS": 0.013670924826161585,
+    "PAINTSANDGENERALINDUSTRIES": 0.013417283486410447,
+    "PRIMASINGAPORE": 0.01209001915229053,
+    "SCHAFFTERS": 0.011914795650198661,
+    "EIGHTHWONDER": 0.009015866051955946,
+    "RENUKAENTERPRISES": 0.00819064309573302
+   },
+   "name": "Risk parity",
+   "er": 0.16752837028272766,
+   "vol": 0.17142822313025083,
+   "sharpe": 0.3997496388366572,
+   "holdings": [
+    {
+     "symbol": "CTC.N0000",
+     "weight": 0.030822027689274174,
+     "risk_contribution": 0.007352596871923527,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.10901289137967303
+    },
+    {
+     "symbol": "LIOC.N0000",
+     "weight": 0.01784119297275989,
+     "risk_contribution": 0.007352679052629446,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.13657371439554075
+    },
+    {
+     "symbol": "CBNK.N0000",
+     "weight": 0.017294472768191786,
+     "risk_contribution": 0.007352646942113687,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.12169201188650607
+    },
+    {
+     "symbol": "PARQ.N0000",
+     "weight": 0.013291573922408116,
+     "risk_contribution": 0.00735280231022729,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.1228304419759733
+    },
+    {
+     "symbol": "CALT.N0000",
+     "weight": 0.013207615623697613,
+     "risk_contribution": 0.007352863617323285,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14457597242020503
+    },
+    {
+     "symbol": "MGT.N0000",
+     "weight": 0.012880824973533428,
+     "risk_contribution": 0.007352833145698991,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.13736887738977796
+    },
+    {
+     "symbol": "MERC.N0000",
+     "weight": 0.012446837736484867,
+     "risk_contribution": 0.007353247492458366,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.11912402240354619
+    },
+    {
+     "symbol": "LOLC.N0000",
+     "weight": 0.012238681646238389,
+     "risk_contribution": 0.007352794108668871,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14805615917704681
+    },
+    {
+     "symbol": "SPEN.N0000",
+     "weight": 0.012164863960169494,
+     "risk_contribution": 0.007352757664636088,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15155359523856524
+    },
+    {
+     "symbol": "LLUB.N0000",
+     "weight": 0.011817039927044349,
+     "risk_contribution": 0.007352695362670743,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.14824146748521916
+    },
+    {
+     "symbol": "NDB.N0000",
+     "weight": 0.011364290424593793,
+     "risk_contribution": 0.007352829701390741,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1690914074601989
+    },
+    {
+     "symbol": "SAMP.N0000",
+     "weight": 0.011121850040875602,
+     "risk_contribution": 0.00735272973934839,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14316137339159118
+    },
+    {
+     "symbol": "ALUM.N0000",
+     "weight": 0.010812262932379864,
+     "risk_contribution": 0.007352810193261844,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.1277054162230174
+    },
+    {
+     "symbol": "ALLI.N0000",
+     "weight": 0.010599984846922265,
+     "risk_contribution": 0.007352780583598176,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16140607833762707
+    },
+    {
+     "symbol": "MELS.N0000",
+     "weight": 0.010564907006255772,
+     "risk_contribution": 0.007352747114596728,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.1497108917098045
+    },
+    {
+     "symbol": "HASU.N0000",
+     "weight": 0.009855867958827836,
+     "risk_contribution": 0.007352804102946452,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1373170503933895
+    },
+    {
+     "symbol": "HNB.N0000",
+     "weight": 0.009772141386401017,
+     "risk_contribution": 0.007352746094578438,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15898621667701623
+    },
+    {
+     "symbol": "CALH.N0000",
+     "weight": 0.009692693214339961,
+     "risk_contribution": 0.00735282837179343,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14583699538978284
+    },
+    {
+     "symbol": "LOFC.N0000",
+     "weight": 0.009672096167893478,
+     "risk_contribution": 0.007352840772135223,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15471122705172963
+    },
+    {
+     "symbol": "DIST.N0000",
+     "weight": 0.00967060844104837,
+     "risk_contribution": 0.007352777964463745,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14046913829758462
+    },
+    {
+     "symbol": "TKYO.X0000",
+     "weight": 0.009610823709554486,
+     "risk_contribution": 0.0073528401434678325,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.15172870546425263
+    },
+    {
+     "symbol": "VLL.N0000",
+     "weight": 0.009511600977127832,
+     "risk_contribution": 0.00735280394486481,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14728909387176203
+    },
+    {
+     "symbol": "SEYB.N0000",
+     "weight": 0.009438763621688074,
+     "risk_contribution": 0.007352798577308103,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1594433355818338
+    },
+    {
+     "symbol": "HAYC.N0000",
+     "weight": 0.009412100501281872,
+     "risk_contribution": 0.007352879358557782,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18514333216010423
+    },
+    {
+     "symbol": "DIPD.N0000",
+     "weight": 0.00936272103931676,
+     "risk_contribution": 0.007352831090200393,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.16146896169945615
+    },
+    {
+     "symbol": "JKH.N0000",
+     "weight": 0.009163217971427697,
+     "risk_contribution": 0.007352766100453015,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16666070092753085
+    },
+    {
+     "symbol": "VPEL.N0000",
+     "weight": 0.009110081404347235,
+     "risk_contribution": 0.007352797078080564,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.15249671115857402
+    },
+    {
+     "symbol": "COMB.X0000",
+     "weight": 0.009000818976260878,
+     "risk_contribution": 0.007352788309701813,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14560794263086407
+    },
+    {
+     "symbol": "LFIN.N0000",
+     "weight": 0.008986284719319282,
+     "risk_contribution": 0.007352878857743078,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.18393619448912657
+    },
+    {
+     "symbol": "ASPH.N0000",
+     "weight": 0.008977996111727043,
+     "risk_contribution": 0.007353865865194641,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.2537776870620899
+    },
+    {
+     "symbol": "CSLK.N0000",
+     "weight": 0.008899995505667441,
+     "risk_contribution": 0.007352872032970575,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16309011332923426
+    },
+    {
+     "symbol": "ABL.N0000",
+     "weight": 0.008782645206781898,
+     "risk_contribution": 0.007352785840981585,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14583668019584467
+    },
+    {
+     "symbol": "BIL.N0000",
+     "weight": 0.008648786378234824,
+     "risk_contribution": 0.007352804436105489,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.15403099641106094
+    },
+    {
+     "symbol": "TJL.N0000",
+     "weight": 0.008609196801058197,
+     "risk_contribution": 0.0073528443201036735,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.15875485719424476
+    },
+    {
+     "symbol": "FCT.N0000",
+     "weight": 0.00850017452434989,
+     "risk_contribution": 0.007352872280534192,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.13197527922274907
+    },
+    {
+     "symbol": "WIND.N0000",
+     "weight": 0.008462168237919131,
+     "risk_contribution": 0.0073528164324738535,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14016325430958923
+    },
+    {
+     "symbol": "AEL.N0000",
+     "weight": 0.00843611597583585,
+     "risk_contribution": 0.007352784842235166,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15860319161794043
+    },
+    {
+     "symbol": "CFIN.N0000",
+     "weight": 0.008424479180581871,
+     "risk_contribution": 0.007352866640893266,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.1726292468548929
+    },
+    {
+     "symbol": "CDB.X0000",
+     "weight": 0.008308427232704245,
+     "risk_contribution": 0.007352812688292308,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16861625114427792
+    },
+    {
+     "symbol": "CIND.N0000",
+     "weight": 0.008277918763684555,
+     "risk_contribution": 0.007352855557307964,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15829252966464208
+    },
+    {
+     "symbol": "JAT.N0000",
+     "weight": 0.008274031781522216,
+     "risk_contribution": 0.007352770146827093,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.13887041167572223
+    },
+    {
+     "symbol": "HHL.N0000",
+     "weight": 0.008096816138908948,
+     "risk_contribution": 0.007352753394052996,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.1589800579894788
+    },
+    {
+     "symbol": "COMB.N0000",
+     "weight": 0.008068658691988122,
+     "risk_contribution": 0.007352822890148168,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.16585875314679865
+    },
+    {
+     "symbol": "TKYO.N0000",
+     "weight": 0.008068153638217007,
+     "risk_contribution": 0.007352843099930649,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.14074379465845632
+    },
+    {
+     "symbol": "HAYL.N0000",
+     "weight": 0.008005397319469748,
+     "risk_contribution": 0.007352874335520699,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.17617711949350084
+    },
+    {
+     "symbol": "CCS.N0000",
+     "weight": 0.007956031186397206,
+     "risk_contribution": 0.007352806206703005,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14151265748877773
+    },
+    {
+     "symbol": "EBCR.N0000",
+     "weight": 0.007947297863273263,
+     "risk_contribution": 0.0073528592871879685,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15778233176629064
+    },
+    {
+     "symbol": "DFCC.N0000",
+     "weight": 0.007930405786985052,
+     "risk_contribution": 0.007352740018258589,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15735399153502605
+    },
+    {
+     "symbol": "MFPE.N0000",
+     "weight": 0.007924691751199302,
+     "risk_contribution": 0.007352926431240003,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.16126291493691616
+    },
+    {
+     "symbol": "PABC.N0000",
+     "weight": 0.007781143045147497,
+     "risk_contribution": 0.00735283446697052,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15539130352901484
+    },
+    {
+     "symbol": "DIAL.N0000",
+     "weight": 0.007696092118591994,
+     "risk_contribution": 0.007352954484499293,
+     "cap": 0.1,
+     "sector": "Telecommunication Services",
+     "er": 0.1697432086842817
+    },
+    {
+     "symbol": "RHL.N0000",
+     "weight": 0.007609520816808735,
+     "risk_contribution": 0.007352947019780476,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.2019006488221258
+    },
+    {
+     "symbol": "JETS.N0000",
+     "weight": 0.007599594193617368,
+     "risk_contribution": 0.007352855113199162,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1477175966240203
+    },
+    {
+     "symbol": "ATL.N0000",
+     "weight": 0.0075904632252717895,
+     "risk_contribution": 0.007352932143828159,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1739638341661478
+    },
+    {
+     "symbol": "BRWN.N0000",
+     "weight": 0.007582006132010741,
+     "risk_contribution": 0.007352843740474748,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16510391712650252
+    },
+    {
+     "symbol": "SEYB.X0000",
+     "weight": 0.00752587588677574,
+     "risk_contribution": 0.007352802109861215,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.17371833455256927
+    },
+    {
+     "symbol": "AAIC.N0000",
+     "weight": 0.007376839645744313,
+     "risk_contribution": 0.0073528115948775456,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.15771613781431099
+    },
+    {
+     "symbol": "HNB.X0000",
+     "weight": 0.007319964468883351,
+     "risk_contribution": 0.007352763919721784,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.18573133479666998
+    },
+    {
+     "symbol": "ACL.N0000",
+     "weight": 0.007291746075386934,
+     "risk_contribution": 0.00735291750203315,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.17063330861859807
+    },
+    {
+     "symbol": "AAF.N0000",
+     "weight": 0.007274611251047854,
+     "risk_contribution": 0.007352889159672907,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16390579729194632
+    },
+    {
+     "symbol": "EAST.N0000",
+     "weight": 0.007187568210170362,
+     "risk_contribution": 0.00735311724514608,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.16816668623310027
+    },
+    {
+     "symbol": "KHL.N0000",
+     "weight": 0.007157688515177931,
+     "risk_contribution": 0.007352945483289183,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1585114268409133
+    },
+    {
+     "symbol": "AHUN.N0000",
+     "weight": 0.007061698245522992,
+     "risk_contribution": 0.007352962446957207,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1919777350313721
+    },
+    {
+     "symbol": "VONE.N0000",
+     "weight": 0.0069320962790868496,
+     "risk_contribution": 0.0073528582992144625,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.1903781191865726
+    },
+    {
+     "symbol": "CIC.N0000",
+     "weight": 0.006872165876007314,
+     "risk_contribution": 0.007352764448188785,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18093562211774628
+    },
+    {
+     "symbol": "PKME.N0000",
+     "weight": 0.0068580005916683414,
+     "risk_contribution": 0.00735289972248048,
+     "cap": 0.1,
+     "sector": "Transportation",
+     "er": 0.16821306124812674
+    },
+    {
+     "symbol": "LWL.N0000",
+     "weight": 0.0068143770544990805,
+     "risk_contribution": 0.0073528387541693,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16599850677730354
+    },
+    {
+     "symbol": "RCL.N0000",
+     "weight": 0.006780713544590066,
+     "risk_contribution": 0.0073527854450772595,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.1821913255650594
+    },
+    {
+     "symbol": "CLND.N0000",
+     "weight": 0.0066834356491892,
+     "risk_contribution": 0.00735299839965088,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.17131267680716378
+    },
+    {
+     "symbol": "SLTL.N0000",
+     "weight": 0.006677862066144759,
+     "risk_contribution": 0.0073529355770613515,
+     "cap": 0.1,
+     "sector": "Telecommunication Services",
+     "er": 0.2157883656270548
+    },
+    {
+     "symbol": "KCAB.N0000",
+     "weight": 0.006666943110871064,
+     "risk_contribution": 0.007352888352706423,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.18170344748164088
+    },
+    {
+     "symbol": "NAMU.N0000",
+     "weight": 0.006615821890118828,
+     "risk_contribution": 0.007353069636375051,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.22611081185165063
+    },
+    {
+     "symbol": "CIC.X0000",
+     "weight": 0.006545117610403133,
+     "risk_contribution": 0.007352753017783426,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.17368283963817358
+    },
+    {
+     "symbol": "PAP.N0000",
+     "weight": 0.006492379405595501,
+     "risk_contribution": 0.0073529783874230255,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14489344965362083
+    },
+    {
+     "symbol": "PLC.N0000",
+     "weight": 0.006423833061630479,
+     "risk_contribution": 0.007352749536973358,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16602328032688832
+    },
+    {
+     "symbol": "SEMB.N0000",
+     "weight": 0.006268677610577091,
+     "risk_contribution": 0.007353251490159159,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.2117245310766843
+    },
+    {
+     "symbol": "APLA.N0000",
+     "weight": 0.00626009825901273,
+     "risk_contribution": 0.007352875359302994,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18426542415955827
+    },
+    {
+     "symbol": "LVEF.N0000",
+     "weight": 0.006253290960944863,
+     "risk_contribution": 0.007352879741044395,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.15755019550231542
+    },
+    {
+     "symbol": "RICH.N0000",
+     "weight": 0.006250953387686293,
+     "risk_contribution": 0.007352987831591562,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.18437700624627837
+    },
+    {
+     "symbol": "VFIN.N0000",
+     "weight": 0.006241383891174844,
+     "risk_contribution": 0.007352829306296288,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16509410594843543
+    },
+    {
+     "symbol": "TAFL.N0000",
+     "weight": 0.006216556514576026,
+     "risk_contribution": 0.007353009992127681,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.19905578705728805
+    },
+    {
+     "symbol": "SUN.N0000",
+     "weight": 0.006170806597000525,
+     "risk_contribution": 0.007352774562458874,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.15750699031855725
+    },
+    {
+     "symbol": "CFVF.N0000",
+     "weight": 0.006141611002713844,
+     "risk_contribution": 0.007352894632917987,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.17340915793985806
+    },
+    {
+     "symbol": "DIMO.N0000",
+     "weight": 0.00614015913973245,
+     "risk_contribution": 0.007353036385572927,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.1731172870057428
+    },
+    {
+     "symbol": "LALU.N0000",
+     "weight": 0.006139004330548979,
+     "risk_contribution": 0.0073527373185554796,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.15958603722350279
+    },
+    {
+     "symbol": "ASIR.N0000",
+     "weight": 0.00610726297707324,
+     "risk_contribution": 0.007352902732134406,
+     "cap": 0.1,
+     "sector": "Health Care Equipment & Services",
+     "er": 0.1766873603369758
+    },
+    {
+     "symbol": "SIRA.N0000",
+     "weight": 0.0060958485270357484,
+     "risk_contribution": 0.007352815607940962,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16442565227199202
+    },
+    {
+     "symbol": "TAP.N0000",
+     "weight": 0.005975252453523207,
+     "risk_contribution": 0.007352813277275389,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.179612916951418
+    },
+    {
+     "symbol": "COCR.N0000",
+     "weight": 0.005953111527067666,
+     "risk_contribution": 0.007352839462361365,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16332729709351035
+    },
+    {
+     "symbol": "CINV.N0000",
+     "weight": 0.005919680869508975,
+     "risk_contribution": 0.00735281236550582,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16519964865843828
+    },
+    {
+     "symbol": "AGST.N0000",
+     "weight": 0.005915192300066029,
+     "risk_contribution": 0.007352936157773842,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.20754208647354833
+    },
+    {
+     "symbol": "OSEA.N0000",
+     "weight": 0.005910070788733469,
+     "risk_contribution": 0.007353012219893398,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.20774770899653752
+    },
+    {
+     "symbol": "LMF.N0000",
+     "weight": 0.00590706688507049,
+     "risk_contribution": 0.007352798465311498,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14771182656221452
+    },
+    {
+     "symbol": "GRAN.N0000",
+     "weight": 0.005873462637714504,
+     "risk_contribution": 0.00735294736177862,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.20381671485741543
+    },
+    {
+     "symbol": "HBS.N0000",
+     "weight": 0.005840783935543925,
+     "risk_contribution": 0.007353059286484017,
+     "cap": 0.1,
+     "sector": "Software & Services",
+     "er": 0.24727421487471274
+    },
+    {
+     "symbol": "JINS.N0000",
+     "weight": 0.005773184647484816,
+     "risk_contribution": 0.0073529836730689855,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.20934709965722798
+    },
+    {
+     "symbol": "KOTA.N0000",
+     "weight": 0.005738832649492985,
+     "risk_contribution": 0.007352733023544003,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.17062020531724692
+    },
+    {
+     "symbol": "WATA.N0000",
+     "weight": 0.0056865482791010466,
+     "risk_contribution": 0.0073527904988956805,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.1582267255362203
+    },
+    {
+     "symbol": "LUMX.N0000",
+     "weight": 0.005662321335525088,
+     "risk_contribution": 0.007353121198289744,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16259623964123493
+    },
+    {
+     "symbol": "REEF.N0000",
+     "weight": 0.005621302613588102,
+     "risk_contribution": 0.007353026776015211,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1844929644781998
+    },
+    {
+     "symbol": "UBF.N0000",
+     "weight": 0.005556199916526102,
+     "risk_contribution": 0.007352949878319978,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.19076408075325663
+    },
+    {
+     "symbol": "LGL.N0000",
+     "weight": 0.0055160975764360284,
+     "risk_contribution": 0.0073529361285252694,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.21034348574500558
+    },
+    {
+     "symbol": "SERV.N0000",
+     "weight": 0.005468993138950156,
+     "risk_contribution": 0.007353018715629094,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.16060266726366257
+    },
+    {
+     "symbol": "RWSL.N0000",
+     "weight": 0.0054440375675124785,
+     "risk_contribution": 0.007352822206669982,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.16553223208114445
+    },
+    {
+     "symbol": "HNBF.N0000",
+     "weight": 0.005340829020916498,
+     "risk_contribution": 0.0073528937143796675,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15574202620075844
+    },
+    {
+     "symbol": "SHAW.N0000",
+     "weight": 0.0053296522768082125,
+     "risk_contribution": 0.007353218777565127,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.18314233355550086
+    },
+    {
+     "symbol": "COOP.N0000",
+     "weight": 0.005236003611826727,
+     "risk_contribution": 0.007352981790812645,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.15956538421847427
+    },
+    {
+     "symbol": "DOCK.N0000",
+     "weight": 0.005225709718757252,
+     "risk_contribution": 0.007353632154222756,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16272796608362833
+    },
+    {
+     "symbol": "WAPO.N0000",
+     "weight": 0.005084184794991894,
+     "risk_contribution": 0.007352876713839575,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.20157053334439645
+    },
+    {
+     "symbol": "BFL.N0000",
+     "weight": 0.005041028365246174,
+     "risk_contribution": 0.007352807754026093,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.18813696369386623
+    },
+    {
+     "symbol": "SINS.N0000",
+     "weight": 0.004983694864551042,
+     "risk_contribution": 0.007353048827522753,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.18182050648634684
+    },
+    {
+     "symbol": "CRL.N0000",
+     "weight": 0.004844547726991724,
+     "risk_contribution": 0.007353026164536876,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15559150098841945
+    },
+    {
+     "symbol": "HEXP.N0000",
+     "weight": 0.004577241188755333,
+     "risk_contribution": 0.007353167106735202,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.2331086480704999
+    },
+    {
+     "symbol": "CITH.N0000",
+     "weight": 0.004499540639742806,
+     "risk_contribution": 0.007353288803003862,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.21217582105069277
+    },
+    {
+     "symbol": "HVA.N0000",
+     "weight": 0.004475086763556573,
+     "risk_contribution": 0.007353420877774149,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.06793686757811082
+    },
+    {
+     "symbol": "AMSL.N0000",
+     "weight": 0.0044267264878004595,
+     "risk_contribution": 0.007353388127704644,
+     "cap": 0.1,
+     "sector": "Health Care Equipment & Services",
+     "er": 0.20808782436996337
+    },
+    {
+     "symbol": "COCO.N0000",
+     "weight": 0.004405381399210727,
+     "risk_contribution": 0.0073532364695807735,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.2423619465682781
+    },
+    {
+     "symbol": "HDFC.N0000",
+     "weight": 0.004400579123455775,
+     "risk_contribution": 0.0073531433373327645,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.2604174880914118
+    },
+    {
+     "symbol": "ASHO.N0000",
+     "weight": 0.004393884567359057,
+     "risk_contribution": 0.007352774909284091,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.20001327126478732
+    },
+    {
+     "symbol": "MBSL.N0000",
+     "weight": 0.004302442611981941,
+     "risk_contribution": 0.007353067734004323,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.20482177109008365
+    },
+    {
+     "symbol": "SCAP.N0000",
+     "weight": 0.0042843984015584514,
+     "risk_contribution": 0.007353324511683738,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1257477657839787
+    },
+    {
+     "symbol": "UML.N0000",
+     "weight": 0.004196473943521599,
+     "risk_contribution": 0.0073529040627710015,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.22331306751588215
+    },
+    {
+     "symbol": "SFIN.N0000",
+     "weight": 0.004179829045886884,
+     "risk_contribution": 0.007352880094283642,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.22070839958602084
+    },
+    {
+     "symbol": "RIL.N0000",
+     "weight": 0.004159205932494958,
+     "risk_contribution": 0.007352847122280823,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.22070413571064237
+    },
+    {
+     "symbol": "BOGA.N0000",
+     "weight": 0.0041460597065495226,
+     "risk_contribution": 0.007353404665376428,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.26700134626748806
+    },
+    {
+     "symbol": "NHL.N0000",
+     "weight": 0.00405420618644216,
+     "risk_contribution": 0.0073530772542788475,
+     "cap": 0.1,
+     "sector": "Health Care Equipment & Services",
+     "er": 0.21139774595896133
+    },
+    {
+     "symbol": "LCBF.N0000",
+     "weight": 0.003855433361028162,
+     "risk_contribution": 0.007353034663714612,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.17218948218774188
+    },
+    {
+     "symbol": "PLR.N0000",
+     "weight": 0.0038134363348799587,
+     "risk_contribution": 0.007352900969272903,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2312535937569157
+    },
+    {
+     "symbol": "RAL.N0000",
+     "weight": 0.0037852616965222937,
+     "risk_contribution": 0.0073530490977971276,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.2318580644911112
+    },
+    {
+     "symbol": "KZOO.N0000",
+     "weight": 0.003756189744002374,
+     "risk_contribution": 0.007353301805397295,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2772571722433981
+    },
+    {
+     "symbol": "ASCO.N0000",
+     "weight": 0.0036862137751477336,
+     "risk_contribution": 0.007352851616053949,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2513257544015312
+    },
+    {
+     "symbol": "ASIY.N0000",
+     "weight": 0.0035333383851634454,
+     "risk_contribution": 0.00735311786667087,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.22944313440333303
+    },
+    {
+     "symbol": "ACME.N0000",
+     "weight": 0.0035288049232108216,
+     "risk_contribution": 0.007353915594943807,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.32314703207403783
+    },
+    {
+     "symbol": "SHL.N0000",
+     "weight": 0.003287366288683398,
+     "risk_contribution": 0.0073533544980422865,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.1352581298891109
+    },
+    {
+     "symbol": "KPHL.N0000",
+     "weight": 0.0031794421472247742,
+     "risk_contribution": 0.007353263468109746,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.30482740498103533
+    },
+    {
+     "symbol": "YORK.N0000",
+     "weight": 0.002194822039677499,
+     "risk_contribution": 0.007354336370335175,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.5079456782823861
+    }
+   ],
+   "sectors": {
+    "Diversified Financials": 0.18299698896973926,
+    "Capital Goods": 0.14465301405765046,
+    "Food, Beverage & Tobacco": 0.1409469436975323,
+    "Materials": 0.12903314656925025,
+    "Banks": 0.11980160942802859,
+    "Utilities": 0.04676161726502141,
+    "Insurance": 0.04011675749071393,
+    "Real Estate Management & Development": 0.03856138881860881,
+    "Consumer Services": 0.03740881734659936,
+    "Consumer Durables & Apparel": 0.032042515416870164,
+    "Energy": 0.023357290549195917,
+    "Retailing": 0.022658976027524824,
+    "Health Care Equipment & Services": 0.014588195651315859,
+    "Telecommunication Services": 0.014373954184736751,
+    "Transportation": 0.0068580005916683414,
+    "Software & Services": 0.005840783935543925
+   },
+   "n": 136,
+   "constraints": {
+    "sum": 1.0,
+    "min": 0.002194822039677499,
+    "max_over_cap": -0.06917797231072584,
+    "max_sector_over": -0.11700301103026073,
+    "max_group_over": -0.08583475214306177,
+    "ok": true
+   }
+  },
+  "max_sharpe": {
+   "groups": {
+    "KDDPERERA": 0.19999035235855864,
+    "MILFORDEXPORTSCEYLON": 0.09902716214751661,
+    "UGMADANAYAKE": 0.03212286581279251,
+    "PRIMASINGAPORE": 0.029686730241078197,
+    "SENTHILVERLHOLDINGS": 0.02518751247937495,
+    "SCHAFFTERS": 0.02394378381944644,
+    "LISTED:HNB": 0.017420460580538984,
+    "LISTED:JKH": 0.013393671930703805,
+    "ASHTHIHOLDINGS": 0.00821661185739793,
+    "LISTED:CFIN": 0.007689142442255503,
+    "ISHARACHINTHAKANANAYAKKARA": 0.007387547340299057
+   },
+   "name": "Maximum Sharpe",
+   "er": 0.20610206058168146,
+   "vol": 0.20457567254677417,
+   "sharpe": 0.5235327311813854,
+   "holdings": [
+    {
+     "symbol": "HBS.N0000",
+     "weight": 0.10000000449990504,
+     "risk_contribution": 0.13522280529840303,
+     "cap": 0.1,
+     "sector": "Software & Services",
+     "er": 0.24727421487471274
+    },
+    {
+     "symbol": "LFIN.N0000",
+     "weight": 0.07729522134418403,
+     "risk_contribution": 0.06156207846027024,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.18393619448912657
+    },
+    {
+     "symbol": "HAYC.N0000",
+     "weight": 0.07175056174362425,
+     "risk_contribution": 0.057954706977919025,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18514333216010423
+    },
+    {
+     "symbol": "NAMU.N0000",
+     "weight": 0.06473401758982839,
+     "risk_contribution": 0.0770621495173083,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.22611081185165063
+    },
+    {
+     "symbol": "AHUN.N0000",
+     "weight": 0.05836929036639466,
+     "risk_contribution": 0.050883202321715726,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1919777350313721
+    },
+    {
+     "symbol": "ASPH.N0000",
+     "weight": 0.047397170665462875,
+     "risk_contribution": 0.06866738054224743,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.2537776870620899
+    },
+    {
+     "symbol": "ALLI.N0000",
+     "weight": 0.041969441977406215,
+     "risk_contribution": 0.02460676638837241,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16140607833762707
+    },
+    {
+     "symbol": "DIPD.N0000",
+     "weight": 0.04105991165709168,
+     "risk_contribution": 0.02408902164335515,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.16146896169945615
+    },
+    {
+     "symbol": "SPEN.N0000",
+     "weight": 0.04065787178112194,
+     "risk_contribution": 0.020097610411694014,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15155359523856524
+    },
+    {
+     "symbol": "NDB.N0000",
+     "weight": 0.038218599462408166,
+     "risk_contribution": 0.025150094906363486,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1690914074601989
+    },
+    {
+     "symbol": "RHL.N0000",
+     "weight": 0.036389065434998064,
+     "risk_contribution": 0.035093442787297986,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.2019006488221258
+    },
+    {
+     "symbol": "KZOO.N0000",
+     "weight": 0.033594391020805074,
+     "risk_contribution": 0.05603513209881075,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2772571722433981
+    },
+    {
+     "symbol": "LIOC.N0000",
+     "weight": 0.033166931052545645,
+     "risk_contribution": 0.011755851492476587,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.13657371439554075
+    },
+    {
+     "symbol": "LGL.N0000",
+     "weight": 0.031007019483019135,
+     "risk_contribution": 0.03234730038137594,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.21034348574500558
+    },
+    {
+     "symbol": "SEMB.N0000",
+     "weight": 0.030638749824871497,
+     "risk_contribution": 0.03235818844312673,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.2117245310766843
+    },
+    {
+     "symbol": "HDFC.N0000",
+     "weight": 0.024067303027500556,
+     "risk_contribution": 0.036359929252626454,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.2604174880914118
+    },
+    {
+     "symbol": "JINS.N0000",
+     "weight": 0.02394378381944644,
+     "risk_contribution": 0.024756002856624215,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.20934709965722798
+    },
+    {
+     "symbol": "APLA.N0000",
+     "weight": 0.023703598492454004,
+     "risk_contribution": 0.018956648000288363,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18426542415955827
+    },
+    {
+     "symbol": "TAFL.N0000",
+     "weight": 0.023242841165711705,
+     "risk_contribution": 0.02179790571337067,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.19905578705728805
+    },
+    {
+     "symbol": "SLTL.N0000",
+     "weight": 0.01840118746093892,
+     "risk_contribution": 0.020132064519411585,
+     "cap": 0.1,
+     "sector": "Telecommunication Services",
+     "er": 0.2157883656270548
+    },
+    {
+     "symbol": "KCAB.N0000",
+     "weight": 0.01575850583671635,
+     "risk_contribution": 0.012225704644943016,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.18170344748164088
+    },
+    {
+     "symbol": "HNB.X0000",
+     "weight": 0.013766077024588803,
+     "risk_contribution": 0.01119765982713223,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.18573133479666998
+    },
+    {
+     "symbol": "JKH.N0000",
+     "weight": 0.013393671930703805,
+     "risk_contribution": 0.008509854306191136,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16666070092753085
+    },
+    {
+     "symbol": "ACME.N0000",
+     "weight": 0.013383631026411269,
+     "risk_contribution": 0.0280582364187116,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.32314703207403783
+    },
+    {
+     "symbol": "YORK.N0000",
+     "weight": 0.011803881452963683,
+     "risk_contribution": 0.04511329735444241,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.5079456782823861
+    },
+    {
+     "symbol": "HEXP.N0000",
+     "weight": 0.009884657613658678,
+     "risk_contribution": 0.012410895158172067,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.2331086480704999
+    },
+    {
+     "symbol": "BOGA.N0000",
+     "weight": 0.009106756421237297,
+     "risk_contribution": 0.014317945009728569,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.26700134626748806
+    },
+    {
+     "symbol": "CSLK.N0000",
+     "weight": 0.008419267320338502,
+     "risk_contribution": 0.005068614534449057,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16309011332923426
+    },
+    {
+     "symbol": "CALT.N0000",
+     "weight": 0.00821661185739793,
+     "risk_contribution": 0.0035262506628873746,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14457597242020503
+    },
+    {
+     "symbol": "CFIN.N0000",
+     "weight": 0.007689142442255503,
+     "risk_contribution": 0.0053139004438496375,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.1726292468548929
+    },
+    {
+     "symbol": "LOLC.N0000",
+     "weight": 0.007387547340299057,
+     "risk_contribution": 0.003410500086591508,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14805615917704681
+    },
+    {
+     "symbol": "GRAN.N0000",
+     "weight": 0.006443889075366493,
+     "risk_contribution": 0.006329737851569015,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.20381671485741543
+    },
+    {
+     "symbol": "ATL.N0000",
+     "weight": 0.005870840007613549,
+     "risk_contribution": 0.0041304432088830985,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1739638341661478
+    },
+    {
+     "symbol": "LLUB.N0000",
+     "weight": 0.004107441662715434,
+     "risk_contribution": 0.001903328746589471,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.14824146748521916
+    },
+    {
+     "symbol": "HNB.N0000",
+     "weight": 0.003654383555950181,
+     "risk_contribution": 0.002060005255327169,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15898621667701623
+    },
+    {
+     "symbol": "OSEA.N0000",
+     "weight": 0.0015067335620651931,
+     "risk_contribution": 0.0015353444774744759,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.20774770899653752
+    }
+   ],
+   "sectors": {
+    "Materials": 0.2105090716689968,
+    "Diversified Financials": 0.1731967147864142,
+    "Capital Goods": 0.11461838230387866,
+    "Software & Services": 0.10000000449990504,
+    "Food, Beverage & Tobacco": 0.09442074783090659,
+    "Banks": 0.0797063630704477,
+    "Energy": 0.06417395053556478,
+    "Consumer Services": 0.05836929036639466,
+    "Real Estate Management & Development": 0.046905006035833946,
+    "Insurance": 0.029814623827059992,
+    "Telecommunication Services": 0.01840118746093892,
+    "Consumer Durables & Apparel": 0.009884657613658678
+   },
+   "n": 36,
+   "constraints": {
+    "sum": 1.0,
+    "min": 0.0,
+    "max_over_cap": 4.49990503192943e-09,
+    "max_sector_over": -0.0894909283310032,
+    "max_group_over": -9.647641441401511e-06,
+    "ok": true
+   }
+  },
+  "equal_weight": {
+   "groups": {
+    "KDDPERERA": 0.11029411764705882,
+    "AKPATHIRAGE": 0.044117647058823525,
+    "MILFORDEXPORTSCEYLON": 0.03676470588235294,
+    "ISHARACHINTHAKANANAYAKKARA": 0.029411764705882353,
+    "GEORGESTEUARTANDCO": 0.022058823529411763,
+    "LISTED:HNB": 0.022058823529411763,
+    "LISTED:JKH": 0.022058823529411763,
+    "RRTAKAHASHI": 0.022058823529411763,
+    "SENTHILVERLHOLDINGS": 0.022058823529411763,
+    "UGMADANAYAKE": 0.022058823529411763,
+    "ASHTHIHOLDINGS": 0.014705882352941176,
+    "EIGHTHWONDER": 0.014705882352941176,
+    "LISTED:CFIN": 0.014705882352941176,
+    "LISTED:COMB": 0.014705882352941176,
+    "LISTED:SEYB": 0.014705882352941176,
+    "LISTED:TKYO": 0.014705882352941176,
+    "PAINTSANDGENERALINDUSTRIES": 0.014705882352941176,
+    "PRIMASINGAPORE": 0.014705882352941176,
+    "RENUKAENTERPRISES": 0.014705882352941176,
+    "SCHAFFTERS": 0.014705882352941176
+   },
+   "name": "Equal weight",
+   "er": 0.17815500906613516,
+   "vol": 0.1996393821452699,
+   "sharpe": 0.39648995211043625,
+   "holdings": [
+    {
+     "symbol": "AAF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0062909901738248545,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16390579729194632
+    },
+    {
+     "symbol": "AAIC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006476675020135522,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.15771613781431099
+    },
+    {
+     "symbol": "ABL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005284617933299244,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14583668019584467
+    },
+    {
+     "symbol": "ACL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0061263973938120685,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.17063330861859807
+    },
+    {
+     "symbol": "ACME.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.015511689417784094,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.32314703207403783
+    },
+    {
+     "symbol": "AEL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005333653508068926,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15860319161794043
+    },
+    {
+     "symbol": "AGST.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008077387128587153,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.20754208647354833
+    },
+    {
+     "symbol": "AHUN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0062858456794550885,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1919777350313721
+    },
+    {
+     "symbol": "ALLI.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004240822234120535,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16140607833762707
+    },
+    {
+     "symbol": "ALUM.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00409164505294205,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.1277054162230174
+    },
+    {
+     "symbol": "AMSL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011066547215255199,
+     "cap": 0.1,
+     "sector": "Health Care Equipment & Services",
+     "er": 0.20808782436996337
+    },
+    {
+     "symbol": "APLA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0071014320790164535,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18426542415955827
+    },
+    {
+     "symbol": "ASCO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.012799755654357543,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2513257544015312
+    },
+    {
+     "symbol": "ASHO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.010576398637101176,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.20001327126478732
+    },
+    {
+     "symbol": "ASIR.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008046928044293819,
+     "cap": 0.1,
+     "sector": "Health Care Equipment & Services",
+     "er": 0.1766873603369758
+    },
+    {
+     "symbol": "ASIY.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.013590810191582786,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.22944313440333303
+    },
+    {
+     "symbol": "ASPH.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004578045844149034,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.2537776870620899
+    },
+    {
+     "symbol": "ATL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005958472125331453,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1739638341661478
+    },
+    {
+     "symbol": "BFL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00891107154103638,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.18813696369386623
+    },
+    {
+     "symbol": "BIL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005335034664986996,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.15403099641106094
+    },
+    {
+     "symbol": "BOGA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011174029192034795,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.26700134626748806
+    },
+    {
+     "symbol": "BRWN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006411634882087719,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16510391712650252
+    },
+    {
+     "symbol": "CALH.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004720367089829481,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14583699538978284
+    },
+    {
+     "symbol": "CALT.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.003201777142344858,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14457597242020503
+    },
+    {
+     "symbol": "CBNK.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0025302928821859696,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.12169201188650607
+    },
+    {
+     "symbol": "CCS.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005741963248792544,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14151265748877773
+    },
+    {
+     "symbol": "CDB.X0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005511709477744715,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16861625114427792
+    },
+    {
+     "symbol": "CFIN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005460457780685358,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.1726292468548929
+    },
+    {
+     "symbol": "CFVF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0075715912434049445,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.17340915793985806
+    },
+    {
+     "symbol": "CIC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0066742860279693905,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18093562211774628
+    },
+    {
+     "symbol": "CIC.X0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007175871195175348,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.17368283963817358
+    },
+    {
+     "symbol": "CIND.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005525384629466079,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15829252966464208
+    },
+    {
+     "symbol": "CINV.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007712706003245785,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16519964865843828
+    },
+    {
+     "symbol": "CITH.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.010125970048865505,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.21217582105069277
+    },
+    {
+     "symbol": "CLND.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006979959842482856,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.17131267680716378
+    },
+    {
+     "symbol": "COCO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.010918829669389247,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.2423619465682781
+    },
+    {
+     "symbol": "COCR.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0077226761444884,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16332729709351035
+    },
+    {
+     "symbol": "COMB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005646692684205507,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.16585875314679865
+    },
+    {
+     "symbol": "COMB.X0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005085090035058932,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14560794263086407
+    },
+    {
+     "symbol": "COOP.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00893487057969478,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.15956538421847427
+    },
+    {
+     "symbol": "CRL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.01011166416110015,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15559150098841945
+    },
+    {
+     "symbol": "CSLK.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005071693527272205,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16309011332923426
+    },
+    {
+     "symbol": "CTC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0011520892796890645,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.10901289137967303
+    },
+    {
+     "symbol": "DFCC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005818455127433872,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15735399153502605
+    },
+    {
+     "symbol": "DIAL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005852543528975806,
+     "cap": 0.1,
+     "sector": "Telecommunication Services",
+     "er": 0.1697432086842817
+    },
+    {
+     "symbol": "DIMO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007342098105878216,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.1731172870057428
+    },
+    {
+     "symbol": "DIPD.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0046392099057402285,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.16146896169945615
+    },
+    {
+     "symbol": "DIST.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0045831762071224386,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14046913829758462
+    },
+    {
+     "symbol": "DOCK.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008907835139028018,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16272796608362833
+    },
+    {
+     "symbol": "EAST.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006232455448029003,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.16816668623310027
+    },
+    {
+     "symbol": "EBCR.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005649031613761054,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15778233176629064
+    },
+    {
+     "symbol": "FCT.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0053434210602958,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.13197527922274907
+    },
+    {
+     "symbol": "GRAN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007764415355691166,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.20381671485741543
+    },
+    {
+     "symbol": "HASU.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004603574034854443,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1373170503933895
+    },
+    {
+     "symbol": "HAYC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004791770818336053,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.18514333216010423
+    },
+    {
+     "symbol": "HAYL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005594698847779552,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.17617711949350084
+    },
+    {
+     "symbol": "HBS.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008330181780503473,
+     "cap": 0.1,
+     "sector": "Software & Services",
+     "er": 0.24727421487471274
+    },
+    {
+     "symbol": "HDFC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.010834131426716966,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.2604174880914118
+    },
+    {
+     "symbol": "HEXP.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.010250565736808742,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.2331086480704999
+    },
+    {
+     "symbol": "HHL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005620805866700828,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.1589800579894788
+    },
+    {
+     "symbol": "HNB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00464556733607514,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15898621667701623
+    },
+    {
+     "symbol": "HNB.X0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0063842523768510755,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.18573133479666998
+    },
+    {
+     "symbol": "HNBF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.009034665455213158,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15574202620075844
+    },
+    {
+     "symbol": "HVA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011353545051008992,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.06793686757811082
+    },
+    {
+     "symbol": "JAT.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0054667928825989495,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.13887041167572223
+    },
+    {
+     "symbol": "JETS.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006015407193549446,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1477175966240203
+    },
+    {
+     "symbol": "JINS.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008044463915627572,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.20934709965722798
+    },
+    {
+     "symbol": "JKH.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0050382215740600094,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16666070092753085
+    },
+    {
+     "symbol": "KCAB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006747642532894974,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.18170344748164088
+    },
+    {
+     "symbol": "KHL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006331829459537539,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1585114268409133
+    },
+    {
+     "symbol": "KOTA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008116715872936256,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.17062020531724692
+    },
+    {
+     "symbol": "KPHL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.01535001456159596,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.30482740498103533
+    },
+    {
+     "symbol": "KZOO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.012412443975247382,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2772571722433981
+    },
+    {
+     "symbol": "LALU.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00758999440599037,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.15958603722350279
+    },
+    {
+     "symbol": "LCBF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0124290510778656,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.17218948218774188
+    },
+    {
+     "symbol": "LFIN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005023807782480368,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.18393619448912657
+    },
+    {
+     "symbol": "LGL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00822087506936396,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.21034348574500558
+    },
+    {
+     "symbol": "LIOC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.002567374518709882,
+     "cap": 0.1,
+     "sector": "Energy",
+     "er": 0.13657371439554075
+    },
+    {
+     "symbol": "LLUB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.003767930781199388,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.14824146748521916
+    },
+    {
+     "symbol": "LMF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007790954254029147,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.14771182656221452
+    },
+    {
+     "symbol": "LOFC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004757859176703642,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.15471122705172963
+    },
+    {
+     "symbol": "LOLC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0038590998624547343,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.14805615917704681
+    },
+    {
+     "symbol": "LUMX.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008458812471474187,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16259623964123493
+    },
+    {
+     "symbol": "LVEF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007356684844548244,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.15755019550231542
+    },
+    {
+     "symbol": "LWL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.00679811117519979,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16599850677730354
+    },
+    {
+     "symbol": "MBSL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011100133490125416,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.20482177109008365
+    },
+    {
+     "symbol": "MELS.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004314786183181034,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.1497108917098045
+    },
+    {
+     "symbol": "MERC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.003497765697983882,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.11912402240354619
+    },
+    {
+     "symbol": "MFPE.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005675062819291325,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.16126291493691616
+    },
+    {
+     "symbol": "MGT.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.003529536851349215,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.13736887738977796
+    },
+    {
+     "symbol": "NAMU.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006645039364638034,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.22611081185165063
+    },
+    {
+     "symbol": "NDB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0038854416540329046,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1690914074601989
+    },
+    {
+     "symbol": "NHL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011871805562431495,
+     "cap": 0.1,
+     "sector": "Health Care Equipment & Services",
+     "er": 0.21139774595896133
+    },
+    {
+     "symbol": "OSEA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007981307161562272,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.20774770899653752
+    },
+    {
+     "symbol": "PABC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005821456620712353,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.15539130352901484
+    },
+    {
+     "symbol": "PAP.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0071660363647571435,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14489344965362083
+    },
+    {
+     "symbol": "PARQ.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0031475692959429657,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.1228304419759733
+    },
+    {
+     "symbol": "PKME.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006736127806056007,
+     "cap": 0.1,
+     "sector": "Transportation",
+     "er": 0.16821306124812674
+    },
+    {
+     "symbol": "PLC.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007259753913463692,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16602328032688832
+    },
+    {
+     "symbol": "PLR.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.012668441929992615,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.2312535937569157
+    },
+    {
+     "symbol": "RAL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.012469716295402413,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.2318580644911112
+    },
+    {
+     "symbol": "RCL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006884849685883474,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.1821913255650594
+    },
+    {
+     "symbol": "REEF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008184627394325341,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.1844929644781998
+    },
+    {
+     "symbol": "RHL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0062139258017361075,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.2019006488221258
+    },
+    {
+     "symbol": "RICH.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007459164011016469,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.18437700624627837
+    },
+    {
+     "symbol": "RIL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011281885532888997,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.22070413571064237
+    },
+    {
+     "symbol": "RWSL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008425671883250437,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.16553223208114445
+    },
+    {
+     "symbol": "SAMP.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004028738917235489,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.14316137339159118
+    },
+    {
+     "symbol": "SCAP.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011446124458369993,
+     "cap": 0.1,
+     "sector": "Insurance",
+     "er": 0.1257477657839787
+    },
+    {
+     "symbol": "SEMB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0074130774883711505,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.2117245310766843
+    },
+    {
+     "symbol": "SERV.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008307385028717893,
+     "cap": 0.1,
+     "sector": "Consumer Services",
+     "er": 0.16060266726366257
+    },
+    {
+     "symbol": "SEYB.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004768288052405993,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.1594433355818338
+    },
+    {
+     "symbol": "SEYB.X0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006077612140604935,
+     "cap": 0.1,
+     "sector": "Banks",
+     "er": 0.17371833455256927
+    },
+    {
+     "symbol": "SFIN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.010967413991619768,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.22070839958602084
+    },
+    {
+     "symbol": "SHAW.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008746134985876845,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.18314233355550086
+    },
+    {
+     "symbol": "SHL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.015512518773684456,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.1352581298891109
+    },
+    {
+     "symbol": "SINS.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.009208356635016934,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.18182050648634684
+    },
+    {
+     "symbol": "SIRA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007603273400748033,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.16442565227199202
+    },
+    {
+     "symbol": "SLTL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006942251339811475,
+     "cap": 0.1,
+     "sector": "Telecommunication Services",
+     "er": 0.2157883656270548
+    },
+    {
+     "symbol": "SPEN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0036546791763575823,
+     "cap": 0.1,
+     "sector": "Capital Goods",
+     "er": 0.15155359523856524
+    },
+    {
+     "symbol": "SUN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0073693844779036035,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.15750699031855725
+    },
+    {
+     "symbol": "TAFL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007238064348674046,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.19905578705728805
+    },
+    {
+     "symbol": "TAP.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0077823492783033075,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.179612916951418
+    },
+    {
+     "symbol": "TJL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005345925976188078,
+     "cap": 0.1,
+     "sector": "Consumer Durables & Apparel",
+     "er": 0.15875485719424476
+    },
+    {
+     "symbol": "TKYO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005578219810053087,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.14074379465845632
+    },
+    {
+     "symbol": "TKYO.X0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.0045268195130886806,
+     "cap": 0.1,
+     "sector": "Materials",
+     "er": 0.15172870546425263
+    },
+    {
+     "symbol": "UBF.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008649067802411384,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.19076408075325663
+    },
+    {
+     "symbol": "UML.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.011300739125664226,
+     "cap": 0.1,
+     "sector": "Retailing",
+     "er": 0.22331306751588215
+    },
+    {
+     "symbol": "VFIN.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.007414108156947985,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.16509410594843543
+    },
+    {
+     "symbol": "VLL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004505139515041645,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14728909387176203
+    },
+    {
+     "symbol": "VONE.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.006623915514646908,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.1903781191865726
+    },
+    {
+     "symbol": "VPEL.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.004930998261709948,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.15249671115857402
+    },
+    {
+     "symbol": "WAPO.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.009100718798498483,
+     "cap": 0.1,
+     "sector": "Diversified Financials",
+     "er": 0.20157053334439645
+    },
+    {
+     "symbol": "WATA.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.008002697721740363,
+     "cap": 0.1,
+     "sector": "Food, Beverage & Tobacco",
+     "er": 0.1582267255362203
+    },
+    {
+     "symbol": "WIND.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.005265375440250199,
+     "cap": 0.1,
+     "sector": "Utilities",
+     "er": 0.14016325430958923
+    },
+    {
+     "symbol": "YORK.N0000",
+     "weight": 0.007352941176470588,
+     "risk_contribution": 0.02690420263280859,
+     "cap": 0.1,
+     "sector": "Real Estate Management & Development",
+     "er": 0.5079456782823861
+    }
+   ],
+   "sectors": {
+    "Diversified Financials": 0.1838235294117647,
+    "Capital Goods": 0.14705882352941177,
+    "Food, Beverage & Tobacco": 0.1323529411764706,
+    "Materials": 0.11764705882352941,
+    "Banks": 0.09558823529411764,
+    "Real Estate Management & Development": 0.058823529411764705,
+    "Consumer Services": 0.044117647058823525,
+    "Insurance": 0.044117647058823525,
+    "Utilities": 0.044117647058823525,
+    "Retailing": 0.03676470588235294,
+    "Consumer Durables & Apparel": 0.029411764705882353,
+    "Health Care Equipment & Services": 0.022058823529411763,
+    "Energy": 0.014705882352941176,
+    "Telecommunication Services": 0.014705882352941176,
+    "Software & Services": 0.007352941176470588,
+    "Transportation": 0.007352941176470588
+   },
+   "n": 136,
+   "constraints": null
+  }
+ },
+ "frontier": [
+  {
+   "er": 0.14004191380723197,
+   "vol": 0.11329243254240731
+  },
+  {
+   "er": 0.14643414011873374,
+   "vol": 0.1158486536799759
+  },
+  {
+   "er": 0.15282976752320165,
+   "vol": 0.12132053396891214
+  },
+  {
+   "er": 0.15922539498785213,
+   "vol": 0.12851808951766572
+  },
+  {
+   "er": 0.1656210224373822,
+   "vol": 0.13689803082961977
+  },
+  {
+   "er": 0.17201664992695698,
+   "vol": 0.1461272136985152
+  },
+  {
+   "er": 0.17841227736604814,
+   "vol": 0.15602112138252272
+  },
+  {
+   "er": 0.18480790483042212,
+   "vol": 0.16646817188763643
+  },
+  {
+   "er": 0.19120353229768328,
+   "vol": 0.17738002028208122
+  },
+  {
+   "er": 0.19759915976554907,
+   "vol": 0.18875992001294897
+  },
+  {
+   "er": 0.2039947872380756,
+   "vol": 0.20057746850135844
+  },
+  {
+   "er": 0.21039041471681838,
+   "vol": 0.21287825678618175
+  },
+  {
+   "er": 0.21678604218240646,
+   "vol": 0.22571847438451495
+  },
+  {
+   "er": 0.22318166963365374,
+   "vol": 0.2391763070532348
+  },
+  {
+   "er": 0.22957729709747807,
+   "vol": 0.2533725641933688
+  },
+  {
+   "er": 0.23597292456702182,
+   "vol": 0.26868674677205295
+  },
+  {
+   "er": 0.24236855203244811,
+   "vol": 0.285119065428931
+  },
+  {
+   "er": 0.24876417950782023,
+   "vol": 0.3024761135916645
+  },
+  {
+   "er": 0.2551598069680305,
+   "vol": 0.3207225486882435
+  },
+  {
+   "er": 0.26155543443569684,
+   "vol": 0.34007093529836996
+  },
+  {
+   "er": 0.2679510619034922,
+   "vol": 0.3606864639538125
+  },
+  {
+   "er": 0.2743466893723114,
+   "vol": 0.38283256769617074
+  },
+  {
+   "er": 0.28074231683089795,
+   "vol": 0.4072173738391398
+  },
+  {
+   "er": 0.28713794430609063,
+   "vol": 0.4354271577058207
+  },
+  {
+   "er": 0.29353357179831296,
+   "vol": 0.483262536736147
+  }
+ ],
+ "record_status": "updated 2026-10-29 \u2192 2026-10-30",
+ "record_written": {
+  "nav.csv": 5,
+  "holdings.csv": 361,
+  "trades.csv": 0
+ },
+ "trade_lists": {
+  "min_variance": {
+   "executed_today": [],
+   "next_close": []
+  },
+  "risk_parity": {
+   "executed_today": [],
+   "next_close": []
+  },
+  "max_sharpe": {
+   "executed_today": [],
+   "next_close": []
+  },
+  "equal_weight": {
+   "executed_today": [],
+   "next_close": []
+  }
+ },
+ "status": "ok",
+ "message": "136 stocks, 52 weekly returns; updated 2026-10-29 \u2192 2026-10-30"
+}

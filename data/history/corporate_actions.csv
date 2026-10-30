@@ -399,3 +399,8 @@ id,symbol,type,ex_date,amount_per_share,ratio_new,ratio_held,factor,subscription
 39798:LLUB.N0000,LLUB.N0000,cash_dividend,2026-11-06,7,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement%2028.10.2026_16055381488581225.pdf
 39800:CARE.N0000,CARE.N0000,rights,2026-11-17,,19,70,,30,needs_review,ratio read from text: '19 new Ordinary Voting shares for every 70 Ordinary Voting shares'; terms in announcement 39156,https://cdn.cse.lk/cmt/announcement_portal_prod/Final%20-%20CSE%20Announcement_20261028_0001_16056646723156638.pdf
 39812:WATA.N0000,WATA.N0000,cash_dividend,2026-11-09,0.8,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/WATA%201st%20interim%20announcement_Final_16147761162720590.pdf
+39822:CCS.N0000,CCS.N0000,cash_dividend,2026-11-10,1.01,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CCS%20-%20Dividend%20Letter_16225022109274134.pdf
+39823:KFP.N0000,KFP.N0000,cash_dividend,2026-11-10,0.44,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/KFP%20-%20Dividend%20Letter_16225395517184301.pdf
+39828:BFL.N0000,BFL.N0000,cash_dividend,2026-11-10,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement-1st%20Interim%20Dividend%20ending%202027_16230056031718509.pdf
+39825:SUN.N0000,SUN.N0000,cash_dividend,2026-11-10,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1st%20interim%20announcement_16226601491399246.pdf
+39829:CWM.N0000,CWM.N0000,cash_dividend,2026-11-10,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_16230807899791939.pdf
