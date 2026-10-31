@@ -1,0 +1,572 @@
+                             INTERIM FINANCIAL STATEMENTS
+                    FOR THE PERIOD ENDED 30th SEPTEMBER 2026
+
+
+
+
+HSENID BUSINESS SOLUTIONS PLC, NO 67/1, 2ND FLOOR, SCANWELL BUILDING, OFF, HUDSON ROAD, COLOMBO 03.
+      Tel: +94 11 4621111|Fax: +94 11 2394064|Email: info@hsenidbiz.com|Web: www.hsenidbiz.com
+     HSENID BUSINESS SOLUTIONS PLC
+
+     Chief Executive Officer’s Review
+     ___________________________________________________________________
+
+     Dear Shareholders,
+
+     We are pleased to present the financial results for the three months ended 30 September 2026.
+
+     hSenid Business Solutions PLC (hBS) reported total revenue of LKR 598.6 million for the second quarter
+     of FY2027, reflecting year-over-year growth of 16 percent in LKR terms. Revenue was modestly lower by
+     1 percent on a sequential quarter-on-quarter basis, reflecting softer OnPrem and payroll outsourcing
+     revenues, partially offset by higher sales of tracking devices.
+
+     Gross profit increased 25 percent year-over-year to LKR 300.3 million, resulting in a gross profit margin of
+     50 percent. The margin reflected a higher contribution from lower-margin tracking-device sales during the
+     quarter. Operating performance remained solid, with EBITDA excluding foreign exchange losses reaching
+     LKR 72.0 million, representing year-over-year growth of 141 percent and an EBITDA margin (excluding
+     forex losses) of 12 percent. hBS recorded a foreign exchange loss of LKR 15.3 million owing to the
+     appreciation of the LKR, resulting in a net loss of LKR 9.3 million for the quarter. Operating cash flow
+     returned to positive levels, reaching LKR 70.6 million for the quarter.
+
+     During the quarter, we continued to strengthen our go-to-market execution across our focus markets
+     through targeted customer engagement and partner collaboration. We also advanced our Lexi AI
+     capabilities, progressing towards our vision of a comprehensive Human Capital Operating System through
+     more integrated AI functionality and improved workforce insights. Alongside these developments, we
+     enhanced core platform functionality to streamline HR and payroll processes, improve operational
+     efficiency, and deliver greater value to customers across our markets.
+
+     During the period, hBS was honoured with the Best Investor Relations award at the CFA Society Sri Lanka
+     Capital Market Awards 2026 in the category for listed companies with a market capitalisation of less than
+     LKR 10.0 billion. This marks the third consecutive year hBS has received the award, reflecting our
+     commitment to transparent and effective stakeholder communication.
+
+     Looking ahead, we will continue to focus on driving business growth, deepening customer adoption of our
+     AI capabilities, and strengthening operational efficiency. We remain attentive to the pace of new deal
+     closures and to the mix of revenue between higher-margin cloud product and other revenue lines. Through
+     disciplined execution and sustained investment in product development, we aim to build a stronger
+     foundation for long-term growth, enhance customer value, and create sustainable returns for our
+     shareholders.
+
+
+
+       Sgd.
+     ---------------------------------
+     Sampath K. Jayasundara
+     Chief Executive Officer
+     28th October 2026
+     Colombo
+
+
+
+
+""
+         HSENID BUSINESS SOLUTIONS PLC
+         STATEMENT OF FINANCIAL POSITION
+
+                                                                           GROUP                                    COMPANY
+                                                              Unaudited              Audited               Unaudited        Audited
+         AS AT                                                30.09.2026            31.03.2026             30.09.2026     31.03.2026
+                                                                  Rs.                   Rs.                    Rs.            Rs.
+         ASSETS
+         Non-Current Assets
+         Property, plant and equipment                           26,186,229            30,850,280              25,621,337       30,405,151
+         Right of use Assets                                     22,035,715            38,362,423              22,035,715       38,362,423
+         Intangible assets                                      509,230,560           512,948,336             502,549,652      505,305,002
+         Capitalised Contract Costs                              10,117,814             8,005,985              10,117,814        8,005,985
+         Investments in subsidiaries                                     -                    -               116,787,597       68,868,015
+         Deferred tax assets                                     52,976,022            69,645,206              38,179,240       54,848,424
+                                                                620,546,341           659,812,230             715,291,355      705,794,999
+         Current Assets
+         Capitalised Contract Costs                              10,022,652             7,420,333              10,022,652         7,420,333
+         Inventories                                             38,857,452            34,542,111              38,857,452        34,542,111
+         Trade and other receivables                            691,863,574           594,116,787             892,427,171       691,459,203
+         Advances and prepayments                                56,767,410            61,817,536              40,856,156        34,951,866
+         Tax receivables                                         23,867,970            17,081,760              21,794,334        16,482,547
+         Other current financial assets                         282,668,682           267,420,451             282,668,682       267,420,451
+         Cash and bank balances                                 379,103,542           358,957,514             185,452,560       264,496,228
+                                                              1,483,151,282         1,341,356,492           1,472,079,007     1,316,772,740
+         Total Assets                                         2,103,697,623         2,001,168,722           2,187,370,362     2,022,567,739
+
+         EQUITY AND LIABILITIES
+         Capital and Reserves
+         Stated capital                                       1,026,917,176         1,023,748,924           1,026,917,176     1,023,748,924
+         Share – Based Payments Reserve                           2,038,375             1,918,070               2,038,375         1,918,070
+         Currency translation reserve                            26,547,082            43,368,242                     -                 -
+         Retained earnings
+         Non-controlling interest                                 2,680,051
+                                                                        -             (38,583,331)
+                                                                                              -               197,793,766
+                                                                                                                      -         111,935,968
+                                                                                                                                        -
+         Total Equity                                         1,058,182,684         1,030,451,906           1,226,749,317     1,137,602,963
+
+         Non-Current Liabilities
+         Retirement benefit obligation                          169,592,778           167,415,528             169,592,778      167,415,528
+         Interest bearing
+         Deferred         borrowings
+                   tax liability                                        -               6,551,066                     -          6,551,066
+                                                                169,592,778           173,966,594             169,592,778      173,966,594
+         Current Liabilities
+         Trade and other payables                               381,759,549           369,375,298          365,345,495          355,783,967
+         Deferred income                                        309,422,530           307,162,349          240,942,690          235,001,641
+         Interest bearing borrowings                            184,740,083           120,212,575          184,740,083          120,212,575
+                                                                875,922,161           796,750,222          791,028,268          710,998,182
+         Total Equity and Liabilities                         2,103,697,623         2,001,168,722        2,187,370,362        2,022,567,739
+                                                                       (0.00)               (0.15)               (0.09)               (0.02)
+         These financial statements are in compliance with the requirements of the Companies Act No. 7 of 2007.
+                                                                       (0.00)                 (0.15)                 (0.09)              (0)
+                                                                                              (0.15)                 (0.09)           (0.02)
+         Sgd.
+
+         Nilendra Weerasinghe
+         Chief Financial Officer
+
+         The Board of Directors is responsible for these financial statements. Signed for and on behalf of the Board by;
+
+
+         Sgd.                                                                     Sgd.
+
+         Sampath Jayasundara                                                    Malinga Arsakularatne
+         CEO/Director                                                           Director
+
+         28th October 2026
+         Colombo
+
+
+#   ""
+    HSENID BUSINESS SOLUTIONS PLC
+    STATEMENT OF COMPREHENSIVE INCOME - GROUP
+
+
+
+                                                                 For the three Months ended                     For the six Months ended
+
+                                                        Unaudited          Unaudited          Change   Unaudited           Unaudited          Change
+                                                        30.09.2026         30.09.2025           %      30.09.2026          30.09.2025           %
+
+                                                           Rs.                Rs.                         Rs.                  Rs.
+    Revenue                                             598,565,851        516,922,724         16%     1,200,829,919        988,521,885        21%
+
+    Cost of sales                                       (298,293,348)     (277,088,318)        8%       (579,251,535)       (531,119,272)      9%
+
+    Gross profit                                        300,272,503        239,834,406         25%       621,578,384        457,402,613        36%
+
+    Other income / (loss)                                (15,268,679)         (164,870)       9161%       31,550,671          12,682,408      149%
+
+    Administrative expenses                             (135,639,793)     (139,188,629)        -3%      (271,723,989)       (270,068,899)      1%
+
+    Selling and marketing expenses                      (102,417,252)      (79,924,741)        28%      (212,830,707)       (171,040,277)      24%
+
+
+    Finance cost                                          (4,256,136)        (3,373,908)       26%        (7,615,455)         (5,797,052)      31%
+
+    Finance income                                         6,277,535         6,671,870         -6%         9,951,487          12,455,607       -20%
+
+    Other operating expenses                             (56,236,191)      (51,470,211)        9%       (112,594,933)       (103,347,513)      9%
+
+    Profit/ (Loss) before tax                             (7,268,013)      (27,616,083)        74%        58,315,457          (67,713,113)     186%
+
+    Tax (expense)/reversal                                (2,001,580)        1,678,605        -219%      (17,052,075)          5,648,405      -402%
+
+    Profit /(loss) for the period                         (9,269,593)      (25,937,479)        64%        41,263,382         (62,064,708)     166%
+
+    Other comprehensive income
+
+    Exchange Gain/(Loss) on
+    translation of foreign operations                      1,020,537            69,212                   (16,821,161)         (3,401,453)
+
+    Re-measurements of defined benefit obligations                -                  -                              -                 -
+
+    Deferred tax on Re-measurements of defined
+    benefit obligations                                           -                  -                              -                 -
+
+    Total comprehensive income/ (loss) for the period     (8,249,055)      (25,868,266)                   24,442,221         (65,466,161)
+
+
+    Profit for the period
+    Equity holders of the Company                         (9,269,593)      (25,937,479)                   41,263,382         (62,064,708)
+    Non-controlling interest                                      -                  -                              -                 -
+
+    Total comprehensive income/ (loss) for the period
+    Equity holders of the Company                         (8,249,055)      (25,868,266)                   24,442,221         (65,466,161)
+
+    Non-controlling interest                                      -                  -                              -                 -
+    Earnings Per Share - Basic                                   (0.03)             (0.09)                       0.14                (0.22)
+    Earnings Per Share - Diluted                                 (0.03)             (0.09)                       0.14                (0.22)
+
+
+
+
+#   ""
+    HSENID BUSINESS SOLUTIONS PLC
+    STATEMENT OF COMPREHENSIVE INCOME - COMPANY
+
+
+
+                                                                        For the three Months ended                     For the six Months ended
+
+                                                                   Unaudited        Unaudited       Change    Unaudited          Unaudited
+                                                                                                                                                    Change %
+                                                                   30.09.2026       30.09.2025        %       30.09.2026         30.09.2025
+                                                                Unaudited 31.12.2021
+                                                                       Rs.              Rs.                      Rs.                 Rs.
+    Revenue                                                         529,365,718     458,224,108       16%     1,065,259,840       875,672,585         22%
+
+    Cost of sales                                                  (265,652,965)   (256,976,670)      3%       (514,316,605)     (487,095,395)        6%
+
+    Gross profit                                                    263,712,752     201,247,437       31%       550,943,235       388,577,189         42%
+
+    Other income / (loss)                                           (18,021,728)        807,482      -2332%      28,512,001         9,911,947         188%
+
+    Administrative expenses                                        (116,256,978)   (118,140,732)      -2%      (234,021,411)     (230,879,862)        1%
+
+    Selling and marketing expenses                                  (61,003,655)     (47,578,731)     28%      (136,308,318)     (111,846,570)        22%
+
+    Finance cost                                                     (4,256,136)      (3,373,908)     26%        (7,615,455)        (5,797,052)       31%
+
+    Finance income                                                    6,248,987       6,671,870       -6%         9,912,544        12,455,607         -20%
+
+    Other operating expenses                                        (54,435,693)     (49,677,003)     10%      (108,895,614)       (99,521,451)       9%
+
+
+
+    Profit /(loss) before tax                                        15,987,549      (10,043,585)    259%       102,526,981        (37,100,192)      376%
+
+    Tax (expense)/reversal                                           (1,896,475)      1,389,507     -236%       (16,669,184)         6,298,912       -365%
+
+    Profit /(loss) for the period                                    14,091,074       (8,654,078)    263%        85,857,797        (30,801,280)      379%
+
+    Other comprehensive income
+
+    Exchange Gain/(Loss) on translation of foreign operations
+                                                                            -                -                             -                -
+
+    Re-measurements of defined benefit obligations                          -                -                             -                -
+
+    Deferred tax on Re-measurements of defined
+    benefit obligations                                                     -                -                             -                -
+
+    Total comprehensive income /(loss) for the period                14,091,074       (8,654,078)                85,857,797        (30,801,280)
+
+    Profit for the period
+    Equity holders of the Company                                    14,091,074       (8,654,078)                85,857,797        (30,801,280)
+    Non-controlling interest                                                -                -                             -                -
+
+    Total comprehensive income/ (loss) for the period
+    Equity holders of the Company                                    14,091,074       (8,654,078)                85,857,797        (30,801,280)
+    Non-controlling interest                                                -                -                             -                -
+
+
+
+    Earnings Per Share - Basic                                             0.05            (0.03)                       0.30               (0.11)
+
+    Earnings Per Share - Diluted                                           0.05            (0.03)                       0.29               (0.11)
+
+
+
+
+#   ""
+    HSENID BUSINESS SOLUTIONS PLC
+    STATEMENT OF CHANGES IN EQUITY
+
+    Group
+                                         Stated         Share – Based    Currency        Retained        Total
+                                         Capital         Payments       Translation      Earnings        Equity
+                                                          Reserve         Reserve
+
+                                           Rs.              Rs.             Rs.             Rs.            Rs.
+    Balance as at 01st April 2025       1,023,748,924       1,751,910      39,620,348      4,069,818    1,069,191,000
+
+    Profit for the period                          -                -             -      (62,064,708)     (62,064,708)
+    Dividends                                      -                -             -               -               -
+    Other comprehensive income                     -                -      (3,401,453)                     (3,401,453)
+    Total comprehensive income                     -                -      (3,401,453)   (62,064,708)     (65,466,161)
+
+    Share Issue                                    -              -               -               -              -
+    ESOP expenses for the Year                     -          172,904             -               -          172,904
+
+    Balance as at 30th September 2025   1,023,748,924       1,924,813      36,218,895    (57,994,890)   1,003,897,743
+
+    Balance as at 01st April 2026       1,023,748,924       1,918,070      43,368,242    (38,583,331)   1,030,451,906
+
+    Profit for the period                          -                -             -       41,263,382       41,263,382
+    Other comprehensive income                     -                -     (16,821,161)           -        (16,821,161)
+    Total comprehensive income                     -                -     (16,821,161)    41,263,382       24,442,221
+
+
+    Share Issue                            3,168,252              -               -               -        3,168,252
+    ESOP expenses for the Year                   -            120,304             -               -          120,304
+
+
+    Balance as at 30th September 2026   1,026,917,176       2,038,375      26,547,082      2,680,051    1,058,182,684
+
+
+
+
+    Company                                               Stated        Share – Based    Retained        Total
+                                                          Capital        Payments        Earnings        Equity
+                                                           Rs.              Rs.            Rs.            Rs.
+
+    Balance as at 01st April 2025                       1,023,748,924       1,751,910     78,971,604    1,104,472,438
+
+    Profit for the period                                           -             -      (30,801,280)     (30,801,280)
+    Dividends                                                       -             -              -                -
+    Other comprehensive income                                      -             -              -                -
+    Total comprehensive income                                      -             -      (30,801,280)     (30,801,280)
+
+    Share Issue                                                     -             -               -              -
+    ESOP expenses for the Year                                      -         172,904             -          172,904
+    Balance as at 30th September 2025                   1,023,748,924       1,924,813     48,170,324    1,073,844,062
+
+
+    Balance as at 01st April 2026                       1,023,748,924       1,918,070    111,935,968    1,137,602,963
+    Profit for the period                                           -             -       85,857,797      85,857,797
+    Other comprehensive income                                      -             -              -               -
+    Total comprehensive income                                      -             -       85,857,797      85,857,797
+    Share Issue                                             3,168,252             -                        3,168,252
+    ESOP expenses for the Year                                      -         120,304             -          120,304
+
+    Balance as at 30th September 2026                   1,026,917,176       2,038,375    197,793,766    1,226,749,317
+
+
+
+
+#   ""
+     HSENID BUSINESS SOLUTIONS PLC
+     STATEMENT OF CASH FLOWS
+                                                                                  Group                              Company
+                                                                     Unaudited            Unaudited        Unaudited         Unaudited
+                                                                     30.09.2026           30.09.2025       30.09.2026        30.09.2025
+                                                                        Rs.                  Rs.              Rs.                Rs.
+     Cash flows from/(used in) operating activities
+     Profit before tax                                                   58,315,457         (67,713,113)      102,526,981        (37,100,192)
+     Adjustment For
+         Depreciation of property, plant and equipment                     9,703,740         12,311,454          9,567,064       12,075,375
+         Amortisation of right-of-use assets and intangible assets      115,954,580         104,603,879       114,426,192       102,621,699
+         Amortization of Capitalised Contract Costs                        5,657,748          2,641,162          5,657,748         2,641,162
+         Provision for Impairment of trade receivables                   12,302,571         (12,555,432)       12,173,984        (12,981,295)
+         Finance income                                                   (9,951,487)       (12,455,607)       (9,912,544)       (12,455,607)
+         Share based payments expense                                        120,304            172,904           120,304            172,904
+         Finance cost                                                      7,615,455          5,797,052         7,615,456          5,797,052
+         Provision for defined benefit plan                              12,500,000          15,000,000        12,500,000        15,000,000
+         Forex loss/(gain)                                               (29,615,312)       (10,931,609)       (28,512,001)       (9,911,947)
+     Operating profit before working capital changes                    182,603,057          36,870,689       226,163,185        65,859,151
+
+         Decrease / (Increase) in inventories                             (4,315,341)         8,164,677         (4,315,341)        8,164,677
+         Decrease / (Increase) in trade and other receivables           (110,049,358)        94,219,451       (213,141,953)      82,366,199
+         Decrease/(Increase) in advance and prepayment                     5,050,126        (11,838,888)        (5,904,290)      (10,557,059)
+         Increase / (Decrease) in deferred income                          2,260,181         15,501,721          5,941,049       12,721,525
+         Increase / (Decrease) in trade and other payables               12,384,251          61,495,975          9,561,528       53,687,515
+     Cash generated from operations                                      87,932,916         204,413,624        18,304,178       212,242,008
+
+         Finance cost paid                                                (5,802,402)        (3,313,675)        (5,802,402)       (3,313,675)
+         Defined benefit obligation paid                                 (10,322,750)       (19,933,675)       (10,322,750)      (19,933,675)
+         Tax paid                                                         (7,169,100)        (8,672,097)        (5,311,786)       (7,963,587)
+     Net cash from operating activities                                  64,638,664         172,494,177         (3,132,761)     181,031,071
+
+     Cash flows from/(used in) investing activities
+         Acquisition of property, plant and equipment                     (5,019,373)          (966,664)        (4,783,250)         (869,500)
+         Acquisition of intangible assets                                (95,344,134)       (88,516,133)       (95,344,134)      (88,516,133)
+         Acquisition of contract Assets                                  (10,371,897)        (7,672,542)       (10,371,897)       (7,672,542)
+         Investment Ininsubsidiary
+         Investments     short-term investments                                   -                 -          (47,919,582)
+                                                                                                                       -                  -
+         Finance income received                                           9,951,487         12,455,607          9,912,544       12,455,607
+     Net cash used in investing activities                              (100,783,918)       (84,699,732)      (148,506,320)      (84,602,567)
+
+     Cash flows from/(used in) financing activities
+       Proceeds from issue of shares                                       3,168,252                -            3,168,252                -
+         Payment of
+         Dividend   lease instalments
+                  paid                                                   (18,642,750)
+                                                                                 -          (18,360,925)
+                                                                                                    -          (18,642,744)
+                                                                                                                       -         (18,360,925)
+                                                                                                                                         -
+     Net cash flows from/(used in) financing activities                  (15,474,498)       (18,360,925)       (15,474,491)      (18,360,925)
+
+     Currency translation adjustment                                     12,207,874           7,348,564        28,512,001          9,911,947
+
+     Net increase / (Decrease) in cash and cash equivalents              (39,411,877)        76,782,084       (138,601,571)      87,979,525
+
+     Cash and cash equivalents at the beginning of the year             518,614,560         407,187,058       424,153,272       342,200,349
+     Cash and cash equivalents at the end of the period                 479,202,683         483,969,141       285,551,701       430,179,874
+
+
+         Analysis of cash and cash equivalents
+         Favorable balances
+         Cash and bank balances                                         379,103,542         336,008,524       185,452,560       282,219,257
+         Short term deposits                                            282,668,682         336,191,502       282,668,682       336,191,502
+                                                                        661,772,224         672,200,026       468,121,242       618,410,759
+         Unfavorable cash and cash equivalent balances
+         Bank overdraft                                                 (160,339,736)      (145,343,168)      (160,339,736)     (145,343,168)
+         Deposits pledged as securities                                  (22,229,805)       (42,887,717)       (22,229,805)      (42,887,717)
+                                                                        (182,569,541)      (188,230,885)      (182,569,541)     (188,230,885)
+         Total Cash and Cash equivalents                                479,202,683         483,969,141       285,551,701       430,179,874
+
+
+
+
+#   ""
+         HSENID BUSINESS SOLUTIONS PLC
+         EXPLANATORY NOTES TO THE FINANCIAL STATEMENTS
+
+         1    Basis of Preparation
+
+              The consolidated interim financial statements have been prepared in accordance with the accounting policies set out in the Audited Accounts for the
+              year ended 31 March 2026 and are in compliance with Sri Lanka Accounting Standards - LKAS 34 - Interim Financial Reporting.
+
+         2    The interim condensed financial statements of the Group and the Company for the period ended 30th September 2026 were authorised for issue by
+              the Board of Directors on 28th October 2026
+         3    Contingent Liabilities
+              There has not been a significant change in the nature of contingent liabilities, which were disclosed in the Audited Financial Statements for the year
+                         st
+              ended 31 March 2026
+
+         4    No circumstances have arisen since the reporting date, which would require adjustments to or disclosure in the Financial Statements. The presentation
+              and classification of the Financial Statements of the previous year have been amended, where relevant, for better presentation and to be comparable
+              with those of the current year
+
+         5    Employee Share Option Plan
+
+              The Company's board of directors has duly resolved to establish an Employee Share Option Plan ("the Plan") to grant a total of 10,000,000 ordinary
+              voting shares (representing 3.49% of the voting shares in issue as at the date of shareholder approval) for the period commencing 31 March 2023 and
+              ending 31 March 2027. The Plan was approved by shareholders at the Extraordinary General Meeting held on 6 December 2022.
+
+              A total of 6,490,000 share options remained outstanding out of the share options granted to Eligible employees as at 6 December 2022, the date at
+              which all remaining ungranted share options expired as per the terms and conditions of the said Plan. These share options were adjusted to account for
+              the capitalisation of reserves via a scrip dividend, in accordance with the rules of the Plan, to preserve the value of options granted to participants.
+              As at 30 September 2026, 6,010,356 share options remained outstanding and exercisable for a period of three years from the date on which the right to
+              subscribe and purchase such shares first vests, as set out below:
+
+              Tranche          Share options         Adjustment to       Share options     Exercised During the Expired during           Balance
+                              outstanding as of     ESOP grants on       granted after      1st half ended 30    the 1st half          30.09.2026
+                                 31.03.2026         capitalisation of     adjustment         September 2026        ended 30
+                                                     reserves via a                                               September
+                                                     scrip dividend                                                  2026
+
+
+                  1.00                  3,800,000            117,550           3,917,550               (202,963)        (477,445)           3,237,142
+
+                  2.00                  2,690,000              83,213          2,773,213                                                    2,773,213
+
+                                        6,490,000            200,764           6,690,764               (202,963)        (477,445)           6,010,356
+
+              Shares under the scheme will be offered to qualified employees at a volume weighted average price of all share transactions during the thirty market
+              days immediately preceding the grant date and the Company has used Binomial Option Pricing Model to value the share options.
+
+         6    Market value per share for the quarter ended
+                                                                                                                    30.09.2026         30.09.2025
+              Highest                                                                                                      26.50               13.10
+              Lowest                                                                                                       21.70               11.20
+              Closing                                                                                                      22.40               12.00
+
+              Market Capitalization on 30th September                                                              6,394,252,973        3,423,057,108
+
+              Net assets value per share                                                                                    3.71                  3.52
+
+         7    Public Holding as at 30th September
+                                                                                                                    30.09.2026         30.09.2025
+              Issued Share Capital (No. of Shares)                                                                  285,457,722          285,254,759
+              Public Holding as % of Issued Share Capital                                                                57.77%               57.59%
+              Total Number of Shareholders                                                                                4,356                4,684
+              Number of Shareholders representing the Public Holding                                                      4,344                4,669
+              Float Adjusted Market Capitalization - (LKR)                                                         3,695,072,640        1,979,096,124
+
+              The Company complies with the Minimum Public Holding requirement of the Main Board as per Option 4 of Section 7.13.1 (a) of the CSE Listing Rules.
+
+
+
+
+#   ""
+         HSENID BUSINESS SOLUTIONS PLC
+         EXPLANATORY NOTES TO THE FINANCIAL STATEMENTS
+
+
+         8     Shareholders' Information
+         8.1   Ordinary Voting Shares as at 30th September 2026
+                  No               Name                                                          No of Shares   %
+                   1     Hsenid Ventures (Private) Limited                                         71,938,777       25.20
+                   2     Mr. K.P.R.B. De Silva                                                     31,835,114       11.15
+                   3     Mr. Dinesh Saparamadu                                                     29,260,708       10.25
+                   4     Paints & General Industries Limited                                       25,750,957        9.02
+                         People's Leasing and Finance PLC/Argent Capital (Private) Ltd             11,913,816
+                   5                                                                                                 4.67
+                         Argent Capital (Private) Ltd                                               1,429,280
+                   6     Senkadagala Finance PLC/R.S.H.Nanayakkara & R.M.Nanayakkara               10,573,325        3.70
+                   7     People's Leasing and Finance PLC / J.Ambani                                6,982,018        2.45
+                   8     Mr Jan Gunnar Naess                                                        4,033,087        1.41
+                   9     Mr Otto Edvard Husby Kalvo                                                 3,498,187        1.23
+                  10     Mr. Sampath Jayasundara                                                    3,452,018        1.21
+                  11     People's Leasing and Finance PLC/R.S.H.Nanayakkara & R.M.Nanayakkara       3,353,695        1.17
+                  12     Bank of Ceylon A/C Ceybank Unit Trust                                      2,908,960        1.02
+                  13     Mr. Silmy Ahmed Mohamed Basheer                                            2,850,000        1.00
+                  14     Rosewood (Pvt) Limited - Account No.1                                      2,500,000        0.88
+                  15     Mrs. Fathima Salma Shafei                                                  2,500,000        0.88
+                  16     Mr. Nilam Alawdeen                                                         2,420,000        0.85
+                  17     Senkadagala Finance PLC/M.S.F.Haqque & S.I.Haqque                          2,333,243        0.82
+                  18     Hatton National Bank PLC A/C no.4 (HNB Retirement Pension Fund)            1,890,000        0.66
+                  19     Mr. Hewa Thalagasduwage Udana Randima Siriwardana                          1,520,000        0.53
+                  20     Senkadagala Finance PLC /L.L.Fernando & D.S.Fernando                       1,500,000        0.53
+                                                                                                  224,443,185       78.63
+                         Others                                                                    61,014,537       21.37
+                                                                                                  285,457,722       100.00
+
+         8.2   Directors' and Chief Executive Officer's Shareholding as at 30th September 2026
+                  No                Name                                                         No of Shares   %
+                   1      Mr. Dinesh Saparamadu                                                    29,260,708       10.25
+                   2      Mr. Sampath Jayasundara                                                   3,452,018        1.21
+                   3      Ms. Dishnira Saparamadu                                                    Nil        -
+                   4      Mr. Apurva Udeshi                                                          Nil        -
+                   5      Mr. Malinga Arsakularatne                                                  Nil        -
+                   6      Mr. Madu Ratnayake                                                         Nil        -
+                   7      Ms. Anarkali Moonesinghe                                                   Nil        -
+                   8      Mr. Arittha R Wikramanayake                                                Nil        -
+
+
+
+
+#   ""
+         HSENID BUSINESS SOLUTIONS PLC
+         CORPORATE INFORMATION
+
+         NAME OF COMPANY             hSenid Business Solutions PLC
+
+         LEGAL FORM                  A Limited liability company, incorporated in Sri Lanka
+                                     in 2005.
+                                     The ordinary shares of the Company were listed with the
+                                     Colombo Stock Exchange of Sri Lanka on 21 December 2021.
+
+         BOARD OF DIRECTORS          Mr. Dinesh Saparamadu
+                                     Mr. Sampath Jayasundara
+                                     Ms. Dishnira Saparamadu
+                                     Mr. Apurva Udeshi
+                                     Mr. Malinga Arsakularatne
+                                     Mr. Madu Ratnayake
+                                     Ms. Anarkali Moonesinghe
+                                     Mr. Arittha R Wikramanayake
+
+         SECRETARIES                 Corporate Services (Pvt) Ltd
+                                     216, De Saram Place
+                                     Colombo 10.
+                                     Tel : +94 11 4718200
+
+         AUDITORS                    Messrs Ernst & Young
+                                     Chartered Accountants
+                                     Rotunda Towers, 109 Galle Road
+                                     Colombo 3
+
+         NATURE OF THE BUSINESS      Development of Human Capital Management Software Products and related
+                                     services
+
+         REGISTERED OFFICE           No 67/1, 2nd Floor, Scanwell Building, Off Perahera Mawatha,
+                                     Hudson Road, Colombo 03
+                                     Tel   : +94 11 4621111
+                                     Fax : +94 11 2394064
+                                     Email : info@hsenidbiz.com
+
+
+
+
+#   ""
+
