@@ -404,3 +404,6 @@ id,symbol,type,ex_date,amount_per_share,ratio_new,ratio_held,factor,subscription
 39828:BFL.N0000,BFL.N0000,cash_dividend,2026-11-10,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement-1st%20Interim%20Dividend%20ending%202027_16230056031718509.pdf
 39825:SUN.N0000,SUN.N0000,cash_dividend,2026-11-10,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/1st%20interim%20announcement_16226601491399246.pdf
 39829:CWM.N0000,CWM.N0000,cash_dividend,2026-11-10,1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Announcement_16230807899791939.pdf
+39880:BREW.N0000,BREW.N0000,cash_dividend,2026-11-12,25.87,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/BREW-CSE-ANN-2026-JF-06-%202nd%20Interim%20Dividend%20for%20Year%202026-27_16579358216659850.pdf
+39867:JKH.N0000,JKH.N0000,cash_dividend,2026-11-12,0.1,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/JKH%20-%20Dividend%20Letter_16570026606670531.pdf
+39864:UBC.N0000,UBC.N0000,rights,2026-12-04,,,,,10.46,needs_review,ratio read from text: 'One new share for every Sixteen'; terms in announcement 38774,https://cdn.cse.lk/cmt/announcement_portal_prod/03.11.2026%20UBC%20RIGHTS%20ISSUE%202026_16559348719798405.pdf
