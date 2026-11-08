@@ -162,3 +162,4 @@ run_at_utc,command,status,session,message
 2026-11-07T08:24:17Z,ownership-collect,ok,,"ownership collect: 281 companies, 51 new reports (0 download failures)"
 2026-11-07T08:24:17Z,ownership-annual,ok,,"ownership annual: 281 companies, 0 new annual reports (0 download failures)"
 2026-11-07T08:24:35Z,ownership-analyse,ok,2026-11-06,"ownership: 244/281 companies with a verified shareholder table (95.3% of market cap); 2933 owners; report status {'ok': 257, 'no_text': 14, 'no_table': 10}"
+2026-11-08T16:30:02Z,fetch,no_new_session,2026-11-06,no new session (latest stored daily session 2026-11-06)
