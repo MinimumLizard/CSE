@@ -163,3 +163,7 @@ run_at_utc,command,status,session,message
 2026-11-07T08:24:17Z,ownership-annual,ok,,"ownership annual: 281 companies, 0 new annual reports (0 download failures)"
 2026-11-07T08:24:35Z,ownership-analyse,ok,2026-11-06,"ownership: 244/281 companies with a verified shareholder table (95.3% of market cap); 2933 owners; report status {'ok': 257, 'no_text': 14, 'no_table': 10}"
 2026-11-08T16:30:02Z,fetch,no_new_session,2026-11-06,no new session (latest stored daily session 2026-11-06)
+2026-11-08T16:30:09Z,lab,ok,2026-11-06,"136 stocks, 52 weekly returns; record already has 2026-11-06 for v1-52w-grp20; nothing written"
+2026-11-08T16:30:26Z,ownership-analyse,ok,2026-11-06,"ownership: 244/281 companies with a verified shareholder table (95.3% of market cap); 2933 owners; report status {'ok': 257, 'no_text': 14, 'no_table': 10}"
+2026-11-08T16:30:26Z,dealings,ok,,"dealings: 0 notices fetched; 2340 transactions (647 buys, 1682 sells, 11 other)"
+2026-11-08T16:30:56Z,fundamentals,ok,,"fundamentals: 1068/1405 report EPS and 960 NAV/share reconciled; 214 companies with P/B, 155 with trailing-12-month EPS"
