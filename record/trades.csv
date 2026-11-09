@@ -739,3 +739,5 @@ date,series,portfolio,symbol,action,shares,price,value,cost,reason
 2026-11-06,v1-52w-grp20,risk_parity,LLUB.N0000,dividend,570,,3990,0,ex 2026-11-06 Rs 7/sh net of 0% WHT
 2026-11-06,v1-52w-grp20,max_sharpe,LLUB.N0000,dividend,369,,2583,0,ex 2026-11-06 Rs 7/sh net of 0% WHT
 2026-11-06,v1-52w-grp20,equal_weight,LLUB.N0000,dividend,341,,2387,0,ex 2026-11-06 Rs 7/sh net of 0% WHT
+2026-11-09,v1-52w-grp20,risk_parity,WATA.N0000,dividend,1150,,920,0,ex 2026-11-09 Rs 0.8/sh net of 0% WHT
+2026-11-09,v1-52w-grp20,equal_weight,WATA.N0000,dividend,1482,,1185.6,0,ex 2026-11-09 Rs 0.8/sh net of 0% WHT

@@ -168,3 +168,7 @@ run_at_utc,command,status,session,message
 2026-11-08T16:30:26Z,dealings,ok,,"dealings: 0 notices fetched; 2340 transactions (647 buys, 1682 sells, 11 other)"
 2026-11-08T16:30:56Z,fundamentals,ok,,"fundamentals: 1068/1405 report EPS and 960 NAV/share reconciled; 214 companies with P/B, 155 with trailing-12-month EPS"
 2026-11-09T21:31:03Z,fetch,ok,2026-11-09,"session 2026-11-09: prices +290, indices +24, market +1, announcements +19 (65 API calls)"
+2026-11-09T21:31:10Z,lab,ok,2026-11-09,"136 stocks, 52 weekly returns; updated 2026-11-06 → 2026-11-09"
+2026-11-09T21:31:22Z,ownership-analyse,ok,2026-11-09,"ownership: 244/281 companies with a verified shareholder table (95.2% of market cap); 2933 owners; report status {'ok': 257, 'no_text': 14, 'no_table': 10}"
+2026-11-09T21:31:22Z,dealings,ok,,"dealings: 0 notices fetched; 2340 transactions (647 buys, 1682 sells, 11 other)"
+2026-11-09T21:31:41Z,fundamentals,ok,,"fundamentals: 1068/1405 report EPS and 960 NAV/share reconciled; 214 companies with P/B, 155 with trailing-12-month EPS"
