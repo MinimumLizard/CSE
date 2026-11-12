@@ -747,3 +747,6 @@ date,series,portfolio,symbol,action,shares,price,value,cost,reason
 2026-11-10,v1-52w-grp20,equal_weight,CCS.N0000,dividend,594,,599.94,0,ex 2026-11-10 Rs 1.01/sh net of 0% WHT
 2026-11-10,v1-52w-grp20,equal_weight,SUN.N0000,dividend,2478,,1239,0,ex 2026-11-10 Rs 0.5/sh net of 0% WHT
 2026-11-10,v1-52w-grp20,equal_weight,BFL.N0000,dividend,817,,817,0,ex 2026-11-10 Rs 1/sh net of 0% WHT
+2026-11-12,v1-52w-grp20,min_variance,JKH.N0000,dividend,5493,,549.3,0,ex 2026-11-12 Rs 0.1/sh net of 0% WHT
+2026-11-12,v1-52w-grp20,risk_parity,JKH.N0000,dividend,4760,,476,0,ex 2026-11-12 Rs 0.1/sh net of 0% WHT
+2026-11-12,v1-52w-grp20,equal_weight,JKH.N0000,dividend,3811,,381.1,0,ex 2026-11-12 Rs 0.1/sh net of 0% WHT
