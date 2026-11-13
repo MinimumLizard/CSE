@@ -1,7 +1,7 @@
 {
- "session": "2026-11-12",
+ "session": "2026-11-13",
  "series": "v1-52w-grp20",
- "generated_utc": "2026-11-12T19:01:38Z",
+ "generated_utc": "2026-11-13T18:37:27Z",
  "config": {
   "series": "v1-52w-grp20",
   "portfolio_size_lkr": 5000000,
@@ -187,7 +187,7 @@
   {
    "symbol": "ACAP.N0000",
    "name": "ASIA CAPITAL PLC",
-   "reason": "traded on 17% of sessions < 80%"
+   "reason": "traded on 16% of sessions < 80%"
   },
   {
    "symbol": "AFIN",
@@ -262,12 +262,12 @@
   {
    "symbol": "BBH.N0000",
    "name": "BROWNS BEACH HOTELS PLC",
-   "reason": "traded on 19% of sessions < 80%"
+   "reason": "traded on 18% of sessions < 80%"
   },
   {
    "symbol": "BERU.N0000",
    "name": "BERUWALA RESORTS PLC",
-   "reason": "median daily turnover Rs 0.50 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.49 mn < Rs 1.00 mn"
   },
   {
    "symbol": "BFN.N0000",
@@ -317,7 +317,7 @@
   {
    "symbol": "BUKI.N0000",
    "name": "BUKIT DARAH PLC",
-   "reason": "median daily turnover Rs 0.22 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.21 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CABO.N0000",
@@ -357,7 +357,7 @@
   {
    "symbol": "CARG.N0000",
    "name": "CARGILLS (CEYLON) PLC",
-   "reason": "median daily turnover Rs 0.45 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.44 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CARS.N0000",
@@ -422,7 +422,7 @@
   {
    "symbol": "CINS.X0000",
    "name": "CEYLINCO HOLDINGS PLC",
-   "reason": "median daily turnover Rs 0.40 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.39 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CIT.N0000",
@@ -447,7 +447,7 @@
   {
    "symbol": "COLO.N0000",
    "name": "C M HOLDINGS PLC",
-   "reason": "median daily turnover Rs 0.37 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.36 mn < Rs 1.00 mn"
   },
   {
    "symbol": "COMD.N0000",
@@ -457,12 +457,12 @@
   {
    "symbol": "CONN.N0000",
    "name": "HAYLEYS LEISURE  PLC",
-   "reason": "median daily turnover Rs 0.25 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.24 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CPRT.N0000",
    "name": "KERNER HAUS GLOBAL SOLUTIONS PLC",
-   "reason": "median daily turnover Rs 0.42 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.43 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CPRT.R0000",
@@ -472,7 +472,7 @@
   {
    "symbol": "CSD.N0000",
    "name": "SEYLAN DEVELOPMENTS PLC",
-   "reason": "median daily turnover Rs 0.33 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.32 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CSF.N0000",
@@ -482,7 +482,7 @@
   {
    "symbol": "CTBL.N0000",
    "name": "CEYLON TEA BROKERS PLC",
-   "reason": "median daily turnover Rs 0.49 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.48 mn < Rs 1.00 mn"
   },
   {
    "symbol": "CTEA.N0000",
@@ -542,12 +542,12 @@
   {
    "symbol": "ETWO.N0000",
    "name": "EQUITY TWO PLC",
-   "reason": "median daily turnover Rs 0.14 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.13 mn < Rs 1.00 mn"
   },
   {
    "symbol": "EXT.N0000",
    "name": "EXTERMINATORS PLC",
-   "reason": "median daily turnover Rs 0.73 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.72 mn < Rs 1.00 mn"
   },
   {
    "symbol": "FFL.D0000",
@@ -562,7 +562,7 @@
   {
    "symbol": "GHLL.N0000",
    "name": "GALADARI HOTELS (LANKA) PLC",
-   "reason": "median daily turnover Rs 0.58 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.56 mn < Rs 1.00 mn"
   },
   {
    "symbol": "GLAS.N0000",
@@ -572,7 +572,7 @@
   {
    "symbol": "GREG.N0000",
    "name": "AMBEON HOLDINGS PLC",
-   "reason": "median daily turnover Rs 0.54 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.53 mn < Rs 1.00 mn"
   },
   {
    "symbol": "GUAR.N0000",
@@ -582,7 +582,7 @@
   {
    "symbol": "HAPU.N0000",
    "name": "HAPUGASTENNE PLANTATIONS PLC",
-   "reason": "median daily turnover Rs 0.03 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.02 mn < Rs 1.00 mn"
   },
   {
    "symbol": "HARI.N0000",
@@ -627,7 +627,7 @@
   {
    "symbol": "HPL.N0000",
    "name": "HATTON PLANTATIONS PLC",
-   "reason": "median daily turnover Rs 0.53 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.51 mn < Rs 1.00 mn"
   },
   {
    "symbol": "HPWR.N0000",
@@ -647,7 +647,7 @@
   {
    "symbol": "HUNT.N0000",
    "name": "HUNTERS & COMPANY PLC",
-   "reason": "traded on 69% of sessions < 80%"
+   "reason": "traded on 68% of sessions < 80%"
   },
   {
    "symbol": "INME.N0000",
@@ -727,7 +727,7 @@
   {
    "symbol": "LGL.X0000",
    "name": "LAUGFS GAS PLC",
-   "reason": "median daily turnover Rs 0.65 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.63 mn < Rs 1.00 mn"
   },
   {
    "symbol": "LHCL.N0000",
@@ -757,7 +757,7 @@
   {
    "symbol": "LPL.X0000",
    "name": "LAUGFS POWER PLC",
-   "reason": "median daily turnover Rs 0.12 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.11 mn < Rs 1.00 mn"
   },
   {
    "symbol": "LPRT.N0000",
@@ -773,6 +773,11 @@
    "symbol": "LVEN.N0000",
    "name": "LANKA VENTURES PLC",
    "reason": "excluded (conflict of interest)"
+  },
+  {
+   "symbol": "LWL.R0000",
+   "name": "LANKA WALLTILES PLC",
+   "reason": "not an ordinary share (rights)"
   },
   {
    "symbol": "MADU.N0000",
@@ -817,7 +822,7 @@
   {
    "symbol": "MDL.N0000",
    "name": "MYLAND DEVELOPMENTS PLC",
-   "reason": "median daily turnover Rs 0.23 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.22 mn < Rs 1.00 mn"
   },
   {
    "symbol": "MEL.N0000",
@@ -832,7 +837,7 @@
   {
    "symbol": "MHDL.N0000",
    "name": "MILLENNIUM HOUSING DEVELOPERS PLC",
-   "reason": "median daily turnover Rs 0.46 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.47 mn < Rs 1.00 mn"
   },
   {
    "symbol": "MIFL",
@@ -892,7 +897,7 @@
   {
    "symbol": "PACK.N0000",
    "name": "EX-PACK CORRUGATED CARTONS PLC",
-   "reason": "median daily turnover Rs 0.74 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.73 mn < Rs 1.00 mn"
   },
   {
    "symbol": "PALM.N0000",
@@ -912,7 +917,7 @@
   {
    "symbol": "PHAR.N0000",
    "name": "COLOMBO CITY HOLDINGS PLC",
-   "reason": "median daily turnover Rs 0.52 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.53 mn < Rs 1.00 mn"
   },
   {
    "symbol": "PINS.N0000",
@@ -952,7 +957,7 @@
   {
    "symbol": "RHL.X0000",
    "name": "RENUKA HOLDINGS PLC",
-   "reason": "median daily turnover Rs 0.12 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.11 mn < Rs 1.00 mn"
   },
   {
    "symbol": "RHTL.N0000",
@@ -972,7 +977,7 @@
   {
    "symbol": "SDF.N0000",
    "name": "SARVODAYA DEVELOPMENT FINANCE PLC",
-   "reason": "median daily turnover Rs 0.48 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.47 mn < Rs 1.00 mn"
   },
   {
    "symbol": "SEMB.X0000",
@@ -1037,12 +1042,12 @@
   {
    "symbol": "SLND.N0000",
    "name": "SERENDIB LAND PLC",
-   "reason": "traded on 79% of sessions < 80%"
+   "reason": "traded on 78% of sessions < 80%"
   },
   {
    "symbol": "SMOT.N0000",
    "name": "SATHOSA MOTORS PLC",
-   "reason": "median daily turnover Rs 0.53 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.52 mn < Rs 1.00 mn"
   },
   {
    "symbol": "SOY.N0000",
@@ -1057,7 +1062,7 @@
   {
    "symbol": "SWAD.N0000",
    "name": "SWADESHI INDUSTRIAL WORKS PLC",
-   "reason": "traded on 42% of sessions < 80%"
+   "reason": "traded on 43% of sessions < 80%"
   },
   {
    "symbol": "TAJ.N0000",
@@ -1092,7 +1097,7 @@
   {
    "symbol": "TPL.N0000",
    "name": "TALAWAKELLE TEA ESTATES  PLC",
-   "reason": "median daily turnover Rs 0.38 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.39 mn < Rs 1.00 mn"
   },
   {
    "symbol": "TRAN.N0000",
@@ -1117,12 +1122,12 @@
   {
    "symbol": "UBC.N0000",
    "name": "UNION BANK OF COLOMBO PLC",
-   "reason": "median daily turnover Rs 0.72 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.71 mn < Rs 1.00 mn"
   },
   {
    "symbol": "UCAR.N0000",
    "name": "UNION CHEMICALS LANKA PLC",
-   "reason": "median daily turnover Rs 0.19 mn < Rs 1.00 mn"
+   "reason": "median daily turnover Rs 0.18 mn < Rs 1.00 mn"
   },
   {
    "symbol": "UDPL.N0000",
@@ -1739,7 +1744,7 @@
    "missed": false
   }
  ],
- "actions_used": 385,
+ "actions_used": 386,
  "labels": {
   "min_variance": "Minimum variance",
   "risk_parity": "Risk parity",
@@ -1850,10 +1855,10 @@
    "beta_current": 1.194315908953537,
    "beta_lag": -0.05817345767466751,
    "amihud": 0.0029717198444751654,
-   "median_turnover": 2307186.15,
+   "median_turnover": 2303205.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.92287446
+   "liq_cap": 0.9212822
   },
   {
    "symbol": "AAIC.N0000",
@@ -1895,10 +1900,10 @@
    "beta_current": 1.2989485241649767,
    "beta_lag": 0.02442274906181592,
    "amihud": 0.00018187904368262566,
-   "median_turnover": 28706860.25,
+   "median_turnover": 28729303.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 11.482744100000001
+   "liq_cap": 11.4917214
   },
   {
    "symbol": "ACME.N0000",
@@ -1940,10 +1945,10 @@
    "beta_current": 1.3446865264799333,
    "beta_lag": 0.3278849951617587,
    "amihud": 0.0017604283447906243,
-   "median_turnover": 3882968.1,
+   "median_turnover": 3861100.35,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.5531872400000002
+   "liq_cap": 1.5444401400000003
   },
   {
    "symbol": "AHUN.N0000",
@@ -1970,10 +1975,10 @@
    "beta_current": 0.8415742454781788,
    "beta_lag": 0.17704289183246227,
    "amihud": 0.004018740019566074,
-   "median_turnover": 1230288.875,
+   "median_turnover": 1196481.375,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.49211555
+   "liq_cap": 0.47859255
   },
   {
    "symbol": "ALUM.N0000",
@@ -1985,10 +1990,10 @@
    "beta_current": 1.127258249936927,
    "beta_lag": -0.07319692328894181,
    "amihud": 0.002019571570190928,
-   "median_turnover": 2671287.75,
+   "median_turnover": 2723663.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.0685151
+   "liq_cap": 1.0894652
   },
   {
    "symbol": "AMSL.N0000",
@@ -2000,10 +2005,10 @@
    "beta_current": 1.78086542635001,
    "beta_lag": 0.133232955415207,
    "amihud": 0.0060888392788395074,
-   "median_turnover": 1375225.1,
+   "median_turnover": 1403328.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.5500900400000001
+   "liq_cap": 0.5613312000000001
   },
   {
    "symbol": "APLA.N0000",
@@ -2030,10 +2035,10 @@
    "beta_current": 2.225740935218267,
    "beta_lag": 0.046170941563079784,
    "amihud": 0.00109268259578553,
-   "median_turnover": 9175676.35,
+   "median_turnover": 9074767.399999999,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 3.6702705399999997
+   "liq_cap": 3.6299069599999996
   },
   {
    "symbol": "ASHO.N0000",
@@ -2060,10 +2065,10 @@
    "beta_current": 1.6000732843907035,
    "beta_lag": 0.26990005648857407,
    "amihud": 0.002896440234702619,
-   "median_turnover": 2681376.15,
+   "median_turnover": 2649215.9,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.07255046
+   "liq_cap": 1.0596863600000002
   },
   {
    "symbol": "ASIY.N0000",
@@ -2105,10 +2110,10 @@
    "beta_current": 1.091171231338889,
    "beta_lag": 0.01080222228673663,
    "amihud": 0.005600122524231971,
-   "median_turnover": 1180487.25,
+   "median_turnover": 1224490.45,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.4721949
+   "liq_cap": 0.48979617999999997
   },
   {
    "symbol": "BFL.N0000",
@@ -2120,10 +2125,10 @@
    "beta_current": 1.571503181480669,
    "beta_lag": -0.3167514043493353,
    "amihud": 0.00094538013253293,
-   "median_turnover": 6797004.375,
+   "median_turnover": 6792324.825,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.71880175
+   "liq_cap": 2.71692993
   },
   {
    "symbol": "BIL.N0000",
@@ -2165,10 +2170,10 @@
    "beta_current": 1.154510325013233,
    "beta_lag": 0.060437327293933994,
    "amihud": 0.0033341753030937146,
-   "median_turnover": 1977969.875,
+   "median_turnover": 1950380.375,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.7911879500000001
+   "liq_cap": 0.78015215
   },
   {
    "symbol": "CALH.N0000",
@@ -2195,10 +2200,10 @@
    "beta_current": 0.6323362943980693,
    "beta_lag": 0.1567616735256756,
    "amihud": 0.0018595229210941855,
-   "median_turnover": 2211574.3,
+   "median_turnover": 2195494.8,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.88462972
+   "liq_cap": 0.87819792
   },
   {
    "symbol": "CBNK.N0000",
@@ -2240,10 +2245,10 @@
    "beta_current": 1.0164887579487063,
    "beta_lag": 0.10184599066190039,
    "amihud": 0.0023688491809704267,
-   "median_turnover": 1865121.9,
+   "median_turnover": 1885012.7000000002,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.74604876
+   "liq_cap": 0.7540050800000001
   },
   {
    "symbol": "CFIN.N0000",
@@ -2255,10 +2260,10 @@
    "beta_current": 1.1620712689745127,
    "beta_lag": 0.24144922330592225,
    "amihud": 0.0005945668329598342,
-   "median_turnover": 6719379.125,
+   "median_turnover": 6648000.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.6877516500000005
+   "liq_cap": 2.6592002
   },
   {
    "symbol": "CFVF.N0000",
@@ -2285,10 +2290,10 @@
    "beta_current": 1.1998623203317251,
    "beta_lag": 0.0429073211190598,
    "amihud": 0.0004214697234118164,
-   "median_turnover": 12268948.05,
+   "median_turnover": 12222835.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 4.907579220000001
+   "liq_cap": 4.889134
   },
   {
    "symbol": "CIC.X0000",
@@ -2300,10 +2305,10 @@
    "beta_current": 1.2575820698336666,
    "beta_lag": -0.12498731386685696,
    "amihud": 0.0005328156916069066,
-   "median_turnover": 10442187.8,
+   "median_turnover": 10357409.3,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 4.17687512
+   "liq_cap": 4.14296372
   },
   {
    "symbol": "CIND.N0000",
@@ -2330,10 +2335,10 @@
    "beta_current": 1.4037944420543713,
    "beta_lag": -0.3446701573831598,
    "amihud": 0.006918508681529548,
-   "median_turnover": 1295685.7,
+   "median_turnover": 1246400.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.5182742800000001
+   "liq_cap": 0.4985602
   },
   {
    "symbol": "CITH.N0000",
@@ -2360,10 +2365,10 @@
    "beta_current": 1.386947667941222,
    "beta_lag": 0.16106003086904797,
    "amihud": 0.0020710973117050563,
-   "median_turnover": 3863142.0,
+   "median_turnover": 3964907.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.5452568
+   "liq_cap": 1.585963
   },
   {
    "symbol": "COCO.N0000",
@@ -2390,10 +2395,10 @@
    "beta_current": 1.3763277726973053,
    "beta_lag": -0.37368557323767576,
    "amihud": 0.0005954787260332336,
-   "median_turnover": 12651175.95,
+   "median_turnover": 12899707.7,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 5.06047038
+   "liq_cap": 5.159883079999999
   },
   {
    "symbol": "COMB.N0000",
@@ -2435,10 +2440,10 @@
    "beta_current": 1.7077199879655325,
    "beta_lag": -0.5819642770906921,
    "amihud": 0.002056484110161095,
-   "median_turnover": 3308613.3,
+   "median_turnover": 3113860.7,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.32344532
+   "liq_cap": 1.24554428
   },
   {
    "symbol": "CRL.N0000",
@@ -2450,10 +2455,10 @@
    "beta_current": 1.9976519318654415,
    "beta_lag": -0.22843213835775295,
    "amihud": 0.006387110660835522,
-   "median_turnover": 1637507.2,
+   "median_turnover": 1691358.4,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.65500288
+   "liq_cap": 0.6765433599999999
   },
   {
    "symbol": "CSLK.N0000",
@@ -2525,10 +2530,10 @@
    "beta_current": 1.1854841462287145,
    "beta_lag": -0.1575872701132481,
    "amihud": 0.004398035246144668,
-   "median_turnover": 1295370.75,
+   "median_turnover": 1282718.25,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.5181483
+   "liq_cap": 0.5130873
   },
   {
    "symbol": "DIPD.N0000",
@@ -2555,10 +2560,10 @@
    "beta_current": 0.8165010592167925,
    "beta_lag": -0.19106075083077848,
    "amihud": 0.0010915270166358636,
-   "median_turnover": 3538990.8,
+   "median_turnover": 3544720.9000000004,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.4155963200000001
+   "liq_cap": 1.4178883600000003
   },
   {
    "symbol": "DOCK.N0000",
@@ -2570,10 +2575,10 @@
    "beta_current": 1.55006744975943,
    "beta_lag": -0.5187720260352119,
    "amihud": 0.00031282288563609276,
-   "median_turnover": 36898308.0,
+   "median_turnover": 36474716.375,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 14.7593232
+   "liq_cap": 14.58988655
   },
   {
    "symbol": "EAST.N0000",
@@ -2615,10 +2620,10 @@
    "beta_current": 1.0272441482715522,
    "beta_lag": -0.26040535337906356,
    "amihud": 0.0037819346533407806,
-   "median_turnover": 1238182.6,
+   "median_turnover": 1216123.1,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.49527304000000005
+   "liq_cap": 0.48644924000000006
   },
   {
    "symbol": "GRAN.N0000",
@@ -2630,10 +2635,10 @@
    "beta_current": 1.3385612550908101,
    "beta_lag": 0.11304394013251352,
    "amihud": 0.0011176930326310733,
-   "median_turnover": 4366786.0,
+   "median_turnover": 4244218.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.7467144
+   "liq_cap": 1.6976872
   },
   {
    "symbol": "HASU.N0000",
@@ -2660,10 +2665,10 @@
    "beta_current": 0.9675265316475885,
    "beta_lag": 0.3902241953344533,
    "amihud": 0.00044362201241979145,
-   "median_turnover": 14278668.75,
+   "median_turnover": 14717259.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 5.7114675
+   "liq_cap": 5.886903600000001
   },
   {
    "symbol": "HAYL.N0000",
@@ -2690,10 +2695,10 @@
    "beta_current": 1.3204795484464333,
    "beta_lag": 0.4607727231123194,
    "amihud": 0.002105385559083581,
-   "median_turnover": 6094576.9,
+   "median_turnover": 5978664.4,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.43783076
+   "liq_cap": 2.39146576
   },
   {
    "symbol": "HDFC.N0000",
@@ -2765,10 +2770,10 @@
    "beta_current": 1.2521026479944652,
    "beta_lag": 0.12841410023579156,
    "amihud": 0.00024054448369590126,
-   "median_turnover": 27388712.625,
+   "median_turnover": 26477937.875,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 10.95548505
+   "liq_cap": 10.59117515
   },
   {
    "symbol": "HNBF.N0000",
@@ -2795,10 +2800,10 @@
    "beta_current": 1.4822112169264885,
    "beta_lag": -1.5575404655248029,
    "amihud": 0.008487162700162849,
-   "median_turnover": 1796003.25,
+   "median_turnover": 1842296.9,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.7184013
+   "liq_cap": 0.73691876
   },
   {
    "symbol": "JAT.N0000",
@@ -2810,10 +2815,10 @@
    "beta_current": 1.272309495297082,
    "beta_lag": -0.1355192584919852,
    "amihud": 0.0011300786765977516,
-   "median_turnover": 6145948.0,
+   "median_turnover": 5968535.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.4583792
+   "liq_cap": 2.3874142
   },
   {
    "symbol": "JETS.N0000",
@@ -2840,10 +2845,10 @@
    "beta_current": 1.7614102178323938,
    "beta_lag": 0.4399850521438813,
    "amihud": 0.002226225426984546,
-   "median_turnover": 4079406.9000000004,
+   "median_turnover": 4001165.6,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.6317627600000002
+   "liq_cap": 1.6004662400000003
   },
   {
    "symbol": "JKH.N0000",
@@ -2870,10 +2875,10 @@
    "beta_current": 1.437911164015405,
    "beta_lag": 0.11316459329686337,
    "amihud": 0.001210871694788279,
-   "median_turnover": 4956225.0,
+   "median_turnover": 4838688.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.98249
+   "liq_cap": 1.9354754
   },
   {
    "symbol": "KHL.N0000",
@@ -2885,10 +2890,10 @@
    "beta_current": 1.289359330055162,
    "beta_lag": -0.051835238621145543,
    "amihud": 0.0015343429969964216,
-   "median_turnover": 3298219.75,
+   "median_turnover": 3355438.05,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.3192879000000002
+   "liq_cap": 1.34217522
   },
   {
    "symbol": "KOTA.N0000",
@@ -2915,10 +2920,10 @@
    "beta_current": 2.809988882328234,
    "beta_lag": 0.4823059652487885,
    "amihud": 0.010681698132629603,
-   "median_turnover": 1660950.0,
+   "median_turnover": 1648091.7,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.66438
+   "liq_cap": 0.65923668
   },
   {
    "symbol": "KZOO.N0000",
@@ -2930,10 +2935,10 @@
    "beta_current": 2.5831212278678404,
    "beta_lag": 0.4284331765786756,
    "amihud": 0.002277561021363092,
-   "median_turnover": 6542886.2,
+   "median_turnover": 6499130.6,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.6171544800000004
+   "liq_cap": 2.59965224
   },
   {
    "symbol": "LALU.N0000",
@@ -2990,10 +2995,10 @@
    "beta_current": 1.5371534910682763,
    "beta_lag": 0.06804390764061248,
    "amihud": 0.0035810963406300647,
-   "median_turnover": 3171651.2,
+   "median_turnover": 3127037.35,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.2686604800000003
+   "liq_cap": 1.2508149400000002
   },
   {
    "symbol": "LIOC.N0000",
@@ -3005,10 +3010,10 @@
    "beta_current": 0.5065883589323102,
    "beta_lag": 0.22850051280335248,
    "amihud": 0.0002539960646512997,
-   "median_turnover": 11806830.125,
+   "median_turnover": 11737400.75,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 4.72273205
+   "liq_cap": 4.6949603
   },
   {
    "symbol": "LLUB.N0000",
@@ -3020,10 +3025,10 @@
    "beta_current": 0.7083463599419517,
    "beta_lag": 0.09790378476969819,
    "amihud": 0.00023721319998123451,
-   "median_turnover": 7165346.25,
+   "median_turnover": 6962590.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.8661385
+   "liq_cap": 2.785036
   },
   {
    "symbol": "LMF.N0000",
@@ -3035,10 +3040,10 @@
    "beta_current": 1.3457090996478547,
    "beta_lag": -0.5309492122577059,
    "amihud": 0.00025740469459019095,
-   "median_turnover": 21980439.3,
+   "median_turnover": 21232572.25,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 8.79217572
+   "liq_cap": 8.4930289
   },
   {
    "symbol": "LOFC.N0000",
@@ -3050,10 +3055,10 @@
    "beta_current": 0.7952007804186408,
    "beta_lag": -0.024417661665357363,
    "amihud": 0.0009533985182395398,
-   "median_turnover": 5038782.05,
+   "median_turnover": 4990445.55,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.01551282
+   "liq_cap": 1.99617822
   },
   {
    "symbol": "LOLC.N0000",
@@ -3065,10 +3070,10 @@
    "beta_current": 0.7314135687486351,
    "beta_lag": 0.20224224523963424,
    "amihud": 0.00045769210942323295,
-   "median_turnover": 11161109.75,
+   "median_turnover": 10938327.75,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 4.4644439
+   "liq_cap": 4.3753311
   },
   {
    "symbol": "LUMX.N0000",
@@ -3110,10 +3115,10 @@
    "beta_current": 1.163402661165973,
    "beta_lag": -0.12235337218599275,
    "amihud": 0.0068819485551745736,
-   "median_turnover": 1114200.0,
+   "median_turnover": 1108327.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.44568
+   "liq_cap": 0.443331
   },
   {
    "symbol": "MBSL.N0000",
@@ -3125,10 +3130,10 @@
    "beta_current": 2.041894397378758,
    "beta_lag": -0.039446673413028634,
    "amihud": 0.008305806430653382,
-   "median_turnover": 1427456.0,
+   "median_turnover": 1411184.25,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.5709824
+   "liq_cap": 0.5644737000000001
   },
   {
    "symbol": "MELS.N0000",
@@ -3170,10 +3175,10 @@
    "beta_current": 0.9244781283183605,
    "beta_lag": -0.10635751734759474,
    "amihud": 0.004067289215294642,
-   "median_turnover": 1384963.6,
+   "median_turnover": 1398118.2,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.55398544
+   "liq_cap": 0.5592472800000001
   },
   {
    "symbol": "MGT.N0000",
@@ -3185,10 +3190,10 @@
    "beta_current": 0.9437275460399033,
    "beta_lag": 0.22856559019115086,
    "amihud": 0.001523198575722582,
-   "median_turnover": 3270208.55,
+   "median_turnover": 3294918.95,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.30808342
+   "liq_cap": 1.3179675800000001
   },
   {
    "symbol": "NAMU.N0000",
@@ -3230,10 +3235,10 @@
    "beta_current": 2.0189032826827207,
    "beta_lag": -0.06844993305721644,
    "amihud": 0.005555947516974937,
-   "median_turnover": 1706894.45,
+   "median_turnover": 1690623.45,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.6827577800000001
+   "liq_cap": 0.67624938
   },
   {
    "symbol": "OSEA.N0000",
@@ -3245,10 +3250,10 @@
    "beta_current": 1.5373541793508179,
    "beta_lag": 0.2878320180819286,
    "amihud": 0.0004574223018298261,
-   "median_turnover": 13110241.75,
+   "median_turnover": 13035439.35,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 5.2440967
+   "liq_cap": 5.214175740000001
   },
   {
    "symbol": "PABC.N0000",
@@ -3260,10 +3265,10 @@
    "beta_current": 1.3502201194356878,
    "beta_lag": -0.055839895921990644,
    "amihud": 0.0006830501634989561,
-   "median_turnover": 7852680.6,
+   "median_turnover": 7841141.2,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 3.14107224
+   "liq_cap": 3.1364564800000005
   },
   {
    "symbol": "PAP.N0000",
@@ -3335,10 +3340,10 @@
    "beta_current": 2.1850253128249126,
    "beta_lag": -0.1724388021328498,
    "amihud": 0.00046926313957885643,
-   "median_turnover": 21497596.8,
+   "median_turnover": 21276897.450000003,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 8.599038720000001
+   "liq_cap": 8.510758980000002
   },
   {
    "symbol": "RAL.N0000",
@@ -3350,10 +3355,10 @@
    "beta_current": 1.8925094090200028,
    "beta_lag": -0.49973383412586825,
    "amihud": 0.0009798454013962997,
-   "median_turnover": 15853021.8,
+   "median_turnover": 15457434.4,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 6.34120872
+   "liq_cap": 6.182973760000001
   },
   {
    "symbol": "RCL.N0000",
@@ -3365,10 +3370,10 @@
    "beta_current": 1.258811544196171,
    "beta_lag": 0.062311317691901874,
    "amihud": 0.0006251288512135766,
-   "median_turnover": 13267219.95,
+   "median_turnover": 13444540.95,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 5.306887980000001
+   "liq_cap": 5.37781638
   },
   {
    "symbol": "REEF.N0000",
@@ -3380,10 +3385,10 @@
    "beta_current": 1.533690655916582,
    "beta_lag": -0.07096440472249904,
    "amihud": 0.004003074754597527,
-   "median_turnover": 1691153.1,
+   "median_turnover": 1676600.0,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.6764612400000002
+   "liq_cap": 0.67064
   },
   {
    "symbol": "RHL.N0000",
@@ -3395,10 +3400,10 @@
    "beta_current": 1.0471952016363957,
    "beta_lag": 0.41957605486974775,
    "amihud": 0.011807105198345939,
-   "median_turnover": 1060212.25,
+   "median_turnover": 1048450.4,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.4240849
+   "liq_cap": 0.41938016000000006
   },
   {
    "symbol": "RICH.N0000",
@@ -3440,10 +3445,10 @@
    "beta_current": 1.652866531553561,
    "beta_lag": -0.3742082825624524,
    "amihud": 0.007419367115498539,
-   "median_turnover": 1304949.15,
+   "median_turnover": 1285961.9,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.52197966
+   "liq_cap": 0.51438476
   },
   {
    "symbol": "SAMP.N0000",
@@ -3455,10 +3460,10 @@
    "beta_current": 0.8461908460401625,
    "beta_lag": -0.010684237008029696,
    "amihud": 4.102515230969698e-05,
-   "median_turnover": 63487520.0,
+   "median_turnover": 62388048.625,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 25.395008
+   "liq_cap": 24.95521945
   },
   {
    "symbol": "SCAP.N0000",
@@ -3470,10 +3475,10 @@
    "beta_current": 1.8556860942416815,
    "beta_lag": -1.1011691302323086,
    "amihud": 0.001457717449521324,
-   "median_turnover": 9693793.4,
+   "median_turnover": 9824514.95,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 3.87751736
+   "liq_cap": 3.92980598
   },
   {
    "symbol": "SEMB.N0000",
@@ -3500,10 +3505,10 @@
    "beta_current": 1.7299257775828272,
    "beta_lag": -0.4364412646835608,
    "amihud": 0.0033892970328250733,
-   "median_turnover": 1664025.3,
+   "median_turnover": 1636176.4,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.6656101200000001
+   "liq_cap": 0.65447056
   },
   {
    "symbol": "SEYB.N0000",
@@ -3545,10 +3550,10 @@
    "beta_current": 2.0939298785415112,
    "beta_lag": -0.036584417471308084,
    "amihud": 0.005128759256300296,
-   "median_turnover": 1595580.9,
+   "median_turnover": 1589967.1,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.6382323599999999
+   "liq_cap": 0.63598684
   },
   {
    "symbol": "SHAW.N0000",
@@ -3560,10 +3565,10 @@
    "beta_current": 1.4435480316589695,
    "beta_lag": -0.18697659253541316,
    "amihud": 0.01478267759035826,
-   "median_turnover": 1361302.625,
+   "median_turnover": 1391792.125,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.54452105
+   "liq_cap": 0.55671685
   },
   {
    "symbol": "SHL.N0000",
@@ -3575,10 +3580,10 @@
    "beta_current": 2.537845390661186,
    "beta_lag": -1.1194031157146547,
    "amihud": 0.004818464662191073,
-   "median_turnover": 3049759.2,
+   "median_turnover": 3064316.1,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.21990368
+   "liq_cap": 1.2257264400000003
   },
   {
    "symbol": "SINS.N0000",
@@ -3590,10 +3595,10 @@
    "beta_current": 1.7057859825922344,
    "beta_lag": -0.18954183627169008,
    "amihud": 0.0007525629324376654,
-   "median_turnover": 11057426.3,
+   "median_turnover": 10862717.75,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 4.422970520000001
+   "liq_cap": 4.345087100000001
   },
   {
    "symbol": "SIRA.N0000",
@@ -3665,10 +3670,10 @@
    "beta_current": 1.3969595339962593,
    "beta_lag": 0.22157316908012037,
    "amihud": 0.0014414863585883587,
-   "median_turnover": 3891223.875,
+   "median_turnover": 3914915.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.55648955
+   "liq_cap": 1.5659662
   },
   {
    "symbol": "TAP.N0000",
@@ -3680,10 +3685,10 @@
    "beta_current": 1.1885547750663843,
    "beta_lag": -0.2980151784268096,
    "amihud": 0.0012977234068025372,
-   "median_turnover": 6288843.0,
+   "median_turnover": 6201789.75,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.5155372
+   "liq_cap": 2.4807159
   },
   {
    "symbol": "TJL.N0000",
@@ -3755,10 +3760,10 @@
    "beta_current": 1.7620623069680659,
    "beta_lag": -0.26470279138211256,
    "amihud": 0.0017266227444587233,
-   "median_turnover": 5611960.4,
+   "median_turnover": 5418442.95,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 2.24478416
+   "liq_cap": 2.16737718
   },
   {
    "symbol": "VFIN.N0000",
@@ -3770,10 +3775,10 @@
    "beta_current": 1.4281633605568924,
    "beta_lag": -0.2710592344030214,
    "amihud": 0.0018602138976434343,
-   "median_turnover": 3230626.3,
+   "median_turnover": 3199437.8,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.2922505199999998
+   "liq_cap": 1.27977512
   },
   {
    "symbol": "VLL.N0000",
@@ -3815,10 +3820,10 @@
    "beta_current": 0.9630766031421414,
    "beta_lag": -0.07745126460101112,
    "amihud": 0.0024853271014952404,
-   "median_turnover": 1602399.05,
+   "median_turnover": 1581083.9,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.6409596200000001
+   "liq_cap": 0.6324335600000001
   },
   {
    "symbol": "WAPO.N0000",
@@ -3830,10 +3835,10 @@
    "beta_current": 2.009231938891028,
    "beta_lag": 0.16057763682333778,
    "amihud": 0.007360591456473609,
-   "median_turnover": 1522328.45,
+   "median_turnover": 1508495.5,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.60893138
+   "liq_cap": 0.6033982000000001
   },
   {
    "symbol": "WATA.N0000",
@@ -3860,10 +3865,10 @@
    "beta_current": 1.117414457250987,
    "beta_lag": -0.22851745823588265,
    "amihud": 0.0009683173740169293,
-   "median_turnover": 4040510.95,
+   "median_turnover": 4129084.35,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 1.61620438
+   "liq_cap": 1.6516337400000003
   },
   {
    "symbol": "YORK.N0000",
@@ -3875,10 +3880,10 @@
    "beta_current": 3.9431422739733826,
    "beta_lag": 1.5246911076587273,
    "amihud": 0.010530997828400945,
-   "median_turnover": 1441265.25,
+   "median_turnover": 1463035.2000000002,
    "turnover_source": "mixed",
    "cap": 0.1,
-   "liq_cap": 0.5765061
+   "liq_cap": 0.5852140800000001
   }
  ],
  "weeks": [
@@ -6846,11 +6851,11 @@
    "vol": 0.4910761565700864
   }
  ],
- "record_status": "updated 2026-11-11 \u2192 2026-11-12",
+ "record_status": "updated 2026-11-12 \u2192 2026-11-13",
  "record_written": {
   "nav.csv": 5,
   "holdings.csv": 361,
-  "trades.csv": 3
+  "trades.csv": 0
  },
  "trade_lists": {
   "min_variance": {
@@ -6871,5 +6876,5 @@
   }
  },
  "status": "ok",
- "message": "136 stocks, 52 weekly returns; updated 2026-11-11 \u2192 2026-11-12"
+ "message": "136 stocks, 52 weekly returns; updated 2026-11-12 \u2192 2026-11-13"
 }

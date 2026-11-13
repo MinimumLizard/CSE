@@ -422,3 +422,4 @@ id,symbol,type,ex_date,amount_per_share,ratio_new,ratio_held,factor,subscription
 39965:INME.N0000,INME.N0000,subdivision,,,99,1,100,,needs_review,split dates not yet announced,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement-%20subdivision%20of%20shares_17261757402202373.pdf
 39979:BERU.N0000,BERU.N0000,rights,2026-12-03,,5,11,,1.25,needs_review,ratio read from text: 'To issue 5 new ordinary shares for every 11 existing issued ordinary shares'; terms in announcement 38139,https://cdn.cse.lk/cmt/announcement_portal_prod/12.11.2026%20-%20Rights%20Issue%20Dates_17350702030608131.pdf
 39983:CTC.N0000,CTC.N0000,cash_dividend,2026-11-23,41,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/CSE%20Announcement_17354197182943547.pdf
+39996:SLTL.N0000,SLTL.N0000,cash_dividend,2026-11-25,0.5,,,,,confirmed,,https://cdn.cse.lk/cmt/announcement_portal_prod/Interim%20Dividend%202026_17435864412982033.pdf
