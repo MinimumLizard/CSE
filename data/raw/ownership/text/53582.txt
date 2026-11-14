@@ -1,0 +1,782 @@
+ LOLC GENERAL INSURANCE PLC
+
+
+CONDENSED INTERIM FINANCIAL STATEMENTS
+
+         FOR THE PERIOD ENDED
+           30 SEPTEMBER 2026
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+FOR THE PERIOD ENDED 30 SEPTEMBER 2026
+
+
+
+Note                                                              Page No
+
+    1 Statement of financial position                                   1
+
+
+    2 Statement of profit or loss                                       2
+
+
+    3 Statement of other comprehensive income                           3
+
+
+    4 Statement of changes in equity                                    4
+
+
+    5 Statement of cash flows                                           5
+
+    6 Notes to the condensed interim financial statements            6 -'13
+
+
+    7   Statement of directors' holding in shares of the entity         14
+
+
+    8 Top 20 shareholders                                               14
+                 LOLC GENERAL INSURANCE PLC
+            0    CONDENSED INTERIM FINANCIAL STATEMENTS                                                         0                  0
+                 STATEMENT OF FINANCIAL POSITION
+
+31-Dec-25       As at                                                      Note            30-Sep-26                     30-Sep-25
+ Rs.'000                                                                                    Rs.'000                       Rs.'000
+ Audited                                                                                   Unaudited                     Unaudited
+
+                Assets
+     507,181    Property and equipment                                                              521,911                  492,688
+     267,225    Right-of-use assets                                                                 298,579                  258,120
+      64,449    Capital work in progress assets                                                     172,625                   22,964
+      59,509    Intangible assets                                                                    56,716                   21,513
+     185,834    Equity accounted investees                                                              -                    202,471
+  16,377,092    Investment securities                                                            16,291,086               15,501,438
+   8,317,635    Reinsurance assets                                                                5,001,614                2,856,154
+   1,489,166    Reinsurance receivables                                                           3,815,140                1,182,787
+     329,569    Deferred acquisition costs                                                          582,750                  332,960
+   2,861,235    Premiums receivable                                                               5,132,283                3,532,960
+      50,157    Amounts due from related parties                               8                     79,958                   12,382
+     193,164    Other assets                                                                        293,368                  352,072
+     378,015    Cash and bank balances                                                              771,453                  566,983
+  31,080,231    Total assets                                                                     33,017,483               25,335,492
+
+                Equity & liabilities
+                Equity
+     800,000    Stated capital (1,200,000,000 shares)                                                800,000                 800,000
+     471,044    Reserves                                                                             191,775                 520,388
+   5,424,495    Retained earnings                                                                  5,941,492               6,001,045
+   6,695,539    Total equity                                                                       6,933,267               7,321,433
+
+                Liabilities
+  19,634,186    Insurance contract liabilities - non-life insurance          6.7                 19,278,758               13,406,463
+     305,704    Long-term borrowings                                                                127,240                  331,749
+      74,090    Retirement benefit obligations                                                       54,133                   65,267
+     301,334    Lease liabilities                                                                   330,902                  294,090
+   1,429,677    Reinsurance creditors                                                             2,263,182                  731,401
+     426,469    Deferred reinsurance commission income                                              681,224                  424,831
+      55,307    Income tax liability                                                                233,412                  304,627
+     137,721    Deferred tax liability                                                               83,982                  200,387
+     168,998    Amounts due to related parties                                 9                    107,315                  191,289
+   1,726,870    Other liabilities                                                                 2,528,226                1,979,663
+     124,336    Bank overdraft                                                                      395,842                   84,294
+  24,384,692    Total liabilities                                                                26,084,216               18,014,059
+  31,080,231    Total liabilities & equity                                                       33,017,483               25,335,492
+                                                                                                         (0)                      (0)
+        5.58    Net assets per share (Rs.)                                                             5.78                     6.10
+
+                I certify that these Financial Statements have been prepared and presented in compliance with the
+                requirements of the Companies Act, No.07 of 2007.
+
+                Sgd
+                …......................................
+                Mrs. Maheshika Perera
+                Head of Finance - LOLC General Insurance PLC
+
+                The board of directors is responsible for the preparation and the fair presentation of these Financial
+                Statements. Approved and signed for and on behalf of the Board;
+
+                Sgd
+                …......................................                              Sgd
+                                                                                     …......................................
+                Director                                                             Director
+                Mr.K.A.K.P.Gunawardena                                               Mr.H.A.Karunaratne
+
+                11th November 2026
+                Rajagiriya (Greater Colombo)
+
+
+
+
+                                                                  Page 1
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+STATEMENT OF PROFIT OR LOSS
+
+                                                              For the three months ended                 For the nine months ended
+                                                Note   30-Sep-26        30-Sep-25      Variance     30-Sep-26       30-Sep-25 Variance
+                                                        Rs.'000          Rs.'000          %          Rs.'000          Rs.'000       %
+                                                       Unaudited       Unaudited                    Unaudited       Unaudited
+
+
+Revenue                                                  3,641,179       2,823,474            29     10,121,430     8,052,741       26
+
+
+Gross written premium                           6.8       6,175,217      3,629,951             70    15,566,041    10,346,060        50
+Premiums ceded to reinsurers                            (1,581,398)      (899,261)           (76)    (4,232,544)   (2,760,626)     (53)
+Net written premium                                       4,593,819      2,730,690             68    11,333,497      7,585,434       49
+Net change in reserves for unearned premium             (1,758,268)      (493,902)          (256)    (3,422,811)   (1,297,161)    (164)
+Net earned premium                                       2,835,551       2,236,788            27      7,910,686     6,288,273       26
+Other revenue
+Investment income                                          462,893        423,081              9      1,445,204     1,290,485        12
+Fee income                                                 345,670        164,839            110        765,230       461,408        66
+Other income                                                (2,936)        (1,234)           138            310        12,575      (98)
+Total other revenue                                        805,628        586,686             37      2,210,744     1,764,468       25
+Net benefits and claims
+Net insurance claims and benefits                       (1,864,081)    (1,658,292)           (12)    (4,921,110)   (4,463,223)     (10)
+Underwriting and net acquisition costs                       71,378         69,346              3        200,040       150,746       33
+Other operating and administrative expenses             (1,810,791)    (1,088,080)           (66)    (4,654,659)   (3,040,520)     (53)
+Finance costs                                              (16,706)       (19,023)             12       (55,563)      (53,451)      (4)
+Share of profit of equity accounted investees
+(net of tax)                                                     -          8,764           (100)        18,351        50,121      (63)
+Disposal Gain of equity accounted investee                       0              -               -         9,893             -         -
+Profit before tax                                           20,979        136,191            (85)       718,382       696,416         3
+Income tax expense                                          (6,294)       (40,860)             85     (215,515)     (208,925)       (3)
+Profit after tax                                            14,685          95,331           (85)       502,867       487,491         3
+
+Earnings per share
+Basic earnings per share                         6.9          0.01            0.08           (85)          0.42          0.41        3
+
+
+
+
+                                                                          Page 2
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+STATEMENT OF OTHER COMPREHENSIVE INCOME
+
+                                                                  Note        For the three months ended                For the nine months ended
+                                                                         30-Sep-26       30-Sep-25    Variance      30-Sep-26     30-Sep-25 Variance
+                                                                          Rs.'000         Rs.'000        %           Rs.'000       Rs.'000      %
+                                                                         Unaudited       Unaudited                  Unaudited Unaudited
+
+Profit after tax                                                            14,685         95,331         (85)        502,867       487,491         3
+Other comprehensive income
+Items that will not be reclassified to profit or loss
+Other income
+Retirement benefit obligations
+ - remeasurement component                                                           -              -           -               -             -         -
+Deferred tax effect on retirement benefit obligation
+(loss)/Gain                                                                          -              -           -               -             -         -
+                                                                                     -              -           -               -             -         -
+Items that may be reclassified to profit or loss
+Net change in fair value of available for sale financial assets
+ - reclassification to profit or loss due to derecognition                       -                          -               -       (51,781)       100
+Net change in fair value of available for sale financial assets
+(net of tax)                                                                 51,401       (94,312)       (155)       (212,677)      (20,342)      (945)
+Share of other comprehensive income of equity accounted
+                                                                                     -       6,121       (100)           3,838       29,967        (87)
+investee
+Amount transfred to profit or loss on disposal of equity
+                                                                                     -              -           -     (56,300)                -         -
+accounted investee
+Net other comprehensive income to be reclassified to
+income statement in subsequent periods                                       51,401       (88,191)        158        (265,139)      (42,156)      (529)
+Total other comprehensive income/ (expense) for the
+period                                                                       51,401       (88,191)        158        (265,139)      (42,156)      (529)
+Total comprehensive income for the period                                    66,084          7,140        826          237,728      445,335        (47)
+
+Figures in brackets indicate deductions.
+
+
+
+
+                                                                                 Page 3
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+STATEMENT OF CHANGES IN EQUITY
+                                                                                                       Equity attributable to the owners of the company
+                                                                                                        Reserve on
+                                                                                                                        Foreign
+                                                                                             Stated    available for                 Other       Retained
+                                                                                                                       currency                                Total
+                                                                                             capital   sale financial               reserve      earnings
+                                                                                                                       reserves
+                                                                                                           assets
+                                                                                             Rs.'000      Rs.'000       Rs.'000     Rs.'000       Rs.'000     Rs.'000
+Balance as at 01 January 2025                                                                  800,000        509,145      39,269      14,130     5,513,554   6,876,098
+Total comprehensive income for the period
+Profit for the period                                                                                 -              -           -           -     487,491     487,491
+Other comprehensive income
+Items that may be reclassified to profit or loss
+Net change in fair value of available for sale financial assets (net of tax)
+- reclassification to profit or loss due to derecognition                                             -       (51,781)           -           -            -    (51,781)
+Net change in fair value of available for sale financial assets                                               (20,342)                                         (20,342)
+
+Share of other comprehensive income of equity accounted investee                                      -              -     29,967            -            -     29,967
+Other comprehensive
+Total other          incomeincome
+            comprehensive     that will
+                                    fornever be reclassified to profit or loss in
+                                        the period                                                    -       (72,123)     29,967            -            -    (42,156)
+Total comprehensive income for the period                                                            -        (72,123)     29,967           -      487,491      445,335
+Balance as at 30 September 2025                                                                800,000        437,022      69,236      14,130    6,001,045    7,321,433
+Balance as at 01 October 2025                                                                  800,000        437,022      69,236      14,130    6,001,045    7,321,433
+Total comprehensive income for the period
+Profit for the period - unaudited                                                                     -              -           -           -    (573,565)   (573,565)
+Other comprehensive income
+Items that will not be reclassified to profit or loss
+Retirement benefit obligations
+ - remeasurement component                                                                            -              -           -           -      (4,265)     (4,265)
+Deferred tax effect on Retirement benefit obligation (loss)/Gain                                      -              -           -           -        1,280       1,280
+Items that may be reclassified to profit or loss
+Net change in fair value of available for sale financial assets (net of tax)
+- reclassification to profit or loss due to derecognition                                             -              -           -           -            -            -
+Net change in fair value of available for sale financial assets                                       -       (77,438)           -           -            -    (77,438)
+Deferred tax effect on available-for-sale financial assets                                           -          44,868           -          -             -      44,868
+Share of other comprehensive Income of equity accounted investee                                     -               -    (16,774)          -             -    (16,774)
+Total other comprehensive income for the period                                                      -        (32,570)    (16,774)          -       (2,985)    (52,329)
+Total comprehensive income for the period                                                            -        (32,570)    (16,774)          -    (576,550)    (625,894)
+Balance as at 31 December 2025 (audited)                                                       800,000        404,452       52,462     14,130    5,424,495    6,695,539
+Balance as at 01 January 2026                                                                  800,000        404,452       52,462     14,130    5,424,495    6,695,539
+Total comprehensive income for the period
+Profit for the period                                                                                 -              -           -           -     502,867     502,867
+Other comprehensive income
+Items that will not be reclassified to profit or loss
+Retirement benefit obligations                                                                        -              -           -           -            -            -
+ - remeasurement component
+Deferred tax effect on Retirement benefit obligation (loss)/Gain                                      -              -           -          -            -             -
+Transfer of fair value reserve to retained earning                                                    -              -           -   (14,130)       14,130             -
+Items that may be reclassified to profit or loss
+Net change in fair value of available for sale financial assets (net of tax)
+- reclassification to profit or loss due to derecognition                                             -              -           -           -            -            -
+Net change in fair value of available for sale financial assets                                       -      (303,825)           -           -            -   (303,825)
+Deferred tax effect on available-for-sale financial assets                                            -        91,147            -           -            -     91,147
+Share of other comprehensive income of equity accounted investee                                      -              -       3,838          -            -        3,838
+Amount transfred to profit or loss on disposal of equity accounted investee                           -              -    (56,300)          -            -     (56,300)
+Total other comprehensive income for the period                                                       -      (212,677)    (52,462)   (14,130)       14,130    (265,139)
+Total comprehensive income for the period                                                             -      (212,677)    (52,462)   (14,130)      516,997      237,728
+Balance as at 30 September 2026                                                                800,000        191,775            -           -   5,941,492    6,933,267
+
+Figures in brackets indicate deductions.
+
+
+
+
+                                                                                    Page 4
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+STATEMENT OF CASH FLOWS
+                                                                                      Note         For the nine months ended
+                                                                                                 30-Sep-26         30-Sep-25
+                                                                                                  Rs.'000            Rs.'000
+                                                                                                 Unaudited        Unaudited
+Cash flows from operating activities
+Premium received from policy holders                                                             14,971,020           9,633,959
+Reinsurance premiums (net of commission) paid                                                    (2,993,493)        (2,237,621)
+Claims, benefits and expenses paid                                                               (9,758,198)        (4,506,601)
+Reinsurance receipts in respect of claims and benefits                                             2,518,524            134,853
+Cash paid to and on behalf of employees                                                          (1,138,577)          (950,540)
+Lease Interest                                                                                      (33,442)           (31,864)
+Payments to brokers and agents                                                                     (588,584)          (440,358)
+Other operating cash payments                                                                    (3,802,053)        (1,361,284)
+Cash generated from / (used in) operating activities                                               (824,803)           240,546
+
+Income tax paid                                                                                              -         (50,654)
+Net cash generated from / (used in) operating activities                                           (824,803)           189,892
+
+Cash flows from investing activities
+Purchase of investments                                                                          (5,739,352)        (5,772,387)
+Sale/maturity of investments                                                                       6,402,987         3,772,749
+Interest received                                                                                  1,624,835          1,269,657
+Purchase of intangible assets                                                                      (111,864)           (20,026)
+Disposal of equity accounted investee                                                                161,617                   -
+Purchase of property and equipment                                                                  (74,178)          (249,094)
+Net cash generated from / (used in) investing activities                                           2,264,045          (999,101)
+
+Cash flows from financing activities
+Principal element of lease payments                                                                 (61,463)           (45,201)
+Long term borrowings obtained / (repayments)                                                       (182,192)            195,622
+Long term borrowings interest payment                                                               (18,394)           (21,586)
+Net generated from / (used in) financing activities                                                (262,049)            128,834
+Increase/ (decrease) in cash and cash equivalents                                                  1,177,193          (680,377)
+Cash and cash equivalents at the beginning of the period                                             753,839          2,283,782
+Cash and cash equivalents at the end of the period                                                 1,931,032          1,603,405
+
+Cash and cash equivalents as per cash flow were made up as follows;
+Cash and bank balances & net of bank overdraft                                                       375,612            482,689
+Cash equivalents                                                                                   1,555,420          1,120,716
+                                                                                                   1,931,032          1,603,405
+* Cash equivalents includes repo balance which is categorized under the investment securities.
+
+
+
+
+                                                                             Page 5
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+
+6         Notes to the condensed interim financial statements
+
+    6.1   Condensed Interim financial statements
+
+
+          The Statement of Financial Position as at 30th September 2026, Statement of Profit or Loss, Statement of Other Comprehensive Income,
+          Statement of Cash Flows and Statement of Changes in Equity of the Company for the period ended there of are drawn up from Unaudited
+          financial statements of the Company and provide information as required by the Colombo Stock Exchange and LKAS 34. Further,
+          provisions of the Companies Act No.7 of 2007 has been considered in preparing the said financial statements of the Company.
+
+          The presentation and classification of the financial statements of the previous period have been amended, where relevant, for better
+          presentation and to be comparable with those of the current period. The condensed interim financial statements are presented in Sri Lankan
+          Rupees (LKR) and all values are rounded to the nearest thousand except when otherwise indicated.
+
+    6.2   Basis of preparation
+
+          The same Accounting Policies and methods of computation as mentioned in the audited financial statements for the year ended 31
+          December 2025 have been adopted in the preparation of these condensed financial statements.
+
+          The Company has adopted Amendments to SLFRS 4 in the preparation of financial statements. Application of SLFRS 9 is not considered,
+          considering the temporary exemption permitted under Para 20B of SLFRS 4 as the Company's activities are predominantly connected with
+          insurance.
+          Application of Statement of Alternative Treatment (SOAT) – Q3 Interim Financial Reporting
+
+          By considering insurance industry implementation readiness and practical implementation challenges affecting the insurance industry, CA
+          Sri Lanka has extended insurers to continue applying SLFRS 4 Insurance Contracts upto the third interim reporting quarters of the year
+          2026. The Company has elected to apply this relief for the quarter ended 30 September 2026.
+          Accordingly, for this interim period:
+
+          Insurance contracts continue to be recognised, measured , and presented in accordance with SLFRS 4 Insurance Contracts
+
+          Progress of SLFRS 17 and SLFRS 9 Implementation
+
+          The Company has made substantive progress upto the third quarter of the financial year towards full implementation of SLFRS 17,
+          including:
+
+          • Parallel processing and dry runs of SLFRS 17 numbers including opening balance reconciliations
+          • Strengthening of governance, controls, and data validation processes
+          • Development of system modules and integrations with acturial models.
+
+          Expected Impact of SLFRS 17
+
+          The adoption of IFRS 17 introduces a comprehensive and principle-based accounting framework for insurance contracts,
+          replacing the requirements under IFRS 4, which permitted insurers to continue applying existing local accounting policies. For
+          the company's general insurance contracts, which are predominantly short-term in nature, the Premium Allocation Approach
+          (PAA) has been applied where the eligibility criteria prescribed by IFRS 17 are met. While the PAA provides a simplified
+          measurement model, it incorporates significant changes to the recognition, measurement, presentation and disclosure of insurance
+          contracts. Under IFRS 17, the Liability for Remaining Coverage (LRC) replaces the unearned premium reserve, insurance
+          revenue is recognised as insurance services are provided rather than based on premium earnings, and the Liability for Incurred
+          Claims (LIC) is measured using fulfilment cash flows, including an explicit Risk Adjustment for non-financial risk. In addition,
+          the previous liability adequacy testing requirements under IFRS 4 have been replaced by an assessment of onerous contracts
+          within the measurement framework. Accordingly, IFRS 17 enhances the consistency, transparency and comparability of the
+          Group's financial reporting while maintaining a simplified measurement approach for eligible short-duration insurance contracts.
+
+
+          In accordance with the SOAT, the entity will not present the quantitative disclosures with the third interim financial statements
+          for the period ended 30th September 2026, as the implementation and validation of SLFRS 17 are still in progress. The company
+           expects to meet implementation deadline as issued by CA Sri Lanka.
+
+
+
+
+                                                                            Page 6
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+  6.3    Other income / (expenses) includes foreign exchange gains / (losses) and rent income.
+  6.4    All expenses related to management expenditure is fully provided for in the financial statements.
+  6.5    Contingencies, capital and other commitments
+
+         There are no significant changes in the nature of the contingent liabilities that were disclosed in the Financial Statements for the year ended
+         31 December 2025.
+  6.6    Events after the reporting period
+         No circumstances have arisen since the reporting date, which would require adjustments to or disclosure in the financial statements.
+
+  6.7    Insurance contract liabilities - non-life insurance                                                                As at
+                                                                                                                  30-Sep-26                  31-Dec-25
+                                                                                                                     Rs.'000                    Rs.'000
+                                                                                                                  Unaudited                    Audited
+         Reserves for unearned premium                                                                           11,692,004                  7,383,439
+         Reserves for gross outstanding claims                                                                     6,288,408               11,001,177
+         Reserves for IBNR and IBNER                                                                               1,298,346                 1,249,570
+                                                                                                                 19,278,758                19,634,186
+
+ 6.7.1   Mr. Roberto Malattia, FIAA, for and on behalf of NMG Consulting, has carried out the valuation of Incurred But Not Reported (IBNR) and
+         Incurred But Not Enough Reported (IBNER) for the company as at 30 September 2026 and has ensured that adequate reserves have been
+         made in these condensed interim financial statements.
+
+ 6.7.2   The company has also performed a LAT for non-life insurance reserves, as required by SLFRS - 4, to ascertain whether the recorded reserves
+         are adequate in meeting future liabilities. The LAT was performed by the external actuarial consultants, NMG Consulting and it has been
+         concluded that the recorded reserves in respect of the non-life insurance business of the company as at 30 June 2026 are adequate to meet
+         the future liabilities of the business.
+
+
+
+  6.8    Gross written premium                             For the three months ended                           For the nine months ended
+                                                       30-Sep-26                  30-Sep-25                  30-Sep-26                 30-Sep-25
+                                                        Rs.'000                    Rs.'000                    Rs.'000                   Rs.'000
+                                                      Unaudited                   Unaudited                  Unaudited                Unaudited
+         Motor                                             4,720,311                   2,970,511                 11,625,823                7,948,620
+         Fire                                                834,721                     476,223                  2,611,857                1,710,237
+         Marine                                               46,172                      41,543                    144,693                  118,472
+         Miscellaneous                                       574,013                     141,675                  1,183,668                  568,731
+                                                           6,175,217                   3,629,952                 15,566,041               10,346,060
+
+
+
+  6.9    Basic and diluted earnings per                   For the three months ended                            For the nine months ended
+         share                                         30-Sep-26               30-Sep-25                     30-Sep-26              30-Sep-25
+                                                      Unaudited                   Unaudited                  Unaudited                Unaudited
+         Profit after tax (Rs'000)                            14,685                      95,331                    502,867                  487,491
+         Weighted average number of                        1,200,000                   1,200,000                  1,200,000                1,200,000
+         ordinary shares ('000)
+         Basic earnings per share (Rs.)                            0.01                       0.08                       0.42                      0.41
+
+
+
+  6.10   Market price per share
+         Market prices of ordinary shares recorded during the quarter ended are as follows;
+
+                                                       30-Sep-26                  30-Sep-25
+                                                          Rs.                        Rs.
+         Highest price                                    8.00                       9.70
+         Lowest price                                     6.50                       8.10
+         Closing price                                    7.00                       8.70
+
+
+
+
+                                                                            Page 7
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+7. Operating segments                                                                       Rs'000
+                 Description                                   Operating Segment Results - For the three months ended 30.09.2026
+                                                 Motor                 Fire                Marine              Miscellaneous           Total
+ Gross written premium                              4,720,311               834,721               46,172                   574,013       6,175,217
+ Premium ceded to reinsurers                         (888,436)             (563,542)             (26,378)                (103,041)      (1,581,398)
+ Net written premium                                3,831,875               271,179               19,794                  470,972        4,593,819
+ Net change in reserves for unearned premium       (1,332,125)              (51,751)              (2,888)                (371,505)      (1,758,268)
+ Net earned premium                                 2,499,750               219,428               16,907                   99,467        2,835,551
+ Insurance claims and benefits (net)               (1,693,350)              (62,808)              (5,120)                (102,803)      (1,864,081)
+ Underwriting and net acquisition (costs)/
+income                                                 71,922                    442                4,794                    (5,779)        71,378
+ Underwriting results before other operating
+and administrative expenses                           878,322                157,062               16,581                    (9,115)     1,042,848
+ Other operating and administrative expenses                                                                                            (1,810,791)
+ Finance cost                                                                                                                              (16,706)
+ Other revenue
+    -Investment income                                                                                                                     462,893
+    -Fees income                                                                                                                           345,670
+    -Other income                                                                                                                           (2,936)
+ Share of Profit of equity accounted investees
+(net of tax)                                                                                                                                   -
+Disposal gain of equity accounted investee                                                                                                       0
+Profit before tax                                                                                                                           20,979
+Income tax                                                                                                                                  (6,294)
+Profit after tax                                                                                                                            14,685
+
+
+                                                                                              Rs'000
+                                                                 Operating Segment Results - For the three months ended 30.09.2025
+                 Description
+                                                 Motor                   Fire                Marine              Miscellaneous                Total
+ Gross written premium                              2,970,511                 476,223               41,543                  141,675      3,629,952
+ Premium ceded to reinsurers                         (567,765)               (254,752)             (24,628)                 (52,114)      (899,261)
+ Net written premium                                2,402,746                 221,471               16,915                   89,561      2,730,691
+ Net change in reserves for unearned premium         (530,736)                 26,778                 (913)                  10,969       (493,902)
+ Net earned premium                                 1,872,010                 248,249               16,002                 100,530       2,236,789
+ Insurance claims and benefits (net)               (1,018,721)               (540,300)              (5,120)                 (94,151)    (1,658,292)
+ Underwriting and net acquisition (costs)/
+income                                                 42,364                 22,846                4,064                       72          69,346
+ Underwriting results before other operating
+and administrative expenses                           895,654               (269,205)              14,946                     6,451        647,844
+ Other operating and administrative expenses                                                                                            (1,088,080)
+ Finance cost                                                                                                                              (19,023)
+ Other revenue
+    -Investment income                                                                                                                     423,081
+    -Fees income                                                                                                                           164,839
+    -Other income                                                                                                                           (1,234)
+ Share of Profit of equity accounted investees                                                                                               8,764
+ Profit before tax                                                                                                                         136,191
+ Income tax                                                                                                                                (40,860)
+ Profit after tax                                                                                                                           95,331
+
+
+
+
+                                                                             Page 8
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+                                                                                           Rs'000
+                                                              Operating Segment Results - For the nine months ended 30.09.2026
+               Description
+                                             Motor                 Fire                    Marine               Miscellaneous         Total
+ Gross written premium                         11,625,823              2,611,857                  144,693                 1,183,667     15,566,041
+ Premium ceded to reinsurers                    (2,344,535)           (1,480,871)                 (85,118)                (322,020)     (4,232,544)
+ Net written premium                             9,281,288             1,130,986                   59,575                  861,647      11,333,497
+ Net change in reserves for unearned
+premium                                         (2,437,229)             (450,899)                 (3,716)                 (530,967)     (3,422,811)
+ Net earned premium                              6,844,058               680,087                  55,859                   330,680       7,910,686
+ Insurance claims and benefits (net)            (4,540,580)             (134,465)                (19,883)                 (226,182)     (4,921,110)
+ Underwriting and net acquisition (costs)/
+income                                             175,567                 8,386                  14,089                     1,998         200,040
+ Underwriting results before other
+operating and administrative expenses            2,479,046               554,009                  50,064                  106,496        3,189,616
+ Other operating and administrative
+expenses                                                                                                                                (4,654,659)
+ Finance cost                                                                                                                              (55,563)
+ Other revenue
+    -Investment income                                                                                                                   1,445,204
+    -Fees income                                                                                                                           765,230
+    -Other income                                                                                                                              310
+ Share of Profit of equity accounted
+investees (net of tax)                                                                                                                      18,351
+Disposal gain of equity accounted
+investee                                                                                                                                     9,893
+ Profit before tax                                                                                                                         718,382
+ Income tax                                                                                                                               (215,515)
+ Profit after tax                                                                                                                          502,867
+
+
+
+
+                                                              Operating Segment Results - For the nine months ended 30.09.2025
+               Description
+                                             Motor                 Fire                    Marine               Miscellaneous         Total
+ Gross written premium                           7,948,620             1,710,237                  118,472                  568,731      10,346,060
+ Premium ceded to reinsurers                    (1,487,296)             (978,785)                 (69,517)                (225,028)     (2,760,626)
+ Net written premium                             6,461,324               731,452                   48,956                  343,703       7,585,434
+ Net change in reserves for unearned
+premium                                         (1,147,830)              (79,542)                 (4,640)                  (65,148)     (1,297,161)
+ Net earned premium                              5,313,494               651,910                  44,315                   278,555       6,288,273
+ Insurance claims and benefits (net)            (3,493,778)             (751,411)                 (6,957)                 (211,077)     (4,463,223)
+ Underwriting and net acquisition (costs)/
+income                                             100,572                31,823                  13,827                     4,524         150,746
+ Underwriting results before other
+operating and administrative expenses            1,920,288                (67,678)                51,185                    72,001       1,975,796
+ Other operating and administrative
+expenses                                                                                                                                (3,040,520)
+ Finance cost                                                                                                                              (53,451)
+ Other revenue
+    -Investment income                                                                                                                   1,290,485
+    -Fees income                                                                                                                           461,408
+    -Other income                                                                                                                           12,575
+ Share of Profit of equity accounted
+investees (net of tax)                                                                                                                      50,121
+Profit before tax                                                                                                                          696,416
+Income tax                                                                                                                                (208,925)
+Profit after tax                                                                                                                           487,491
+
+
+
+
+                                                                       Page 9
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+ 8. Amounts due from related parties                      30-Sep-26        31-Dec-25
+                                                           Rs.'000          Rs.'000
+
+ Current account with LOLC Life Assurance Ltd                   77,460           49,960
+ Lanka ORIX Information Technology Services Limited              2,039
+ Current account with LOLC Asset Holdings PLC                      459              197
+                                                                79,958           50,157
+
+
+
+ 9. Amounts due to related parties                        30-Sep-26        31-Dec-25
+                                                           Rs.'000          Rs.'000
+
+ Current account with LOLC Holdings PLC                         42,394          104,610
+ Current account with LOLC Finance PLC                          64,572           45,773
+ Current account with LOLC Information Technologies Ltd            -             18,265
+ Current account with LOLC Corporate Services Ltd                  350              350
+                                                               107,315          168,998
+
+
+
+
+                                                                 Page 10
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+10. Valuation of financial assets and liabilities
+                                                                                                                       Rs'000
+                                                                            Loans & receivable /                                                                                 Fair value
+                                                    Fair value - held for                        Available for sale   Other financial assets/   Total carrying
+As at 30 september 2026                                                     not measured at fair                                                                 Fair value     measurement
+                                                          trading                                     assets                liabilities            amount
+                                                                                   value                                                                                           level
+Financial investments
+   -FVTPL investments                                           1,774,668                   -                  -                        -            1,774,668      1,774,668     Level 1
+   -Loans & receivables                                               -               9,048,291                -                        -            9,048,291      9,602,025     Level 2
+   -Available-for sale financial assets                               -                     -            5,468,127                      -            5,468,127      5,468,127     Level 2
+Premium receivable                                                    -               5,132,283                -                        -            5,132,283      5,132,283     * Note
+Reinsurance receivable                                                -               3,815,140                -                        -            3,815,140      3,815,140     * Note
+Amounts due from related parties                                      -                  79,958                -                        -               79,958         79,958     * Note
+Cash and bank balances                                                -                     -                  -                    771,453            771,453        771,453     * Note
+Total financial assets                                          1,774,668            18,075,672          5,468,127                  771,453         26,089,920     26,643,654
+
+Other liabilities (excluding government levies)                                                                                    1,940,211         1,940,211      1,940,211      * Note
+Reinsurance creditors                                                                                                              2,263,182         2,263,182      2,263,182      * Note
+Amounts due to related parties                                        -                 107,315                -                                       107,315        107,315      * Note
+Bank overdrafts                                                       -                     -                  -                     395,842           395,842        395,842      * Note
+Total financial liabilities                                           -                 107,315                -                   4,599,234         4,706,550      4,706,550
+
+
+
+
+                                                                                                         Page 11
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+
+                                                                                                                          Rs'000
+                                                                    Loans & receivable /
+                                                  Fair value - held                           Available for       Other financial assets/       Total carrying                           Fair value
+As at 31 December 2025                                              not measured at fair                                                                              Fair value
+                                                    for trading                                sale assets              liabilities                amount                             measurement level
+                                                                           value
+Financial investments
+   -FVTPL investments                                   2,457,979                     -                  -                                             2,457,979        2,457,979           Level 1
+   -Loans & receivables                                       -                 7,193,257                                                              7,193,257        7,467,045           Level 2
+   -Available-for sale financial assets                       -                       -           6,725,856                                            6,725,856        6,725,856           Level 2
+Premium receivable                                            -                 2,861,235               -                              -               2,861,235        2,861,235           * Note
+Reinsurance receivable                                                          1,489,166               -                              -               1,489,166        1,489,166           * Note
+Amounts due from related parties                              -                    50,157               -                                                 50,157           50,157           * Note
+Cash and bank balances                                        -                       -                 -                          378,015               378,015          378,015           * Note
+Total financial assets                                  2,457,979              11,593,815         6,725,856                        378,015            21,155,665       21,429,454
+
+Other liabilities (excluding government levies)                -                       -                 -                      1,362,492              1,362,492        1,362,492            * Note
+Reinsurance creditors                                          -                                         -                      1,429,677              1,429,677        1,429,677            * Note
+Amounts due to related parties                                 -                   168,998               -                            -                  168,998          168,998            * Note
+Bank overdrafts                                                -                       -                 -                        124,336                124,336          124,336            * Note
+Total financial liabilities                                    -                   168,998               -                      2,916,505              3,085,503        3,085,503
+
+
+ * (Note) The following table lists those financial instruments for which their carrying amounts are a reasonable approximation of fair values because, for example, they are short term in nature or re-
+priced to current market rates frequently
+
+
+                                                     Assets                                   Liabilities
+                                                Cash & cash equivalents                      Bank overdrafts
+                                                Amounts due from related parties             Amounts due to related parties
+                                                Reinsurance receivable                       Reinsurance creditors
+                                                                                             Other liabilities (excluding government levies)
+
+
+
+
+                                                                                                        Page 12
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+NOTES TO THE CONDENSED INTERIM FINANCIAL STATEMENTS
+
+11   Related party disclosures
+     Details of significant related party disclosures are as follows.
+11.1 Transactions with the immediate parent companies                                  For the nine months ended     For the three months ended
+                                                                                       30-Sep-26      30-Sep-25       30-Sep-26       30-Sep-25
+     Company name                  Nature of transaction                                Rs.'000        Rs.'000         Rs.'000         Rs.'000
+
+                                   Fund transfers out                                     407,661         791,553          233,401      188,225
+     LOLC Holdings PLC             Fund transfers in                                     (407,661)       (791,553)        (233,401)    (188,225)
+                                   Interest expense on current account                     (6,698)         (5,402)          (1,457)      (1,599)
+                                   Shared services charges                               (986,038)       (244,674)        (271,661)     (79,075)
+                                   Fixed assets transfers                                  (4,073)        (14,039)             -        (14,039)
+                                   Current Account settlements                          1,327,479         524,328          339,944       88,453
+                                   Investment handling and fund mobilization charges     (268,452)       (187,694)         (88,991)     (63,255)
+     LOLC Asset Holdings Ltd       Expenses incurred on behalf of Company                    261              -                -            -
+
+ 11.2 Transactions with affiliate companies
+                                                                                       For the nine months ended     For the three months ended
+     Company name                  Nature of transaction                               30-Sep-26      30-Sep-25       30-Sep-26       30-Sep-25
+                                                                                        Rs.'000        Rs.'000         Rs.'000         Rs.'000
+
+                                   Expenses incurred on behalf of Company                 (4,869)         (13,391)         (2,089)      (4,270)
+     LOLC Finance PLC              Current Account settlements                           998,801          779,751         351,588      311,401
+                                   Insurance premium in respect of customers
+                                   introduced                                             (26,599)         (5,200)             -         (1,766)
+                                   Fund Transfer                                           (1,903)           (705)             -          2,719
+                                   Other                                                     (443)       (121,766)             -        (45,712)
+                                   Referral fee payments                                 (983,785)       (678,802)        (292,688)    (253,852)
+     Lanka ORIX Information        Expenses incurred on behalf of Company                (182,276)            -            (65,020)         -
+     Technology Services
+     Limited                       Current Account settlements                           202,579              -            87,907           -
+
+     LOLC Life Assurance           Current account settlements by Life Assurance         (112,009)        (56,577)            -         (44,863)
+     Limited                       Expenses incurred on behalf of Life Assurance           74,440          24,832          20,799          (399)
+                                   Expenses Allocation                                     47,066          58,828          30,850        27,248
+                                   Other                                                  18,004          (12,497)             (90)      (7,372)
+     Lanka ORIX Information
+
+
+
+
+                                                                        Page 13
+LOLC GENERAL INSURANCE PLC
+CONDENSED INTERIM FINANCIAL STATEMENTS
+STATEMENT OF DIRECTORS' HOLDING IN SHARES OF THE ENTITY AS AT 30 SEPTEMBER 2026
+
+12   Statement of directors' holding in shares of the entity
+
+                                   Directors name                             No of shares            %
+
+     Mr. K. A. K. P. Gunawardena                                                            -               -
+     Mrs. K. U. Amarasinghe                                                                 -               -
+     Mr. H.A. Karunaratne                                                                   -               -
+     Mrs. V.G.S. S. Kotakadeniya                                                            -               -
+     Mr. W. R. A. Dharmarathne                                                              -               -
+     Mr. I. Wijesiriwardane                                                                 -               -
+     Mr. A.A.C.S.L. Aluthgama                                                               -               -
+     Mr.D.R. Samaraweera                                                                    -               -
+
+
+13   Top 20 shareholders as at 30 September 2026
+
+     No                                 Shareholder                                No. of         % of Issued
+                                                                                   shares          capital
+
+       1 LOLC Asset Holdings Limited                                               765,000,000            63.75
+
+       2 LOLC Ceylon Holdings PLC                                                  228,000,000            19.00
+
+       3 LOLC Investment Holdings Seven (Private) Limited                           87,000,000             7.25
+       4 Commercial Bank Of Ceylon PLC/ Phantom Investments (Private)               25,410,217             2.12
+       5 Senkadagala Finance PLC/S.Gobinath                                          6,470,000             0.54
+       6 DFCC Bank PLC/A.T.Weerasekara                                               4,693,191             0.39
+       7 Hatton National Bank PLC/Dinesh Nagendra Sellamuttu                         3,478,343             0.29
+       8 Mr. M.M.C. Cooray                                                           2,500,000             0.20
+       9 Bank of Ceylon A/C Ceybank Unit Trust                                       1,782,800             0.15
+      10 Miss A.J.S.N. Amerasinghe                                                   1,410,000             0.12
+      11 Assetline Finance PLC/M.I.U. De Silva                                       1,374,187             0.11
+      12 DFCC Bank PLC/G.A.U. Pushpakumar                                            1,315,092             0.11
+      13 Hatton National Bank PLC/Ramaraj Kuhan                                      1,222,741             0.10
+      14 Polgahawela Sanasa Societies Union Ltd                                      1,085,258             0.09
+      15 Dr. K.A.S.S. Rodrigo                                                        1,085,000             0.09
+      16 Commercial Bank Of Ceylon PLC/ Prempra Capital (Private) Limited            1,000,000             0.08
+      17 Miss S.S.P. Kandambi                                                         892,818              0.07
+      18 Dr.A.M.A.D.S. Abeysinghe                                                     814,976              0.07
+      19 DFCC Bank PLC/W.Jinadasa                                                     801,253              0.07
+
+      20 D.N.P. Rathnayake                                                            800,969              0.07
+
+                                                                              1,136,136,845               94.66
+
+
+
+                                                                                  30-Sep-26
+          The float adjusted market capitalization                                 839,930,000
+          Public shareholding                                                               10%
+          Number of public shareholders                                                 4,592
+          Compliance option                                                          Option 2
+
+
+
+
+                                                                        Page 14
+
