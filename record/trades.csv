@@ -762,3 +762,5 @@ date,series,portfolio,symbol,action,shares,price,value,cost,reason
 2026-11-19,v1-52w-grp20,equal_weight,TAFL.N0000,dividend,113,,3955,0,ex 2026-11-19 Rs 35/sh net of 0% WHT
 2026-11-19,v1-52w-grp20,equal_weight,GRAN.N0000,dividend,153,,1530,0,ex 2026-11-19 Rs 10/sh net of 0% WHT
 2026-11-19,v1-52w-grp20,equal_weight,ASIY.N0000,dividend,5119,,1177.37,0,ex 2026-11-19 Rs 0.23/sh net of 0% WHT
+2026-11-20,v1-52w-grp20,risk_parity,DIAL.N0000,dividend,1700,,1190,0,ex 2026-11-20 Rs 0.7/sh net of 0% WHT
+2026-11-20,v1-52w-grp20,equal_weight,DIAL.N0000,dividend,1569,,1098.3,0,ex 2026-11-20 Rs 0.7/sh net of 0% WHT
