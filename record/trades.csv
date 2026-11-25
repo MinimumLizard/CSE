@@ -767,3 +767,5 @@ date,series,portfolio,symbol,action,shares,price,value,cost,reason
 2026-11-23,v1-52w-grp20,min_variance,CTC.N0000,dividend,554,,22714,0,ex 2026-11-23 Rs 41/sh net of 0% WHT
 2026-11-23,v1-52w-grp20,risk_parity,CTC.N0000,dividend,156,,6396,0,ex 2026-11-23 Rs 41/sh net of 0% WHT
 2026-11-23,v1-52w-grp20,equal_weight,CTC.N0000,dividend,39,,1599,0,ex 2026-11-23 Rs 41/sh net of 0% WHT
+2026-11-25,v1-52w-grp20,risk_parity,SLTL.N0000,dividend,758,,379,0,ex 2026-11-25 Rs 0.5/sh net of 0% WHT
+2026-11-25,v1-52w-grp20,equal_weight,SLTL.N0000,dividend,849,,424.5,0,ex 2026-11-25 Rs 0.5/sh net of 0% WHT
