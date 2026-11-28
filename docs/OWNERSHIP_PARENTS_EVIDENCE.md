@@ -6,7 +6,7 @@ Each section is an unlisted company that is the largest voting block in one or m
 
 ## Axiata Investments (Labuan) Limited
 
-Look-through value Rs 335.7 bn. Largest voting block in: CALF (99.05%, controlled), DIAL (73.75%, controlled)
+Look-through value Rs 332.5 bn. Largest voting block in: CALF (99.05%, controlled), DIAL (73.75%, controlled)
 
 **CALF** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/1101_1778671533531.pdf) (4 passages naming an ultimate or indirect owner)
 
@@ -34,7 +34,7 @@ Recognised: *ultimate parent*: Axiata Group Berhad
 
 ## MILFORD EXPORTS (CEYLON) (PVT) LIMITED
 
-Look-through value Rs 330.3 bn. Largest voting block in: LMF (33.57%, influence), MELS (42.97%, influence)
+Look-through value Rs 331.5 bn. Largest voting block in: LMF (33.57%, influence), MELS (42.97%, influence)
 
 **LMF** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/486_1786097741071.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -56,7 +56,7 @@ Recognised: *ultimate parent*: Milford Exports Ceylon; *immediate and ultimate p
 
 ## British American Tobacco International Holdings B.V.
 
-Look-through value Rs 290.7 bn. Largest voting block in: CTC (84.13%, controlled)
+Look-through value Rs 288.4 bn. Largest voting block in: CTC (84.13%, controlled)
 
 **CTC** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/460_1776699315164.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -68,7 +68,7 @@ Look-through value Rs 290.7 bn. Largest voting block in: CTC (84.13%, controlled
 
 ## LOLC Ceylon Holdings PLC
 
-Look-through value Rs 127.5 bn. Largest voting block in: LOFC (96.29%, controlled)
+Look-through value Rs 124.9 bn. Largest voting block in: LOFC (96.29%, controlled)
 
 **LOFC** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1073_1787218542639.pdf) (4 passages naming an ultimate or indirect owner)
 
@@ -82,7 +82,7 @@ Look-through value Rs 127.5 bn. Largest voting block in: LOFC (96.29%, controlle
 
 ## Paints & General Industries Limited
 
-Look-through value Rs 54.0 bn. Largest voting block in: CHMX (50.55%, controlled), CIC (53.31%, controlled)
+Look-through value Rs 53.9 bn. Largest voting block in: CHMX (50.55%, controlled), CIC (53.31%, controlled)
 
 **CHMX** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/492_1780654665589.pdf) (4 passages naming an ultimate or indirect owner)
 
@@ -104,7 +104,7 @@ Recognised: *parent*: CIC Holdings PLC; *ultimate parent*: Paints and General In
 
 ## Indian Oil Corporation Limited, India
 
-Look-through value Rs 50.1 bn. Largest voting block in: LIOC (75.12%, controlled)
+Look-through value Rs 50.2 bn. Largest voting block in: LIOC (75.12%, controlled)
 
 **LIOC** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/729_1782205466931.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -114,7 +114,7 @@ Recognised: *ultimate controlling party*: the Recommended Practices
 
 ## RUBBER INVESTMENT TRUST LTD
 
-Look-through value Rs 45.6 bn. Largest voting block in: BUKI (20.04%, influence)
+Look-through value Rs 45.5 bn. Largest voting block in: BUKI (20.04%, influence)
 
 **BUKI** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/456_1784644891818.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -126,7 +126,7 @@ Look-through value Rs 45.6 bn. Largest voting block in: BUKI (20.04%, influence)
 
 ## DB INTERNATIONAL TRUST (StNGAPORE) LtMtTEDlpGp GLASS PRIVATE LtM|TED
 
-Look-through value Rs 43.5 bn. Largest voting block in: GLAS (78.65%, controlled)
+Look-through value Rs 45.4 bn. Largest voting block in: GLAS (78.65%, controlled)
 
 **GLAS** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/666_1782983755189.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -136,7 +136,7 @@ Recognised: *ultimate parent*: Blackstone Inc; *parent*: PGP Glass Private Limit
 
 ## Browns Hotels And Resorts Limited
 
-Look-through value Rs 43.4 bn. Largest voting block in: EDEN (95.22%, controlled), HSIG (64.29%, controlled), PALM (98.92%, controlled), SHOT (60.50%, controlled), STAF (69.33%, controlled)
+Look-through value Rs 43.0 bn. Largest voting block in: EDEN (95.22%, controlled), HSIG (64.29%, controlled), PALM (98.92%, controlled), SHOT (60.50%, controlled), STAF (69.33%, controlled)
 
 **EDEN** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/533_1787622959118.pdf) (12 passages naming an ultimate or indirect owner)
 
@@ -198,7 +198,7 @@ Look-through value Rs 43.4 bn. Largest voting block in: EDEN (95.22%, controlled
 
 ## AMBEON CONSOLIDATED (PRIVATE) LIMITED
 
-Look-through value Rs 41.0 bn. Largest voting block in: GREG (81.43%, controlled), MDL (51.03%, controlled), PHAR (77.63%, controlled), TAP (50.16%, controlled)
+Look-through value Rs 41.2 bn. Largest voting block in: GREG (81.43%, controlled), MDL (51.03%, controlled), PHAR (77.63%, controlled), TAP (50.16%, controlled)
 
 **GREG** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/782_1788225476521.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -232,39 +232,9 @@ Recognised: *ultimate parent*: Ambeon The line items; *parent*: Ambeon Capital P
 
 > line 8991: 32.3   Transaction with / between Parent - Group ⏎ Group   Company ⏎ 2026   2025   2026   2025 ⏎ Ultimate Parent   LKR   LKR   LKR   LKR ⏎ Loan Granted   -   -   -   - ⏎ Loan Settled   -   (502,978,019)   -   (492,778,019) ⏎ Interest on Loans   -   7,902,192   -   4,102,788
 
-## Cargills Dairies (Pvt) Ltd
-
-Look-through value Rs 38.9 bn. Largest voting block in: LAMB (99.34%, controlled)
-
-**LAMB** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/484_1785410323347.pdf) (2 passages naming an ultimate or indirect owner)
-
-Recognised: *ultimate parent*: C T Holdings PLC; *ultimate parent*: C T Holdings PLC; *parent*: Cargills Dairies
-
-> line 4174: their remuneration will be submitted at the Annual General Meeting. ⏎ Shareholders   By Order of the Board ⏎ The Company is a Subsidiary of Cargills (Ceylon) PLC, while ⏎ the ultimate parent company is C T Holdings PLC. There were ⏎ 803 registered shareholders as at 31 March 2026 (2025 – 656 ⏎ shareholders). An analysis of shareholders according to size of ⏎ holdings, public holdings, and the names of the twenty largest   Imtiaz Abdul Wahid   Saranga Wijesundara ⏎ shareholders of the Company at the reporting date are given on   Chairman   Managing Director ⏎ pages 108 to 109.
-
-> line 4937: ended 31 March 2026 comprise Kotmale Holdings PLC (Parent ⏎ z The Statement of Financial Position providing the information on the ⏎ Company) and its subsidiaries (together referred to as the “Group”). ⏎ financial position of the Group and Company as at the year-end; ⏎ 1.3 Parent Entity and Ultimate Parent Entity   z The Statement of Changes in Equity depicting all changes in ⏎ shareholder equity of the Group and Company during the year ⏎ The Company’s parent entity is Cargills Dairies (Pvt) Ltd., and the   under review; ⏎ Company’s ultimate parent entity is C T Holdings PLC which is a   z The Statement of Cash Flows providing the information to the ⏎ Quoted Public Limited Company domiciled 
-
-**LAMB** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/484_1793873631719.pdf) (1 passages naming an ultimate or indirect owner)
-
-> line 386: Condensed Interim Financial Statements 30th September 2026 ⏎ 3.   The Company continues to evaluate options to complete the actions taken to date as per the disclosed intention to de-list and merge the operations of the Company with Cargills Dairies (Pvt) ⏎ Ltd, a wholly owned subsidiary in the Cargills Group of Companies to create a unified entity focusing on carrying out the dairy operations of the Group. However, consequent to the Company ⏎ being non-compliant with Rule 7.13.1 (a) as of 01 July 2018, the Securities of the Company has been transferred to Watch List on 01 July 2018, Subsequently, with the introduction of the ⏎ Second Board under Section 7.13.2(I)(c) , the Company's securiti
-
-## Akbar Brothers Pvt Ltd
-
-Look-through value Rs 37.9 bn. Largest voting block in: WIND (36.35%, influence)
-
-**WIND** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2173_1787564122433.pdf) (4 passages naming an ultimate or indirect owner)
-
-> line 2146: Overview: We are expanding our renewable energy portfolio through the development ⏎ of a 6.5 MWdc / 5 MWac floating solar power plant on the Dambuluoya Reservoir, ⏎ undertaken by our wholly owned subsidiary, Diya Janani (Pvt) Ltd. With an estimated ⏎ investment of Rs. 1,176 million, the project represents one of the first private-sector ⏎ Financial Reports
-
-> line 9786: include the 100 MW Rividhanavi solar ⏎ project in Siyambalanduwa and Diya ⏎ Janani, a 6.5 MWdc / 5 MWac floating solar ⏎ The project was developed in collaboration with Vidullanka PLC and executed under   power project being developed on the ⏎ WindForce’s full Engineering, Procurement, and Construction (EPC) scope. Constructed   Dambuluoya Reservoir. WindForce PLC, ⏎ on 27 acres of high-salinity land previously unsuitable for agriculture, the plant now   through its wholly owned subsidiary Diya ⏎ contributes approximately 19.5 GWh of clean energy annually to the national grid,   Janani (Pvt) Ltd, entered into a standard ⏎ transforming otherwise unproductive land into a valuable renewable ene
-
-> line 22647: Leadership ⏎ 1.2 Ultimate Controlling Party ⏎ The Directors are of the opinion that the Company has no parent entity or ultimate controlling party as at the reporting date. ⏎ The Strategic Report
-
-> line 22933: Annual Report 2025/26   281 ⏎ LKAS 12, nor does it specifically include   to the parent (Controlling Interest) and   the year are included in the consolidated ⏎ Overview ⏎ requirements relating to interest and   attributable to minority shareholders with   financial statements from the date the ⏎ penalties associated with uncertain tax   non-controlling interest.   Group gains control until the date the ⏎ treatments. The Company determines   Group ceases to control the subsidiary. ⏎ whether to consider each uncertain tax   Subsidiaries ⏎ Leadership ⏎ treatment separately or together with one   Subsidiaries are those entities controlled   Profit or loss and each component of other ⏎ or more o
-
 ## Schaffters (Private) Limited
 
-Look-through value Rs 37.5 bn. Largest voting block in: BFN (92.84%, controlled), CFVF (83.01%, controlled), JINS (74.24%, controlled), JXG (62.17%, controlled)
+Look-through value Rs 41.0 bn. Largest voting block in: BFN (92.84%, controlled), CFVF (83.01%, controlled), JINS (74.24%, controlled), JXG (62.17%, controlled)
 
 **BFN** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1072_1788922002073.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -300,9 +270,39 @@ Look-through value Rs 37.5 bn. Largest voting block in: BFN (92.84%, controlled)
 
 > line 7506: Janashakthi PLC | Finan cial Statem ents 2025/26   129 ⏎ (b) Elimination of fair value gains on indirect holdings ⏎ First Capital Holdings PLC (“FCH”), a subsidiary of the Company, holds equity interests of 5.78% in Janashakthi Insurance ⏎ PLC, with an investment cost of LKR 324 million, and 1.01% in Janashakthi Finance PLC, with an investment cost of LKR ⏎ 32 million, representing a combined investment cost of approximately LKR 357 million. In FCH’s standalone financial ⏎ statements, both investments are measured at fair value through profit or loss (FVTPL).
 
+## Cargills Dairies (Pvt) Ltd
+
+Look-through value Rs 38.9 bn. Largest voting block in: LAMB (99.34%, controlled)
+
+**LAMB** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/484_1785410323347.pdf) (2 passages naming an ultimate or indirect owner)
+
+Recognised: *ultimate parent*: C T Holdings PLC; *ultimate parent*: C T Holdings PLC; *parent*: Cargills Dairies
+
+> line 4174: their remuneration will be submitted at the Annual General Meeting. ⏎ Shareholders   By Order of the Board ⏎ The Company is a Subsidiary of Cargills (Ceylon) PLC, while ⏎ the ultimate parent company is C T Holdings PLC. There were ⏎ 803 registered shareholders as at 31 March 2026 (2025 – 656 ⏎ shareholders). An analysis of shareholders according to size of ⏎ holdings, public holdings, and the names of the twenty largest   Imtiaz Abdul Wahid   Saranga Wijesundara ⏎ shareholders of the Company at the reporting date are given on   Chairman   Managing Director ⏎ pages 108 to 109.
+
+> line 4937: ended 31 March 2026 comprise Kotmale Holdings PLC (Parent ⏎ z The Statement of Financial Position providing the information on the ⏎ Company) and its subsidiaries (together referred to as the “Group”). ⏎ financial position of the Group and Company as at the year-end; ⏎ 1.3 Parent Entity and Ultimate Parent Entity   z The Statement of Changes in Equity depicting all changes in ⏎ shareholder equity of the Group and Company during the year ⏎ The Company’s parent entity is Cargills Dairies (Pvt) Ltd., and the   under review; ⏎ Company’s ultimate parent entity is C T Holdings PLC which is a   z The Statement of Cash Flows providing the information to the ⏎ Quoted Public Limited Company domiciled 
+
+**LAMB** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/484_1793873631719.pdf) (1 passages naming an ultimate or indirect owner)
+
+> line 386: Condensed Interim Financial Statements 30th September 2026 ⏎ 3.   The Company continues to evaluate options to complete the actions taken to date as per the disclosed intention to de-list and merge the operations of the Company with Cargills Dairies (Pvt) ⏎ Ltd, a wholly owned subsidiary in the Cargills Group of Companies to create a unified entity focusing on carrying out the dairy operations of the Group. However, consequent to the Company ⏎ being non-compliant with Rule 7.13.1 (a) as of 01 July 2018, the Securities of the Company has been transferred to Watch List on 01 July 2018, Subsequently, with the introduction of the ⏎ Second Board under Section 7.13.2(I)(c) , the Company's securiti
+
+## Akbar Brothers Pvt Ltd
+
+Look-through value Rs 38.0 bn. Largest voting block in: WIND (36.35%, influence)
+
+**WIND** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2173_1787564122433.pdf) (4 passages naming an ultimate or indirect owner)
+
+> line 2146: Overview: We are expanding our renewable energy portfolio through the development ⏎ of a 6.5 MWdc / 5 MWac floating solar power plant on the Dambuluoya Reservoir, ⏎ undertaken by our wholly owned subsidiary, Diya Janani (Pvt) Ltd. With an estimated ⏎ investment of Rs. 1,176 million, the project represents one of the first private-sector ⏎ Financial Reports
+
+> line 9786: include the 100 MW Rividhanavi solar ⏎ project in Siyambalanduwa and Diya ⏎ Janani, a 6.5 MWdc / 5 MWac floating solar ⏎ The project was developed in collaboration with Vidullanka PLC and executed under   power project being developed on the ⏎ WindForce’s full Engineering, Procurement, and Construction (EPC) scope. Constructed   Dambuluoya Reservoir. WindForce PLC, ⏎ on 27 acres of high-salinity land previously unsuitable for agriculture, the plant now   through its wholly owned subsidiary Diya ⏎ contributes approximately 19.5 GWh of clean energy annually to the national grid,   Janani (Pvt) Ltd, entered into a standard ⏎ transforming otherwise unproductive land into a valuable renewable ene
+
+> line 22647: Leadership ⏎ 1.2 Ultimate Controlling Party ⏎ The Directors are of the opinion that the Company has no parent entity or ultimate controlling party as at the reporting date. ⏎ The Strategic Report
+
+> line 22933: Annual Report 2025/26   281 ⏎ LKAS 12, nor does it specifically include   to the parent (Controlling Interest) and   the year are included in the consolidated ⏎ Overview ⏎ requirements relating to interest and   attributable to minority shareholders with   financial statements from the date the ⏎ penalties associated with uncertain tax   non-controlling interest.   Group gains control until the date the ⏎ treatments. The Company determines   Group ceases to control the subsidiary. ⏎ whether to consider each uncertain tax   Subsidiaries ⏎ Leadership ⏎ treatment separately or together with one   Subsidiaries are those entities controlled   Profit or loss and each component of other ⏎ or more o
+
 ## SUNSHINE WILMAR (PRIVATE) LIMITED
 
-Look-through value Rs 35.2 bn. Largest voting block in: WATA (77.02%, controlled)
+Look-through value Rs 35.5 bn. Largest voting block in: WATA (77.02%, controlled)
 
 **WATA** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/728_1780541655801.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -318,7 +318,7 @@ Recognised: *ultimate parent*: May 2026
 
 ## PEOPLES' BANK
 
-Look-through value Rs 34.9 bn. Largest voting block in: PINS (75.00%, controlled), PLC (75.00%, controlled)
+Look-through value Rs 33.8 bn. Largest voting block in: PINS (75.00%, controlled), PLC (75.00%, controlled)
 
 **PINS** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/1465_1773076682109.pdf) (8 passages naming an ultimate or indirect owner)
 
@@ -356,7 +356,7 @@ Recognised: *parent*: People’s Bank
 
 ## Lamurep Investments Limited & 04
 
-Look-through value Rs 32.7 bn. Largest voting block in: SUN (55.18%, controlled)
+Look-through value Rs 32.6 bn. Largest voting block in: SUN (55.18%, controlled)
 
 **SUN** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/510_1780538334556.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -376,7 +376,7 @@ Recognised: *ultimate parent*: Lamurep Investments accounted for as an equity tr
 
 ## Vallibel Investments (Pvt) Limited
 
-Look-through value Rs 30.5 bn. Largest voting block in: VFIN (51.44%, controlled)
+Look-through value Rs 29.9 bn. Largest voting block in: VFIN (51.44%, controlled)
 
 **VFIN** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/949_1780570235029.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -388,7 +388,7 @@ Look-through value Rs 30.5 bn. Largest voting block in: VFIN (51.44%, controlled
 
 ## Prime Lands (Pvt) Ltd
 
-Look-through value Rs 26.7 bn. Largest voting block in: PLR (75.15%, controlled)
+Look-through value Rs 26.1 bn. Largest voting block in: PLR (75.15%, controlled)
 
 **PLR** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2279_1780582782665.pdf) (4 passages naming an ultimate or indirect owner)
 
@@ -404,7 +404,7 @@ Recognised: *ultimate parent*: Prime Lands; *immediate and ultimate parent*: Pri
 
 ## Senthilverl Holdings (Pvt) Ltd
 
-Look-through value Rs 25.3 bn. Largest voting block in: CFLB (20.14%, influence), SWAD (35.08%, influence)
+Look-through value Rs 24.9 bn. Largest voting block in: CFLB (20.14%, influence), SWAD (35.08%, influence)
 
 **CFLB** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/504_1788204596987.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -420,25 +420,15 @@ Look-through value Rs 25.3 bn. Largest voting block in: CFLB (20.14%, influence)
 
 ## SHING KWAN INVESTMENT COMPANY LIMITED 1
 
-Look-through value Rs 25.1 bn. Largest voting block in: OSEA (38.43%, influence)
+Look-through value Rs 24.4 bn. Largest voting block in: OSEA (38.43%, influence)
 
 **OSEA** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/628_1772705611455.pdf) (1 passages naming an ultimate or indirect owner)
 
 > line 7439: services and property trading.   development, construction, and   may cast significant doubt upon ⏎ sale of residential apartments in   the Group’s ability to continue ⏎ Mireka Capital Land (Private)   Dodanduwa, Galle District.   as a going concern and they do ⏎ Limited, a subsidiary, is engaged ⏎ not intend either to liquidate ⏎ in purchasing, hiring and acquiring   1.3   Parent Entity and Ultimate   or to cease operations of the ⏎ real estate properties, real estate   controlling party   Group. Therefore, the Financial ⏎ development and providing ⏎ In the opinion of the Directors,   Statements continue to be ⏎ infrastructure facilities and land to ⏎ there is no identifiable ultimate   pre
 
-## MJF Teas (Pvt) Ltd
-
-Look-through value Rs 22.2 bn. Largest voting block in: CTEA (66.61%, controlled)
-
-**CTEA** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/489_1784052647709.pdf) (2 passages naming an ultimate or indirect owner)
-
-> line 2033: together with the Ceylon Chamber of   MR. MALIK J. FERNANDO   Three of the most respected accolades ⏎ Commerce and IUCN (International   Executive Director   in Global Travel. ⏎ Union for Conservation of Nature).   Appointed to the Board in September 1991 ⏎ Dilhan Chairs the United Nations Global   Mr. Malik is also the Founder of the Sri ⏎ Compact in Sri Lanka, a corporate   Mr. Malik J Fernando is Co-Chair of   Lanka Tourism Alliance, recognised by ⏎ sustainability initiative by the UN. In   MJF Holdings Ltd, the ultimate parent   Skift as a global case study in private- ⏎ 2025, Edith Cowan University further   company of Dilmah Ceylon Tea, and   sector crisis response, and serves as ⏎ rec
-
-> line 17209: and is engaged in manufacture, export,   The Financial Statements have been ⏎ and market tea in the form of liquid tea   prepared on a historical cost basis,   Name of the   Country of   Effective ⏎ concentrate and ready to drink tea.   except for the following material items   subsidiary   incorporation shareholding ⏎ in the Statement of Financial Position; ⏎ 2026 2025 ⏎ 1.3 Parent Entity and Ultimate Parent ⏎ •   Fair Value through other   MJF Beverages Sri Lanka   100% 100% ⏎ Entity ⏎ comprehensive income investment   (Private) Limited ⏎ The Company’s parent undertaking ⏎ are measured at fair value. ⏎ is MJF Teas (Private) Limited. In the ⏎ •   Retirement Benefit Obligation at   The Group
-
 ## MAZAGON DOCK SHIPBUILDERS LIMITED
 
-Look-through value Rs 21.3 bn. Largest voting block in: DOCK (51.00%, controlled)
+Look-through value Rs 20.9 bn. Largest voting block in: DOCK (51.00%, controlled)
 
 **DOCK** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/442_1780629551320.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -446,9 +436,19 @@ Look-through value Rs 21.3 bn. Largest voting block in: DOCK (51.00%, controlled
 
 > line 4263: Dockyard PLC represented Team Sri   GENERAL ENGINEERING ⏎ 1. Design, Fabrication, Necessary ⏎ Lanka at the Asia Pacific ICT Alliance   (PVT) LTD   Approvals, and Commissioning ⏎ Awards 2025. ⏎ Dockyard General Engineering Services   of Two Steel Ferries for the ⏎ (Pvt) Ltd (DGES), a wholly owned   Kurukkalmadam–Ambalanthurai ⏎ subsidiary of Colombo Dockyard PLC,   Ferry Service and Kurumanvely– ⏎ has firmly established itself as a leading   Mandur Ferry Service ⏎ engineering organization in Sri Lanka. ⏎ This project involved the complete ⏎ Widely recognized for delivering high-
 
+## MJF Teas (Pvt) Ltd
+
+Look-through value Rs 19.9 bn. Largest voting block in: CTEA (66.61%, controlled)
+
+**CTEA** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/489_1784052647709.pdf) (2 passages naming an ultimate or indirect owner)
+
+> line 2033: together with the Ceylon Chamber of   MR. MALIK J. FERNANDO   Three of the most respected accolades ⏎ Commerce and IUCN (International   Executive Director   in Global Travel. ⏎ Union for Conservation of Nature).   Appointed to the Board in September 1991 ⏎ Dilhan Chairs the United Nations Global   Mr. Malik is also the Founder of the Sri ⏎ Compact in Sri Lanka, a corporate   Mr. Malik J Fernando is Co-Chair of   Lanka Tourism Alliance, recognised by ⏎ sustainability initiative by the UN. In   MJF Holdings Ltd, the ultimate parent   Skift as a global case study in private- ⏎ 2025, Edith Cowan University further   company of Dilmah Ceylon Tea, and   sector crisis response, and serves as ⏎ rec
+
+> line 17209: and is engaged in manufacture, export,   The Financial Statements have been ⏎ and market tea in the form of liquid tea   prepared on a historical cost basis,   Name of the   Country of   Effective ⏎ concentrate and ready to drink tea.   except for the following material items   subsidiary   incorporation shareholding ⏎ in the Statement of Financial Position; ⏎ 2026 2025 ⏎ 1.3 Parent Entity and Ultimate Parent ⏎ •   Fair Value through other   MJF Beverages Sri Lanka   100% 100% ⏎ Entity ⏎ comprehensive income investment   (Private) Limited ⏎ The Company’s parent undertaking ⏎ are measured at fair value. ⏎ is MJF Teas (Private) Limited. In the ⏎ •   Retirement Benefit Obligation at   The Group
+
 ## Prima Limited, Singapore
 
-Look-through value Rs 18.6 bn. Largest voting block in: GRAN (45.45%, influence)
+Look-through value Rs 18.5 bn. Largest voting block in: GRAN (45.45%, influence)
 
 **GRAN** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/671_1777977423734.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -462,7 +462,7 @@ Look-through value Rs 18.6 bn. Largest voting block in: GRAN (45.45%, influence)
 
 ## E.W. Balasuriya & Co.(Pvt) Ltd.
 
-Look-through value Rs 18.3 bn. Largest voting block in: SFCL (51.90%, controlled)
+Look-through value Rs 18.1 bn. Largest voting block in: SFCL (51.90%, controlled)
 
 **SFCL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/441_1782384644167.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -470,9 +470,23 @@ Look-through value Rs 18.3 bn. Largest voting block in: SFCL (51.90%, controlled
 
 > line 19660: Personnel, are those having authority and responsibility for planning, directing, and controlling the activities of the ⏎ entity. ⏎ The Company carries out transactions in ordinary course of business on an arm’s length basis at commercial rates ⏎ with the parties who defined as related party. ⏎ 46.1 Parent and ultimate controlling party ⏎ E W Balasuriya and Company (Private) Limited is identified as the immediate and ultimate parent enterprise of the ⏎ Company. ⏎ 46.2 Transactions with Key Management Personnel (KMP) ⏎ Accordingly, the Board of Directors of the Company (inclusive of Executive and Non-Executive Directors) and of ⏎ the parent company have been identified as “Key Management Pers
 
+## First Capital Limited
+
+Look-through value Rs 16.9 bn. Largest voting block in: FCT (89.36%, controlled)
+
+**FCT** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1426_1780919037689.pdf) (7 passages naming an ultimate or indirect owner)
+
+> line 9337: In strict alignment   The Sustainability   This Committee   The Committee   The Annual Report   This working   Beyond reporting, ⏎ with SLFRS S1 and   Management   ensures that   facilitates the   and Sustainability   group ensures   the group supports ⏎ S2, the ultimate   Committee (SMC)   sustainability   integration of   Reporting   the accuracy and   the execution ⏎ responsibility for   of the Intermediate   strategies are   sustainability   Working Group   completeness of all   of sustainability ⏎ the Company’s   Parent Company   aligned with   into corporate   (ASWG) of the   disclosures, manages   initiatives and ⏎ sustainability   provides high-level   core business   strategy and ri
+
+> line 15253: anti-corruption programme/ policy to review its suitability, adequacy   required. ⏎ and effectiveness, and implement improvements as appropriate? ⏎ 15   Does the Company have a policy on political contributions that   Yes. There is a defined process to be followed and the policy ⏎ either prohibits such contributions or if it does not, requires such   requires such contributions to be disclosed in the Annual report. ⏎ contributions to be publicly disclosed?   No political contributions were made during the period. ⏎ 16   Does the Company disclose its ultimate beneficial owner/s?   Yes. Please refer page 281. ⏎ 17   Which of the following information does the Company disclose for all   Not App
+
+> line 16862: The Board is accountable for ensuring a robust   { The minutes of the BAC and BIRMC   { The Company appointed a Group level ⏎ internal control system to protect shareholders'   meetings are tabled at regular Board   Chief Information Security Officer (CISO) ⏎ investments and company assets. It has   meetings. The report of the BAC and   with the necessary expertise ⏎ assigned the task of overseeing the adequacy   BIRMC are provided in the annual   { Appointment of Authorised Officer for the ⏎ of these controls to the Board Audit Committee,   report.   reporting of ultimate beneficial owners to ⏎ along with other responsibilities. Additionally,   { The BAC reviews and approves the   the Regis
+
+> line 17782: and the debentures issued by the Company   misstatements, whether due to fraud or error; selecting and applying appropriate accounting ⏎ are listed on the Colombo Stock Exchange.   policies; and making accounting estimates that are reasonable in the circumstances. ⏎ The staff strength of the Company as at 31 ⏎ March 2026 is 16 (31 March 2025 – 18).   The Board of Directors acknowledges their responsibility as set out in the “Annual Report of ⏎ the Board of Directors” and “Statement of Director’s Responsibility” and the certification on the ⏎ 1.2 Parent Entity and Ultimate Parent   statement of financial position on pages 262 to 264 , 265 , 278 respectively. ⏎ Entity ⏎ The Financial Statement
+
 ## Lanka Olex Cables (Private) Ltd
 
-Look-through value Rs 17.2 bn. Largest voting block in: KCAB (75.00%, controlled)
+Look-through value Rs 16.9 bn. Largest voting block in: KCAB (75.00%, controlled)
 
 **KCAB** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/672_1788172126496.pdf) (6 passages naming an ultimate or indirect owner)
 
@@ -486,35 +500,9 @@ Recognised: *ultimate parent*: ACL Cables 2.2.1 Statement of Presentation PLC; *
 
 > line 9626: 35.2   Transactions with Related Companies ⏎ Company   Relationship   Name of Common   Nature of transaction   Transaction amount ⏎ Directors   2026   2025 ⏎ Rs.   Rs. ⏎ ACL Cables PLC   Ultimate parent   U.G. Madanayake   Purchase of goods/raw materials (Gross)   (1,312,050,106)   (534,271,067) ⏎ company ⏎ Suren Madanayake   Settlements during the year   1,498,958,326   536,881,737 ⏎ Mrs. N. C. Madanayake ⏎ Sale of goods, scraps and drawing   107,455,962   48,322,525 ⏎ charges (Gross)
 
-## First Capital Limited
-
-Look-through value Rs 16.7 bn. Largest voting block in: FCT (89.36%, controlled)
-
-**FCT** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1426_1780919037689.pdf) (7 passages naming an ultimate or indirect owner)
-
-> line 9337: In strict alignment   The Sustainability   This Committee   The Committee   The Annual Report   This working   Beyond reporting, ⏎ with SLFRS S1 and   Management   ensures that   facilitates the   and Sustainability   group ensures   the group supports ⏎ S2, the ultimate   Committee (SMC)   sustainability   integration of   Reporting   the accuracy and   the execution ⏎ responsibility for   of the Intermediate   strategies are   sustainability   Working Group   completeness of all   of sustainability ⏎ the Company’s   Parent Company   aligned with   into corporate   (ASWG) of the   disclosures, manages   initiatives and ⏎ sustainability   provides high-level   core business   strategy and ri
-
-> line 15253: anti-corruption programme/ policy to review its suitability, adequacy   required. ⏎ and effectiveness, and implement improvements as appropriate? ⏎ 15   Does the Company have a policy on political contributions that   Yes. There is a defined process to be followed and the policy ⏎ either prohibits such contributions or if it does not, requires such   requires such contributions to be disclosed in the Annual report. ⏎ contributions to be publicly disclosed?   No political contributions were made during the period. ⏎ 16   Does the Company disclose its ultimate beneficial owner/s?   Yes. Please refer page 281. ⏎ 17   Which of the following information does the Company disclose for all   Not App
-
-> line 16862: The Board is accountable for ensuring a robust   { The minutes of the BAC and BIRMC   { The Company appointed a Group level ⏎ internal control system to protect shareholders'   meetings are tabled at regular Board   Chief Information Security Officer (CISO) ⏎ investments and company assets. It has   meetings. The report of the BAC and   with the necessary expertise ⏎ assigned the task of overseeing the adequacy   BIRMC are provided in the annual   { Appointment of Authorised Officer for the ⏎ of these controls to the Board Audit Committee,   report.   reporting of ultimate beneficial owners to ⏎ along with other responsibilities. Additionally,   { The BAC reviews and approves the   the Regis
-
-> line 17782: and the debentures issued by the Company   misstatements, whether due to fraud or error; selecting and applying appropriate accounting ⏎ are listed on the Colombo Stock Exchange.   policies; and making accounting estimates that are reasonable in the circumstances. ⏎ The staff strength of the Company as at 31 ⏎ March 2026 is 16 (31 March 2025 – 18).   The Board of Directors acknowledges their responsibility as set out in the “Annual Report of ⏎ the Board of Directors” and “Statement of Director’s Responsibility” and the certification on the ⏎ 1.2 Parent Entity and Ultimate Parent   statement of financial position on pages 262 to 264 , 265 , 278 respectively. ⏎ Entity ⏎ The Financial Statement
-
-## Skyworld Overseas Holdings Limited
-
-Look-through value Rs 15.6 bn. Largest voting block in: RICH (25.37%, influence)
-
-**RICH** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/509_1788174558791.pdf) (3 passages naming an ultimate or indirect owner)
-
-> line 8261: Operations   sell.   2.8 Basis of Consolidation ⏎ The principal activities of the Group are   The consolidated financial statements ⏎ stated in the Annual Report of the Board   Where appropriate, the specific policies   encompass the Company, its subsidiaries ⏎ of Directors.   are explained in the succeeding notes.   (together referred to as the “Group”) and ⏎ No adjustments have been made for   the Group’s interest in equity accounted ⏎ 1.3 Parent Entity and Ultimate Parent   inflationary factors in the Consolidated   investees (Associates) ⏎ Entity   Financial Statements. ⏎ The Company does not have an   Subsidiaries and equity accounted ⏎ identifiable parent on its own.   2.3 Presentation
-
-> line 13332: EBITDA ⏎ Total interest bearing borrowings as a   NSA ⏎ Earnings before interest, tax, depreciation ⏎ percentage of shareholder’s funds and   Net Sales Average ⏎ & amortisation. ⏎ non-controlling interest.   Average sale price obtained (over a ⏎ period of time, for a kilo of produce) after ⏎ Effective Tax Rate: ⏎ Deferred Taxation:   deductions such as brokerage, etc. ⏎ Tax expenses divided by profit before tax. ⏎ Sum set aside for tax in the financial ⏎ statements that will become payable in   Non-Controlling Interest: ⏎ a financial year other than the current ⏎ financial year. ⏎ G   The equity in a subsidiary not attributable ⏎ directly or indirectly, to a parent ⏎ Gearing Ratio:
-
-> line 13402: GLOSSARY OF FINANCIAL TERMS ⏎ Public Shareholding:   Stated Capital: ⏎ Shares of a listed entity held by any   The total of all amounts received by the ⏎ person other than those directly or   entity or due and payable to the entity ⏎ indirectly held by;   by shareholders in respect of the issue of ⏎ a) Its parent, subsidiary or associate   shares and calls on shares. ⏎ companies or any subsidiaries or ⏎ associates of its parent company;   Subsidiary Company: ⏎ and   An entity that is controlled by another ⏎ b) Its directors who are holding office as   entity. ⏎ directors of the entity, their spouses ⏎ and children under 18 years of age; ⏎ and   T
-
 ## B G INVESTMENTS (PVT) LIMITED
 
-Look-through value Rs 15.4 bn. Largest voting block in: COCR (50.26%, controlled)
+Look-through value Rs 15.2 bn. Largest voting block in: COCR (50.26%, controlled)
 
 **COCR** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1063_1785980907062.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -528,9 +516,21 @@ Recognised: *parent*: BG Capital
 
 > line 15551: NOTES TO THE FINANCIAL STATEMENT ⏎ 53.2 TRANSACTIONS WITH RELATED ENTITIES ⏎ 53.2.1 Transactions with Ultimate Controlling Party ⏎ Amounts paid for being a member of the Key Management Personnel as included in 55.1 above. ⏎ 53.2.2 Transactions with Ultimate Parent Entity ⏎ Company ⏎ 2026   2025 ⏎ LKR   LKR ⏎ BG Capital (Pvt) Ltd ⏎ Investment in Fixed Deposit at Commercial Credit and Finance PLC   -   - ⏎ 53.2.3 Transactions with Immediate Parent Entity ⏎ Company ⏎ 2026   2025 ⏎ LKR   LKR
 
+## Skyworld Overseas Holdings Limited
+
+Look-through value Rs 15.1 bn. Largest voting block in: RICH (25.37%, influence)
+
+**RICH** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/509_1788174558791.pdf) (3 passages naming an ultimate or indirect owner)
+
+> line 8261: Operations   sell.   2.8 Basis of Consolidation ⏎ The principal activities of the Group are   The consolidated financial statements ⏎ stated in the Annual Report of the Board   Where appropriate, the specific policies   encompass the Company, its subsidiaries ⏎ of Directors.   are explained in the succeeding notes.   (together referred to as the “Group”) and ⏎ No adjustments have been made for   the Group’s interest in equity accounted ⏎ 1.3 Parent Entity and Ultimate Parent   inflationary factors in the Consolidated   investees (Associates) ⏎ Entity   Financial Statements. ⏎ The Company does not have an   Subsidiaries and equity accounted ⏎ identifiable parent on its own.   2.3 Presentation
+
+> line 13332: EBITDA ⏎ Total interest bearing borrowings as a   NSA ⏎ Earnings before interest, tax, depreciation ⏎ percentage of shareholder’s funds and   Net Sales Average ⏎ & amortisation. ⏎ non-controlling interest.   Average sale price obtained (over a ⏎ period of time, for a kilo of produce) after ⏎ Effective Tax Rate: ⏎ Deferred Taxation:   deductions such as brokerage, etc. ⏎ Tax expenses divided by profit before tax. ⏎ Sum set aside for tax in the financial ⏎ statements that will become payable in   Non-Controlling Interest: ⏎ a financial year other than the current ⏎ financial year. ⏎ G   The equity in a subsidiary not attributable ⏎ directly or indirectly, to a parent ⏎ Gearing Ratio:
+
+> line 13402: GLOSSARY OF FINANCIAL TERMS ⏎ Public Shareholding:   Stated Capital: ⏎ Shares of a listed entity held by any   The total of all amounts received by the ⏎ person other than those directly or   entity or due and payable to the entity ⏎ indirectly held by;   by shareholders in respect of the issue of ⏎ a) Its parent, subsidiary or associate   shares and calls on shares. ⏎ companies or any subsidiaries or ⏎ associates of its parent company;   Subsidiary Company: ⏎ and   An entity that is controlled by another ⏎ b) Its directors who are holding office as   entity. ⏎ directors of the entity, their spouses ⏎ and children under 18 years of age; ⏎ and   T
+
 ## RPC Plantation Management Services (Pvt) Ltd
 
-Look-through value Rs 14.7 bn. Largest voting block in: AINS (40.29%, influence), KGAL (79.68%, controlled), NAMU (67.98%, controlled)
+Look-through value Rs 14.4 bn. Largest voting block in: AINS (40.29%, influence), KGAL (79.68%, controlled), NAMU (67.98%, controlled)
 
 **AINS** — [Errata to the Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/1405_1782268687110.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -580,7 +580,7 @@ Recognised: *parent*: RPC Where appropriate
 
 ## Culture Financial Holdings Ltd
 
-Look-through value Rs 14.1 bn. Largest voting block in: UBC (70.84%, controlled), UBF (85.97%, controlled)
+Look-through value Rs 13.7 bn. Largest voting block in: UBC (70.84%, controlled), UBF (85.97%, controlled)
 
 **UBC** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/1047_1772185238175.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -618,7 +618,7 @@ Look-through value Rs 12.6 bn. Largest voting block in: CINS (22.25%, influence)
 
 ## Finco Holdings (Pvt) Ltd
 
-Look-through value Rs 12.1 bn. Largest voting block in: WLTH (27.19%, influence)
+Look-through value Rs 12.0 bn. Largest voting block in: WLTH (27.19%, influence)
 
 **WLTH** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/3479_1784115525552.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -628,23 +628,9 @@ Look-through value Rs 12.1 bn. Largest voting block in: WLTH (27.19%, influence)
 
 > line 9022: 30.1 Terms and Conditions ⏎ The pricing applicable to such transactions is based on the assessment of risk and pricing model of the ⏎ company and is comparable with what is applied to transactions between the company and its unrelated ⏎ customers. ⏎ 30.2 Parent and Ultimate Controlling Party ⏎ The Company does not have an identifiable parent of its own.
 
-## SERENITY LAKE LEISURE (PVT) LTD
-
-Look-through value Rs 11.7 bn. Largest voting block in: HUNA (89.91%, controlled)
-
-**HUNA** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/546_1788535123530.pdf) (11 passages naming an ultimate or indirect owner)
-
-> line 6774: 1.3.2   SUBSIDIARIES ⏎ 1.4   PA R E N T E N T E R P R I S E A N D U LT I M AT E ⏎ Boulder Gardens (Private) Limited ⏎ Parent enterprise ⏎ The principal activity of the Company is to carry on the ⏎ The Company’s immediate parent is Serenity Lake Leisure ⏎ business in hospitality and tourism projects related activities. ⏎ (Pvt) Ltd, whereas, the ultimate parent undertaking and ⏎ controlling party is TAD Lanka Holdings (Pvt) Ltd. ⏎ Hunas Properties (Private) Limited ⏎ The principal activity of the Company is to carry on the real ⏎ estate operations. The Company has not yet commenced the ⏎ 1.5 DIRECTOR’S RESPONSIBILITY
-
-> line 7089: unit retained.   • Held primarily for the purpose of trading. ⏎ • Expected to be realized within twelve months after the ⏎ The profit or loss and net assets of a subsidiary attributable to   reporting period, or ⏎ equity interests that are not owned by the parent, directly or   • Cash or cash equivalent unless restricted from being ⏎ indirectly through subsidiaries, is disclosed separately under   exchanged or used to settle a liability for at least twelve ⏎ the heading “Non-controlling Interest”.   months after the reporting period. ⏎ 3.3   FOREIGN CURRENCY   All other assets are classiﬁed as non-current. A liability is ⏎ current when: ⏎ 3.3.1   TRANSACTIONS AND BALANCES   • It is expected 
-
-> line 8873: Cash flows from / (used in) finance activities   - ⏎ Non-controlling Interests and Consolidation ⏎ Non-controlling interests (“NCI”) represent the portion of equity in subsidiaries that is not attributable, directly or indirectly, to the equity ⏎ holders of the Company. NCI are presented separately within equity in the consolidated statement of financial position. Profit or loss ⏎ and each component of other comprehensive income are attributed to the owners of the Company and to the NCI, even if this results in ⏎ a deficit balance in NCI. ⏎ NCI arising from a business combination are measured either at fair value or at the proportionate share of the acquiree’s identifiable net
-
-> line 9040: 20.   Related party transactions ⏎ Group   Company ⏎ Relationship   2026   2025   2026   2025 ⏎ Rs.   Rs.   Rs.   Rs. ⏎ 20.1   Amounts due from related parties - Current ⏎ TAD Lanka Holdings (Pvt) Ltd   Ultimate parent   189,095,619   -   528,202,295   673,303,797 ⏎ Hunas Falls Hotels (Pvt) Ltd   Subsidiary   -   -   4,497,844   - ⏎ Rainforest Hotels (Pvt) Ltd   Subsidiary   -   -   418,408   - ⏎ Boulder Gardens (Pvt) Ltd   Subsidiary   -   -   617,200   - ⏎ Hunas Properties (Pvt) Ltd   Subsidiary   -   -   47,500   - ⏎ Suriyakanda Plantations (Pvt) Ltd   Subsidiary   -   -   89,628,274   -
-
 ## FINANCIAL TRUST LIMITED
 
-Look-through value Rs 11.3 bn. Largest voting block in: CIT (38.22%, influence)
+Look-through value Rs 11.0 bn. Largest voting block in: CIT (38.22%, influence)
 
 **CIT** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/610_1781869814742.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -652,19 +638,9 @@ Look-through value Rs 11.3 bn. Largest voting block in: CIT (38.22%, influence)
 
 > line 3111: 15   Capital Commitments ⏎ There were no material capital commitments as at 31st March, 2026. ⏎ 16   Contingent Liabilities ⏎ There were no material contingent liabilities as at 31st March, 2026. ⏎ 17   Related Party Disclosures ⏎ (a) Parent and Ultimate Controlling Party ⏎ The Company does not have an identifiable parent on its own. ⏎ (b) Transactions with Key Management Personnel ⏎ (i) Definition of Key Management Personnel ⏎ According to Sir Lanka Accounting Standard - LAKAS 24 ‘Related Party Disclosures’, Key Management personnel are those ⏎ having authority and responsibility for planning, directing and controlling activities of the entity. Accordingly, Board of
 
-## LAUGFS HOLDINGS LTD
-
-Look-through value Rs 11.2 bn. Largest voting block in: LGL (74.02%, controlled)
-
-**LGL** — [Annual Report for 2024/25](https://cdn.cse.lk/cmt/upload_report_file/1020_1755226669182.pdf) (1 passages naming an ultimate or indirect owner)
-
-Recognised: *parent*: LAUGFS through other comprehensive income Holdings Limited
-
-> line 9453: LAUGFS Maritime Services (Pvt) Ltd   Operation of vessels and providing marine cargo services ⏎ SLOGAL Energy DMCC   Trading and export of liquefied petroleum gas and other related products ⏎ LAUGFS Terminals Ltd   Operation of LPG storage terminal ⏎ 1.4   Parent Entity and Ultimate   2.   SIGNIFICANT ACCOUNTING   for investment properties, freehold lands, ⏎ Parent Entity   POLICIES   Cylinders in hand and in circulation, ⏎ 2.1   Statement of Compliance   vessels, financial assets at fair value ⏎ The Company’s parent entity is LAUGFS ⏎ through other comprehensive income ⏎ Holdings Limited. In the opinion of   The financial statement of LAUGFS Gas   and financial assets at fair value through 
-
 ## Ashthi Holdings (Private) Limited
 
-Look-through value Rs 11.1 bn. Largest voting block in: CALH (26.88%, influence), CTBL (29.91%, influence)
+Look-through value Rs 10.8 bn. Largest voting block in: CALH (26.88%, influence), CTBL (29.91%, influence)
 
 **CALH** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/3319_1788426483239.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -682,9 +658,33 @@ Look-through value Rs 11.1 bn. Largest voting block in: CALH (26.88%, influence)
 
 > line 14045: Rs.   Rs.   Rs.   Rs. ⏎ Logicare (Private) Limited   100% Owned Subsidiary   -   -   (31,570,039)   (24,553,707) ⏎ Less - Provision for Impairment ⏎ of Amount Due From Related ⏎ Party (Note 27.1)   -   -   1,334,946   1,254,540 ⏎ Ashthi Holdings (Pvt) Ltd   Ultimate Holding Company   18,643,472   -   -   - ⏎ 18,643,472   -   (30,235,093)   (23,299,167) ⏎ 27.1   Movement for Impairment on Amount Due From Related Party ⏎ Balance as at 01st April   1,254,540   -
 
+## SERENITY LAKE LEISURE (PVT) LTD
+
+Look-through value Rs 10.8 bn. Largest voting block in: HUNA (89.91%, controlled)
+
+**HUNA** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/546_1788535123530.pdf) (11 passages naming an ultimate or indirect owner)
+
+> line 6774: 1.3.2   SUBSIDIARIES ⏎ 1.4   PA R E N T E N T E R P R I S E A N D U LT I M AT E ⏎ Boulder Gardens (Private) Limited ⏎ Parent enterprise ⏎ The principal activity of the Company is to carry on the ⏎ The Company’s immediate parent is Serenity Lake Leisure ⏎ business in hospitality and tourism projects related activities. ⏎ (Pvt) Ltd, whereas, the ultimate parent undertaking and ⏎ controlling party is TAD Lanka Holdings (Pvt) Ltd. ⏎ Hunas Properties (Private) Limited ⏎ The principal activity of the Company is to carry on the real ⏎ estate operations. The Company has not yet commenced the ⏎ 1.5 DIRECTOR’S RESPONSIBILITY
+
+> line 7089: unit retained.   • Held primarily for the purpose of trading. ⏎ • Expected to be realized within twelve months after the ⏎ The profit or loss and net assets of a subsidiary attributable to   reporting period, or ⏎ equity interests that are not owned by the parent, directly or   • Cash or cash equivalent unless restricted from being ⏎ indirectly through subsidiaries, is disclosed separately under   exchanged or used to settle a liability for at least twelve ⏎ the heading “Non-controlling Interest”.   months after the reporting period. ⏎ 3.3   FOREIGN CURRENCY   All other assets are classiﬁed as non-current. A liability is ⏎ current when: ⏎ 3.3.1   TRANSACTIONS AND BALANCES   • It is expected 
+
+> line 8873: Cash flows from / (used in) finance activities   - ⏎ Non-controlling Interests and Consolidation ⏎ Non-controlling interests (“NCI”) represent the portion of equity in subsidiaries that is not attributable, directly or indirectly, to the equity ⏎ holders of the Company. NCI are presented separately within equity in the consolidated statement of financial position. Profit or loss ⏎ and each component of other comprehensive income are attributed to the owners of the Company and to the NCI, even if this results in ⏎ a deficit balance in NCI. ⏎ NCI arising from a business combination are measured either at fair value or at the proportionate share of the acquiree’s identifiable net
+
+> line 9040: 20.   Related party transactions ⏎ Group   Company ⏎ Relationship   2026   2025   2026   2025 ⏎ Rs.   Rs.   Rs.   Rs. ⏎ 20.1   Amounts due from related parties - Current ⏎ TAD Lanka Holdings (Pvt) Ltd   Ultimate parent   189,095,619   -   528,202,295   673,303,797 ⏎ Hunas Falls Hotels (Pvt) Ltd   Subsidiary   -   -   4,497,844   - ⏎ Rainforest Hotels (Pvt) Ltd   Subsidiary   -   -   418,408   - ⏎ Boulder Gardens (Pvt) Ltd   Subsidiary   -   -   617,200   - ⏎ Hunas Properties (Pvt) Ltd   Subsidiary   -   -   47,500   - ⏎ Suriyakanda Plantations (Pvt) Ltd   Subsidiary   -   -   89,628,274   -
+
+## LAUGFS HOLDINGS LTD
+
+Look-through value Rs 10.5 bn. Largest voting block in: LGL (74.02%, controlled)
+
+**LGL** — [Annual Report for 2024/25](https://cdn.cse.lk/cmt/upload_report_file/1020_1755226669182.pdf) (1 passages naming an ultimate or indirect owner)
+
+Recognised: *parent*: LAUGFS through other comprehensive income Holdings Limited
+
+> line 9453: LAUGFS Maritime Services (Pvt) Ltd   Operation of vessels and providing marine cargo services ⏎ SLOGAL Energy DMCC   Trading and export of liquefied petroleum gas and other related products ⏎ LAUGFS Terminals Ltd   Operation of LPG storage terminal ⏎ 1.4   Parent Entity and Ultimate   2.   SIGNIFICANT ACCOUNTING   for investment properties, freehold lands, ⏎ Parent Entity   POLICIES   Cylinders in hand and in circulation, ⏎ 2.1   Statement of Compliance   vessels, financial assets at fair value ⏎ The Company’s parent entity is LAUGFS ⏎ through other comprehensive income ⏎ Holdings Limited. In the opinion of   The financial statement of LAUGFS Gas   and financial assets at fair value through 
+
 ## Bank of Ceylon-No. 1
 
-Look-through value Rs 10.4 bn. Largest voting block in: MBSL (76.56%, controlled)
+Look-through value Rs 10.1 bn. Largest voting block in: MBSL (76.56%, controlled)
 
 **MBSL** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/380_1778582067797.05.12.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -706,7 +706,7 @@ Recognised: *ultimate parent*: Bank of Ceylon
 
 ## GRAPHIT KROPFMUHL GMBH
 
-Look-through value Rs 9.7 bn. Largest voting block in: BOGA (86.46%, controlled)
+Look-through value Rs 9.6 bn. Largest voting block in: BOGA (86.46%, controlled)
 
 **BOGA** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/664_1773052650885.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -720,9 +720,17 @@ Look-through value Rs 9.7 bn. Largest voting block in: BOGA (86.46%, controlled)
 
 > line 120: respective parties. The Company has not had any special transactions with Parent or Affiliate ⏎ company which required specific agreement or arrangement to made, prior to such transactions, ⏎ other than what is listed above. ⏎ Asbury Advanced Materials Group listed above as an affiliate company effective 28th July 2026, is a ⏎ fully owned subsidiary of Mill Rock Capital who is the Ultimate Parent Company. ⏎ Total aggregated value of the sales made to Graphit Kropfmühl GmbH, Qingdao Kropfmuhl ⏎ Graphite and Asbury Advanced Materials Group are 19.6%, 1.1% and 1.0% respectively from the ⏎ total revenue of the Company.
 
+## Aitken Spence Plantation Managements Ltd
+
+Look-through value Rs 7.7 bn. Largest voting block in: ELPL (61.64%, controlled)
+
+**ELPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/707_1780604639383.pdf) (1 passages naming an ultimate or indirect owner)
+
+> line 23245: as interest rates, exchange rates, credit   percentage of average capital employed. ⏎ HELD-TO-MATURITY   spreads and other asset prices. ⏎ A financial asset with fixed and   RETURN ON EQUITY ⏎ determinable payments and fixed maturity,   MATERIAL TOPICS   Profit attributable to equity holders of the ⏎ other than loan and receivables, for which   Topics that represent an organisation's   company divided by average equity less ⏎ there is a positive intention and ability to   most significant impacts on the economy,   non-controlling interest at the beginning ⏎ hold to maturity.   environment, and people, including impacts   and at the end of the financial year. ⏎ on their human rights. ⏎ IMPACT
+
 ## MUTHOOT FINANCE LIMITED
 
-Look-through value Rs 7.9 bn. Largest voting block in: AAF (78.41%, controlled)
+Look-through value Rs 7.7 bn. Largest voting block in: AAF (78.41%, controlled)
 
 **AAF** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1108_1788183772927.pdf) (4 passages naming an ultimate or indirect owner)
 
@@ -736,17 +744,9 @@ Recognised: *ultimate parent*: Muthoot Finance Limited
 
 > line 17073: The Company carries out transactions in the ordinary course of its business on an arm’s length basis at commercial rates with related parties. Details ⏎ of significant related party disclosures are as follows: ⏎ 47.1. Parent and ultimate controlling party ⏎ The ultimate parent of the Company as at 31st March 2026 is Muthoot Finance Limited. ⏎ Annual Report 2025 | 2026   285 ⏎ 47.2. Transactions with related entities ⏎ 47.2.1. Muthoot Finance Limited ⏎ Relationship - Ultimate parent ⏎ For the Year ended 31 March,   2026   2025 ⏎ Rs.   Rs. ⏎ Transactions during the year ⏎ Expenses incurred for Muthoot Finance Limited   1,881,666   1,766,800 ⏎ 47.3. Transactions with key management personnel of
 
-## Aitken Spence Plantation Managements Ltd
-
-Look-through value Rs 7.8 bn. Largest voting block in: ELPL (61.64%, controlled)
-
-**ELPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/707_1780604639383.pdf) (1 passages naming an ultimate or indirect owner)
-
-> line 23245: as interest rates, exchange rates, credit   percentage of average capital employed. ⏎ HELD-TO-MATURITY   spreads and other asset prices. ⏎ A financial asset with fixed and   RETURN ON EQUITY ⏎ determinable payments and fixed maturity,   MATERIAL TOPICS   Profit attributable to equity holders of the ⏎ other than loan and receivables, for which   Topics that represent an organisation's   company divided by average equity less ⏎ there is a positive intention and ability to   most significant impacts on the economy,   non-controlling interest at the beginning ⏎ hold to maturity.   environment, and people, including impacts   and at the end of the financial year. ⏎ on their human rights. ⏎ IMPACT
-
 ## Wayamba Plantation (Private) Limited
 
-Look-through value Rs 7.2 bn. Largest voting block in: MAL (66.98%, controlled)
+Look-through value Rs 7.1 bn. Largest voting block in: MAL (66.98%, controlled)
 
 **MAL** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/722_1780477750372.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -756,7 +756,7 @@ Recognised: *ultimate parent*: Wayamba POLICIES Plantations
 
 ## Iconic Trust (Private) Limited
 
-Look-through value Rs 7.1 bn. Largest voting block in: SIRA (30.43%, influence)
+Look-through value Rs 7.0 bn. Largest voting block in: SIRA (30.43%, influence)
 
 **SIRA** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/685_1783959485501.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -764,15 +764,9 @@ Recognised: *ultimate parent*: LOLC Holdings PLC
 
 > line 10768: as the “Group” individually as Group entities) and the Group’s   been prepared on the historical cost basis, except for the following ⏎ interest in equity accounted investees.   material items in the statement of financial position. ⏎ The immediate parent of Sierra Cables PLC is Browns Investments   ~ Fair value through other comprehensive income financial assets ⏎ PLC, and the ultimate parent is LOLC Holdings PLC.   are measured at fair value; ⏎ ~ Defined benefit obligations is carried at the present value of the ⏎ 1.2. PRINCIPAL ACTIVITIES AND NATURE OF   defined benefit. ⏎ OPERATIONS ⏎ ~ Land, buildings and motor vehicles are measured at cost at
 
-## ARCASIA INVESTMENTS & TRADING (PVT) LTD
-
-Look-through value Rs 6.7 bn. Largest voting block in: AFS (26.82%, influence)
-
-_No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
-
 ## SOFTLOGIC RETAIL HOLDINGS (PRIVATE) LIMITED
 
-Look-through value Rs 6.7 bn. Largest voting block in: ODEL (98.79%, controlled)
+Look-through value Rs 6.8 bn. Largest voting block in: ODEL (98.79%, controlled)
 
 **ODEL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/960_1788178035241.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -786,17 +780,11 @@ Look-through value Rs 6.7 bn. Largest voting block in: ODEL (98.79%, controlled)
 
 > line 715: 11   Related party transactions   Group   Company ⏎ 2026/27   2025/26   2026/27   2025/26 ⏎ LKR   LKR   LKR   LKR ⏎ Ultimate Parent ⏎ Slae of goods   -   -   -   - ⏎ Purchase of goods   -   -   -   - ⏎ Rendering of services   -   5,040,000   -   5,040,000 ⏎ Receiving of services   9,245,977   52,967,580   -   - ⏎ Guarantee fees paid   -   -   -   -
 
-## Renuka Enterprises (Private) Limited
+## ARCASIA INVESTMENTS & TRADING (PVT) LTD
 
-Look-through value Rs 6.4 bn. Largest voting block in: COCO (56.57%, controlled), RAL (53.03%, controlled)
+Look-through value Rs 6.8 bn. Largest voting block in: AFS (26.82%, influence)
 
-**COCO** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/461_1794573172381.11.2026.pdf) (1 passages naming an ultimate or indirect owner)
-
-> line 507: Page 10 of 11   INTERIM FINANCIAL STATEMENTS ⏎ CORPORATE INFORMATION ⏎ Name of Company   Ultimate Parent Company ⏎ Renuka Foods PLC   Renuka Holdings PLC ⏎ Registration No.   Registered Office ⏎ PQ 216   “Renuka House” ⏎ 69, Sri Jinaratana Road,
-
-**RAL** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/901_1794571420897.11.26.pdf) (1 passages naming an ultimate or indirect owner)
-
-> line 475: Registrars ⏎ Postal Address   S S P Corporate Services (Pvt) Ltd ⏎ P.O. Box 25, Colombo.   546, Galle Road, ⏎ Colombo 3. ⏎ Legal Form ⏎ Quoted Public Company with Limited Liability   Ultimate Parent Company ⏎ Renuka Holdings PLC ⏎ Principal Activity ⏎ Manufacture and Sale of Coconut Based Food Products ⏎ Registered Office ⏎ Board of Directors   “Renuka House”
+_No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
 
 ## Nilaveli Beach Hotels (Pvt) Ltd
 
@@ -806,9 +794,21 @@ Look-through value Rs 6.2 bn. Largest voting block in: TANG (30.74%, influence)
 
 > line 2549: the circumstances. Hence actual ⏎ Company was hoteliering.   the previous year has been ⏎ experience and results may ⏎ amended, where relevant for better ⏎ differ from these judgements ⏎ 1.3   Parent Enterprise   presentation and to be comparable ⏎ and estimates. Estimates and ⏎ and Ultimate Parent   with those of the current year. ⏎ underlying assumptions are ⏎ Enterprise ⏎ reviewed on an ongoing basis. ⏎ The Company does not have an   2.1.3   Materiality and ⏎ Revisions to accounting estimates
 
+## Renuka Enterprises (Private) Limited
+
+Look-through value Rs 6.1 bn. Largest voting block in: COCO (56.57%, controlled), RAL (53.03%, controlled)
+
+**COCO** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/461_1794573172381.11.2026.pdf) (1 passages naming an ultimate or indirect owner)
+
+> line 507: Page 10 of 11   INTERIM FINANCIAL STATEMENTS ⏎ CORPORATE INFORMATION ⏎ Name of Company   Ultimate Parent Company ⏎ Renuka Foods PLC   Renuka Holdings PLC ⏎ Registration No.   Registered Office ⏎ PQ 216   “Renuka House” ⏎ 69, Sri Jinaratana Road,
+
+**RAL** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/901_1794571420897.11.26.pdf) (1 passages naming an ultimate or indirect owner)
+
+> line 475: Registrars ⏎ Postal Address   S S P Corporate Services (Pvt) Ltd ⏎ P.O. Box 25, Colombo.   546, Galle Road, ⏎ Colombo 3. ⏎ Legal Form ⏎ Quoted Public Company with Limited Liability   Ultimate Parent Company ⏎ Renuka Holdings PLC ⏎ Principal Activity ⏎ Manufacture and Sale of Coconut Based Food Products ⏎ Registered Office ⏎ Board of Directors   “Renuka House”
+
 ## Durdans Management Services Ltd Sri Lanka
 
-Look-through value Rs 5.6 bn. Largest voting block in: CHL (67.93%, controlled)
+Look-through value Rs 5.5 bn. Largest voting block in: CHL (67.93%, controlled)
 
 **CHL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/514_1781614612327.pdf) (7 passages naming an ultimate or indirect owner)
 
@@ -828,15 +828,43 @@ Recognised: *ultimate parent*: Durdans Management Services Ltd
 
 ## GALADARI BROTHERS CO.(LLC)
 
-Look-through value Rs 5.6 bn. Largest voting block in: GHLL (63.57%, controlled)
+Look-through value Rs 5.5 bn. Largest voting block in: GHLL (63.57%, controlled)
 
 **GHLL** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/541_1780571306065.06.2026%29%20-%20FINAL.pdf) (1 passages naming an ultimate or indirect owner)
 
 > line 2026: ability to continue as a going concern. ⏎ Operations   function are presented separately unless ⏎ The principle activity of the Company is   Therefore, these Financial Statements   they are immaterial. ⏎ hoteliering.   continue to be prepared on the going   3. MATERIAL ACCOUNTING POLICIES ⏎ concern basis.   The Accounting policies set out below ⏎ 1.3 Principal and Ultimate Parent ⏎ 2.5. Changes in accounting policies   have been consistently applied to all ⏎ The parent company is Galadari ⏎ The accounting policies adopted by the   periods presented in these Financial ⏎ Brothers Co. (LLC) and the ultimate ⏎ Company are consistent with those of   Statements. The changes to accounting ⏎ parent 
 
+## Hayleys Plantation Services (Private) Limited
+
+Look-through value Rs 5.3 bn. Largest voting block in: HOPL (51.00%, controlled), TPL (74.74%, controlled)
+
+**HOPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/709_1780480470502.pdf) (9 passages naming an ultimate or indirect owner)
+
+Recognised: *ultimate parent*: Hayleys PLC; *ultimate parent*: a Quoted T
+
+> line 390: Listed on the Colombo Stock Exchange under the stock ⏎ MISSION ⏎ To adopt the ⏎ symbol HOPL.N0000, Horana Plantations PLC is a subsidiary ⏎ of Hayleys Plantation Services (Private) Limited, with Hayleys ⏎ PLC serving as its ultimate parent company. Guided by strong ⏎ governance and a long term strategic outlook, we remain   best agricultural ⏎ committed to creating sustainable value for all stakeholders.   practices, ⏎ At HPL, we recognise that sustainable progress cannot be   measuring returns ⏎ against a long ⏎ achieved in isolation. Productivity is connected to people.
+
+> line 494: as a resilient and future-ready plantation ⏎ ORGANISATIONAL DETAILS ⏎ business. ⏎ Legal Name   Horana Plantations PLC (Company registration No PQ 126) ⏎ Across our operations, we maintain a strong   Nature of   HPL is a subsidiary of Hayleys Plantation Services (Private) ⏎ focus on:   ownership and   Limited, and the ultimate parent is Hayleys PLC. ⏎ Legal Form   Horana Plantations PLC is a quoted public company with ⏎ • Sustainable agricultural practices   limited liability, incorporated and domiciled in Sri Lanka, under ⏎ the Companies Act No.17 of 1982 in terms of the provisions of ⏎ • Ethical and transparent governance   the Conversion of Public Corporations of Government Owned ⏎ Busines
+
+> line 644: 2022-23   a single Golden Share of Rs 10/- ⏎ favouring the Secretary to the ⏎ Change of Ownership - The   Treasury. ⏎ Company became a subsidiary ⏎ of Hayleys Plantation Services ⏎ (Pvt) Ltd., and ultimate parent ⏎ company of Hayleys PLC. ⏎ Great Place to Work Certified & ⏎ 2020-21 ⏎ recognised as one of the 15 best ⏎ workplaces in the manufacturing
+
+> line 15894: Directors' remuneration is determined according to scales of payment decided upon ⏎ by the Board. The Board is satisfied that the payment of this remuneration is fair to the   The Stated Capital of the Company is ⏎ Company.   Rs.250,000,010/-. divided into Twenty ⏎ Five Million (25,000,000) Ordinary Shares ⏎ DIRECTORS’ INDEMNITY AND INSURANCE   and One (01) Golden Share as at 31st ⏎ The ultimate parent Company, Hayleys PLC has obtained a Directors’ and Officers’   March 2026. There was no change to the ⏎ Liability insurance from a reputed insurance company in Sri Lanka providing worldwide   stated capital during the year. The Golden ⏎ cover to indemnify all past, present and future Directors
+
+**TPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/726_1780482507511.pdf) (8 passages naming an ultimate or indirect owner)
+
+Recognised: *ultimate parent*: Hayleys PLC
+
+> line 5839: reported on the same period-end basis as the financial statements. ⏎ 1.4 Time Horizons ⏎ For the purposes of SRRO classification and financial exposure estimation, TTE applies the following time horizon definitions consistently across all ⏎ Notes in these disclosures: ⏎ The disclosures are presented on a consolidated basis, encompassing Talawakelle Tea Estates PLC as the parent entity and its wholly owned ⏎ subsidiaries: ⏎ Time Horizon   Period   Basis ⏎ Short term   1 years   Aligned to TTE's annual operating cycle, corporate budget plan, and near-term estate operational decisions ⏎ Medium term   2–3 years   Company Strategic planning cycle
+
+> line 6078: Protocol Corporate Standard operational control approach. Under this approach, TTE accounts for 100% of the GHG emissions and sustainability impacts ⏎ arising from operations over which it has full authority to introduce and implement its own operating policies regardless of financial ownership share. ⏎ Operational control is defined as the authority to direct the operations, safety practices, environmental management systems, and sustainability policies of a ⏎ facility or activity. This is a broader test than financial ownership: an entity may hold operational control over a site it leases or manages under contract, even ⏎ if it does not hold a majority financial interest; conversely, a who
+
+> line 19257: Mr. Nishantha Abeysinghe and Mr.Anura ⏎ remuneration is fair to the Company. ⏎ Weerakoon was appointed to the Board on ⏎ Directors’ Indemnity and Insurance ⏎ 01st August 2025 and on 15th September ⏎ The ultimate parent of the Company, Hayleys   Corporate Donations ⏎ 2025 respectively . In terms of Article 28(2) of ⏎ PLC has obtained a Directors’ and Officers’   The donations made during this year by ⏎ the Articles of Association of the Company, ⏎ Liability insurance from a reputed insurance   the Company amounted to Rs. 0. 80 Mn ⏎ Shareholders will be requested to re-elect
+
+> line 21012: Hayleys Produce Marketing Limited   Manufacturing Organic No. 400, Deans Road, Colombo 10   The Financial Statements are presented in ⏎ Teas   Sri Lankan Rupees (Rs.), which is the Group’s ⏎ functional and presentation currency. All ⏎ 1.2   Holding Company   financial information presented in Sri Lankan ⏎ The Company is a subsidiary of Hayleys Plantation Services (Pvt) Ltd which is a subsidiary of   Rupees has been given to the nearest rupee, ⏎ Dipped Products PLC whose ultimate parent enterprise is Hayleys PLC.   unless stated otherwise. ⏎ 1.3   Date of Authorization for issue   2.5   Materiality and Aggregation ⏎ The financial statements of Talawakelle Tea Estates PLC for the year ended 31
+
 ## Browns Power Holdings (Private) Limited
 
-Look-through value Rs 5.5 bn. Largest voting block in: HAPU (89.99%, controlled), TSML (75.27%, controlled), UDPL (90.17%, controlled)
+Look-through value Rs 5.3 bn. Largest voting block in: HAPU (89.99%, controlled), TSML (75.27%, controlled), UDPL (90.17%, controlled)
 
 **HAPU** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/708_1788167054224.08.31.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -864,37 +892,9 @@ Recognised: *parent*: Browns Power Holdings Public Companies Act No
 
 > line 6888: Withdrawal of commercial papers (1,328,109) ⏎ Interest income on commercial   97,782 114,423 ⏎ papers ⏎ Interest income received on   (97,782) (114,423) ⏎ commercial papers ⏎ Browns Power   Parent Company Reimbursement of expenditure   (176,531) (138,545)   (82,266) (80,735) ⏎ Holdings (Private)   Settlement   175,000   67,045 ⏎ Limited ⏎ Browns Properties   Intermediate   Service cost   (188)   (37,954)   (34,642) (37,954) ⏎ (private) Limited   Parent   Settlement   3,500   - ⏎ Maturata Plantations Common   Reimbursement of expenditure   (52,902)   (24,147)   (29,049) (16,147) ⏎ Limited   Directors   Settlement   40,000   8,000 ⏎ Pussellawa   Common   Reimbursement of expenditure   996   - 
 
-## Hayleys Plantation Services (Private) Limited
-
-Look-through value Rs 5.4 bn. Largest voting block in: HOPL (51.00%, controlled), TPL (74.74%, controlled)
-
-**HOPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/709_1780480470502.pdf) (9 passages naming an ultimate or indirect owner)
-
-Recognised: *ultimate parent*: Hayleys PLC; *ultimate parent*: a Quoted T
-
-> line 390: Listed on the Colombo Stock Exchange under the stock ⏎ MISSION ⏎ To adopt the ⏎ symbol HOPL.N0000, Horana Plantations PLC is a subsidiary ⏎ of Hayleys Plantation Services (Private) Limited, with Hayleys ⏎ PLC serving as its ultimate parent company. Guided by strong ⏎ governance and a long term strategic outlook, we remain   best agricultural ⏎ committed to creating sustainable value for all stakeholders.   practices, ⏎ At HPL, we recognise that sustainable progress cannot be   measuring returns ⏎ against a long ⏎ achieved in isolation. Productivity is connected to people.
-
-> line 494: as a resilient and future-ready plantation ⏎ ORGANISATIONAL DETAILS ⏎ business. ⏎ Legal Name   Horana Plantations PLC (Company registration No PQ 126) ⏎ Across our operations, we maintain a strong   Nature of   HPL is a subsidiary of Hayleys Plantation Services (Private) ⏎ focus on:   ownership and   Limited, and the ultimate parent is Hayleys PLC. ⏎ Legal Form   Horana Plantations PLC is a quoted public company with ⏎ • Sustainable agricultural practices   limited liability, incorporated and domiciled in Sri Lanka, under ⏎ the Companies Act No.17 of 1982 in terms of the provisions of ⏎ • Ethical and transparent governance   the Conversion of Public Corporations of Government Owned ⏎ Busines
-
-> line 644: 2022-23   a single Golden Share of Rs 10/- ⏎ favouring the Secretary to the ⏎ Change of Ownership - The   Treasury. ⏎ Company became a subsidiary ⏎ of Hayleys Plantation Services ⏎ (Pvt) Ltd., and ultimate parent ⏎ company of Hayleys PLC. ⏎ Great Place to Work Certified & ⏎ 2020-21 ⏎ recognised as one of the 15 best ⏎ workplaces in the manufacturing
-
-> line 15894: Directors' remuneration is determined according to scales of payment decided upon ⏎ by the Board. The Board is satisfied that the payment of this remuneration is fair to the   The Stated Capital of the Company is ⏎ Company.   Rs.250,000,010/-. divided into Twenty ⏎ Five Million (25,000,000) Ordinary Shares ⏎ DIRECTORS’ INDEMNITY AND INSURANCE   and One (01) Golden Share as at 31st ⏎ The ultimate parent Company, Hayleys PLC has obtained a Directors’ and Officers’   March 2026. There was no change to the ⏎ Liability insurance from a reputed insurance company in Sri Lanka providing worldwide   stated capital during the year. The Golden ⏎ cover to indemnify all past, present and future Directors
-
-**TPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/726_1780482507511.pdf) (8 passages naming an ultimate or indirect owner)
-
-Recognised: *ultimate parent*: Hayleys PLC
-
-> line 5839: reported on the same period-end basis as the financial statements. ⏎ 1.4 Time Horizons ⏎ For the purposes of SRRO classification and financial exposure estimation, TTE applies the following time horizon definitions consistently across all ⏎ Notes in these disclosures: ⏎ The disclosures are presented on a consolidated basis, encompassing Talawakelle Tea Estates PLC as the parent entity and its wholly owned ⏎ subsidiaries: ⏎ Time Horizon   Period   Basis ⏎ Short term   1 years   Aligned to TTE's annual operating cycle, corporate budget plan, and near-term estate operational decisions ⏎ Medium term   2–3 years   Company Strategic planning cycle
-
-> line 6078: Protocol Corporate Standard operational control approach. Under this approach, TTE accounts for 100% of the GHG emissions and sustainability impacts ⏎ arising from operations over which it has full authority to introduce and implement its own operating policies regardless of financial ownership share. ⏎ Operational control is defined as the authority to direct the operations, safety practices, environmental management systems, and sustainability policies of a ⏎ facility or activity. This is a broader test than financial ownership: an entity may hold operational control over a site it leases or manages under contract, even ⏎ if it does not hold a majority financial interest; conversely, a who
-
-> line 19257: Mr. Nishantha Abeysinghe and Mr.Anura ⏎ remuneration is fair to the Company. ⏎ Weerakoon was appointed to the Board on ⏎ Directors’ Indemnity and Insurance ⏎ 01st August 2025 and on 15th September ⏎ The ultimate parent of the Company, Hayleys   Corporate Donations ⏎ 2025 respectively . In terms of Article 28(2) of ⏎ PLC has obtained a Directors’ and Officers’   The donations made during this year by ⏎ the Articles of Association of the Company, ⏎ Liability insurance from a reputed insurance   the Company amounted to Rs. 0. 80 Mn ⏎ Shareholders will be requested to re-elect
-
-> line 21012: Hayleys Produce Marketing Limited   Manufacturing Organic No. 400, Deans Road, Colombo 10   The Financial Statements are presented in ⏎ Teas   Sri Lankan Rupees (Rs.), which is the Group’s ⏎ functional and presentation currency. All ⏎ 1.2   Holding Company   financial information presented in Sri Lankan ⏎ The Company is a subsidiary of Hayleys Plantation Services (Pvt) Ltd which is a subsidiary of   Rupees has been given to the nearest rupee, ⏎ Dipped Products PLC whose ultimate parent enterprise is Hayleys PLC.   unless stated otherwise. ⏎ 1.3   Date of Authorization for issue   2.5   Materiality and Aggregation ⏎ The financial statements of Talawakelle Tea Estates PLC for the year ended 31
-
 ## LOLC Asset Holdings Limited
 
-Look-through value Rs 5.0 bn. Largest voting block in: LGIL (63.75%, controlled)
+Look-through value Rs 5.3 bn. Largest voting block in: LGIL (63.75%, controlled)
 
 **LGIL** — [Annual Report as at 31st December 2025](https://cdn.cse.lk/cmt/upload_report_file/2693_1780060486153.pdf) (4 passages naming an ultimate or indirect owner)
 
@@ -960,7 +960,7 @@ Look-through value Rs 4.5 bn. Largest voting block in: VPEL (40.08%, influence)
 
 ## Metropolitan Resource Holdings Limited
 
-Look-through value Rs 4.4 bn. Largest voting block in: BOPL (78.45%, controlled)
+Look-through value Rs 4.3 bn. Largest voting block in: BOPL (78.45%, controlled)
 
 **BOPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/706_1787911047003.pdf) (5 passages naming an ultimate or indirect owner)
 
@@ -974,41 +974,23 @@ Recognised: *parent*: Metrocorp
 
 > line 6627: 42.3.1   Transactions with companies in which Directors of the Company hold other directorships ⏎ The Company has carried out transactions with entities where the Chairman or a Director of the Company is the ⏎ Chairman or a Director of such entities as detailed below: ⏎ 42.3.1.1 Transactions with immediate parent company and ultimate parent company ⏎ Name of parent Company   Name of directors   Nature of transaction   Amount ⏎ 2025/2026   2024/2025 ⏎ Rs.   Rs. ⏎ Ultimate parent ⏎ Metrocorp (Pvt) Ltd (MPL)   Mr. D. J. Ambani   Expenses incurred by MPL   2,191,989   6,971,795 ⏎ Funds received against the ⏎ expenses incurred by the ⏎ Company   4,339,787   5,530,514
 
-## Ceylon Hotels Holdings (Pvt) Ltd 1
+## Ambeon Essentials(Private)Limited
 
-Look-through value Rs 4.0 bn. Largest voting block in: CHOT (33.46%, influence)
+Look-through value Rs 4.1 bn. Largest voting block in: HARI (51.11%, controlled)
 
-**CHOT** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/545_1788227159177.pdf) (2 passages naming an ultimate or indirect owner)
+**HARI** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/482_1788178016759.pdf) (5 passages naming an ultimate or indirect owner)
 
-Recognised: *parent*: Ceylon Hotel Holdings
+> line 232: Harischandra Mills' commitment to its communities continues to run deep. In FY 2025/26, we extended our Corporate Social ⏎ Responsibility activities across the Matara district and beyond, with particular focus on healthcare infrastructure, educational ⏎ support, and community development. These efforts are not peripheral to our business, they are an expression of the values that ⏎ the late Mr. C.A. Harischandra instilled in this institution over eight decades ago. ⏎ Subsequent Event: Change in Controlling Interest ⏎ Shareholders are aware that, subsequent to the close of this financial year, control of Harischandra Mills PLC passed to Ambeon ⏎ Essentials (Private) Limited, a wholly owned sub
 
-> line 3776: The Consolidated financial statements have been prepared ⏎ been no change in the nature of such activities during the ⏎ on an accrual basis and the historical cost basis, except for ⏎ year. ⏎ the following material items in the statement of financial ⏎ 1.4.   Parent entity and ultimate parent entity   position. Where appropriate, the specific policies are ⏎ explained in the succeeding notes. ⏎ The Company’s parent undertaking is Ceylon Hotel Holdings ⏎ (Private) Limited and the ultimate parent Company and ⏎ controlling party is the Galle Face Hotel Company Limited,   Items   Basis of Measurement   Note ⏎ which is incorporated in Sri Lanka. ⏎ Land and Buildings   Measured at cost at   14 ⏎ 1.
+> line 346: Subsequent Event: Transition in Ownership and Leadership ⏎ Subsequent to the financial year-end, as disclosed in the Chairman's Report, a significant milestone took place in the Company's ⏎ journey. On 12 May 2026, Ambeon Essentials (Pvt) Ltd, a wholly owned subsidiary of Ambeon Capital PLC, acquired a 51.11% ⏎ controlling interest in Harischandra Mills PLC. ⏎ - 08 -
 
-> line 6808: Group   Company ⏎ As at 31st March   Relationship   2026   2025   2026   2025 ⏎ Rs.   Rs.   Rs.   Rs. ⏎ GFH Management Co (Pvt) Ltd   Affiliate   24,891,296   25,947,290   -   - ⏎ The Galle Face Hotel Co Ltd   Ultimate Parent   28,987,329   33,957,170   -   - ⏎ Galle Face Group (Pvt) Ltd.   Affiliate   18,133,085   13,879,451   -   - ⏎ United Hotels Co. Ltd   Subsidiary   -   -   -   2,772,652 ⏎ Airline Services (Pvt) Ltd   Subsidiary   -   -   -   18,959 ⏎ Ceylon Hotel Holdings (Pvt) Ltd   Parent Company   -   163,620   -   - ⏎ Galle Face Hotel 1994 (Pvt) Ltd   Affiliate   1,156,660   1,131,371   -   15,811 ⏎ Tissa Resort (Pvt) Ltd   Subsidiary   -   -   -   1,007,793 ⏎ Studio Clay (Pvt) Lt
+> line 3697: The Accounting Standards along with FAQs issued are ⏎ In the year 2014, directors of the Company decided to transfer   available at the website of CA Sri Lanka www.casrilanka.com. ⏎ the distributorship of Harischandra Mills (Distributors) ⏎ Limited to Harischandra Mills PLC. Accordingly, the principal ⏎ commercial operation of Harischandra Mills (Distributors)   2.2 Statement of presentation ⏎ Limited is now been transferred to the parent Company. ⏎ The Consolidated financial statements of the Group and the ⏎ There were no significant changes in the nature of the   separated financial statements of the Company have been ⏎ principal activities of the Group during the financial year   prepared
 
-## HNB INVESTMENT BANK (PVT) LTD
+> line 5284: The Company's related parties include key management personnel, close family members of key management personnel ⏎ and entities which are controlled, jointly controlled or significantly influenced for which significant voting power is held by ⏎ key management personnel or their close family members. ⏎ 27.1 Parent and ultimate controlling party ⏎ In the opinion of Directors the Company dose not have an identifiable parent of its own as at 31 March 2026. ⏎ 27.2 Key management personnel compensation
 
-Look-through value Rs 4.0 bn. Largest voting block in: LVEF (51.46%, controlled), LVEN (79.60%, controlled)
+**HARI** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/482_1793587887777.pdf) (1 passages naming an ultimate or indirect owner)
 
-**LVEF** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1707_1788193681332.pdf) (6 passages naming an ultimate or indirect owner)
-
-Recognised: *ultimate parent*: HNB Investment Bank
-
-> line 1939: with the Listing Rules of the Colombo Stock Exchange and the   At the last Annual General Meeting (AGM), shareholders ⏎ names of the members of the Committee are given in page 25   approved the re-appointment of Messrs. KPMG as the external ⏎ in the Annual Report of the Board of Directors.   auditors for the financial year ended 31st March 2026, marking ⏎ the completion of their 14-year tenure. In accordance with ⏎ The Committee met four times during the financial year (21st   the policy for the rotation of external auditors of the ultimate ⏎ May 2025, 07th August 2025, 10th November 2025 and 09th   parent company, Hatton National Bank PLC, to maintain ⏎ February 2026) and attendance of memb
-
-> line 2739: Group’s interest in its equity accounted investees. The   • Information on the financial performance of the Group ⏎ Financial Statements of all Companies within the Group   for the year under review. ⏎ are prepared for a common financial year which ends 31   • Information on the financial position of the Group as at ⏎ March 2026.   the year end. ⏎ • Showing all changes in shareholders’ equity during the ⏎ Lanka Ventures PLC is the parent company for LVL Energy   year under review. ⏎ • Information to the users on the movement of the cash ⏎ Fund PLC, which has 51.46% controlling interest and the ⏎ and cash equivalents. ⏎ ultimate parent is HNB Investment Bank (Pvt) Ltd. LVL ⏎ • notes to the fi
-
-> line 4949: per annum. ⏎ 28 Related parties ⏎ The Company carries out transactions in the ordinary course of its business with parties who are defined as related parties in Sri ⏎ Lanka Accounting Standard (LKAS) 24 - Related Party Disclosure, the details of which are reported this note. ⏎ Lanka Ventures PLC (LVL) serves as the parent company for LVL Energy Fund PLC, holding a 51.46% controlling interest. The company ⏎ has related party relationship with its parent company, subsidiary, ultimate parent company, associate companies and with its key ⏎ management personnel. ⏎ 28.1 Transactions with key management personnel ⏎ According to Sri Lanka Accounting Standard (LKAS) 24 – Related Party Disclosures, ke
-
-> line 5011: 28.3 Transactions with related entities ⏎ Group   2026   2025 ⏎ Name of the related party   Relationship   Nature of transaction   Amounts   Balance   Amounts   Balance ⏎ Received/   As At   Received/   As At ⏎ (Paid)   31 March   (Paid)   31 March ⏎ Hatton National Bank PLC   Ultimate parent   Term loan - repaid   (30,000)   -   (15,000)   30,165 ⏎ Interest on term loan settlement   (775)   -   (233)   - ⏎ Interest on term loan   610   -   -   - ⏎ Bank charges   -   -   (19)   - ⏎ HNB Investment Bank   Subsidiary of ultimate Short term loans obtained   175,000*   -   -   - ⏎ parent   Short term loan - repaid   (75,000)   100,000   -   -
-
-**LVEN** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/377_1788261295895...%20%281%29.pdf) (3 passages naming an ultimate or indirect owner)
-
-> line 2006: The Committee met four times during the financial year (21st ⏎ May 2025, 07th August 2025, 10th November 2025 and 09th   At the last Annual General Meeting (AGM), shareholders ⏎ February 2026) and attendance of members who participated   approved the re-appointment of Messrs. KPMG as the external ⏎ at meetings is given in page 29 under Corporate Governance.   auditors for the financial year ended 31st March 2026, marking ⏎ The Chief Executive Officer and Finance Manager of Lanka   the completion of their 14th year. In accordance with the policy ⏎ Ventures PLC attended all meetings by invitation.   for the rotation of external auditors of the ultimate parent ⏎ company, Hatton National Bank PL
-
-> line 5214: the Financial statements. ⏎ 30 Related parties ⏎ Parent party ⏎ The Group and the Company carry out transactions in the ordinary course of its business with parties who are defined as ⏎ related parties in Sri Lanka Accounting Standard (LKAS) 24 - Related Party Disclosure, the details of which are reported this note. ⏎ HNB Investment Bank (Private) Limited is the parent company of Lanka Ventures PLC, holding a controlling interest of 79.58%. The ⏎ company has related party relationship with its parent company, subsidiary, ultimate parent company, associate companies and ⏎ with its key management personnel. ⏎ 30.1 Transactions with key management personnel ⏎ According to Sri Lanka Accounting S
-
-> line 5322: TB received   25,000   -   -   - ⏎ TB Interest receivable   -   604   4,558   183 ⏎ TB interest received   421   -   -   - ⏎ Hatton National Bank PLC   Directors fees expense   550   75   1,638   (40) ⏎ Ultimate parent ⏎ Directors fees paid   (435)   -   -   - ⏎ Bank charges   (35)   -   (16)   - ⏎ LVL Energy Fund PLC   Subsidiary   Management fee   42,000   -   42,000   - ⏎ Short term loans*   262,000   262,000   -   - ⏎ Interest on short term loan   12,128   -   -   -
+> line 12: For the six months ended 30 September 2026 ⏎ CORPORATE INFORMATION ⏎ Legal form   Subsidiary company ⏎ A Public Company with Limited Liability   Harischandra Mills (Distributors) Limited ⏎ incorporated in Sri Lanka, whose shares   (wholly owned) incorporated in Sri Lanka ⏎ are Listed in the Colombo Stock Exchange. ⏎ Board of Directors ⏎ Registration No.   Mr. Mudalige D.T.S.H (Chairman) ⏎ PQ 225   Mr. Wickremasinghe L.L.S ⏎ Mr. Jayasundara S. A S.
 
 ## LOTUS RENEWABLE ENERGY (PVT) LTD
 
@@ -1034,23 +1016,29 @@ Recognised: *ultimate parent*: Lotus Renewables; *ultimate parent*: Lotus Renewa
 
 > line 14930: SUPPLEMENTARY INFORMATION AND ANNEXURES   ANNUAL REPORT 2025/26   HATTON PLANTATIONS PLC   289 ⏎ ENTERPRISE MULTIPLE – EM   NON CONTROLLING INTEREST   ACTUARIAL GAINS AND LOSSES ⏎ Enterprise Value (EV) divided   Part of the net results of operations   Is the effects of difference between ⏎ by Earnings before Interest Tax   and net assets of a subsidiary   the previous actuarial assumptions ⏎ Depreciation and Amortisation   attributable to interests which are not   and what has actually occurred and ⏎ (EBITDA)   owned, directly or indirectly, through   the effects of changes in actuarial ⏎ Subsidiaries, by the Parent Company.   assumptions. ⏎ MARKET VALUE ADDED – MVA ⏎ Shareholder funds divid
 
-## Ambeon Essentials(Private)Limited
+## HNB INVESTMENT BANK (PVT) LTD
 
-Look-through value Rs 4.0 bn. Largest voting block in: HARI (51.11%, controlled)
+Look-through value Rs 3.9 bn. Largest voting block in: LVEF (51.46%, controlled), LVEN (79.60%, controlled)
 
-**HARI** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/482_1788178016759.pdf) (5 passages naming an ultimate or indirect owner)
+**LVEF** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1707_1788193681332.pdf) (6 passages naming an ultimate or indirect owner)
 
-> line 232: Harischandra Mills' commitment to its communities continues to run deep. In FY 2025/26, we extended our Corporate Social ⏎ Responsibility activities across the Matara district and beyond, with particular focus on healthcare infrastructure, educational ⏎ support, and community development. These efforts are not peripheral to our business, they are an expression of the values that ⏎ the late Mr. C.A. Harischandra instilled in this institution over eight decades ago. ⏎ Subsequent Event: Change in Controlling Interest ⏎ Shareholders are aware that, subsequent to the close of this financial year, control of Harischandra Mills PLC passed to Ambeon ⏎ Essentials (Private) Limited, a wholly owned sub
+Recognised: *ultimate parent*: HNB Investment Bank
 
-> line 346: Subsequent Event: Transition in Ownership and Leadership ⏎ Subsequent to the financial year-end, as disclosed in the Chairman's Report, a significant milestone took place in the Company's ⏎ journey. On 12 May 2026, Ambeon Essentials (Pvt) Ltd, a wholly owned subsidiary of Ambeon Capital PLC, acquired a 51.11% ⏎ controlling interest in Harischandra Mills PLC. ⏎ - 08 -
+> line 1939: with the Listing Rules of the Colombo Stock Exchange and the   At the last Annual General Meeting (AGM), shareholders ⏎ names of the members of the Committee are given in page 25   approved the re-appointment of Messrs. KPMG as the external ⏎ in the Annual Report of the Board of Directors.   auditors for the financial year ended 31st March 2026, marking ⏎ the completion of their 14-year tenure. In accordance with ⏎ The Committee met four times during the financial year (21st   the policy for the rotation of external auditors of the ultimate ⏎ May 2025, 07th August 2025, 10th November 2025 and 09th   parent company, Hatton National Bank PLC, to maintain ⏎ February 2026) and attendance of memb
 
-> line 3697: The Accounting Standards along with FAQs issued are ⏎ In the year 2014, directors of the Company decided to transfer   available at the website of CA Sri Lanka www.casrilanka.com. ⏎ the distributorship of Harischandra Mills (Distributors) ⏎ Limited to Harischandra Mills PLC. Accordingly, the principal ⏎ commercial operation of Harischandra Mills (Distributors)   2.2 Statement of presentation ⏎ Limited is now been transferred to the parent Company. ⏎ The Consolidated financial statements of the Group and the ⏎ There were no significant changes in the nature of the   separated financial statements of the Company have been ⏎ principal activities of the Group during the financial year   prepared
+> line 2739: Group’s interest in its equity accounted investees. The   • Information on the financial performance of the Group ⏎ Financial Statements of all Companies within the Group   for the year under review. ⏎ are prepared for a common financial year which ends 31   • Information on the financial position of the Group as at ⏎ March 2026.   the year end. ⏎ • Showing all changes in shareholders’ equity during the ⏎ Lanka Ventures PLC is the parent company for LVL Energy   year under review. ⏎ • Information to the users on the movement of the cash ⏎ Fund PLC, which has 51.46% controlling interest and the ⏎ and cash equivalents. ⏎ ultimate parent is HNB Investment Bank (Pvt) Ltd. LVL ⏎ • notes to the fi
 
-> line 5284: The Company's related parties include key management personnel, close family members of key management personnel ⏎ and entities which are controlled, jointly controlled or significantly influenced for which significant voting power is held by ⏎ key management personnel or their close family members. ⏎ 27.1 Parent and ultimate controlling party ⏎ In the opinion of Directors the Company dose not have an identifiable parent of its own as at 31 March 2026. ⏎ 27.2 Key management personnel compensation
+> line 4949: per annum. ⏎ 28 Related parties ⏎ The Company carries out transactions in the ordinary course of its business with parties who are defined as related parties in Sri ⏎ Lanka Accounting Standard (LKAS) 24 - Related Party Disclosure, the details of which are reported this note. ⏎ Lanka Ventures PLC (LVL) serves as the parent company for LVL Energy Fund PLC, holding a 51.46% controlling interest. The company ⏎ has related party relationship with its parent company, subsidiary, ultimate parent company, associate companies and with its key ⏎ management personnel. ⏎ 28.1 Transactions with key management personnel ⏎ According to Sri Lanka Accounting Standard (LKAS) 24 – Related Party Disclosures, ke
 
-**HARI** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/482_1793587887777.pdf) (1 passages naming an ultimate or indirect owner)
+> line 5011: 28.3 Transactions with related entities ⏎ Group   2026   2025 ⏎ Name of the related party   Relationship   Nature of transaction   Amounts   Balance   Amounts   Balance ⏎ Received/   As At   Received/   As At ⏎ (Paid)   31 March   (Paid)   31 March ⏎ Hatton National Bank PLC   Ultimate parent   Term loan - repaid   (30,000)   -   (15,000)   30,165 ⏎ Interest on term loan settlement   (775)   -   (233)   - ⏎ Interest on term loan   610   -   -   - ⏎ Bank charges   -   -   (19)   - ⏎ HNB Investment Bank   Subsidiary of ultimate Short term loans obtained   175,000*   -   -   - ⏎ parent   Short term loan - repaid   (75,000)   100,000   -   -
 
-> line 12: For the six months ended 30 September 2026 ⏎ CORPORATE INFORMATION ⏎ Legal form   Subsidiary company ⏎ A Public Company with Limited Liability   Harischandra Mills (Distributors) Limited ⏎ incorporated in Sri Lanka, whose shares   (wholly owned) incorporated in Sri Lanka ⏎ are Listed in the Colombo Stock Exchange. ⏎ Board of Directors ⏎ Registration No.   Mr. Mudalige D.T.S.H (Chairman) ⏎ PQ 225   Mr. Wickremasinghe L.L.S ⏎ Mr. Jayasundara S. A S.
+**LVEN** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/377_1788261295895...%20%281%29.pdf) (3 passages naming an ultimate or indirect owner)
+
+> line 2006: The Committee met four times during the financial year (21st ⏎ May 2025, 07th August 2025, 10th November 2025 and 09th   At the last Annual General Meeting (AGM), shareholders ⏎ February 2026) and attendance of members who participated   approved the re-appointment of Messrs. KPMG as the external ⏎ at meetings is given in page 29 under Corporate Governance.   auditors for the financial year ended 31st March 2026, marking ⏎ The Chief Executive Officer and Finance Manager of Lanka   the completion of their 14th year. In accordance with the policy ⏎ Ventures PLC attended all meetings by invitation.   for the rotation of external auditors of the ultimate parent ⏎ company, Hatton National Bank PL
+
+> line 5214: the Financial statements. ⏎ 30 Related parties ⏎ Parent party ⏎ The Group and the Company carry out transactions in the ordinary course of its business with parties who are defined as ⏎ related parties in Sri Lanka Accounting Standard (LKAS) 24 - Related Party Disclosure, the details of which are reported this note. ⏎ HNB Investment Bank (Private) Limited is the parent company of Lanka Ventures PLC, holding a controlling interest of 79.58%. The ⏎ company has related party relationship with its parent company, subsidiary, ultimate parent company, associate companies and ⏎ with its key management personnel. ⏎ 30.1 Transactions with key management personnel ⏎ According to Sri Lanka Accounting S
+
+> line 5322: TB received   25,000   -   -   - ⏎ TB Interest receivable   -   604   4,558   183 ⏎ TB interest received   421   -   -   - ⏎ Hatton National Bank PLC   Directors fees expense   550   75   1,638   (40) ⏎ Ultimate parent ⏎ Directors fees paid   (435)   -   -   - ⏎ Bank charges   (35)   -   (16)   - ⏎ LVL Energy Fund PLC   Subsidiary   Management fee   42,000   -   42,000   - ⏎ Short term loans*   262,000   262,000   -   - ⏎ Interest on short term loan   12,128   -   -   -
 
 ## DPL PLANTATIONS (PRIVATE) LIMITED
 
@@ -1070,7 +1058,7 @@ Recognised: *ultimate parent*: Hayleys PLC; *ultimate parent*: Hayleys PLC
 
 ## GEORGE STEUART & CO LTD
 
-Look-through value Rs 3.8 bn. Largest voting block in: CITH (63.79%, controlled), CITW (51.05%, controlled), HVA (54.40%, controlled), REEF (51.66%, controlled)
+Look-through value Rs 3.7 bn. Largest voting block in: CITH (63.79%, controlled), CITW (51.05%, controlled), HVA (54.40%, controlled), REEF (51.66%, controlled)
 
 **CITH** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1222_1788192287662.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -1096,9 +1084,21 @@ Recognised: *parent*: Hikkaduwa Beach Resort PLC
 
 > line 7323: Group   Company ⏎ 2026   2025   2026   2025 ⏎ Rs.   Rs.   Rs.   Rs. ⏎ Advances   112,450,551   18,247,119   -   - ⏎ Prepayments   12,698,810   18,288,577   2,161,381   1,639,965 ⏎ Refundable deposit - Ultimate parent company   10,000,000   10,000,000   -   - ⏎ Deposits   9,768,970   7,506,614   2,951,500   2,417,500 ⏎ 144,918,331   54,042,310   5,112,881   4,057,465 ⏎ 23   OTHER CURRENT FINANCIAL ASSETS ⏎ Group   Company
 
+## Ceylon Hotels Holdings (Pvt) Ltd 1
+
+Look-through value Rs 3.6 bn. Largest voting block in: CHOT (33.46%, influence)
+
+**CHOT** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/545_1788227159177.pdf) (2 passages naming an ultimate or indirect owner)
+
+Recognised: *parent*: Ceylon Hotel Holdings
+
+> line 3776: The Consolidated financial statements have been prepared ⏎ been no change in the nature of such activities during the ⏎ on an accrual basis and the historical cost basis, except for ⏎ year. ⏎ the following material items in the statement of financial ⏎ 1.4.   Parent entity and ultimate parent entity   position. Where appropriate, the specific policies are ⏎ explained in the succeeding notes. ⏎ The Company’s parent undertaking is Ceylon Hotel Holdings ⏎ (Private) Limited and the ultimate parent Company and ⏎ controlling party is the Galle Face Hotel Company Limited,   Items   Basis of Measurement   Note ⏎ which is incorporated in Sri Lanka. ⏎ Land and Buildings   Measured at cost at   14 ⏎ 1.
+
+> line 6808: Group   Company ⏎ As at 31st March   Relationship   2026   2025   2026   2025 ⏎ Rs.   Rs.   Rs.   Rs. ⏎ GFH Management Co (Pvt) Ltd   Affiliate   24,891,296   25,947,290   -   - ⏎ The Galle Face Hotel Co Ltd   Ultimate Parent   28,987,329   33,957,170   -   - ⏎ Galle Face Group (Pvt) Ltd.   Affiliate   18,133,085   13,879,451   -   - ⏎ United Hotels Co. Ltd   Subsidiary   -   -   -   2,772,652 ⏎ Airline Services (Pvt) Ltd   Subsidiary   -   -   -   18,959 ⏎ Ceylon Hotel Holdings (Pvt) Ltd   Parent Company   -   163,620   -   - ⏎ Galle Face Hotel 1994 (Pvt) Ltd   Affiliate   1,156,660   1,131,371   -   15,811 ⏎ Tissa Resort (Pvt) Ltd   Subsidiary   -   -   -   1,007,793 ⏎ Studio Clay (Pvt) Lt
+
 ## ABERDEEN HOLDINGS (PRIVATE) LIMITED
 
-Look-through value Rs 3.6 bn. Largest voting block in: PACK (65.02%, controlled)
+Look-through value Rs 3.5 bn. Largest voting block in: PACK (65.02%, controlled)
 
 **PACK** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2511_1780652899852.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -1108,7 +1108,7 @@ Recognised: *parent*: Aberdeen Holdings liability company
 
 ## SILVERSTOCK LIMITED
 
-Look-through value Rs 3.3 bn. Largest voting block in: TYRE (49.74%, influence)
+Look-through value Rs 3.4 bn. Largest voting block in: TYRE (49.74%, influence)
 
 **TYRE** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/673_1787649972185.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -1118,7 +1118,7 @@ Recognised: *parent*: considered to be Silverstock Limited
 
 ## Sterling Capital Investments (Private) Limited
 
-Look-through value Rs 3.0 bn. Largest voting block in: PMB (81.58%, controlled)
+Look-through value Rs 2.9 bn. Largest voting block in: PMB (81.58%, controlled)
 
 **PMB** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/405_1788200139208.pdf) (3 passages naming an ultimate or indirect owner)
 
@@ -1130,21 +1130,9 @@ Recognised: *ultimate parent*: Rush Japan Corporation as at 31 March 2026; *ulti
 
 > line 17778: FINANCIAL STATEMENTS ⏎ 35.   RELATED PARTY DISCLOSURES ⏎ 35.1   Parent and ultimate controlling party ⏎ The Company’s immediate parent and ultimate controlling party is Sterling Capital Investments (Private) Limited (SCIL) and the ⏎ ultimate parent company is Rush Japan Corporation as at 31 March 2026, SCIL have a holding of 81.58%. ⏎ 35.2   Transactions with key management personnel and their close family members ⏎ As per the Sri Lanka Accounting Standard (LKAS -24 ) -“Related Party Disclosures”, the key management personnel (KMP) ⏎ and their family members include those who are having authority and responsibility for planning, directing and controlling the ⏎ activities of the Group. Accord
 
-## BANSEI SECURITIES COMPANY LIMITED
-
-Look-through value Rs 2.8 bn. Largest voting block in: BRR (39.00%, influence)
-
-**BRR** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1322_1784518977107.pdf) (2 passages naming an ultimate or indirect owner)
-
-Recognised: *ultimate parent*: Bansei Holdings Co Limited
-
-> line 2265: 1.2 Principal Activities and Nature of Operations ⏎ During the year, the principal activities of the Company were providing food, beverage, lodging and other hospitality ⏎ industry related services. ⏎ 1.3 Parent Entity and Ultimate Parent Entity ⏎ In the opinion of the Directors, the Company’s immediate parent undertaking is Bansei Securities Co Limited, and ⏎ the ultimate parent undertaking is Bansei Holdings Co Limited, both the companies are incorporated in Japan. ⏎ 1.4 Approval of Financial Statements ⏎ The Financial Statements of Bansei Royal Resorts Hikkaduwa PLC for the year ended 31 March 2026 were ⏎ authorized for issue in accordance with a resolution of the Board of Directors on 17
-
-> line 3716: Transaction   the Related ⏎ entered into   Party ⏎ during the   Transaction ⏎ financial year   as a % of ⏎ Revenue ⏎ Bansei Holdings Co Ltd   Ultimate Parent   Dividend   1,370,064   1.01% ⏎ Bansei Securities Company Limited   Parent   Dividend   5,343,188   3.93% ⏎ Hikkaduwa Hotel Holdings Private   Fellow Subsidiary   Dividend   4,247,260   3.12% ⏎ Limited ⏎ Bansei Holdings LK (Pvt) Ltd   Fellow Subsidiary   Accommodation/   130,491   0.10% ⏎ Reimbursement of
-
 ## R.P.C Management Services (Pvt) Ltd
 
-Look-through value Rs 2.8 bn. Largest voting block in: MASK (83.40%, controlled)
+Look-through value Rs 2.9 bn. Largest voting block in: MASK (83.40%, controlled)
 
 **MASK** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/723_1788174356440.pdf) (8 passages naming an ultimate or indirect owner)
 
@@ -1161,6 +1149,34 @@ Recognised: *parent*: RPC Management Services
 **MASK** — [Interim Financial Statements for the Quarter ended 30th September 2026](https://cdn.cse.lk/cmt/upload_report_file/723_1794475408848.pdf) (1 passages naming an ultimate or indirect owner)
 
 > line 466: Exchange of Sri Lanka. ⏎ Registered / Head Office   310, High Level Road, Nawinna, Maharagama ⏎ Sri Lanka ⏎ Ultimate Parent Enterprise   Richard Pieris & Company PLC ⏎ Board of Directors   Dr. Sena Yaddehige   - Chairman ⏎ Shaminda Yaddehige ⏎ Dr.D S A Samaraweera ⏎ L L S Wickremasinghe
+
+## BANSEI SECURITIES COMPANY LIMITED
+
+Look-through value Rs 2.8 bn. Largest voting block in: BRR (39.00%, influence)
+
+**BRR** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1322_1784518977107.pdf) (2 passages naming an ultimate or indirect owner)
+
+Recognised: *ultimate parent*: Bansei Holdings Co Limited
+
+> line 2265: 1.2 Principal Activities and Nature of Operations ⏎ During the year, the principal activities of the Company were providing food, beverage, lodging and other hospitality ⏎ industry related services. ⏎ 1.3 Parent Entity and Ultimate Parent Entity ⏎ In the opinion of the Directors, the Company’s immediate parent undertaking is Bansei Securities Co Limited, and ⏎ the ultimate parent undertaking is Bansei Holdings Co Limited, both the companies are incorporated in Japan. ⏎ 1.4 Approval of Financial Statements ⏎ The Financial Statements of Bansei Royal Resorts Hikkaduwa PLC for the year ended 31 March 2026 were ⏎ authorized for issue in accordance with a resolution of the Board of Directors on 17
+
+> line 3716: Transaction   the Related ⏎ entered into   Party ⏎ during the   Transaction ⏎ financial year   as a % of ⏎ Revenue ⏎ Bansei Holdings Co Ltd   Ultimate Parent   Dividend   1,370,064   1.01% ⏎ Bansei Securities Company Limited   Parent   Dividend   5,343,188   3.93% ⏎ Hikkaduwa Hotel Holdings Private   Fellow Subsidiary   Dividend   4,247,260   3.12% ⏎ Limited ⏎ Bansei Holdings LK (Pvt) Ltd   Fellow Subsidiary   Accommodation/   130,491   0.10% ⏎ Reimbursement of
+
+## INFINITY CAPITAL (PVT) LTD
+
+Look-through value Rs 2.7 bn. Largest voting block in: BPPL (50.31%, controlled)
+
+**BPPL** — [Errata to the Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1524_1788432080201.pdf) (4 passages naming an ultimate or indirect owner)
+
+Recognised: *parent*: making this assessment
+
+> line 3383: policies and procedures such as the an-   section of the Annual Report.   resolution to re-appoint the auditors, M/s. ⏎ ti-bribery policy, disciplinary code, whistle   Ernst & Young, Chartered Accountants, ⏎ blowing policy, anti-money laundering   EVENTS AFTER THE REPORTING   who have expressed their willingness to ⏎ policy, etc. Regular training is conducted   PERIOD   continue, will be proposed at the Annual ⏎ for employees to raise awareness, reiterate   Subsequent to the reporting date, Beira   General Meeting of the Company. ⏎ Brush (Pvt) Ltd, a wholly owned subsidiary ⏎ of BPPL Holdings PLC, entered into a Busi- ⏎ ness Transfer Agreement with Ravi Indus-
+
+> line 4008: the Group were manufacturing and export-   the Group’s ability to continue as a going   Judgements, Estimates and ⏎ ing of wooden handles, brooms, brushes,   concern and are satisfied that it has the   Assumptions ⏎ mops, synthetic filament and polyester   resources to continue in business for the ⏎ yarn.   foreseeable future. The management has   Judgments ⏎ considered the potential downsides that   In the process of applying the Group’s ac- ⏎ 1.3 Parent Enterprise and Ultimate   the economic recession could bring to   counting policies, management has made ⏎ Parent Enterprise   the business operations of the Group, in   the following judgments, apart from those ⏎ The Company’s parent under
+
+> line 6111: 122 BPPL HOLDINGS PLC ⏎ ANNUAL REPORT 2025/26 ⏎ 28.   EVENTS OCCURRING AFTER THE REPORTING DATE ⏎ Subsequent to the reporting date, Beira Brush (Pvt) Ltd, a wholly owned subsidiary of BPPL Holdings PLC, entered into a ⏎ Business Transfer Agreement with Ravi Industries Limited to acquire its customer base together with the rights to use the ‘Ravi’ ⏎ trademark and related intellectual property. The minimum consideration under the agreement amounts to Rs. 300 million, pay- ⏎ able over a period of five years. This transaction was approved by the Board of Directors on 10 July 2026. The financial effects of ⏎ the transaction will be reflected in the financial statements for the period in which the
+
+> line 6183: 29.3   Transactions with Directors/ Key Management Personnel ⏎ According to LKAS 24, KMPs are those having authority and responsibility for planning, directing and controlling the activities ⏎ of the entity. Accordingly KMP includes member of Board of Directors and identified senior management personnel of the ⏎ company and its ultimate parent company BPPL Holdings PLC. Close family members of a KMP are those family members ⏎ who may be expected to influence or be influenced by, that KMP in their dealing with the company. ⏎ 2026   2025 ⏎ Group   (Rs.’000)   (Rs.’000)
 
 ## COLOMBO FORT HOTELS LIMITED
 
@@ -1186,43 +1202,15 @@ Look-through value Rs 2.7 bn. Largest voting block in: BERU (66.75%, controlled)
 
 > line 4129: (iii) Other Transactions maintained with Key Management Personnel ⏎ There were no other transactions with Key Management Personnel other than those mentioned in the related party transactions. ⏎ (34.4) All related party transactions are made on terms equivalent to those that prevail in an arms length transaction. The ⏎ company’s parent undertaking is Lankem Ceylon PLC while the ultimate parent undertaking and controlling party is the Colombo ⏎ Fort Land & Building PLC which are incorporated in Sri Lanka. ⏎ 68   Sigiriya Village Hotels PLC | Annual Report 2025 / 2026 ⏎ (34.5) TRANSACTIONS MAINTAINED WITH RELATED COMPANIES
 
-## INFINITY CAPITAL (PVT) LTD
-
-Look-through value Rs 2.6 bn. Largest voting block in: BPPL (50.31%, controlled)
-
-**BPPL** — [Errata to the Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/1524_1788432080201.pdf) (4 passages naming an ultimate or indirect owner)
-
-Recognised: *parent*: making this assessment
-
-> line 3383: policies and procedures such as the an-   section of the Annual Report.   resolution to re-appoint the auditors, M/s. ⏎ ti-bribery policy, disciplinary code, whistle   Ernst & Young, Chartered Accountants, ⏎ blowing policy, anti-money laundering   EVENTS AFTER THE REPORTING   who have expressed their willingness to ⏎ policy, etc. Regular training is conducted   PERIOD   continue, will be proposed at the Annual ⏎ for employees to raise awareness, reiterate   Subsequent to the reporting date, Beira   General Meeting of the Company. ⏎ Brush (Pvt) Ltd, a wholly owned subsidiary ⏎ of BPPL Holdings PLC, entered into a Busi- ⏎ ness Transfer Agreement with Ravi Indus-
-
-> line 4008: the Group were manufacturing and export-   the Group’s ability to continue as a going   Judgements, Estimates and ⏎ ing of wooden handles, brooms, brushes,   concern and are satisfied that it has the   Assumptions ⏎ mops, synthetic filament and polyester   resources to continue in business for the ⏎ yarn.   foreseeable future. The management has   Judgments ⏎ considered the potential downsides that   In the process of applying the Group’s ac- ⏎ 1.3 Parent Enterprise and Ultimate   the economic recession could bring to   counting policies, management has made ⏎ Parent Enterprise   the business operations of the Group, in   the following judgments, apart from those ⏎ The Company’s parent under
-
-> line 6111: 122 BPPL HOLDINGS PLC ⏎ ANNUAL REPORT 2025/26 ⏎ 28.   EVENTS OCCURRING AFTER THE REPORTING DATE ⏎ Subsequent to the reporting date, Beira Brush (Pvt) Ltd, a wholly owned subsidiary of BPPL Holdings PLC, entered into a ⏎ Business Transfer Agreement with Ravi Industries Limited to acquire its customer base together with the rights to use the ‘Ravi’ ⏎ trademark and related intellectual property. The minimum consideration under the agreement amounts to Rs. 300 million, pay- ⏎ able over a period of five years. This transaction was approved by the Board of Directors on 10 July 2026. The financial effects of ⏎ the transaction will be reflected in the financial statements for the period in which the
-
-> line 6183: 29.3   Transactions with Directors/ Key Management Personnel ⏎ According to LKAS 24, KMPs are those having authority and responsibility for planning, directing and controlling the activities ⏎ of the entity. Accordingly KMP includes member of Board of Directors and identified senior management personnel of the ⏎ company and its ultimate parent company BPPL Holdings PLC. Close family members of a KMP are those family members ⏎ who may be expected to influence or be influenced by, that KMP in their dealing with the company. ⏎ 2026   2025 ⏎ Group   (Rs.’000)   (Rs.’000)
-
 ## ABANS PLC
 
 Look-through value Rs 2.5 bn. Largest voting block in: ABAN (48.84%, influence)
 
 _No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
 
-## Lanka Credit and Business Limited
-
-Look-through value Rs 2.4 bn. Largest voting block in: LCBF (54.99%, controlled)
-
-**LCBF** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2512_1783934020990.pdf) (3 passages naming an ultimate or indirect owner)
-
-> line 4222: when the need arises. ⏎ a) Directors and senior management. ⏎ b) Shareholders who directly or indirectly holds more ⏎ than 10% of the voting rights of the FC. ⏎ c) Subsidiaries, associates, affiliates, holding ⏎ Company, ultimate parent Company and any ⏎ party (including their subsidiaries, associates and ⏎ affiliates) that the FC exert control over or vice ⏎ versa ⏎ d) Directors and senior management of legal persons ⏎ in paragraph (b) or (c).
-
-> line 7981: facilities such as finance lease, hire   basis, and applied consistently, with no   offset the recognized amounts and there ⏎ purchase, vehicle loan facilities, mortgage   adjustments being made for inflationary   is an intention to settle on a net basis, or ⏎ loans, gold loans, revolving loans business/   factors affecting the Financial Statements,   to realize the assets and settle the liability ⏎ personal loans and other credit facilities.   except for the following.   simultaneously. Income and expenses are ⏎ not offset in the income statement unless ⏎ 1.3 Parent Enterprise and Ultimate    Financial Assets at fair value through   required or permitted by an Accounting ⏎ Parent Enterpris
-
-> line 11766: 44.1 Capital Commitments   of which are reported below. The pricing applicable to such transactions is based on the ⏎ The Company has no commitments for   assessment of risk and pricing model of the Company and is comparable with what is ⏎ acquisition of Property, Plant & Equipment   applied to transactions between the Company and its unrelated customers. ⏎ and Intangible assets incidental to the ⏎ ordinary course of business.   46.1 Parent and Ultimate Controlling Party ⏎ The Company is 54.99% owned by Lanka Credit and Business Limited. Hence, Lanka ⏎ 44.2 Litigation Filed by the Company/   Credit and Business Limited is the parent company and the ultimate controlling party. ⏎ Against the C
-
 ## RAIGAM MARKETING SERVICES (PVT) LTD
 
-Look-through value Rs 2.2 bn. Largest voting block in: RWSL (35.83%, influence)
+Look-through value Rs 2.3 bn. Largest voting block in: RWSL (35.83%, influence)
 
 **RWSL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/948_1788265820249.pdf) (2 passages naming an ultimate or indirect owner)
 
@@ -1232,15 +1220,21 @@ Recognised: *ultimate parent*: Raigam Marketing Services
 
 > line 5556: The Financial Statements for the year ended 31 March 2026, comprise “the Company” referring to Raigam ⏎ Wayamba Salterns PLC as the Holding Company and “the Group” referring to the companies whose accounts ⏎ have been consolidated therein. ⏎ 1.3   Parent Entity and Ultimate Parent Entity ⏎ The Company’s parent and ultimate parent entity is Raigam Marketing Services (Private) Limited which is ⏎ incorporated in Sri Lanka. ⏎ 1.4   Date of Authorization for Issue
 
+## Lanka Credit and Business Limited
+
+Look-through value Rs 2.3 bn. Largest voting block in: LCBF (54.99%, controlled)
+
+**LCBF** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2512_1783934020990.pdf) (3 passages naming an ultimate or indirect owner)
+
+> line 4222: when the need arises. ⏎ a) Directors and senior management. ⏎ b) Shareholders who directly or indirectly holds more ⏎ than 10% of the voting rights of the FC. ⏎ c) Subsidiaries, associates, affiliates, holding ⏎ Company, ultimate parent Company and any ⏎ party (including their subsidiaries, associates and ⏎ affiliates) that the FC exert control over or vice ⏎ versa ⏎ d) Directors and senior management of legal persons ⏎ in paragraph (b) or (c).
+
+> line 7981: facilities such as finance lease, hire   basis, and applied consistently, with no   offset the recognized amounts and there ⏎ purchase, vehicle loan facilities, mortgage   adjustments being made for inflationary   is an intention to settle on a net basis, or ⏎ loans, gold loans, revolving loans business/   factors affecting the Financial Statements,   to realize the assets and settle the liability ⏎ personal loans and other credit facilities.   except for the following.   simultaneously. Income and expenses are ⏎ not offset in the income statement unless ⏎ 1.3 Parent Enterprise and Ultimate    Financial Assets at fair value through   required or permitted by an Accounting ⏎ Parent Enterpris
+
+> line 11766: 44.1 Capital Commitments   of which are reported below. The pricing applicable to such transactions is based on the ⏎ The Company has no commitments for   assessment of risk and pricing model of the Company and is comparable with what is ⏎ acquisition of Property, Plant & Equipment   applied to transactions between the Company and its unrelated customers. ⏎ and Intangible assets incidental to the ⏎ ordinary course of business.   46.1 Parent and Ultimate Controlling Party ⏎ The Company is 54.99% owned by Lanka Credit and Business Limited. Hence, Lanka ⏎ 44.2 Litigation Filed by the Company/   Credit and Business Limited is the parent company and the ultimate controlling party. ⏎ Against the C
+
 ## Sarvodaya Economic Enterprises Development Services (GTE) Ltd
 
 Look-through value Rs 2.0 bn. Largest voting block in: SDF (36.10%, influence)
-
-_No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
-
-## Lanka Commodity Brokers Limited
-
-Look-through value Rs 1.7 bn. Largest voting block in: ASIY (51.03%, controlled)
 
 _No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
 
@@ -1257,6 +1251,12 @@ Look-through value Rs 1.7 bn. Largest voting block in: ECL (87.59%, controlled)
 > line 7180: Software maintenance   -   14,111,540 ⏎ SMS gateway charges   3,539,579   - ⏎ Management fee   4,450,000   - ⏎ Sale of services ⏎ Call charges income   2,337,752   3,602,573 ⏎ Sri Lanka Telecom PLC   Ultimate parent   Purchase of services ⏎ IDC payments   9,382,535   8,040,929 ⏎ Telephone charges   105,444   129,080 ⏎ There were no any non-recurrent Related Party Transactions entered during the year, other than the transactions specified ⏎ above as per the CSE Listing Rule 9.3.2. ⏎ 25.5   Transactions with Government of Sri Lanka (GOSL) and its related entities ⏎ Entity related to the Government of Sri Lanka (GOSL) by virtue of its ultimate parents major shareholder is the Government of Sri 
 
 > line 7259: Name of the Company Relationship   Name of the Director ⏎ Dr. T H V M A   Mr. L M   Mr. Chandrasiri   Mr. Chan   Mr. Suneth ⏎ de Silva   Paratz   Kalupahana   Chee Beng   Haputhanthri ⏎ Mobitel (Pvt) Ltd   Immediate Parent   X   X   -   X   X ⏎ Sri Lanka Telecom PLC   Ultimate Parent   X   X   X   X   - ⏎ Sri Lanka Telecom   Related   X   X   -   -   - ⏎ (Services) Ltd ⏎ Mobit Technologies   Related   X   X   -   -   - ⏎ (Pvt) Ltd ⏎ SLT Human Capital   Related   X   -   -   -   -
+
+## Lanka Commodity Brokers Limited
+
+Look-through value Rs 1.6 bn. Largest voting block in: ASIY (51.03%, controlled)
+
+_No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
 
 ## EQUITY ONE LIMITED
 
@@ -1288,7 +1288,7 @@ _No passage naming an ultimate or indirect owner. The registry (Companies (Amend
 
 ## Ceyline Investments (Pvt) Ltd
 
-Look-through value Rs 1.5 bn. Largest voting block in: DPL (64.89%, controlled)
+Look-through value Rs 1.4 bn. Largest voting block in: DPL (64.89%, controlled)
 
 **DPL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/669_1788172340964.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -1374,7 +1374,7 @@ _No passage naming an ultimate or indirect owner. The registry (Companies (Amend
 
 ## CHRISSLOGIX (PRIVATE) LIMITED
 
-Look-through value Rs 0.4 bn. Largest voting block in: CWL (67.00%, controlled)
+Look-through value Rs 0.3 bn. Largest voting block in: CWL (67.00%, controlled)
 
 **CWL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/2236_1788169871665.pdf) (1 passages naming an ultimate or indirect owner)
 
@@ -1402,6 +1402,12 @@ Look-through value Rs 0.3 bn. Largest voting block in: MHDL (28.28%, influence)
 
 > line 3836: has the ability to control or exercise ⏎ significant influence over the financial   Subsidiaries   Loss of control ⏎ and operating policies/decisions of the   Subsidiaries are investees that are   If the Group loses control over a ⏎ other, irrespective of whether a price is   controlled by the Company. The   subsidiary, it derecognizes the related ⏎ being charged.   Company “Controls” an investee if it is   assets (including goodwill), liabilities, ⏎ exposed to, or has rights to, variable   non-controlling interest and other ⏎ 3.12 Cash flow statement   returns from its involvement with the   components of equity while any ⏎ The cash flow statement is prepared   investee and has the ability 
 
+## Gulf East Finance Ltd
+
+Look-through value Rs 0.2 bn. Largest voting block in: SING (31.76%, influence)
+
+_No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
+
 ## REEDEREI EUGEN FRIEDERICH GMBH SCHIFFAHRTSGESELLSCHAFT
 
 Look-through value Rs 0.2 bn. Largest voting block in: MSL (28.56%, influence)
@@ -1409,12 +1415,6 @@ Look-through value Rs 0.2 bn. Largest voting block in: MSL (28.56%, influence)
 **MSL** — [Annual Report as at 31st March 2026](https://cdn.cse.lk/cmt/upload_report_file/742_1788169148343.pdf) (1 passages naming an ultimate or indirect owner)
 
 > line 1692: Dormant Company   Sri Lanka   100 %   100 % ⏎ Shipping Limited ⏎ Ultimate Parent Entity   2.3 Functional and presentation currency ⏎ Mercantile Shipping Company PLC does not have a parent   The Financial Statements are presented in Sri Lankan Rupees ⏎ of its own. Mercantile Shipping Company PLC is the ultimate   which is the Company’s functional and presentation currency, ⏎ parent of the Group.   except when otherwise indicated. For each entity the Group ⏎ determines the functional currency and items included in the
-
-## Gulf East Finance Ltd
-
-Look-through value Rs 0.1 bn. Largest voting block in: SING (31.76%, influence)
-
-_No passage naming an ultimate or indirect owner. The registry (Companies (Amendment) Act No. 12 of 2025, beneficial-ownership register) is the remaining source._
 
 ## The Finance Company PLC
 
